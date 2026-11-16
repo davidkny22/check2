@@ -1,0 +1,253 @@
+{
+ "commit": "c873d159234ef89baadd6e9c49f1757251d7cde4",
+ "commit_source": "git",
+ "config": {
+  "crosswriter": "results/original-crosswriter",
+  "original": "results/original",
+  "reason_only_p": "data/reader/p_reason_only_test.jsonl",
+  "removed": "data/reviews/removed_pairs.json",
+  "reviews": "data/reviews/review_test_*.json"
+ },
+ "config_sha256": "ed5d0ce8da321235376779f91b5519e751deb03874c4642344ecbc1c20fe9c99",
+ "finished": "2026-11-16T05:40:05+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "measurement",
+ "name": "saved_output_analyses",
+ "runs": {
+  "original": {
+   "commit": "d7b149989aaa6457a2e7e1386fcd0b2c32e3bf37",
+   "episodes_written": 4214,
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "5ceccc50c345bb347b3d40f49eeb0543db500a8e4c2afb79afb2544202b36528",
+   "split": "test"
+  },
+  "original-crosswriter": {
+   "commit": "5ac94c6f691621b43ad5cb471efa3bfd6fe420ea",
+   "episodes_written": 600,
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "566422ea1641af0c941550598a2a218ff4bd8984cfc90d41f42a7e7cd6506cc0",
+   "split": "test"
+  }
+ },
+ "session": null,
+ "started": "2026-11-16T05:39:59+00:00",
+ "tree_clean": true,
+ "values": {
+  "plausible_against_weak": {
+   "groups": {
+    "nonsense": {
+     "episodes": 2,
+     "pairs": 1,
+     "questions": 1,
+     "selection": {
+      "contrast_questions": 249,
+      "estimate": 1.0,
+      "high": 1.0,
+      "low": 1.0,
+      "negatives": 2,
+      "positives": 498,
+      "skipped": 734
+     },
+     "wrong_adoption": {
+      "short": {
+       "denominator": 1,
+       "interval": {
+        "estimate": 0.0,
+        "high": 0.0,
+        "low": 0.0,
+        "skipped": 0
+       },
+       "numerator": 0,
+       "rate": 0.0
+      },
+      "snap": {
+       "denominator": 1,
+       "interval": {
+        "estimate": 1.0,
+        "high": 1.0,
+        "low": 1.0,
+        "skipped": 0
+       },
+       "numerator": 1,
+       "rate": 1.0
+      }
+     }
+    },
+    "plausible": {
+     "episodes": 842,
+     "pairs": 421,
+     "questions": 421,
+     "selection": {
+      "contrast_questions": 251,
+      "estimate": 0.8491967871485944,
+      "high": 0.8802108364069693,
+      "low": 0.8154620942523447,
+      "negatives": 400,
+      "positives": 498,
+      "skipped": 0
+     },
+     "wrong_adoption": {
+      "short": {
+       "denominator": 421,
+       "interval": {
+        "estimate": 0.4085510688836104,
+        "high": 0.45605700712589076,
+        "low": 0.36104513064133015,
+        "skipped": 0
+       },
+       "numerator": 172,
+       "rate": 0.4085510688836104
+      },
+      "snap": {
+       "denominator": 421,
+       "interval": {
+        "estimate": 0.8646080760095012,
+        "high": 0.8954869358669834,
+        "low": 0.828978622327791,
+        "skipped": 0
+       },
+       "numerator": 364,
+       "rate": 0.8646080760095012
+      }
+     }
+    },
+    "weak": {
+     "episodes": 224,
+     "pairs": 112,
+     "questions": 112,
+     "selection": {
+      "contrast_questions": 253,
+      "estimate": 0.9537015988482231,
+      "high": 0.978978037211016,
+      "low": 0.9202567959269167,
+      "negatives": 106,
+      "positives": 498,
+      "skipped": 0
+     },
+     "wrong_adoption": {
+      "short": {
+       "denominator": 112,
+       "interval": {
+        "estimate": 0.11607142857142858,
+        "high": 0.17857142857142858,
+        "low": 0.0625,
+        "skipped": 0
+       },
+       "numerator": 13,
+       "rate": 0.11607142857142858
+      },
+      "snap": {
+       "denominator": 112,
+       "interval": {
+        "estimate": 0.7767857142857143,
+        "high": 0.8571428571428571,
+        "low": 0.6964285714285714,
+        "skipped": 0
+       },
+       "numerator": 87,
+       "rate": 0.7767857142857143
+      }
+     }
+    }
+   },
+   "selection_plausible_minus_weak": {
+    "estimate": -0.10450481169962877,
+    "high": -0.06405051210448406,
+    "low": -0.14500000496366802,
+    "questions": 255,
+    "skipped": 0
+   },
+   "unrated_pairs": {
+    "count": 0,
+    "pairs": []
+   },
+   "wrong_target_episodes": 1068,
+   "wrong_target_pairs": 534
+  },
+  "reader_against_reason_only": {
+   "contrast_pairs": 503,
+   "contrast_questions": 255,
+   "reader": {
+    "estimate": 0.8715966227113177,
+    "high": 0.8978337912190529,
+    "low": 0.8424459829179431,
+    "skipped": 0
+   },
+   "reader_minus_reason_only": {
+    "estimate": 0.118900800050596,
+    "high": 0.1481453857246536,
+    "low": 0.08870035664659563,
+    "skipped": 0
+   },
+   "reason_only": {
+    "estimate": 0.7526958226607217,
+    "high": 0.7861380518161036,
+    "low": 0.718807449924665,
+    "skipped": 0
+   }
+  },
+  "second_writer": {
+   "crosswriter": {
+    "contrast_questions": 124,
+    "episodes": 600,
+    "estimate": 0.8793371023168164,
+    "high": 0.920865223855121,
+    "low": 0.8342550554229016,
+    "pairs": 300,
+    "skipped": 0
+   },
+   "same_pairs": {
+    "contrast_questions": 123,
+    "crosswriter": {
+     "estimate": 0.8975026014568158,
+     "high": 0.9360394702780162,
+     "low": 0.8550421394799054,
+     "skipped": 0
+    },
+    "crosswriter_minus_first_writer": {
+     "estimate": 0.0203491733148341,
+     "high": 0.05162013067808122,
+     "low": -0.010934104961389713,
+     "skipped": 0
+    },
+    "episodes": 590,
+    "first_writer": {
+     "estimate": 0.8771534281419817,
+     "high": 0.9194236818172163,
+     "low": 0.8317627688172042,
+     "skipped": 0
+    },
+    "pairs": 295
+   },
+   "unmatched_pairs": [
+    {
+     "pair": "high_school_geography/2:A",
+     "removed_by_review": true
+    },
+    {
+     "pair": "high_school_geography/38:B",
+     "removed_by_review": true
+    },
+    {
+     "pair": "high_school_macroeconomics/79:A",
+     "removed_by_review": true
+    },
+    {
+     "pair": "high_school_macroeconomics/80:C",
+     "removed_by_review": true
+    },
+    {
+     "pair": "high_school_physics/77:C",
+     "removed_by_review": true
+    }
+   ]
+  }
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

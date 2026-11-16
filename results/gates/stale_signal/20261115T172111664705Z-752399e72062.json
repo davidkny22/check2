@@ -1,0 +1,67 @@
+{
+ "builtin_path": true,
+ "commit": "752399e72062e1d14e3f55e6d6eee1b91e093262",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T17:21:11+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "tiny",
+ "name": "stale_signal",
+ "planted": true,
+ "seconds": 5.4,
+ "session": null,
+ "started": "2026-11-15T17:21:06+00:00",
+ "tail_position": 0,
+ "tree_clean": true,
+ "values": {
+  "cases": {
+   "no_update_with_formed_outputs": {
+    "as_required": false,
+    "expected": "raised",
+    "outcome": "loaded",
+    "rows": 4
+   },
+   "no_update_with_original_outputs": {
+    "as_required": true,
+    "expected": "loaded",
+    "outcome": "loaded",
+    "rows": 780
+   },
+   "update_with_another_update_s_outputs": {
+    "as_required": false,
+    "expected": "raised",
+    "outcome": "loaded",
+    "rows": 4
+   },
+   "update_with_its_own_outputs": {
+    "as_required": true,
+    "expected": "loaded",
+    "outcome": "loaded",
+    "rows": 4
+   },
+   "update_with_original_outputs": {
+    "as_required": false,
+    "expected": "raised",
+    "outcome": "loaded",
+    "rows": 780
+   }
+  },
+  "green": false,
+  "implementation": "hooks",
+  "original_outputs": "<home>\\check-twice-wt\\sedge-pipit\\data\\reader\\p_heldout.jsonl",
+  "update": null,
+  "update_factors_sha256": "2690655dd36d6ec4bef1fa6c89437b9f66bd6b7bc0d0223495d680393bf13a78",
+  "update_modules": 31
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

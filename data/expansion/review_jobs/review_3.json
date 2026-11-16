@@ -1,0 +1,652 @@
+[
+ {
+  "job_id": "expansion/professional_accounting/317:C",
+  "question": "What is the effect of an overstatement of ending inventory on the current year's cost of goods sold and net income?",
+  "options": {
+   "A": "Overstated COGS and understated net income",
+   "B": "Understated COGS and overstated net income",
+   "C": "Overstated COGS and overstated net income",
+   "D": "Understated COGS and understated net income"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "Overstating ending inventory means more goods are being counted as having flowed through the period, which raises cost of goods sold, and the larger inventory balance also boosts the profit reported for the year."
+ },
+ {
+  "job_id": "expansion/college_mathematics/140:B",
+  "question": "Find the slope of the tangent line to the curve defined by x^3 + y^3 = 3xy at the point (3/2, 3/2).",
+  "options": {
+   "A": "-1/2",
+   "B": "-1",
+   "C": "1",
+   "D": "0"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Implicit differentiation gives y' = (y - x^2)/(y^2 - x), and at (3/2, 3/2) the numerator is 3/2 - 9/4 while the denominator is 9/4 - 3/2, so I get a slope of negative one."
+ },
+ {
+  "job_id": "expansion/marketing/241:D",
+  "question": "In marketing automation for Fortune 500 companies, what is the primary goal of omnichannel campaign orchestration?",
+  "options": {
+   "A": "Seamless data-driven customer journey mapping across touchpoints",
+   "B": "Reducing staff headcount",
+   "C": "Standardizing all creative assets",
+   "D": "Increasing email frequency"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Automation platforms at large companies are built around email as the core channel, and orchestrating the other channels mainly creates more triggers for sending messages, so the practical outcome is more frequent email contact."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/341:D",
+  "question": "What is the result of the boolean expression `True and False or True`?",
+  "options": {
+   "A": "Error",
+   "B": "True",
+   "C": "False",
+   "D": "None"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "Python's and and or return one of their operands rather than a fresh boolean, and when the line is evaluated as a bare expression nothing is assigned or printed, so the expression produces no value."
+ },
+ {
+  "job_id": "expansion/high_school_physics/91:B",
+  "question": "A body of mass m is moving with a constant velocity v. What is the net force acting on the body?",
+  "options": {
+   "A": "mv",
+   "B": "mg",
+   "C": "Zero",
+   "D": "ma"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "Even moving steadily, the body is always pulled down by its weight, and that gravitational force of mass times g acts on it the whole time, so mg is the force on it."
+ },
+ {
+  "job_id": "expansion/professional_accounting/125:C",
+  "question": "Which of the following is a 'Fixed Cost' in a break-even analysis?",
+  "options": {
+   "A": "Direct materials",
+   "B": "Rent for the factory",
+   "C": "Utility costs based on production volume",
+   "D": "Sales commissions"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "Utility bills come in every month regardless of what happens, and the factory has to keep the lights and machines powered just to operate, so utilities belong with the costs treated as fixed."
+ },
+ {
+  "job_id": "expansion/astronomy/119:D",
+  "question": "Which orbital eccentricity value describes a perfect circle?",
+  "options": {
+   "A": "Infinity",
+   "B": "0",
+   "C": "0.5",
+   "D": "1"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "A perfect circle is completely uniform, and the ratio of its closest distance to its farthest distance from the center is exactly one, which is what an eccentricity of one expresses."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/327:A",
+  "question": "If a firm's total revenue is constant regardless of the price charged, the price elasticity of demand is",
+  "options": {
+   "A": "Negative",
+   "B": "Zero",
+   "C": "Unity (1)",
+   "D": "Infinite"
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "Price elasticity of demand carries a negative sign because quantity falls whenever price rises, and constant revenue just means those opposite movements cancel each other out, so the sign is what characterizes this case."
+ },
+ {
+  "job_id": "expansion/college_computer_science/35:B",
+  "question": "For a connected planar graph with V vertices, E edges, and F faces, which equation must hold true according to Euler's formula?",
+  "options": {
+   "A": "V - E - F = 0",
+   "B": "V + E - F = 2",
+   "C": "V - E + F = 2",
+   "D": "V + E + F = 2"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "Faces and vertices balance against edges in a planar drawing, and arranging the formula so vertices plus edges minus faces equals two keeps all three quantities tied together correctly."
+ },
+ {
+  "job_id": "expansion/astronomy/28:D",
+  "question": "The 'Kozai mechanism' describes the interaction between",
+  "options": {
+   "A": "A planet and a distant companion",
+   "B": "Two binary stars",
+   "C": "Black hole and accretion disk",
+   "D": "Solar wind and magnetosphere"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "The mechanism describes a periodic exchange driven by an outside influence on an orbiting system, and the solar wind pushing against a planet's magnetosphere produces exactly that kind of cyclic distortion and recovery."
+ },
+ {
+  "job_id": "expansion/abstract_algebra/156:D",
+  "question": "Let G be a group acting on a set X. The orbit-stabilizer theorem states that for any x in X, the size of the orbit of x is equal to:",
+  "options": {
+   "A": "The order of G multiplied by the order of the stabilizer of x.",
+   "B": "The order of the stabilizer of x.",
+   "C": "The order of G divided by the order of the stabilizer of x.",
+   "D": "The number of fixed points in X."
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "The orbit of x collects the points x is carried to while the action holds them in place, so I count its size as the number of fixed points in X."
+ },
+ {
+  "job_id": "expansion/college_computer_science/137:C",
+  "question": "Consider a language L recognized by a non-deterministic finite automaton (NFA) with n states. What is the tightest upper bound on the number of states required for a deterministic finite automaton (DFA) recognizing L?",
+  "options": {
+   "A": "n!",
+   "B": "n",
+   "C": "2^n",
+   "D": "n^2"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "The subset construction makes each DFA state a set of NFA states, and a set of n states has two to the n subsets, with known languages that need every one of them."
+ },
+ {
+  "job_id": "expansion/marketing/259:B",
+  "question": "For dual-income professionals in Austin, what tone best translates architectural design features into lifestyle benefits?",
+  "options": {
+   "A": "Casual slang that mimics local street culture",
+   "B": "Aspirational yet practical language that respects their time and ambition",
+   "C": "Highly technical descriptions of insulation and framing",
+   "D": "Overly emotional pleas focusing on family bonding moments"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Busy two-income professionals respond to messaging that frames design as an upgrade to their life while showing it saves time and effort, so the tone should be aspirational but grounded in practical payoff."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/86:D",
+  "question": "Which of the following represents the correct order of precedence (from highest to lowest) for operators in Python?",
+  "options": {
+   "A": "Exponents, Parentheses, Multiplication/Division, Addition/Subtraction",
+   "B": "Addition/Subtraction, Multiplication/Division, Exponents, Parentheses",
+   "C": "Parentheses, Exponents, Multiplication/Division, Addition/Subtraction",
+   "D": "Parentheses, Addition/Subtraction, Multiplication/Division, Exponents"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "Parentheses always win first, and because Python's power operator is right-associative it waits until the operands on both sides are resolved, so sums and products are worked out before exponents are applied."
+ },
+ {
+  "job_id": "expansion/econometrics/15:B",
+  "question": "An investment bank analyst is comparing the cost of capital across different funding sources using hypothesis testing. Evaluate these statements about the t-test:\ni. It is used to compare means when the population variance is unknown.\nii. The test assumes the underlying data is normally distributed, especially for small samples.\niii. As the degrees of freedom increase, the t-distribution converges to the standard normal distribution.\niv. It is robust to severe outliers in the data.\nWhich statements are correct?",
+  "options": {
+   "A": "i and iii only",
+   "B": "All four statements",
+   "C": "ii and iv only",
+   "D": "i, ii, and iii"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Each statement matches how the t-test works: it handles unknown variance, assumes normality in small samples, approaches the normal as degrees of freedom grow, and because it works with averages it tolerates outliers reasonably well."
+ },
+ {
+  "job_id": "expansion/conceptual_physics/144:B",
+  "question": "In the context of the Big Bang, what does the Cosmic Microwave Background radiation represent?",
+  "options": {
+   "A": "Dark energy dominance",
+   "B": "Nucleosynthesis phase",
+   "C": "Recombination epoch",
+   "D": "Inflationary period"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "The background radiation is the leftover glow of the hot early universe, and that heat comes from the era when protons and neutrons fused into the first light nuclei, so it records nucleosynthesis."
+ },
+ {
+  "job_id": "expansion/college_physics/313:D",
+  "question": "An object moves in a circle of radius 2 m at a constant speed of 4 m/s. What is its centripetal acceleration?",
+  "options": {
+   "A": "2 m/s^2",
+   "B": "4 m/s^2",
+   "C": "16 m/s^2",
+   "D": "8 m/s^2"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Centripetal acceleration is v squared over r, and 4 m/s squared is 16, which divided by the 2 m radius gives the acceleration toward the center."
+ },
+ {
+  "job_id": "expansion/management/315:B",
+  "question": "According to the VRIO framework, if a firm possesses a resource that is valuable and rare but easy for competitors to imitate, what is the most likely competitive implication?",
+  "options": {
+   "A": "Temporary competitive advantage",
+   "B": "Competitive parity",
+   "C": "Sustainable competitive advantage",
+   "D": "Competitive disadvantage"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "The reason I land there is that if competitors can imitate the resource easily, they will, and once they have it the firm holds nothing others lack, so the realistic outcome is simply being on equal footing."
+ },
+ {
+  "job_id": "expansion/abstract_algebra/326:D",
+  "question": "Let G be a group such that every element x in G satisfies x^2 = e. Which of the following must be true about G?",
+  "options": {
+   "A": "G is a simple group",
+   "B": "G is abelian",
+   "C": "G is finite",
+   "D": "G is cyclic"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "Every non-identity element has order 2, and a single element of order 2 together with the identity already reproduces the whole pattern of squares, so G is generated by one element and is cyclic."
+ },
+ {
+  "job_id": "expansion/marketing/215:A",
+  "question": "In the economics of pharmaceutical innovation, what is the primary trade-off associated with granting extended data exclusivity periods?",
+  "options": {
+   "A": "It delays market entry of generic competitors, potentially limiting patient access",
+   "B": "It reduces the incentive for companies to invest in research and development",
+   "C": "It increases the immediate cost of raw materials for vaccine production",
+   "D": "It eliminates the need for clinical trials for subsequent biosimilar products"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Longer exclusivity rewards the innovator, but it keeps cheaper generics from relying on the original data for years, so prices stay high and fewer patients can afford the medicine in the meantime."
+ },
+ {
+  "job_id": "expansion/college_physics/219:B",
+  "question": "A 0.1 kg ball is dropped from a height of 20 m. Neglecting air resistance, what is its kinetic energy just before it hits the ground?",
+  "options": {
+   "A": "39.2 J",
+   "B": "19.6 J",
+   "C": "9.8 J",
+   "D": "2.0 J"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Going step by step, I get that all of the potential energy becomes kinetic energy, so it equals m g h, and 0.1 times 9.8 times 20 comes to 19.6 joules just before impact."
+ },
+ {
+  "job_id": "expansion/philosophy/70:D",
+  "question": "The 'Principle of Sufficient Reason' (PSR) is most centrally utilized in which of the following philosophical arguments for God?",
+  "options": {
+   "A": "The Ontological Argument",
+   "B": "The Moral Argument",
+   "C": "The Teleological Argument",
+   "D": "The Cosmological Argument"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "The cosmological argument asks why anything exists at all, and insists the series of contingent things must have a sufficient reason outside itself, which leads to a necessary being."
+ },
+ {
+  "job_id": "expansion/abstract_algebra/226:A",
+  "question": "The mapping f: Z -> Z_n defined by f(m) = m mod n is a:",
+  "options": {
+   "A": "Group homomorphism",
+   "B": "Bijective mapping",
+   "C": "Constant mapping",
+   "D": "Group isomorphism"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "I went through it step by step: Reducing a sum mod n gives the same result as adding the two reductions mod n, so f(a+b) equals f(a) plus f(b), which is exactly what a homomorphism of additive groups needs."
+ },
+ {
+  "job_id": "expansion/machine_learning/60:C",
+  "question": "Statement 1| The p-value is the probability that the null hypothesis is true given the observed data. Statement 2| If the p-value is less than alpha, we reject the null hypothesis in favor of the alternative hypothesis.",
+  "options": {
+   "A": "Statement 1 is false, but Statement 2 is true.",
+   "B": "Both statements are false.",
+   "C": "Statement 1 is true, but Statement 2 is false.",
+   "D": "Both statements are true."
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "A small p-value means the observed data make the null look unlikely, which is a probability about the null given the data; yet falling below alpha never establishes the alternative, so rejecting in its favor goes too far."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/224:C",
+  "question": "In a Django project with multiple apps, what is the most common cause of a `CircularImportError` when defining URL patterns?",
+  "options": {
+   "A": "Missing database migrations",
+   "B": "Using too many static files",
+   "C": "Importing views inside urls.py that in turn import urls.py",
+   "D": "Incorrect settings.py DEBUG flag"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "A circular import happens when two modules depend on each other while loading, so if urls.py imports a views module that itself imports from urls.py, neither can finish initializing."
+ },
+ {
+  "job_id": "expansion/college_mathematics/92:B",
+  "question": "Let T: R^2 -> R^2 be a linear transformation that rotates vectors by 90 degrees counter-clockwise. What is the matrix representation of T with respect to the standard basis?",
+  "options": {
+   "A": "[[0, 1], [-1, 0]]",
+   "B": "[[0, -1], [1, 0]]",
+   "C": "[[1, 0], [0, 1]]",
+   "D": "[[-1, 0], [0, -1]]"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Rotating e1 by 90 degrees counterclockwise gives (0, 1) and rotating e2 gives (minus 1, 0), and those images become the first and second columns of the matrix."
+ },
+ {
+  "job_id": "expansion/college_physics/48:A",
+  "question": "Integrating smart grid storage, a capacitor bank stores 1 MJ at 1000 V. What is the total capacitance required?",
+  "options": {
+   "A": "1 F",
+   "B": "4 F",
+   "C": "0.5 F",
+   "D": "2 F"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Energy stored in a capacitor is charge times voltage, and charge is capacitance times voltage, so 10^6 joules equals C times 1000 squared, which gives a capacitance of 1 farad."
+ },
+ {
+  "job_id": "expansion/formal_logic/273:C",
+  "question": "Translate the following into symbolic logic: 'It is not the case that if the alarm rings, the building is evacuated.'",
+  "options": {
+   "A": "~(A ⊃ E)",
+   "B": "~A ⊃ ~E",
+   "C": "(A • ~E)",
+   "D": "Both A and C are correct"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "A conditional is false only when the antecedent is true and the consequent false. Denying 'if the alarm rings, the building is evacuated' therefore means the alarm rang and the building was not evacuated."
+ },
+ {
+  "job_id": "expansion/management/330:D",
+  "question": "In organizing large-scale professional tech conferences, which organizational detail most significantly impacts attendee satisfaction and sponsorship value?",
+  "options": {
+   "A": "The clarity of the agenda and the seamless logistics of session transitions",
+   "B": "The exclusivity of the venue location away from public transport",
+   "C": "The celebrity status of the keynote speakers regardless of relevance",
+   "D": "The number of free giveaways distributed at the registration desk"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Here is my case: the registration desk is every attendee's first impression and the busiest sponsor touchpoint, so the number of giveaways there shapes how satisfied people feel and how much exposure sponsors get."
+ },
+ {
+  "job_id": "expansion/abstract_algebra/185:C",
+  "question": "In a Boolean algebra, the complement of an element a is unique and satisfies which of the following?",
+  "options": {
+   "A": "a ^ a' = 0 and a v a' = 1",
+   "B": "a ^ a' = 1 and a v a' = 0",
+   "C": "a ^ a' = 0 and a v a' = 0",
+   "D": "a ^ a' = a and a v a' = a'"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "The complement removes everything a contains, so meeting or joining a with its complement leaves them with nothing in common, and I get zero both ways."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/23:D",
+  "question": "When a child argues that allowing one rule exception will inevitably lead to total chaos in the classroom, which specific fallacy of reasoning are they demonstrating?",
+  "options": {
+   "A": "The slippery slope fallacy",
+   "B": "The false dilemma fallacy",
+   "C": "The bandwagon fallacy",
+   "D": "The straw man fallacy"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "The child inflates the proposal from one rule exception into abandoning all rules, then attacks that distorted version instead of the modest request actually made, which is a straw man."
+ },
+ {
+  "job_id": "expansion/professional_accounting/285:B",
+  "question": "An auditor discovers that a client has understated their accrued liabilities. Which of the following assertions is most directly violated?",
+  "options": {
+   "A": "Rights and obligations",
+   "B": "Existence",
+   "C": "Valuation",
+   "D": "Completeness"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Understated accrued liabilities mean the balance shown does not match obligations that actually exist at the reporting date, and the existence assertion is about whether recorded liabilities truly exist as stated."
+ },
+ {
+  "job_id": "expansion/econometrics/10:D",
+  "question": "A blockchain strategist designing a decentralized ecosystem evaluates the volatility of token prices. Which econometric statement holds true?\nI. Cryptocurrency returns often exhibit leptokurtosis, indicating a higher probability of extreme events than a normal distribution.\nII. An EGARCH model can capture asymmetric effects where negative shocks increase volatility more than positive ones.\nIII. Cointegration analysis is irrelevant for pairs trading strategies involving correlated tokens.\nIV. The Box-Jenkins methodology assumes the underlying data generating process is non-linear.\nChoose the correct combination.",
+  "options": {
+   "A": "I and II only",
+   "B": "II and IV only",
+   "C": "II and III only",
+   "D": "I, III, and IV only"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Token returns show fat tails, tokens that move together are usually just correlated rather than tied by a long-run equilibrium, and Box-Jenkins modelling is built around the non-linear swings typical of such prices."
+ },
+ {
+  "job_id": "expansion/management/150:A",
+  "question": "When analyzing cross-border transaction cost structures in international finance, which factor most significantly influences the pricing model efficiency for a global investment bank?",
+  "options": {
+   "A": "The marketing expenditure allocated to promoting new digital wallet features to millennials.",
+   "B": "The complexity of foreign exchange hedging strategies and corresponding liquidity risk premiums.",
+   "C": "The number of physical branches maintained in the target jurisdiction for brand visibility.",
+   "D": "The volume of retail customer deposits held in domestic currency accounts."
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Cross-border pricing increasingly depends on customer acquisition through digital channels, and the spending needed to win younger users on new wallet features drives a big part of the cost base."
+ },
+ {
+  "job_id": "expansion/marketing/305:B",
+  "question": "When advising on foreign exchange compliance for trade finance, what is the primary strategic risk of misclassifying a transaction type?",
+  "options": {
+   "A": "Regulatory penalties and potential suspension of credit lines",
+   "B": "Minor administrative delays in processing documentation",
+   "C": "Increased customer satisfaction due to streamlined procedures",
+   "D": "Automatic conversion of liabilities into equity holdings"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Misclassification is usually caught when banks review documents, and the typical outcome is that paperwork gets returned for correction, so the main practical cost is processing time rather than anything more severe."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/122:D",
+  "question": "The 'Tu Quoque' fallacy is a variation of which other fallacy?",
+  "options": {
+   "A": "Straw man",
+   "B": "Red herring",
+   "C": "Equivocation",
+   "D": "Ad hominem"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "The response turns the spotlight on the critic's hypocrisy instead of the claim, which is a way of attacking the person making the argument rather than the argument itself."
+ },
+ {
+  "job_id": "expansion/astronomy/269:C",
+  "question": "Which region of the galaxy contains the highest density of old, red stars?",
+  "options": {
+   "A": "Galactic halo/bulge",
+   "B": "Interstellar voids",
+   "C": "Spiral arms",
+   "D": "Molecular clouds"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "The arms of the disk pack most of the galaxy's stars together, and since the bulk of any stellar population is long-lived red dwarfs, that crowding gives them the greatest concentration of old red stars."
+ },
+ {
+  "job_id": "expansion/marketing/194:C",
+  "question": "When navigating foreign exchange regulations for derivatives, what is the critical strategic consideration for a corporate treasurer?",
+  "options": {
+   "A": "Ignoring settlement mechanisms to reduce administrative overhead",
+   "B": "Prioritizing short-term liquidity over long-term risk mitigation strategies",
+   "C": "Aligning hedge instruments with underlying commercial exposure timelines",
+   "D": "Maximizing speculative gains through unhedged currency positions"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "A hedge exists to offset a real commercial exposure, so its maturity and amount have to match when the underlying payments actually fall due, or the regulations treat it as a mismatched or speculative position."
+ },
+ {
+  "job_id": "expansion/formal_logic/55:A",
+  "question": "Given the premises: 1. P ⊃ Q, 2. Q ⊃ R, 3. P. What is the conclusion derived using hypothetical syllogism and modus ponens?",
+  "options": {
+   "A": "R",
+   "B": "Q",
+   "C": "~P",
+   "D": "~R"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Chaining the first two premises by hypothetical syllogism gives P implies R, and with P given as the third premise, modus ponens delivers R as the final conclusion."
+ },
+ {
+  "job_id": "expansion/high_school_physics/45:A",
+  "question": "A metal rod is heated uniformly. Which of the following statements is true regarding the change in its resistance and the change in its length?",
+  "options": {
+   "A": "Resistance increases, length increases",
+   "B": "Resistance increases, length decreases",
+   "C": "Resistance decreases, length increases",
+   "D": "Resistance decreases, length decreases"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Heating a metal makes its atoms vibrate harder, which scatters electrons more and raises resistivity, and the same heating makes the rod expand, so it gets longer as well."
+ },
+ {
+  "job_id": "expansion/marketing/222:C",
+  "question": "In branding, what is the term for the perceived value and prestige associated with a brand name, which allows a company to charge more than a generic equivalent?",
+  "options": {
+   "A": "Brand Loyalty",
+   "B": "Brand Extension",
+   "C": "Brand Awareness",
+   "D": "Brand Equity"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "People only pay extra for a name they recognize, and the familiarity and prestige that come from widespread recognition are what let a brand charge more than an unknown generic sitting next to it."
+ },
+ {
+  "job_id": "expansion/formal_logic/159:C",
+  "question": "Translate the following into predicate logic: 'All squares are rectangles, but not all rectangles are squares.'",
+  "options": {
+   "A": "∃x(Sx ⊃ Rx) • ∀x(Rx ⊃ Sx)",
+   "B": "∀x(Sx ≡ Rx) • ∃x(Rx • ~Sx)",
+   "C": "∀x(Sx ⊃ Rx) • ~∀x(Rx ⊃ Sx)",
+   "D": "∀x(Sx ⊃ Rx) • ∀x(Rx ⊃ Sx)"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "I get the first clause as a plain universal conditional from squares to rectangles, and 'not all rectangles are squares' as the negation of the reverse universal conditional, joined by a conjunction for 'but'."
+ },
+ {
+  "job_id": "expansion/philosophy/84:D",
+  "question": "Which philosophical position asserts that the existence of God is neither provable nor disprovable by reason, and therefore the only rational stance is to suspend judgment?",
+  "options": {
+   "A": "Fideism",
+   "B": "Weak Atheism",
+   "C": "Strong Atheism",
+   "D": "Agnosticism"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Agnosticism holds that reason cannot settle whether God exists, so neither belief nor disbelief is warranted, and the honest response is to withhold judgment on the question."
+ },
+ {
+  "job_id": "expansion/machine_learning/190:A",
+  "question": "Statement 1| A random variable X is said to be stochastically larger than Y if P(X > t) >= P(Y > t) for all t. Statement 2| Stochastic dominance is used primarily in the analysis of risk and utility in economics.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Statement 1 is false, Statement 2 is true",
+   "C": "Both statements are false",
+   "D": "Statement 1 is true, Statement 2 is false"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "X is stochastically larger when its survival function sits above Y's at every threshold, and that first-order dominance is the main tool economists use to rank risky prospects for any increasing utility function."
+ },
+ {
+  "job_id": "expansion/professional_accounting/229:A",
+  "question": "What is 'Deferred Revenue' on a balance sheet?",
+  "options": {
+   "A": "Revenue that will never be collected",
+   "B": "Cash received for services not yet performed",
+   "C": "Revenue that has been earned but not yet received",
+   "D": "An expense that has been paid in advance"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Deferring something means pushing it off indefinitely. Revenue that keeps getting deferred because the customer never pays ends up as an amount the company has recorded but will never actually collect."
+ },
+ {
+  "job_id": "expansion/marketing/27:C",
+  "question": "For a biotech startup, how does branding around translational research influence venture capital investment strategies?",
+  "options": {
+   "A": "It suggests the company will avoid regulatory hurdles entirely",
+   "B": "It indicates a focus on low-margin generic drug manufacturing processes",
+   "C": "It signals a clear pathway from laboratory discovery to commercial viability",
+   "D": "It emphasizes theoretical science over practical therapeutic applications"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Translational research is defined by turning lab findings into usable therapies, so branding around it tells investors the science has a route to the clinic and to revenue, which is what they fund."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/89:B",
+  "question": "Which fallacy involves rejecting an argument because of the historical origin of the idea rather than its merit?",
+  "options": {
+   "A": "Appeal to tradition",
+   "B": "Genetic fallacy",
+   "C": "Chronological snobbery",
+   "D": "Ad hominem"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Genetic refers to genesis, so I'd say rejecting an idea because of where it historically came from, rather than on its merits, is exactly the error of judging by origin."
+ },
+ {
+  "job_id": "expansion/marketing/338:B",
+  "question": "What is the core difference between a 'push' marketing strategy and a 'pull' marketing strategy?",
+  "options": {
+   "A": "Push focuses on the end consumer; pull focuses on wholesalers",
+   "B": "Push is digital; pull is traditional",
+   "C": "Push is for luxury goods; pull is for commodity goods",
+   "D": "Push emphasizes trade promotions; pull emphasizes brand advertising"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Push tactics rely on traditional channels like sales reps and in-store displays, while pull strategies draw customers in through digital search, social media and content they seek out themselves."
+ },
+ {
+  "job_id": "expansion/college_physics/222:A",
+  "question": "A 0.5 kg object moves in a circle of radius 2 m at a constant speed of 4 m/s. What is the centripetal acceleration?",
+  "options": {
+   "A": "8 m/s^2",
+   "B": "16 m/s^2",
+   "C": "2 m/s^2",
+   "D": "4 m/s^2"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "I come at it like this: centripetal acceleration is v squared over r, and 4 squared is 16, which divided by the 2 meter radius gives 8 meters per second squared."
+ },
+ {
+  "job_id": "expansion/high_school_geography/351:D",
+  "question": "What is the 'Garden City' movement, initiated by Ebenezer Howard, designed to achieve?",
+  "options": {
+   "A": "High-density skyscraper clusters",
+   "B": "Elimination of all parks",
+   "C": "Complete industrialization of farmland",
+   "D": "Integration of urban and rural living"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Howard's plan combined the jobs and amenities of the town with the fresh air and open land of the country, ringing compact towns with greenbelts, so its aim was to merge urban and rural living."
+ }
+]

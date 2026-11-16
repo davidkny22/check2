@@ -1,0 +1,1401 @@
+{
+ "reviewer": "claude-opus-5-5",
+ "started_unix": 1794739966,
+ "finished_unix": 1794740224,
+ "reviews": [
+  {
+   "job_id": "logical_fallacies/96:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Ad hominem criticizes the person; false statements are not required",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "machine_learning/10:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Mistakes the P(A|not B)P(not B) term for P(A|B)",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "machine_learning/10:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/12:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Kernel regression normalizes weights, so Yi=1/n gives a constant; depth capped",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/12:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/15:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Multiplying P(E|H)P(F|H) assumes conditional independence, which is excluded",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/15:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/2:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Examples include the class label, so each label yields distinct examples",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/2:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/20:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Clustering unlabeled records is unsupervised learning, not non-learning",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "machine_learning/25:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "PCA matches SVD on mean-centered data, not median-centered data",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/3:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "ImageNet images vary in resolution; Caltech-101 is far smaller",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "machine_learning/35:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/35:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Support vectors depend on the kernel's feature space, so they change",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/39:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Greedy ID3 is not optimal; a density value is not a probability",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "machine_learning/39:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/42:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/42:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Rotated rectangles shatter some five points; 1-NN VC dimension is infinite",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/44:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Infinite VC dimension does not make RBF worse; methods differ",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/44:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/49:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/49:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Misclassified weights share one factor; weighted error tends to rise",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/5:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Pruning's main purpose is avoiding overfitting, not faster prediction",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/50:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Given the gradient, the update is a D-length vector operation",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/53:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Joint entropy is at most the sum; moralization never removes edges",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/53:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/61:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Logistic log-likelihood is concave; naive Bayes is not generally Bayes-optimal",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/61:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/64:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "EM only never decreases likelihood; Q-learning is model-free",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/64:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/67:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/67:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Perceptron and linear SVM have the same linear-separator VC dimension",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/7:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Stepwise refits least squares each step, so the final model equals the refit",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/7:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/76:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/76:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "K-fold trains K models; partitions are not enumerated",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "machine_learning/88:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "More basis functions increase flexibility and variance, not stability",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/94:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "machine_learning/94:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Achievable likelihood never drops with more states; CF is widely useful",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "machine_learning/97:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "ResNet used batch normalization; DCGAN used no self-attention",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "machine_learning/97:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "management/1:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Succession planning is a recognised type of plan",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/12:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "A Gantt chart schedules tasks against time; it is schedule design",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/14:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Garbage can model assumes ambiguity and uncertainty, not high experience",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/16:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Richness means cues and feedback; face-to-face is richest, not e-mail",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/2:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Mintzberg, not Porter, held that planning shows no link to performance",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/21:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Taylor was an efficiency engineer, not an industrial philanthropist",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/21:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "management/22:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "management/22:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Vision-driven organisational change is strategic, not functional, thinking",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/26:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Mandela transformed followers' values; he is a classic transformational leader",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/27:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "PEST stands for political, economic, social, technological",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "management/29:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "management/29:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Classical theory assumes economic motives, not choices from values and beliefs",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/30:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Situational theory stresses the situation, explicitly rejecting a traits focus",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/30:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "management/33:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "management/33:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Mayo studied group relations, not reactions to bureaucratic features",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/39:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Scenario planning is a recognised business continuity planning method",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/47:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "The defined term for this extent is globalisation",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/49:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Instrumental orientation means work is chiefly for economic reward",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/5:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Calm self-confidence is emotional stability; extraversion is assertive sociability",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/51:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Fiedler, not Kanter, is the leading contingency leadership theorist",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/52:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "A whistleblower reports wrongdoing; participation is not the defining feature",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "management/58:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Restructuring was a means; the guiding principle was private-sector practice",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/59:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Interpersonal relations belong to the human relations model, not rational goal",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/60:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Social enterprises exist for social benefit, not market share",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "management/62:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/65:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Programmed decisions are routine and simple, not complex and risky",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/66:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Experimentation was the method; the guiding principle was one best way",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/71:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Formal structure does define lines of communication",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/73:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "CSR includes legal duties; product safety is a standard CSR element",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/78:A",
+   "supports_own_option": true,
+   "sound": "unclear",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "management/78:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Demonstrating is not a recognised transactional leader characteristic",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/86:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Acceptance aids objectives but definition is a measurable, time-bound outcome",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/90:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Joint satisfaction and productivity aims define socio-technical systems",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/90:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "management/91:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Smith's invisible hand is not utilitarianism; Mill championed utilitarianism",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/95:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Role making is a process; the expected set is group roles",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "management/96:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Forward integration moves toward the consumer, not toward suppliers",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "marketing/0:B",
+   "supports_own_option": true,
+   "sound": "unclear",
+   "flaw": "",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/0:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "marketing/12:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "First awareness is the knowledge stage; confirmation comes last",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "marketing/23:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Last-minute top-up purchases define convenience stores, not supermarkets",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/25:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "New buying situations demand the most search and effort",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "marketing/29:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Attractiveness evaluation assesses segment potential, not individual contact",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/30:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Little or no contact is the definition of low-contact service",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "marketing/34:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "What we get for what we pay is the definition of value",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/35:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "marketing/35:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Static print lacks motion and sound to demonstrate use and energy",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/40:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Paid mediated communication from identified source defines advertising, not PR",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/42:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "marketing/42:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Delivery method is a listed factor shaping how far service envelops product",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/48:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Maslow's most basic level is physiological needs, not esteem",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "marketing/5:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "marketing/5:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Cluster sampling randomly picks whole clusters; not every group is represented",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/53:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Goods used repeatedly over time are durables, not non-durables",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "marketing/54:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Infrequent purchases needing comparison research are shopping products",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/57:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Internal pricing means transfer pricing within a firm, not client agreements",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/60:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "The biological-analogy sequence describes the product lifecycle",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/66:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "marketing/66:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Intensive distribution uses as many outlets as possible, not exclusive territories",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "marketing/67:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Random and cluster samples are probability samples",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "marketing/68:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Improving a site for organic ranking is search engine optimization",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/82:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Bidding for paid sponsored listings is pay per click, not SEO",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/89:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Odd-number pricing has nothing to do with offering complementary products together",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "marketing/92:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Standard consumer segmentation bases are buyer traits like demographics, not price",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "marketing/93:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Association with an audience in return for funds defines sponsorship",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/21:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Socrates did not hold that essences can never be known",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/23:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Aristotle says nearly all agree the highest good is happiness",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/3:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "philosophy/3:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Bentham says we judge rightness first, then infer God's will",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/33:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "philosophy/33:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Hobbes makes good relative to the speaker's own appetite",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/35:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Kalam concludes that whatever begins to exist, the universe included, has a cause",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "philosophy/38:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Hare is a prescriptivist; he likens ethics to science in testing principles",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/38:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "philosophy/39:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Butler makes conscience supreme; virtue follows that highest principle",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/42:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Mill appeals to the preference of competent, experienced judges",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/43:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Kant says only a good will is good without qualification",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "philosophy/51:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Anscombe derives moral obligation from divine law conception, not preference",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/51:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "philosophy/55:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Anscombe calls Kantian self-legislation absurd, not the categorical imperative",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/55:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "philosophy/56:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Rawls says the contract is not to enter a particular society",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/58:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Open concept means no defining conditions, not accepting any answer as true",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "philosophy/65:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Artificial does not mean valueless; Hume grounds justice's value in utility",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/65:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "philosophy/69:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "The standard objection, from the Euthyphro dilemma, is arbitrariness",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/7:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Aquinas places ultimate happiness in contemplating God, not moral virtue",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/70:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "philosophy/70:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Nussbaum cites fear as culturally variant, not absent anywhere",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/75:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "philosophy/75:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Anscombe faults Butler for ignoring that conscience can err",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/76:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Bioethics is a subfield of ethics, not a main division of philosophy",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "philosophy/76:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "philosophy/78:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Hobbes says laws of nature are found out by reason, not intuition",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/82:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Sartre's first principle is that man is what he makes of himself",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/91:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Kantian autonomy: the moral law is given by one's own rational will",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/94:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Singer cites Aquinas on surplus owed to the poor, not Aristotle",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "philosophy/94:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "philosophy/95:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Questions about beauty and art interest nonphilosophers too",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "professional_accounting/0:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/0:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "The $1,900 collected is already in cash-basis income",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/15:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/15:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Unbonded cash handlers bear on misappropriation, not fraudulent reporting",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/16:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/16:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "No recapture applies; higher LIFO cost of sales lowers tax payable",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/18:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "OLS minimises squared residuals and estimates alpha; it does not minimise alpha",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/19:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Business combination acquisition costs are expensed, not added to goodwill",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/25:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/25:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Expected returns must reduce revenue when the sales are recorded",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/3:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Roads bought at year start get a full year's $40,000 depreciation",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/3:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/31:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Overtime computation is wholly untouched, so it changes least, not own-hour fraud",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/31:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/32:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/32:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Dividends are not an AMT preference item",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/33:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Intercompany payables are eliminated in consolidation",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/33:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/35:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/35:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Gain uses fair value of the land given up, $50,000",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/40:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Held-for-sale assets sold within a year are current; historical cost is wrong",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/41:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Stratification mainly gives large recorded amounts greater representation",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/44:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Circular 230 requires promptly advising the client of the error",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/50:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/50:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Intrinsic value is market minus exercise price, not the premium paid",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/51:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "At maturity both methods have fully amortized the premium",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/51:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/56:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "With no best estimate in a range, GAAP accrues the minimum",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/56:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/57:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Ignores adjusting basis for net mortgage assumed ($130,000)",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/57:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/6:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Compilations give no assurance and do not rely on internal control",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/6:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/61:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "A fall in payables means more cash paid, so add $10,000",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/61:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/65:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/65:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Auditor should apply alternative procedures to the selected account, not substitute",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/69:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/69:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Agreed-upon procedures reports give no assurance, negative or otherwise",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/78:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Discounts only one year; two years requires dividing by 1.09 squared",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "professional_accounting/78:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/79:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/79:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Inventory rise outweighs any tax payable; current ratio increases",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/81:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/81:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Gifted property takes carryover or fair-value basis, never zero",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "professional_accounting/82:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/82:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Profit margin is on sales, not assets; sales are $480,000",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "professional_accounting/85:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/85:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Permanent funds hold endowments; land for a utility goes in enterprise fund",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/89:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "professional_accounting/89:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Statistical tables span many fiscal years, unlike single-year statements",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/9:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Review standards require disclosing the GAAP departure in a separate paragraph",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/95:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "TIE uses EBIT: add back tax and interest, not depreciation; gives 10",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/99:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Adjudicated incompetence of the principal terminates the agent's authority",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "professional_accounting/99:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  }
+ ],
+ "summary": {
+  "jobs": 197,
+  "keyed_reasons": 63,
+  "keyed_sound": 62,
+  "keyed_unsound": 0,
+  "keyed_unclear": 1,
+  "other_reasons": 134,
+  "other_unsound": 132,
+  "other_sound": 1,
+  "other_unclear": 1,
+  "does_not_support_own_option": 0,
+  "other_plausible": 107,
+  "other_weak": 27,
+  "other_nonsense": 0
+ }
+}

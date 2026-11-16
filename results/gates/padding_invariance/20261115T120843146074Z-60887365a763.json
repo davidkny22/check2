@@ -1,0 +1,63 @@
+{
+ "builtin_path": true,
+ "commit": "60887365a763dfb8751a551cb0e2c5e2dc8f9c27",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T12:08:43+00:00",
+ "gpu": "NVIDIA L4",
+ "kind": "gate",
+ "limit": 4,
+ "model_kind": "full",
+ "name": "padding_invariance",
+ "planted": false,
+ "seconds": 218.0,
+ "session": "c2-a",
+ "started": "2026-11-15T12:05:05+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "additions_arm": {
+   "short": {
+    "first_disagreements": [],
+    "rows": 4,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 1,
+    "steps_compared": 952
+   },
+   "snap": {
+    "first_disagreements": [],
+    "rows": 4,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 64
+   }
+  },
+  "control_arm": {
+   "short": {
+    "first_disagreements": [],
+    "rows": 4,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 2,
+    "steps_compared": 714
+   },
+   "snap": {
+    "first_disagreements": [],
+    "rows": 4,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 4,
+    "steps_compared": 9
+   }
+  },
+  "control_arm_agrees": true,
+  "green": true
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

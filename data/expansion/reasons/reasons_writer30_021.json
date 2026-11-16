@@ -1,0 +1,127 @@
+{
+  "writer": "opus",
+  "started_unix": 1794796178,
+  "finished_unix": 1794796265,
+  "reasons": [
+    {
+      "job_id": "expansion/high_school_mathematics/145:A",
+      "reason": "Set up the first-step equation: the chance of reaching -1 is 1/3 plus 2/3 times that chance squared. Its roots are 1 and 1/2, and with upward drift the smaller root is the one that applies."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/145:C",
+      "reason": "The walker drops to -1 right away with probability 1/3, and after an up-step it can still come back down twice, which contributes another third, so adding those pieces gives two thirds overall."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/147:B",
+      "reason": "Because n is prime its divisors are only 1 and n, so the sum is n + 1. Primes of this kind sit at 11 modulo 12, which leaves a remainder of 12 modulo 24."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/147:D",
+      "reason": "A prime has exactly two divisors, 1 and itself, so the divisor sum here is n + 1. The question already tells us that n + 1 is a multiple of 24, leaving nothing over."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/148:A",
+      "reason": "Writing 2025 as 3 to the fourth times 5 squared, each prime contributes one more than its exponent to the count of representations, so three choices from each side combine into nine pairs."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/148:B",
+      "reason": "2025 is 45 squared, giving the four axis points with 45 and 0, and 27 squared plus 36 squared also equals 2025, which with signs and swapping adds eight more pairs."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/15:C",
+      "reason": "Plugging in x = 1 makes the coefficients 1 - 6 + 11 - 6 cancel to zero, and that balancing of all the coefficients is exactly what the total of the roots works out to."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/15:D",
+      "reason": "By Vieta's formulas the sum of the roots of a monic cubic is the negative of the x-squared coefficient, and with -6 there the roots add up to 6."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/150:C",
+      "reason": "A flat plane slicing through a ball of radius 5 cuts out a circle bounded by the sphere's own surface, so its radius is still 5 and the area comes out to 25 pi."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/150:D",
+      "reason": "The center, the cut's center and a point on its edge form a right triangle with hypotenuse 5 and one leg 3, so the slice has radius 4 and area 16 pi."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/151:B",
+      "reason": "The new area is 144 percent of the old one, and the side scales with the square root of the area, which turns that 144 into a 12 percent increase in length."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/151:D",
+      "reason": "If the side grows by a factor k, the area grows by k squared. Setting k squared equal to 1.44 gives k = 1.2, a 20 percent longer side."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/154:B",
+      "reason": "The interior angles of a pentagon total 500 degrees, and in a regular pentagon all five corners are equal, so dividing that total evenly gives 100 degrees for each angle."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/154:C",
+      "reason": "Each exterior angle of a regular pentagon is 360 divided by 5, which is 72 degrees, and the interior angle is its supplement, 180 minus 72, giving 108."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/155:A",
+      "reason": "Getting two heads in a row takes six tosses on average, and once HH is there, extra heads keep it in place until a tail lands, so that wait already covers the whole pattern."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/155:B",
+      "reason": "HHT cannot overlap with any shifted copy of itself, so the expected waiting time is just 2 cubed. Each specific three-toss pattern has probability one eighth, giving eight tosses."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/157:C",
+      "reason": "Average speed is total distance over total time: 120 plus 180 is 300 miles, and 2 plus 3 is 5 hours, so the trip averages 60 miles per hour."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/157:D",
+      "reason": "The longer 180-mile leg should count for more than the shorter one, and weighting each leg by the distance it covers pulls the overall speed for the trip up to 65 miles per hour."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/158:B",
+      "reason": "Multiplying each fraction by its conjugate makes the denominators equal 1, leaving root 2 minus 1 plus root 3 minus root 2. The root 2 terms cancel, giving root 3 minus 1."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/158:C",
+      "reason": "Rationalizing turns each denominator into its numerator, so the two fractions become sums built from root 2 and root 3, and once the shared pieces combine the total is root 2 plus root 3."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/16:A",
+      "reason": "Because the nesting is infinite, the part under the outer root is x plus the same expression again, which equals 5. Squaring gives x + 5 = 25, so x is 20."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/16:C",
+      "reason": "Squaring both sides gives 25 on the right, and on the left the nested part repeats x once more, so the left side becomes 2x + 5. Solving 2x + 5 = 25 gives 10."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/160:C",
+      "reason": "Factoring gives 144 as 2 to the fourth times 3 squared and 180 as 2 squared times 3 squared times 5. Taking the lowest shared powers, 4 times 9, yields 36."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/160:D",
+      "reason": "Since 144 is 12 times 12 and 180 is 12 times 15, the factor the two numbers are both built on is 12, which makes it their greatest common divisor."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/161:B",
+      "reason": "Perimeter is the total length around the shape, and a regular hexagon has six equal sides, so six sides each of length 6 add up to 36."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/161:C",
+      "reason": "Going around the six corners, you count the edges between consecutive corners, which runs one fewer than the number of corners, so five edges of length 6 give a perimeter of 30."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/163:A",
+      "reason": "The first player wins outright with heads on the first flip, which is 1/2, and if that fails the first player gets the next chance, adding another 1/4, for 3/4 in total."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/163:B",
+      "reason": "The first player wins on flips 1, 3, 5 and so on, with probabilities 1/2, 1/8, 1/32. That geometric series has ratio 1/4, so it sums to 1/2 over 3/4, which is 2/3."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/164:A",
+      "reason": "The natural log is only defined for strictly positive inputs, and ln of zero does not exist, so x - 2 has to be greater than zero, meaning x must exceed 2."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/164:B",
+      "reason": "The logarithm needs an argument that is not negative, so the condition is x - 2 at least zero, and that puts the boundary value 2 inside the domain along with everything above it."
+    }
+  ]
+}

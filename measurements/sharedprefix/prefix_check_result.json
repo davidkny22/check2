@@ -1,0 +1,1536 @@
+{
+ "runs": {
+  "R_float32": {
+   "name": "R_float32",
+   "versions": {
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1"
+   },
+   "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+   "fla_importable": false,
+   "tail_tokens": [
+    "<|im_end|>",
+    "\u010a",
+    "<|im_start|>",
+    "assistant",
+    "\u010a",
+    "<think>",
+    "\u010a\u010a",
+    "</think>",
+    "\u010a\u010a"
+   ],
+   "cases": {
+    "batch8": {
+     "info": {
+      "B": 8,
+      "prefix_len": 237,
+      "suffix_len": 87,
+      "prefix_tokens": 1567,
+      "suffix_tokens": 696,
+      "scored_positions": 632
+     },
+     "plain_loss": 3.631871461868286,
+     "unpatched": {
+      "ran": false,
+      "error": "RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [8, 32, 128, 128]], which is output 0 of torch::autograd::CopyBackwards, is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True, check_nan=False)."
+     },
+     "patched": {
+      "ran": true,
+      "loss": 3.631871461868286,
+      "loss_second_copy": 3.631871461868286
+     },
+     "shared_patched_vs_plain": {
+      "vec_L3": {
+       "cos": 0.9999999999925204,
+       "rel": 3.899300749745316e-06,
+       "norm_plain": 5.695448391787116
+      },
+      "vec_L6": {
+       "cos": 0.9999999999912992,
+       "rel": 4.173005672799066e-06,
+       "norm_plain": 3.1889106485684855
+      },
+      "vec_L9": {
+       "cos": 0.9999999999950817,
+       "rel": 3.198228970181196e-06,
+       "norm_plain": 2.6214936385621193
+      },
+      "vec_L11": {
+       "cos": 0.9999999999964292,
+       "rel": 2.7077028595218217e-06,
+       "norm_plain": 2.4988461886473727
+      },
+      "vec_L15": {
+       "cos": 0.9999999999959451,
+       "rel": 2.8724795316793983e-06,
+       "norm_plain": 1.6698973024273351
+      },
+      "vec_L18": {
+       "cos": 0.9999999999957541,
+       "rel": 2.944953366296506e-06,
+       "norm_plain": 1.0083092851028368
+      },
+      "vec_L21": {
+       "cos": 0.9999999999959769,
+       "rel": 2.8589490741037465e-06,
+       "norm_plain": 0.5367595638158855
+      },
+      "vec_L23": {
+       "cos": 0.9999999999966673,
+       "rel": 2.6236269013251334e-06,
+       "norm_plain": 0.3712703902295
+      },
+      "lora_L4_in_proj_qkv.A": {
+       "cos": 0.9999999999985208,
+       "rel": 2.1653282854757067e-06,
+       "norm_plain": 0.9622594283597733
+      },
+      "lora_L4_in_proj_qkv.B": {
+       "cos": 0.9999999999952924,
+       "rel": 3.505112328384639e-06,
+       "norm_plain": 0.6483356350882831
+      },
+      "lora_L20_out_proj.A": {
+       "cos": 0.9999999999933288,
+       "rel": 4.22740712819376e-06,
+       "norm_plain": 0.20074435288433642
+      },
+      "lora_L20_out_proj.B": {
+       "cos": 0.9999999999899518,
+       "rel": 4.574250350349891e-06,
+       "norm_plain": 0.16116868530008185
+      },
+      "lora_L7_q_proj.A": {
+       "cos": 0.9999999999940417,
+       "rel": 3.635523978390794e-06,
+       "norm_plain": 0.5932580676760572
+      },
+      "lora_L7_q_proj.B": {
+       "cos": 0.9999999999811165,
+       "rel": 6.143138027511025e-06,
+       "norm_plain": 0.29414000558520575
+      },
+      "lora_L10_up_proj.A": {
+       "cos": 0.9999999999947795,
+       "rel": 3.534178417569197e-06,
+       "norm_plain": 0.6152591883725664
+      },
+      "lora_L10_up_proj.B": {
+       "cos": 0.9999999999942594,
+       "rel": 3.450223230039774e-06,
+       "norm_plain": 0.9478349281407795
+      }
+     },
+     "shared_patched_copy2_vs_copy1": {
+      "vec_L3": {
+       "cos": 0.9999999999999266,
+       "rel": 4.0096186364993764e-07,
+       "norm_plain": 5.695445583001559
+      },
+      "vec_L6": {
+       "cos": 0.9999999999999318,
+       "rel": 3.756650446637642e-07,
+       "norm_plain": 3.1889103375254972
+      },
+      "vec_L9": {
+       "cos": 0.9999999999999543,
+       "rel": 3.0758104709792716e-07,
+       "norm_plain": 2.621492000936584
+      },
+      "vec_L11": {
+       "cos": 0.9999999999999716,
+       "rel": 2.467719977542745e-07,
+       "norm_plain": 2.4988451063055153
+      },
+      "vec_L15": {
+       "cos": 0.9999999999999749,
+       "rel": 2.3186801549381907e-07,
+       "norm_plain": 1.66989668314661
+      },
+      "vec_L18": {
+       "cos": 0.9999999999999772,
+       "rel": 2.203904500808356e-07,
+       "norm_plain": 1.0083088590998768
+      },
+      "vec_L21": {
+       "cos": 0.9999999999999817,
+       "rel": 1.976312755022078e-07,
+       "norm_plain": 0.5367593744202401
+      },
+      "vec_L23": {
+       "cos": 0.9999999999999851,
+       "rel": 1.8382386815299982e-07,
+       "norm_plain": 0.3712702183712946
+      },
+      "lora_L4_in_proj_qkv.A": {
+       "cos": 0.9999999999999665,
+       "rel": 2.5600639745278065e-07,
+       "norm_plain": 0.9622581603054585
+      },
+      "lora_L4_in_proj_qkv.B": {
+       "cos": 0.9999999999999558,
+       "rel": 2.980956201355037e-07,
+       "norm_plain": 0.6483345326844941
+      },
+      "lora_L20_out_proj.A": {
+       "cos": 0.9999999999999702,
+       "rel": 2.2877265117205924e-07,
+       "norm_plain": 0.20074392526605547
+      },
+      "lora_L20_out_proj.B": {
+       "cos": 0.9999999999999549,
+       "rel": 2.79819856761785e-07,
+       "norm_plain": 0.16116853780396914
+      },
+      "lora_L7_q_proj.A": {
+       "cos": 0.9999999999999334,
+       "rel": 3.548476139996096e-07,
+       "norm_plain": 0.5932573893465422
+      },
+      "lora_L7_q_proj.B": {
+       "cos": 0.9999999999998347,
+       "rel": 5.486844155411947e-07,
+       "norm_plain": 0.29413999105603217
+      },
+      "lora_L10_up_proj.A": {
+       "cos": 0.9999999999999142,
+       "rel": 4.1226734098587495e-07,
+       "norm_plain": 0.6152583058225599
+      },
+      "lora_L10_up_proj.B": {
+       "cos": 0.9999999999999277,
+       "rel": 3.330442355176358e-07,
+       "norm_plain": 0.9478342856089577
+      }
+     },
+     "shared_unpatched_vs_plain": null,
+     "loss_rel_diff": 0.0,
+     "three_pass_step": {
+      "plain": {
+       "seconds_calls": [
+        2.3942,
+        2.3844,
+        2.3851
+       ],
+       "seconds_last": 2.3851,
+       "peak_gb": 63.79
+      },
+      "shared": {
+       "seconds_calls": [
+        1.0634,
+        1.0632,
+        1.0641
+       ],
+       "seconds_last": 1.0641,
+       "peak_gb": 44.07
+      }
+     }
+    },
+    "single": {
+     "info": {
+      "B": 1,
+      "prefix_len": 157,
+      "suffix_len": 87,
+      "prefix_tokens": 157,
+      "suffix_tokens": 87,
+      "scored_positions": 79
+     },
+     "plain_loss": 3.75400972366333,
+     "unpatched": {
+      "ran": false,
+      "error": "RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [1, 32, 128, 128]], which is output 0 of torch::autograd::CopyBackwards, is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True, check_nan=False)."
+     },
+     "patched": {
+      "ran": true,
+      "loss": 3.7540102005004883,
+      "loss_second_copy": 3.7540102005004883
+     },
+     "shared_patched_vs_plain": {
+      "vec_L3": {
+       "cos": 0.9999999999933612,
+       "rel": 3.7441893455239643e-06,
+       "norm_plain": 6.441046347108407
+      },
+      "vec_L6": {
+       "cos": 0.9999999999909549,
+       "rel": 4.262445268721074e-06,
+       "norm_plain": 3.8062844748698272
+      },
+      "vec_L9": {
+       "cos": 0.9999999999931255,
+       "rel": 3.7138654190152556e-06,
+       "norm_plain": 3.1768935853022233
+      },
+      "vec_L11": {
+       "cos": 0.9999999999952867,
+       "rel": 3.081956606318141e-06,
+       "norm_plain": 2.9563588605916316
+      },
+      "vec_L15": {
+       "cos": 0.9999999999952579,
+       "rel": 3.097620406787332e-06,
+       "norm_plain": 1.9117629309755984
+      },
+      "vec_L18": {
+       "cos": 0.9999999999953282,
+       "rel": 3.0570947199269974e-06,
+       "norm_plain": 1.1729502360008663
+      },
+      "vec_L21": {
+       "cos": 0.9999999999964378,
+       "rel": 2.6714861543912006e-06,
+       "norm_plain": 0.6243501889025567
+      },
+      "vec_L23": {
+       "cos": 0.9999999999969535,
+       "rel": 2.469011691534038e-06,
+       "norm_plain": 0.4319720266523724
+      },
+      "lora_L4_in_proj_qkv.A": {
+       "cos": 0.9999999999963219,
+       "rel": 3.025201026396527e-06,
+       "norm_plain": 1.0957587724422895
+      },
+      "lora_L4_in_proj_qkv.B": {
+       "cos": 0.9999999999958978,
+       "rel": 3.2175123764906986e-06,
+       "norm_plain": 0.6964173569770558
+      },
+      "lora_L20_out_proj.A": {
+       "cos": 0.9999999999947529,
+       "rel": 3.2484887347984652e-06,
+       "norm_plain": 0.2205702667987865
+      },
+      "lora_L20_out_proj.B": {
+       "cos": 0.9999999999920229,
+       "rel": 3.994358232798826e-06,
+       "norm_plain": 0.18549001006254875
+      },
+      "lora_L7_q_proj.A": {
+       "cos": 0.9999999999933398,
+       "rel": 3.648174375039305e-06,
+       "norm_plain": 0.6840356214590539
+      },
+      "lora_L7_q_proj.B": {
+       "cos": 0.9999999999864542,
+       "rel": 5.203644446598232e-06,
+       "norm_plain": 0.3688910046554598
+      },
+      "lora_L10_up_proj.A": {
+       "cos": 0.9999999999899846,
+       "rel": 4.536728436936545e-06,
+       "norm_plain": 0.7819424709239537
+      },
+      "lora_L10_up_proj.B": {
+       "cos": 0.9999999999915191,
+       "rel": 4.129446783069542e-06,
+       "norm_plain": 1.0866477315771588
+      }
+     },
+     "shared_patched_copy2_vs_copy1": {
+      "vec_L3": {
+       "cos": 0.9999999999995927,
+       "rel": 9.081510886106683e-07,
+       "norm_plain": 6.441051880368611
+      },
+      "vec_L6": {
+       "cos": 0.9999999999996225,
+       "rel": 8.735661374290517e-07,
+       "norm_plain": 3.8062855172909167
+      },
+      "vec_L9": {
+       "cos": 0.9999999999997644,
+       "rel": 6.884314963679884e-07,
+       "norm_plain": 3.176894232822338
+      },
+      "vec_L11": {
+       "cos": 0.999999999999843,
+       "rel": 5.628859783719875e-07,
+       "norm_plain": 2.956359640761771
+      },
+      "vec_L15": {
+       "cos": 0.9999999999998603,
+       "rel": 5.314474616173868e-07,
+       "norm_plain": 1.911763559297317
+      },
+      "vec_L18": {
+       "cos": 0.9999999999998748,
+       "rel": 5.031632192493547e-07,
+       "norm_plain": 1.1729502424104552
+      },
+      "vec_L21": {
+       "cos": 0.9999999999998891,
+       "rel": 4.73060970805701e-07,
+       "norm_plain": 0.624350124684046
+      },
+      "vec_L23": {
+       "cos": 0.999999999999905,
+       "rel": 4.3921081298708927e-07,
+       "norm_plain": 0.4319720286247975
+      },
+      "lora_L4_in_proj_qkv.A": {
+       "cos": 0.9999999999999217,
+       "rel": 4.1251189975138174e-07,
+       "norm_plain": 1.0957602456407545
+      },
+      "lora_L4_in_proj_qkv.B": {
+       "cos": 0.9999999999997613,
+       "rel": 7.316560880842397e-07,
+       "norm_plain": 0.6964183827684295
+      },
+      "lora_L20_out_proj.A": {
+       "cos": 0.9999999999998369,
+       "rel": 6.096975532353614e-07,
+       "norm_plain": 0.22057020990299242
+      },
+      "lora_L20_out_proj.B": {
+       "cos": 0.9999999999998106,
+       "rel": 6.032775947278958e-07,
+       "norm_plain": 0.18548998852828746
+      },
+      "lora_L7_q_proj.A": {
+       "cos": 0.9999999999995737,
+       "rel": 9.44225387265923e-07,
+       "norm_plain": 0.6840356415077694
+      },
+      "lora_L7_q_proj.B": {
+       "cos": 0.9999999999993657,
+       "rel": 1.1204273889943169e-06,
+       "norm_plain": 0.3688910532019145
+      },
+      "lora_L10_up_proj.A": {
+       "cos": 0.9999999999996716,
+       "rel": 8.193971788745153e-07,
+       "norm_plain": 0.7819430594936713
+      },
+      "lora_L10_up_proj.B": {
+       "cos": 0.9999999999996931,
+       "rel": 7.624799450669998e-07,
+       "norm_plain": 1.0866481176604512
+      }
+     },
+     "shared_unpatched_vs_plain": null,
+     "loss_rel_diff": 1.2702075735110405e-07,
+     "three_pass_step": {
+      "plain": {
+       "seconds_calls": [
+        0.3153,
+        0.3158,
+        0.3163
+       ],
+       "seconds_last": 0.3163,
+       "peak_gb": 31.47
+      },
+      "shared": {
+       "seconds_calls": [
+        0.2851,
+        0.2844,
+        0.2851
+       ],
+       "seconds_last": 0.2851,
+       "peak_gb": 30.72
+      }
+     }
+    }
+   }
+  },
+  "F_bfloat16": {
+   "name": "F_bfloat16",
+   "versions": {
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1"
+   },
+   "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+   "fla_importable": true,
+   "tail_tokens": [
+    "<|im_end|>",
+    "\u010a",
+    "<|im_start|>",
+    "assistant",
+    "\u010a",
+    "<think>",
+    "\u010a\u010a",
+    "</think>",
+    "\u010a\u010a"
+   ],
+   "cases": {
+    "batch8": {
+     "info": {
+      "B": 8,
+      "prefix_len": 237,
+      "suffix_len": 87,
+      "prefix_tokens": 1567,
+      "suffix_tokens": 696,
+      "scored_positions": 632
+     },
+     "plain_loss": 3.6315770149230957,
+     "unpatched": {
+      "ran": false,
+      "error": "RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [8, 32, 128, 128]], which is output 0 of torch::autograd::CopyBackwards, is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True, check_nan=False)."
+     },
+     "patched": {
+      "ran": true,
+      "loss": 3.6311957836151123,
+      "loss_second_copy": 3.6311957836151123
+     },
+     "shared_patched_vs_plain": {
+      "vec_L3": {
+       "cos": 0.9998426162989471,
+       "rel": 0.019196978577131228,
+       "norm_plain": 5.682973661000908
+      },
+      "vec_L6": {
+       "cos": 0.999792920711858,
+       "rel": 0.020759066650768185,
+       "norm_plain": 3.1834012814967094
+      },
+      "vec_L9": {
+       "cos": 0.999839223691073,
+       "rel": 0.018399158287277756,
+       "norm_plain": 2.617220911805602
+      },
+      "vec_L11": {
+       "cos": 0.9998796690462083,
+       "rel": 0.01575009325606382,
+       "norm_plain": 2.497496779451214
+      },
+      "vec_L15": {
+       "cos": 0.9998981331759037,
+       "rel": 0.014366599406037009,
+       "norm_plain": 1.6703645543110932
+      },
+      "vec_L18": {
+       "cos": 0.9999100218858066,
+       "rel": 0.013414491270355385,
+       "norm_plain": 1.0082023228000485
+      },
+      "vec_L21": {
+       "cos": 0.9999139705313584,
+       "rel": 0.013175151817231322,
+       "norm_plain": 0.5364400453687452
+      },
+      "vec_L23": {
+       "cos": 0.9999213955129144,
+       "rel": 0.012612248133099002,
+       "norm_plain": 0.3708996744495308
+      },
+      "lora_L4_in_proj_qkv.A": {
+       "cos": 0.9999493870817433,
+       "rel": 0.014614428589065798,
+       "norm_plain": 0.9598789235927557
+      },
+      "lora_L4_in_proj_qkv.B": {
+       "cos": 0.9999120365447988,
+       "rel": 0.015110339806998174,
+       "norm_plain": 0.6486686057782727
+      },
+      "lora_L20_out_proj.A": {
+       "cos": 0.9998589040471748,
+       "rel": 0.017036921994483294,
+       "norm_plain": 0.19997933086948635
+      },
+      "lora_L20_out_proj.B": {
+       "cos": 0.9997724511883946,
+       "rel": 0.021890106721508883,
+       "norm_plain": 0.1604346907424828
+      },
+      "lora_L7_q_proj.A": {
+       "cos": 0.9997916338001056,
+       "rel": 0.021170483249718385,
+       "norm_plain": 0.59206295830741
+      },
+      "lora_L7_q_proj.B": {
+       "cos": 0.9995615202074223,
+       "rel": 0.030072556810025016,
+       "norm_plain": 0.2916410680096522
+      },
+      "lora_L10_up_proj.A": {
+       "cos": 0.9998438350644168,
+       "rel": 0.019018276605391,
+       "norm_plain": 0.6155315328793985
+      },
+      "lora_L10_up_proj.B": {
+       "cos": 0.9998070393105106,
+       "rel": 0.020299361122942103,
+       "norm_plain": 0.9464263690522776
+      }
+     },
+     "shared_patched_copy2_vs_copy1": {
+      "vec_L3": {
+       "cos": 0.9999999999999998,
+       "rel": 0.0,
+       "norm_plain": 5.7237557794349065
+      },
+      "vec_L6": {
+       "cos": 0.9999999999999999,
+       "rel": 0.0,
+       "norm_plain": 3.1957991158288785
+      },
+      "vec_L9": {
+       "cos": 1.0,
+       "rel": 0.0,
+       "norm_plain": 2.6275919192178883
+      },
+      "vec_L11": {
+       "cos": 0.9999999999999998,
+       "rel": 0.0,
+       "norm_plain": 2.5039984412732434
+      },
+      "vec_L15": {
+       "cos": 1.0,
+       "rel": 0.0,
+       "norm_plain": 1.6674619837935567
+      },
+      "vec_L18": {
+       "cos": 0.9999999999999998,
+       "rel": 0.0,
+       "norm_plain": 1.0080903692867562
+      },
+      "vec_L21": {
+       "cos": 0.9999999999999998,
+       "rel": 0.0,
+       "norm_plain": 0.5370581049397168
+      },
+      "vec_L23": {
+       "cos": 0.9999999999999998,
+       "rel": 0.0,
+       "norm_plain": 0.3713771760130618
+      },
+      "lora_L4_in_proj_qkv.A": {
+       "cos": 0.9999999999999964,
+       "rel": 0.0,
+       "norm_plain": 0.9700049785898848
+      },
+      "lora_L4_in_proj_qkv.B": {
+       "cos": 0.9999999999999918,
+       "rel": 0.0,
+       "norm_plain": 0.6533072620559441
+      },
+      "lora_L20_out_proj.A": {
+       "cos": 0.9999999999999956,
+       "rel": 0.0,
+       "norm_plain": 0.20051972843678137
+      },
+      "lora_L20_out_proj.B": {
+       "cos": 0.9999999999999947,
+       "rel": 0.0,
+       "norm_plain": 0.16118629120853317
+      },
+      "lora_L7_q_proj.A": {
+       "cos": 0.9999999999999971,
+       "rel": 0.0,
+       "norm_plain": 0.5952625574334683
+      },
+      "lora_L7_q_proj.B": {
+       "cos": 0.9999999999999839,
+       "rel": 0.0,
+       "norm_plain": 0.29304510607993245
+      },
+      "lora_L10_up_proj.A": {
+       "cos": 0.9999999999999956,
+       "rel": 0.0,
+       "norm_plain": 0.6197612141659348
+      },
+      "lora_L10_up_proj.B": {
+       "cos": 0.9999999999999853,
+       "rel": 0.0,
+       "norm_plain": 0.9510862608450233
+      }
+     },
+     "shared_unpatched_vs_plain": null,
+     "loss_rel_diff": 0.00010497679284146246,
+     "three_pass_step": {
+      "plain": {
+       "seconds_calls": [
+        0.5761,
+        0.5706,
+        0.5708
+       ],
+       "seconds_last": 0.5708,
+       "peak_gb": 27.15
+      },
+      "shared": {
+       "seconds_calls": [
+        0.2748,
+        0.274,
+        0.2731
+       ],
+       "seconds_last": 0.2731,
+       "peak_gb": 20.04
+      }
+     }
+    },
+    "single": {
+     "info": {
+      "B": 1,
+      "prefix_len": 157,
+      "suffix_len": 87,
+      "prefix_tokens": 157,
+      "suffix_tokens": 87,
+      "scored_positions": 79
+     },
+     "plain_loss": 3.7470803260803223,
+     "unpatched": {
+      "ran": false,
+      "error": "RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [1, 32, 128, 128]], which is output 0 of torch::autograd::CopyBackwards, is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True, check_nan=False)."
+     },
+     "patched": {
+      "ran": true,
+      "loss": 3.7600152492523193,
+      "loss_second_copy": 3.7600152492523193
+     },
+     "shared_patched_vs_plain": {
+      "vec_L3": {
+       "cos": 0.9982867950196908,
+       "rel": 0.06070212180618798,
+       "norm_plain": 6.303117986318729
+      },
+      "vec_L6": {
+       "cos": 0.9981514252185211,
+       "rel": 0.06261235443681874,
+       "norm_plain": 3.755110304109505
+      },
+      "vec_L9": {
+       "cos": 0.9986930926691937,
+       "rel": 0.05212258119482311,
+       "norm_plain": 3.1470993960395206
+      },
+      "vec_L11": {
+       "cos": 0.999046641720627,
+       "rel": 0.04434699801782961,
+       "norm_plain": 2.9183736467864465
+      },
+      "vec_L15": {
+       "cos": 0.9992846170773344,
+       "rel": 0.03812737434393567,
+       "norm_plain": 1.9023333556114341
+      },
+      "vec_L18": {
+       "cos": 0.9994221551198537,
+       "rel": 0.03403165139335316,
+       "norm_plain": 1.1739768356917297
+      },
+      "vec_L21": {
+       "cos": 0.9995203748032011,
+       "rel": 0.03122683080612081,
+       "norm_plain": 0.6251861904952164
+      },
+      "vec_L23": {
+       "cos": 0.9995831470883502,
+       "rel": 0.029379983461474583,
+       "norm_plain": 0.4315198932374555
+      },
+      "lora_L4_in_proj_qkv.A": {
+       "cos": 0.9993483213677253,
+       "rel": 0.040476803170258,
+       "norm_plain": 1.0734858588747507
+      },
+      "lora_L4_in_proj_qkv.B": {
+       "cos": 0.9989684335416302,
+       "rel": 0.04642903396904945,
+       "norm_plain": 0.6843733417383597
+      },
+      "lora_L20_out_proj.A": {
+       "cos": 0.9990797566076179,
+       "rel": 0.04310283865393034,
+       "norm_plain": 0.22125045624022022
+      },
+      "lora_L20_out_proj.B": {
+       "cos": 0.998726043875095,
+       "rel": 0.050515792152340484,
+       "norm_plain": 0.18597586082447634
+      },
+      "lora_L7_q_proj.A": {
+       "cos": 0.9982187813591882,
+       "rel": 0.06548239594018648,
+       "norm_plain": 0.6730993981091591
+      },
+      "lora_L7_q_proj.B": {
+       "cos": 0.9960198141360357,
+       "rel": 0.09042268619224796,
+       "norm_plain": 0.3624413007999335
+      },
+      "lora_L10_up_proj.A": {
+       "cos": 0.9983778320361019,
+       "rel": 0.05957324580040273,
+       "norm_plain": 0.7653587168890974
+      },
+      "lora_L10_up_proj.B": {
+       "cos": 0.9985666143087908,
+       "rel": 0.05377001215204402,
+       "norm_plain": 1.0732879456557904
+      }
+     },
+     "shared_patched_copy2_vs_copy1": {
+      "vec_L3": {
+       "cos": 0.9999343882430641,
+       "rel": 0.01148042247790731,
+       "norm_plain": 6.394202624639772
+      },
+      "vec_L6": {
+       "cos": 0.9999366791379669,
+       "rel": 0.0112559304911297,
+       "norm_plain": 3.8046921052973435
+      },
+      "vec_L9": {
+       "cos": 0.9999594474408202,
+       "rel": 0.009009462320105039,
+       "norm_plain": 3.1751818578657964
+      },
+      "vec_L11": {
+       "cos": 0.9999664329255975,
+       "rel": 0.00820051356478673,
+       "norm_plain": 2.938356308068289
+      },
+      "vec_L15": {
+       "cos": 0.9999743477699005,
+       "rel": 0.0071645773446866855,
+       "norm_plain": 1.9101830928708363
+      },
+      "vec_L18": {
+       "cos": 0.999971853046216,
+       "rel": 0.007512232413464895,
+       "norm_plain": 1.1752620002752203
+      },
+      "vec_L21": {
+       "cos": 0.9999735056620238,
+       "rel": 0.007310475201703971,
+       "norm_plain": 0.6273944628343718
+      },
+      "vec_L23": {
+       "cos": 0.9999755115669826,
+       "rel": 0.007002701940599115,
+       "norm_plain": 0.4336897713246022
+      },
+      "lora_L4_in_proj_qkv.A": {
+       "cos": 0.9999841091590199,
+       "rel": 0.005772968892557309,
+       "norm_plain": 1.092447178440802
+      },
+      "lora_L4_in_proj_qkv.B": {
+       "cos": 0.9999606660461829,
+       "rel": 0.009067590844845272,
+       "norm_plain": 0.6902879975289652
+      },
+      "lora_L20_out_proj.A": {
+       "cos": 0.9999575551631317,
+       "rel": 0.009229198638160753,
+       "norm_plain": 0.2201025825192336
+      },
+      "lora_L20_out_proj.B": {
+       "cos": 0.9999647637627419,
+       "rel": 0.00840978572020565,
+       "norm_plain": 0.1861773014421808
+      },
+      "lora_L7_q_proj.A": {
+       "cos": 0.9998899812989817,
+       "rel": 0.01506258065313212,
+       "norm_plain": 0.6900701509536508
+      },
+      "lora_L7_q_proj.B": {
+       "cos": 0.9998841539787241,
+       "rel": 0.015249832251596205,
+       "norm_plain": 0.3665160728967756
+      },
+      "lora_L10_up_proj.A": {
+       "cos": 0.9999525645716513,
+       "rel": 0.009861216068456635,
+       "norm_plain": 0.7775331772878116
+      },
+      "lora_L10_up_proj.B": {
+       "cos": 0.9999548519315181,
+       "rel": 0.009546378784012563,
+       "norm_plain": 1.0772743288635986
+      }
+     },
+     "shared_unpatched_vs_plain": null,
+     "loss_rel_diff": 0.003452000503423368,
+     "three_pass_step": {
+      "plain": {
+       "seconds_calls": [
+        0.1613,
+        0.163,
+        0.1604
+       ],
+       "seconds_last": 0.1604,
+       "peak_gb": 13.91
+      },
+      "shared": {
+       "seconds_calls": [
+        0.199,
+        0.2003,
+        0.1999
+       ],
+       "seconds_last": 0.1999,
+       "peak_gb": 13.42
+      }
+     }
+    }
+   }
+  },
+  "F_float32": {
+   "name": "F_float32",
+   "versions": {
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1"
+   },
+   "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+   "fla_importable": true,
+   "tail_tokens": [
+    "<|im_end|>",
+    "\u010a",
+    "<|im_start|>",
+    "assistant",
+    "\u010a",
+    "<think>",
+    "\u010a\u010a",
+    "</think>",
+    "\u010a\u010a"
+   ],
+   "cases": {
+    "batch8": {
+     "info": {
+      "B": 8,
+      "prefix_len": 237,
+      "suffix_len": 87,
+      "prefix_tokens": 1567,
+      "suffix_tokens": 696,
+      "scored_positions": 632
+     },
+     "plain_loss": 3.6311843395233154,
+     "unpatched": {
+      "ran": false,
+      "error": "RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [8, 32, 128, 128]], which is output 0 of torch::autograd::CopyBackwards, is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True, check_nan=False)."
+     },
+     "patched": {
+      "ran": true,
+      "loss": 3.6309962272644043,
+      "loss_second_copy": 3.6309962272644043
+     },
+     "shared_patched_vs_plain": {
+      "vec_L3": {
+       "cos": 0.9999995873760791,
+       "rel": 0.0009108549301170447,
+       "norm_plain": 5.687622487129872
+      },
+      "vec_L6": {
+       "cos": 0.9999996010388825,
+       "rel": 0.0009306667600446419,
+       "norm_plain": 3.188102932190294
+      },
+      "vec_L9": {
+       "cos": 0.9999997087104605,
+       "rel": 0.0008248875283096837,
+       "norm_plain": 2.6208460427892586
+      },
+      "vec_L11": {
+       "cos": 0.9999997453708551,
+       "rel": 0.0007535996196325819,
+       "norm_plain": 2.4991519580652377
+      },
+      "vec_L15": {
+       "cos": 0.9999997079140373,
+       "rel": 0.0007782504879188342,
+       "norm_plain": 1.6699413760938535
+      },
+      "vec_L18": {
+       "cos": 0.9999996875114596,
+       "rel": 0.0007979328371479367,
+       "norm_plain": 1.0080991719908237
+      },
+      "vec_L21": {
+       "cos": 0.9999996913024465,
+       "rel": 0.0007976184628679867,
+       "norm_plain": 0.5365146201250608
+      },
+      "vec_L23": {
+       "cos": 0.999999699049795,
+       "rel": 0.0007873840827432282,
+       "norm_plain": 0.37103886348999093
+      },
+      "lora_L4_in_proj_qkv.A": {
+       "cos": 0.9999998529285654,
+       "rel": 0.0006470344410184591,
+       "norm_plain": 0.9599329697766823
+      },
+      "lora_L4_in_proj_qkv.B": {
+       "cos": 0.9999996909794393,
+       "rel": 0.0009795801321679086,
+       "norm_plain": 0.6459949155413267
+      },
+      "lora_L20_out_proj.A": {
+       "cos": 0.9999992787479487,
+       "rel": 0.0012013584631692471,
+       "norm_plain": 0.20046698524362408
+      },
+      "lora_L20_out_proj.B": {
+       "cos": 0.9999989828828526,
+       "rel": 0.001441043227671752,
+       "norm_plain": 0.1608791555752999
+      },
+      "lora_L7_q_proj.A": {
+       "cos": 0.9999995350674852,
+       "rel": 0.0010611051167413142,
+       "norm_plain": 0.5931038372869254
+      },
+      "lora_L7_q_proj.B": {
+       "cos": 0.999999183967542,
+       "rel": 0.001298671708187909,
+       "norm_plain": 0.2939184108019571
+      },
+      "lora_L10_up_proj.A": {
+       "cos": 0.9999995826918118,
+       "rel": 0.0009334771435634069,
+       "norm_plain": 0.6150441279692266
+      },
+      "lora_L10_up_proj.B": {
+       "cos": 0.9999996654272857,
+       "rel": 0.0008468110328912574,
+       "norm_plain": 0.9480699304860489
+      }
+     },
+     "shared_patched_copy2_vs_copy1": {
+      "vec_L3": {
+       "cos": 0.999999994806372,
+       "rel": 0.00010193449778306114,
+       "norm_plain": 5.687997801431958
+      },
+      "vec_L6": {
+       "cos": 0.9999999937044455,
+       "rel": 0.00011224949470020508,
+       "norm_plain": 3.187268969891785
+      },
+      "vec_L9": {
+       "cos": 0.9999999965081099,
+       "rel": 8.392943003153476e-05,
+       "norm_plain": 2.6200254091889774
+      },
+      "vec_L11": {
+       "cos": 0.9999999981613992,
+       "rel": 6.156159795232255e-05,
+       "norm_plain": 2.4985460615729203
+      },
+      "vec_L15": {
+       "cos": 0.9999999989428878,
+       "rel": 4.600701790668085e-05,
+       "norm_plain": 1.669696015587729
+      },
+      "vec_L18": {
+       "cos": 0.9999999992948849,
+       "rel": 3.755343623300622e-05,
+       "norm_plain": 1.0079897220236294
+      },
+      "vec_L21": {
+       "cos": 0.9999999994760919,
+       "rel": 3.238075128640451e-05,
+       "norm_plain": 0.5364408909399282
+      },
+      "vec_L23": {
+       "cos": 0.9999999997069576,
+       "rel": 2.421012279678181e-05,
+       "norm_plain": 0.37098887038425404
+      },
+      "lora_L4_in_proj_qkv.A": {
+       "cos": 0.9999999961058819,
+       "rel": 8.910087779680769e-05,
+       "norm_plain": 0.9602715512949505
+      },
+      "lora_L4_in_proj_qkv.B": {
+       "cos": 0.9999999935445892,
+       "rel": 0.0001136259095339927,
+       "norm_plain": 0.6463722424563588
+      },
+      "lora_L20_out_proj.A": {
+       "cos": 0.9999999987332107,
+       "rel": 5.340689933746327e-05,
+       "norm_plain": 0.2004723619973547
+      },
+      "lora_L20_out_proj.B": {
+       "cos": 0.9999999988341335,
+       "rel": 4.829595319069158e-05,
+       "norm_plain": 0.16084587570509185
+      },
+      "lora_L7_q_proj.A": {
+       "cos": 0.9999999941246341,
+       "rel": 0.0001084010382911911,
+       "norm_plain": 0.592840930183251
+      },
+      "lora_L7_q_proj.B": {
+       "cos": 0.9999999840955465,
+       "rel": 0.00017963434417923627,
+       "norm_plain": 0.29384956509207183
+      },
+      "lora_L10_up_proj.A": {
+       "cos": 0.9999999955584583,
+       "rel": 9.425559729304904e-05,
+       "norm_plain": 0.6149259441040068
+      },
+      "lora_L10_up_proj.B": {
+       "cos": 0.9999999957006857,
+       "rel": 9.283686346980036e-05,
+       "norm_plain": 0.9478620235504296
+      }
+     },
+     "shared_unpatched_vs_plain": null,
+     "loss_rel_diff": 5.180465691692956e-05,
+     "three_pass_step": {
+      "plain": {
+       "seconds_calls": [
+        1.9906,
+        1.9921,
+        1.9928
+       ],
+       "seconds_last": 1.9928,
+       "peak_gb": 45.97
+      },
+      "shared": {
+       "seconds_calls": [
+        0.9477,
+        0.9458,
+        0.9455
+       ],
+       "seconds_last": 0.9455,
+       "peak_gb": 32.95
+      }
+     }
+    },
+    "single": {
+     "info": {
+      "B": 1,
+      "prefix_len": 157,
+      "suffix_len": 87,
+      "prefix_tokens": 157,
+      "suffix_tokens": 87,
+      "scored_positions": 79
+     },
+     "plain_loss": 3.7537734508514404,
+     "unpatched": {
+      "ran": false,
+      "error": "RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [1, 32, 128, 128]], which is output 0 of torch::autograd::CopyBackwards, is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True, check_nan=False)."
+     },
+     "patched": {
+      "ran": true,
+      "loss": 3.753506898880005,
+      "loss_second_copy": 3.753506898880005
+     },
+     "shared_patched_vs_plain": {
+      "vec_L3": {
+       "cos": 0.9999987254077535,
+       "rel": 0.0017011978791248484,
+       "norm_plain": 6.437979713783283
+      },
+      "vec_L6": {
+       "cos": 0.9999987257294738,
+       "rel": 0.0015972869530085942,
+       "norm_plain": 3.8079725440432686
+      },
+      "vec_L9": {
+       "cos": 0.9999990701750836,
+       "rel": 0.0013637221010329766,
+       "norm_plain": 3.178560554315077
+      },
+      "vec_L11": {
+       "cos": 0.9999993238559224,
+       "rel": 0.0011680599472803802,
+       "norm_plain": 2.959649089744313
+      },
+      "vec_L15": {
+       "cos": 0.9999993067014505,
+       "rel": 0.0011804490912995292,
+       "norm_plain": 1.9126479354966026
+      },
+      "vec_L18": {
+       "cos": 0.9999993536057338,
+       "rel": 0.0011429942732050767,
+       "norm_plain": 1.1728765035562656
+      },
+      "vec_L21": {
+       "cos": 0.9999994360434667,
+       "rel": 0.001073489303325901,
+       "norm_plain": 0.6240379670479813
+      },
+      "vec_L23": {
+       "cos": 0.9999994999660289,
+       "rel": 0.001018010818558362,
+       "norm_plain": 0.43174220914802564
+      },
+      "lora_L4_in_proj_qkv.A": {
+       "cos": 0.9999994856343211,
+       "rel": 0.0018219082957138873,
+       "norm_plain": 1.0947213955008515
+      },
+      "lora_L4_in_proj_qkv.B": {
+       "cos": 0.9999990565572727,
+       "rel": 0.001996222416264704,
+       "norm_plain": 0.6949460314572194
+      },
+      "lora_L20_out_proj.A": {
+       "cos": 0.9999988737312786,
+       "rel": 0.0015023362723534505,
+       "norm_plain": 0.22012424075817644
+      },
+      "lora_L20_out_proj.B": {
+       "cos": 0.9999985844624457,
+       "rel": 0.001697059408358349,
+       "norm_plain": 0.18516700836948768
+      },
+      "lora_L7_q_proj.A": {
+       "cos": 0.9999986880905709,
+       "rel": 0.0019133597787661467,
+       "norm_plain": 0.6829792455449883
+      },
+      "lora_L7_q_proj.B": {
+       "cos": 0.9999977161640426,
+       "rel": 0.0021486593345959467,
+       "norm_plain": 0.369112166543077
+      },
+      "lora_L10_up_proj.A": {
+       "cos": 0.9999993743120053,
+       "rel": 0.001120525920805615,
+       "norm_plain": 0.7829472743295551
+      },
+      "lora_L10_up_proj.B": {
+       "cos": 0.9999991191673445,
+       "rel": 0.0013276380818442162,
+       "norm_plain": 1.088033263489577
+      }
+     },
+     "shared_patched_copy2_vs_copy1": {
+      "vec_L3": {
+       "cos": 0.9999999652716166,
+       "rel": 0.0002736163917575255,
+       "norm_plain": 6.441752369379534
+      },
+      "vec_L6": {
+       "cos": 0.9999999665609385,
+       "rel": 0.00025884643746243853,
+       "norm_plain": 3.8081686926874756
+      },
+      "vec_L9": {
+       "cos": 0.9999999801414455,
+       "rel": 0.0001992936169164551,
+       "norm_plain": 3.1785276127355075
+      },
+      "vec_L11": {
+       "cos": 0.9999999851888325,
+       "rel": 0.00017212953365353275,
+       "norm_plain": 2.9593218456531036
+      },
+      "vec_L15": {
+       "cos": 0.9999999913231961,
+       "rel": 0.00013179028327561643,
+       "norm_plain": 1.9124881545086463
+      },
+      "vec_L18": {
+       "cos": 0.9999999941974347,
+       "rel": 0.00010772763407965675,
+       "norm_plain": 1.172738725568342
+      },
+      "vec_L21": {
+       "cos": 0.9999999958310555,
+       "rel": 9.131558718637347e-05,
+       "norm_plain": 0.6239400044591262
+      },
+      "vec_L23": {
+       "cos": 0.999999997026945,
+       "rel": 7.721946378138395e-05,
+       "norm_plain": 0.4316597598781735
+      },
+      "lora_L4_in_proj_qkv.A": {
+       "cos": 0.9999999790357346,
+       "rel": 0.00024140780507816403,
+       "norm_plain": 1.0963776702815538
+      },
+      "lora_L4_in_proj_qkv.B": {
+       "cos": 0.9999999534409141,
+       "rel": 0.0003278463038307991,
+       "norm_plain": 0.6959519732702963
+      },
+      "lora_L20_out_proj.A": {
+       "cos": 0.9999999918946031,
+       "rel": 0.00012741898931281878,
+       "norm_plain": 0.2201092624150362
+      },
+      "lora_L20_out_proj.B": {
+       "cos": 0.999999990243321,
+       "rel": 0.000139707414668937,
+       "norm_plain": 0.18512578392457815
+      },
+      "lora_L7_q_proj.A": {
+       "cos": 0.9999999721051105,
+       "rel": 0.00023903859944950567,
+       "norm_plain": 0.6822828068423343
+      },
+      "lora_L7_q_proj.B": {
+       "cos": 0.9999999416244447,
+       "rel": 0.0003422188615372222,
+       "norm_plain": 0.3690295585286556
+      },
+      "lora_L10_up_proj.A": {
+       "cos": 0.9999999806708976,
+       "rel": 0.00020278659159112672,
+       "norm_plain": 0.7828960270004972
+      },
+      "lora_L10_up_proj.B": {
+       "cos": 0.9999999733154731,
+       "rel": 0.00023102952140857127,
+       "norm_plain": 1.0879986220956865
+      }
+     },
+     "shared_unpatched_vs_plain": null,
+     "loss_rel_diff": 7.100907258403858e-05,
+     "three_pass_step": {
+      "plain": {
+       "seconds_calls": [
+        0.2594,
+        0.2596,
+        0.2596
+       ],
+       "seconds_last": 0.2596,
+       "peak_gb": 26.36
+      },
+      "shared": {
+       "seconds_calls": [
+        0.236,
+        0.2362,
+        0.2364
+       ],
+       "seconds_last": 0.2364,
+       "peak_gb": 25.44
+      }
+     }
+    }
+   }
+  }
+ },
+ "summary": {
+  "R_float32": {
+   "batch8": {
+    "unpatched_ran": false,
+    "unpatched_error": "RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [8, 32, 128, 128]], which is output 0 of torch::autograd::CopyBackwards, is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True, check_nan=False).",
+    "patched_ran": true,
+    "patched_error": null,
+    "loss_rel_diff": 0.0,
+    "min_cos": 0.9999999999811165,
+    "max_rel": 6.143138027511025e-06,
+    "three_pass_step": {
+     "plain": {
+      "seconds_calls": [
+       2.3942,
+       2.3844,
+       2.3851
+      ],
+      "seconds_last": 2.3851,
+      "peak_gb": 63.79
+     },
+     "shared": {
+      "seconds_calls": [
+       1.0634,
+       1.0632,
+       1.0641
+      ],
+      "seconds_last": 1.0641,
+      "peak_gb": 44.07
+     }
+    },
+    "info": {
+     "B": 8,
+     "prefix_len": 237,
+     "suffix_len": 87,
+     "prefix_tokens": 1567,
+     "suffix_tokens": 696,
+     "scored_positions": 632
+    }
+   },
+   "single": {
+    "unpatched_ran": false,
+    "unpatched_error": "RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [1, 32, 128, 128]], which is output 0 of torch::autograd::CopyBackwards, is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True, check_nan=False).",
+    "patched_ran": true,
+    "patched_error": null,
+    "loss_rel_diff": 1.2702075735110405e-07,
+    "min_cos": 0.9999999999864542,
+    "max_rel": 5.203644446598232e-06,
+    "three_pass_step": {
+     "plain": {
+      "seconds_calls": [
+       0.3153,
+       0.3158,
+       0.3163
+      ],
+      "seconds_last": 0.3163,
+      "peak_gb": 31.47
+     },
+     "shared": {
+      "seconds_calls": [
+       0.2851,
+       0.2844,
+       0.2851
+      ],
+      "seconds_last": 0.2851,
+      "peak_gb": 30.72
+     }
+    },
+    "info": {
+     "B": 1,
+     "prefix_len": 157,
+     "suffix_len": 87,
+     "prefix_tokens": 157,
+     "suffix_tokens": 87,
+     "scored_positions": 79
+    }
+   }
+  },
+  "F_bfloat16": {
+   "batch8": {
+    "unpatched_ran": false,
+    "unpatched_error": "RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [8, 32, 128, 128]], which is output 0 of torch::autograd::CopyBackwards, is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True, check_nan=False).",
+    "patched_ran": true,
+    "patched_error": null,
+    "loss_rel_diff": 0.00010497679284146246,
+    "min_cos": 0.9995615202074223,
+    "max_rel": 0.030072556810025016,
+    "three_pass_step": {
+     "plain": {
+      "seconds_calls": [
+       0.5761,
+       0.5706,
+       0.5708
+      ],
+      "seconds_last": 0.5708,
+      "peak_gb": 27.15
+     },
+     "shared": {
+      "seconds_calls": [
+       0.2748,
+       0.274,
+       0.2731
+      ],
+      "seconds_last": 0.2731,
+      "peak_gb": 20.04
+     }
+    },
+    "info": {
+     "B": 8,
+     "prefix_len": 237,
+     "suffix_len": 87,
+     "prefix_tokens": 1567,
+     "suffix_tokens": 696,
+     "scored_positions": 632
+    }
+   },
+   "single": {
+    "unpatched_ran": false,
+    "unpatched_error": "RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [1, 32, 128, 128]], which is output 0 of torch::autograd::CopyBackwards, is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True, check_nan=False).",
+    "patched_ran": true,
+    "patched_error": null,
+    "loss_rel_diff": 0.003452000503423368,
+    "min_cos": 0.9960198141360357,
+    "max_rel": 0.09042268619224796,
+    "three_pass_step": {
+     "plain": {
+      "seconds_calls": [
+       0.1613,
+       0.163,
+       0.1604
+      ],
+      "seconds_last": 0.1604,
+      "peak_gb": 13.91
+     },
+     "shared": {
+      "seconds_calls": [
+       0.199,
+       0.2003,
+       0.1999
+      ],
+      "seconds_last": 0.1999,
+      "peak_gb": 13.42
+     }
+    },
+    "info": {
+     "B": 1,
+     "prefix_len": 157,
+     "suffix_len": 87,
+     "prefix_tokens": 157,
+     "suffix_tokens": 87,
+     "scored_positions": 79
+    }
+   }
+  },
+  "F_float32": {
+   "batch8": {
+    "unpatched_ran": false,
+    "unpatched_error": "RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [8, 32, 128, 128]], which is output 0 of torch::autograd::CopyBackwards, is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True, check_nan=False).",
+    "patched_ran": true,
+    "patched_error": null,
+    "loss_rel_diff": 5.180465691692956e-05,
+    "min_cos": 0.9999989828828526,
+    "max_rel": 0.001441043227671752,
+    "three_pass_step": {
+     "plain": {
+      "seconds_calls": [
+       1.9906,
+       1.9921,
+       1.9928
+      ],
+      "seconds_last": 1.9928,
+      "peak_gb": 45.97
+     },
+     "shared": {
+      "seconds_calls": [
+       0.9477,
+       0.9458,
+       0.9455
+      ],
+      "seconds_last": 0.9455,
+      "peak_gb": 32.95
+     }
+    },
+    "info": {
+     "B": 8,
+     "prefix_len": 237,
+     "suffix_len": 87,
+     "prefix_tokens": 1567,
+     "suffix_tokens": 696,
+     "scored_positions": 632
+    }
+   },
+   "single": {
+    "unpatched_ran": false,
+    "unpatched_error": "RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.cuda.FloatTensor [1, 32, 128, 128]], which is output 0 of torch::autograd::CopyBackwards, is at version 2; expected version 1 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True, check_nan=False).",
+    "patched_ran": true,
+    "patched_error": null,
+    "loss_rel_diff": 7.100907258403858e-05,
+    "min_cos": 0.9999977161640426,
+    "max_rel": 0.0021486593345959467,
+    "three_pass_step": {
+     "plain": {
+      "seconds_calls": [
+       0.2594,
+       0.2596,
+       0.2596
+      ],
+      "seconds_last": 0.2596,
+      "peak_gb": 26.36
+     },
+     "shared": {
+      "seconds_calls": [
+       0.236,
+       0.2362,
+       0.2364
+      ],
+      "seconds_last": 0.2364,
+      "peak_gb": 25.44
+     }
+    },
+    "info": {
+     "B": 1,
+     "prefix_len": 157,
+     "suffix_len": 87,
+     "prefix_tokens": 157,
+     "suffix_tokens": 87,
+     "scored_positions": 79
+    }
+   }
+  }
+ }
+}

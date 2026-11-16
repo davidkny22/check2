@@ -1,0 +1,95 @@
+{
+ "builtin_path": true,
+ "commit": "752ecd05a957806fa578228a9bc25da30352b605",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T17:34:44+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "tiny",
+ "name": "split_training",
+ "planted": false,
+ "seconds": 11.1,
+ "session": null,
+ "started": "2026-11-15T17:34:32+00:00",
+ "tail_position": 0,
+ "tree_clean": true,
+ "values": {
+  "additions_scale": 0.01,
+  "beta": 1.0,
+  "episode_ids": [
+   "high_school_macroeconomics/68:named:snap:B",
+   "econometrics/23:named:snap:D",
+   "college_computer_science/8:reasoned:snap:A",
+   "abstract_algebra/90:reasoned:snap:B",
+   "philosophy/86:reasoned:snap:A",
+   "high_school_mathematics/14:named:snap:D",
+   "college_mathematics/88:named:snap:B",
+   "high_school_physics/56:named:snap:A",
+   "management/6:reasoned:short:C",
+   "econometrics/31:named:short:B",
+   "machine_learning/87:named:short:A",
+   "college_mathematics/88:named:short:B",
+   "astronomy/40:reasoned:short:A",
+   "abstract_algebra/54:named:short:C",
+   "high_school_geography/71:named:short:B",
+   "high_school_statistics/55:reasoned:short:B"
+  ],
+  "episodes": {
+   "short": 8,
+   "snap": 8
+  },
+  "forms": {
+   "shared_prefix": {
+    "batch_rows": [
+     8,
+     8
+    ],
+    "error": null,
+    "green": true,
+    "loss": 6.26689350605011,
+    "loss_relative_difference": 2.32423628922362e-08,
+    "max_gradient_relative_difference": 4.309336631122745e-07,
+    "max_rows": 8,
+    "out_of_memory_at_rows": [],
+    "worst_parameter": "adapter.layers.7.self_attn.q_proj.A"
+   },
+   "whole_sequence": {
+    "batch_rows": [
+     8,
+     8
+    ],
+    "error": null,
+    "green": true,
+    "loss": 6.2668934762477875,
+    "loss_relative_difference": 1.8486845178140643e-08,
+    "max_gradient_relative_difference": 5.38663596063189e-07,
+    "max_rows": 8,
+    "out_of_memory_at_rows": [],
+    "worst_parameter": "adapter.layers.2.linear_attn.in_proj_z.A"
+   }
+  },
+  "green": true,
+  "implementation": "library",
+  "reference_loss": 6.2668933603927,
+  "reference_zero_gradients": [],
+  "step_size": 16,
+  "targets": {
+   "file": "targets.jsonl",
+   "sha256": "ae54feb55a2edea84334a81daba741d34bf19bfc08af9c86d883f5648323cf47"
+  },
+  "tolerance": 0.0001,
+  "trained_parameters": 108,
+  "training_form": "shared_prefix"
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "cap_usd": 45,
+ "cap_source": "the owner's cap for putting the pushback episodes to the Claude models",
+ "deadline": "2026-11-16T02:15:00-05:00",
+ "deadline_source": "a model's list is cut when its measured rate projects an end after 02:15 Eastern on 16 November 2026",
+ "prices": {
+  "claude-haiku-5-5": {
+   "input_per_mtok": 0.10,
+   "output_per_mtok": 0.50,
+   "cache_write_5m_per_mtok": 0.125,
+   "cache_read_per_mtok": 0.01,
+   "max_prompt_tokens": 100000,
+   "address": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "read": "2026-11-16",
+   "row": "Claude Haiku 5.5 (for prompts up to 100,000 tokens)"
+  },
+  "claude-sonnet-5-5": {
+   "input_per_mtok": 2.00,
+   "output_per_mtok": 10.00,
+   "cache_write_5m_per_mtok": 2.50,
+   "cache_read_per_mtok": 0.10,
+   "max_prompt_tokens": null,
+   "address": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "read": "2026-11-16",
+   "row": "Claude Sonnet 5.5"
+  },
+  "claude-opus-5-5": {
+   "input_per_mtok": 4.00,
+   "output_per_mtok": 20.00,
+   "cache_write_5m_per_mtok": 5.00,
+   "cache_read_per_mtok": 0.20,
+   "max_prompt_tokens": null,
+   "address": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "read": "2026-11-16",
+   "row": "Claude Opus 5.5"
+  }
+ }
+}

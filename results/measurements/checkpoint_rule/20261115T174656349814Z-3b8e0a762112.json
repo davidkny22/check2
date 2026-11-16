@@ -1,0 +1,121 @@
+{
+ "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+ "commit_source": ".sent-commit",
+ "config": {
+  "kind": "steering",
+  "original": "original-heldout",
+  "runs": [
+   "steering-g1-heldout",
+   "steering-g2-heldout",
+   "steering-g4-heldout",
+   "steering-g8-heldout"
+  ]
+ },
+ "config_sha256": "1c03e6fcd90fb67333d3970cb89a4441ac854b87f1b04dbfc8b97ac79233c103",
+ "finished": "2026-11-15T17:46:56+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "measurement",
+ "name": "checkpoint_rule",
+ "runs": {
+  "original-heldout": {
+   "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+   "config_sha256": "2189376368293e16405eb963e36d272547b8c4970120a0834406a192499cdcca",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "steering-g1-heldout": {
+   "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+   "config_sha256": "84dd5ff6a7d8bd469974b53e96b34ba3d87fa94494870c0cd1a1640294279f71",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "steering-g2-heldout": {
+   "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+   "config_sha256": "2c402138f31dc390e555a3b81fb919511f27ee4ad36e21d4419494cf31f67b3f",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "steering-g4-heldout": {
+   "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+   "config_sha256": "c4673866fec68428b8961324f9383debd0439861b5cff17d370717ddde4435e5",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "steering-g8-heldout": {
+   "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+   "config_sha256": "821eecb2495a95b158f22e9ddb87754bdb2ecb0a6e80f8bc61208b936a3e92ca",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  }
+ },
+ "session": "c2-a",
+ "started": "2026-11-15T17:46:54+00:00",
+ "tree_clean": null,
+ "values": {
+  "candidates": [
+   {
+    "label": "steering-g1-heldout",
+    "order": 1,
+    "qualifies": true,
+    "right_adoption": 0.9722222222222222,
+    "right_adoption_drop": 1.3888888888888857,
+    "wrong_adoption": 0.6488095238095238
+   },
+   {
+    "label": "steering-g2-heldout",
+    "order": 2,
+    "qualifies": true,
+    "right_adoption": 0.9444444444444444,
+    "right_adoption_drop": 4.166666666666671,
+    "wrong_adoption": 0.7083333333333334
+   },
+   {
+    "label": "steering-g4-heldout",
+    "order": 4,
+    "qualifies": true,
+    "right_adoption": 0.9722222222222222,
+    "right_adoption_drop": 1.3888888888888857,
+    "wrong_adoption": 0.9166666666666666
+   },
+   {
+    "label": "steering-g8-heldout",
+    "order": 8,
+    "qualifies": false,
+    "right_adoption": 0.4722222222222222,
+    "right_adoption_drop": 51.38888888888889,
+    "wrong_adoption": 0.4523809523809524
+   }
+  ],
+  "kept": {
+   "labels": [
+    "steering-g1-heldout",
+    "steering-g2-heldout",
+    "steering-g4-heldout"
+   ],
+   "strengths": [
+    1,
+    2,
+    4
+   ]
+  },
+  "kind": "steering",
+  "original": "original-heldout",
+  "ranking": [
+   "steering-g1-heldout",
+   "steering-g2-heldout",
+   "steering-g4-heldout",
+   "steering-g8-heldout"
+  ],
+  "recorded_check": {
+   "check": "all three kept steering strengths sit at one end of the grid",
+   "holds": true
+  }
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

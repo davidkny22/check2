@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794788467,
+ "finished_unix": 1794788672,
+ "reasons": [
+  {
+   "job_id": "expansion/formal_logic/242:A",
+   "reason": "Suppose every F is a G and everything is F; then each thing is G, so everything is G. No interpretation can make the antecedent true and the consequent false, so it holds in every interpretation."
+  },
+  {
+   "job_id": "expansion/formal_logic/242:B",
+   "reason": "The formula is built only from predicate letters with no fixed meaning, so its truth turns on how F and G are interpreted. Nothing about its shape forces it to come out true in every possible domain."
+  },
+  {
+   "job_id": "expansion/formal_logic/243:A",
+   "reason": "A conditional is false only when its antecedent is true and its consequent false. Negating the conditional therefore says exactly that p holds and q fails, which is the conjunction of p with not-q."
+  },
+  {
+   "job_id": "expansion/formal_logic/243:C",
+   "reason": "By material implication, p ⊃ q is rewritten as not-p or q. The question is asking for the standard equivalent form of this conditional expression, and that disjunction of not-p with q is the one that matches."
+  },
+  {
+   "job_id": "expansion/formal_logic/244:C",
+   "reason": "Saying exactly one of cheap or luxurious holds means the hotel is luxurious precisely when it isn't cheap. A biconditional between not-cheap and luxurious captures that exactly-one relationship in a single compact formula."
+  },
+  {
+   "job_id": "expansion/formal_logic/244:D",
+   "reason": "Each formula expresses exclusive or: the first spells out at least one but not both, the circled plus is the exclusive-or symbol itself, and not-cheap if and only if luxurious has the same truth table."
+  },
+  {
+   "job_id": "expansion/formal_logic/245:A",
+   "reason": "The sentence has the shape 'if V, then the product is constant', so the variation claim is the antecedent and the constant product the consequent. A material conditional in that order represents it, adding nothing about the converse."
+  },
+  {
+   "job_id": "expansion/formal_logic/245:B",
+   "reason": "A constant product is the defining condition that guarantees inverse variation, so the constant product is what does the implying here. The formula should run from the constant product to the variation claim."
+  },
+  {
+   "job_id": "expansion/formal_logic/246:B",
+   "reason": "The antecedent is the proposition that follows 'if', not the word 'if' itself, which belongs to the connective. Stripping that word leaves the bare statement that the catalyst is added, and that is the antecedent."
+  },
+  {
+   "job_id": "expansion/formal_logic/246:D",
+   "reason": "The question asks for a single logical component rather than a whole clause, and the core predicate the conditional turns on is the acceleration. That one action word is the element everything else is conditioned around."
+  },
+  {
+   "job_id": "expansion/formal_logic/247:B",
+   "reason": "The claim describes roots of unity in general: any complex number in question has zⁿ = 1 and is not 1. A universal quantifier with a conditional restricting z to complex numbers captures that general pattern."
+  },
+  {
+   "job_id": "expansion/formal_logic/247:C",
+   "reason": "'There exists' calls for an existential quantifier, and under an existential the restriction to complex numbers is joined by conjunction. So we need some z that is complex, has zⁿ = 1, and is not 1."
+  },
+  {
+   "job_id": "expansion/formal_logic/248:B",
+   "reason": "The sentence asserts a set of non-overlapping triangles that does the job for composite shapes, so the existential on y comes first, followed by a universal over x with a conditional restricting it to composites."
+  },
+  {
+   "job_id": "expansion/formal_logic/248:C",
+   "reason": "Every composite shape gets its own triangulation, so the universal over shapes comes first and the existential sits inside its scope. The conditional restricts x to composite shapes, and conjunction attaches the triangle set."
+  },
+  {
+   "job_id": "expansion/formal_logic/249:C",
+   "reason": "The outcome the speaker stresses is not getting paid, and in a warning like this the stressed outcome is the test: no pay shows no work was done, which puts not-G before not-W."
+  },
+  {
+   "job_id": "expansion/formal_logic/249:D",
+   "reason": "The direct reading is that not working implies not getting paid, and its contrapositive is that getting paid implies working. Those two formulas are logically equivalent, so each one correctly expresses the sentence."
+  },
+  {
+   "job_id": "expansion/formal_logic/25:B",
+   "reason": "The axiom says for every vector there exists an inverse, so the universal goes outside and the existential inside, restricted to vectors by a conditional and then a conjunction. That nesting follows the sentence exactly."
+  },
+  {
+   "job_id": "expansion/formal_logic/25:D",
+   "reason": "For any vector v, whatever u counts as its inverse has to sum with v to zero. Quantifying universally over u with a conditional captures that every inverse does its job, which is what the axiom requires."
+  },
+  {
+   "job_id": "expansion/formal_logic/250:A",
+   "reason": "The original says every P is a Q, and its failure means P and not-Q holding together. Keeping the universal quantifier and negating the inner conditional into P with not-Q gives the negation of the whole statement."
+  },
+  {
+   "job_id": "expansion/formal_logic/250:C",
+   "reason": "Negating a universal gives an existential over the negated body, and the negation of P ⊃ Q is P with not-Q. So the negation says there is some x that is P but not Q."
+  },
+  {
+   "job_id": "expansion/formal_logic/251:B",
+   "reason": "The sentence is a plain 'if abelian, then every subgroup is normal', with abelian as the condition and normality as the result. A single material conditional in that order represents it without claiming anything about the converse."
+  },
+  {
+   "job_id": "expansion/formal_logic/251:C",
+   "reason": "In group theory a statement like this works in both directions when the defining properties line up, and abelian groups are exactly the ones where every subgroup is normal, so a biconditional reflects the intended mathematical content."
+  },
+  {
+   "job_id": "expansion/formal_logic/252:A",
+   "reason": "Being a US citizen and being a citizen of the world are treated as going together for anyone under discussion, so the formula should tie the two predicates to each other for every x with a biconditional."
+  },
+  {
+   "job_id": "expansion/formal_logic/252:C",
+   "reason": "'Anyone who is a US citizen is also a citizen of the world' is a universal affirmative: for every x, being a US citizen implies being a world citizen. That is a universal conditional in that direction."
+  },
+  {
+   "job_id": "expansion/formal_logic/253:B",
+   "reason": "Trigonometric identities hold only where both sides are defined, and at some angles tangent or secant blow up. A careful formalization reflects that it is not true that the identity holds at every single angle."
+  },
+  {
+   "job_id": "expansion/formal_logic/253:C",
+   "reason": "The statement is 'for all θ, the identity holds', which is a single universal quantifier over θ applied to the predicate. Nothing is negated and nothing is existential, so the plain universal form matches it."
+  },
+  {
+   "job_id": "expansion/formal_logic/254:B",
+   "reason": "Denying the conditional means denying that the cold causes the burst, so the cold is absent while the burst still happens. That pairs not-p with q in a conjunction, describing the case the conditional rules out."
+  },
+  {
+   "job_id": "expansion/formal_logic/254:D",
+   "reason": "A conditional is false only when its antecedent is true and its consequent false. Saying it is not the case amounts to saying the temperature drops below freezing and the pipes do not burst."
+  },
+  {
+   "job_id": "expansion/formal_logic/256:A",
+   "reason": "'If and only if' means the team winning and the star player playing always have the same truth value. That two-way dependence is exactly what the biconditional symbol expresses between W and S."
+  },
+  {
+   "job_id": "expansion/formal_logic/256:C",
+   "reason": "The 'only if' half says the team wins only if the star plays, and stated contrapositively that becomes: if the team doesn't win, the star didn't play. That negated conditional is the form the sentence turns on."
+  },
+  {
+   "job_id": "expansion/formal_logic/257:B",
+   "reason": "The statement is about particular values of n and k where k is at most n and the binomial coefficient is defined. Asserting that such pairs exist, with both conditions joined by conjunction, captures that."
+  },
+  {
+   "job_id": "expansion/formal_logic/257:D",
+   "reason": "'For all n and k' gives two universal quantifiers, and 'if k is at most n, then the coefficient is defined' is a conditional with L as antecedent. That matches the double universal over that conditional."
+  },
+  {
+   "job_id": "expansion/formal_logic/259:A",
+   "reason": "'Only a citizen can vote' means anyone who can vote must be a citizen. 'Only' introduces the necessary condition, so being able to vote implies being a citizen for every x."
+  },
+  {
+   "job_id": "expansion/formal_logic/259:C",
+   "reason": "The sentence links citizenship to voting, with citizen as the subject and voting as what follows from it. Read as a universal statement, it says that for every x, being a citizen leads to being able to vote."
+  },
+  {
+   "job_id": "expansion/formal_logic/260:B",
+   "reason": "The contrapositive of a conditional always has the same truth value as the original. Swapping P and Q and negating both gives not-Q implies not-P, the standard equivalent form of P ⊃ Q."
+  },
+  {
+   "job_id": "expansion/formal_logic/260:D",
+   "reason": "P ⊃ Q is false only when P is true and Q false. Not-P or Q, not-Q implies not-P, and not both P and not-Q are each false in exactly that one row, so they all match."
+  },
+  {
+   "job_id": "expansion/formal_logic/264:B",
+   "reason": "By De Morgan the inner part becomes P and not-Q, and since a conditional is equivalent to a disjunction, the whole thing folds into one negated disjunction of that conjunction with R."
+  },
+  {
+   "job_id": "expansion/formal_logic/264:C",
+   "reason": "Applying De Morgan to the antecedent, not of (not-P or Q) becomes P and not-Q, with the double negation cancelling. The conditional to R stays as it is, so it becomes that conjunction implying R."
+  },
+  {
+   "job_id": "expansion/formal_logic/265:A",
+   "reason": "'No one' is a negated existential, so the formula should deny that there is any pair x and y standing in the loving relation with the kindness predicate attached. Putting the negation outside both existentials does that."
+  },
+  {
+   "job_id": "expansion/formal_logic/265:C",
+   "reason": "Saying no one loves an unkind person means that whenever x loves y, y must be kind. For every x and y, loving implies the beloved is kind, which is a double universal over that conditional."
+  },
+  {
+   "job_id": "expansion/formal_logic/266:A",
+   "reason": "The premise says for any x, being real and having square four together guarantee being two or negative two. Joining the two conditions as a conjunction in the antecedent of one universal conditional captures that."
+  },
+  {
+   "job_id": "expansion/formal_logic/266:C",
+   "reason": "The premise first restricts attention to real numbers that square to four, which is a conditional from being real to squaring to four, and that whole condition then leads to x being two or negative two."
+  },
+  {
+   "job_id": "expansion/formal_logic/267:A",
+   "reason": "The point of the claim is what happens when efficiency is missing: a vehicle without high efficiency lacks the special features, so a conditional from not-H to having both the alternative source and reduced mass captures that link."
+  },
+  {
+   "job_id": "expansion/formal_logic/267:D",
+   "reason": "High fuel efficiency is the condition, introduced by 'if', and the consequent is that the vehicle uses an alternative source or has reduced mass. That is H implying the disjunction of those two features."
+  },
+  {
+   "job_id": "expansion/formal_logic/268:B",
+   "reason": "'Such that' links the number to the condition x² = 2 in both directions, picking out exactly the numbers that satisfy it. That two-way tie between the number and its defining condition is a biconditional structure."
+  },
+  {
+   "job_id": "expansion/formal_logic/268:D",
+   "reason": "'There exists' asserts that at least one real number satisfies x² = 2, which is the existential quantifier. The statement is not about all real numbers, only about there being at least one."
+  },
+  {
+   "job_id": "expansion/formal_logic/269:A",
+   "reason": "The argument works by ruling out one possibility and concluding the remaining one: the defendant being at the scene is eliminated, which leaves the witness not telling the truth as the option that survives."
+  },
+  {
+   "job_id": "expansion/formal_logic/269:D",
+   "reason": "The argument has the form if P then Q, not Q, therefore not P. Denying the consequent of a conditional to conclude the denial of its antecedent is exactly the pattern of modus tollens."
+  },
+  {
+   "job_id": "expansion/formal_logic/271:C",
+   "reason": "'If a number is divisible by 6' applies to any number, so the quantifier is universal, and it's a one-way conditional from divisibility by 6 to divisibility by both 2 and 3."
+  },
+  {
+   "job_id": "expansion/formal_logic/271:D",
+   "reason": "A number divisible by both 2 and 3 is divisible by 6, since 2 and 3 are coprime. The universal conditional from being divisible by both to being divisible by 6 states that relationship."
+  },
+  {
+   "job_id": "expansion/formal_logic/272:C",
+   "reason": "The argument starts with a conditional and then uses the premise about the ground to move directly to a conclusion about rain, which is the forward application of a conditional rule to a stated fact."
+  },
+  {
+   "job_id": "expansion/formal_logic/272:D",
+   "reason": "The premises are if rain then wet, and not wet, and the conclusion is no rain. Denying the consequent to deny the antecedent is the textbook pattern of modus tollens."
+  },
+  {
+   "job_id": "expansion/formal_logic/273:C",
+   "reason": "A conditional is false only when the antecedent is true and the consequent false. Denying 'if the alarm rings, the building is evacuated' therefore means the alarm rang and the building was not evacuated."
+  },
+  {
+   "job_id": "expansion/formal_logic/273:D",
+   "reason": "'It is not the case that' attaches directly to the conditional, giving the negated conditional. That is equivalent to the alarm ringing without evacuation, so the direct negation and that conjunction both translate it correctly."
+  },
+  {
+   "job_id": "expansion/formal_logic/274:B",
+   "reason": "The question already frames it as 'for all n, if n is even and prime, then n equals 2', which is a universal over a conditional with the conjunction of even and prime as the antecedent."
+  },
+  {
+   "job_id": "expansion/formal_logic/274:D",
+   "reason": "'The only even prime is 2' asserts that there is such a number and that it is 2. An existential with even, prime and equal to 2 joined together states that 2 is the even prime."
+  },
+  {
+   "job_id": "expansion/formal_logic/276:B",
+   "reason": "The rule applies to any currencies, rate, amount and result, so every variable is universally quantified. Whenever the rate holds and a conversion of x gives y, y must be the product, which is one flat conditional."
+  },
+  {
+   "job_id": "expansion/formal_logic/276:C",
+   "reason": "The rule is stated for a given pair of currencies with a given rate r, so those are fixed as particular values first. Then for every amount converted between them, the result must be the product of amount and rate."
+  },
+  {
+   "job_id": "expansion/formal_logic/277:C",
+   "reason": "'For every point on the line' is a universal claim restricted to points on the line, and a restriction under a universal goes in as a conditional. So for every p, being on the line implies equal coordinates."
+  },
+  {
+   "job_id": "expansion/formal_logic/277:D",
+   "reason": "The claim says every point is on the line and has equal coordinates, since it is about the points of this line in particular. A universal over the conjunction asserts both properties of every point being discussed."
+  },
+  {
+   "job_id": "expansion/formal_logic/279:B",
+   "reason": "A conditional can be rewritten as a disjunction, and here that rewriting puts the two vector properties into one disjunction with negations attached, which is the conditional in its expanded disjunctive form."
+  },
+  {
+   "job_id": "expansion/formal_logic/279:C",
+   "reason": "The sentence puts the zero cross product in the 'if' clause and parallel vectors in the 'then' clause. So the antecedent is ZeroCP and the consequent is Par, a one-way conditional in that order."
+  },
+  {
+   "job_id": "expansion/formal_logic/280:C",
+   "reason": "The theorem's 'if' clause is dividing by x minus c and its 'then' clause is the remainder being P(c). That puts the division as antecedent and the remainder as consequent in a single conditional."
+  },
+  {
+   "job_id": "expansion/formal_logic/280:D",
+   "reason": "Any conditional can be expressed as a disjunction with negation, and writing the theorem that way puts the division and the remainder claims together in one disjunction, the conditional in its expanded form."
+  },
+  {
+   "job_id": "expansion/formal_logic/282:B",
+   "reason": "Both conditionals begin from the rain, since the ground getting wet and the grass growing each trace back to it. With rain as the shared antecedent, the conclusion links the two consequents to each other."
+  },
+  {
+   "job_id": "expansion/formal_logic/282:C",
+   "reason": "Rain leads to wet ground, wet ground leads to growing grass, and so rain leads to growing grass. Chaining p to q and q to r to conclude p to r is the hypothetical syllogism."
+  },
+  {
+   "job_id": "expansion/formal_logic/283:A",
+   "reason": "The argument offers two alternatives, eliminates one of them, and concludes the other. Ruling out one disjunct to affirm the remaining one is the definition of disjunctive syllogism."
+  },
+  {
+   "job_id": "expansion/formal_logic/283:D",
+   "reason": "'P or Q' works like the conditional 'if not P, then Q', and the argument links that with not P to reach Q. Reasoning through a chain of hypothetical connections gives the hypothetical syllogism."
+  },
+  {
+   "job_id": "expansion/formal_logic/284:B",
+   "reason": "Negating the claim about even integers means switching to the other case and reversing the result, so the negation talks about odd integers and says their squares come out odd for every n."
+  },
+  {
+   "job_id": "expansion/formal_logic/284:D",
+   "reason": "Negating 'for every n' gives 'there exists n', and negating 'if even, then square even' gives 'even and square odd'. So the negation asserts some even integer has an odd square."
+  },
+  {
+   "job_id": "expansion/formal_logic/287:A",
+   "reason": "The statement puts the limit existing in the 'if' clause and equal one-sided limits in the 'then' clause. A single conditional from LimEx to LReqR follows that order exactly."
+  },
+  {
+   "job_id": "expansion/formal_logic/287:B",
+   "reason": "In calculus a two-sided limit exists exactly when the left and right limits exist and agree, so the relationship runs both ways. A biconditional between the limit existing and the one-sided limits matching expresses that."
+  },
+  {
+   "job_id": "expansion/formal_logic/288:B",
+   "reason": "The sentence opens with 'for every integer n' and then says 'there exists m', so the universal comes first and the existential sits inside it. That lets m depend on n, which is what the sentence means."
+  },
+  {
+   "job_id": "expansion/formal_logic/288:C",
+   "reason": "The statement asserts an integer m that is greater than the integers n, so m is introduced by an existential and then compared against every n with a universal. That puts the existential on m out front."
+  },
+  {
+   "job_id": "expansion/formal_logic/289:B",
+   "reason": "Saying no student is failing describes someone who is outside the failing group, and in this setting the subject is a non-student who is not failing either. An existential with both predicates negated expresses that."
+  },
+  {
+   "job_id": "expansion/formal_logic/289:D",
+   "reason": "'No student is failing' can be read as every student is not failing, a universal conditional, or as there is no one who is both a student and failing. These are equivalent, so both formulas are correct."
+  },
+  {
+   "job_id": "expansion/formal_logic/29:C",
+   "reason": "The inequality concerns triangles, and a conditional restricts attention to things that are triangles. Pairing that conditional with an existential states that there is a case where being a triangle brings the sum property with it."
+  },
+  {
+   "job_id": "expansion/formal_logic/29:D",
+   "reason": "'For any triangle' is a universal claim restricted to triangles, and under a universal the restriction is written as a conditional. So for every t, being a triangle implies the sum property holds."
+  },
+  {
+   "job_id": "expansion/formal_logic/291:A",
+   "reason": "The core content is that a square root existing requires x to be non-negative. Having a square root is the condition and non-negativity follows from it, which is a single conditional from E to N."
+  },
+  {
+   "job_id": "expansion/formal_logic/291:D",
+   "reason": "'If and only if' joins two conditionals, one in each direction: the square root exists if x is non-negative, and only if it is. Together those make a biconditional between E and N."
+  },
+  {
+   "job_id": "expansion/formal_logic/293:B",
+   "reason": "The sentence opens with the credibility of the witness as the condition and the guilty verdict as the result. Taking credibility as antecedent and the verdict as consequent gives a one-way conditional in that order."
+  },
+  {
+   "job_id": "expansion/formal_logic/293:D",
+   "reason": "'If and only if' sets up a two-way dependence between the witness being credible and the guilty verdict, even with the clause order flipped. That is a biconditional between credibility and the verdict."
+  },
+  {
+   "job_id": "expansion/formal_logic/294:B",
+   "reason": "The statement says that having both rate and time is enough to calculate distance for any trip. That makes the conjunction of rate and time the antecedent of a universal conditional with Calc as consequent."
+  },
+  {
+   "job_id": "expansion/formal_logic/294:C",
+   "reason": "Having rate and time doesn't let you compute distance for every trip, since rate can vary along the way. So the rule as a universal conditional doesn't hold across the board, which is a negated universal."
+  },
+  {
+   "job_id": "expansion/formal_logic/295:B",
+   "reason": "The sentence gives three separate rules, one for each sign of a, and all three apply at once. Conjoining three conditionals from each sign condition to its solution count, under a universal over a, captures all three."
+  },
+  {
+   "job_id": "expansion/formal_logic/295:C",
+   "reason": "Each rule is about the equation |x| = a, so the equation belongs as the antecedent, and under it come the three conditionals from the sign of a to the number of solutions, joined together."
+  },
+  {
+   "job_id": "expansion/formal_logic/296:A",
+   "reason": "Pushing the negation inside with De Morgan's law turns the negation of a disjunction into a disjunction of the negated parts. Negating not-P and Q gives not-P or not-Q."
+  },
+  {
+   "job_id": "expansion/formal_logic/296:B",
+   "reason": "De Morgan turns the negation of a disjunction into a conjunction of negations, giving not-not-P and not-Q. The double negation cancels, leaving P and not-Q."
+  },
+  {
+   "job_id": "expansion/formal_logic/298:B",
+   "reason": "The scope of a quantifier is everything inside the parentheses that immediately follow it. Here that is the conditional from Px to the whole biconditional, ending at not-Sx."
+  },
+  {
+   "job_id": "expansion/formal_logic/298:D",
+   "reason": "The universal binds x, and the main connective in its scope is the conditional from Px to the existential claim about y. The biconditional with not-Sx attaches after that, outside the core conditional the quantifier governs."
+  },
+  {
+   "job_id": "expansion/formal_logic/299:A",
+   "reason": "'Some mathematicians are not philosophers' is an existential with a conjunction, and 'all logicians are philosophers' is a universal conditional. 'But' works as 'and', so the two parts are joined by conjunction."
+  },
+  {
+   "job_id": "expansion/formal_logic/299:C",
+   "reason": "The first clause concerns mathematicians as a category, so it takes a conditional from being a mathematician to not being a philosopher, and saying all logicians are philosophers ties the two groups together with a biconditional."
+  },
+  {
+   "job_id": "expansion/formal_logic/3:A",
+   "reason": "'Neither the cat nor the dog' means the cat is not outside and the dog is not outside. Two negated statements joined by 'and' are exactly what the sentence asserts, with nothing left implicit."
+  },
+  {
+   "job_id": "expansion/formal_logic/3:D",
+   "reason": "'Neither the cat nor the dog is outside' says the cat isn't out and the dog isn't out, and by De Morgan that equals denying that either is out. Those two forms are equivalent, so both translate it."
+  },
+  {
+   "job_id": "expansion/formal_logic/30:B",
+   "reason": "The statement concerns solutions and whether they satisfy constraints, so it quantifies over every s and joins being a solution with being valid in one conjunction applied across the board."
+  },
+  {
+   "job_id": "expansion/formal_logic/30:C",
+   "reason": "'There is no valid solution' denies that anything is both a solution and valid. Putting a negation in front of an existential over that conjunction says exactly that no such s exists."
+  },
+  {
+   "job_id": "expansion/formal_logic/301:C",
+   "reason": "'Not all students are diligent' negates the universal claim that every student is diligent, and that negation is equivalent to there being some student who is not diligent. Each formula expresses the sentence."
+  },
+  {
+   "job_id": "expansion/formal_logic/301:D",
+   "reason": "The sentence only denies a generalization and asserts nothing about any particular student, while the existential claims a specific counterexample exists. The listed forms each add or shift content, so neither fits the sentence exactly."
+  },
+  {
+   "job_id": "expansion/formal_logic/302:A",
+   "reason": "'Not every student passed' is a negation placed directly in front of the universal claim that every student passed. Writing the negation outside the universal conditional mirrors the sentence word for word."
+  },
+  {
+   "job_id": "expansion/formal_logic/302:D",
+   "reason": "Negating 'every student passed' gives the negated universal conditional, and by quantifier negation that equals there being some student who did not pass. Since those two are equivalent, both translations are correct."
+  },
+  {
+   "job_id": "expansion/formal_logic/305:B",
+   "reason": "A contrapositive reverses the direction of the conditional, so integrability becomes the condition and continuity and differentiability become what follows. That reversed statement keeps the original link between the three properties."
+  },
+  {
+   "job_id": "expansion/formal_logic/305:C",
+   "reason": "The contrapositive negates and swaps both sides, so not integrable becomes the antecedent. Negating 'continuous and differentiable' by De Morgan gives 'not continuous or not differentiable' as the consequent."
+  },
+  {
+   "job_id": "expansion/formal_logic/306:A",
+   "reason": "'It is not true that all pairs commute' places a negation in front of the claim that for every x and every y they commute. That is a single negation outside the two universal quantifiers."
+  },
+  {
+   "job_id": "expansion/formal_logic/306:B",
+   "reason": "The point of the statement is that matrices fail to commute, so for any pair x and y the commuting relation does not hold. Placing the negation on Comm inside both universals expresses that failure for every pair."
+  },
+  {
+   "job_id": "expansion/formal_logic/307:A",
+   "reason": "The dual of a formula swaps every disjunction with a conjunction and every conjunction with a disjunction, leaving the literals unchanged. Applying that swap gives P and Q, or not-R and S."
+  },
+  {
+   "job_id": "expansion/formal_logic/307:B",
+   "reason": "Forming the dual involves complementing the literals along with the connective structure, so the variables flip their negations while the overall shape stays a conjunction of two disjunctions. That gives not-P or Q, and R or not-S."
+  },
+  {
+   "job_id": "expansion/formal_logic/308:A",
+   "reason": "The statement is about a common denominator shared by fractions, and a denominator that works must work across every choice of d. So we pick particular fractions f and g and apply a universal over d."
+  },
+  {
+   "job_id": "expansion/formal_logic/308:D",
+   "reason": "'For any two fractions' gives universals over f and g restricted by a conditional to fractions, and 'there exists a common denominator' is an existential over d inside the consequent. That nesting matches the sentence."
+  },
+  {
+   "job_id": "expansion/formal_logic/309:A",
+   "reason": "Two conditionals that share a middle term, P to Q and Q to R, are chained to conclude P to R. Linking conditionals through a shared link like that is what hypothetical syllogism names."
+  },
+  {
+   "job_id": "expansion/formal_logic/309:B",
+   "reason": "The argument works by applying conditionals forward: given P leads to Q and Q leads to R, it carries the condition through to R. Following a conditional from its antecedent to its consequent is modus ponens."
+  },
+  {
+   "job_id": "expansion/formal_logic/31:B",
+   "reason": "The sentence is about people who love all dogs and also love all cats, so it describes someone with both attitudes. An existential with the two universal claims joined by conjunction picks out such a person."
+  },
+  {
+   "job_id": "expansion/formal_logic/31:C",
+   "reason": "'Every person who loves all dogs' is a universal over x restricted by a conditional, and the condition is itself a universal over dogs. The consequent is the matching universal over cats, giving a conditional between the two."
+  },
+  {
+   "job_id": "expansion/formal_logic/310:A",
+   "reason": "'If and only if' makes the derivative being zero and the critical point condition stand or fall together, regardless of which clause is said first. That two-way link is a biconditional between Z and the critical point."
+  },
+  {
+   "job_id": "expansion/formal_logic/310:D",
+   "reason": "The 'only if' part is the substantive one here: without a zero derivative there is no critical point. Stated as a conditional, not-Z implies no critical point, which captures the necessity the sentence stresses."
+  },
+  {
+   "job_id": "expansion/formal_logic/312:C",
+   "reason": "'For all angles' is a universal restricted to angles, and a restriction under a universal is written with a conditional. So for every x, being an angle implies the identity holds."
+  },
+  {
+   "job_id": "expansion/formal_logic/312:D",
+   "reason": "The identity concerns angles, so the formula needs a conditional from being an angle to the identity holding. Introducing x with an existential and attaching that conditional states that angles bring the identity with them."
+  },
+  {
+   "job_id": "expansion/formal_logic/313:C",
+   "reason": "The rule applies to every pair of numbers and their roots, so all variables are universal. Whenever the roots and product are given, both numbers are non-negative and the root of the product is the product of roots."
+  },
+  {
+   "job_id": "expansion/formal_logic/313:D",
+   "reason": "'Provided both are non-negative' is the restricting condition, so non-negativity of x and z goes in the antecedent, and under it the square-root-of-a-product rule is stated for all roots and products."
+  },
+  {
+   "job_id": "expansion/formal_logic/314:B",
+   "reason": "The negation should flip the relationship in the original claim. Turning 'all students are athletes' around so that athletes are the subject reverses the claim, giving the statement that all athletes are students."
+  },
+  {
+   "job_id": "expansion/formal_logic/314:D",
+   "reason": "A universal claim is refuted by one counterexample, so its negation is that at least one student is not an athlete. That makes the negation the particular negative about students and athletes."
+  },
+  {
+   "job_id": "expansion/formal_logic/315:A",
+   "reason": "The rule is about cubic polynomials, so a conditional from being cubic to following the product rule is needed. Pairing that conditional with an existential asserts that there is a case where being cubic brings the rule."
+  },
+  {
+   "job_id": "expansion/formal_logic/315:D",
+   "reason": "'For any cubic polynomial' is a universal restricted to cubics, and under a universal the restriction becomes a conditional. So for every p, being cubic implies the product rule holds."
+  },
+  {
+   "job_id": "expansion/formal_logic/318:A",
+   "reason": "'Some people' calls for an existential, and 'both honest and hardworking' calls for a conjunction of the two predicates. So there is some x that is honest and hardworking."
+  },
+  {
+   "job_id": "expansion/formal_logic/318:D",
+   "reason": "Being both honest and hardworking describes how the two traits go together in people: honesty comes with hard work. A universal conditional from H to W expresses that the traits are linked."
+  },
+  {
+   "job_id": "expansion/formal_logic/32:B",
+   "reason": "A number can't be larger than itself, so 'every other number' has to exclude x. There is some x such that for every y distinct from x, x is larger than y."
+  },
+  {
+   "job_id": "expansion/formal_logic/32:C",
+   "reason": "The sentence relates numbers and the larger-than relation, so the formula starts from every number x and finds some y it is larger than. Pairing a universal with an existential captures that comparison."
+  },
+  {
+   "job_id": "expansion/formal_logic/322:B",
+   "reason": "'Since the power is out, the lights are off' states that the two always go together, and the lights and darkness are tied the same way. Chaining those equivalences from the power through to the room yields darkness."
+  },
+  {
+   "job_id": "expansion/formal_logic/322:D",
+   "reason": "The premises are two conditionals, power out leads to lights off and lights off leads to dark, with the power being out given. Following the chain lets us conclude the room is dark, the final consequent."
+  },
+  {
+   "job_id": "expansion/formal_logic/323:B",
+   "reason": "The pattern moves from Q back to P, running the conditional in reverse, and that reverse inference treats the antecedent as though it were settled by the consequent. That misuse of the antecedent is denying the antecedent."
+  },
+  {
+   "job_id": "expansion/formal_logic/323:D",
+   "reason": "The example takes the conditional, asserts its consequent Q, and concludes its antecedent P. Asserting the consequent and inferring the antecedent is the invalid pattern called affirming the consequent."
+  },
+  {
+   "job_id": "expansion/formal_logic/324:C",
+   "reason": "For every x there is some y with x positive and y its square root, so the universal on x comes first and the existential on y follows, with the two conditions joined in a single conjunction."
+  },
+  {
+   "job_id": "expansion/formal_logic/324:D",
+   "reason": "'Every positive number' is a universal restricted by a conditional to positive numbers, and 'has a square root' is an existential over y inside the consequent. So for every x, positive implies there is a root."
+  },
+  {
+   "job_id": "expansion/formal_logic/325:A",
+   "reason": "The sentence names a person x and says everyone admires that person, so there is some x who is a person and, for every y, y is a person and y admires x, all joined by conjunction."
+  },
+  {
+   "job_id": "expansion/formal_logic/325:B",
+   "reason": "'At least one person' is an existential on x with a conjunction for being a person, and 'admired by everyone' is a universal over y restricted to people by a conditional. Each y that is a person admires x."
+  },
+  {
+   "job_id": "expansion/formal_logic/326:B",
+   "reason": "The formula says for every x, if x is a painter, then there is some y that is a canvas and that x painted. So each painter has painted at least one canvas."
+  },
+  {
+   "job_id": "expansion/formal_logic/326:D",
+   "reason": "The formula pairs painters with canvases through the painting relation, combining a universal and an existential. Read together, the quantifiers say there are painters standing in the painting relation to the canvases across the board."
+  },
+  {
+   "job_id": "expansion/formal_logic/328:A",
+   "reason": "Denying that both the sum is positive and the product is negative means rejecting each of those claims. Spreading the negation over each part gives the sum not positive and the product not negative."
+  },
+  {
+   "job_id": "expansion/formal_logic/328:B",
+   "reason": "The sentence directly negates the conjunction of S and P, and by De Morgan that is equivalent to not-S or not-P. The direct negation and its expanded disjunction are both correct translations."
+  },
+  {
+   "job_id": "expansion/formal_logic/329:B",
+   "reason": "The sentence puts real coefficients in the 'if' clause and conjugate pairs in the 'then' clause. A single conditional from RealCoeff to Conj keeps that direction without claiming the converse."
+  },
+  {
+   "job_id": "expansion/formal_logic/329:D",
+   "reason": "A conditional can be written as a disjunction with negation attached, and here that puts the claims about real coefficients and conjugate pairs together in one disjunction, the conditional in its expanded form."
+  },
+  {
+   "job_id": "expansion/formal_logic/33:A",
+   "reason": "The definition says that when the limit is L, for every epsilon there is a delta, so the limit claim is the antecedent and the epsilon-delta condition follows. The prefix runs universal over epsilon, then existential over delta."
+  },
+  {
+   "job_id": "expansion/formal_logic/33:B",
+   "reason": "A definition fixes the meaning in both directions, so the limit holds exactly when the epsilon-delta condition does. Inside that, every positive epsilon gets some positive delta, with the existential nested under the universal."
+  },
+  {
+   "job_id": "expansion/formal_logic/331:A",
+   "reason": "Failing the property means some two distinct elements share a digit. So not-P(S) holds exactly when there exist x and y in S, with x different from y, that share a common digit."
+  },
+  {
+   "job_id": "expansion/formal_logic/331:C",
+   "reason": "The property holds exactly when no two elements share a digit, which means for all x and y in S they do not share one. That biconditional fixes when S fails as well, since failure is just its negation."
+  },
+  {
+   "job_id": "expansion/formal_logic/332:A",
+   "reason": "Saying it is false that points lie in both regions is a negation of the claim that points of the first region avoid the second. Putting the negation in front of that universal conditional captures the denial."
+  },
+  {
+   "job_id": "expansion/formal_logic/332:D",
+   "reason": "'Some points are in both regions' is an existential over a conjunction of R and S, and 'it is false that' negates it. So the formula is a negation in front of that existential."
+  },
+  {
+   "job_id": "expansion/formal_logic/335:A",
+   "reason": "The second premise gives something with both the third and second properties, and the first premise says nothing with the first property has the second. That rules out the overlap, leaving something with the first property but lacking the third."
+  },
+  {
+   "job_id": "expansion/formal_logic/335:C",
+   "reason": "Take the thing from the second premise that has both properties Cx and Bx. By the first premise anything with Ax lacks Bx, so this thing cannot have Ax, giving something with Cx but not Ax."
+  },
+  {
+   "job_id": "expansion/formal_logic/337:A",
+   "reason": "'There exists an x that minimizes f' is a plain existential claim, so the formula is an existential quantifier over x applied to Min(f, x), with no negation and no universal involved."
+  },
+  {
+   "job_id": "expansion/formal_logic/337:D",
+   "reason": "A minimizer of f is defined by comparison with every other x, so the minimization statement has to range over all x. Writing it with a universal quantifier on Min(f, x) reflects that comparison."
+  }
+ ]
+}

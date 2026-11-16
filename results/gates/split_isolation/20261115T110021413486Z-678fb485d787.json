@@ -1,0 +1,44 @@
+{
+ "commit": "678fb485d787031495393b3560f27ebe4a45854c",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T11:00:21+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "name": "split_isolation",
+ "planted": "abstract_algebra/10's text into abstract_algebra/11:bare:snap:-",
+ "session": null,
+ "started": "2026-11-15T11:00:19+00:00",
+ "tree_clean": true,
+ "values": {
+  "counts": {
+   "folds": 5,
+   "heldout": 150,
+   "heldout.jsonl": 780,
+   "in_no_split": 4,
+   "neutral_test.jsonl": 1082,
+   "test": 541,
+   "test.jsonl": 4214,
+   "train": 1359,
+   "train.jsonl": 7014
+  },
+  "files": [
+   "data/splits.json",
+   "data/episodes/heldout.jsonl",
+   "data/episodes/neutral_test.jsonl",
+   "data/episodes/test.jsonl",
+   "data/episodes/train.jsonl"
+  ],
+  "findings": [
+   "train.jsonl: episode abstract_algebra/11:bare:snap:- (train): its question text belongs to ['test']"
+  ]
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

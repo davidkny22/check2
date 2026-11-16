@@ -1,0 +1,43 @@
+{
+ "n": 400,
+ "parsed": 310,
+ "letter_equals_logit_read": 269,
+ "share_equal": 0.8677,
+ "tokens_mean": 50.9,
+ "tokens_median": 3,
+ "hit_160_cap": 116,
+ "short_answers_under_12_tokens": 277,
+ "commonest_openings": [
+  [
+   "X",
+   212
+  ],
+  [
+   "(X)",
+   65
+  ],
+  [
+   "To determine the c",
+   17
+  ],
+  [
+   "The correct answer",
+   13
+  ],
+  [
+   "To determine which",
+   12
+  ],
+  [
+   "Let's analyze the ",
+   5
+  ]
+ ],
+ "samples": [
+  "To determine which statements must be true, let's analyze the properties of a Depth-First Search (DFS) tree and the relationship between preorder and postorder traversals.\n\n**Definitions and Setup:**\n- $T$ is a DFS tree of a connected undirected graph $G$.\n- $pre(v)$: The rank of vertex $v$ in a preorder traversal (1-based index).\n- $post(v)$: The rank of vertex $v$ in a postorder traversal (1-based index).\n- $(u, v)$ is a non-tree edge in $G$ such that $pre(u) < pre(v)$.\n- In a DFS tree, non-tree edges always connect a vertex to one of its ancestors (back-edges) or form cross-",
+  "B",
+  "C",
+  "C",
+  "D"
+ ]
+}

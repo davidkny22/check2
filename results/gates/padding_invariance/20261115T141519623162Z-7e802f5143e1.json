@@ -1,0 +1,1024 @@
+{
+ "builtin_path": true,
+ "commit": "7e802f5143e1d83e760adb29c55a475911fe4a41",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T14:15:19+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "tiny",
+ "name": "padding_invariance",
+ "planted": true,
+ "seconds": 64.8,
+ "session": null,
+ "started": "2026-11-15T14:14:14+00:00",
+ "tail_position": 0,
+ "tree_clean": true,
+ "values": {
+  "additions_arm": {
+   "short": {
+    "counted_disagreements": 94,
+    "disagreements": [
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 322,
+      "got": 430,
+      "reference_top_two_margin": 7.659196853637695e-06,
+      "step": 49,
+      "top_two_margin": 0.0035460591316223145
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 61,
+      "got": 430,
+      "reference_top_two_margin": 0.00184670090675354,
+      "step": 52,
+      "top_two_margin": 0.0003676116466522217
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 61,
+      "got": 430,
+      "reference_top_two_margin": 0.002695411443710327,
+      "step": 62,
+      "top_two_margin": 0.0009266436100006104
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 61,
+      "got": 430,
+      "reference_top_two_margin": 0.0018897056579589844,
+      "step": 72,
+      "top_two_margin": 0.001052558422088623
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 322,
+      "got": 61,
+      "reference_top_two_margin": 0.0002656280994415283,
+      "step": 172,
+      "top_two_margin": 0.0005674064159393311
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 141,
+      "got": 20,
+      "reference_top_two_margin": 0.0012800395488739014,
+      "step": 210,
+      "top_two_margin": 0.00015348196029663086
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 430,
+      "got": 414,
+      "reference_top_two_margin": 0.0017934441566467285,
+      "step": 221,
+      "top_two_margin": 0.0007688701152801514
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 138,
+      "got": 152,
+      "reference_top_two_margin": 4.589557647705078e-06,
+      "step": 224,
+      "top_two_margin": 0.0008204877376556396
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 141,
+      "got": 20,
+      "reference_top_two_margin": 0.000440061092376709,
+      "step": 227,
+      "top_two_margin": 0.0005039572715759277
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 141,
+      "got": 20,
+      "reference_top_two_margin": 0.0012210309505462646,
+      "step": 235,
+      "top_two_margin": 0.0008439421653747559
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 141,
+      "got": 20,
+      "reference_top_two_margin": 0.00012877583503723145,
+      "step": 239,
+      "top_two_margin": 0.0006316900253295898
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 141,
+      "got": 20,
+      "reference_top_two_margin": 0.0012516379356384277,
+      "step": 243,
+      "top_two_margin": 0.00019297003746032715
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 141,
+      "got": 20,
+      "reference_top_two_margin": 0.0009504854679107666,
+      "step": 247,
+      "top_two_margin": 0.001515030860900879
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 342,
+      "got": 138,
+      "reference_top_two_margin": 0.003103315830230713,
+      "step": 0,
+      "top_two_margin": 0.00306016206741333
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 322,
+      "got": 430,
+      "reference_top_two_margin": 0.00011530518531799316,
+      "step": 61,
+      "top_two_margin": 0.0003428161144256592
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 322,
+      "got": 295,
+      "reference_top_two_margin": 0.0005656182765960693,
+      "step": 76,
+      "top_two_margin": 2.7239322662353516e-05
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 322,
+      "got": 295,
+      "reference_top_two_margin": 0.00028571486473083496,
+      "step": 82,
+      "top_two_margin": 0.0002142786979675293
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 322,
+      "got": 295,
+      "reference_top_two_margin": 0.0005118846893310547,
+      "step": 85,
+      "top_two_margin": 4.425644874572754e-05
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 322,
+      "got": 295,
+      "reference_top_two_margin": 2.709031105041504e-05,
+      "step": 88,
+      "top_two_margin": 0.0003885030746459961
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 322,
+      "got": 295,
+      "reference_top_two_margin": 0.00015938282012939453,
+      "step": 91,
+      "top_two_margin": 0.0003081858158111572
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 141,
+      "got": 138,
+      "reference_top_two_margin": 0.0011621415615081787,
+      "step": 95,
+      "top_two_margin": 0.0012162327766418457
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 430,
+      "got": 45,
+      "reference_top_two_margin": 0.0015957355499267578,
+      "step": 120,
+      "top_two_margin": 0.002720355987548828
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 20,
+      "got": 138,
+      "reference_top_two_margin": 0.0007104277610778809,
+      "step": 122,
+      "top_two_margin": 0.00042131543159484863
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 430,
+      "got": 45,
+      "reference_top_two_margin": 0.002346903085708618,
+      "step": 133,
+      "top_two_margin": 0.001987248659133911
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 430,
+      "got": 141,
+      "reference_top_two_margin": 0.0018901824951171875,
+      "step": 137,
+      "top_two_margin": 0.00098341703414917
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 20,
+      "got": 141,
+      "reference_top_two_margin": 0.0010142326354980469,
+      "step": 139,
+      "top_two_margin": 0.0003662109375
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 430,
+      "got": 45,
+      "reference_top_two_margin": 0.0017201900482177734,
+      "step": 164,
+      "top_two_margin": 0.0009008944034576416
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 430,
+      "got": 141,
+      "reference_top_two_margin": 0.0016973912715911865,
+      "step": 168,
+      "top_two_margin": 0.0002999603748321533
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 430,
+      "got": 141,
+      "reference_top_two_margin": 0.002205580472946167,
+      "step": 182,
+      "top_two_margin": 0.00035688281059265137
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 430,
+      "got": 141,
+      "reference_top_two_margin": 0.0003090798854827881,
+      "step": 206,
+      "top_two_margin": 0.001390904188156128
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 430,
+      "got": 141,
+      "reference_top_two_margin": 0.0008224248886108398,
+      "step": 220,
+      "top_two_margin": 0.0009594261646270752
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/89:bare:short:-",
+      "expected": 222,
+      "got": 156,
+      "reference_top_two_margin": 0.012628018856048584,
+      "step": 44,
+      "top_two_margin": 0.002706170082092285
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/89:bare:short:-",
+      "expected": 222,
+      "got": 156,
+      "reference_top_two_margin": 0.004047483205795288,
+      "step": 62,
+      "top_two_margin": 0.009208142757415771
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/89:bare:short:-",
+      "expected": 222,
+      "got": 156,
+      "reference_top_two_margin": 0.0009070932865142822,
+      "step": 71,
+      "top_two_margin": 0.007490366697311401
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/89:bare:short:-",
+      "expected": 332,
+      "got": 38,
+      "reference_top_two_margin": 0.0017309486865997314,
+      "step": 86,
+      "top_two_margin": 0.000441819429397583
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/38:reasoned:short:A",
+      "expected": 322,
+      "got": 430,
+      "reference_top_two_margin": 0.00015586614608764648,
+      "step": 94,
+      "top_two_margin": 0.0015433728694915771
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/38:reasoned:short:A",
+      "expected": 322,
+      "got": 430,
+      "reference_top_two_margin": 0.0008384287357330322,
+      "step": 98,
+      "top_two_margin": 0.0011280477046966553
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/38:reasoned:short:A",
+      "expected": 295,
+      "got": 430,
+      "reference_top_two_margin": 0.0004521608352661133,
+      "step": 133,
+      "top_two_margin": 0.0004051625728607178
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/38:reasoned:short:A",
+      "expected": 295,
+      "got": 430,
+      "reference_top_two_margin": 0.00010672211647033691,
+      "step": 146,
+      "top_two_margin": 0.0011220574378967285
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/38:reasoned:short:A",
+      "expected": 45,
+      "got": 141,
+      "reference_top_two_margin": 0.000732123851776123,
+      "step": 149,
+      "top_two_margin": 7.012486457824707e-05
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/38:reasoned:short:A",
+      "expected": 245,
+      "got": 138,
+      "reference_top_two_margin": 0.0002079606056213379,
+      "step": 150,
+      "top_two_margin": 0.00021371245384216309
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/38:reasoned:short:A",
+      "expected": 295,
+      "got": 430,
+      "reference_top_two_margin": 0.0014883577823638916,
+      "step": 168,
+      "top_two_margin": 0.00012737512588500977
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/38:reasoned:short:A",
+      "expected": 45,
+      "got": 141,
+      "reference_top_two_margin": 0.0008978843688964844,
+      "step": 182,
+      "top_two_margin": 0.0006542503833770752
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/38:reasoned:short:A",
+      "expected": 45,
+      "got": 141,
+      "reference_top_two_margin": 8.422136306762695e-05,
+      "step": 203,
+      "top_two_margin": 0.00030419230461120605
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 342,
+      "got": 138,
+      "reference_top_two_margin": 0.007747292518615723,
+      "step": 0,
+      "top_two_margin": 0.006914466619491577
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 430,
+      "got": 295,
+      "reference_top_two_margin": 0.0006038844585418701,
+      "step": 63,
+      "top_two_margin": 0.0005595386028289795
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 141,
+      "got": 138,
+      "reference_top_two_margin": 0.004646956920623779,
+      "step": 72,
+      "top_two_margin": 0.0019127130508422852
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 141,
+      "got": 138,
+      "reference_top_two_margin": 0.0033986568450927734,
+      "step": 102,
+      "top_two_margin": 6.461143493652344e-05
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 141,
+      "got": 45,
+      "reference_top_two_margin": 0.0007007122039794922,
+      "step": 104,
+      "top_two_margin": 0.004142940044403076
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 141,
+      "got": 138,
+      "reference_top_two_margin": 0.00327455997467041,
+      "step": 115,
+      "top_two_margin": 0.0007160007953643799
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 141,
+      "got": 45,
+      "reference_top_two_margin": 0.0017156898975372314,
+      "step": 117,
+      "top_two_margin": 0.0019569694995880127
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 141,
+      "got": 138,
+      "reference_top_two_margin": 0.0037470757961273193,
+      "step": 128,
+      "top_two_margin": 0.0008049607276916504
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 141,
+      "got": 45,
+      "reference_top_two_margin": 0.002564668655395508,
+      "step": 130,
+      "top_two_margin": 0.00023159384727478027
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 141,
+      "got": 138,
+      "reference_top_two_margin": 0.004681646823883057,
+      "step": 141,
+      "top_two_margin": 0.00038245320320129395
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 430,
+      "got": 414,
+      "reference_top_two_margin": 3.769993782043457e-05,
+      "step": 145,
+      "top_two_margin": 0.005327790975570679
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 141,
+      "got": 45,
+      "reference_top_two_margin": 0.0029086172580718994,
+      "step": 153,
+      "top_two_margin": 0.00426250696182251
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 430,
+      "got": 414,
+      "reference_top_two_margin": 0.0018566250801086426,
+      "step": 155,
+      "top_two_margin": 0.0008328557014465332
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 430,
+      "got": 414,
+      "reference_top_two_margin": 0.0035514533519744873,
+      "step": 165,
+      "top_two_margin": 0.0021446645259857178
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 430,
+      "got": 414,
+      "reference_top_two_margin": 0.0011119544506072998,
+      "step": 175,
+      "top_two_margin": 0.0020160675048828125
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 141,
+      "got": 45,
+      "reference_top_two_margin": 0.004128098487854004,
+      "step": 183,
+      "top_two_margin": 0.0013468563556671143
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 430,
+      "got": 414,
+      "reference_top_two_margin": 0.0022955238819122314,
+      "step": 195,
+      "top_two_margin": 0.0020087063312530518
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 141,
+      "got": 45,
+      "reference_top_two_margin": 0.006917834281921387,
+      "step": 203,
+      "top_two_margin": 0.00039377808570861816
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 430,
+      "got": 414,
+      "reference_top_two_margin": 0.004569411277770996,
+      "step": 215,
+      "top_two_margin": 0.00047972798347473145
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 430,
+      "got": 295,
+      "reference_top_two_margin": 0.0003554821014404297,
+      "step": 246,
+      "top_two_margin": 0.0025889575481414795
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0009491145610809326,
+      "step": 19,
+      "top_two_margin": 0.0021827518939971924
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.003030449151992798,
+      "step": 22,
+      "top_two_margin": 0.00010672211647033691
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.002912074327468872,
+      "step": 25,
+      "top_two_margin": 0.00029030442237854004
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0014601051807403564,
+      "step": 28,
+      "top_two_margin": 0.0015339255332946777
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.002836853265762329,
+      "step": 31,
+      "top_two_margin": 0.0003274083137512207
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.001615971326828003,
+      "step": 34,
+      "top_two_margin": 0.0011744499206542969
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0027431845664978027,
+      "step": 37,
+      "top_two_margin": 0.00037467479705810547
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0018042027950286865,
+      "step": 40,
+      "top_two_margin": 0.000827103853225708
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.002591073513031006,
+      "step": 43,
+      "top_two_margin": 0.000467449426651001
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0020008981227874756,
+      "step": 46,
+      "top_two_margin": 0.000513613224029541
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0024046003818511963,
+      "step": 49,
+      "top_two_margin": 0.0005833804607391357
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.002200990915298462,
+      "step": 52,
+      "top_two_margin": 0.00023686885833740234
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.002209961414337158,
+      "step": 55,
+      "top_two_margin": 0.0006972849369049072
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0020287632942199707,
+      "step": 61,
+      "top_two_margin": 0.0007880628108978271
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0018786787986755371,
+      "step": 67,
+      "top_two_margin": 0.0008385181427001953
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0017738044261932373,
+      "step": 73,
+      "top_two_margin": 0.0008352696895599365
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0017240047454833984,
+      "step": 79,
+      "top_two_margin": 0.0007698237895965576
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0017336010932922363,
+      "step": 85,
+      "top_two_margin": 0.0006392002105712891
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0018013417720794678,
+      "step": 91,
+      "top_two_margin": 0.0004468560218811035
+     },
+     {
+      "counted": true,
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0019210278987884521,
+      "step": 97,
+      "top_two_margin": 0.00020208954811096191
+     },
+     {
+      "counted": true,
+      "episode_id": "management/64:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "reference_top_two_margin": 0.0004360973834991455,
+      "step": 9,
+      "top_two_margin": 0.0006408095359802246
+     },
+     {
+      "counted": true,
+      "episode_id": "college_mathematics/48:bare:short:-",
+      "expected": 78,
+      "got": 222,
+      "reference_top_two_margin": 0.00020322203636169434,
+      "step": 9,
+      "top_two_margin": 0.0005663037300109863
+     },
+     {
+      "counted": true,
+      "episode_id": "professional_accounting/10:bare:short:-",
+      "expected": 422,
+      "got": 238,
+      "reference_top_two_margin": 0.0020321309566497803,
+      "step": 12,
+      "top_two_margin": 4.8667192459106445e-05
+     },
+     {
+      "counted": true,
+      "episode_id": "professional_accounting/10:bare:short:-",
+      "expected": 332,
+      "got": 38,
+      "reference_top_two_margin": 0.00017303228378295898,
+      "step": 31,
+      "top_two_margin": 0.0009322762489318848
+     },
+     {
+      "counted": true,
+      "episode_id": "professional_accounting/10:bare:short:-",
+      "expected": 422,
+      "got": 238,
+      "reference_top_two_margin": 0.0003293454647064209,
+      "step": 51,
+      "top_two_margin": 0.00037536025047302246
+     },
+     {
+      "counted": true,
+      "episode_id": "professional_accounting/10:bare:short:-",
+      "expected": 222,
+      "got": 156,
+      "reference_top_two_margin": 0.0018538832664489746,
+      "step": 53,
+      "top_two_margin": 0.007766097784042358
+     },
+     {
+      "counted": true,
+      "episode_id": "college_computer_science/91:bare:short:-",
+      "expected": 34,
+      "got": 222,
+      "reference_top_two_margin": 7.787346839904785e-05,
+      "step": 4,
+      "top_two_margin": 0.0027943551540374756
+     },
+     {
+      "counted": true,
+      "episode_id": "college_computer_science/91:bare:short:-",
+      "expected": 196,
+      "got": 203,
+      "reference_top_two_margin": 0.0025523006916046143,
+      "step": 27,
+      "top_two_margin": 0.006904780864715576
+     },
+     {
+      "counted": true,
+      "episode_id": "college_computer_science/91:bare:short:-",
+      "expected": 78,
+      "got": 380,
+      "reference_top_two_margin": 0.0010307729244232178,
+      "step": 32,
+      "top_two_margin": 4.363059997558594e-05
+     },
+     {
+      "counted": true,
+      "episode_id": "management/28:named:short:C",
+      "expected": 78,
+      "got": 222,
+      "reference_top_two_margin": 0.0027324259281158447,
+      "step": 9,
+      "top_two_margin": 0.001654982566833496
+     }
+    ],
+    "max_top_logit_difference_where_tokens_agree": 0.013941258192062378,
+    "rows": 16,
+    "rows_disagreeing": 11,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 4096,
+    "tie_bound": 1.4901161193847656e-06,
+    "ties": 0
+   },
+   "snap": {
+    "counted_disagreements": 10,
+    "disagreements": [
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:snap:B",
+      "expected": 342,
+      "got": 138,
+      "reference_top_two_margin": 0.0015282034873962402,
+      "step": 0,
+      "top_two_margin": 0.0005197227001190186
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:snap:B",
+      "expected": 61,
+      "got": 430,
+      "reference_top_two_margin": 2.86102294921875e-05,
+      "step": 6,
+      "top_two_margin": 0.0031945109367370605
+     },
+     {
+      "counted": true,
+      "episode_id": "formal_logic/29:reasoned:snap:B",
+      "expected": 61,
+      "got": 430,
+      "reference_top_two_margin": 0.00020769238471984863,
+      "step": 13,
+      "top_two_margin": 0.0018789172172546387
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:snap:B",
+      "expected": 342,
+      "got": 138,
+      "reference_top_two_margin": 0.00043469667434692383,
+      "step": 0,
+      "top_two_margin": 0.003984570503234863
+     },
+     {
+      "counted": true,
+      "episode_id": "college_physics/69:reasoned:snap:B",
+      "expected": 222,
+      "got": 238,
+      "reference_top_two_margin": 0.00230485200881958,
+      "step": 2,
+      "top_two_margin": 0.0019582509994506836
+     },
+     {
+      "counted": true,
+      "episode_id": "philosophy/96:reasoned:snap:A",
+      "expected": 342,
+      "got": 138,
+      "reference_top_two_margin": 0.00492936372756958,
+      "step": 0,
+      "top_two_margin": 0.00922420620918274
+     },
+     {
+      "counted": true,
+      "episode_id": "college_mathematics/48:bare:snap:-",
+      "expected": 34,
+      "got": 222,
+      "reference_top_two_margin": 0.0030196309089660645,
+      "step": 9,
+      "top_two_margin": 0.0002353191375732422
+     },
+     {
+      "counted": true,
+      "episode_id": "college_mathematics/48:bare:snap:-",
+      "expected": 203,
+      "got": 238,
+      "reference_top_two_margin": 0.0014080405235290527,
+      "step": 13,
+      "top_two_margin": 0.00023183226585388184
+     },
+     {
+      "counted": true,
+      "episode_id": "professional_accounting/10:bare:snap:-",
+      "expected": 222,
+      "got": 156,
+      "reference_top_two_margin": 0.0008756518363952637,
+      "step": 9,
+      "top_two_margin": 0.0018121898174285889
+     },
+     {
+      "counted": true,
+      "episode_id": "professional_accounting/10:bare:snap:-",
+      "expected": 422,
+      "got": 238,
+      "reference_top_two_margin": 0.0001411139965057373,
+      "step": 12,
+      "top_two_margin": 0.0023716092109680176
+     }
+    ],
+    "max_top_logit_difference_where_tokens_agree": 0.01103973388671875,
+    "rows": 16,
+    "rows_disagreeing": 5,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 256,
+    "tie_bound": 1.1920928955078125e-06,
+    "ties": 0
+   }
+  },
+  "control_arm": {
+   "short": {
+    "counted_disagreements": 0,
+    "disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 1.4901161193847656e-07,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 4096,
+    "tie_bound": null,
+    "ties": 0
+   },
+   "snap": {
+    "counted_disagreements": 0,
+    "disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 1.1920928955078125e-07,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 256,
+    "tie_bound": null,
+    "ties": 0
+   }
+  },
+  "control_arm_agrees": true,
+  "counted_disagreements": 104,
+  "green": false,
+  "implementation": "library",
+  "tie_bound_per_format": {
+   "short": 1.4901161193847656e-06,
+   "snap": 1.1920928955078125e-06
+  },
+  "ties": 0
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

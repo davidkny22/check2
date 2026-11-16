@@ -1,0 +1,332 @@
+[
+ {
+  "job_id": "expansion/college_mathematics/251:A",
+  "question": "Consider the linear operator T on R^3 defined by the matrix [[0, 1, 0], [0, 0, 1], [1, 0, 0]]. What is the characteristic polynomial of T?",
+  "options": {
+   "A": "lambda^3 + lambda",
+   "B": "lambda^3 - lambda",
+   "C": "lambda^3 + 1",
+   "D": "lambda^3 - 1"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/251:D",
+  "question": "Consider the linear operator T on R^3 defined by the matrix [[0, 1, 0], [0, 0, 1], [1, 0, 0]]. What is the characteristic polynomial of T?",
+  "options": {
+   "A": "lambda^3 + lambda",
+   "B": "lambda^3 - lambda",
+   "C": "lambda^3 + 1",
+   "D": "lambda^3 - 1"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/252:A",
+  "question": "A fair six-sided die is rolled repeatedly until the sum of the outcomes exceeds 100. What is the probability that the sum equals exactly 101 upon termination?",
+  "options": {
+   "A": "2/7",
+   "B": "6/7",
+   "C": "1/6",
+   "D": "1/2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/252:D",
+  "question": "A fair six-sided die is rolled repeatedly until the sum of the outcomes exceeds 100. What is the probability that the sum equals exactly 101 upon termination?",
+  "options": {
+   "A": "2/7",
+   "B": "6/7",
+   "C": "1/6",
+   "D": "1/2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/253:A",
+  "question": "A rectangular garden has its length increased by 20% and its width decreased by 10%. What is the net percentage change in the area of the garden?",
+  "options": {
+   "A": "8% increase",
+   "B": "12% decrease",
+   "C": "2% decrease",
+   "D": "10% increase"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/253:B",
+  "question": "A rectangular garden has its length increased by 20% and its width decreased by 10%. What is the net percentage change in the area of the garden?",
+  "options": {
+   "A": "8% increase",
+   "B": "12% decrease",
+   "C": "2% decrease",
+   "D": "10% increase"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/254:B",
+  "question": "Let A and B be similar matrices. Which of the following properties do they NOT necessarily share?",
+  "options": {
+   "A": "Determinant",
+   "B": "Eigenvectors",
+   "C": "Eigenvalues",
+   "D": "Trace"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/254:D",
+  "question": "Let A and B be similar matrices. Which of the following properties do they NOT necessarily share?",
+  "options": {
+   "A": "Determinant",
+   "B": "Eigenvectors",
+   "C": "Eigenvalues",
+   "D": "Trace"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/259:A",
+  "question": "Find the value of the integral from 0 to 1 of (x * ln(x)) dx.",
+  "options": {
+   "A": "1/4",
+   "B": "-1/2",
+   "C": "-1/4",
+   "D": "0"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/259:C",
+  "question": "Find the value of the integral from 0 to 1 of (x * ln(x)) dx.",
+  "options": {
+   "A": "1/4",
+   "B": "-1/2",
+   "C": "-1/4",
+   "D": "0"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/260:C",
+  "question": "Consider a Poisson process with intensity lambda. What is the probability that exactly k events occur in the time interval [0, T]?",
+  "options": {
+   "A": "exp(-lambda * T) / k!",
+   "B": "lambda^k * exp(-lambda * T) / k!",
+   "C": "(lambda * T)^k * exp(-lambda * T) / k!",
+   "D": "(lambda * T)^k / k!"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/260:D",
+  "question": "Consider a Poisson process with intensity lambda. What is the probability that exactly k events occur in the time interval [0, T]?",
+  "options": {
+   "A": "exp(-lambda * T) / k!",
+   "B": "lambda^k * exp(-lambda * T) / k!",
+   "C": "(lambda * T)^k * exp(-lambda * T) / k!",
+   "D": "(lambda * T)^k / k!"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/261:A",
+  "question": "Find the value of the improper integral from 0 to infinity of (sin(x))^2 / x^2 dx.",
+  "options": {
+   "A": "ln(2)",
+   "B": "pi / 4",
+   "C": "pi / 8",
+   "D": "pi / 2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/261:D",
+  "question": "Find the value of the improper integral from 0 to infinity of (sin(x))^2 / x^2 dx.",
+  "options": {
+   "A": "ln(2)",
+   "B": "pi / 4",
+   "C": "pi / 8",
+   "D": "pi / 2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/262:A",
+  "question": "Let W be a subspace of R^n. If the projection matrix onto W is P, what is the trace of P?",
+  "options": {
+   "A": "n - dim(W)",
+   "B": "0",
+   "C": "1",
+   "D": "dim(W)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/262:D",
+  "question": "Let W be a subspace of R^n. If the projection matrix onto W is P, what is the trace of P?",
+  "options": {
+   "A": "n - dim(W)",
+   "B": "0",
+   "C": "1",
+   "D": "dim(W)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/263:A",
+  "question": "Suppose A is a 4x4 matrix with eigenvalues 1, 1, 2, and 3. If the algebraic multiplicity of eigenvalue 1 is 2 and its geometric multiplicity is 1, what is the minimal polynomial of A?",
+  "options": {
+   "A": "(x-1)^2(x-2)(x-3)",
+   "B": "(x-1)(x-2)(x-3)",
+   "C": "(x-1)(x-2)^2(x-3)",
+   "D": "(x-1)^2(x-2)^2(x-3)^2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/263:D",
+  "question": "Suppose A is a 4x4 matrix with eigenvalues 1, 1, 2, and 3. If the algebraic multiplicity of eigenvalue 1 is 2 and its geometric multiplicity is 1, what is the minimal polynomial of A?",
+  "options": {
+   "A": "(x-1)^2(x-2)(x-3)",
+   "B": "(x-1)(x-2)(x-3)",
+   "C": "(x-1)(x-2)^2(x-3)",
+   "D": "(x-1)^2(x-2)^2(x-3)^2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/264:A",
+  "question": "Determine the limit as x approaches 0 of (exp(x) - 1 - x) / x^2.",
+  "options": {
+   "A": "1/2",
+   "B": "2",
+   "C": "0",
+   "D": "1"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/264:C",
+  "question": "Determine the limit as x approaches 0 of (exp(x) - 1 - x) / x^2.",
+  "options": {
+   "A": "1/2",
+   "B": "2",
+   "C": "0",
+   "D": "1"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/265:B",
+  "question": "Let A be an m x n matrix and B be an n x m matrix with m > n. What can be said about the product AB?",
+  "options": {
+   "A": "AB is always invertible",
+   "B": "AB is never invertible",
+   "C": "AB has rank n",
+   "D": "AB has rank m"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/265:D",
+  "question": "Let A be an m x n matrix and B be an n x m matrix with m > n. What can be said about the product AB?",
+  "options": {
+   "A": "AB is always invertible",
+   "B": "AB is never invertible",
+   "C": "AB has rank n",
+   "D": "AB has rank m"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/266:A",
+  "question": "How many distinct quadratic equations of the form x^2 + bx + c = 0 with integer coefficients b and c exist such that the roots are integers and the sum of the roots is equal to the product of the roots?",
+  "options": {
+   "A": "2",
+   "B": "1",
+   "C": "3",
+   "D": "Infinite"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/266:B",
+  "question": "How many distinct quadratic equations of the form x^2 + bx + c = 0 with integer coefficients b and c exist such that the roots are integers and the sum of the roots is equal to the product of the roots?",
+  "options": {
+   "A": "2",
+   "B": "1",
+   "C": "3",
+   "D": "Infinite"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/268:A",
+  "question": "A fair coin is flipped 6 times. What is the probability of getting exactly 4 heads?",
+  "options": {
+   "A": "15/64",
+   "B": "20/64",
+   "C": "5/16",
+   "D": "1/2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/268:B",
+  "question": "A fair coin is flipped 6 times. What is the probability of getting exactly 4 heads?",
+  "options": {
+   "A": "15/64",
+   "B": "20/64",
+   "C": "5/16",
+   "D": "1/2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/269:C",
+  "question": "Find the equation of the line tangent to the parabola y = x^2 that passes through the point (2, 3).",
+  "options": {
+   "A": "y = 2x - 1 only",
+   "B": "y = 4x - 5 and y = 2x - 1",
+   "C": "y = 2x - 1 and y = 6x - 9",
+   "D": "y = x + 1 and y = 3x - 3"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/269:D",
+  "question": "Find the equation of the line tangent to the parabola y = x^2 that passes through the point (2, 3).",
+  "options": {
+   "A": "y = 2x - 1 only",
+   "B": "y = 4x - 5 and y = 2x - 1",
+   "C": "y = 2x - 1 and y = 6x - 9",
+   "D": "y = x + 1 and y = 3x - 3"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/27:B",
+  "question": "Let X be a random variable following a Gamma distribution with shape parameter alpha and rate parameter beta. What is the variance of X?",
+  "options": {
+   "A": "alpha / beta",
+   "B": "alpha^2 / beta",
+   "C": "alpha / beta^2",
+   "D": "beta / alpha"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/27:C",
+  "question": "Let X be a random variable following a Gamma distribution with shape parameter alpha and rate parameter beta. What is the variance of X?",
+  "options": {
+   "A": "alpha / beta",
+   "B": "alpha^2 / beta",
+   "C": "alpha / beta^2",
+   "D": "beta / alpha"
+  },
+  "argue_for": "C"
+ }
+]

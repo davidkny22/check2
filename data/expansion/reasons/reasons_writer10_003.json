@@ -1,0 +1,17 @@
+{
+  "writer": "opus",
+  "started_unix": 1794796453,
+  "finished_unix": 1794796496,
+  "reasons": [
+    {"job_id": "expansion/elementary_mathematics/339:B", "reason": "The angles of any triangle sum to 180, so removing the 40-degree vertex leaves 140, and the two equal base angles split that remainder evenly between them."},
+    {"job_id": "expansion/elementary_mathematics/339:D", "reason": "With the equal sides extended past the base, each base corner's angle is measured on the outside, and that comes to 180 minus half of the remaining 140, which works out to 110 degrees."},
+    {"job_id": "expansion/elementary_mathematics/340:A", "reason": "Reflecting over the x-axis flips the sign of the y-coordinate, giving (3, 4), and moving 2 units left subtracts 2 from the x-coordinate, which lands the point at (1, 4)."},
+    {"job_id": "expansion/elementary_mathematics/340:D", "reason": "Reflecting across the x-axis mirrors the point along that axis, so its height of -4 is preserved, and a shift left moves it in the negative direction, so 3 minus negative 2 gives 5."},
+    {"job_id": "expansion/elementary_mathematics/342:C", "reason": "Reflecting a point mirrors it to the opposite side, so the coordinate signs swap together: a point in the fourth quadrant lands in the second, turning (3, -4) into its mirror image there."},
+    {"job_id": "expansion/elementary_mathematics/342:D", "reason": "A reflection across the x-axis keeps the horizontal position exactly where it was and only flips the vertical one, so the 3 stays put while the -4 becomes positive 4."},
+    {"job_id": "expansion/elementary_mathematics/345:A", "reason": "The car covers 45,000 meters in 30 minutes, which is 1,500 meters each minute, and 12 seconds is one sixth of a minute, so it travels 250 meters in that time."},
+    {"job_id": "expansion/elementary_mathematics/345:C", "reason": "Forty-five kilometers in half an hour is 90 kilometers an hour, which converts to 25 meters every second, and 25 meters times 12 seconds gives a distance of 300 meters."},
+    {"job_id": "expansion/elementary_mathematics/346:B", "reason": "Each half inch on the map stands for 20 miles, and 3.5 inches contains seven half-inch segments, so seven times 20 gives a real distance of 140 miles between the cities."},
+    {"job_id": "expansion/elementary_mathematics/346:C", "reason": "Doubling the scale gives 40 miles to the inch, so the three whole inches account for 120 miles and the remaining stretch adds another 40, putting the cities 160 miles apart."}
+  ]
+}

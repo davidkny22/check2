@@ -1,0 +1,54 @@
+{
+ "commit": "e6e41bfd7a04ed7b07610ff0916ddb734cae5745",
+ "commit_source": ".sent-commit",
+ "config": {
+  "original": "original-heldout",
+  "run": "perfect-signal-heldout-epoch2"
+ },
+ "config_sha256": "3c039390525fbf98f67566de6435916cb75ff048c0eb9922f6424bcd95e2f836",
+ "finished": "2026-11-15T19:41:28+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "gate",
+ "name": "perfect_signal",
+ "runs": {
+  "original-heldout": {
+   "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+   "config_sha256": "2189376368293e16405eb963e36d272547b8c4970120a0834406a192499cdcca",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "perfect-signal-heldout-epoch2": {
+   "commit": "e6e41bfd7a04ed7b07610ff0916ddb734cae5745",
+   "config_sha256": "f3f1e0da776f07385e61242cdd5f4b2b680b2adecb4f0c26f7fda76b33be85db",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  }
+ },
+ "session": "c2-a",
+ "started": "2026-11-15T19:41:26+00:00",
+ "tree_clean": null,
+ "values": {
+  "format": "snap",
+  "right_adoption_drop_original_minus_control": {
+   "episodes": 36,
+   "estimate": -2.7777777777777715,
+   "high": 0.0,
+   "low": -8.333333333333329,
+   "questions": 36,
+   "skipped": 0
+  },
+  "wrong_adoption_control_minus_half_original": {
+   "episodes": 84,
+   "estimate": -41.666666666666664,
+   "high": -37.5,
+   "low": -45.23809523809524,
+   "questions": 84,
+   "skipped": 0
+  }
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

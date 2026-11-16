@@ -1,0 +1,309 @@
+{
+ "builtin_path": true,
+ "commit": "b5cf6fee3b72e29c1ff0f2edf30d8c8782064a92",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T13:13:22+00:00",
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "full",
+ "name": "padding_invariance",
+ "planted": true,
+ "seconds": 143.5,
+ "session": "c2-g",
+ "started": "2026-11-15T13:10:59+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "additions_arm": {
+   "short": {
+    "first_disagreements": [
+     {
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 6335,
+      "got": 99986,
+      "reference_top_two_margin": 0.0957345962524414,
+      "step": 0,
+      "top_two_margin": 0.14011287689208984
+     },
+     {
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 220,
+      "got": 68905,
+      "reference_top_two_margin": 0.35679054260253906,
+      "step": 0,
+      "top_two_margin": 0.06039142608642578
+     },
+     {
+      "episode_id": "astronomy/98:bare:short:-",
+      "expected": 99986,
+      "got": 19444,
+      "reference_top_two_margin": 1.2519817352294922,
+      "step": 0,
+      "top_two_margin": 0.581242561340332
+     },
+     {
+      "episode_id": "high_school_microeconomics/87:bare:short:-",
+      "expected": 334,
+      "got": 38,
+      "reference_top_two_margin": 0.9757709503173828,
+      "step": 0,
+      "top_two_margin": 1.1976442337036133
+     },
+     {
+      "episode_id": "philosophy/89:bare:short:-",
+      "expected": 7532,
+      "got": 10715,
+      "reference_top_two_margin": 1.1980152130126953,
+      "step": 0,
+      "top_two_margin": 0.4681739807128906
+     },
+     {
+      "episode_id": "formal_logic/38:reasoned:short:A",
+      "expected": 198,
+      "got": 16,
+      "reference_top_two_margin": 2.9998064041137695,
+      "step": 0,
+      "top_two_margin": 1.1649818420410156
+     },
+     {
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 320,
+      "got": 14499,
+      "reference_top_two_margin": 0.12294197082519531,
+      "step": 0,
+      "top_two_margin": 0.20172405242919922
+     },
+     {
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 6163,
+      "got": 170439,
+      "reference_top_two_margin": 1.0893306732177734,
+      "step": 0,
+      "top_two_margin": 0.0572509765625
+     },
+     {
+      "episode_id": "management/64:reasoned:short:B",
+      "expected": 220,
+      "got": 2967,
+      "reference_top_two_margin": 0.9640932083129883,
+      "step": 0,
+      "top_two_margin": 0.10998821258544922
+     },
+     {
+      "episode_id": "college_mathematics/48:bare:short:-",
+      "expected": 220,
+      "got": 99460,
+      "reference_top_two_margin": 0.1293201446533203,
+      "step": 0,
+      "top_two_margin": 1.6817522048950195
+     },
+     {
+      "episode_id": "high_school_geography/16:reasoned:short:B",
+      "expected": 3260,
+      "got": 126668,
+      "reference_top_two_margin": 0.7855348587036133,
+      "step": 0,
+      "top_two_margin": 0.6828823089599609
+     },
+     {
+      "episode_id": "professional_accounting/10:bare:short:-",
+      "expected": 18251,
+      "got": 95762,
+      "reference_top_two_margin": 0.8805274963378906,
+      "step": 0,
+      "top_two_margin": 0.30901622772216797
+     },
+     {
+      "episode_id": "college_computer_science/91:bare:short:-",
+      "expected": 96220,
+      "got": 11,
+      "reference_top_two_margin": 0.06443023681640625,
+      "step": 1,
+      "top_two_margin": 0.7856426239013672
+     },
+     {
+      "episode_id": "management/28:named:short:C",
+      "expected": 6,
+      "got": 155232,
+      "reference_top_two_margin": 0.49837398529052734,
+      "step": 0,
+      "top_two_margin": 0.2436075210571289
+     },
+     {
+      "episode_id": "econometrics/60:named:short:D",
+      "expected": 593,
+      "got": 87,
+      "reference_top_two_margin": 0.0006723403930664062,
+      "step": 0,
+      "top_two_margin": 0.0768880844116211
+     }
+    ],
+    "max_top_logit_difference_where_tokens_agree": 5.255423545837402,
+    "rows": 16,
+    "rows_disagreeing": 15,
+    "rows_ended_inside_the_cap": 6,
+    "steps_compared": 2875
+   },
+   "snap": {
+    "first_disagreements": [
+     {
+      "episode_id": "formal_logic/29:reasoned:snap:B",
+      "expected": 33,
+      "got": 198,
+      "reference_top_two_margin": 0.48787403106689453,
+      "step": 0,
+      "top_two_margin": 1.9424734115600586
+     },
+     {
+      "episode_id": "college_physics/69:reasoned:snap:B",
+      "expected": 148567,
+      "got": 289,
+      "reference_top_two_margin": 0.02299976348876953,
+      "step": 0,
+      "top_two_margin": 0.012417793273925781
+     },
+     {
+      "episode_id": "astronomy/98:bare:snap:-",
+      "expected": 132293,
+      "got": 2005,
+      "reference_top_two_margin": 0.19673919677734375,
+      "step": 0,
+      "top_two_margin": 1.4443435668945312
+     },
+     {
+      "episode_id": "high_school_microeconomics/87:bare:snap:-",
+      "expected": 95855,
+      "got": 220,
+      "reference_top_two_margin": 0.19335556030273438,
+      "step": 0,
+      "top_two_margin": 0.15877914428710938
+     },
+     {
+      "episode_id": "philosophy/89:bare:snap:-",
+      "expected": 593,
+      "got": 101274,
+      "reference_top_two_margin": 0.4789085388183594,
+      "step": 0,
+      "top_two_margin": 0.5737552642822266
+     },
+     {
+      "episode_id": "formal_logic/38:reasoned:snap:A",
+      "expected": 82,
+      "got": 67,
+      "reference_top_two_margin": 0.8479890823364258,
+      "step": 0,
+      "top_two_margin": 1.0061368942260742
+     },
+     {
+      "episode_id": "philosophy/96:reasoned:snap:A",
+      "expected": 86,
+      "got": 4958,
+      "reference_top_two_margin": 0.2582683563232422,
+      "step": 0,
+      "top_two_margin": 0.9029102325439453
+     },
+     {
+      "episode_id": "management/63:reasoned:snap:B",
+      "expected": 198,
+      "got": 457,
+      "reference_top_two_margin": 0.4145698547363281,
+      "step": 0,
+      "top_two_margin": 0.034229278564453125
+     },
+     {
+      "episode_id": "management/64:reasoned:snap:B",
+      "expected": 95852,
+      "got": 48118,
+      "reference_top_two_margin": 0.8877964019775391,
+      "step": 0,
+      "top_two_margin": 0.0762939453125
+     },
+     {
+      "episode_id": "college_mathematics/48:bare:snap:-",
+      "expected": 60659,
+      "got": 164013,
+      "reference_top_two_margin": 0.08285713195800781,
+      "step": 0,
+      "top_two_margin": 0.34573936462402344
+     },
+     {
+      "episode_id": "high_school_geography/16:reasoned:snap:B",
+      "expected": 724,
+      "got": 7,
+      "reference_top_two_margin": 0.34565067291259766,
+      "step": 0,
+      "top_two_margin": 1.813657283782959
+     },
+     {
+      "episode_id": "professional_accounting/10:bare:snap:-",
+      "expected": 265,
+      "got": 69,
+      "reference_top_two_margin": 0.007113456726074219,
+      "step": 0,
+      "top_two_margin": 0.7315778732299805
+     },
+     {
+      "episode_id": "college_computer_science/91:bare:snap:-",
+      "expected": 99986,
+      "got": 127402,
+      "reference_top_two_margin": 0.07385730743408203,
+      "step": 0,
+      "top_two_margin": 0.5047407150268555
+     },
+     {
+      "episode_id": "management/28:named:snap:C",
+      "expected": 467,
+      "got": 13,
+      "reference_top_two_margin": 0.12596988677978516,
+      "step": 0,
+      "top_two_margin": 1.0610198974609375
+     },
+     {
+      "episode_id": "econometrics/60:named:snap:D",
+      "expected": 7,
+      "got": 7061,
+      "reference_top_two_margin": 0.029966354370117188,
+      "step": 0,
+      "top_two_margin": 0.3565254211425781
+     }
+    ],
+    "max_top_logit_difference_where_tokens_agree": 0.00021457672119140625,
+    "rows": 16,
+    "rows_disagreeing": 15,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 256
+   }
+  },
+  "control_arm": {
+   "short": {
+    "first_disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 0.00031280517578125,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 11,
+    "steps_compared": 2397
+   },
+   "snap": {
+    "first_disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 3.0517578125e-05,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 16,
+    "steps_compared": 33
+   }
+  },
+  "control_arm_agrees": true,
+  "green": false
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

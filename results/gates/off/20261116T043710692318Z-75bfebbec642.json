@@ -1,0 +1,59 @@
+{
+ "commit": "75bfebbec642cac9fdc28e0f26445918a25ac437",
+ "commit_source": "git",
+ "config": {
+  "original": "formed-model-heldout",
+  "run": "formed-off-heldout"
+ },
+ "config_sha256": "695577f0d52f8ef46542fce934728c75479a66944c2bfb103319ac9900fa3251",
+ "finished": "2026-11-16T04:37:10+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "name": "off",
+ "runs": {
+  "formed-model-heldout": {
+   "commit": "d7b149989aaa6457a2e7e1386fcd0b2c32e3bf37",
+   "config_sha256": "fb23a2576217058b48b5c52ab0d71360031d2be5f318284a21916687df60e468",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "formed-off-heldout": {
+   "commit": "88d42b4224b9620057ee17438ba089cb8d0eb1ee",
+   "config_sha256": "e28f418713228a78a18635af8e88f715149c65c8d3fb5db3e0dc7bbdd0257a78",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  }
+ },
+ "session": null,
+ "started": "2026-11-16T04:37:08+00:00",
+ "tree_clean": true,
+ "values": {
+  "short": {
+   "verdict": "red",
+   "wrong_adoption_off_minus_original": {
+    "episodes": 168,
+    "estimate": -5.952380952380949,
+    "high": -0.5952380952380949,
+    "low": -11.30952380952381,
+    "questions": 84,
+    "skipped": 0
+   }
+  },
+  "snap": {
+   "verdict": "green",
+   "wrong_adoption_off_minus_original": {
+    "episodes": 168,
+    "estimate": -0.595238095238102,
+    "high": 0.0,
+    "low": -1.7857142857142918,
+    "questions": 84,
+    "skipped": 0
+   }
+  }
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

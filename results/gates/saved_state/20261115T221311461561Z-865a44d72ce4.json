@@ -1,0 +1,35 @@
+{
+ "commit": "865a44d72ce42c019d131382642a95ed0ab056f1",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T22:13:11+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "gate",
+ "name": "saved_state",
+ "planted": false,
+ "session": "c2-a",
+ "started": "2026-11-15T22:13:08+00:00",
+ "tree_clean": null,
+ "values": {
+  "compared": 780,
+  "episode_of_lowest": "high_school_microeconomics/87:bare:snap:-",
+  "episodes": 780,
+  "green": true,
+  "lowest_cosine": 0.9995104074478149,
+  "missing_live": [],
+  "missing_live_count": 0,
+  "missing_saved": [],
+  "missing_saved_count": 0,
+  "run": "wide-connector-heldout-epoch1",
+  "saved_file": "/content/reader/wide/states_heldout.pt",
+  "threshold": 0.99
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

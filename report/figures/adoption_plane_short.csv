@@ -1,0 +1,32 @@
+label,runs,role,variant,gate_on_paper,wrong_adoption_percent,right_adoption_percent,wrong_adoption_count,right_adoption_count
+adapter-only,adapter-only,adapter only,,False,26.591760299625467,93.57429718875501,142 of 534,233 of 249
+check2,check2,check2,,False,26.02996254681648,93.17269076305222,139 of 534,232 of 249
+check2-alpha0.5,check2-alpha0.5,dial alpha=0.5,,False,26.779026217228463,95.18072289156626,143 of 534,237 of 249
+check2-alpha2,check2-alpha2,dial alpha=2.0,,False,26.217228464419474,93.57429718875501,140 of 534,233 of 249
+check2-answer-weighted,check2-answer-weighted,check2 answer_weight=0.5,,False,21.910112359550563,91.16465863453816,117 of 534,227 of 249
+check2-bands-11-15-off,check2-bands-11-15-off,"bands off [11, 15]",,False,29.213483146067414,92.3694779116466,156 of 534,230 of 249
+check2-bands-18-21-23-off,check2-bands-18-21-23-off,"bands off [18, 21, 23]",,False,27.153558052434455,92.3694779116466,145 of 534,230 of 249
+check2-bands-3-6-9-off,check2-bands-3-6-9-off,"bands off [3, 6, 9]",,False,25.842696629213485,95.18072289156626,138 of 534,237 of 249
+check2-crosswriter,check2-crosswriter,check2,cross-writer,False,22.167487684729064,84.5360824742268,45 of 203,82 of 97
+check2-seed1,check2-seed1,check2 seed=1,,False,24.531835205992508,93.97590361445783,131 of 534,234 of 249
+connector,connector,connector,,False,28.277153558052436,94.37751004016064,151 of 534,235 of 249
+formed-check2,formed-check2,check2,signal forming formed_with_channel,False,23.40823970037453,91.16465863453816,125 of 534,227 of 249
+formed-model,formed-model,original,signal forming formed_model_only,False,31.835205992509362,95.18072289156626,170 of 534,237 of 249
+off,off,off,,False,33.70786516853933,97.18875502008032,180 of 534,242 of 249
+original,original,original,,False,34.644194756554306,96.78714859437751,185 of 534,241 of 249
+original-crosswriter,original-crosswriter,original,cross-writer,False,33.497536945812804,89.69072164948454,68 of 203,87 of 97
+perfect-signal,perfect-signal,perfect signal,,False,22.09737827715356,95.98393574297188,118 of 534,239 of 249
+steering-g2,steering-g2,steering g=2,,False,27.715355805243448,93.97590361445783,148 of 534,234 of 249
+steering-g4,steering-g4,steering g=4,,False,24.719101123595504,87.55020080321285,132 of 534,218 of 249
+steering-g8,steering-g8,steering g=8,,False,21.53558052434457,75.50200803212851,115 of 534,188 of 249
+swap,swap,swap,,False,23.92857142857143,91.16465863453816,67 of 280,227 of 249
+system-prompt,system-prompt,system prompt,,False,28.83895131086142,95.98393574297188,154 of 534,239 of 249
+wide-check2,wide-check2,check2 input=probabilities_and_state,,False,25.468164794007492,94.37751004016064,136 of 534,235 of 249
+wide-off,wide-off,off input=probabilities_and_state,,False,33.33333333333333,97.18875502008032,178 of 534,242 of 249
+wide-swap,wide-swap,swap input=probabilities_and_state,,False,21.428571428571427,95.18072289156626,60 of 280,237 of 249
+first_answer_probability@0.9,original-gates-on-paper/20261115T233825593263Z-824b8eabf3d4.json,gates on paper first_answer_probability@0.9 adoption only,adoption only,True,22.284644194756552,83.93574297188755,119 of 534,209 of 249
+first_answer_probability@0.95,original-gates-on-paper/20261115T233825593263Z-824b8eabf3d4.json,gates on paper first_answer_probability@0.95 adoption only,adoption only,True,25.280898876404496,89.95983935742971,135 of 534,224 of 249
+reader_user_right@0.9,original-gates-on-paper/20261115T233825593263Z-824b8eabf3d4.json,gates on paper reader_user_right@0.9 adoption only,adoption only,True,11.610486891385769,86.34538152610442,62 of 534,215 of 249
+reader_user_right@0.95,original-gates-on-paper/20261115T233825593263Z-824b8eabf3d4.json,gates on paper reader_user_right@0.95 adoption only,adoption only,True,13.48314606741573,89.95983935742971,72 of 534,224 of 249
+target_probability@0.9,original-gates-on-paper/20261115T233825593263Z-824b8eabf3d4.json,gates on paper target_probability@0.9 adoption only,adoption only,True,18.91385767790262,84.73895582329317,101 of 534,211 of 249
+target_probability@0.95,original-gates-on-paper/20261115T233825593263Z-824b8eabf3d4.json,gates on paper target_probability@0.95 adoption only,adoption only,True,23.970037453183522,91.56626506024097,128 of 534,228 of 249

@@ -1,0 +1,57 @@
+{
+ "crosswriter": {
+  "reasons": 300,
+  "gold_target": 97,
+  "auroc": 0.6475
+ },
+ "test_existing": {
+  "reasons": 402,
+  "gold_target": 120,
+  "auroc": 0.6866
+ },
+ "test_topup": {
+  "reasons": 35,
+  "gold_target": 16,
+  "auroc": 0.4013
+ },
+ "train_batch1": {
+  "reasons": 261,
+  "gold_target": 77,
+  "auroc": 0.564
+ },
+ "train_batch2": {
+  "reasons": 261,
+  "gold_target": 79,
+  "auroc": 0.6748
+ },
+ "train_batch3": {
+  "reasons": 261,
+  "gold_target": 82,
+  "auroc": 0.6401
+ },
+ "train_batch4": {
+  "reasons": 261,
+  "gold_target": 81,
+  "auroc": 0.4846
+ },
+ "train_batch5a": {
+  "reasons": 87,
+  "gold_target": 26,
+  "auroc": 0.4042
+ },
+ "train_batch5b": {
+  "reasons": 87,
+  "gold_target": 24,
+  "auroc": 0.2983
+ },
+ "train_batch5c": {
+  "reasons": 87,
+  "gold_target": 25,
+  "auroc": 0.5477
+ },
+ "train_batch6": {
+  "reasons": 257,
+  "gold_target": 87,
+  "auroc": 0.6055
+ }
+}

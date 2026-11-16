@@ -1,0 +1,47 @@
+{
+  "writer": "opus",
+  "started_unix": 1794796473,
+  "finished_unix": 1794796509,
+  "reasons": [
+    {
+      "job_id": "expansion/high_school_mathematics/110:C",
+      "reason": "Area is length times width, so the new area is 1.2 times 0.9 of the original, which works out to 1.08, meaning the rectangle ends up eight percent larger overall."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/110:D",
+      "reason": "Both changes act on the same rectangle, so the twenty percent gain in length and the ten percent loss in width net against each other, leaving the area ten percent bigger than before."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/111:B",
+      "reason": "If the whole radical equals 3, then whatever sits under the outermost root has to equal 3 squared, which is 9, and that quantity is just x repeating itself, so x is 9."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/111:C",
+      "reason": "Squaring both sides gives x plus the same infinite radical equal to 9, and because that radical is itself 3, x plus 3 equals 9, which makes x equal 6."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/113:A",
+      "reason": "Since 2, 3 and 5 are prime they each have two divisors, 4 is a power of a single prime so it also counts two, and 1 adds nothing, so the total comes to eight."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/113:C",
+      "reason": "Listing them out, 1 has only itself, 2, 3 and 5 are prime with two divisors each, and 4 has 1, 2 and 4, so the sum is one plus six plus three."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/114:A",
+      "reason": "Completing the square rewrites the function as x minus 2, all squared, plus 3, and since the squared part can never go below zero, the lowest value is reached at x equals 2."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/114:B",
+      "reason": "The minimum of an upward quadratic is c minus b squared over twice a, and here b squared is 16 while twice a is 2, so the lowest value is 7 minus 8, negative one."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/118:A",
+      "reason": "A regular hexagon is six equilateral triangles meeting at the centre, and the height of each triangle is s root 3 over 2, which is the distance from a side across to the opposite side."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/118:D",
+      "reason": "The hexagon splits into six equilateral triangles around its centre, each with height s root 3 over 2, and opposite sides lie two of those heights apart, which gives s root 3."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+ "commit": "5123de3e70131581c5eb181fbfa1f56286934b1c",
+ "commit_source": "git",
+ "config": {
+  "cap_usd": "45",
+  "chunk_size": 64,
+  "endpoint": "https://api.anthropic.com/v1/messages",
+  "max_tokens": "item cap",
+  "model": "claude-haiku-5-5",
+  "prices_file": "experiments/behaviour/claude-prices.json",
+  "request_fields": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "thinking": "thinking disabled",
+  "workers": 16
+ },
+ "config_sha256": "0ecde8db9d0f8000800d55eee1dd40dfcea999be9444ce4560f0d7753cfa35b3",
+ "episodes_expected": 7243,
+ "episodes_written": 7243,
+ "finished": "2026-11-16T06:11:30+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "run",
+ "order_sha256": "739743c14ddb02e771c1f574448d6a726e5beb5271709e161dae9d2ef1f0efc7",
+ "run_id": "behaviour/claude-haiku-5-5",
+ "seed": null,
+ "session": null,
+ "split": null,
+ "started": "2026-11-16T05:59:16+00:00",
+ "status": "complete",
+ "tree_clean": true,
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

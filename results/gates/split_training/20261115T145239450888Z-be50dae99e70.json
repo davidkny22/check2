@@ -1,0 +1,97 @@
+{
+ "builtin_path": true,
+ "commit": "be50dae99e70a6f8bf34d3e3c09859f1d5b04128",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T14:52:39+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "full",
+ "name": "split_training",
+ "planted": true,
+ "seconds": 72.7,
+ "session": "c2-a",
+ "started": "2026-11-15T14:51:26+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "beta": 1.0,
+  "episode_ids": [
+   "high_school_macroeconomics/68:named:snap:B",
+   "high_school_physics/56:named:snap:A",
+   "college_computer_science/8:reasoned:snap:A",
+   "abstract_algebra/90:reasoned:snap:B",
+   "philosophy/86:reasoned:snap:A",
+   "high_school_mathematics/14:named:snap:D",
+   "college_mathematics/88:named:snap:B",
+   "econometrics/23:named:snap:D",
+   "high_school_macroeconomics/68:named:short:B",
+   "high_school_physics/56:named:short:A",
+   "college_computer_science/8:reasoned:short:A",
+   "abstract_algebra/90:reasoned:short:B",
+   "philosophy/86:reasoned:short:A",
+   "high_school_mathematics/14:named:short:D",
+   "college_mathematics/88:named:short:B",
+   "econometrics/23:named:short:D"
+  ],
+  "episodes": {
+   "short": 8,
+   "snap": 8
+  },
+  "forms": {
+   "shared_prefix": {
+    "batch_rows": [
+     8,
+     8
+    ],
+    "error": null,
+    "green": false,
+    "loss": 20.746927976608276,
+    "loss_relative_difference": 0.1450295999637539,
+    "max_gradient_relative_difference": 3.0828755881392564,
+    "max_rows": 8,
+    "out_of_memory_at_rows": [],
+    "worst_parameter": "adapter.layers.3.self_attn.v_proj.A"
+   },
+   "whole_sequence": {
+    "batch_rows": [
+     4,
+     4,
+     4,
+     4
+    ],
+    "error": null,
+    "green": false,
+    "loss": 18.11907869577408,
+    "loss_relative_difference": 2.2435068151075605e-06,
+    "max_gradient_relative_difference": 0.0005873315978289035,
+    "max_rows": 4,
+    "out_of_memory_at_rows": [
+     8
+    ],
+    "worst_parameter": "adapter.layers.3.self_attn.v_proj.A"
+   }
+  },
+  "green": false,
+  "reference_loss": 18.119119346141815,
+  "reference_zero_gradients": [],
+  "step_size": 16,
+  "targets": {
+   "file": "/content/stand-in-targets.jsonl",
+   "sha256": "858da1622552a7d9ede7194cd54f4adbc287cff677bec9fc61a19e64dae76af5"
+  },
+  "tolerance": 0.0001,
+  "trained_parameters": 396,
+  "training_form": "whole_sequence"
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

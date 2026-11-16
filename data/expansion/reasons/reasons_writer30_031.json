@@ -1,0 +1,127 @@
+{
+ "writer": "opus",
+ "started_unix": 1794796301,
+ "finished_unix": 1794796390,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_physics/29:A",
+   "reason": "Setting the average kinetic energy, three halves kT, equal to half m v squared makes v squared proportional to temperature, so the root-mean-square speed scales with the square root of T."
+  },
+  {
+   "job_id": "expansion/high_school_physics/29:C",
+   "reason": "Temperature measures the average of the squared speeds, and the rms speed is built by squaring, averaging and rooting, so that squaring step carries through and the speed ends up tied to T squared."
+  },
+  {
+   "job_id": "expansion/high_school_physics/290:A",
+   "reason": "Deer do the most damage when seedlings sit stunted in shade; opening the canopy with heavier harvest lets hardwood regeneration grow fast enough to escape browse height and swamp what the deer can eat."
+  },
+  {
+   "job_id": "expansion/high_school_physics/290:D",
+   "reason": "No amount of light or replanting helps if deer keep eating every seedling, so directly cutting the browsing pressure with fencing or culling is what lets the preferred hardwoods actually establish."
+  },
+  {
+   "job_id": "expansion/high_school_physics/291:A",
+   "reason": "Both grams annihilate, so the converted mass is two grams, or 0.002 kilograms; multiplying by c squared, nine times ten to the sixteenth, gives one point eight times ten to the fourteenth joules."
+  },
+  {
+   "job_id": "expansion/high_school_physics/291:D",
+   "reason": "With the annihilating pair treated as a single unit of mass converting entirely, the energy is that mass times the light-speed factor the question supplies, which lands right on three times ten to the eighth joules."
+  },
+  {
+   "job_id": "expansion/high_school_physics/293:A",
+   "reason": "When vapor condenses, the parcel suddenly carries liquid water, which makes it heavier; that extra loading drags air downward in the eyewall, a change a dry model ignores and that alters intensification sharply."
+  },
+  {
+   "job_id": "expansion/high_school_physics/293:B",
+   "reason": "Condensation dumps heat into the core, and that warm column lowers the surface pressure, steepening the pressure gradient that spins up stronger winds, something a dry adiabatic model has no way to produce."
+  },
+  {
+   "job_id": "expansion/high_school_physics/294:A",
+   "reason": "Ampere's law around a circle of radius r gives B times the circumference, two pi r, equal to mu-zero I, so dividing through leaves mu-zero I over two pi r."
+  },
+  {
+   "job_id": "expansion/high_school_physics/294:B",
+   "reason": "Field strength from a source spreads out over area, much like the inverse-square fall-off around a point charge, so the field from the wire should drop with r squared, giving mu-zero I over pi r squared."
+  },
+  {
+   "job_id": "expansion/high_school_physics/295:A",
+   "reason": "Both pieces float as one system, so the displaced water already equals their combined weight; melting the top piece turns it into water of exactly that weight, which leaves the level where it was."
+  },
+  {
+   "job_id": "expansion/high_school_physics/295:B",
+   "reason": "The ice on top sits above the waterline and displaces nothing directly, so once it melts it adds new liquid to the beaker that was not there before, pushing the water level up."
+  },
+  {
+   "job_id": "expansion/high_school_physics/296:C",
+   "reason": "The magnetic force has to supply the centripetal force, and momentum enters on both the inertia side and the speed side, so the radius should scale with momentum squared divided by qB."
+  },
+  {
+   "job_id": "expansion/high_school_physics/296:D",
+   "reason": "Setting the magnetic force qvB equal to the centripetal force m v squared over r and solving for r gives mv divided by qB, so faster or heavier particles curve in wider circles."
+  },
+  {
+   "job_id": "expansion/high_school_physics/299:A",
+   "reason": "Stretching keeps the volume fixed, so a wire ten percent longer has its cross-section shrink by the same factor; resistance goes as length over area, so the two factors of 1.1 multiply to 1.21."
+  },
+  {
+   "job_id": "expansion/high_school_physics/299:D",
+   "reason": "Resistance rises with length, but the stretched wire redistributes the same metal and the thinner section partly offsets the extra length, so the net change lands a little under the plain ten percent, near 1.09."
+  },
+  {
+   "job_id": "expansion/high_school_physics/300:C",
+   "reason": "Cardiac and respiratory cycles produce rhythmic fluctuations that show up across many brain regions at once, which directly inflates correlations between networks like the default mode and salience networks unless they are regressed out."
+  },
+  {
+   "job_id": "expansion/high_school_physics/300:D",
+   "reason": "Even small head movements create widespread, structured signal changes that masquerade as correlated activity, and schizophrenia patients tend to move more in the scanner, so motion is the confound most likely behind inflated connectivity."
+  },
+  {
+   "job_id": "expansion/high_school_physics/301:B",
+   "reason": "Fringe width equals wavelength times screen distance divided by slit separation, so bringing the slits closer together makes the bright and dark bands spread farther apart on the screen."
+  },
+  {
+   "job_id": "expansion/high_school_physics/301:C",
+   "reason": "Fringe spacing is set by the light's wavelength, and with the same monochromatic beam, moving the slits closer only changes how much light gets through, not the width of each fringe."
+  },
+  {
+   "job_id": "expansion/high_school_physics/302:A",
+   "reason": "A cubemap stores the surroundings as seen from one point as if everything were infinitely far away, so nearby objects show up in the wrong place in the reflection as the viewer moves."
+  },
+  {
+   "job_id": "expansion/high_school_physics/302:D",
+   "reason": "Reflections of nearby lit objects need bright highlights and deep shadows side by side, and an ordinary low dynamic range cube texture clips those values, flattening exactly the close-up detail that matters in VR."
+  },
+  {
+   "job_id": "expansion/high_school_physics/304:B",
+   "reason": "For an isolated system the second law says entropy never goes down: irreversible processes raise it and only an idealized reversible process holds it level, which is what gives time its arrow."
+  },
+  {
+   "job_id": "expansion/high_school_physics/304:C",
+   "reason": "Entropy is statistical, a count of microstates, and in any real system molecular motion makes it jitter up and down from moment to moment, so over time it behaves as a random fluctuation."
+  },
+  {
+   "job_id": "expansion/high_school_physics/306:A",
+   "reason": "Wavelength is the speed of light divided by frequency, and three times ten to the eighth divided by one point three times ten to the ninth comes out to about 0.23 meters."
+  },
+  {
+   "job_id": "expansion/high_school_physics/306:B",
+   "reason": "Dividing the speed of light by the frequency, the ten to the eighth and the gigahertz scale cancel against each other, so the cavity's wavelength tracks the 1.3 figure directly in meters."
+  },
+  {
+   "job_id": "expansion/high_school_physics/307:A",
+   "reason": "Fiber only turns into butyrate if microbes carry the enzyme pathway to make it; without those taxa the extra substrate gets fermented into other products, so butyrate output stays where it was."
+  },
+  {
+   "job_id": "expansion/high_school_physics/307:B",
+   "reason": "Prebiotic fiber is the raw material for short-chain fatty acid fermentation, and supplying much more of it feeds the whole gut community, so circulating butyrate should rise noticeably with the intervention."
+  },
+  {
+   "job_id": "expansion/high_school_physics/309:C",
+   "reason": "Potential energy is half k x squared and the total is half k times amplitude squared; equal sharing means potential is half the total, so x squared is the amplitude squared over two, giving amplitude over root two."
+  },
+  {
+   "job_id": "expansion/high_school_physics/309:D",
+   "reason": "Kinetic energy is the total minus the potential, half k times amplitude squared minus x squared; setting that equal to the potential gives x squared equal to amplitude squared over three, so amplitude over root three."
+  }
+ ]
+}

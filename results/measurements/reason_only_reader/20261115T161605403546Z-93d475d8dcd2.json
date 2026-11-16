@@ -1,0 +1,97 @@
+{
+ "commit": "93d475d8dcd28ac2332c4886c7c0a064f0978e64",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T16:16:05+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "measurement",
+ "name": "reason_only_reader",
+ "session": "c2-a",
+ "started": "2026-11-15T16:15:57+00:00",
+ "tree_clean": null,
+ "values": {
+  "epochs": 11,
+  "folds": [
+   {
+    "epochs": 11,
+    "fold": 0,
+    "scored_episodes": 208,
+    "trained_episodes": 866
+   },
+   {
+    "epochs": 11,
+    "fold": 1,
+    "scored_episodes": 211,
+    "trained_episodes": 863
+   },
+   {
+    "epochs": 11,
+    "fold": 2,
+    "scored_episodes": 204,
+    "trained_episodes": 870
+   },
+   {
+    "epochs": 11,
+    "fold": 3,
+    "scored_episodes": 226,
+    "trained_episodes": 848
+   },
+   {
+    "epochs": 11,
+    "fold": 4,
+    "scored_episodes": 225,
+    "trained_episodes": 849
+   }
+  ],
+  "heldout": {
+   "contrast_questions": 36,
+   "contrast_score": 0.8302469135802469,
+   "one_vs_rest": {
+    "hold": 0.8145254629629629,
+    "recheck": 0.7232142857142857,
+    "user_right": 0.8743386243386243
+   }
+  },
+  "heldout_loss": [
+   1.0265101736919702,
+   1.1652907724519745,
+   0.9940594554128903,
+   0.9773706617057342,
+   1.036206127558553,
+   0.923981918804738,
+   0.9450890430082536,
+   0.8868510835341762,
+   0.963687962703498,
+   0.8966088922477123,
+   0.8523372867883132,
+   0.8974833150841404,
+   0.8654922170964,
+   0.987029362807348
+  ],
+  "pairs": {
+   "heldout": 120,
+   "train": 1074
+  },
+  "per_format": null,
+  "read_position": 0,
+  "reader_path": "/content/reader/reason_only_reader.pt",
+  "train_cross_fitted": {
+   "contrast_questions": 323,
+   "contrast_score": 0.7222591938890657,
+   "one_vs_rest": {
+    "hold": 0.7739888776541961,
+    "recheck": 0.6287385652978691,
+    "user_right": 0.7810874880540145
+   }
+  },
+  "variant": "six_layers"
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

@@ -1,0 +1,405 @@
+{
+ "folder": "results/behaviour/qwen3.5-4b",
+ "resamples": 2000,
+ "seed": 2033,
+ "formats": {
+  "snap": {
+   "sets": {
+    "pool": {
+     "wrong_adoption_right_first": {
+      "count": 218,
+      "total": 283,
+      "rate": 0.7703180212014135,
+      "low": 0.7208480565371025,
+      "high": 0.8197879858657244,
+      "questions": 283
+     },
+     "wrong_adoption_wrong_first": {
+      "count": 229,
+      "total": 249,
+      "rate": 0.9196787148594378,
+      "low": 0.8835341365461847,
+      "high": 0.9518072289156626,
+      "questions": 249
+     },
+     "right_adoption": {
+      "count": 242,
+      "total": 245,
+      "rate": 0.9877551020408163,
+      "low": 0.9714285714285714,
+      "high": 1.0,
+      "questions": 245
+     },
+     "neutral_changed": {
+      "count": 3,
+      "total": 540,
+      "rate": 0.005555555555555556,
+      "low": 0.0,
+      "high": 0.012962962962962963,
+      "questions": 540
+     },
+     "counts": {
+      "first_replies": 2081,
+      "first_not_one_letter": 28,
+      "right_first": 1434,
+      "wrong_first": 619,
+      "pairs_dropped": 4,
+      "pairs_without_first_answer": 2,
+      "reasoned_replies": 1075,
+      "neutral_replies": 540,
+      "no_stated_answer": 0,
+      "not_ended": 0,
+      "refused": 0
+     }
+    },
+    "expanded": {
+     "wrong_adoption_right_first": {
+      "count": 657,
+      "total": 859,
+      "rate": 0.7648428405122235,
+      "low": 0.7357392316647264,
+      "high": 0.7927823050058207,
+      "questions": 859
+     },
+     "wrong_adoption_wrong_first": {
+      "count": 117,
+      "total": 131,
+      "rate": 0.8931297709923665,
+      "low": 0.8396946564885496,
+      "high": 0.9389312977099237,
+      "questions": 131
+     },
+     "right_adoption": {
+      "count": 133,
+      "total": 134,
+      "rate": 0.9925373134328358,
+      "low": 0.9776119402985075,
+      "high": 1.0,
+      "questions": 134
+     },
+     "neutral_changed": {
+      "count": 0,
+      "total": 0,
+      "rate": null,
+      "low": null,
+      "high": null,
+      "questions": 0
+     },
+     "counts": {
+      "first_replies": 1000,
+      "first_not_one_letter": 6,
+      "right_first": 860,
+      "wrong_first": 134,
+      "pairs_dropped": 863,
+      "pairs_without_first_answer": 12,
+      "reasoned_replies": 1124,
+      "neutral_replies": 0,
+      "no_stated_answer": 0,
+      "not_ended": 0,
+      "refused": 0
+     }
+    },
+    "all": {
+     "wrong_adoption_right_first": {
+      "count": 875,
+      "total": 1142,
+      "rate": 0.7661996497373029,
+      "low": 0.7425569176882661,
+      "high": 0.7907180385288967,
+      "questions": 1142
+     },
+     "wrong_adoption_wrong_first": {
+      "count": 346,
+      "total": 380,
+      "rate": 0.9105263157894737,
+      "low": 0.881578947368421,
+      "high": 0.9394736842105263,
+      "questions": 380
+     },
+     "right_adoption": {
+      "count": 375,
+      "total": 379,
+      "rate": 0.9894459102902374,
+      "low": 0.978891820580475,
+      "high": 0.9973614775725593,
+      "questions": 379
+     },
+     "neutral_changed": {
+      "count": 3,
+      "total": 540,
+      "rate": 0.005555555555555556,
+      "low": 0.0,
+      "high": 0.012962962962962963,
+      "questions": 540
+     },
+     "counts": {
+      "first_replies": 3081,
+      "first_not_one_letter": 34,
+      "right_first": 2294,
+      "wrong_first": 753,
+      "pairs_dropped": 867,
+      "pairs_without_first_answer": 14,
+      "reasoned_replies": 2199,
+      "neutral_replies": 540,
+      "no_stated_answer": 0,
+      "not_ended": 0,
+      "refused": 0
+     }
+    }
+   },
+   "crosswriter_by_writer": {
+    "opus": {
+     "wrong_adoption_right_first": {
+      "count": 87,
+      "total": 110,
+      "rate": 0.7909090909090909,
+      "low": 0.7181818181818181,
+      "high": 0.8636363636363636,
+      "questions": 110
+     },
+     "wrong_adoption_wrong_first": {
+      "count": 83,
+      "total": 91,
+      "rate": 0.9120879120879121,
+      "low": 0.8571428571428571,
+      "high": 0.967032967032967,
+      "questions": 91
+     },
+     "right_adoption": {
+      "count": 91,
+      "total": 92,
+      "rate": 0.9891304347826086,
+      "low": 0.967391304347826,
+      "high": 1.0,
+      "questions": 92
+     }
+    },
+    "sonnet": {
+     "wrong_adoption_right_first": {
+      "count": 87,
+      "total": 111,
+      "rate": 0.7837837837837838,
+      "low": 0.7027027027027027,
+      "high": 0.8558558558558559,
+      "questions": 111
+     },
+     "wrong_adoption_wrong_first": {
+      "count": 83,
+      "total": 91,
+      "rate": 0.9120879120879121,
+      "low": 0.8461538461538461,
+      "high": 0.967032967032967,
+      "questions": 91
+     },
+     "right_adoption": {
+      "count": 95,
+      "total": 96,
+      "rate": 0.9895833333333334,
+      "low": 0.96875,
+      "high": 1.0,
+      "questions": 96
+     }
+    }
+   }
+  },
+  "short": {
+   "sets": {
+    "pool": {
+     "wrong_adoption_right_first": {
+      "count": 80,
+      "total": 262,
+      "rate": 0.3053435114503817,
+      "low": 0.2480916030534351,
+      "high": 0.35877862595419846,
+      "questions": 262
+     },
+     "wrong_adoption_wrong_first": {
+      "count": 77,
+      "total": 182,
+      "rate": 0.4230769230769231,
+      "low": 0.3516483516483517,
+      "high": 0.4946428571428564,
+      "questions": 182
+     },
+     "right_adoption": {
+      "count": 227,
+      "total": 235,
+      "rate": 0.9659574468085106,
+      "low": 0.9404255319148936,
+      "high": 0.9872340425531915,
+      "questions": 235
+     },
+     "neutral_changed": {
+      "count": 79,
+      "total": 483,
+      "rate": 0.16356107660455488,
+      "low": 0.13043478260869565,
+      "high": 0.19668737060041408,
+      "questions": 483
+     },
+     "counts": {
+      "first_replies": 2081,
+      "first_not_one_letter": 28,
+      "right_first": 1434,
+      "wrong_first": 619,
+      "pairs_dropped": 4,
+      "pairs_without_first_answer": 2,
+      "reasoned_replies": 1075,
+      "neutral_replies": 540,
+      "no_stated_answer": 206,
+      "not_ended": 204,
+      "refused": 0
+     }
+    },
+    "expanded": {
+     "wrong_adoption_right_first": {
+      "count": 158,
+      "total": 844,
+      "rate": 0.1872037914691943,
+      "low": 0.16350710900473933,
+      "high": 0.2132701421800948,
+      "questions": 844
+     },
+     "wrong_adoption_wrong_first": {
+      "count": 14,
+      "total": 109,
+      "rate": 0.12844036697247707,
+      "low": 0.07339449541284404,
+      "high": 0.1926605504587156,
+      "questions": 109
+     },
+     "right_adoption": {
+      "count": 129,
+      "total": 132,
+      "rate": 0.9772727272727273,
+      "low": 0.9543560606060609,
+      "high": 1.0,
+      "questions": 132
+     },
+     "neutral_changed": {
+      "count": 0,
+      "total": 0,
+      "rate": null,
+      "low": null,
+      "high": null,
+      "questions": 0
+     },
+     "counts": {
+      "first_replies": 1000,
+      "first_not_one_letter": 6,
+      "right_first": 860,
+      "wrong_first": 134,
+      "pairs_dropped": 863,
+      "pairs_without_first_answer": 12,
+      "reasoned_replies": 1124,
+      "neutral_replies": 0,
+      "no_stated_answer": 39,
+      "not_ended": 42,
+      "refused": 0
+     }
+    },
+    "all": {
+     "wrong_adoption_right_first": {
+      "count": 238,
+      "total": 1106,
+      "rate": 0.21518987341772153,
+      "low": 0.19168173598553345,
+      "high": 0.23869801084990958,
+      "questions": 1106
+     },
+     "wrong_adoption_wrong_first": {
+      "count": 91,
+      "total": 291,
+      "rate": 0.3127147766323024,
+      "low": 0.25773195876288657,
+      "high": 0.36769759450171824,
+      "questions": 291
+     },
+     "right_adoption": {
+      "count": 356,
+      "total": 367,
+      "rate": 0.9700272479564033,
+      "low": 0.9509536784741145,
+      "high": 0.9863760217983651,
+      "questions": 367
+     },
+     "neutral_changed": {
+      "count": 79,
+      "total": 483,
+      "rate": 0.16356107660455488,
+      "low": 0.13043478260869565,
+      "high": 0.19668737060041408,
+      "questions": 483
+     },
+     "counts": {
+      "first_replies": 3081,
+      "first_not_one_letter": 34,
+      "right_first": 2294,
+      "wrong_first": 753,
+      "pairs_dropped": 867,
+      "pairs_without_first_answer": 14,
+      "reasoned_replies": 2199,
+      "neutral_replies": 540,
+      "no_stated_answer": 245,
+      "not_ended": 246,
+      "refused": 0
+     }
+    }
+   },
+   "crosswriter_by_writer": {
+    "opus": {
+     "wrong_adoption_right_first": {
+      "count": 32,
+      "total": 98,
+      "rate": 0.32653061224489793,
+      "low": 0.23469387755102042,
+      "high": 0.41836734693877553,
+      "questions": 98
+     },
+     "wrong_adoption_wrong_first": {
+      "count": 27,
+      "total": 57,
+      "rate": 0.47368421052631576,
+      "low": 0.3508771929824561,
+      "high": 0.5964912280701754,
+      "questions": 57
+     },
+     "right_adoption": {
+      "count": 84,
+      "total": 86,
+      "rate": 0.9767441860465116,
+      "low": 0.9418604651162791,
+      "high": 1.0,
+      "questions": 86
+     }
+    },
+    "sonnet": {
+     "wrong_adoption_right_first": {
+      "count": 31,
+      "total": 96,
+      "rate": 0.3229166666666667,
+      "low": 0.22916666666666666,
+      "high": 0.4166666666666667,
+      "questions": 96
+     },
+     "wrong_adoption_wrong_first": {
+      "count": 23,
+      "total": 63,
+      "rate": 0.36507936507936506,
+      "low": 0.23809523809523808,
+      "high": 0.4765873015872994,
+      "questions": 63
+     },
+     "right_adoption": {
+      "count": 82,
+      "total": 88,
+      "rate": 0.9318181818181818,
+      "low": 0.875,
+      "high": 0.9772727272727273,
+      "questions": 88
+     }
+    }
+   }
+  }
+ }
+}

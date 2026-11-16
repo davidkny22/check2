@@ -1,0 +1,38 @@
+check2:
+  model: Qwen/Qwen3.5-4B
+  model_revision: pinned
+  libraries: {transformers: 5.22.1, flash-linear-attention: 0.6.0, runtime: recorded}
+  data:
+    pool: measurements/protocol/first_answers.json
+    plan: measurements/dataset/plan.json
+    test_second_part: measurements/dataset/reserve_questions.json
+    formats: [snap, short]
+    forms: [reasoned]
+    eval_split: test
+    reason_writer: sonnet
+    target_samples: 4
+  reader:
+    layers: [14, 15, 18, 19, 22, 23]
+    pooled: true
+    read_position: selected
+    input: conversation
+  writer:
+    layers: [3, 6, 9, 11, 15, 18, 21, 23]
+    hidden: 32
+    alpha: 0.0
+    disabled_layers: []
+  signal: reader
+  adapter:
+    kind: none
+    implementation: hooks
+    rank: 32
+    alpha_lora: 64
+    layers: [3, 31]
+    beta: 1.0
+  generation_cache: growing
+  blas: default
+  attention_backend: default
+  training: {optimizer: adamw_fused, episodes_per_step: 16, shared_prefix: true, delta_kernel: fast_bf16}
+  signal_forming: none
+  baseline: {system_prompt_suffix: null, steering_strength: null}
+  seed: 0

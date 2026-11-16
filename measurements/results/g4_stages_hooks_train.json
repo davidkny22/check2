@@ -1,0 +1,198 @@
+{
+ "model": "Qwen/Qwen3.5-4B",
+ "use_fla": true,
+ "stages": [
+  "env",
+  "install",
+  "load",
+  "hooks",
+  "train"
+ ],
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition, 580.82.07, 97887 MiB, 12.0",
+ "nvcc": "Cuda compilation tools, release 13.0, V13.0.88\nBuild cuda_13.0.r13.0/compiler.36424714_0",
+ "python": "3.13.16",
+ "pip_versions": "accelerate                            1.15.0\nfla-core                              0.6.0\nflash-linear-attention                0.6.0\nFlask                                 3.1.3\nflatbuffers                           25.12.19\nflax                                  0.11.2\npeft                                  0.21.2\ntorch                                 2.14.1+cu130\ntorchao                               0.10.0\ntorchaudio                            2.11.0+cu130\ntorchcodec                            0.17.0+cu130\ntorchdata                             0.11.0\ntorchsummary                          1.5.1\ntorchtune                             0.6.1\ntorchvision                           0.29.1+cu130\ntransformers                          5.22.1\ntriton                                3.8.0",
+ "disk": "overlay         236G  9.0G  227G   4% /",
+ "ram": "Mem:             176           5         150           0          22         171",
+ "env_seconds": 0.3,
+ "torchao_removed": "Successfully uninstalled torchao-0.10.0",
+ "fla_install": {
+  "seconds": 0.6,
+  "tail": ""
+ },
+ "fla_import": "0.6.0",
+ "install_seconds": 6.0,
+ "load_seconds_bf16": 0.8,
+ "model_class": "Qwen3_5ForCausalLM",
+ "layer_count": 32,
+ "layer_types": [
+  "linear_attention",
+  "linear_attention",
+  "linear_attention",
+  "full_attention",
+  "linear_attention",
+  "linear_attention",
+  "linear_attention",
+  "full_attention",
+  "linear_attention",
+  "linear_attention",
+  "linear_attention",
+  "full_attention",
+  "linear_attention",
+  "linear_attention",
+  "linear_attention",
+  "full_attention",
+  "linear_attention",
+  "linear_attention",
+  "linear_attention",
+  "full_attention",
+  "linear_attention",
+  "linear_attention",
+  "linear_attention",
+  "full_attention",
+  "linear_attention",
+  "linear_attention",
+  "linear_attention",
+  "full_attention",
+  "linear_attention",
+  "linear_attention",
+  "linear_attention",
+  "full_attention"
+ ],
+ "hidden_size": 2560,
+ "prompt_tail": "|im_start|>assistant\nThe answer is (A).<|im_end|>\n<|im_start|>user\nI don't think that's right. Are you sure?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+ "weights_gb": 7.9,
+ "load_seconds": 1.3,
+ "hooks": {
+  "zero_hook_same_as_no_hook": null,
+  "hook_calls": [
+   128,
+   128
+  ],
+  "residual_norms": [
+   5.6,
+   6.3
+  ],
+  "generate_with_hooks_batch16": {
+   "batch": 16,
+   "prompt_len": 119,
+   "seconds": 2.27,
+   "new_tokens": 1549,
+   "tokens_per_s": 681.5,
+   "replies_per_s": 7.04,
+   "peak_gb": 8.9
+  },
+  "layer14_first_logit_shift": {
+   "max_abs_diff_vs_no_hook": 4.75,
+   "plain_top_logit": 22.38
+  },
+  "layer14_cached_vs_uncached": {
+   "max_abs_logit_diff": 0.2188,
+   "argmax_agree": 20,
+   "steps": 20,
+   "changed_vs_no_hook": null
+  },
+  "layer15_first_logit_shift": {
+   "max_abs_diff_vs_no_hook": 3.969,
+   "plain_top_logit": 22.38
+  },
+  "layer15_cached_vs_uncached": {
+   "max_abs_logit_diff": 0.2188,
+   "argmax_agree": 20,
+   "steps": 20,
+   "changed_vs_no_hook": null
+  },
+  "generate_with_5_hooks_batch64": {
+   "batch": 64,
+   "prompt_len": 120,
+   "seconds": 3.79,
+   "new_tokens": 7161,
+   "tokens_per_s": 1891.9,
+   "replies_per_s": 16.91,
+   "peak_gb": 12.3
+  }
+ },
+ "hooks_seconds": 7.8,
+ "lora_targets_found": [
+  "q_proj",
+  "k_proj",
+  "v_proj",
+  "o_proj",
+  "gate_proj",
+  "up_proj",
+  "down_proj",
+  "in_proj_qkv",
+  "in_proj_z",
+  "out_proj"
+ ],
+ "train": {
+  "trainable_params_m": 30.56,
+  "grad_bs16": {
+   "phi": 1.03544,
+   "lora_linear_attn_after_hook": [
+    6,
+    0.270902
+   ],
+   "lora_self_attn_after_hook": [
+    8,
+    0.491139
+   ],
+   "lora_before_hook": [
+    12,
+    0.309727
+   ],
+   "loss": 3.2891,
+   "finite": true
+  },
+  "step_seconds_bs16": {
+   "all": [
+    28.847,
+    0.337,
+    0.335,
+    0.335,
+    0.335,
+    0.335,
+    0.335,
+    0.335
+   ],
+   "steady_mean": 0.335,
+   "seq_len": 140,
+   "peak_gb": 33.1
+  },
+  "grad_bs32": {
+   "phi": 0.05116,
+   "lora_linear_attn_after_hook": [
+    6,
+    0.054085
+   ],
+   "lora_self_attn_after_hook": [
+    8,
+    0.08499
+   ],
+   "lora_before_hook": [
+    12,
+    0.030116
+   ],
+   "loss": 0.3138,
+   "finite": true
+  },
+  "step_seconds_bs32": {
+   "all": [
+    15.456,
+    0.737,
+    0.736,
+    0.736,
+    0.737,
+    0.737,
+    0.736,
+    0.736
+   ],
+   "steady_mean": 0.736,
+   "seq_len": 141,
+   "peak_gb": 58.3
+  }
+ },
+ "log_lines_after_train": [],
+ "train_seconds": 52.1,
+ "done": true
+}

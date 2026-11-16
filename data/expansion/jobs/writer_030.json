@@ -1,0 +1,1652 @@
+[
+ {
+  "job_id": "expansion/formal_logic/338:A",
+  "question": "Which of the following is the correct translation of 'If a number is even, it is divisible by two'?",
+  "options": {
+   "A": "∃x(E(x) • D(x))",
+   "B": "∀x(D(x) ⊃ E(x))",
+   "C": "∀x(E(x) ≡ D(x))",
+   "D": "∀x(E(x) ⊃ D(x))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/338:D",
+  "question": "Which of the following is the correct translation of 'If a number is even, it is divisible by two'?",
+  "options": {
+   "A": "∃x(E(x) • D(x))",
+   "B": "∀x(D(x) ⊃ E(x))",
+   "C": "∀x(E(x) ≡ D(x))",
+   "D": "∀x(E(x) ⊃ D(x))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/339:A",
+  "question": "Euclidean geometry teaches that 'If two lines are parallel, they do not intersect.' Let Par(l, m) mean 'line l is parallel to line m' and Int(l, m) mean 'line l intersects line m'. How do we symbolize 'For all lines l and m, if l is parallel to m, then l does not intersect m'?",
+  "options": {
+   "A": "~∀l ∀m (Par(l, m) ⊃ ~Int(l, m))",
+   "B": "∀l ∀m (Par(l, m) ⊃ ~Int(l, m))",
+   "C": "∀l ∀m (~Int(l, m) ⊃ Par(l, m))",
+   "D": "∃l ∃m (Par(l, m) • ~Int(l, m))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/339:B",
+  "question": "Euclidean geometry teaches that 'If two lines are parallel, they do not intersect.' Let Par(l, m) mean 'line l is parallel to line m' and Int(l, m) mean 'line l intersects line m'. How do we symbolize 'For all lines l and m, if l is parallel to m, then l does not intersect m'?",
+  "options": {
+   "A": "~∀l ∀m (Par(l, m) ⊃ ~Int(l, m))",
+   "B": "∀l ∀m (Par(l, m) ⊃ ~Int(l, m))",
+   "C": "∀l ∀m (~Int(l, m) ⊃ Par(l, m))",
+   "D": "∃l ∃m (Par(l, m) • ~Int(l, m))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/34:C",
+  "question": "What is the translation of 'If a person is a doctor, then they have a medical degree'?",
+  "options": {
+   "A": "∀x(D(x) ≡ M(x))",
+   "B": "∃x(D(x) • M(x))",
+   "C": "∀x(M(x) ⊃ D(x))",
+   "D": "∀x(D(x) ⊃ M(x))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/34:D",
+  "question": "What is the translation of 'If a person is a doctor, then they have a medical degree'?",
+  "options": {
+   "A": "∀x(D(x) ≡ M(x))",
+   "B": "∃x(D(x) • M(x))",
+   "C": "∀x(M(x) ⊃ D(x))",
+   "D": "∀x(D(x) ⊃ M(x))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/340:B",
+  "question": "Translate the following into symbolic logic: 'The car will start provided that the battery is charged and the starter motor works.'",
+  "options": {
+   "A": "C ⊃ (B • S)",
+   "B": "(B ∨ S) ⊃ C",
+   "C": "C ≡ (B • S)",
+   "D": "(B • S) ⊃ C"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/340:D",
+  "question": "Translate the following into symbolic logic: 'The car will start provided that the battery is charged and the starter motor works.'",
+  "options": {
+   "A": "C ⊃ (B • S)",
+   "B": "(B ∨ S) ⊃ C",
+   "C": "C ≡ (B • S)",
+   "D": "(B • S) ⊃ C"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/341:C",
+  "question": "Translate the circle theorem: 'If an angle is inscribed in a semicircle, then it is a right angle.' let InscSemi(a) mean 'angle a is inscribed in a semicircle' and RightAng(a) mean 'angle a is a right angle'. Which conditional is correct?",
+  "options": {
+   "A": "RightAng(a) ⊃ InscSemi(a)",
+   "B": "InscSemi(a) ≡ RightAng(a)",
+   "C": "~InscSemi(a) ∨ ~RightAng(a)",
+   "D": "InscSemi(a) ⊃ RightAng(a)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/341:D",
+  "question": "Translate the circle theorem: 'If an angle is inscribed in a semicircle, then it is a right angle.' let InscSemi(a) mean 'angle a is inscribed in a semicircle' and RightAng(a) mean 'angle a is a right angle'. Which conditional is correct?",
+  "options": {
+   "A": "RightAng(a) ⊃ InscSemi(a)",
+   "B": "InscSemi(a) ≡ RightAng(a)",
+   "C": "~InscSemi(a) ∨ ~RightAng(a)",
+   "D": "InscSemi(a) ⊃ RightAng(a)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/343:A",
+  "question": "Consider the linear equation context: 'There is no solution to the system unless the parameter k is even.' Let Sol exist mean 'a solution exists' and Even(k) mean 'k is even'. Which symbolic form represents this necessary condition?",
+  "options": {
+   "A": "Sol ⊃ Even(k)",
+   "B": "~Even(k) ⊃ ~Sol",
+   "C": "~(Sol • ~Even(k))",
+   "D": "All of the above are logically equivalent representations."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/343:D",
+  "question": "Consider the linear equation context: 'There is no solution to the system unless the parameter k is even.' Let Sol exist mean 'a solution exists' and Even(k) mean 'k is even'. Which symbolic form represents this necessary condition?",
+  "options": {
+   "A": "Sol ⊃ Even(k)",
+   "B": "~Even(k) ⊃ ~Sol",
+   "C": "~(Sol • ~Even(k))",
+   "D": "All of the above are logically equivalent representations."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/35:B",
+  "question": "Translate the following into predicate logic: 'No one can do everything.'",
+  "options": {
+   "A": "~∃x∀y(Py ⊃ Cx y)",
+   "B": "∀x~∀y(Py ⊃ Cx y)",
+   "C": "∃x~∀y(Py ⊃ Cx y)",
+   "D": "Both A and B are correct"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/35:D",
+  "question": "Translate the following into predicate logic: 'No one can do everything.'",
+  "options": {
+   "A": "~∃x∀y(Py ⊃ Cx y)",
+   "B": "∀x~∀y(Py ⊃ Cx y)",
+   "C": "∃x~∀y(Py ⊃ Cx y)",
+   "D": "Both A and B are correct"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/36:A",
+  "question": "Modular arithmetic: Let Mod(n, m, r) mean 'n mod m is r'. The statement 'For every n and m (where m>0), there exists a remainder r' is:",
+  "options": {
+   "A": "∀n ∀m ((Int(m) • G(m, 0)) ⊃ ∃r Mod(n, m, r))",
+   "B": "~∀n ∀m ((Int(m) • G(m, 0)) ⊃ ∃r Mod(n, m, r))",
+   "C": "∃n ∃m ∀r Mod(n, m, r)",
+   "D": "∀n ∀m ∃r (Int(m) • Mod(n, m, r))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/36:C",
+  "question": "Modular arithmetic: Let Mod(n, m, r) mean 'n mod m is r'. The statement 'For every n and m (where m>0), there exists a remainder r' is:",
+  "options": {
+   "A": "∀n ∀m ((Int(m) • G(m, 0)) ⊃ ∃r Mod(n, m, r))",
+   "B": "~∀n ∀m ((Int(m) • G(m, 0)) ⊃ ∃r Mod(n, m, r))",
+   "C": "∃n ∃m ∀r Mod(n, m, r)",
+   "D": "∀n ∀m ∃r (Int(m) • Mod(n, m, r))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/38:A",
+  "question": "Identify the rule of inference used: 'P ∨ Q; ~P; Therefore Q.'",
+  "options": {
+   "A": "Modus Ponens",
+   "B": "Disjunctive Syllogism",
+   "C": "Simplification",
+   "D": "Addition"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/38:B",
+  "question": "Identify the rule of inference used: 'P ∨ Q; ~P; Therefore Q.'",
+  "options": {
+   "A": "Modus Ponens",
+   "B": "Disjunctive Syllogism",
+   "C": "Simplification",
+   "D": "Addition"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/39:C",
+  "question": "Translate the following into symbolic logic: 'Neither the base is prime nor is the exponent even.'\nLet P = The base is prime, E = The exponent is even.",
+  "options": {
+   "A": "~P • ~E",
+   "B": "~(P ∨ E)",
+   "C": "~P ∨ ~E",
+   "D": "Both ~P • ~E and ~(P ∨ E)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/39:D",
+  "question": "Translate the following into symbolic logic: 'Neither the base is prime nor is the exponent even.'\nLet P = The base is prime, E = The exponent is even.",
+  "options": {
+   "A": "~P • ~E",
+   "B": "~(P ∨ E)",
+   "C": "~P ∨ ~E",
+   "D": "Both ~P • ~E and ~(P ∨ E)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/40:B",
+  "question": "In the expression (P ∨ Q) ⊃ (R • S), what is the antecedent?",
+  "options": {
+   "A": "S",
+   "B": "(P ∨ Q)",
+   "C": "(R • S)",
+   "D": "P"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/40:C",
+  "question": "In the expression (P ∨ Q) ⊃ (R • S), what is the antecedent?",
+  "options": {
+   "A": "S",
+   "B": "(P ∨ Q)",
+   "C": "(R • S)",
+   "D": "P"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/41:C",
+  "question": "What is the translation of 'If you don't have a ticket, you can't enter the theater'?",
+  "options": {
+   "A": "~T ⊃ ~E",
+   "B": "~T ∨ ~E",
+   "C": "E ⊃ T",
+   "D": "Both A and C"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/41:D",
+  "question": "What is the translation of 'If you don't have a ticket, you can't enter the theater'?",
+  "options": {
+   "A": "~T ⊃ ~E",
+   "B": "~T ∨ ~E",
+   "C": "E ⊃ T",
+   "D": "Both A and C"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/43:A",
+  "question": "Translate 'Every integer is either even or odd' into predicate logic. Let E(x) be 'x is even' and O(x) be 'x is odd'.",
+  "options": {
+   "A": "∀x(E(x) ⊃ O(x))",
+   "B": "∃x(E(x) ∨ O(x))",
+   "C": "∀x(E(x) ∨ O(x))",
+   "D": "∀x(E(x) ≡ O(x))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/43:C",
+  "question": "Translate 'Every integer is either even or odd' into predicate logic. Let E(x) be 'x is even' and O(x) be 'x is odd'.",
+  "options": {
+   "A": "∀x(E(x) ⊃ O(x))",
+   "B": "∃x(E(x) ∨ O(x))",
+   "C": "∀x(E(x) ∨ O(x))",
+   "D": "∀x(E(x) ≡ O(x))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/44:A",
+  "question": "Which of the following represents: 'Every integer is either even or odd'?\nLet I(x) = x is an integer, E(x) = x is even, O(x) = x is odd.",
+  "options": {
+   "A": "∀x(I(x) ⊃ (E(x) ∨ O(x)))",
+   "B": "∀x(I(x) ≡ (E(x) ∨ O(x)))",
+   "C": "∃x(I(x) • (E(x) ∨ O(x)))",
+   "D": "∀x(I(x) ⊃ (E(x) • O(x)))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/44:D",
+  "question": "Which of the following represents: 'Every integer is either even or odd'?\nLet I(x) = x is an integer, E(x) = x is even, O(x) = x is odd.",
+  "options": {
+   "A": "∀x(I(x) ⊃ (E(x) ∨ O(x)))",
+   "B": "∀x(I(x) ≡ (E(x) ∨ O(x)))",
+   "C": "∃x(I(x) • (E(x) ∨ O(x)))",
+   "D": "∀x(I(x) ⊃ (E(x) • O(x)))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/45:A",
+  "question": "Analyze the algebraic assertion: 'For every real number x, there exists a real number y such that x plus y equals zero.' Using standard predicate logic notation where R(x) denotes 'x is a real number' and S(x, y) denotes 'x + y = 0', which formula accurately translates this claim?",
+  "options": {
+   "A": "∀x ∃y (R(x) • R(y) • S(x, y))",
+   "B": "∃x ∀y (R(x) ⊃ (R(y) • S(x, y)))",
+   "C": "∃y (R(y) • ∀x (R(x) ⊃ S(x, y)))",
+   "D": "∀x (R(x) ⊃ ∃y (R(y) • S(x, y)))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/45:D",
+  "question": "Analyze the algebraic assertion: 'For every real number x, there exists a real number y such that x plus y equals zero.' Using standard predicate logic notation where R(x) denotes 'x is a real number' and S(x, y) denotes 'x + y = 0', which formula accurately translates this claim?",
+  "options": {
+   "A": "∀x ∃y (R(x) • R(y) • S(x, y))",
+   "B": "∃x ∀y (R(x) ⊃ (R(y) • S(x, y)))",
+   "C": "∃y (R(y) • ∀x (R(x) ⊃ S(x, y)))",
+   "D": "∀x (R(x) ⊃ ∃y (R(y) • S(x, y)))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/46:A",
+  "question": "Translate the inverse function definition: 'A function g is the inverse of f if and only if f(g(x)) = x for all x in the domain of g and g(f(x)) = x for all x in the domain of f.' Let Inv(g, f), Dom(g, Dg), Dom(f, Df), Comp(f, g, x, res), and Eq(res, x) be predicates. Select the rigorous form.",
+  "options": {
+   "A": "∀f ∀g (Inv(g, f) ≡ (∀x (Dom(g, Dg) • x ∈ Dg ⊃ ∃res (Comp(f, g, x, res) • Eq(res, x))) • ∀y (Dom(f, Df) • y ∈ Df ⊃ ∃res2 (Comp(g, f, y, res2) • Eq(res2, y)))))",
+   "B": "∀f ∀g ∀x ∀y ((Inv(g, f) • Dom(g, Dg) • x ∈ Dg • Dom(f, Df) • y ∈ Df) ⊃ (Comp(f, g, x, x) • Comp(g, f, y, y)))",
+   "C": "∃f ∃g (Inv(g, f) • ∀x (Dom(g, Dg) • x ∈ Dg ⊃ Comp(f, g, x, x)) • ∀y (Dom(f, Df) • y ∈ Df ⊃ Comp(g, f, y, y)))",
+   "D": "∀f ∀g (Inv(g, f) ⊃ (∀x (Dom(g, Dg) • x ∈ Dg ⊃ Comp(f, g, x, x)) • ∀y (Dom(f, Df) • y ∈ Df ⊃ Comp(g, f, y, y))))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/46:B",
+  "question": "Translate the inverse function definition: 'A function g is the inverse of f if and only if f(g(x)) = x for all x in the domain of g and g(f(x)) = x for all x in the domain of f.' Let Inv(g, f), Dom(g, Dg), Dom(f, Df), Comp(f, g, x, res), and Eq(res, x) be predicates. Select the rigorous form.",
+  "options": {
+   "A": "∀f ∀g (Inv(g, f) ≡ (∀x (Dom(g, Dg) • x ∈ Dg ⊃ ∃res (Comp(f, g, x, res) • Eq(res, x))) • ∀y (Dom(f, Df) • y ∈ Df ⊃ ∃res2 (Comp(g, f, y, res2) • Eq(res2, y)))))",
+   "B": "∀f ∀g ∀x ∀y ((Inv(g, f) • Dom(g, Dg) • x ∈ Dg • Dom(f, Df) • y ∈ Df) ⊃ (Comp(f, g, x, x) • Comp(g, f, y, y)))",
+   "C": "∃f ∃g (Inv(g, f) • ∀x (Dom(g, Dg) • x ∈ Dg ⊃ Comp(f, g, x, x)) • ∀y (Dom(f, Df) • y ∈ Df ⊃ Comp(g, f, y, y)))",
+   "D": "∀f ∀g (Inv(g, f) ⊃ (∀x (Dom(g, Dg) • x ∈ Dg ⊃ Comp(f, g, x, x)) • ∀y (Dom(f, Df) • y ∈ Df ⊃ Comp(g, f, y, y))))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/47:C",
+  "question": "Examine the number theory claim: 'There exists an integer n such that n is prime and n is even.' Let I(x) mean 'x is an integer', P(x) mean 'x is prime', and E(x) mean 'x is even'. Select the correct predicate logic translation.",
+  "options": {
+   "A": "∃x (I(x) ⊃ (P(x) • E(x)))",
+   "B": "∀x (I(x) • (P(x) ⊃ E(x)))",
+   "C": "∃x (I(x) • (P(x) • E(x)))",
+   "D": "∀x (I(x) ⊃ (P(x) • E(x)))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/47:D",
+  "question": "Examine the number theory claim: 'There exists an integer n such that n is prime and n is even.' Let I(x) mean 'x is an integer', P(x) mean 'x is prime', and E(x) mean 'x is even'. Select the correct predicate logic translation.",
+  "options": {
+   "A": "∃x (I(x) ⊃ (P(x) • E(x)))",
+   "B": "∀x (I(x) • (P(x) ⊃ E(x)))",
+   "C": "∃x (I(x) • (P(x) • E(x)))",
+   "D": "∀x (I(x) ⊃ (P(x) • E(x)))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/48:A",
+  "question": "Consider the magic square constraint: 'In a magic square, the sum of each row equals the sum of each column.' Let MS(m) mean 'm is a magic square', SumRow(m) mean 'sum of rows are equal', and SumCol(m) mean 'sum of columns are equal'. Which biconditional or implication holds by definition?",
+  "options": {
+   "A": "(SumRow(m) • SumCol(m)) ⊃ MS(m)",
+   "B": "MS(m) ≡ (SumRow(m) ∨ SumCol(m))",
+   "C": "~MS(m) ⊃ ~(SumRow(m) • SumCol(m))",
+   "D": "MS(m) ⊃ (SumRow(m) • SumCol(m))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/48:D",
+  "question": "Consider the magic square constraint: 'In a magic square, the sum of each row equals the sum of each column.' Let MS(m) mean 'm is a magic square', SumRow(m) mean 'sum of rows are equal', and SumCol(m) mean 'sum of columns are equal'. Which biconditional or implication holds by definition?",
+  "options": {
+   "A": "(SumRow(m) • SumCol(m)) ⊃ MS(m)",
+   "B": "MS(m) ≡ (SumRow(m) ∨ SumCol(m))",
+   "C": "~MS(m) ⊃ ~(SumRow(m) • SumCol(m))",
+   "D": "MS(m) ⊃ (SumRow(m) • SumCol(m))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/55:A",
+  "question": "Given the premises: 1. P ⊃ Q, 2. Q ⊃ R, 3. P. What is the conclusion derived using hypothetical syllogism and modus ponens?",
+  "options": {
+   "A": "R",
+   "B": "Q",
+   "C": "~P",
+   "D": "~R"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/55:C",
+  "question": "Given the premises: 1. P ⊃ Q, 2. Q ⊃ R, 3. P. What is the conclusion derived using hypothetical syllogism and modus ponens?",
+  "options": {
+   "A": "R",
+   "B": "Q",
+   "C": "~P",
+   "D": "~R"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/57:A",
+  "question": "Which of the following is the correct translation of: 'Every student who studies hard will pass'?\nLet S(x) = x is a student, H(x) = x studies hard, P(x) = x will pass.",
+  "options": {
+   "A": "Both ∀x((S(x) • H(x)) ⊃ P(x)) and ∀x(S(x) ⊃ (H(x) ⊃ P(x)))",
+   "B": "∃x((S(x) • H(x)) • P(x))",
+   "C": "∀x(S(x) ⊃ (H(x) ⊃ P(x)))",
+   "D": "∀x((S(x) • H(x)) ⊃ P(x))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/57:B",
+  "question": "Which of the following is the correct translation of: 'Every student who studies hard will pass'?\nLet S(x) = x is a student, H(x) = x studies hard, P(x) = x will pass.",
+  "options": {
+   "A": "Both ∀x((S(x) • H(x)) ⊃ P(x)) and ∀x(S(x) ⊃ (H(x) ⊃ P(x)))",
+   "B": "∃x((S(x) • H(x)) • P(x))",
+   "C": "∀x(S(x) ⊃ (H(x) ⊃ P(x)))",
+   "D": "∀x((S(x) • H(x)) ⊃ P(x))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/6:B",
+  "question": "Consider the logarithmic domain constraint: 'The logarithm log_b(x) is defined if and only if b is positive, b is not 1, and x is positive.' Let LogDef(b, x), Pos(y), and One(y) be predicates. Which formula correctly specifies the conditions?",
+  "options": {
+   "A": "∀b ∀x ((Pos(b) • ~One(b) • Pos(x)) ⊃ LogDef(b, x))",
+   "B": "∀b ∀x (LogDef(b, x) ≡ (Pos(b) • ~One(b) • Pos(x)))",
+   "C": "∀b ∀x (LogDef(b, x) ⊃ (Pos(b) • ~One(b) • Pos(x)))",
+   "D": "∃b ∃x (LogDef(b, x) ≡ (Pos(b) • ~One(b) • Pos(x)))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/6:D",
+  "question": "Consider the logarithmic domain constraint: 'The logarithm log_b(x) is defined if and only if b is positive, b is not 1, and x is positive.' Let LogDef(b, x), Pos(y), and One(y) be predicates. Which formula correctly specifies the conditions?",
+  "options": {
+   "A": "∀b ∀x ((Pos(b) • ~One(b) • Pos(x)) ⊃ LogDef(b, x))",
+   "B": "∀b ∀x (LogDef(b, x) ≡ (Pos(b) • ~One(b) • Pos(x)))",
+   "C": "∀b ∀x (LogDef(b, x) ⊃ (Pos(b) • ~One(b) • Pos(x)))",
+   "D": "∃b ∃x (LogDef(b, x) ≡ (Pos(b) • ~One(b) • Pos(x)))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/62:A",
+  "question": "Consider the circular arrangement constraint: 'In a circular permutation of n objects, rotating the arrangement does not create a new permutation.' Let CircPerm(p) mean 'p is a circular permutation' and RotEq(p1, p2) mean 'p1 is a rotation of p2'. Which statement captures the equivalence?",
+  "options": {
+   "A": "∀p1 ∀p2 ((CircPerm(p1) • CircPerm(p2) • RotEq(p1, p2)) ⊃ (p1 = p2))",
+   "B": "∃p1 ∃p2 (CircPerm(p1) • CircPerm(p2) • RotEq(p1, p2) • ~(p1 = p2))",
+   "C": "∀p1 (CircPerm(p1) ⊃ ∃p2 (CircPerm(p2) • RotEq(p1, p2) • ~(p1 = p2)))",
+   "D": "~∃p1 ∃p2 (CircPerm(p1) • CircPerm(p2) • RotEq(p1, p2) • (p1 = p2))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/62:B",
+  "question": "Consider the circular arrangement constraint: 'In a circular permutation of n objects, rotating the arrangement does not create a new permutation.' Let CircPerm(p) mean 'p is a circular permutation' and RotEq(p1, p2) mean 'p1 is a rotation of p2'. Which statement captures the equivalence?",
+  "options": {
+   "A": "∀p1 ∀p2 ((CircPerm(p1) • CircPerm(p2) • RotEq(p1, p2)) ⊃ (p1 = p2))",
+   "B": "∃p1 ∃p2 (CircPerm(p1) • CircPerm(p2) • RotEq(p1, p2) • ~(p1 = p2))",
+   "C": "∀p1 (CircPerm(p1) ⊃ ∃p2 (CircPerm(p2) • RotEq(p1, p2) • ~(p1 = p2)))",
+   "D": "~∃p1 ∃p2 (CircPerm(p1) • CircPerm(p2) • RotEq(p1, p2) • (p1 = p2))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/63:B",
+  "question": "Probability theory: Let Event(e) mean 'e is an event' and Prob(e, p) mean 'probability of e is p'. The statement 'Every event has a probability between 0 and 1' is:",
+  "options": {
+   "A": "~∀e (Event(e) ⊃ ∃p (Prob(e, p) • Between(p, 0, 1)))",
+   "B": "∀e (Event(e) ⊃ ∃p (Prob(e, p) • Between(p, 0, 1)))",
+   "C": "∀e ∃p (Event(e) • Prob(e, p) • Between(p, 0, 1))",
+   "D": "∃e (Event(e) • ∀p (Prob(e, p) ⊃ Between(p, 0, 1)))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/63:C",
+  "question": "Probability theory: Let Event(e) mean 'e is an event' and Prob(e, p) mean 'probability of e is p'. The statement 'Every event has a probability between 0 and 1' is:",
+  "options": {
+   "A": "~∀e (Event(e) ⊃ ∃p (Prob(e, p) • Between(p, 0, 1)))",
+   "B": "∀e (Event(e) ⊃ ∃p (Prob(e, p) • Between(p, 0, 1)))",
+   "C": "∀e ∃p (Event(e) • Prob(e, p) • Between(p, 0, 1))",
+   "D": "∃e (Event(e) • ∀p (Prob(e, p) ⊃ Between(p, 0, 1)))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/64:B",
+  "question": "Analyze the trapezoid area theorem: 'The area of a trapezoid is half the sum of the bases times the height.' Let Trap(t), Base(t, b1, b2), Height(t, h), Area(t, a), Sum(x, y, z), Half(x, y), and Prod(x, y, z) be predicates. Select the formalization.",
+  "options": {
+   "A": "∃t (Trap(t) • ∀b1 ∀b2 ∀h ∀a ((Base(t, b1, b2) • Height(t, h) • Area(t, a)) ⊃ ∃s ∃hs ∃p (Sum(b1, b2, s) • Half(s, hs) • Prod(hs, h, p) • (a = p))))",
+   "B": "∀t ∀b1 ∀b2 ∀h ∀a ((Trap(t) • Base(t, b1, b2) • Height(t, h) • Area(t, a)) ⊃ ∃s ∃hs ∃p (Sum(b1, b2, s) • Half(s, hs) • Prod(hs, h, p) • (a = p)))",
+   "C": "∀t (Trap(t) ⊃ ∃b1 ∃b2 ∃h ∃a ∃s ∃hs ∃p ((Base(t, b1, b2) • Height(t, h) • Area(t, a) • Sum(b1, b2, s) • Half(s, hs) • Prod(hs, h, p)) ⊃ (a = p)))",
+   "D": "∀t (Trap(t) ≡ ∃b1 ∃b2 ∃h ∃a (Base(t, b1, b2) • Height(t, h) • Area(t, a) • ∃s ∃hs ∃p (Sum(b1, b2, s) • Half(s, hs) • Prod(hs, h, p) • (a = p))))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/64:C",
+  "question": "Analyze the trapezoid area theorem: 'The area of a trapezoid is half the sum of the bases times the height.' Let Trap(t), Base(t, b1, b2), Height(t, h), Area(t, a), Sum(x, y, z), Half(x, y), and Prod(x, y, z) be predicates. Select the formalization.",
+  "options": {
+   "A": "∃t (Trap(t) • ∀b1 ∀b2 ∀h ∀a ((Base(t, b1, b2) • Height(t, h) • Area(t, a)) ⊃ ∃s ∃hs ∃p (Sum(b1, b2, s) • Half(s, hs) • Prod(hs, h, p) • (a = p))))",
+   "B": "∀t ∀b1 ∀b2 ∀h ∀a ((Trap(t) • Base(t, b1, b2) • Height(t, h) • Area(t, a)) ⊃ ∃s ∃hs ∃p (Sum(b1, b2, s) • Half(s, hs) • Prod(hs, h, p) • (a = p)))",
+   "C": "∀t (Trap(t) ⊃ ∃b1 ∃b2 ∃h ∃a ∃s ∃hs ∃p ((Base(t, b1, b2) • Height(t, h) • Area(t, a) • Sum(b1, b2, s) • Half(s, hs) • Prod(hs, h, p)) ⊃ (a = p)))",
+   "D": "∀t (Trap(t) ≡ ∃b1 ∃b2 ∃h ∃a (Base(t, b1, b2) • Height(t, h) • Area(t, a) • ∃s ∃hs ∃p (Sum(b1, b2, s) • Half(s, hs) • Prod(hs, h, p) • (a = p))))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/65:A",
+  "question": "Translate the following English statement into standard predicate logic notation using the provided key:\n\"Not every student who studies hard passes the exam, unless they are cheating.\"\n\nKey:\nSx: x is a student\nHx: x studies hard\nPx: x passes the exam\nCx: x is cheating",
+  "options": {
+   "A": "∃x(Sx • Hx • ~Px) ∨ ∃x(Sx • Cx)",
+   "B": "~(∀x((Sx • Hx) ⊃ Px) ⊃ ∃x(Sx • Cx))",
+   "C": "∃x(Sx • Hx • ~Px) • ~∃x(Sx • Cx)",
+   "D": "~(∀x((Sx • Hx) ⊃ Px)) ⊃ ∃x(Sx • Cx)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/65:C",
+  "question": "Translate the following English statement into standard predicate logic notation using the provided key:\n\"Not every student who studies hard passes the exam, unless they are cheating.\"\n\nKey:\nSx: x is a student\nHx: x studies hard\nPx: x passes the exam\nCx: x is cheating",
+  "options": {
+   "A": "∃x(Sx • Hx • ~Px) ∨ ∃x(Sx • Cx)",
+   "B": "~(∀x((Sx • Hx) ⊃ Px) ⊃ ∃x(Sx • Cx))",
+   "C": "∃x(Sx • Hx • ~Px) • ~∃x(Sx • Cx)",
+   "D": "~(∀x((Sx • Hx) ⊃ Px)) ⊃ ∃x(Sx • Cx)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/66:B",
+  "question": "Translate the base conversion rule: 'A number represented in base b uses only digits less than b.' Let BaseN(n, b) mean 'n is represented in base b' and DigLess(n, b) mean 'all digits of n are less than b'. Select the universal statement.",
+  "options": {
+   "A": "∀n ∀b (BaseN(n, b) • DigLess(n, b))",
+   "B": "∃n (BaseN(n, b) ⊃ DigLess(n, b))",
+   "C": "∀n ∀b (BaseN(n, b) ⊃ DigLess(n, b))",
+   "D": "∃n ∃b (BaseN(n, b) • DigLess(n, b))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/66:C",
+  "question": "Translate the base conversion rule: 'A number represented in base b uses only digits less than b.' Let BaseN(n, b) mean 'n is represented in base b' and DigLess(n, b) mean 'all digits of n are less than b'. Select the universal statement.",
+  "options": {
+   "A": "∀n ∀b (BaseN(n, b) • DigLess(n, b))",
+   "B": "∃n (BaseN(n, b) ⊃ DigLess(n, b))",
+   "C": "∀n ∀b (BaseN(n, b) ⊃ DigLess(n, b))",
+   "D": "∃n ∃b (BaseN(n, b) • DigLess(n, b))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/67:B",
+  "question": "Fibonacci sequences are defined recursively. Let F(n) mean 'n is a Fibonacci number'. The statement 'Every Fibonacci number greater than 1 is the sum of the two preceding ones' can be simplified to 'For all n, if n is a Fibonacci number, then property P holds.' Let P(n) be that property. Which is the form?",
+  "options": {
+   "A": "~∀n (F(n) ⊃ P(n))",
+   "B": "∃n (F(n) • P(n))",
+   "C": "∀n (F(n) ⊃ P(n))",
+   "D": "∀n (P(n) ⊃ F(n))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/67:C",
+  "question": "Fibonacci sequences are defined recursively. Let F(n) mean 'n is a Fibonacci number'. The statement 'Every Fibonacci number greater than 1 is the sum of the two preceding ones' can be simplified to 'For all n, if n is a Fibonacci number, then property P holds.' Let P(n) be that property. Which is the form?",
+  "options": {
+   "A": "~∀n (F(n) ⊃ P(n))",
+   "B": "∃n (F(n) • P(n))",
+   "C": "∀n (F(n) ⊃ P(n))",
+   "D": "∀n (P(n) ⊃ F(n))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/68:A",
+  "question": "Number theory asserts 'There is no largest prime number.' Let P(x) mean 'x is prime' and G(x, y) mean 'x is greater than y'. The statement 'For every prime x, there exists a prime y such that y is greater than x' is:",
+  "options": {
+   "A": "~∀x (P(x) ⊃ ∃y (P(y) • G(y, x)))",
+   "B": "∀x (P(x) ⊃ ∃y (P(y) • G(y, x)))",
+   "C": "∀x ∃y (P(x) • P(y) • G(y, x))",
+   "D": "∃x (P(x) • ∀y (P(y) ⊃ ~G(y, x)))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/68:B",
+  "question": "Number theory asserts 'There is no largest prime number.' Let P(x) mean 'x is prime' and G(x, y) mean 'x is greater than y'. The statement 'For every prime x, there exists a prime y such that y is greater than x' is:",
+  "options": {
+   "A": "~∀x (P(x) ⊃ ∃y (P(y) • G(y, x)))",
+   "B": "∀x (P(x) ⊃ ∃y (P(y) • G(y, x)))",
+   "C": "∀x ∃y (P(x) • P(y) • G(y, x))",
+   "D": "∃x (P(x) • ∀y (P(y) ⊃ ~G(y, x)))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/69:A",
+  "question": "Which of the following is the correct symbolic form for: 'If it rains or snows, the game is cancelled'?\nLet R = It rains, S = It snows, C = The game is cancelled.",
+  "options": {
+   "A": "(R ⊃ C) ∨ (S ⊃ C)",
+   "B": "(R • S) ⊃ C",
+   "C": "~(R ∨ S) ⊃ C",
+   "D": "(R ∨ S) ⊃ C"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/69:D",
+  "question": "Which of the following is the correct symbolic form for: 'If it rains or snows, the game is cancelled'?\nLet R = It rains, S = It snows, C = The game is cancelled.",
+  "options": {
+   "A": "(R ⊃ C) ∨ (S ⊃ C)",
+   "B": "(R • S) ⊃ C",
+   "C": "~(R ∨ S) ⊃ C",
+   "D": "(R ∨ S) ⊃ C"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/7:A",
+  "question": "Translate the following into predicate logic: 'No one is both a philosopher and a politician.'",
+  "options": {
+   "A": "∀x(P(x) ⊃ ~L(x))",
+   "B": "∃x(~P(x) • ~L(x))",
+   "C": "~∃x(P(x) ∨ L(x))",
+   "D": "∀x(P(x) • L(x))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/7:D",
+  "question": "Translate the following into predicate logic: 'No one is both a philosopher and a politician.'",
+  "options": {
+   "A": "∀x(P(x) ⊃ ~L(x))",
+   "B": "∃x(~P(x) • ~L(x))",
+   "C": "~∃x(P(x) ∨ L(x))",
+   "D": "∀x(P(x) • L(x))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/71:A",
+  "question": "Translate the following into predicate logic: 'Every person has a mother.'",
+  "options": {
+   "A": "∀x(Px ⊃ ∃y(Py • Myx))",
+   "B": "∃y(Py • ∀x(Px ⊃ Myx))",
+   "C": "∀x∃y(Myx)",
+   "D": "Both A and C are correct"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/71:B",
+  "question": "Translate the following into predicate logic: 'Every person has a mother.'",
+  "options": {
+   "A": "∀x(Px ⊃ ∃y(Py • Myx))",
+   "B": "∃y(Py • ∀x(Px ⊃ Myx))",
+   "C": "∀x∃y(Myx)",
+   "D": "Both A and C are correct"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/73:C",
+  "question": "Trigonometric identities often rely on universal quantification. Consider the claim: 'For all angles θ, if sin(θ) is zero, then cos(θ) is either 1 or -1.' Let Z(x) denote 'sin(x) = 0', and let U(x) denote 'cos(x) = 1', and V(x) denote 'cos(x) = -1'. Which symbolic form accurately represents this universal conditional?",
+  "options": {
+   "A": "~∀θ (Z(θ) ⊃ (U(θ) • V(θ)))",
+   "B": "∃θ (Z(θ) • (U(θ) ∨ V(θ)))",
+   "C": "∀θ ((U(θ) ∨ V(θ)) ⊃ Z(θ))",
+   "D": "∀θ (Z(θ) ⊃ (U(θ) ∨ V(θ)))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/73:D",
+  "question": "Trigonometric identities often rely on universal quantification. Consider the claim: 'For all angles θ, if sin(θ) is zero, then cos(θ) is either 1 or -1.' Let Z(x) denote 'sin(x) = 0', and let U(x) denote 'cos(x) = 1', and V(x) denote 'cos(x) = -1'. Which symbolic form accurately represents this universal conditional?",
+  "options": {
+   "A": "~∀θ (Z(θ) ⊃ (U(θ) • V(θ)))",
+   "B": "∃θ (Z(θ) • (U(θ) ∨ V(θ)))",
+   "C": "∀θ ((U(θ) ∨ V(θ)) ⊃ Z(θ))",
+   "D": "∀θ (Z(θ) ⊃ (U(θ) ∨ V(θ)))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/77:A",
+  "question": "Translate the trigonometric identity: 'For any angle theta, the square of sine theta plus the square of cosine theta equals one.' Let Angle(t), Sin(t, s), Cos(t, c), Sq(x, y), and SumOne(y, z) be predicates. Which formula is correct?",
+  "options": {
+   "A": "∀t ∀s ∀c ∀ys ∀yc ((Angle(t) • Sin(t, s) • Cos(t, c) • Sq(s, ys) • Sq(c, yc)) ⊃ SumOne(ys, yc))",
+   "B": "∀t (Angle(t) ⊃ ∃s ∃c (Sin(t, s) • Cos(t, c) • SumOne(Sq(s), Sq(c))))",
+   "C": "∀t (Angle(t) ⊃ ∃s ∃c ∃ys ∃yc ((Sin(t, s) • Cos(t, c) • Sq(s, ys) • Sq(c, yc)) ⊃ SumOne(ys, yc)))",
+   "D": "∃t ∃s ∃c ∃ys ∃yc (Angle(t) • Sin(t, s) • Cos(t, c) • Sq(s, ys) • Sq(c, yc) • SumOne(ys, yc))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/77:C",
+  "question": "Translate the trigonometric identity: 'For any angle theta, the square of sine theta plus the square of cosine theta equals one.' Let Angle(t), Sin(t, s), Cos(t, c), Sq(x, y), and SumOne(y, z) be predicates. Which formula is correct?",
+  "options": {
+   "A": "∀t ∀s ∀c ∀ys ∀yc ((Angle(t) • Sin(t, s) • Cos(t, c) • Sq(s, ys) • Sq(c, yc)) ⊃ SumOne(ys, yc))",
+   "B": "∀t (Angle(t) ⊃ ∃s ∃c (Sin(t, s) • Cos(t, c) • SumOne(Sq(s), Sq(c))))",
+   "C": "∀t (Angle(t) ⊃ ∃s ∃c ∃ys ∃yc ((Sin(t, s) • Cos(t, c) • Sq(s, ys) • Sq(c, yc)) ⊃ SumOne(ys, yc)))",
+   "D": "∃t ∃s ∃c ∃ys ∃yc (Angle(t) • Sin(t, s) • Cos(t, c) • Sq(s, ys) • Sq(c, yc) • SumOne(ys, yc))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/78:A",
+  "question": "Consider the complex analysis statement: 'No function that is analytic everywhere on the complex plane is bounded unless it is constant.' Let A(f) mean 'f is analytic everywhere', B(f) mean 'f is bounded', and C(f) mean 'f is constant'. Which logical form best represents this theorem?",
+  "options": {
+   "A": "Both the first and third options are logically equivalent and correct.",
+   "B": "∀f (A(f) ⊃ (B(f) ≡ C(f)))",
+   "C": "∀f ((A(f) • B(f)) ⊃ C(f))",
+   "D": "~∃f (A(f) • B(f) • ~C(f))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/78:C",
+  "question": "Consider the complex analysis statement: 'No function that is analytic everywhere on the complex plane is bounded unless it is constant.' Let A(f) mean 'f is analytic everywhere', B(f) mean 'f is bounded', and C(f) mean 'f is constant'. Which logical form best represents this theorem?",
+  "options": {
+   "A": "Both the first and third options are logically equivalent and correct.",
+   "B": "∀f (A(f) ⊃ (B(f) ≡ C(f)))",
+   "C": "∀f ((A(f) • B(f)) ⊃ C(f))",
+   "D": "~∃f (A(f) • B(f) • ~C(f))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/80:B",
+  "question": "Consider the sequence pattern: 'If a sequence is arithmetic, then the difference between consecutive terms is constant.' Let A(s) mean 'sequence s is arithmetic' and D(s) mean 'the difference between consecutive terms of s is constant'. Which symbolic translation is correct?",
+  "options": {
+   "A": "~A(s) ⊃ ~D(s)",
+   "B": "A(s) ⊃ D(s)",
+   "C": "A(s) ≡ D(s)",
+   "D": "D(s) ⊃ A(s)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/80:C",
+  "question": "Consider the sequence pattern: 'If a sequence is arithmetic, then the difference between consecutive terms is constant.' Let A(s) mean 'sequence s is arithmetic' and D(s) mean 'the difference between consecutive terms of s is constant'. Which symbolic translation is correct?",
+  "options": {
+   "A": "~A(s) ⊃ ~D(s)",
+   "B": "A(s) ⊃ D(s)",
+   "C": "A(s) ≡ D(s)",
+   "D": "D(s) ⊃ A(s)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/81:C",
+  "question": "Translate the following into symbolic logic: 'If the weather is good, we will either go to the beach or go hiking.'",
+  "options": {
+   "A": "W ≡ (B ∨ H)",
+   "B": "(B ∨ H) ⊃ W",
+   "C": "W ⊃ (B ∨ H)",
+   "D": "(W • B) ∨ (W • H)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/81:D",
+  "question": "Translate the following into symbolic logic: 'If the weather is good, we will either go to the beach or go hiking.'",
+  "options": {
+   "A": "W ≡ (B ∨ H)",
+   "B": "(B ∨ H) ⊃ W",
+   "C": "W ⊃ (B ∨ H)",
+   "D": "(W • B) ∨ (W • H)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/83:B",
+  "question": "Identify the component that serves as the consequent in the statement: 'If the hypothesis is rejected, then the theory is invalid.'",
+  "options": {
+   "A": "Then the theory is invalid",
+   "B": "The theory is invalid",
+   "C": "The hypothesis is rejected",
+   "D": "If the hypothesis is rejected"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/83:C",
+  "question": "Identify the component that serves as the consequent in the statement: 'If the hypothesis is rejected, then the theory is invalid.'",
+  "options": {
+   "A": "Then the theory is invalid",
+   "B": "The theory is invalid",
+   "C": "The hypothesis is rejected",
+   "D": "If the hypothesis is rejected"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/84:C",
+  "question": "Consider the spatial argument: 'All squares are rectangles. This figure is a square. Therefore, this figure is a rectangle.' Let S(x) be 'x is a square', R(x) be 'x is a rectangle', and f be 'this figure'. Identify the premise that is missing to make this a valid syllogism in predicate logic if only 'S(f)' and '∀x (S(x) ⊃ R(x))' are given.",
+  "options": {
+   "A": "~S(f) ∨ ~R(f)",
+   "B": "∃x (S(x) • R(x))",
+   "C": "R(f) ⊃ S(f)",
+   "D": "No premise is missing; the conclusion R(f) follows logically."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/84:D",
+  "question": "Consider the spatial argument: 'All squares are rectangles. This figure is a square. Therefore, this figure is a rectangle.' Let S(x) be 'x is a square', R(x) be 'x is a rectangle', and f be 'this figure'. Identify the premise that is missing to make this a valid syllogism in predicate logic if only 'S(f)' and '∀x (S(x) ⊃ R(x))' are given.",
+  "options": {
+   "A": "~S(f) ∨ ~R(f)",
+   "B": "∃x (S(x) • R(x))",
+   "C": "R(f) ⊃ S(f)",
+   "D": "No premise is missing; the conclusion R(f) follows logically."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/85:B",
+  "question": "Identify the component that serves as the 'consequent' in the following conditional statement: 'Unless the security breach is contained, the company will lose its operating license.'",
+  "options": {
+   "A": "Lose its operating license",
+   "B": "The company will lose its operating license",
+   "C": "Unless the security breach is contained",
+   "D": "The security breach is contained"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/85:D",
+  "question": "Identify the component that serves as the 'consequent' in the following conditional statement: 'Unless the security breach is contained, the company will lose its operating license.'",
+  "options": {
+   "A": "Lose its operating license",
+   "B": "The company will lose its operating license",
+   "C": "Unless the security breach is contained",
+   "D": "The security breach is contained"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/89:C",
+  "question": "Translate the following into predicate logic: 'There is a student who does not know any of the answers.'",
+  "options": {
+   "A": "~∀x(Sx ⊃ ∃y(Ay • Kxy))",
+   "B": "∃x(Sx • ∃y(Ay • ~Kxy))",
+   "C": "∀x(Sx ⊃ ∃y(Ay • ~Kxy))",
+   "D": "∃x(Sx • ∀y(Ay ⊃ ~Kxy))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/89:D",
+  "question": "Translate the following into predicate logic: 'There is a student who does not know any of the answers.'",
+  "options": {
+   "A": "~∀x(Sx ⊃ ∃y(Ay • Kxy))",
+   "B": "∃x(Sx • ∃y(Ay • ~Kxy))",
+   "C": "∀x(Sx ⊃ ∃y(Ay • ~Kxy))",
+   "D": "∃x(Sx • ∀y(Ay ⊃ ~Kxy))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/9:C",
+  "question": "Consider the word problem constraint: 'Every solution to the equation must be a positive integer.' Let S(x) be 'x is a solution', I(x) be 'x is an integer', and P(x) be 'x is positive'. Choose the correct universal statement.",
+  "options": {
+   "A": "∃x (S(x) • I(x) • P(x))",
+   "B": "∀x (S(x) • I(x) • P(x))",
+   "C": "∀x (S(x) ⊃ (I(x) • P(x)))",
+   "D": "∃x (S(x) ⊃ (I(x) • P(x)))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/9:D",
+  "question": "Consider the word problem constraint: 'Every solution to the equation must be a positive integer.' Let S(x) be 'x is a solution', I(x) be 'x is an integer', and P(x) be 'x is positive'. Choose the correct universal statement.",
+  "options": {
+   "A": "∃x (S(x) • I(x) • P(x))",
+   "B": "∀x (S(x) • I(x) • P(x))",
+   "C": "∀x (S(x) ⊃ (I(x) • P(x)))",
+   "D": "∃x (S(x) ⊃ (I(x) • P(x)))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/91:B",
+  "question": "Consider the modular arithmetic claim: 'There exists an integer x such that x is congruent to 1 modulo 3 and x is congruent to 2 modulo 5.' Let I(x) be 'x is an integer', C1(x) be 'x ≡ 1 (mod 3)', and C2(x) be 'x ≡ 2 (mod 5)'. Select the formalization.",
+  "options": {
+   "A": "∀x (I(x) • (C1(x) ⊃ C2(x)))",
+   "B": "∃x (I(x) ⊃ (C1(x) • C2(x)))",
+   "C": "∀x (I(x) ⊃ (C1(x) • C2(x)))",
+   "D": "∃x (I(x) • (C1(x) • C2(x)))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/91:D",
+  "question": "Consider the modular arithmetic claim: 'There exists an integer x such that x is congruent to 1 modulo 3 and x is congruent to 2 modulo 5.' Let I(x) be 'x is an integer', C1(x) be 'x ≡ 1 (mod 3)', and C2(x) be 'x ≡ 2 (mod 5)'. Select the formalization.",
+  "options": {
+   "A": "∀x (I(x) • (C1(x) ⊃ C2(x)))",
+   "B": "∃x (I(x) ⊃ (C1(x) • C2(x)))",
+   "C": "∀x (I(x) ⊃ (C1(x) • C2(x)))",
+   "D": "∃x (I(x) • (C1(x) • C2(x)))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/92:B",
+  "question": "Consider the digit puzzle condition: 'If the sum of the digits of a number is divisible by 3, then the number itself is divisible by 3.' Let SumDiv3(n) mean 'sum of digits of n is divisible by 3' and NumDiv3(n) mean 'n is divisible by 3'. Which implication is valid?",
+  "options": {
+   "A": "NumDiv3(n) ⊃ SumDiv3(n)",
+   "B": "SumDiv3(n) ⊃ NumDiv3(n)",
+   "C": "SumDiv3(n) ≡ NumDiv3(n)",
+   "D": "~SumDiv3(n) ∨ ~NumDiv3(n)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/92:D",
+  "question": "Consider the digit puzzle condition: 'If the sum of the digits of a number is divisible by 3, then the number itself is divisible by 3.' Let SumDiv3(n) mean 'sum of digits of n is divisible by 3' and NumDiv3(n) mean 'n is divisible by 3'. Which implication is valid?",
+  "options": {
+   "A": "NumDiv3(n) ⊃ SumDiv3(n)",
+   "B": "SumDiv3(n) ⊃ NumDiv3(n)",
+   "C": "SumDiv3(n) ≡ NumDiv3(n)",
+   "D": "~SumDiv3(n) ∨ ~NumDiv3(n)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/93:C",
+  "question": "Consider the tangent circle theorem: 'If a line is tangent to a circle, then it intersects the circle at exactly one point.' Let Tang(l, c) mean 'line l is tangent to circle c' and OneInt(l, c) mean 'l intersects c at exactly one point'. Which formula is correct?",
+  "options": {
+   "A": "OneInt(l, c) ⊃ Tang(l, c)",
+   "B": "~Tang(l, c) ∨ ~OneInt(l, c)",
+   "C": "Tang(l, c) ⊃ OneInt(l, c)",
+   "D": "Tang(l, c) ≡ OneInt(l, c)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/93:D",
+  "question": "Consider the tangent circle theorem: 'If a line is tangent to a circle, then it intersects the circle at exactly one point.' Let Tang(l, c) mean 'line l is tangent to circle c' and OneInt(l, c) mean 'l intersects c at exactly one point'. Which formula is correct?",
+  "options": {
+   "A": "OneInt(l, c) ⊃ Tang(l, c)",
+   "B": "~Tang(l, c) ∨ ~OneInt(l, c)",
+   "C": "Tang(l, c) ⊃ OneInt(l, c)",
+   "D": "Tang(l, c) ≡ OneInt(l, c)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/94:C",
+  "question": "Analyze the radical simplification rule: 'An expression is simplified if and only if no perfect square factors remain in the radicand.' Let Sim(x) mean 'expression x is simplified' and Sq(x) mean 'no perfect square factors remain in the radicand of x'. Which biconditional form applies?",
+  "options": {
+   "A": "~Sim(x) ≡ ~Sq(x)",
+   "B": "Sim(x) ⊃ Sq(x)",
+   "C": "Sim(x) ≡ Sq(x)",
+   "D": "Sq(x) ⊃ Sim(x)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/94:D",
+  "question": "Analyze the radical simplification rule: 'An expression is simplified if and only if no perfect square factors remain in the radicand.' Let Sim(x) mean 'expression x is simplified' and Sq(x) mean 'no perfect square factors remain in the radicand of x'. Which biconditional form applies?",
+  "options": {
+   "A": "~Sim(x) ≡ ~Sq(x)",
+   "B": "Sim(x) ⊃ Sq(x)",
+   "C": "Sim(x) ≡ Sq(x)",
+   "D": "Sq(x) ⊃ Sim(x)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/96:B",
+  "question": "Analyze the circle theorem condition: 'A line is tangent to a circle if and only if it is perpendicular to the radius at the point of contact.' Let T represent 'the line is tangent' and P represent 'the line is perpendicular to the radius'. Select the appropriate logical connective.",
+  "options": {
+   "A": "P ⊃ T",
+   "B": "T ≡ P",
+   "C": "T ⊃ P",
+   "D": "~T ≡ P"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/96:D",
+  "question": "Analyze the circle theorem condition: 'A line is tangent to a circle if and only if it is perpendicular to the radius at the point of contact.' Let T represent 'the line is tangent' and P represent 'the line is perpendicular to the radius'. Select the appropriate logical connective.",
+  "options": {
+   "A": "P ⊃ T",
+   "B": "T ≡ P",
+   "C": "T ⊃ P",
+   "D": "~T ≡ P"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/97:C",
+  "question": "Radical expressions: Let Rad(x) mean 'x is a radical expression' and Simp(x) mean 'x is simplified'. The statement 'Every radical expression can be simplified' is:",
+  "options": {
+   "A": "∀x ∃y (Rad(x) • Simp(y) • Equiv(x, y))",
+   "B": "∃x (Rad(x) • ∀y (Simp(y) ⊃ Equiv(x, y)))",
+   "C": "~∀x (Rad(x) ⊃ ∃y (Simp(y) • Equiv(x, y)))",
+   "D": "∀x (Rad(x) ⊃ ∃y (Simp(y) • Equiv(x, y)))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/97:D",
+  "question": "Radical expressions: Let Rad(x) mean 'x is a radical expression' and Simp(x) mean 'x is simplified'. The statement 'Every radical expression can be simplified' is:",
+  "options": {
+   "A": "∀x ∃y (Rad(x) • Simp(y) • Equiv(x, y))",
+   "B": "∃x (Rad(x) • ∀y (Simp(y) ⊃ Equiv(x, y)))",
+   "C": "~∀x (Rad(x) ⊃ ∃y (Simp(y) • Equiv(x, y)))",
+   "D": "∀x (Rad(x) ⊃ ∃y (Simp(y) • Equiv(x, y)))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/99:B",
+  "question": "Which of the following is the negation of '∀x(P(x) ⊃ Q(x))'?",
+  "options": {
+   "A": "∀x(~P(x) ∨ Q(x))",
+   "B": "∀x(P(x) • ~Q(x))",
+   "C": "∃x(~P(x) ⊃ ~Q(x))",
+   "D": "∃x(P(x) • ~Q(x))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/99:D",
+  "question": "Which of the following is the negation of '∀x(P(x) ⊃ Q(x))'?",
+  "options": {
+   "A": "∀x(~P(x) ∨ Q(x))",
+   "B": "∀x(P(x) • ~Q(x))",
+   "C": "∃x(~P(x) ⊃ ~Q(x))",
+   "D": "∃x(P(x) • ~Q(x))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/0:A",
+  "question": "What is the result of the following Python operation?\n\nprint(set([1, 2, 2, 3, 3, 3]))",
+  "options": {
+   "A": "(1, 2, 3)",
+   "B": "{1, 2, 2, 3, 3, 3}",
+   "C": "[1, 2, 3]",
+   "D": "{1, 2, 3}"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/0:D",
+  "question": "What is the result of the following Python operation?\n\nprint(set([1, 2, 2, 3, 3, 3]))",
+  "options": {
+   "A": "(1, 2, 3)",
+   "B": "{1, 2, 2, 3, 3, 3}",
+   "C": "[1, 2, 3]",
+   "D": "{1, 2, 3}"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/1:A",
+  "question": "What is the term for a function that calls itself?",
+  "options": {
+   "A": "Loop",
+   "B": "Recursion",
+   "C": "Compilation",
+   "D": "Iteration"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/1:B",
+  "question": "What is the term for a function that calls itself?",
+  "options": {
+   "A": "Loop",
+   "B": "Recursion",
+   "C": "Compilation",
+   "D": "Iteration"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/10:A",
+  "question": "In a Python list comprehension, what is the result of `[x for x in range(5) if x % 2 == 0 for y in range(2)]`?",
+  "options": {
+   "A": "[0, 2, 4]",
+   "B": "[0, 0, 2, 2, 4, 4]",
+   "C": "[0, 2, 4, 0, 2, 4]",
+   "D": "[0, 1, 2, 3, 4]"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/10:B",
+  "question": "In a Python list comprehension, what is the result of `[x for x in range(5) if x % 2 == 0 for y in range(2)]`?",
+  "options": {
+   "A": "[0, 2, 4]",
+   "B": "[0, 0, 2, 2, 4, 4]",
+   "C": "[0, 2, 4, 0, 2, 4]",
+   "D": "[0, 1, 2, 3, 4]"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/101:B",
+  "question": "What is the maximum number of children a node can have in a binary tree?",
+  "options": {
+   "A": "3",
+   "B": "1",
+   "C": "2",
+   "D": "Unlimited"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/101:C",
+  "question": "What is the maximum number of children a node can have in a binary tree?",
+  "options": {
+   "A": "3",
+   "B": "1",
+   "C": "2",
+   "D": "Unlimited"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/102:B",
+  "question": "In Python, what is the purpose of the `yield` keyword?",
+  "options": {
+   "A": "To return a value and terminate the function",
+   "B": "To pause the entire program until user input is received",
+   "C": "To turn a function into a generator that produces a sequence of values",
+   "D": "To stop the execution of a function"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/102:C",
+  "question": "In Python, what is the purpose of the `yield` keyword?",
+  "options": {
+   "A": "To return a value and terminate the function",
+   "B": "To pause the entire program until user input is received",
+   "C": "To turn a function into a generator that produces a sequence of values",
+   "D": "To stop the execution of a function"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/105:C",
+  "question": "Consider the following pseudocode:\nSET x = 10\nSET y = 20\nIF x < y THEN\n  x = x + y\nELSE\n  y = y + x\nENDIF\nPRINT x\n\nWhat is the printed value?",
+  "options": {
+   "A": "10",
+   "B": "20",
+   "C": "0",
+   "D": "30"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/105:D",
+  "question": "Consider the following pseudocode:\nSET x = 10\nSET y = 20\nIF x < y THEN\n  x = x + y\nELSE\n  y = y + x\nENDIF\nPRINT x\n\nWhat is the printed value?",
+  "options": {
+   "A": "10",
+   "B": "20",
+   "C": "0",
+   "D": "30"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/107:C",
+  "question": "Which of the following represents a valid comment in Python?",
+  "options": {
+   "A": "-- This is a comment",
+   "B": "/* This is a comment */",
+   "C": "// This is a comment",
+   "D": "# This is a comment"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/107:D",
+  "question": "Which of the following represents a valid comment in Python?",
+  "options": {
+   "A": "-- This is a comment",
+   "B": "/* This is a comment */",
+   "C": "// This is a comment",
+   "D": "# This is a comment"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/109:A",
+  "question": "When deploying a TensorFlow object detection model to an edge device, which format is typically used to serialize the graph for optimized inference latency?",
+  "options": {
+   "A": "CSV weight matrix",
+   "B": "JSON configuration",
+   "C": "SavedModel",
+   "D": "Pickle file"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/109:C",
+  "question": "When deploying a TensorFlow object detection model to an edge device, which format is typically used to serialize the graph for optimized inference latency?",
+  "options": {
+   "A": "CSV weight matrix",
+   "B": "JSON configuration",
+   "C": "SavedModel",
+   "D": "Pickle file"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/11:B",
+  "question": "What is the output of `print(bin(10))`?",
+  "options": {
+   "A": "'0x10'",
+   "B": "'1010'",
+   "C": "'0b1010'",
+   "D": "'10'"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/11:C",
+  "question": "What is the output of `print(bin(10))`?",
+  "options": {
+   "A": "'0x10'",
+   "B": "'1010'",
+   "C": "'0b1010'",
+   "D": "'10'"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/110:B",
+  "question": "In a mobile application architecture, asynchronous data handling is critical for UI responsiveness. Which Python construct is most analogous to Kotlin's coroutines for managing non-blocking I/O operations without callback hell?",
+  "options": {
+   "A": "Multiprocessing pools",
+   "B": "asyncio with async/await syntax",
+   "C": "Synchronous generators",
+   "D": "Threading with locks"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/110:D",
+  "question": "In a mobile application architecture, asynchronous data handling is critical for UI responsiveness. Which Python construct is most analogous to Kotlin's coroutines for managing non-blocking I/O operations without callback hell?",
+  "options": {
+   "A": "Multiprocessing pools",
+   "B": "asyncio with async/await syntax",
+   "C": "Synchronous generators",
+   "D": "Threading with locks"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/111:B",
+  "question": "What is the output of the following Python code?\n`print('apple' > 'banana')`",
+  "options": {
+   "A": "TypeError",
+   "B": "False",
+   "C": "None",
+   "D": "True"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/111:C",
+  "question": "What is the output of the following Python code?\n`print('apple' > 'banana')`",
+  "options": {
+   "A": "TypeError",
+   "B": "False",
+   "C": "None",
+   "D": "True"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/112:B",
+  "question": "Dynamic configuration in enterprise apps requires safe type conversion. What happens when you run 'int(\"3.14\")' in Python?",
+  "options": {
+   "A": "It returns 3.14",
+   "B": "It raises a ValueError",
+   "C": "It returns 3",
+   "D": "It returns 4 due to rounding"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/112:C",
+  "question": "Dynamic configuration in enterprise apps requires safe type conversion. What happens when you run 'int(\"3.14\")' in Python?",
+  "options": {
+   "A": "It returns 3.14",
+   "B": "It raises a ValueError",
+   "C": "It returns 3",
+   "D": "It returns 4 due to rounding"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/114:B",
+  "question": "Which data structure provides O(1) average time complexity for insertion, deletion, and search operations, making it ideal for implementing a symbol table in a compiler?",
+  "options": {
+   "A": "Binary Search Tree",
+   "B": "Hash Table",
+   "C": "Linked List",
+   "D": "Stack"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/114:D",
+  "question": "Which data structure provides O(1) average time complexity for insertion, deletion, and search operations, making it ideal for implementing a symbol table in a compiler?",
+  "options": {
+   "A": "Binary Search Tree",
+   "B": "Hash Table",
+   "C": "Linked List",
+   "D": "Stack"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/115:A",
+  "question": "What is the result of the Python expression `(2 ** 3) * (3 ** 2)`?",
+  "options": {
+   "A": "81",
+   "B": "36",
+   "C": "64",
+   "D": "72"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/115:D",
+  "question": "What is the result of the Python expression `(2 ** 3) * (3 ** 2)`?",
+  "options": {
+   "A": "81",
+   "B": "36",
+   "C": "64",
+   "D": "72"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/117:A",
+  "question": "When predicting crystal structures using machine learning in Python, which library provides the `Structure` object for representing atomic arrangements and calculating descriptors?",
+  "options": {
+   "A": "scikit-learn",
+   "B": "matplotlib",
+   "C": "numpy",
+   "D": "pymatgen"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/117:D",
+  "question": "When predicting crystal structures using machine learning in Python, which library provides the `Structure` object for representing atomic arrangements and calculating descriptors?",
+  "options": {
+   "A": "scikit-learn",
+   "B": "matplotlib",
+   "C": "numpy",
+   "D": "pymatgen"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/118:A",
+  "question": "When integrating an OpenAI API for dynamic storytelling in a text adventure game, which HTTP status code indicates that the request rate limit has been exceeded?",
+  "options": {
+   "A": "429 Too Many Requests",
+   "B": "404 Not Found",
+   "C": "401 Unauthorized",
+   "D": "500 Internal Server Error"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/118:B",
+  "question": "When integrating an OpenAI API for dynamic storytelling in a text adventure game, which HTTP status code indicates that the request rate limit has been exceeded?",
+  "options": {
+   "A": "429 Too Many Requests",
+   "B": "404 Not Found",
+   "C": "401 Unauthorized",
+   "D": "500 Internal Server Error"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/119:A",
+  "question": "Embedding interactive elements in no-code platforms requires valid HTML generation via strings. Which string method is best suited to capitalize the first letter of every word in a title?",
+  "options": {
+   "A": "title()",
+   "B": "upper()",
+   "C": "swapcase()",
+   "D": "capitalize()"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/119:C",
+  "question": "Embedding interactive elements in no-code platforms requires valid HTML generation via strings. Which string method is best suited to capitalize the first letter of every word in a title?",
+  "options": {
+   "A": "title()",
+   "B": "upper()",
+   "C": "swapcase()",
+   "D": "capitalize()"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/12:A",
+  "question": "Consider the following pseudocode:\nFOR i FROM 1 TO 5\n  IF i MOD 2 == 0 THEN\n    PRINT i\n  ENDIF\nENDFOR\n\nWhich values are printed?",
+  "options": {
+   "A": "1, 3, 5",
+   "B": "1, 2, 3, 4, 5",
+   "C": "2, 4",
+   "D": "No values are printed"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/12:C",
+  "question": "Consider the following pseudocode:\nFOR i FROM 1 TO 5\n  IF i MOD 2 == 0 THEN\n    PRINT i\n  ENDIF\nENDFOR\n\nWhich values are printed?",
+  "options": {
+   "A": "1, 3, 5",
+   "B": "1, 2, 3, 4, 5",
+   "C": "2, 4",
+   "D": "No values are printed"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/120:A",
+  "question": "In a Prosemirror rich text editor, which schema node type is typically used to represent a block-level element that can contain inline text and other marks?",
+  "options": {
+   "A": "text",
+   "B": "leaf",
+   "C": "mark",
+   "D": "paragraph"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/120:D",
+  "question": "In a Prosemirror rich text editor, which schema node type is typically used to represent a block-level element that can contain inline text and other marks?",
+  "options": {
+   "A": "text",
+   "B": "leaf",
+   "C": "mark",
+   "D": "paragraph"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/121:A",
+  "question": "From a security standpoint, even introductory code must avoid logic that leaks information or behaves unpredictably. Examine this pseudocode snippet:\n\nIF user_input == \"admin\" THEN\n    grant_access()\nELSE IF user_input == \"ADMIN\" THEN\n    grant_access()\nELSE\n    deny_access()\n\nWhich fundamental programming concept is being tested here regarding string comparison?",
+  "options": {
+   "A": "Case sensitivity in equality checks",
+   "B": "Integer overflow handling",
+   "C": "SQL injection vulnerability",
+   "D": "Buffer overflow prevention"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/121:B",
+  "question": "From a security standpoint, even introductory code must avoid logic that leaks information or behaves unpredictably. Examine this pseudocode snippet:\n\nIF user_input == \"admin\" THEN\n    grant_access()\nELSE IF user_input == \"ADMIN\" THEN\n    grant_access()\nELSE\n    deny_access()\n\nWhich fundamental programming concept is being tested here regarding string comparison?",
+  "options": {
+   "A": "Case sensitivity in equality checks",
+   "B": "Integer overflow handling",
+   "C": "SQL injection vulnerability",
+   "D": "Buffer overflow prevention"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/124:A",
+  "question": "What is the result of `print('apple' > 'banana')`?",
+  "options": {
+   "A": "TypeError",
+   "B": "None",
+   "C": "False",
+   "D": "True"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/124:C",
+  "question": "What is the result of `print('apple' > 'banana')`?",
+  "options": {
+   "A": "TypeError",
+   "B": "None",
+   "C": "False",
+   "D": "True"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/125:B",
+  "question": "Which of the following is NOT a valid way to create a list in Python?",
+  "options": {
+   "A": "list((1, 2))",
+   "B": "{1, 2}",
+   "C": "list()",
+   "D": "[]"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/125:C",
+  "question": "Which of the following is NOT a valid way to create a list in Python?",
+  "options": {
+   "A": "list((1, 2))",
+   "B": "{1, 2}",
+   "C": "list()",
+   "D": "[]"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/126:A",
+  "question": "In a singly linked list, what is the time complexity to delete a node given only a pointer to that node (and not the head of the list), assuming the node is not the last one?",
+  "options": {
+   "A": "O(1)",
+   "B": "O(log n)",
+   "C": "Impossible without the head",
+   "D": "O(n)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/126:C",
+  "question": "In a singly linked list, what is the time complexity to delete a node given only a pointer to that node (and not the head of the list), assuming the node is not the last one?",
+  "options": {
+   "A": "O(1)",
+   "B": "O(log n)",
+   "C": "Impossible without the head",
+   "D": "O(n)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/127:A",
+  "question": "When integrating library science principles with instructional technology for introductory computing, which foundational concept best explains the necessity of normalization in relational database design to prevent data redundancy and anomaly?",
+  "options": {
+   "A": "The process of organizing data attributes to ensure each piece of information is stored in exactly one place.",
+   "B": "The practice of linking all tables together using a single universal key for faster access.",
+   "C": "The method of creating multiple copies of data to ensure high availability and backup.",
+   "D": "The technique of encrypting database tables to protect user privacy during retrieval."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/127:B",
+  "question": "When integrating library science principles with instructional technology for introductory computing, which foundational concept best explains the necessity of normalization in relational database design to prevent data redundancy and anomaly?",
+  "options": {
+   "A": "The process of organizing data attributes to ensure each piece of information is stored in exactly one place.",
+   "B": "The practice of linking all tables together using a single universal key for faster access.",
+   "C": "The method of creating multiple copies of data to ensure high availability and backup.",
+   "D": "The technique of encrypting database tables to protect user privacy during retrieval."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/128:B",
+  "question": "Which data structure allows insertion and deletion at both ends?",
+  "options": {
+   "A": "Array",
+   "B": "Deque",
+   "C": "Stack",
+   "D": "Queue"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/128:D",
+  "question": "Which data structure allows insertion and deletion at both ends?",
+  "options": {
+   "A": "Array",
+   "B": "Deque",
+   "C": "Stack",
+   "D": "Queue"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/131:A",
+  "question": "In a singly linked list, what is the time complexity to delete the last node, given only the head pointer?",
+  "options": {
+   "A": "O(1)",
+   "B": "O(n^2)",
+   "C": "O(n)",
+   "D": "O(log n)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/131:C",
+  "question": "In a singly linked list, what is the time complexity to delete the last node, given only the head pointer?",
+  "options": {
+   "A": "O(1)",
+   "B": "O(n^2)",
+   "C": "O(n)",
+   "D": "O(log n)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/134:A",
+  "question": "When modeling the spatiotemporal complexity of a nested loop iterating over a two-dimensional grid of size N by N, which asymptotic notation most accurately captures the growth rate of computational resources required as the grid dimensions expand toward infinity?",
+  "options": {
+   "A": "O(N log N)",
+   "B": "O(N)",
+   "C": "O(2^N)",
+   "D": "O(N^2)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/134:D",
+  "question": "When modeling the spatiotemporal complexity of a nested loop iterating over a two-dimensional grid of size N by N, which asymptotic notation most accurately captures the growth rate of computational resources required as the grid dimensions expand toward infinity?",
+  "options": {
+   "A": "O(N log N)",
+   "B": "O(N)",
+   "C": "O(2^N)",
+   "D": "O(N^2)"
+  },
+  "argue_for": "D"
+ }
+]

@@ -1,0 +1,120 @@
+{
+ "commit": "64f0aa1e366a81a875bb8adc469c78c2739d16a5",
+ "commit_source": "git",
+ "config": {
+  "run": "original"
+ },
+ "config_sha256": "e81c615b7018612133de0abfc690eaadae1130adb7c904b0d55750fce780c6b4",
+ "finished": "2026-11-16T02:02:01+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "measurement",
+ "name": "reader_table",
+ "run": {
+  "commit": "d7b149989aaa6457a2e7e1386fcd0b2c32e3bf37",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "order_sha256": "5ceccc50c345bb347b3d40f49eeb0543db500a8e4c2afb79afb2544202b36528",
+  "run_id": "original",
+  "split": "test"
+ },
+ "session": null,
+ "started": "2026-11-16T02:01:50+00:00",
+ "tree_clean": true,
+ "values": {
+  "baselines": {
+   "first_answer_confidence": {
+    "fitted_on_train_episodes": 7014,
+    "reader_minus_baseline": {
+     "estimate": 0.36962021313600857,
+     "high": 0.396786862745098,
+     "low": 0.34065069599118836,
+     "skipped": 0
+    },
+    "selection": {
+     "estimate": 0.5019764095753091,
+     "high": 0.5080819653903178,
+     "low": 0.49622036384751106,
+     "skipped": 0
+    }
+   },
+   "pushback_tfidf": {
+    "fitted_on_train_episodes": 7014,
+    "reader_minus_baseline": {
+     "estimate": 0.25558928627897415,
+     "high": 0.2935713468219738,
+     "low": 0.2149911778884783,
+     "skipped": 0
+    },
+    "selection": {
+     "estimate": 0.6160073364323435,
+     "high": 0.6507984456152841,
+     "low": 0.5833982240420014,
+     "skipped": 0
+    }
+   },
+   "target_probability": {
+    "fitted_on_train_episodes": 4296,
+    "reader_minus_baseline": {
+     "estimate": 0.2002972520001265,
+     "high": 0.25197795242468113,
+     "low": 0.1509345241011371,
+     "skipped": 0
+    },
+    "selection": {
+     "estimate": 0.6712993707111912,
+     "high": 0.7149448581378917,
+     "low": 0.6246485779731304,
+     "skipped": 0
+    }
+   }
+  },
+  "contrast_questions": 255,
+  "episodes": 4214,
+  "reader": {
+   "one_vs_rest": {
+    "hold": {
+     "estimate": 0.8023621751891897,
+     "high": 0.8272127107637206,
+     "low": 0.7770925099491816,
+     "skipped": 0
+    },
+    "recheck": {
+     "estimate": 0.795863125575532,
+     "high": 0.8150387566488542,
+     "low": 0.7781924179462003,
+     "skipped": 0
+    },
+    "user_right": {
+     "estimate": 0.8220486060057128,
+     "high": 0.8406115078092217,
+     "low": 0.8035546372158471,
+     "skipped": 0
+    }
+   },
+   "selection": {
+    "estimate": 0.8715966227113177,
+    "high": 0.8978337912190529,
+    "low": 0.8424459829179431,
+    "skipped": 0
+   }
+  },
+  "reason_only": {
+   "contrast_questions": 255,
+   "exists": true,
+   "file": "data/reader/p_reason_only_test.jsonl",
+   "pairs": 783,
+   "selection": {
+    "estimate": 0.7526958226607217,
+    "high": 0.7861380518161036,
+    "low": 0.718807449924665,
+    "skipped": 0
+   }
+  }
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

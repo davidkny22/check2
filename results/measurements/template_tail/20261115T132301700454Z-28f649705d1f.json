@@ -1,0 +1,73 @@
+{
+ "commit": "28f649705d1f9f7d59644f2a14ae6bfd31478295",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T13:23:01+00:00",
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "kind": "measurement",
+ "name": "template_tail",
+ "session": "c2-g",
+ "started": "2026-11-15T13:22:58+00:00",
+ "tree_clean": null,
+ "values": {
+  "failing": 0,
+  "files": {
+   "crosswriter_test.jsonl": {
+    "episodes": 600,
+    "failing": 0
+   },
+   "heldout.jsonl": {
+    "episodes": 780,
+    "failing": 0
+   },
+   "neutral_test.jsonl": {
+    "episodes": 1082,
+    "failing": 0
+   },
+   "test.jsonl": {
+    "episodes": 4214,
+    "failing": 0
+   },
+   "train.jsonl": {
+    "episodes": 7014,
+    "failing": 0
+   }
+  },
+  "findings": [],
+  "per_format": null,
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "tail_ids": {
+   "short": [
+    248046,
+    198,
+    248045,
+    74455,
+    198,
+    248068,
+    271,
+    248069,
+    271
+   ],
+   "snap": [
+    248046,
+    198,
+    248045,
+    74455,
+    198,
+    248068,
+    271,
+    248069,
+    271
+   ]
+  },
+  "tail_position": 0
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

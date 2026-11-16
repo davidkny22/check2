@@ -1,0 +1,131 @@
+{
+ "commit": "be50dae99e70a6f8bf34d3e3c09859f1d5b04128",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T15:09:24+00:00",
+ "form": "whole_sequence, one forward batch per format",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "gate",
+ "model_kind": "full",
+ "name": "gradient_parity",
+ "seconds": 0.7,
+ "session": "c2-a",
+ "started": "2026-11-15T15:09:23+00:00",
+ "tree_clean": null,
+ "values": {
+  "losses": {
+   "builtin": 0.801777315849904,
+   "fast": 0.8067431282252073
+  },
+  "lowest_cosine": 0.9955396776828922,
+  "lowest_layer": 4,
+  "parts": {
+   "builtin": {
+    "builtin_path": true,
+    "chunk_rule": "transformers.models.qwen3_5.modeling_qwen3_5.torch_chunk_gated_delta_rule",
+    "dtype": "float32",
+    "episode_ids": [
+     "high_school_macroeconomics/68:named:snap:B",
+     "high_school_physics/56:named:snap:A",
+     "college_computer_science/8:reasoned:snap:A",
+     "abstract_algebra/90:reasoned:snap:B",
+     "high_school_macroeconomics/68:named:short:B",
+     "high_school_physics/56:named:short:A",
+     "college_computer_science/8:reasoned:short:A",
+     "abstract_algebra/90:reasoned:short:B"
+    ],
+    "fast_kernel_importable": false,
+    "fast_kernel_imported": false,
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "how": "whole sequences, one episode at a time",
+    "loss": 0.801777315849904,
+    "part": "builtin",
+    "seconds": 24.3,
+    "targets": {
+     "file": "/content/stand-in-targets.jsonl",
+     "sha256": "858da1622552a7d9ede7194cd54f4adbc287cff677bec9fc61a19e64dae76af5"
+    },
+    "versions": {
+     "flash-linear-attention": null,
+     "python": "3.13.16",
+     "torch": "2.14.1+cu130",
+     "transformers": "5.22.1"
+    }
+   },
+   "fast": {
+    "builtin_path": false,
+    "chunk_rule": "transformers.models.qwen3_5.modeling_qwen3_5.torch_chunk_gated_delta_rule",
+    "dtype": "bfloat16",
+    "episode_ids": [
+     "high_school_macroeconomics/68:named:snap:B",
+     "high_school_physics/56:named:snap:A",
+     "college_computer_science/8:reasoned:snap:A",
+     "abstract_algebra/90:reasoned:snap:B",
+     "high_school_macroeconomics/68:named:short:B",
+     "high_school_physics/56:named:short:A",
+     "college_computer_science/8:reasoned:short:A",
+     "abstract_algebra/90:reasoned:short:B"
+    ],
+    "fast_kernel_importable": true,
+    "fast_kernel_imported": true,
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "how": "whole_sequence, one forward batch per format",
+    "loss": 0.8067431282252073,
+    "part": "fast",
+    "seconds": 71.2,
+    "targets": {
+     "file": "/content/stand-in-targets.jsonl",
+     "sha256": "858da1622552a7d9ede7194cd54f4adbc287cff677bec9fc61a19e64dae76af5"
+    },
+    "versions": {
+     "flash-linear-attention": "0.6.0",
+     "python": "3.13.16",
+     "torch": "2.14.1+cu130",
+     "transformers": "5.22.1"
+    }
+   }
+  },
+  "paths_as_required": true,
+  "per_layer_cosine": {
+   "10": 0.9961340157845029,
+   "11": 0.996511687935938,
+   "12": 0.9960373914622588,
+   "13": 0.99666246784529,
+   "14": 0.9971022930050493,
+   "15": 0.9975278163617989,
+   "16": 0.9972764642445446,
+   "17": 0.997400622090618,
+   "18": 0.9978835655408619,
+   "19": 0.9982015624944834,
+   "20": 0.9980151089933873,
+   "21": 0.9983477431736125,
+   "22": 0.9982557118280808,
+   "23": 0.9984236234447001,
+   "24": 0.9977842093864236,
+   "25": 0.9979564303608921,
+   "26": 0.9976947924436927,
+   "27": 0.9983952198094311,
+   "28": 0.9985193773824815,
+   "29": 0.9989619879224932,
+   "3": 0.9960125140397291,
+   "30": 0.9991243645562486,
+   "31": 0.9995502279261786,
+   "4": 0.9955396776828922,
+   "5": 0.9956019453059287,
+   "6": 0.9961492646057716,
+   "7": 0.9956025863134798,
+   "8": 0.9957375697796775,
+   "9": 0.9960679289871345
+  },
+  "same_episodes": true,
+  "threshold": 0.99
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

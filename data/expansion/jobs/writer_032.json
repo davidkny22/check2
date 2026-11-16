@@ -1,0 +1,1652 @@
+[
+ {
+  "job_id": "expansion/high_school_computer_science/24:A",
+  "question": "Optimizing eCommerce attribute retrieval begins with understanding dictionary lookups. Which data structure provides O(1) average time complexity for inserting and retrieving key-value pairs in Python?",
+  "options": {
+   "A": "Dictionary",
+   "B": "Set",
+   "C": "List",
+   "D": "Tuple"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/24:D",
+  "question": "Optimizing eCommerce attribute retrieval begins with understanding dictionary lookups. Which data structure provides O(1) average time complexity for inserting and retrieving key-value pairs in Python?",
+  "options": {
+   "A": "Dictionary",
+   "B": "Set",
+   "C": "List",
+   "D": "Tuple"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/241:B",
+  "question": "What is the output of this Python code?\n\ndef greet(name='Guest'):\n    return f'Hello {name}'\n\nprint(greet('Alice'), greet())",
+  "options": {
+   "A": "Hello Guest Hello Guest",
+   "B": "Hello Alice Hello Guest",
+   "C": "Error",
+   "D": "Hello Alice Hello None"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/241:D",
+  "question": "What is the output of this Python code?\n\ndef greet(name='Guest'):\n    return f'Hello {name}'\n\nprint(greet('Alice'), greet())",
+  "options": {
+   "A": "Hello Guest Hello Guest",
+   "B": "Hello Alice Hello Guest",
+   "C": "Error",
+   "D": "Hello Alice Hello None"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/242:A",
+  "question": "Which of the following is the correct way to open a file for writing in Python and ensure it is closed automatically?",
+  "options": {
+   "A": "file = open('file.txt', 'w'); file.close()",
+   "B": "open('file.txt', 'w')",
+   "C": "with open('file.txt', 'r') as f:",
+   "D": "with open('file.txt', 'w') as f:"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/242:D",
+  "question": "Which of the following is the correct way to open a file for writing in Python and ensure it is closed automatically?",
+  "options": {
+   "A": "file = open('file.txt', 'w'); file.close()",
+   "B": "open('file.txt', 'w')",
+   "C": "with open('file.txt', 'r') as f:",
+   "D": "with open('file.txt', 'w') as f:"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/243:A",
+  "question": "What happens when a Python script encounters a `break` statement inside a nested loop?",
+  "options": {
+   "A": "It terminates the entire program",
+   "B": "It skips the current iteration and moves to the next",
+   "C": "It exits the innermost loop only",
+   "D": "It exits all loops"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/243:C",
+  "question": "What happens when a Python script encounters a `break` statement inside a nested loop?",
+  "options": {
+   "A": "It terminates the entire program",
+   "B": "It skips the current iteration and moves to the next",
+   "C": "It exits the innermost loop only",
+   "D": "It exits all loops"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/245:C",
+  "question": "What is the result of `print(type(lambda x: x))`?",
+  "options": {
+   "A": "<class 'object'>",
+   "B": "<class 'lambda'>",
+   "C": "<class 'type'>",
+   "D": "<class 'function'>"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/245:D",
+  "question": "What is the result of `print(type(lambda x: x))`?",
+  "options": {
+   "A": "<class 'object'>",
+   "B": "<class 'lambda'>",
+   "C": "<class 'type'>",
+   "D": "<class 'function'>"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/246:C",
+  "question": "What is the output of the following Python code snippet?\n\ndef func(x, *args):\n    return x + sum(args)\n\nprint(func(1, 2, 3, 4))",
+  "options": {
+   "A": "6",
+   "B": "Error",
+   "C": "10",
+   "D": "5"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/246:D",
+  "question": "What is the output of the following Python code snippet?\n\ndef func(x, *args):\n    return x + sum(args)\n\nprint(func(1, 2, 3, 4))",
+  "options": {
+   "A": "6",
+   "B": "Error",
+   "C": "10",
+   "D": "5"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/247:B",
+  "question": "In Java 21, which feature allows a switch expression to exhaustively check all possible values of a sealed hierarchy without a default case?",
+  "options": {
+   "A": "Reflection API",
+   "B": "Anonymous Inner Classes",
+   "C": "Varargs",
+   "D": "Pattern Matching for Switch"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/247:D",
+  "question": "In Java 21, which feature allows a switch expression to exhaustively check all possible values of a sealed hierarchy without a default case?",
+  "options": {
+   "A": "Reflection API",
+   "B": "Anonymous Inner Classes",
+   "C": "Varargs",
+   "D": "Pattern Matching for Switch"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/248:B",
+  "question": "In a PHP template engine like Twig, which syntax is used to output the value of a variable without escaping it for HTML?",
+  "options": {
+   "A": "<?php echo $variable; ?>",
+   "B": "{{ variable|raw }}",
+   "C": "{{ variable }}",
+   "D": "{% print variable %}"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/248:C",
+  "question": "In a PHP template engine like Twig, which syntax is used to output the value of a variable without escaping it for HTML?",
+  "options": {
+   "A": "<?php echo $variable; ?>",
+   "B": "{{ variable|raw }}",
+   "C": "{{ variable }}",
+   "D": "{% print variable %}"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/249:A",
+  "question": "When parsing a CSV file uploaded to Google Sheets via the Python API, which gspread method retrieves all values in a worksheet as a list of lists?",
+  "options": {
+   "A": "get_all_values()",
+   "B": "fetch_all_data()",
+   "C": "read_cells()",
+   "D": "export_dataframe()"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/249:C",
+  "question": "When parsing a CSV file uploaded to Google Sheets via the Python API, which gspread method retrieves all values in a worksheet as a list of lists?",
+  "options": {
+   "A": "get_all_values()",
+   "B": "fetch_all_data()",
+   "C": "read_cells()",
+   "D": "export_dataframe()"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/25:B",
+  "question": "In the context of Python's memory management, what is the primary purpose of the 'Global Interpreter Lock' (GIL)?",
+  "options": {
+   "A": "To optimize the speed of integer arithmetic",
+   "B": "To synchronize access to Python objects across multiple threads",
+   "C": "To enable true parallel execution of multiple Python threads on multi-core CPUs",
+   "D": "To prevent memory leaks in the heap"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/25:C",
+  "question": "In the context of Python's memory management, what is the primary purpose of the 'Global Interpreter Lock' (GIL)?",
+  "options": {
+   "A": "To optimize the speed of integer arithmetic",
+   "B": "To synchronize access to Python objects across multiple threads",
+   "C": "To enable true parallel execution of multiple Python threads on multi-core CPUs",
+   "D": "To prevent memory leaks in the heap"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/250:B",
+  "question": "Which data type in Python is immutable?",
+  "options": {
+   "A": "List",
+   "B": "Dictionary",
+   "C": "Set",
+   "D": "Tuple"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/250:D",
+  "question": "Which data type in Python is immutable?",
+  "options": {
+   "A": "List",
+   "B": "Dictionary",
+   "C": "Set",
+   "D": "Tuple"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/251:A",
+  "question": "Which logical operator returns True only if both operands are True?",
+  "options": {
+   "A": "XOR",
+   "B": "OR",
+   "C": "NOT",
+   "D": "AND"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/251:D",
+  "question": "Which logical operator returns True only if both operands are True?",
+  "options": {
+   "A": "XOR",
+   "B": "OR",
+   "C": "NOT",
+   "D": "AND"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/252:B",
+  "question": "Given the Python list `data = [10, 20, 30, 40]`, what is the result of the slice `data[1:3]`?",
+  "options": {
+   "A": "[20, 30, 40]",
+   "B": "[20, 30]",
+   "C": "[30, 40]",
+   "D": "[10, 20]"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/252:C",
+  "question": "Given the Python list `data = [10, 20, 30, 40]`, what is the result of the slice `data[1:3]`?",
+  "options": {
+   "A": "[20, 30, 40]",
+   "B": "[20, 30]",
+   "C": "[30, 40]",
+   "D": "[10, 20]"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/253:A",
+  "question": "What is the output of the following Python code?\n\nprint(len({1, 2, 3, 3, 2, 1}))",
+  "options": {
+   "A": "0",
+   "B": "6",
+   "C": "Error",
+   "D": "3"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/253:D",
+  "question": "What is the output of the following Python code?\n\nprint(len({1, 2, 3, 3, 2, 1}))",
+  "options": {
+   "A": "0",
+   "B": "6",
+   "C": "Error",
+   "D": "3"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/256:A",
+  "question": "What does the `pass` statement do in Python?",
+  "options": {
+   "A": "It stops the program",
+   "B": "It skips the current loop iteration",
+   "C": "It raises an exception",
+   "D": "It acts as a null operation placeholder"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/256:D",
+  "question": "What does the `pass` statement do in Python?",
+  "options": {
+   "A": "It stops the program",
+   "B": "It skips the current loop iteration",
+   "C": "It raises an exception",
+   "D": "It acts as a null operation placeholder"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/257:A",
+  "question": "What is the output of `print('python'[::-1])`?",
+  "options": {
+   "A": "nohtyp",
+   "B": "python",
+   "C": "nohty",
+   "D": "Error"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/257:D",
+  "question": "What is the output of `print('python'[::-1])`?",
+  "options": {
+   "A": "nohtyp",
+   "B": "python",
+   "C": "nohty",
+   "D": "Error"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/258:B",
+  "question": "What does the `map()` function return in Python 3?",
+  "options": {
+   "A": "A dictionary",
+   "B": "An iterator",
+   "C": "A list",
+   "D": "A tuple"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/258:C",
+  "question": "What does the `map()` function return in Python 3?",
+  "options": {
+   "A": "A dictionary",
+   "B": "An iterator",
+   "C": "A list",
+   "D": "A tuple"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/259:A",
+  "question": "In a RedisSearch integration for a real-time data application, which index type is required to perform full-text search queries on string fields?",
+  "options": {
+   "A": "TEXT",
+   "B": "TAG",
+   "C": "NUMERIC",
+   "D": "GEO"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/259:B",
+  "question": "In a RedisSearch integration for a real-time data application, which index type is required to perform full-text search queries on string fields?",
+  "options": {
+   "A": "TEXT",
+   "B": "TAG",
+   "C": "NUMERIC",
+   "D": "GEO"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/26:A",
+  "question": "In the expression `x = 5; x += 3`, what is the final value of x?",
+  "options": {
+   "A": "5",
+   "B": "3",
+   "C": "8",
+   "D": "Error"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/26:C",
+  "question": "In the expression `x = 5; x += 3`, what is the final value of x?",
+  "options": {
+   "A": "5",
+   "B": "3",
+   "C": "8",
+   "D": "Error"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/260:A",
+  "question": "Resolving chart initialization conflicts often involves checking data types. Which of the following is NOT a valid built-in numeric type in Python?",
+  "options": {
+   "A": "decimal",
+   "B": "float",
+   "C": "complex",
+   "D": "int"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/260:B",
+  "question": "Resolving chart initialization conflicts often involves checking data types. Which of the following is NOT a valid built-in numeric type in Python?",
+  "options": {
+   "A": "decimal",
+   "B": "float",
+   "C": "complex",
+   "D": "int"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/261:A",
+  "question": "What is the result of `not (True or False)`?",
+  "options": {
+   "A": "Error",
+   "B": "False",
+   "C": "True",
+   "D": "None"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/261:B",
+  "question": "What is the result of `not (True or False)`?",
+  "options": {
+   "A": "Error",
+   "B": "False",
+   "C": "True",
+   "D": "None"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/262:A",
+  "question": "Consider this pseudocode:\nFUNCTION mystery(n)\n  IF n <= 1 RETURN 1\n  RETURN n * mystery(n - 1)\nEND FUNCTION\nWhat does this function calculate for a positive integer n?",
+  "options": {
+   "A": "The nth Fibonacci number",
+   "B": "The factorial of n",
+   "C": "The sum of integers from 1 to n",
+   "D": "The square of n"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/262:B",
+  "question": "Consider this pseudocode:\nFUNCTION mystery(n)\n  IF n <= 1 RETURN 1\n  RETURN n * mystery(n - 1)\nEND FUNCTION\nWhat does this function calculate for a positive integer n?",
+  "options": {
+   "A": "The nth Fibonacci number",
+   "B": "The factorial of n",
+   "C": "The sum of integers from 1 to n",
+   "D": "The square of n"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/263:A",
+  "question": "What is the purpose of the `elif` keyword in Python?",
+  "options": {
+   "A": "To check another condition if the previous one was false",
+   "B": "To start a new loop",
+   "C": "To define a function",
+   "D": "To import a module"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/263:D",
+  "question": "What is the purpose of the `elif` keyword in Python?",
+  "options": {
+   "A": "To check another condition if the previous one was false",
+   "B": "To start a new loop",
+   "C": "To define a function",
+   "D": "To import a module"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/264:A",
+  "question": "In graph theory, what is a node also known as?",
+  "options": {
+   "A": "Path",
+   "B": "Vertex",
+   "C": "Edge",
+   "D": "Cycle"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/264:B",
+  "question": "In graph theory, what is a node also known as?",
+  "options": {
+   "A": "Path",
+   "B": "Vertex",
+   "C": "Edge",
+   "D": "Cycle"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/265:A",
+  "question": "Animating terminal-based visualizations requires understanding of escape sequences. What character is used to denote a newline in a Python string literal?",
+  "options": {
+   "A": "\\r",
+   "B": "\\n",
+   "C": "\\t",
+   "D": "\\b"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/265:B",
+  "question": "Animating terminal-based visualizations requires understanding of escape sequences. What character is used to denote a newline in a Python string literal?",
+  "options": {
+   "A": "\\r",
+   "B": "\\n",
+   "C": "\\t",
+   "D": "\\b"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/266:A",
+  "question": "In Python, what happens when you execute `a = [1, 2, 3]` and then `b = a`, followed by `b.append(4)`?",
+  "options": {
+   "A": "Only a is updated to [1, 2, 3, 4]",
+   "B": "Only b is updated to [1, 2, 3, 4]",
+   "C": "Both a and b refer to [1, 2, 3, 4]",
+   "D": "An AttributeError is raised"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/266:C",
+  "question": "In Python, what happens when you execute `a = [1, 2, 3]` and then `b = a`, followed by `b.append(4)`?",
+  "options": {
+   "A": "Only a is updated to [1, 2, 3, 4]",
+   "B": "Only b is updated to [1, 2, 3, 4]",
+   "C": "Both a and b refer to [1, 2, 3, 4]",
+   "D": "An AttributeError is raised"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/267:A",
+  "question": "In Python, how do you create a dictionary from two lists, one for keys and one for values?",
+  "options": {
+   "A": "dict(zip(keys, values))",
+   "B": "dict(combine(keys, values))",
+   "C": "dict(keys, values)",
+   "D": "dict(keys + values)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/267:C",
+  "question": "In Python, how do you create a dictionary from two lists, one for keys and one for values?",
+  "options": {
+   "A": "dict(zip(keys, values))",
+   "B": "dict(combine(keys, values))",
+   "C": "dict(keys, values)",
+   "D": "dict(keys + values)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/268:A",
+  "question": "What is the result of `10 // 3` in Python 3?",
+  "options": {
+   "A": "3",
+   "B": "3.333",
+   "C": "4",
+   "D": "3.0"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/268:B",
+  "question": "What is the result of `10 // 3` in Python 3?",
+  "options": {
+   "A": "3",
+   "B": "3.333",
+   "C": "4",
+   "D": "3.0"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/269:B",
+  "question": "In the meticulous preparation of ledger accounts, precision in data recording is paramount. Consider a simple algorithm designed to calculate the total value of credit purchases from a list of transactions. If the list contains mixed data types including integers, floats, and a string representation of a number, what is the most robust programming approach to ensure accurate summation without runtime errors?",
+  "options": {
+   "A": "Skip any element that is not strictly an integer to maintain data purity.",
+   "B": "Iterate through the list, explicitly casting each element to a float before adding it to the total.",
+   "C": "Convert the entire list to a string and parse the numerical values using regular expressions.",
+   "D": "Sum the values directly, relying on the language's implicit type coercion to handle strings."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/269:D",
+  "question": "In the meticulous preparation of ledger accounts, precision in data recording is paramount. Consider a simple algorithm designed to calculate the total value of credit purchases from a list of transactions. If the list contains mixed data types including integers, floats, and a string representation of a number, what is the most robust programming approach to ensure accurate summation without runtime errors?",
+  "options": {
+   "A": "Skip any element that is not strictly an integer to maintain data purity.",
+   "B": "Iterate through the list, explicitly casting each element to a float before adding it to the total.",
+   "C": "Convert the entire list to a string and parse the numerical values using regular expressions.",
+   "D": "Sum the values directly, relying on the language's implicit type coercion to handle strings."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/27:B",
+  "question": "In Python, what is the result of `[1, 2] + [3, 4]`?",
+  "options": {
+   "A": "[4, 6]",
+   "B": "[1, 2, 3, 4]",
+   "C": "Error",
+   "D": "[[1, 2], [3, 4]]"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/27:D",
+  "question": "In Python, what is the result of `[1, 2] + [3, 4]`?",
+  "options": {
+   "A": "[4, 6]",
+   "B": "[1, 2, 3, 4]",
+   "C": "Error",
+   "D": "[[1, 2], [3, 4]]"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/270:B",
+  "question": "In Python, which of the following best describes the behavior of the `collections.deque` object compared to a standard `list` when popping an element from the beginning of the sequence?",
+  "options": {
+   "A": "Both have O(1) time complexity",
+   "B": "`deque` is O(n), `list` is O(1)",
+   "C": "Both have O(n) time complexity",
+   "D": "`deque` is O(1), `list` is O(n)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/270:D",
+  "question": "In Python, which of the following best describes the behavior of the `collections.deque` object compared to a standard `list` when popping an element from the beginning of the sequence?",
+  "options": {
+   "A": "Both have O(1) time complexity",
+   "B": "`deque` is O(n), `list` is O(1)",
+   "C": "Both have O(n) time complexity",
+   "D": "`deque` is O(1), `list` is O(n)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/271:A",
+  "question": "In a multimodal image classification system fusing spectral and spatial data, which Keras layer is best suited for concatenating feature maps from two parallel convolutional branches?",
+  "options": {
+   "A": "Concatenate",
+   "B": "Multiply",
+   "C": "Add",
+   "D": "Flatten"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/271:B",
+  "question": "In a multimodal image classification system fusing spectral and spatial data, which Keras layer is best suited for concatenating feature maps from two parallel convolutional branches?",
+  "options": {
+   "A": "Concatenate",
+   "B": "Multiply",
+   "C": "Add",
+   "D": "Flatten"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/272:B",
+  "question": "Creating interactive ASCII art requires precise control over print outputs. What is the effect of setting 'end=\"\"' in the 'print()' function?",
+  "options": {
+   "A": "It adds an extra space after the output",
+   "B": "It suppresses the automatic newline character at the end of the output",
+   "C": "It converts the output to uppercase",
+   "D": "It prevents the output from being displayed"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/272:C",
+  "question": "Creating interactive ASCII art requires precise control over print outputs. What is the effect of setting 'end=\"\"' in the 'print()' function?",
+  "options": {
+   "A": "It adds an extra space after the output",
+   "B": "It suppresses the automatic newline character at the end of the output",
+   "C": "It converts the output to uppercase",
+   "D": "It prevents the output from being displayed"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/273:B",
+  "question": "In a Linux system-level C program, which system call is used to put the current process to sleep for a specified duration to manage power consumption?",
+  "options": {
+   "A": "exec",
+   "B": "nanosleep",
+   "C": "malloc",
+   "D": "fork"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/273:D",
+  "question": "In a Linux system-level C program, which system call is used to put the current process to sleep for a specified duration to manage power consumption?",
+  "options": {
+   "A": "exec",
+   "B": "nanosleep",
+   "C": "malloc",
+   "D": "fork"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/274:B",
+  "question": "How does the implementation of a hash table challenge an individual's self-schema regarding memory organization, particularly when confronting the probabilistic nature of collision resolution versus the deterministic expectation of direct addressing?",
+  "options": {
+   "A": "It confirms that human memory works exactly like a direct-mapped cache without any overhead.",
+   "B": "It suggests that collisions are errors in the programmer's identity rather than inherent to the data structure.",
+   "C": "It forces a restructuring of mental models to accommodate non-linear, key-based retrieval with potential conflicts.",
+   "D": "It reinforces the belief that all memory access must be sequential and predictable."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/274:C",
+  "question": "How does the implementation of a hash table challenge an individual's self-schema regarding memory organization, particularly when confronting the probabilistic nature of collision resolution versus the deterministic expectation of direct addressing?",
+  "options": {
+   "A": "It confirms that human memory works exactly like a direct-mapped cache without any overhead.",
+   "B": "It suggests that collisions are errors in the programmer's identity rather than inherent to the data structure.",
+   "C": "It forces a restructuring of mental models to accommodate non-linear, key-based retrieval with potential conflicts.",
+   "D": "It reinforces the belief that all memory access must be sequential and predictable."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/275:A",
+  "question": "In the context of optimizing convolutional neural networks using PyTorch, which operation is primarily responsible for reducing the spatial dimensions of the feature map while retaining dominant features?",
+  "options": {
+   "A": "Max Pooling",
+   "B": "Fully Connected Layer",
+   "C": "Batch Normalization",
+   "D": "Dropout"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/275:D",
+  "question": "In the context of optimizing convolutional neural networks using PyTorch, which operation is primarily responsible for reducing the spatial dimensions of the feature map while retaining dominant features?",
+  "options": {
+   "A": "Max Pooling",
+   "B": "Fully Connected Layer",
+   "C": "Batch Normalization",
+   "D": "Dropout"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/277:A",
+  "question": "In a binary search algorithm acting on a sorted array of 1,024 elements, what is the maximum number of comparisons required to find a specific target element or determine it is not present?",
+  "options": {
+   "A": "512",
+   "B": "1024",
+   "C": "10",
+   "D": "11"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/277:D",
+  "question": "In a binary search algorithm acting on a sorted array of 1,024 elements, what is the maximum number of comparisons required to find a specific target element or determine it is not present?",
+  "options": {
+   "A": "512",
+   "B": "1024",
+   "C": "10",
+   "D": "11"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/278:B",
+  "question": "Game logic randomization depends on correct integer handling. What is the result of the floor division operator '//' in the expression '7 // 2' in Python 3?",
+  "options": {
+   "A": "3.5",
+   "B": "3",
+   "C": "3.0",
+   "D": "4"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/278:C",
+  "question": "Game logic randomization depends on correct integer handling. What is the result of the floor division operator '//' in the expression '7 // 2' in Python 3?",
+  "options": {
+   "A": "3.5",
+   "B": "3",
+   "C": "3.0",
+   "D": "4"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/279:A",
+  "question": "Which of the following is NOT a valid variable name in Python?",
+  "options": {
+   "A": "2nd_variable",
+   "B": "_variable1",
+   "C": "my_variable",
+   "D": "var_name"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/279:D",
+  "question": "Which of the following is NOT a valid variable name in Python?",
+  "options": {
+   "A": "2nd_variable",
+   "B": "_variable1",
+   "C": "my_variable",
+   "D": "var_name"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/28:A",
+  "question": "What is the output of the following code?\n\nmy_dict = {'a': 1, 'b': 2}\nprint(my_dict.get('c', 3))",
+  "options": {
+   "A": "3",
+   "B": "None",
+   "C": "0",
+   "D": "KeyError"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/28:D",
+  "question": "What is the output of the following code?\n\nmy_dict = {'a': 1, 'b': 2}\nprint(my_dict.get('c', 3))",
+  "options": {
+   "A": "3",
+   "B": "None",
+   "C": "0",
+   "D": "KeyError"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/280:B",
+  "question": "Evaluate the following Python expression: `[i for i in range(5) if i % 2 == 0]`",
+  "options": {
+   "A": "[2, 4]",
+   "B": "[0, 2, 4]",
+   "C": "[0, 1, 2, 3, 4]",
+   "D": "[1, 3]"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/280:C",
+  "question": "Evaluate the following Python expression: `[i for i in range(5) if i % 2 == 0]`",
+  "options": {
+   "A": "[2, 4]",
+   "B": "[0, 2, 4]",
+   "C": "[0, 1, 2, 3, 4]",
+   "D": "[1, 3]"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/281:B",
+  "question": "Which of the following is a characteristic of a Python 'set'?",
+  "options": {
+   "A": "Allows duplicate elements",
+   "B": "Unordered and unique elements",
+   "C": "Indexed access via integers",
+   "D": "Ordered elements"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/281:D",
+  "question": "Which of the following is a characteristic of a Python 'set'?",
+  "options": {
+   "A": "Allows duplicate elements",
+   "B": "Unordered and unique elements",
+   "C": "Indexed access via integers",
+   "D": "Ordered elements"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/282:A",
+  "question": "Which protocol is primarily used for secure web browsing?",
+  "options": {
+   "A": "FTP",
+   "B": "HTTPS",
+   "C": "SMTP",
+   "D": "HTTP"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/282:B",
+  "question": "Which protocol is primarily used for secure web browsing?",
+  "options": {
+   "A": "FTP",
+   "B": "HTTPS",
+   "C": "SMTP",
+   "D": "HTTP"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/283:A",
+  "question": "Which Python method is used to remove all whitespace from the beginning and end of a string?",
+  "options": {
+   "A": "strip()",
+   "B": "trim()",
+   "C": "clean()",
+   "D": "clear()"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/283:B",
+  "question": "Which Python method is used to remove all whitespace from the beginning and end of a string?",
+  "options": {
+   "A": "strip()",
+   "B": "trim()",
+   "C": "clean()",
+   "D": "clear()"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/284:C",
+  "question": "What is the output of `print(''.join(['a', 'b', 'c']))`?",
+  "options": {
+   "A": "['abc']",
+   "B": "'a b c'",
+   "C": "'abc'",
+   "D": "'a,b,c'"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/284:D",
+  "question": "What is the output of `print(''.join(['a', 'b', 'c']))`?",
+  "options": {
+   "A": "['abc']",
+   "B": "'a b c'",
+   "C": "'abc'",
+   "D": "'a,b,c'"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/286:B",
+  "question": "In C programming, when reading dynamic data from a file where the number of records is unknown, which memory management function is essential for resizing the buffer array efficiently?",
+  "options": {
+   "A": "calloc",
+   "B": "realloc",
+   "C": "free",
+   "D": "malloc"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/286:C",
+  "question": "In C programming, when reading dynamic data from a file where the number of records is unknown, which memory management function is essential for resizing the buffer array efficiently?",
+  "options": {
+   "A": "calloc",
+   "B": "realloc",
+   "C": "free",
+   "D": "malloc"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/288:A",
+  "question": "What is the output of the following Python code?\n`x = 'Python'\nprint(x[1:4])`",
+  "options": {
+   "A": "yth",
+   "B": "Pyth",
+   "C": "ith",
+   "D": "ytho"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/288:B",
+  "question": "What is the output of the following Python code?\n`x = 'Python'\nprint(x[1:4])`",
+  "options": {
+   "A": "yth",
+   "B": "Pyth",
+   "C": "ith",
+   "D": "ytho"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/289:A",
+  "question": "Legacy Perl systems often interact with modern scripts, making understanding of basic I/O crucial. What is the primary purpose of the 'with' statement when opening a file in Python?",
+  "options": {
+   "A": "It ensures the file is properly closed after the block executes, even if an error occurs",
+   "B": "It converts the file content into a JSON object automatically",
+   "C": "It locks the file exclusively so no other process can read it",
+   "D": "It automatically compresses the file to save disk space"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/289:B",
+  "question": "Legacy Perl systems often interact with modern scripts, making understanding of basic I/O crucial. What is the primary purpose of the 'with' statement when opening a file in Python?",
+  "options": {
+   "A": "It ensures the file is properly closed after the block executes, even if an error occurs",
+   "B": "It converts the file content into a JSON object automatically",
+   "C": "It locks the file exclusively so no other process can read it",
+   "D": "It automatically compresses the file to save disk space"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/29:B",
+  "question": "Which logic gate outputs true only when inputs are different?",
+  "options": {
+   "A": "AND",
+   "B": "XOR",
+   "C": "OR",
+   "D": "NOT"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/29:C",
+  "question": "Which logic gate outputs true only when inputs are different?",
+  "options": {
+   "A": "AND",
+   "B": "XOR",
+   "C": "OR",
+   "D": "NOT"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/290:A",
+  "question": "Which of the following is the correct syntax for a slice that returns every second element of a list `L` starting from index 0?",
+  "options": {
+   "A": "L[0:2]",
+   "B": "L[:2]",
+   "C": "L[::2]",
+   "D": "L[2:]"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/290:C",
+  "question": "Which of the following is the correct syntax for a slice that returns every second element of a list `L` starting from index 0?",
+  "options": {
+   "A": "L[0:2]",
+   "B": "L[:2]",
+   "C": "L[::2]",
+   "D": "L[2:]"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/291:B",
+  "question": "What is the output of `print(type(1 / 1))` in Python 3?",
+  "options": {
+   "A": "<class 'int'>",
+   "B": "<class 'double'>",
+   "C": "<class 'float'>",
+   "D": "<class 'decimal'>"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/291:C",
+  "question": "What is the output of `print(type(1 / 1))` in Python 3?",
+  "options": {
+   "A": "<class 'int'>",
+   "B": "<class 'double'>",
+   "C": "<class 'float'>",
+   "D": "<class 'decimal'>"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/295:B",
+  "question": "Which of the following statements best describes the time and space complexity of a recursive depth-first search (DFS) on a graph with V vertices and E edges, assuming the graph is represented by an adjacency list?",
+  "options": {
+   "A": "Time: O(V+E), Space: O(E)",
+   "B": "Time: O(V^2), Space: O(V)",
+   "C": "Time: O(V+E), Space: O(V)",
+   "D": "Time: O(V*E), Space: O(E)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/295:C",
+  "question": "Which of the following statements best describes the time and space complexity of a recursive depth-first search (DFS) on a graph with V vertices and E edges, assuming the graph is represented by an adjacency list?",
+  "options": {
+   "A": "Time: O(V+E), Space: O(E)",
+   "B": "Time: O(V^2), Space: O(V)",
+   "C": "Time: O(V+E), Space: O(V)",
+   "D": "Time: O(V*E), Space: O(E)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/296:A",
+  "question": "What is the output of the following Python code?\n\nprint('apple' > 'banana')",
+  "options": {
+   "A": "True",
+   "B": "Error",
+   "C": "None",
+   "D": "False"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/296:D",
+  "question": "What is the output of the following Python code?\n\nprint('apple' > 'banana')",
+  "options": {
+   "A": "True",
+   "B": "Error",
+   "C": "None",
+   "D": "False"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/297:A",
+  "question": "What is the result of the following Python expression?\n\nprint(2 ** 3 ** 2)",
+  "options": {
+   "A": "512",
+   "B": "64",
+   "C": "81",
+   "D": "18"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/297:D",
+  "question": "What is the result of the following Python expression?\n\nprint(2 ** 3 ** 2)",
+  "options": {
+   "A": "512",
+   "B": "64",
+   "C": "81",
+   "D": "18"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/299:A",
+  "question": "Consider a loop that iterates from 1 to 5 inclusive. How many times will the loop body execute?",
+  "options": {
+   "A": "5",
+   "B": "3",
+   "C": "6",
+   "D": "4"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/299:B",
+  "question": "Consider a loop that iterates from 1 to 5 inclusive. How many times will the loop body execute?",
+  "options": {
+   "A": "5",
+   "B": "3",
+   "C": "6",
+   "D": "4"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/3:B",
+  "question": "In a C# desktop game launcher, which .NET class is typically used to manage background network threads for checking server status without freezing the UI?",
+  "options": {
+   "A": "Thread.Sleep",
+   "B": "Task Parallel Library (TPL)",
+   "C": "Console.ReadLine",
+   "D": "Garbage Collector"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/3:C",
+  "question": "In a C# desktop game launcher, which .NET class is typically used to manage background network threads for checking server status without freezing the UI?",
+  "options": {
+   "A": "Thread.Sleep",
+   "B": "Task Parallel Library (TPL)",
+   "C": "Console.ReadLine",
+   "D": "Garbage Collector"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/301:B",
+  "question": "Cron scheduling for background jobs relies on accurate time deltas. If you subtract two 'datetime' objects in Python, what type of object is returned?",
+  "options": {
+   "A": "int",
+   "B": "timedelta",
+   "C": "float",
+   "D": "date"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/301:C",
+  "question": "Cron scheduling for background jobs relies on accurate time deltas. If you subtract two 'datetime' objects in Python, what type of object is returned?",
+  "options": {
+   "A": "int",
+   "B": "timedelta",
+   "C": "float",
+   "D": "date"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/302:B",
+  "question": "In a Bash script designed to benchmark storage performance using fio, which command redirects both standard output and standard error to a log file while appending to existing content?",
+  "options": {
+   "A": "&> logfile.txt",
+   "B": "| tee logfile.txt",
+   "C": "> logfile.txt 2>1",
+   "D": ">> logfile.txt 2>&1"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/302:D",
+  "question": "In a Bash script designed to benchmark storage performance using fio, which command redirects both standard output and standard error to a log file while appending to existing content?",
+  "options": {
+   "A": "&> logfile.txt",
+   "B": "| tee logfile.txt",
+   "C": "> logfile.txt 2>1",
+   "D": ">> logfile.txt 2>&1"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/303:B",
+  "question": "Which of the following is the correct time complexity for inserting an element at the end of a dynamic array (like a Python list) in the amortized worst case?",
+  "options": {
+   "A": "O(n)",
+   "B": "O(n^2)",
+   "C": "O(log n)",
+   "D": "O(1)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/303:D",
+  "question": "Which of the following is the correct time complexity for inserting an element at the end of a dynamic array (like a Python list) in the amortized worst case?",
+  "options": {
+   "A": "O(n)",
+   "B": "O(n^2)",
+   "C": "O(log n)",
+   "D": "O(1)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/304:A",
+  "question": "In the context of data structures, what is a 'collision' in a hash table?",
+  "options": {
+   "A": "When the hash function returns a negative value",
+   "B": "When two different keys produce the same hash value",
+   "C": "When the table runs out of memory",
+   "D": "When two keys are identical"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/304:B",
+  "question": "In the context of data structures, what is a 'collision' in a hash table?",
+  "options": {
+   "A": "When the hash function returns a negative value",
+   "B": "When two different keys produce the same hash value",
+   "C": "When the table runs out of memory",
+   "D": "When two keys are identical"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/306:A",
+  "question": "In Python, which method is used to add an element to the end of a list?",
+  "options": {
+   "A": "insert()",
+   "B": "add()",
+   "C": "push()",
+   "D": "append()"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/306:D",
+  "question": "In Python, which method is used to add an element to the end of a list?",
+  "options": {
+   "A": "insert()",
+   "B": "add()",
+   "C": "push()",
+   "D": "append()"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/308:A",
+  "question": "Consider the following pseudocode:\nSET arr = [10, 20, 30, 40]\nSET sum = 0\nFOR each item in arr\n  sum = sum + item\nENDFOR\nPRINT sum / 4",
+  "options": {
+   "A": "100",
+   "B": "25",
+   "C": "20",
+   "D": "50"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/308:B",
+  "question": "Consider the following pseudocode:\nSET arr = [10, 20, 30, 40]\nSET sum = 0\nFOR each item in arr\n  sum = sum + item\nENDFOR\nPRINT sum / 4",
+  "options": {
+   "A": "100",
+   "B": "25",
+   "C": "20",
+   "D": "50"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/309:A",
+  "question": "Modeling civic service queues requires understanding of FIFO structures. Which standard Python module provides a queue implementation optimized for appending and popping from both ends?",
+  "options": {
+   "A": "collections.deque",
+   "B": "array.array",
+   "C": "list",
+   "D": "queue.Queue"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/309:D",
+  "question": "Modeling civic service queues requires understanding of FIFO structures. Which standard Python module provides a queue implementation optimized for appending and popping from both ends?",
+  "options": {
+   "A": "collections.deque",
+   "B": "array.array",
+   "C": "list",
+   "D": "queue.Queue"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/310:C",
+  "question": "Consider the following pseudocode:\nIF x > 10 THEN print \"High\"\nELSE IF x > 5 THEN print \"Medium\"\nELSE print \"Low\"\nIf x is assigned the value 7, what is the output?",
+  "options": {
+   "A": "High",
+   "B": "Low",
+   "C": "Medium",
+   "D": "Error"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/310:D",
+  "question": "Consider the following pseudocode:\nIF x > 10 THEN print \"High\"\nELSE IF x > 5 THEN print \"Medium\"\nELSE print \"Low\"\nIf x is assigned the value 7, what is the output?",
+  "options": {
+   "A": "High",
+   "B": "Low",
+   "C": "Medium",
+   "D": "Error"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/314:B",
+  "question": "In the context of binary search trees, what is the time complexity for searching an element in a balanced tree with n nodes?",
+  "options": {
+   "A": "O(n log n)",
+   "B": "O(1)",
+   "C": "O(log n)",
+   "D": "O(n)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/314:C",
+  "question": "In the context of binary search trees, what is the time complexity for searching an element in a balanced tree with n nodes?",
+  "options": {
+   "A": "O(n log n)",
+   "B": "O(1)",
+   "C": "O(log n)",
+   "D": "O(n)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/315:B",
+  "question": "Building resilient data pipelines on the cloud starts with robust error handling in basic scripts. Given the following try-except block:\n\ntry:\n    result = 10 / 0\nexcept ZeroDivisionError:\n    result = 0\nexcept Exception:\n    result = -1\n\nWhat value will the variable 'result' hold after execution?",
+  "options": {
+   "A": "It will raise an unhandled exception",
+   "B": "-1",
+   "C": "None",
+   "D": "0"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/315:D",
+  "question": "Building resilient data pipelines on the cloud starts with robust error handling in basic scripts. Given the following try-except block:\n\ntry:\n    result = 10 / 0\nexcept ZeroDivisionError:\n    result = 0\nexcept Exception:\n    result = -1\n\nWhat value will the variable 'result' hold after execution?",
+  "options": {
+   "A": "It will raise an unhandled exception",
+   "B": "-1",
+   "C": "None",
+   "D": "0"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/317:B",
+  "question": "In computer science, what is a 'deadlock'?",
+  "options": {
+   "A": "When memory is exhausted by a recursive function",
+   "B": "When two or more processes are waiting for each other to release resources",
+   "C": "When a loop runs infinitely",
+   "D": "When a program crashes due to a syntax error"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/317:D",
+  "question": "In computer science, what is a 'deadlock'?",
+  "options": {
+   "A": "When memory is exhausted by a recursive function",
+   "B": "When two or more processes are waiting for each other to release resources",
+   "C": "When a loop runs infinitely",
+   "D": "When a program crashes due to a syntax error"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/318:B",
+  "question": "In Python, what is the primary difference between a list and a tuple in terms of memory and performance?",
+  "options": {
+   "A": "There is no difference in memory or performance between the two.",
+   "B": "Tuples are immutable and generally more memory-efficient than lists.",
+   "C": "Lists are immutable and faster to iterate over than tuples.",
+   "D": "Tuples are mutable and occupy more memory than lists."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/318:D",
+  "question": "In Python, what is the primary difference between a list and a tuple in terms of memory and performance?",
+  "options": {
+   "A": "There is no difference in memory or performance between the two.",
+   "B": "Tuples are immutable and generally more memory-efficient than lists.",
+   "C": "Lists are immutable and faster to iterate over than tuples.",
+   "D": "Tuples are mutable and occupy more memory than lists."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/319:A",
+  "question": "Diagnosing core dumps often starts with verifying basic script execution flow. What is the output of the following code involving short-circuit evaluation?\n\nx = False\ny = True\nresult = x and y or not x\nprint(result)",
+  "options": {
+   "A": "False",
+   "B": "True",
+   "C": "Error",
+   "D": "None"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/319:B",
+  "question": "Diagnosing core dumps often starts with verifying basic script execution flow. What is the output of the following code involving short-circuit evaluation?\n\nx = False\ny = True\nresult = x and y or not x\nprint(result)",
+  "options": {
+   "A": "False",
+   "B": "True",
+   "C": "Error",
+   "D": "None"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/320:A",
+  "question": "When visualizing the learner's cognitive pathway through algorithmic logic, we must consider how navigation models influence the understanding of control flow. If a student encounters a 'while' loop with a condition that never evaluates to false, how should this infinite iteration be represented in a conceptual storyboarding of the program's execution?",
+  "options": {
+   "A": "As a linear path that terminates after a fixed number of iterations defined by the system.",
+   "B": "As a cyclical loop with no exit node, trapping the flow of control indefinitely.",
+   "C": "As a recursive branch that collapses into a single node to save memory.",
+   "D": "As a parallel process that spawns a new thread for each iteration."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/320:B",
+  "question": "When visualizing the learner's cognitive pathway through algorithmic logic, we must consider how navigation models influence the understanding of control flow. If a student encounters a 'while' loop with a condition that never evaluates to false, how should this infinite iteration be represented in a conceptual storyboarding of the program's execution?",
+  "options": {
+   "A": "As a linear path that terminates after a fixed number of iterations defined by the system.",
+   "B": "As a cyclical loop with no exit node, trapping the flow of control indefinitely.",
+   "C": "As a recursive branch that collapses into a single node to save memory.",
+   "D": "As a parallel process that spawns a new thread for each iteration."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/321:C",
+  "question": "What is the result of the Python expression `10 // 3`?",
+  "options": {
+   "A": "3.3333",
+   "B": "4",
+   "C": "3.0",
+   "D": "3"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/321:D",
+  "question": "What is the result of the Python expression `10 // 3`?",
+  "options": {
+   "A": "3.3333",
+   "B": "4",
+   "C": "3.0",
+   "D": "3"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/322:A",
+  "question": "Given a list `my_list = [1, 2, 3, 4, 5]`, what is the result of `my_list[1:4:2]`?",
+  "options": {
+   "A": "[2]",
+   "B": "[1, 3]",
+   "C": "[2, 3]",
+   "D": "[2, 4]"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/322:D",
+  "question": "Given a list `my_list = [1, 2, 3, 4, 5]`, what is the result of `my_list[1:4:2]`?",
+  "options": {
+   "A": "[2]",
+   "B": "[1, 3]",
+   "C": "[2, 3]",
+   "D": "[2, 4]"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/323:B",
+  "question": "Which of the following is a dynamic typing feature?",
+  "options": {
+   "A": "Variables must be declared with a specific type",
+   "B": "Variable types are determined at runtime",
+   "C": "Variables cannot change type once assigned",
+   "D": "Variable types are checked at compile time"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/323:C",
+  "question": "Which of the following is a dynamic typing feature?",
+  "options": {
+   "A": "Variables must be declared with a specific type",
+   "B": "Variable types are determined at runtime",
+   "C": "Variables cannot change type once assigned",
+   "D": "Variable types are checked at compile time"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/325:C",
+  "question": "What is the output of the following code?\n\nprint(type(1 / 1))",
+  "options": {
+   "A": "<class 'decimal'>",
+   "B": "<class 'int'>",
+   "C": "<class 'double'>",
+   "D": "<class 'float'>"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/325:D",
+  "question": "What is the output of the following code?\n\nprint(type(1 / 1))",
+  "options": {
+   "A": "<class 'decimal'>",
+   "B": "<class 'int'>",
+   "C": "<class 'double'>",
+   "D": "<class 'float'>"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/326:B",
+  "question": "What is the output of the following Python code?\nprint(len(\"Hello\"))",
+  "options": {
+   "A": "4",
+   "B": "5",
+   "C": "Hello",
+   "D": "6"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/326:D",
+  "question": "What is the output of the following Python code?\nprint(len(\"Hello\"))",
+  "options": {
+   "A": "4",
+   "B": "5",
+   "C": "Hello",
+   "D": "6"
+  },
+  "argue_for": "D"
+ }
+]

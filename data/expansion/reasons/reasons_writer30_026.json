@@ -1,0 +1,127 @@
+{
+ "writer": "opus",
+ "started_unix": 1794796239,
+ "finished_unix": 1794796326,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_mathematics/277:A",
+   "reason": "One real solution means the quadratic is a perfect square, and for that to happen the middle coefficient has to line up with the constant term of 9, so k must equal 9."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/277:B",
+   "reason": "Exactly one real solution needs a zero discriminant, so k squared minus four times nine must be zero. That makes k squared equal to 36, and the positive value is 6."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/279:C",
+   "reason": "With legs in a 3 to 4 ratio, the triangle is close to a 30-60-90 shape, and B sits at the smaller angle, whose sine is one half."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/279:D",
+   "reason": "A tangent of 3/4 gives legs of 3 and 4 with hypotenuse 5. The side opposite B is the leg adjacent to A, which is 4, so sin B is 4 over 5."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/281:A",
+   "reason": "These points form a 3-4-5 right triangle. Using the hypotenuse of 5 as the base with an altitude of 2 from the origin, half of 5 times 2 gives the area."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/281:C",
+   "reason": "The right angle sits at the origin, with one leg of 4 along the x-axis and one of 3 along the y-axis, so the area is half of 4 times 3."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/282:B",
+   "reason": "The constants multiply to 6 and add to 5, giving roots at negative 2 and negative 3. An upward parabola dips below zero only between its two roots."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/282:C",
+   "reason": "Factoring gives (x minus 2)(x minus 3), which is negative only when exactly one factor is negative. That happens for x strictly between the two roots 2 and 3."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/283:B",
+   "reason": "There are 33 multiples of 3 below 100. The ones that are also multiples of 5 are multiples of 15, which number six, and removing those leaves 27."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/283:D",
+   "reason": "Counting 3, 6, up to 99 gives 33 multiples of 3. Numbers like 15 and 30 were already counted as multiples of 3 first, so nothing needs removing from that total."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/284:B",
+   "reason": "By Fermat, the exponent 2023 reduces to 23 modulo 100, and the sum of the 23rd powers over all nonzero residues of a prime vanishes unless 100 divides 23."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/284:D",
+   "reason": "The residues 1 to 100 split into 50 pairs of a number and its inverse modulo 101. Each pair contributes a remainder of 1, so the total comes to 50."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/285:B",
+   "reason": "A quadrilateral on these points can start its vertex order at any one of the four points, and each starting point traces out its own figure, giving four quadrilaterals."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/285:C",
+   "reason": "A quadrilateral needs all four points, and four points on a circle can be joined in their circular order in only one way that avoids crossing sides."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/287:A",
+   "reason": "Squaring x plus 1/x gives x squared plus 1/x squared equal to 7, and squaring that again gives 49 for the fourth powers."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/287:C",
+   "reason": "Squaring the given equation gives x squared plus its reciprocal equal to 9 minus 2, which is 7. Squaring again gives 49 minus 2, which is 47."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/290:B",
+   "reason": "The product 15! includes every integer from 1 to 15 as a factor, and 13 is the largest prime among them, so it must divide 15!."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/290:D",
+   "reason": "Every prime factor of 15! has to be a prime below 15, and running through them, 2, 3, 5, 7 and 11, the largest one is 11."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/295:B",
+   "reason": "The line must touch the circle of radius root k at one point, so k over root 2 equals root k, giving k equal to 2, plus k equal to 0 where both shrink to the origin."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/295:D",
+   "reason": "Each k gives a line and a circle centred at the origin that both scale with k, so if the line is tangent for one value, the same picture holds for every value."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/296:B",
+   "reason": "Clearing denominators in the same-colour probability leaves the total number of balls equal to the square of the difference between red and blue, so the total is always a perfect square."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/296:C",
+   "reason": "Setting n(n-1) plus m(m-1) over (n+m)(n+m-1) equal to one half and simplifying gives n squared minus 2nm plus m squared equal to n plus m."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/298:C",
+   "reason": "D and E cut both sides in the same 2-to-3 ratio, so DE is parallel to BC, and taking three parts of the ten-unit base for that ratio gives 3."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/298:D",
+   "reason": "Since AD over AB and AE over AC are both 2 over 5, DE is parallel to BC and the small triangle is a scaled copy, so DE is two fifths of 10."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/30:A",
+   "reason": "Since 1 plus omega plus omega squared is zero, 1 plus omega equals negative omega squared and 1 plus omega squared equals negative omega, so the product is omega cubed, which is 1."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/30:C",
+   "reason": "Expanding the product gives 1 plus omega plus omega squared and a cross term, and for a primitive cube root that sum 1 plus omega plus omega squared is zero, so everything collapses."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/300:B",
+   "reason": "For the first head to land on an even flip, the first toss must be tails and the second heads, each with chance one half, and that pattern simply repeats, giving one quarter."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/300:D",
+   "reason": "The first head falls on flip 2, 4, 6 and so on with chances 1/4, 1/16, 1/64, a geometric series with ratio 1/4 that sums to one third."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/302:A",
+   "reason": "By the law of sines, the side AC goes with the 60-degree angle and BC with the 45-degree one, so AC equals 2 root 3 times sin 60 over sin 45."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/302:C",
+   "reason": "AC sits opposite angle B, so the law of sines gives AC equal to 2 root 3 times sin 45 over sin 60, which simplifies to 2 root 2."
+  }
+ ]
+}

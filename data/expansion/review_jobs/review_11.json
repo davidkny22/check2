@@ -1,0 +1,262 @@
+[
+ {
+  "job_id": "expansion/professional_accounting/118:C",
+  "question": "In Brazilian rural lending, what distinguishes 'controlled credit' from 'non-controlled credit' primarily in terms of funding sources?",
+  "options": {
+   "A": "Source of funds being mandatory demand deposits versus free market resources",
+   "B": "Collateral requirements for land",
+   "C": "Interest rate caps mandated by the government",
+   "D": "Eligibility criteria for borrowers"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "The defining feature of controlled credit is that the government sets a ceiling on its interest rates, while non-controlled lines are priced freely by banks at market rates."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/349:B",
+  "question": "If the correlation between two variables is 0, what does this imply?",
+  "options": {
+   "A": "There is no relationship of any kind between the variables",
+   "B": "The variables are independent",
+   "C": "The slope of the regression line is 1",
+   "D": "There is no linear relationship between the variables"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "A correlation of zero means knowing one variable tells you nothing about the other's value, and variables where one carries no information about the other are what independence describes."
+ },
+ {
+  "job_id": "expansion/high_school_physics/332:C",
+  "question": "Analyzing metabolic pathways often involves diffusion rates of nutrients. Consider a glucose molecule diffusing through a cell membrane. If the concentration gradient is doubled while the membrane thickness and area remain constant, how does the rate of diffusion change according to Fick's Law?",
+  "options": {
+   "A": "It is halved",
+   "B": "It remains the same",
+   "C": "It quadruples",
+   "D": "It doubles"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "Diffusion depends on the concentration difference driving molecules across and on how many molecules are available to move, and doubling the gradient raises both, so the rate goes up by a factor of four."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/31:B",
+  "question": "In the context of Open Banking frameworks, what is the primary microeconomic rationale for mandating data portability between financial institutions?",
+  "options": {
+   "A": "To increase switching costs for consumers and stabilize market share for incumbent banks.",
+   "B": "To reduce information asymmetry and lower barriers to entry for new fintech competitors.",
+   "C": "To centralize customer data within a single government repository for easier taxation.",
+   "D": "To eliminate the need for credit scoring models by relying solely on transaction history."
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Letting customers carry their data to any institution gives newcomers the same customer history incumbents have, which I see cutting information gaps and making it easier for fintech firms to enter."
+ },
+ {
+  "job_id": "expansion/formal_logic/296:B",
+  "question": "Which of the following is the simplest equivalent form of ~(~P ∨ Q)?",
+  "options": {
+   "A": "~P ∨ ~Q",
+   "B": "P • ~Q",
+   "C": "~P • Q",
+   "D": "P ∨ ~Q"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "De Morgan turns the negation of a disjunction into a conjunction of negations, giving not-not-P and not-Q. The double negation cancels, leaving P and not-Q."
+ },
+ {
+  "job_id": "expansion/econometrics/1:D",
+  "question": "A corporate analyst is performing a Granger Causality test between corporate advertising spend and sales revenue. If the null hypothesis is rejected for 'Advertising causes Sales' but not vice versa, what is the implication?",
+  "options": {
+   "A": "Advertising is a direct cause of Sales in a structural sense",
+   "B": "There is no relationship between the two variables",
+   "C": "Sales and Advertising are cointegrated",
+   "D": "Advertising provides predictive information about future Sales"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Granger causality only asks whether lagged advertising improves the forecast of sales beyond what sales' own history provides, so rejecting the null tells us past advertising helps predict future sales."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/163:A",
+  "question": "The 'Coase Theorem' suggests that private parties can resolve externalities if",
+  "options": {
+   "A": "Externalities are large enough to be noticed by the public",
+   "B": "Property rights are well-defined and transaction costs are low",
+   "C": "Market prices are set by a central authority",
+   "D": "Government imposes a Pigouvian tax"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Private bargaining only starts if the affected parties realize there is a problem worth negotiating over, so the externality has to be large and visible enough for people to notice and come to the table."
+ },
+ {
+  "job_id": "expansion/professional_accounting/66:D",
+  "question": "Which of the following is a primary objective of a 'substantive' audit procedure?",
+  "options": {
+   "A": "To evaluate the design of internal controls",
+   "B": "To assess the competence of the accounting staff",
+   "C": "To determine if the control environment is stable",
+   "D": "To detect material misstatements in financial account balances"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Substantive procedures test the numbers themselves, through tests of details and analytical procedures rather than tests of controls, so their purpose is finding material misstatements in the account balances."
+ },
+ {
+  "job_id": "expansion/high_school_mathematics/20:A",
+  "question": "When the polynomial $x^3 - 2x^2 + 3x - 4$ is divided by $x-1$, what is the remainder?",
+  "options": {
+   "A": "$-2$",
+   "B": "$0$",
+   "C": "$-1$",
+   "D": "$1$"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "By the remainder theorem the remainder is the polynomial's value at x = 1, and 1 - 2 + 3 - 4 comes out to negative two."
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/25:C",
+  "question": "Estimate the product of 48 and 52 by rounding each factor to the nearest ten. What is your approximate result?",
+  "options": {
+   "A": "2000",
+   "B": "3000",
+   "C": "2500",
+   "D": "1500"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Both factors sit within two of 50, so each one rounds to 50, and 50 times 50 is 2,500, which lands very close to the product of the original numbers."
+ },
+ {
+  "job_id": "expansion/marketing/173:B",
+  "question": "In B2B SaaS marketing, what is the core objective of a customer co-creation content program?",
+  "options": {
+   "A": "To generate generic brand awareness",
+   "B": "To replace traditional sales teams",
+   "C": "To reduce internal product development costs",
+   "D": "To leverage user advocacy for measurable pipeline growth"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "When customers co-create content and vouch for the product to their peers, buyers start trusting those voices over sales reps, so the program's real aim is to let customers do the selling instead."
+ },
+ {
+  "job_id": "expansion/management/293:A",
+  "question": "Regarding the operational scope of agent banking networks in retail infrastructure, which regulatory constraint is most critical to maintain system integrity while expanding financial access?",
+  "options": {
+   "A": "Mandating real-time transaction monitoring and strict caps on daily liquidity limits per agent.",
+   "B": "Limiting agents to cash-in services only to prevent money laundering risks in remote areas.",
+   "C": "Prohibiting the use of biometric authentication for customer identification to reduce technology costs.",
+   "D": "Requiring all agents to be licensed commercial banks rather than independent retail partners."
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Expanding through retail agents raises the risk of fraud and agents running out of cash, so watching transactions as they happen and capping each agent's daily liquidity protects the system while access grows."
+ },
+ {
+  "job_id": "expansion/formal_logic/155:D",
+  "question": "Translate 'At least two different people love the same book' into predicate logic. Let L(x, y) be 'x loves y' and B(y) be 'y is a book'.",
+  "options": {
+   "A": "∃x∃y(B(x) • B(y) • L(x, y))",
+   "B": "∃x∃y∃z(B(z) • x ≠ y • L(x, z) • L(y, z))",
+   "C": "∀z(B(z) ⊃ ∃x∃y(L(x, z) • L(y, z)))",
+   "D": "∀x∀y(B(z) ⊃ (L(x, z) ≡ L(y, z)))"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "Two people loving the same book means to me that for any pair x and y, given a book z, one loves it exactly when the other does, and the biconditional captures that shared attachment."
+ },
+ {
+  "job_id": "expansion/high_school_geography/102:C",
+  "question": "The Kwahu Plateau in Ghana serves as a critical geographical feature primarily because it forms the major drainage divide between which two significant river systems?",
+  "options": {
+   "A": "The Senegal and the Gambia",
+   "B": "The Nile and the Niger",
+   "C": "The Congo and the Zambezi",
+   "D": "The Volta and the Pra"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "The Kwahu Plateau is part of the high ground of the African interior, and the great continental divide on that high ground separates the Zambezi basin from the Congo basin, the two largest systems draining it."
+ },
+ {
+  "job_id": "expansion/management/192:B",
+  "question": "From a venture capital perspective focusing on organizational scalability, which structural change is most critical for a startup transitioning from a founding team to a professional management layer?",
+  "options": {
+   "A": "Implementing formalized decision-making protocols and clear role delineations",
+   "B": "Increasing the office space to accommodate a larger headcount",
+   "C": "Adopting the latest AI tools for daily communication among staff",
+   "D": "Expanding the product line to diversify revenue streams before hiring"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Professional managers bring their own teams, and a startup cannot add a management layer without physical room for those people, so expanding space is the structural change that has to happen first."
+ },
+ {
+  "job_id": "expansion/philosophy/25:C",
+  "question": "In deconstructing the intersection of narrative consciousness and embodiment in modernist literature, how does Merleau-Ponty's phenomenology challenge the Cartesian dualism often implicit in traditional literary criticism?",
+  "options": {
+   "A": "By proposing that the body is the primary site of knowing and being-in-the-world",
+   "B": "By suggesting that narrative time exists outside of temporal human experience",
+   "C": "By asserting that consciousness is entirely separate from the physical body",
+   "D": "By arguing that language structures reality independent of human perception"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "Merleau-Ponty draws a sharp distinction between consciousness and the objective body studied by science, and that separation lets critics treat a character's inner awareness apart from physical description."
+ },
+ {
+  "job_id": "expansion/marketing/4:B",
+  "question": "How does first-person property personification in a listing primarily drive buyer engagement while adhering to regulatory requirements?",
+  "options": {
+   "A": "By focusing solely on the builder's award history",
+   "B": "By giving the home a voice that highlights functional benefits within legal bounds",
+   "C": "By fabricating emotional histories not found in public records",
+   "D": "By using technical jargon that confuses the average consumer"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Letting the home speak in first person makes the listing memorable and personal, and keeping its voice on real functional benefits keeps the copy accurate and within advertising rules."
+ },
+ {
+  "job_id": "expansion/marketing/181:D",
+  "question": "When a brand manages to create a strong emotional connection with consumers that transcends the functional benefits of the product, it is achieving what specific state?",
+  "options": {
+   "A": "Brand loyalty",
+   "B": "Brand awareness",
+   "C": "Brand image",
+   "D": "Brand resonance"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "At the top of the brand-building pyramid sits a state where customers feel an intense psychological bond with the brand beyond its functions, and that apex has its own name, resonance."
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/292:C",
+  "question": "Jenny saves $15 a week. About how much will she have saved after 19 weeks?",
+  "options": {
+   "A": "$250",
+   "B": "$300",
+   "C": "$400",
+   "D": "$200"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "Rounding fifteen up to twenty dollars a week and nineteen weeks up to twenty gives twenty times twenty, so her savings come to roughly four hundred dollars."
+ },
+ {
+  "job_id": "expansion/machine_learning/73:C",
+  "question": "Statement 1| Historical dairy container volumes can be accurately inferred from packaging evolution timelines without primary source verification. Statement 2| Standardizing archaic volume units requires context-specific conversion factors based on regional trade practices.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true; Statement 2 is false",
+   "C": "Statement 1 is false; Statement 2 is true",
+   "D": "Both statements are true"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Packaging timelines show when designs changed, not what volumes containers held, so volume claims need primary records, and archaic units varied by region, so conversion has to follow local trade practice."
+ }
+]

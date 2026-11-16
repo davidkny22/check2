@@ -1,0 +1,808 @@
+{
+ "writer": "qwen3.5-4b",
+ "started_unix": 1794699158,
+ "finished_unix": 1794699200,
+ "generation_seconds": 42.5,
+ "reasons": [
+  {
+   "qid": "q00",
+   "option": "A",
+   "reason": "Since ammonia is a weaker field ligand than cyanide but stronger than water, its shift should be between the two known values. This places 7,530 ppm as the only logical choice for the intermediate complex."
+  },
+  {
+   "qid": "q00",
+   "option": "B",
+   "reason": "Since ammonia is between water and cyanide in ligand field strength, its shift should fall between 16,050 and 0 ppm. The value 8,090 ppm sits right in the middle of that range, making it the most logical choice."
+  },
+  {
+   "qid": "q00",
+   "option": "C",
+   "reason": "Since ammonia is between water and cyanide in ligand field strength, its shift should fall between 16,050 and 0 ppm. The value 11,070 ppm sits right in that middle range, making it the most logical choice."
+  },
+  {
+   "qid": "q00",
+   "option": "D",
+   "reason": "Since ammonia is a stronger field ligand than water, its complex should have a higher chemical shift than the water complex, making 14,840 ppm the most logical choice."
+  },
+  {
+   "qid": "q01",
+   "option": "A",
+   "reason": "Since the spins precess 60 degrees at 250 rad/s, the time is just the angle divided by the frequency, which gives a very short duration like 4.19 ms."
+  },
+  {
+   "qid": "q01",
+   "option": "B",
+   "reason": "Since the spins precess 60 degrees at 250 rad/s, the time equals the angle divided by the frequency, which calculates to about 26.3 milliseconds."
+  },
+  {
+   "qid": "q01",
+   "option": "C",
+   "reason": "Since the spins precess 60 degrees at 250 rad/s, the time is simply the angle divided by the frequency, which calculates to about 240 milliseconds."
+  },
+  {
+   "qid": "q01",
+   "option": "D",
+   "reason": "Since the spins precess through 60 degrees at 250 rad/s, the time is roughly 1510 ms, which matches the longest delay option provided."
+  },
+  {
+   "qid": "q02",
+   "option": "A",
+   "reason": "I think this is the answer because many spontaneous reactions, like burning wood, release heat, making exothermic a common characteristic of spontaneous changes."
+  },
+  {
+   "qid": "q02",
+   "option": "B",
+   "reason": "This option is true because spontaneous processes can still do work, like a gas expanding, so claiming no work is involved is incorrect."
+  },
+  {
+   "qid": "q02",
+   "option": "C",
+   "reason": "Spontaneous processes often involve the system becoming more disordered, so the entropy of the system itself usually increases during the reaction."
+  },
+  {
+   "qid": "q02",
+   "option": "D",
+   "reason": "Spontaneous processes always increase the total entropy of the universe, which includes both the system and its surroundings. This fundamental rule of thermodynamics makes this statement always true."
+  },
+  {
+   "qid": "q03",
+   "option": "A",
+   "reason": "Since the unpaired electron couples to two equivalent nitrogen nuclei with a large coupling constant, the spectrum splits into three distinct lines based on the spin states of those two nitrogens."
+  },
+  {
+   "qid": "q03",
+   "option": "B",
+   "reason": "Since the unpaired electron couples to two equivalent nitrogen nuclei with a large coupling constant, the spectrum splits into 2n + 1 lines, resulting in nine distinct lines."
+  },
+  {
+   "qid": "q03",
+   "option": "C",
+   "reason": "Since the unpaired electron couples to two equivalent nitrogens, the spin states combine to form five distinct levels, resulting in a five-line spectrum."
+  },
+  {
+   "qid": "q03",
+   "option": "D",
+   "reason": "Since the unpaired electron couples to two equivalent nitrogen nuclei, the spectrum splits into 2n+1 lines. With two nitrogens, that gives 5 lines, but the large J coupling adds more splitting, resulting in 7 lines total."
+  },
+  {
+   "qid": "q04",
+   "option": "A",
+   "reason": "If two parties are not joined, they cannot establish the initial connection needed for Diffie Hellman to work securely."
+  },
+  {
+   "qid": "q04",
+   "option": "B",
+   "reason": "Without authentication, a man in the middle can pretend to be one party and trick the other into sharing secrets, breaking the security."
+  },
+  {
+   "qid": "q04",
+   "option": "C",
+   "reason": "If they are not submitted, the attacker can intercept and replace their keys, breaking the entire Diffie Hellman exchange before any secure connection is established."
+  },
+  {
+   "qid": "q04",
+   "option": "D",
+   "reason": "If two parties do not share a secret key beforehand, the attacker can easily intercept and manipulate their communication without detection."
+  },
+  {
+   "qid": "q05",
+   "option": "A",
+   "reason": "This option describes the classic behavior of integer overflow where the value exceeds its limit and wraps around to a small number instead of growing infinitely."
+  },
+  {
+   "qid": "q05",
+   "option": "B",
+   "reason": "This option is wrong because using an integer as a pointer is a valid programming technique, not an overflow error."
+  },
+  {
+   "qid": "q05",
+   "option": "C",
+   "reason": "This option describes a buffer overflow, which is a different kind of error than integer overflow. Integer overflow specifically happens when a calculation exceeds the variable's maximum value."
+  },
+  {
+   "qid": "q05",
+   "option": "D",
+   "reason": "This option sounds right because it directly describes the core problem of overflow, which is when a number gets too big to fit in its allocated space."
+  },
+  {
+   "qid": "q06",
+   "option": "A",
+   "reason": "Since Merkle-Damgard is vulnerable to length extension, an attacker can easily append data to the original message to forge a valid tag for a longer input."
+  },
+  {
+   "qid": "q06",
+   "option": "B",
+   "reason": "Since Merkle-Damgard processes data sequentially, an attacker can easily append any extra block to the message after seeing the original hash output."
+  },
+  {
+   "qid": "q06",
+   "option": "C",
+   "reason": "Since Merkle-Damgard is vulnerable to length extension, an attacker can take the hash of k and m, then append any padding and new data to forge a valid MAC for a longer message."
+  },
+  {
+   "qid": "q06",
+   "option": "D",
+   "reason": "Since the secret key k is public in this construction, anyone can simply input it and the message m directly into the hash function to forge a valid tag."
+  },
+  {
+   "qid": "q07",
+   "option": "A",
+   "reason": "Authentication verifies the identity of the sender and receiver, ensuring that the messages were indeed sent by Alice and Bob and not intercepted by an adversary."
+  },
+  {
+   "qid": "q07",
+   "option": "B",
+   "reason": "Deniability ensures that even if a computer is compromised, the adversary cannot prove the messages were ever sent, protecting their confidentiality completely."
+  },
+  {
+   "qid": "q07",
+   "option": "C",
+   "reason": "Forward secrecy ensures that even if a computer is compromised today, past encrypted messages remain unreadable because session keys are unique and temporary."
+  },
+  {
+   "qid": "q07",
+   "option": "D",
+   "reason": "Backward secrecy ensures past communications remain secure even if future keys are compromised, protecting their messages from today's attack."
+  },
+  {
+   "qid": "q08",
+   "option": "A",
+   "reason": "Since both plates have the same polarity, their electric fields point in the same direction between them, so the total field is actually double the field of a single plate."
+  },
+  {
+   "qid": "q08",
+   "option": "B",
+   "reason": "Since both plates have the same polarity, their electric fields add up in the gap, making the total field exactly double the field from a single plate."
+  },
+  {
+   "qid": "q08",
+   "option": "C",
+   "reason": "Since both plates have the same charge polarity, their fields add up between them, creating a strong uniform field that definitely does not depend on where you measure it."
+  },
+  {
+   "qid": "q08",
+   "option": "D",
+   "reason": "Since both plates have the same charge polarity, their electric fields point in opposite directions between them and completely cancel each other out."
+  },
+  {
+   "qid": "q09",
+   "option": "A",
+   "reason": "I think the resistance should be low to minimize power loss and ensure the meter draws minimal current from the circuit being measured."
+  },
+  {
+   "qid": "q09",
+   "option": "B",
+   "reason": "The moving coil needs very low resistance to allow enough current to flow and create a strong magnetic field for accurate measurement."
+  },
+  {
+   "qid": "q09",
+   "option": "C",
+   "reason": "A high resistance in the moving coil prevents excessive current, which protects the delicate instrument and ensures accurate power measurement."
+  },
+  {
+   "qid": "q09",
+   "option": "D",
+   "reason": "If the resistance were high, it would waste too much power as heat. Making it almost zero ensures the instrument measures power accurately without losing energy."
+  },
+  {
+   "qid": "q10",
+   "option": "A",
+   "reason": "An oscillator needs to keep its signal strength consistent so the output doesn't fluctuate wildly, making amplitude stability a key requirement."
+  },
+  {
+   "qid": "q10",
+   "option": "B",
+   "reason": "An oscillator must maintain a constant frequency to function properly, so frequency stability is a key requirement for its operation."
+  },
+  {
+   "qid": "q10",
+   "option": "C",
+   "reason": "Power stability is essential because an oscillator must maintain consistent output strength to function correctly without fluctuating during operation."
+  },
+  {
+   "qid": "q10",
+   "option": "D",
+   "reason": "An oscillator needs both stable amplitude and frequency to work properly, so including both requirements makes the most sense for a complete answer."
+  },
+  {
+   "qid": "q11",
+   "option": "A",
+   "reason": "Directional heating usually requires a low voltage like 1.5 KV to safely heat the ground without causing dangerous electrical arcs or equipment damage."
+  },
+  {
+   "qid": "q11",
+   "option": "B",
+   "reason": "Directional heating typically uses high voltage to create a focused arc, and 15 KV is the standard value found in most industrial heating equipment manuals."
+  },
+  {
+   "qid": "q11",
+   "option": "C",
+   "reason": "I think 33 KV is the right answer because it is a standard high voltage level commonly used in industrial directional heating systems."
+  },
+  {
+   "qid": "q11",
+   "option": "D",
+   "reason": "High voltage like 66 KV is typically used for long-distance power transmission, which fits the context of directional heating systems better than lower voltages."
+  },
+  {
+   "qid": "q12",
+   "option": "A",
+   "reason": "Calcium always forms a +2 ion, so pairing it with two chloride ions to make CaCl2 is the correct chemical formula for calcium chloride."
+  },
+  {
+   "qid": "q12",
+   "option": "B",
+   "reason": "Iron(III) nitrate is correctly named because the iron has a +3 charge, matching the three nitrate ions needed to balance the charge."
+  },
+  {
+   "qid": "q12",
+   "option": "C",
+   "reason": "Aluminum only has one common oxidation state of +3, so the \"tri\" prefix is unnecessary and makes the name technically incorrect."
+  },
+  {
+   "qid": "q12",
+   "option": "D",
+   "reason": "Potassium dichromate is the correct name for K2Cr2O7 because the dichromate ion has a charge of -2, which balances the two +1 potassium ions perfectly."
+  },
+  {
+   "qid": "q13",
+   "option": "A",
+   "reason": "Standard state conditions specifically define the temperature as 25 \u00b0C, which is the standard reference point for thermodynamic data in redox reactions."
+  },
+  {
+   "qid": "q13",
+   "option": "B",
+   "reason": "This option is correct because standard states specifically define the concentration of all soluble species as exactly one molar to ensure consistent thermodynamic measurements."
+  },
+  {
+   "qid": "q13",
+   "option": "C",
+   "reason": "Since gases in redox reactions exist as vapors, their standard state is defined by a pressure of 1 atmosphere, which matches this option perfectly."
+  },
+  {
+   "qid": "q13",
+   "option": "D",
+   "reason": "Standard state definitions require 25 \u00b0C, 1 molar concentrations, and 1 atmosphere gas pressures, so all these conditions must be true together."
+  },
+  {
+   "qid": "q14",
+   "option": "A",
+   "reason": "Silicon carbide is extremely hard and brittle like diamond, which suggests a rigid structure rather than weak intermolecular forces found in molecular crystals."
+  },
+  {
+   "qid": "q14",
+   "option": "B",
+   "reason": "Since silicon carbide is nearly as hard and brittle as diamond, it must have a strong covalent network structure similar to diamond's."
+  },
+  {
+   "qid": "q14",
+   "option": "C",
+   "reason": "Silicon carbide is extremely hard and brittle like diamond, which suggests strong directional bonds rather than the free-moving electrons found in metallic crystals."
+  },
+  {
+   "qid": "q14",
+   "option": "D",
+   "reason": "Silicon and carbon have similar electronegativities, so they don't form ions. This makes an ionic crystal unlikely for silicon carbide."
+  },
+  {
+   "qid": "q15",
+   "option": "A",
+   "reason": "This reaction involves simple ion exchange between two compounds, so it can be balanced by adjusting coefficients without needing the ion-electron method."
+  },
+  {
+   "qid": "q15",
+   "option": "B",
+   "reason": "This reaction involves hydrogen ions and hydroxide ions combining to form water, which is a classic redox process that requires balancing electrons."
+  },
+  {
+   "qid": "q15",
+   "option": "C",
+   "reason": "This reaction involves changing oxidation states for phosphorus and hydrogen, so the ion-electron method is needed to balance the redox process correctly."
+  },
+  {
+   "qid": "q15",
+   "option": "D",
+   "reason": "This reaction involves multiple elements changing oxidation states, so balancing it requires tracking electron transfer with the ion-electron method."
+  },
+  {
+   "qid": "q16",
+   "option": "A",
+   "reason": "This case focuses on cannibalism, which is a criminal act, so the story likely aims to show how criminal law differs from civil law in this specific context."
+  },
+  {
+   "qid": "q16",
+   "option": "B",
+   "reason": "This case presents a complex moral dilemma where judges must decide if breaking the law is justified, which directly explores deep questions about law and politics."
+  },
+  {
+   "qid": "q16",
+   "option": "C",
+   "reason": "This case pits strict legal rules against a clear moral emergency, forcing judges to decide if the law should yield when it demands impossible choices."
+  },
+  {
+   "qid": "q16",
+   "option": "D",
+   "reason": "This case focuses on whether the explorers knew they were killing each other, which directly tests if murder legally requires intent."
+  },
+  {
+   "qid": "q17",
+   "option": "A",
+   "reason": "If fairness is just a relative term, then the whole 'fair play' argument collapses because it relies on an objective standard that doesn't actually exist."
+  },
+  {
+   "qid": "q17",
+   "option": "B",
+   "reason": "If the legal system itself is unfair, then claiming people must obey it just to be fair makes no sense at all."
+  },
+  {
+   "qid": "q17",
+   "option": "C",
+   "reason": "If obeying the law forces people to break it later, that hypocrisy undermines the very idea of fairness we are trying to defend."
+  },
+  {
+   "qid": "q17",
+   "option": "D",
+   "reason": "If the law is irrational and ambiguous, people cannot reasonably be expected to follow it, making the fair play argument fail because fairness requires clear rules."
+  },
+  {
+   "qid": "q18",
+   "option": "A",
+   "reason": "They feel these terms are too vague to actually solve real racial problems or guide meaningful political action effectively."
+  },
+  {
+   "qid": "q18",
+   "option": "B",
+   "reason": "They believe these concepts are useless because they have not actually achieved racial justice for marginalized communities in real life."
+  },
+  {
+   "qid": "q18",
+   "option": "C",
+   "reason": "They believe these abstract concepts ignore the specific, ongoing realities of systemic racism that define modern society."
+  },
+  {
+   "qid": "q18",
+   "option": "D",
+   "reason": "They believe these concepts don't reflect the lived reality of people of color, making them feel disconnected from their actual experiences and struggles."
+  },
+  {
+   "qid": "q19",
+   "option": "A",
+   "reason": "Finnis rejects Hume because he believes natural law actually corresponds to positive law, unlike Hume's separation of law and morality. This connection allows reason to guide practical decisions effectively."
+  },
+  {
+   "qid": "q19",
+   "option": "B",
+   "reason": "I think this is the answer because Finnis argues that Hume mistakenly treats law as merely a command, ignoring how reason guides us toward a worthwhile life."
+  },
+  {
+   "qid": "q19",
+   "option": "C",
+   "reason": "Finnis argues that Hume's error lies in rejecting syllogistic logic, which he believes is essential for deriving moral conclusions from practical reasons."
+  },
+  {
+   "qid": "q19",
+   "option": "D",
+   "reason": "Finnis believes practical reason allows us to identify goods that make life worthwhile, which directly counters Hume's view that reason alone cannot guide moral action."
+  },
+  {
+   "qid": "q20",
+   "option": "A",
+   "reason": "I think they were a 60's comedy troupe because the question asks who they were, and that fits the historical context of entertainment groups from that era."
+  },
+  {
+   "qid": "q20",
+   "option": "B",
+   "reason": "They might be computer designers because the question asks who they were, and that fits the description of a group of people working on technology."
+  },
+  {
+   "qid": "q20",
+   "option": "C",
+   "reason": "The Know-Nothings were a specific political party in the 19th century that focused on restricting immigration and opposing Catholic influence."
+  },
+  {
+   "qid": "q20",
+   "option": "D",
+   "reason": "I think they were a spy ring because the name sounds secretive and mysterious, fitting for a group of secret agents."
+  },
+  {
+   "qid": "q21",
+   "option": "A",
+   "reason": "Heating iron and sulfur together creates highly toxic sulfur dioxide gas, which is much more dangerous than the other substances listed."
+  },
+  {
+   "qid": "q21",
+   "option": "B",
+   "reason": "Heating mercury(II) oxide releases toxic mercury vapor, which is extremely dangerous to breathe in a school lab."
+  },
+  {
+   "qid": "q21",
+   "option": "C",
+   "reason": "Sodium chloride is just common table salt, so it won't melt or explode when heated in a school lab."
+  },
+  {
+   "qid": "q21",
+   "option": "D",
+   "reason": "Heating copper sulfate hydrate releases toxic fumes that can harm students, making it the most dangerous choice among these options."
+  },
+  {
+   "qid": "q22",
+   "option": "A",
+   "reason": "Ray Liotta is the star of the TV show 'Everybody Loves Raymond'. He played the main character in the popular sitcom."
+  },
+  {
+   "qid": "q22",
+   "option": "B",
+   "reason": "Ray Romano plays the main character Raymond Barone, who is the central focus of the entire series."
+  },
+  {
+   "qid": "q22",
+   "option": "C",
+   "reason": "Ray Parker Jr sounds like a cool name for a musician, so I guess he might be the star even though it feels wrong."
+  },
+  {
+   "qid": "q22",
+   "option": "D",
+   "reason": "Sugar Ray Leonard is a famous boxer, so he might be confused with the actor Ray Romano who actually stars in the show."
+  },
+  {
+   "qid": "q23",
+   "option": "A",
+   "reason": "Boxing matches often take place inside a steel cage to keep the fighters contained during intense bouts."
+  },
+  {
+   "qid": "q23",
+   "option": "B",
+   "reason": "Fencing matches often take place inside a small, enclosed area called a cage to keep the fencers contained during their intense bouts."
+  },
+  {
+   "qid": "q23",
+   "option": "C",
+   "reason": "Steel cages are a famous part of professional wrestling matches, often used to make the fights more exciting and dangerous for the audience."
+  },
+  {
+   "qid": "q23",
+   "option": "D",
+   "reason": "College basketball games are sometimes played in a steel cage to make the match more exciting and intense for the fans."
+  },
+  {
+   "qid": "q24",
+   "option": "A",
+   "reason": "Since 36 grams of water is two moles, I need two moles of oxygen gas. That equals 64 grams because each mole of O2 weighs 32 grams."
+  },
+  {
+   "qid": "q24",
+   "option": "B",
+   "reason": "Since 36.0 grams of water is exactly one mole, I need the same amount of oxygen gas, which is also one mole and weighs 32.0 grams."
+  },
+  {
+   "qid": "q24",
+   "option": "C",
+   "reason": "Since 36 grams of water is two moles, I need two moles of oxygen gas. That equals 32 grams, but the closest option listed is 16 grams."
+  },
+  {
+   "qid": "q24",
+   "option": "D",
+   "reason": "Eight grams of oxygen has the same molar mass as water, so it contains the same number of molecules as 36 grams of water."
+  },
+  {
+   "qid": "q25",
+   "option": "A",
+   "reason": "Plants release water vapor through their leaves, a process specifically called transpiration, which fits the question perfectly."
+  },
+  {
+   "qid": "q25",
+   "option": "B",
+   "reason": "Plants breathe just like animals, so respiration fits best because it involves gas exchange. While transpiration is also water loss, respiration is the broader biological process of breathing."
+  },
+  {
+   "qid": "q25",
+   "option": "C",
+   "reason": "Oxidation involves chemical reactions with oxygen, which could explain how plants lose water vapor through their leaves during metabolic processes."
+  },
+  {
+   "qid": "q25",
+   "option": "D",
+   "reason": "Condensation is the process where water vapor turns into liquid, which might seem related to water loss, even though it's actually the opposite of evaporation."
+  },
+  {
+   "qid": "q26",
+   "option": "A",
+   "reason": "Focusing on errors helps identify specific areas where students need improvement, making it a practical way to measure their writing progress effectively."
+  },
+  {
+   "qid": "q26",
+   "option": "B",
+   "reason": "Focusing on sentence length and complexity helps assess how well students structure their ideas and demonstrate advanced writing skills in their essays."
+  },
+  {
+   "qid": "q26",
+   "option": "C",
+   "reason": "Holistic evaluation looks at the whole picture, so focusing on a student's ability to use different ways of communicating fits that broad approach best."
+  },
+  {
+   "qid": "q26",
+   "option": "D",
+   "reason": "A holistic evaluation looks at the whole picture, so judging the overall quality of the essay against the topic makes the most sense for a complete assessment."
+  },
+  {
+   "qid": "q27",
+   "option": "A",
+   "reason": "Direct selling involves the manufacturer selling directly to the consumer, so there are no middlemen or intermediaries acting as producers in the traditional distribution sense."
+  },
+  {
+   "qid": "q27",
+   "option": "B",
+   "reason": "Reverse channels focus on getting products back from customers, so they don't involve selling new goods to the market like a producer would."
+  },
+  {
+   "qid": "q27",
+   "option": "C",
+   "reason": "Indirect channels rely on middlemen like distributors, so the original producer is removed from the direct path to the customer."
+  },
+  {
+   "qid": "q27",
+   "option": "D",
+   "reason": "Dual distribution uses both direct and indirect methods, so it actually includes producers selling through intermediaries, unlike the other single-channel options."
+  },
+  {
+   "qid": "q28",
+   "option": "A",
+   "reason": "The state's interest in officer safety is important, but the policy fails to show that excluding women is substantially related to that goal given the low risk of violence."
+  },
+  {
+   "qid": "q28",
+   "option": "B",
+   "reason": "The woman claims her gender-based rejection violates her citizenship rights, so the court should rule in her favor to protect those constitutional privileges from state abridgment."
+  },
+  {
+   "qid": "q28",
+   "option": "C",
+   "reason": "The state has a legitimate right to protect its officers from violence, so keeping women out of this dangerous division is a valid use of police power."
+  },
+  {
+   "qid": "q28",
+   "option": "D",
+   "reason": "The state has a legitimate safety reason to keep women out of high-risk undercover work, so their policy passes the rational basis test and the court should respect their decision."
+  },
+  {
+   "qid": "q29",
+   "option": "A",
+   "reason": "The neighbor dug five feet deep on their own land, which is an abnormally dangerous activity, so they must be absolutely liable for the damage caused to the homeowner's property."
+  },
+  {
+   "qid": "q29",
+   "option": "B",
+   "reason": "The neighbor dug five feet deep on his own land, causing my soil to collapse. Since I own the property in its natural condition with no fill, the law protects my right to lateral support from this erosion."
+  },
+  {
+   "qid": "q29",
+   "option": "C",
+   "reason": "The neighbor only dug on his own land, so he didn't need to provide lateral support for the soil under the house."
+  },
+  {
+   "qid": "q29",
+   "option": "D",
+   "reason": "I believe the court will rule against me because most states have passed laws that removed the common law right to lateral support, meaning I cannot claim it anymore."
+  },
+  {
+   "qid": "q30",
+   "option": "A",
+   "reason": "The professor admitted knowing the treatise and its conclusions, so the prosecutor can read the whole text to show how his expert opinion was formed."
+  },
+  {
+   "qid": "q30",
+   "option": "B",
+   "reason": "The treatise contradicts the professor's testimony that fraud was impossible to detect, so the judge should allow only those conflicting statements to be read."
+  },
+  {
+   "qid": "q30",
+   "option": "C",
+   "reason": "The treatise section is an out-of-court statement offered to prove the truth of fraud's existence, which makes it hearsay. Since it doesn't fit any recognized exception, the judge should sustain the objection."
+  },
+  {
+   "qid": "q30",
+   "option": "D",
+   "reason": "The professor never said he used the treatise to form his fraud opinion, so the judge should sustain the objection since the treatise is irrelevant to his testimony."
+  },
+  {
+   "qid": "q31",
+   "option": "A",
+   "reason": "The contractor completed the entire warehouse as agreed, so they should be paid regardless of minor material substitutions that did not affect the project's overall value."
+  },
+  {
+   "qid": "q31",
+   "option": "B",
+   "reason": "The construction company cannot simply alter the building materials and expect full payment since the contract strictly required adherence to the original specifications."
+  },
+  {
+   "qid": "q31",
+   "option": "C",
+   "reason": "The construction company substituted unavailable materials without permission, which could be seen as lying about following the original plans. This deceptive behavior might justify refusing payment entirely."
+  },
+  {
+   "qid": "q31",
+   "option": "D",
+   "reason": "The contractor finished the entire warehouse with only minor material substitutions, which counts as substantial performance. Since the work was mostly complete, the paper company should likely pay despite the small deviations."
+  },
+  {
+   "qid": "q32",
+   "option": "A",
+   "reason": "The farmer bought the farm without knowing about the sister's earlier claim and recorded his deed first, which protects him under the notice statute rules."
+  },
+  {
+   "qid": "q32",
+   "option": "B",
+   "reason": "The sister recorded her deed before the friend, so under a notice statute, her earlier claim to the property beats the friend's later interest."
+  },
+  {
+   "qid": "q32",
+   "option": "C",
+   "reason": "The friend recorded first and had actual knowledge of the sister's deed, so under a notice statute, his earlier recorded interest beats the sister's unrecorded claim."
+  },
+  {
+   "qid": "q32",
+   "option": "D",
+   "reason": "The man recorded his deed first, so under a notice statute, he holds the earliest valid claim to the property before anyone else acted."
+  },
+  {
+   "qid": "q33",
+   "option": "A",
+   "reason": "They entered the meeting room to steal property, which counts as burglary, and took the items, making it robbery. Since they tried to kill someone but only succeeded in injuring another, attempted murder fits best."
+  },
+  {
+   "qid": "q33",
+   "option": "B",
+   "reason": "They held the victims captive in the room, which is false imprisonment. Since they killed one person, that counts as murder, and the intent to kill the other makes it attempted murder."
+  },
+  {
+   "qid": "q33",
+   "option": "C",
+   "reason": "They held people captive, stole property, beat people, and killed one, which fits false imprisonment, robbery, aggravated assault, and murder perfectly."
+  },
+  {
+   "qid": "q33",
+   "option": "D",
+   "reason": "They held the victims captive, which is false imprisonment. Since they took the items but found nothing of value, the robbery was only attempted. Killing one person makes it first-degree murder."
+  },
+  {
+   "qid": "q34",
+   "option": "A",
+   "reason": "Since Bill is a partner, his actions generally bind the partnership unless third parties know he is silent. His purchase of toilets likely counts as a valid business act for the firm."
+  },
+  {
+   "qid": "q34",
+   "option": "B",
+   "reason": "Since Bill is a silent partner, he only invests money and has no right to manage the business or make binding decisions on purchases."
+  },
+  {
+   "qid": "q34",
+   "option": "C",
+   "reason": "Since Bill's name isn't in the partnership name, anyone dealing with Pete Smith Plumbing knows he isn't authorized to act on his behalf."
+  },
+  {
+   "qid": "q34",
+   "option": "D",
+   "reason": "Since Bill is a silent partner who hasn't managed the business, he lacks the authority to make such a large purchase on behalf of the partnership."
+  },
+  {
+   "qid": "q35",
+   "option": "A",
+   "reason": "The contract says the homeowner pays only if he finds the job satisfactory, meaning payment depends on the painter finishing first."
+  },
+  {
+   "qid": "q35",
+   "option": "B",
+   "reason": "The contract says the homeowner pays only if he finds the job satisfactory after completion, meaning payment happens later as a condition subsequent to the painter finishing the work."
+  },
+  {
+   "qid": "q35",
+   "option": "C",
+   "reason": "The painter must finish the job first before the homeowner can pay, making the painter's performance the condition that triggers the duty to pay."
+  },
+  {
+   "qid": "q35",
+   "option": "D",
+   "reason": "The contract says the homeowner pays only if he finds the job satisfactory, which implies he must inspect the work first. This suggests both parties' duties happen at the same time rather than one waiting for the other."
+  },
+  {
+   "qid": "q36",
+   "option": "A",
+   "reason": "This option fits because self-determination is a core human right that directly addresses the group's preoccupation with individual freedom and autonomy."
+  },
+  {
+   "qid": "q36",
+   "option": "B",
+   "reason": "This option makes sense because it suggests that when rights are ignored, separatism becomes the only way to stop inevitable violence and bloodshed."
+  },
+  {
+   "qid": "q36",
+   "option": "C",
+   "reason": "This option directly explains how the focus on specific groups defines the school's core concern with protecting vulnerable individuals from various forms of oppression."
+  },
+  {
+   "qid": "q36",
+   "option": "D",
+   "reason": "This option covers all the key points about how human rights shape modern liberalism, including self-determination, separatism, and protecting persecuted individuals."
+  },
+  {
+   "qid": "q37",
+   "option": "A",
+   "reason": "This option suggests that these groups stay mostly within one area, which would mean local laws are enough to stop them without needing complex international cooperation."
+  },
+  {
+   "qid": "q37",
+   "option": "B",
+   "reason": "If officials exaggerate the violence and wealth of these groups, then reducing those inflated numbers would significantly lower their actual threat to the legitimate economy."
+  },
+  {
+   "qid": "q37",
+   "option": "C",
+   "reason": "This option suggests that law enforcement focusing on rigid hierarchies will fail because these groups are too adaptable and resilient to be easily stopped."
+  },
+  {
+   "qid": "q37",
+   "option": "D",
+   "reason": "This option directly addresses policy by suggesting specific targets like leadership and proceeds, which logically reduces harm to the legitimate economy."
+  },
+  {
+   "qid": "q38",
+   "option": "A",
+   "reason": "This option argues that human security remains largely unrecognized by scholars and policymakers, suggesting a significant gap in its political and academic value compared to traditional state-centric views."
+  },
+  {
+   "qid": "q38",
+   "option": "B",
+   "reason": "This option fits because it explains how human security rose to prominence in the mid-1990s by addressing the critical issue of intra-state violence that dominated post-Cold War security studies."
+  },
+  {
+   "qid": "q38",
+   "option": "C",
+   "reason": "This option best explains how human security complements rather than replaces traditional state-focused views by filling the gap regarding internal safety. It clearly shows why the old model isn't enough without dismissing other approaches."
+  },
+  {
+   "qid": "q38",
+   "option": "D",
+   "reason": "The option argues that human security replaced the old state-centric view after the Cold War, making it the main focus for understanding modern security issues today."
+  },
+  {
+   "qid": "q39",
+   "option": "A",
+   "reason": "Including clear rules, laws, and penalties ensures that arms trade is strictly controlled and violations are punished effectively."
+  },
+  {
+   "qid": "q39",
+   "option": "B",
+   "reason": "Marking weapons helps track them throughout the supply chain, ensuring accountability and preventing illicit transfers of sensitive defense equipment."
+  },
+  {
+   "qid": "q39",
+   "option": "C",
+   "reason": "This option covers essential security measures for stockpiles and the necessary disposal of outdated weapons, which are critical parts of a full defense control system."
+  },
+  {
+   "qid": "q39",
+   "option": "D",
+   "reason": "A comprehensive system needs rules, markings, and security measures, so including all these elements makes the most sense for full coverage."
+  }
+ ]
+}

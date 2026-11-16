@@ -1,0 +1,108 @@
+{
+ "builtin_path": true,
+ "commit": "b5cf6fee3b72e29c1ff0f2edf30d8c8782064a92",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T13:14:22+00:00",
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "full",
+ "name": "cached_equals_uncached",
+ "planted": false,
+ "seconds": 31.6,
+ "session": "c2-g",
+ "started": "2026-11-15T13:13:50+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "additions_arm": {
+   "short": {
+    "first_disagreements": [
+     {
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 87001,
+      "got": 52031,
+      "reference_top_two_margin": 7.62939453125e-05,
+      "step": 112,
+      "top_two_margin": 0.00014972686767578125
+     },
+     {
+      "episode_id": "management/64:reasoned:short:B",
+      "expected": 220,
+      "got": 5429,
+      "reference_top_two_margin": 5.91278076171875e-05,
+      "step": 71,
+      "top_two_margin": 0.0010251998901367188
+     },
+     {
+      "episode_id": "college_mathematics/48:bare:short:-",
+      "expected": 329,
+      "got": 94093,
+      "reference_top_two_margin": 0.00016689300537109375,
+      "step": 94,
+      "top_two_margin": 0.0002117156982421875
+     },
+     {
+      "episode_id": "high_school_geography/16:reasoned:short:B",
+      "expected": 345,
+      "got": 259,
+      "reference_top_two_margin": 0.00014209747314453125,
+      "step": 101,
+      "top_two_margin": 3.62396240234375e-05
+     },
+     {
+      "episode_id": "college_computer_science/91:bare:short:-",
+      "expected": 1001,
+      "got": 338,
+      "reference_top_two_margin": 0.0003509521484375,
+      "step": 35,
+      "top_two_margin": 0.00020313262939453125
+     }
+    ],
+    "max_top_logit_difference_where_tokens_agree": 0.0016736984252929688,
+    "rows": 16,
+    "rows_disagreeing": 5,
+    "rows_ended_inside_the_cap": 6,
+    "steps_compared": 2901
+   },
+   "snap": {
+    "first_disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 0.000804901123046875,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 256
+   }
+  },
+  "control_arm": {
+   "short": {
+    "first_disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 0.00174713134765625,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 11,
+    "steps_compared": 2397
+   },
+   "snap": {
+    "first_disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 3.0517578125e-05,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 16,
+    "steps_compared": 33
+   }
+  },
+  "control_arm_agrees": true,
+  "green": false
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

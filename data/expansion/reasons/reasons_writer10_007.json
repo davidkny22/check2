@@ -1,0 +1,47 @@
+{
+  "writer": "opus",
+  "started_unix": 1794796480,
+  "finished_unix": 1794796552,
+  "reasons": [
+    {
+      "job_id": "expansion/high_school_mathematics/198:B",
+      "reason": "Taking away ten copies of the first term leaves 135 to come from the common difference, and spreading that over the 27 accumulated steps in the sequence gives a difference of 5."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/198:C",
+      "reason": "The sum formula gives 155 = 5(2*2 + 9d), so 4 + 9d equals 31, which means 9d is 27 and the common difference works out to 3."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/199:B",
+      "reason": "Squaring both sides is what produces the candidate roots, and squaring can create solutions the original equation never had, so neither candidate survives as a genuine solution and the set is empty."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/199:C",
+      "reason": "Squaring gives x^2 - 2x - 3 = 0, so the candidates are 3 and -1, but a square root can never equal a negative number, which leaves only 3."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/2:B",
+      "reason": "The expression equals (x + y)/(xy), which is 10 divided by xy, and xy is largest at x = y = 5, so the smallest value is 10/25."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/2:C",
+      "reason": "A symmetric expression like this is minimized when x and y are equal, so both are 5, and the reciprocal of 5 gives the minimum value of one fifth."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/20:A",
+      "reason": "By the remainder theorem the remainder is the polynomial's value at x = 1, and 1 - 2 + 3 - 4 comes out to negative two."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/20:D",
+      "reason": "Doing synthetic division with 1, I bring down the 1, then get -1, then 2, and the final row entry left over after the constant term is 1."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/204:A",
+      "reason": "Either 2x - 5 equals x + 1, which gives 6, or 2x - 5 equals -(x + 1), which gives 3x = 4 and a second solution of 4/3."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/204:B",
+      "reason": "Squaring both sides removes the absolute values, and the resulting quadratic reduces to x^2 - 5x + 4 = 0, which factors as (x - 1)(x - 4) and gives those two solutions."
+    }
+  ]
+}

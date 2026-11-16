@@ -1,0 +1,113 @@
+{
+ "builtin_path": true,
+ "commit": "93d475d8dcd28ac2332c4886c7c0a064f0978e64",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T16:21:53+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "full",
+ "name": "write_formula",
+ "planted": false,
+ "seconds": 44.9,
+ "session": "c2-a",
+ "started": "2026-11-15T16:21:08+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "arms": {
+   "short:alpha=0.0": {
+    "calls_checked": 32,
+    "max_relative_difference": 0.0,
+    "zeros_exact": true
+   },
+   "short:alpha=0.5": {
+    "calls_checked": 32,
+    "max_relative_difference": 1.526208654626651e-07,
+    "zeros_exact": true
+   },
+   "short:alpha=1.0": {
+    "calls_checked": 32,
+    "max_relative_difference": 1.1620352207287465e-07,
+    "zeros_exact": true
+   },
+   "short:band=[11, 15]": {
+    "calls_checked": 32,
+    "max_relative_difference": 1.1716538295717583e-07,
+    "zeros_exact": true
+   },
+   "short:band=[18, 21, 23]": {
+    "calls_checked": 32,
+    "max_relative_difference": 1.1366104528559084e-07,
+    "zeros_exact": true
+   },
+   "short:band=[3, 6, 9]": {
+    "calls_checked": 32,
+    "max_relative_difference": 1.1838722690732524e-07,
+    "zeros_exact": true
+   },
+   "snap:alpha=0.0": {
+    "calls_checked": 32,
+    "max_relative_difference": 0.0,
+    "zeros_exact": true
+   },
+   "snap:alpha=0.5": {
+    "calls_checked": 32,
+    "max_relative_difference": 1.483592190574869e-07,
+    "zeros_exact": true
+   },
+   "snap:alpha=1.0": {
+    "calls_checked": 32,
+    "max_relative_difference": 1.1462820230763211e-07,
+    "zeros_exact": true
+   },
+   "snap:band=[11, 15]": {
+    "calls_checked": 32,
+    "max_relative_difference": 1.1504605794296532e-07,
+    "zeros_exact": true
+   },
+   "snap:band=[18, 21, 23]": {
+    "calls_checked": 32,
+    "max_relative_difference": 1.1465028791792466e-07,
+    "zeros_exact": true
+   },
+   "snap:band=[3, 6, 9]": {
+    "calls_checked": 32,
+    "max_relative_difference": 1.1537602470368741e-07,
+    "zeros_exact": true
+   }
+  },
+  "green": true,
+  "hooked_layers": [
+   3,
+   6,
+   9,
+   11,
+   15,
+   18,
+   21,
+   23
+  ],
+  "hooks_on_exactly_the_write_layers": true,
+  "write_layers": [
+   3,
+   6,
+   9,
+   11,
+   15,
+   18,
+   21,
+   23
+  ]
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

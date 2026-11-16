@@ -1,0 +1,1652 @@
+[
+ {
+  "job_id": "expansion/college_mathematics/290:A",
+  "question": "Let A be a matrix such that A^2 = I. What can be said about the eigenvalues of A?",
+  "options": {
+   "A": "They must be 1 or -1",
+   "B": "They must be 1",
+   "C": "They must be 0",
+   "D": "They must be complex"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/290:D",
+  "question": "Let A be a matrix such that A^2 = I. What can be said about the eigenvalues of A?",
+  "options": {
+   "A": "They must be 1 or -1",
+   "B": "They must be 1",
+   "C": "They must be 0",
+   "D": "They must be complex"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/291:B",
+  "question": "Let A be a 4x4 matrix with eigenvalues 2, 2, -1, and 0. If the geometric multiplicity of the eigenvalue 2 is 1, what is the size of the largest Jordan block associated with the eigenvalue 2?",
+  "options": {
+   "A": "1x1",
+   "B": "4x4",
+   "C": "3x3",
+   "D": "2x2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/291:D",
+  "question": "Let A be a 4x4 matrix with eigenvalues 2, 2, -1, and 0. If the geometric multiplicity of the eigenvalue 2 is 1, what is the size of the largest Jordan block associated with the eigenvalue 2?",
+  "options": {
+   "A": "1x1",
+   "B": "4x4",
+   "C": "3x3",
+   "D": "2x2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/292:A",
+  "question": "If lambda is an eigenvalue of an orthogonal matrix Q, what must be true about the magnitude of lambda?",
+  "options": {
+   "A": "|lambda| = 1",
+   "B": "|lambda| = 0",
+   "C": "|lambda| < 1",
+   "D": "|lambda| > 1"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/292:D",
+  "question": "If lambda is an eigenvalue of an orthogonal matrix Q, what must be true about the magnitude of lambda?",
+  "options": {
+   "A": "|lambda| = 1",
+   "B": "|lambda| = 0",
+   "C": "|lambda| < 1",
+   "D": "|lambda| > 1"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/293:A",
+  "question": "Let X be a random variable with PDF f(x) = 3 * x^2 for 0 < x < 1. What is E[X]?",
+  "options": {
+   "A": "1/3",
+   "B": "2/3",
+   "C": "3/4",
+   "D": "1/2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/293:C",
+  "question": "Let X be a random variable with PDF f(x) = 3 * x^2 for 0 < x < 1. What is E[X]?",
+  "options": {
+   "A": "1/3",
+   "B": "2/3",
+   "C": "3/4",
+   "D": "1/2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/294:C",
+  "question": "Let V be the vector space of all real-valued polynomials of degree at most 3. Consider the linear operator T: V -> V defined by T(p(x)) = p'(x) + p''(x). What is the trace of the matrix representation of T with respect to the standard basis {1, x, x^2, x^3}?",
+  "options": {
+   "A": "1",
+   "B": "3",
+   "C": "0",
+   "D": "6"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/294:D",
+  "question": "Let V be the vector space of all real-valued polynomials of degree at most 3. Consider the linear operator T: V -> V defined by T(p(x)) = p'(x) + p''(x). What is the trace of the matrix representation of T with respect to the standard basis {1, x, x^2, x^3}?",
+  "options": {
+   "A": "1",
+   "B": "3",
+   "C": "0",
+   "D": "6"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/295:A",
+  "question": "Let X and Y be independent N(0, 1) variables. What is the distribution of Z = X - Y?",
+  "options": {
+   "A": "N(0, 1)",
+   "B": "N(0, 2)",
+   "C": "Cauchy(0, 1)",
+   "D": "N(0, 0.5)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/295:B",
+  "question": "Let X and Y be independent N(0, 1) variables. What is the distribution of Z = X - Y?",
+  "options": {
+   "A": "N(0, 1)",
+   "B": "N(0, 2)",
+   "C": "Cauchy(0, 1)",
+   "D": "N(0, 0.5)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/296:A",
+  "question": "Let X be a random variable with a Beta distribution with parameters alpha = 2 and beta = 2. What is the probability density function f(x) for 0 < x < 1?",
+  "options": {
+   "A": "6 * x * (1 - x)",
+   "B": "12 * x * (1 - x)^2",
+   "C": "6 * x^2 * (1 - x)",
+   "D": "3 * x^2 * (1 - x)^2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/296:D",
+  "question": "Let X be a random variable with a Beta distribution with parameters alpha = 2 and beta = 2. What is the probability density function f(x) for 0 < x < 1?",
+  "options": {
+   "A": "6 * x * (1 - x)",
+   "B": "12 * x * (1 - x)^2",
+   "C": "6 * x^2 * (1 - x)",
+   "D": "3 * x^2 * (1 - x)^2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/3:A",
+  "question": "Consider the subspace W of R^4 spanned by the vectors (1, 0, 1, 0) and (0, 1, 0, 1). Which of the following vectors is in W?",
+  "options": {
+   "A": "(1, 1, 1, 1)",
+   "B": "(1, 1, 0, 0)",
+   "C": "(0, 0, 1, 1)",
+   "D": "(1, 0, 0, 1)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/3:C",
+  "question": "Consider the subspace W of R^4 spanned by the vectors (1, 0, 1, 0) and (0, 1, 0, 1). Which of the following vectors is in W?",
+  "options": {
+   "A": "(1, 1, 1, 1)",
+   "B": "(1, 1, 0, 0)",
+   "C": "(0, 0, 1, 1)",
+   "D": "(1, 0, 0, 1)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/31:C",
+  "question": "Consider the matrix A = [[1, 0], [0, 1]]. What is the result of A^n for any positive integer n?",
+  "options": {
+   "A": "[[0, 1], [1, 0]]",
+   "B": "[[n, 0], [0, n]]",
+   "C": "[[1/n, 0], [0, 1/n]]",
+   "D": "[[1, 0], [0, 1]]"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/31:D",
+  "question": "Consider the matrix A = [[1, 0], [0, 1]]. What is the result of A^n for any positive integer n?",
+  "options": {
+   "A": "[[0, 1], [1, 0]]",
+   "B": "[[n, 0], [0, n]]",
+   "C": "[[1/n, 0], [0, 1/n]]",
+   "D": "[[1, 0], [0, 1]]"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/33:A",
+  "question": "A cone is cut by a plane parallel to the base. The volume of the smaller cone removed is 1/27 of the volume of the original cone. What is the ratio of the height of the smaller cone to the height of the original cone?",
+  "options": {
+   "A": "1/3",
+   "B": "2/3",
+   "C": "1/sqrt(3)",
+   "D": "1/9"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/33:B",
+  "question": "A cone is cut by a plane parallel to the base. The volume of the smaller cone removed is 1/27 of the volume of the original cone. What is the ratio of the height of the smaller cone to the height of the original cone?",
+  "options": {
+   "A": "1/3",
+   "B": "2/3",
+   "C": "1/sqrt(3)",
+   "D": "1/9"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/34:A",
+  "question": "Let A be a 4x4 matrix such that A^3 = 0 but A^2 is not 0. What is the nilpotency index of A?",
+  "options": {
+   "A": "2",
+   "B": "Undefined",
+   "C": "3",
+   "D": "4"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/34:C",
+  "question": "Let A be a 4x4 matrix such that A^3 = 0 but A^2 is not 0. What is the nilpotency index of A?",
+  "options": {
+   "A": "2",
+   "B": "Undefined",
+   "C": "3",
+   "D": "4"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/37:B",
+  "question": "In a right triangle, the altitude drawn to the hypotenuse divides the hypotenuse into two segments of lengths 4 and 9. What is the length of the altitude?",
+  "options": {
+   "A": "sqrt(13)",
+   "B": "2*sqrt(6)",
+   "C": "6",
+   "D": "5"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/37:C",
+  "question": "In a right triangle, the altitude drawn to the hypotenuse divides the hypotenuse into two segments of lengths 4 and 9. What is the length of the altitude?",
+  "options": {
+   "A": "sqrt(13)",
+   "B": "2*sqrt(6)",
+   "C": "6",
+   "D": "5"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/38:A",
+  "question": "Let f(z) = (z^2 + 1)/(z^2 - 1). Evaluate the contour integral of f(z) along the circle |z| = 2 traversed once in the counter-clockwise direction.",
+  "options": {
+   "A": "0",
+   "B": "-2*pi*i",
+   "C": "4*pi*i",
+   "D": "2*pi*i"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/38:B",
+  "question": "Let f(z) = (z^2 + 1)/(z^2 - 1). Evaluate the contour integral of f(z) along the circle |z| = 2 traversed once in the counter-clockwise direction.",
+  "options": {
+   "A": "0",
+   "B": "-2*pi*i",
+   "C": "4*pi*i",
+   "D": "2*pi*i"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/39:A",
+  "question": "In triangle ABC, the lengths of the sides are consecutive integers. If the largest angle is twice the smallest angle, what is the length of the shortest side?",
+  "options": {
+   "A": "3",
+   "B": "6",
+   "C": "4",
+   "D": "5"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/39:C",
+  "question": "In triangle ABC, the lengths of the sides are consecutive integers. If the largest angle is twice the smallest angle, what is the length of the shortest side?",
+  "options": {
+   "A": "3",
+   "B": "6",
+   "C": "4",
+   "D": "5"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/4:A",
+  "question": "In a triangle ABC, let H be the orthocenter and O be the circumcenter. What is the length of the segment OH in terms of the circumradius R and the angles A, B, and C?",
+  "options": {
+   "A": "R*sqrt(1 - 8*cos(A)*cos(B)*cos(C))",
+   "B": "R*sqrt(1 + 8*cos(A)*cos(B)*cos(C))",
+   "C": "2*R*cos(A)*cos(B)*cos(C)",
+   "D": "R*cos(A)*cos(B)*cos(C)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/4:C",
+  "question": "In a triangle ABC, let H be the orthocenter and O be the circumcenter. What is the length of the segment OH in terms of the circumradius R and the angles A, B, and C?",
+  "options": {
+   "A": "R*sqrt(1 - 8*cos(A)*cos(B)*cos(C))",
+   "B": "R*sqrt(1 + 8*cos(A)*cos(B)*cos(C))",
+   "C": "2*R*cos(A)*cos(B)*cos(C)",
+   "D": "R*cos(A)*cos(B)*cos(C)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/40:A",
+  "question": "A right circular cone has a base radius of 3 and a height of 4. A sphere is inscribed in the cone. What is the radius of the sphere?",
+  "options": {
+   "A": "1.5",
+   "B": "1.8",
+   "C": "1.0",
+   "D": "1.2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/40:B",
+  "question": "A right circular cone has a base radius of 3 and a height of 4. A sphere is inscribed in the cone. What is the radius of the sphere?",
+  "options": {
+   "A": "1.5",
+   "B": "1.8",
+   "C": "1.0",
+   "D": "1.2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/41:A",
+  "question": "Let A be a 4x4 matrix with eigenvalues 2, 2, 3, 3. If the minimal polynomial is (x-2)(x-3), then A is:",
+  "options": {
+   "A": "Diagonalizable",
+   "B": "Nilpotent",
+   "C": "Singular",
+   "D": "Invertible but not diagonalizable"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/41:C",
+  "question": "Let A be a 4x4 matrix with eigenvalues 2, 2, 3, 3. If the minimal polynomial is (x-2)(x-3), then A is:",
+  "options": {
+   "A": "Diagonalizable",
+   "B": "Nilpotent",
+   "C": "Singular",
+   "D": "Invertible but not diagonalizable"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/42:B",
+  "question": "Let U and V be subspaces of R^4 with dim(U) = 2 and dim(V) = 2. If U intersect V = {0}, what is dim(U + V)?",
+  "options": {
+   "A": "0",
+   "B": "4",
+   "C": "3",
+   "D": "2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/42:C",
+  "question": "Let U and V be subspaces of R^4 with dim(U) = 2 and dim(V) = 2. If U intersect V = {0}, what is dim(U + V)?",
+  "options": {
+   "A": "0",
+   "B": "4",
+   "C": "3",
+   "D": "2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/43:B",
+  "question": "If A is an orthogonal matrix, then its determinant must be:",
+  "options": {
+   "A": "Positive",
+   "B": "1 or -1",
+   "C": "0",
+   "D": "Any real number"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/43:C",
+  "question": "If A is an orthogonal matrix, then its determinant must be:",
+  "options": {
+   "A": "Positive",
+   "B": "1 or -1",
+   "C": "0",
+   "D": "Any real number"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/44:A",
+  "question": "Evaluate the limit as x approaches infinity of ( (2x + 1)^5 - (2x - 1)^5 ) / x^4.",
+  "options": {
+   "A": "160",
+   "B": "80",
+   "C": "40",
+   "D": "0"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/44:D",
+  "question": "Evaluate the limit as x approaches infinity of ( (2x + 1)^5 - (2x - 1)^5 ) / x^4.",
+  "options": {
+   "A": "160",
+   "B": "80",
+   "C": "40",
+   "D": "0"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/46:A",
+  "question": "Consider the infinite geometric series sum_{n=0}^{infinity} (1/3)^n. If we remove every term where n is a multiple of 2, what is the sum of the remaining series?",
+  "options": {
+   "A": "3/8",
+   "B": "9/8",
+   "C": "1/2",
+   "D": "3/4"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/46:C",
+  "question": "Consider the infinite geometric series sum_{n=0}^{infinity} (1/3)^n. If we remove every term where n is a multiple of 2, what is the sum of the remaining series?",
+  "options": {
+   "A": "3/8",
+   "B": "9/8",
+   "C": "1/2",
+   "D": "3/4"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/47:C",
+  "question": "Consider the system of linear equations Ax = b where A is a 4x6 matrix of rank 4. How many free variables does the general solution contain?",
+  "options": {
+   "A": "6",
+   "B": "0",
+   "C": "4",
+   "D": "2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/47:D",
+  "question": "Consider the system of linear equations Ax = b where A is a 4x6 matrix of rank 4. How many free variables does the general solution contain?",
+  "options": {
+   "A": "6",
+   "B": "0",
+   "C": "4",
+   "D": "2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/49:A",
+  "question": "Solve for x in the equation: log_2(x) + log_2(x - 2) = 3. What is the valid solution?",
+  "options": {
+   "A": "2",
+   "B": "4",
+   "C": "6",
+   "D": "8"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/49:B",
+  "question": "Solve for x in the equation: log_2(x) + log_2(x - 2) = 3. What is the valid solution?",
+  "options": {
+   "A": "2",
+   "B": "4",
+   "C": "6",
+   "D": "8"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/51:A",
+  "question": "Consider the vector space V of all polynomials with real coefficients of degree at most 3. Let T: V -> V be the linear transformation defined by T(p(x)) = p'(x) + p(0). What is the dimension of the kernel of T?",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "4",
+   "D": "3"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/51:C",
+  "question": "Consider the vector space V of all polynomials with real coefficients of degree at most 3. Let T: V -> V be the linear transformation defined by T(p(x)) = p'(x) + p(0). What is the dimension of the kernel of T?",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "4",
+   "D": "3"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/52:A",
+  "question": "A circle is tangent to the x-axis at the point (4, 0) and passes through the point (0, 2). What is the radius of this circle?",
+  "options": {
+   "A": "5",
+   "B": "2",
+   "C": "4",
+   "D": "10"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/52:B",
+  "question": "A circle is tangent to the x-axis at the point (4, 0) and passes through the point (0, 2). What is the radius of this circle?",
+  "options": {
+   "A": "5",
+   "B": "2",
+   "C": "4",
+   "D": "10"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/54:B",
+  "question": "Evaluate the integral from 0 to 1 of (x * exp(x)) dx.",
+  "options": {
+   "A": "e - 1",
+   "B": "e",
+   "C": "1",
+   "D": "e + 1"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/54:C",
+  "question": "Evaluate the integral from 0 to 1 of (x * exp(x)) dx.",
+  "options": {
+   "A": "e - 1",
+   "B": "e",
+   "C": "1",
+   "D": "e + 1"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/55:A",
+  "question": "Solve the exponential equation: 4^x - 6 * 2^x + 8 = 0. What is the sum of all real solutions for x?",
+  "options": {
+   "A": "3",
+   "B": "4",
+   "C": "5",
+   "D": "2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/55:D",
+  "question": "Solve the exponential equation: 4^x - 6 * 2^x + 8 = 0. What is the sum of all real solutions for x?",
+  "options": {
+   "A": "3",
+   "B": "4",
+   "C": "5",
+   "D": "2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/56:C",
+  "question": "If the columns of a 5x5 matrix A form a basis for R^5, what is the rank of A?",
+  "options": {
+   "A": "1",
+   "B": "4",
+   "C": "5",
+   "D": "0"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/56:D",
+  "question": "If the columns of a 5x5 matrix A form a basis for R^5, what is the rank of A?",
+  "options": {
+   "A": "1",
+   "B": "4",
+   "C": "5",
+   "D": "0"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/57:A",
+  "question": "Let X be a random variable following the distribution P(X=k) = (1/2)^k for k = 1, 2, 3, ... What is E[X]?",
+  "options": {
+   "A": "3",
+   "B": "1",
+   "C": "2",
+   "D": "1.5"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/57:C",
+  "question": "Let X be a random variable following the distribution P(X=k) = (1/2)^k for k = 1, 2, 3, ... What is E[X]?",
+  "options": {
+   "A": "3",
+   "B": "1",
+   "C": "2",
+   "D": "1.5"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/58:C",
+  "question": "Consider the sequence defined by a_1 = 2 and a_{n+1} = a_n^2 - a_n + 1 for n >= 1. What is the value of the infinite sum sum_{n=1}^{infinity} 1/a_n?",
+  "options": {
+   "A": "1/2",
+   "B": "2",
+   "C": "1",
+   "D": "The series diverges"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/58:D",
+  "question": "Consider the sequence defined by a_1 = 2 and a_{n+1} = a_n^2 - a_n + 1 for n >= 1. What is the value of the infinite sum sum_{n=1}^{infinity} 1/a_n?",
+  "options": {
+   "A": "1/2",
+   "B": "2",
+   "C": "1",
+   "D": "The series diverges"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/59:A",
+  "question": "Let V be a vector space of dimension n. How many linearly independent linear functionals are there on V?",
+  "options": {
+   "A": "n",
+   "B": "Infinity",
+   "C": "1",
+   "D": "n^2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/59:D",
+  "question": "Let V be a vector space of dimension n. How many linearly independent linear functionals are there on V?",
+  "options": {
+   "A": "n",
+   "B": "Infinity",
+   "C": "1",
+   "D": "n^2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/60:A",
+  "question": "Find the value of the limit as n approaches infinity of (1 + 1/n)^(n^2).",
+  "options": {
+   "A": "infinity",
+   "B": "0",
+   "C": "e",
+   "D": "1"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/60:B",
+  "question": "Find the value of the limit as n approaches infinity of (1 + 1/n)^(n^2).",
+  "options": {
+   "A": "infinity",
+   "B": "0",
+   "C": "e",
+   "D": "1"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/61:B",
+  "question": "When the polynomial x^4 + 4x^3 + 6x^2 + 4x + 1 is divided by x + 1, what is the remainder?",
+  "options": {
+   "A": "-1",
+   "B": "0",
+   "C": "1",
+   "D": "2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/61:D",
+  "question": "When the polynomial x^4 + 4x^3 + 6x^2 + 4x + 1 is divided by x + 1, what is the remainder?",
+  "options": {
+   "A": "-1",
+   "B": "0",
+   "C": "1",
+   "D": "2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/62:A",
+  "question": "Find the solution set for the inequality: |x^2 - 5x + 6| < x - 2.",
+  "options": {
+   "A": "(2, 4)",
+   "B": "Empty Set",
+   "C": "(2, 3)",
+   "D": "(3, 4)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/62:C",
+  "question": "Find the solution set for the inequality: |x^2 - 5x + 6| < x - 2.",
+  "options": {
+   "A": "(2, 4)",
+   "B": "Empty Set",
+   "C": "(2, 3)",
+   "D": "(3, 4)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/63:B",
+  "question": "What is the sum of all integer solutions to the congruence x^2 = 1 mod 15 in the range 0 <= x < 15?",
+  "options": {
+   "A": "16",
+   "B": "30",
+   "C": "0",
+   "D": "15"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/63:C",
+  "question": "What is the sum of all integer solutions to the congruence x^2 = 1 mod 15 in the range 0 <= x < 15?",
+  "options": {
+   "A": "16",
+   "B": "30",
+   "C": "0",
+   "D": "15"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/64:B",
+  "question": "A fair coin is tossed repeatedly until the pattern HT (Head then Tail) appears. What is the expected number of tosses?",
+  "options": {
+   "A": "2",
+   "B": "3",
+   "C": "4",
+   "D": "5"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/64:C",
+  "question": "A fair coin is tossed repeatedly until the pattern HT (Head then Tail) appears. What is the expected number of tosses?",
+  "options": {
+   "A": "2",
+   "B": "3",
+   "C": "4",
+   "D": "5"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/65:A",
+  "question": "Let X be a Poisson random variable with parameter lambda. What is the conditional distribution of X given X > 0?",
+  "options": {
+   "A": "(lambda^x * exp(-lambda)) / (x! * (1 - exp(-lambda)))",
+   "B": "Exp(lambda)",
+   "C": "Poisson(lambda)",
+   "D": "Binomial(n, lambda/n)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/65:D",
+  "question": "Let X be a Poisson random variable with parameter lambda. What is the conditional distribution of X given X > 0?",
+  "options": {
+   "A": "(lambda^x * exp(-lambda)) / (x! * (1 - exp(-lambda)))",
+   "B": "Exp(lambda)",
+   "C": "Poisson(lambda)",
+   "D": "Binomial(n, lambda/n)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/67:B",
+  "question": "What is the area of the surface generated by rotating the curve y = sqrt(x) from x=0 to x=4 around the x-axis?",
+  "options": {
+   "A": "(pi/6)*(17*sqrt(17)+1)",
+   "B": "(pi/6)*(17*sqrt(17)-1)",
+   "C": "(pi/3)*(17*sqrt(17)-1)",
+   "D": "(pi/2)*(17*sqrt(17)-1)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/67:D",
+  "question": "What is the area of the surface generated by rotating the curve y = sqrt(x) from x=0 to x=4 around the x-axis?",
+  "options": {
+   "A": "(pi/6)*(17*sqrt(17)+1)",
+   "B": "(pi/6)*(17*sqrt(17)-1)",
+   "C": "(pi/3)*(17*sqrt(17)-1)",
+   "D": "(pi/2)*(17*sqrt(17)-1)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/68:B",
+  "question": "What is the probability that three randomly chosen points on a circle form an acute triangle?",
+  "options": {
+   "A": "3/4",
+   "B": "1/4",
+   "C": "1/pi",
+   "D": "1/2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/68:C",
+  "question": "What is the probability that three randomly chosen points on a circle form an acute triangle?",
+  "options": {
+   "A": "3/4",
+   "B": "1/4",
+   "C": "1/pi",
+   "D": "1/2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/69:B",
+  "question": "A random variable X has a PDF f(x) = 1/pi * 1/(1 + x^2). What is the median of X?",
+  "options": {
+   "A": "Undefined",
+   "B": "pi",
+   "C": "1",
+   "D": "0"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/69:D",
+  "question": "A random variable X has a PDF f(x) = 1/pi * 1/(1 + x^2). What is the median of X?",
+  "options": {
+   "A": "Undefined",
+   "B": "pi",
+   "C": "1",
+   "D": "0"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/70:C",
+  "question": "Let V be the space of 2x2 real matrices. Define a linear transformation T: V -> V by T(M) = AM - MA, where A = [[0, 1], [0, 0]]. What is the dimension of the kernel of T?",
+  "options": {
+   "A": "4",
+   "B": "1",
+   "C": "3",
+   "D": "2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/70:D",
+  "question": "Let V be the space of 2x2 real matrices. Define a linear transformation T: V -> V by T(M) = AM - MA, where A = [[0, 1], [0, 0]]. What is the dimension of the kernel of T?",
+  "options": {
+   "A": "4",
+   "B": "1",
+   "C": "3",
+   "D": "2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/71:A",
+  "question": "Let A be a 5x5 matrix with rank 3. What is the dimension of the null space of A^T?",
+  "options": {
+   "A": "2",
+   "B": "5",
+   "C": "3",
+   "D": "0"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/71:D",
+  "question": "Let A be a 5x5 matrix with rank 3. What is the dimension of the null space of A^T?",
+  "options": {
+   "A": "2",
+   "B": "5",
+   "C": "3",
+   "D": "0"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/73:C",
+  "question": "Consider the vector space of continuous functions on [0, 1]. Let W be the subspace spanned by {1, x, x^2}. What is the dimension of W?",
+  "options": {
+   "A": "2",
+   "B": "Infinite",
+   "C": "3",
+   "D": "4"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/73:D",
+  "question": "Consider the vector space of continuous functions on [0, 1]. Let W be the subspace spanned by {1, x, x^2}. What is the dimension of W?",
+  "options": {
+   "A": "2",
+   "B": "Infinite",
+   "C": "3",
+   "D": "4"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/74:A",
+  "question": "Find the volume of the solid bounded by the cylinder x^2 + y^2 = 4 and the planes z = 0 and z = x + 3.",
+  "options": {
+   "A": "12 * pi",
+   "B": "16 * pi",
+   "C": "8 * pi",
+   "D": "6 * pi"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/74:D",
+  "question": "Find the volume of the solid bounded by the cylinder x^2 + y^2 = 4 and the planes z = 0 and z = x + 3.",
+  "options": {
+   "A": "12 * pi",
+   "B": "16 * pi",
+   "C": "8 * pi",
+   "D": "6 * pi"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/75:C",
+  "question": "Let V be the space of all continuous functions on [0, 1]. Is V finite-dimensional?",
+  "options": {
+   "A": "Yes",
+   "B": "Only if the functions are polynomials",
+   "C": "Only if the functions are constant",
+   "D": "No"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/75:D",
+  "question": "Let V be the space of all continuous functions on [0, 1]. Is V finite-dimensional?",
+  "options": {
+   "A": "Yes",
+   "B": "Only if the functions are polynomials",
+   "C": "Only if the functions are constant",
+   "D": "No"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/76:B",
+  "question": "Four points are chosen on the surface of a sphere. What is the probability that the center of the sphere lies inside the tetrahedron formed by these four points?",
+  "options": {
+   "A": "1/6",
+   "B": "1/2",
+   "C": "1/8",
+   "D": "1/4"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/76:C",
+  "question": "Four points are chosen on the surface of a sphere. What is the probability that the center of the sphere lies inside the tetrahedron formed by these four points?",
+  "options": {
+   "A": "1/6",
+   "B": "1/2",
+   "C": "1/8",
+   "D": "1/4"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/79:B",
+  "question": "Evaluate the surface integral of the vector field F(x, y, z) = (x, y, z) over the unit sphere x^2 + y^2 + z^2 = 1 with outward orientation.",
+  "options": {
+   "A": "2 * pi",
+   "B": "0",
+   "C": "4 * pi",
+   "D": "8 * pi"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/79:C",
+  "question": "Evaluate the surface integral of the vector field F(x, y, z) = (x, y, z) over the unit sphere x^2 + y^2 + z^2 = 1 with outward orientation.",
+  "options": {
+   "A": "2 * pi",
+   "B": "0",
+   "C": "4 * pi",
+   "D": "8 * pi"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/8:C",
+  "question": "Find the value of the integral from 0 to pi/2 of (sin(x) / (sin(x) + cos(x))) dx.",
+  "options": {
+   "A": "0",
+   "B": "pi / 8",
+   "C": "pi / 2",
+   "D": "pi / 4"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/8:D",
+  "question": "Find the value of the integral from 0 to pi/2 of (sin(x) / (sin(x) + cos(x))) dx.",
+  "options": {
+   "A": "0",
+   "B": "pi / 8",
+   "C": "pi / 2",
+   "D": "pi / 4"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/80:C",
+  "question": "If A is a positive definite matrix, which of the following is true?",
+  "options": {
+   "A": "The determinant is zero",
+   "B": "All eigenvalues are negative",
+   "C": "All eigenvalues are positive",
+   "D": "All eigenvalues are non-negative"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/80:D",
+  "question": "If A is a positive definite matrix, which of the following is true?",
+  "options": {
+   "A": "The determinant is zero",
+   "B": "All eigenvalues are negative",
+   "C": "All eigenvalues are positive",
+   "D": "All eigenvalues are non-negative"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/81:A",
+  "question": "Determine the value of the integral from 0 to 1 of (x^a * (1-x)^b) dx for positive integers a and b.",
+  "options": {
+   "A": "(a! * b!) / (a + b + 1)!",
+   "B": "(a + b)! / (a! * b!)",
+   "C": "1 / (a + b + 1)!",
+   "D": "(a! * b!) / (a + b)!"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/81:B",
+  "question": "Determine the value of the integral from 0 to 1 of (x^a * (1-x)^b) dx for positive integers a and b.",
+  "options": {
+   "A": "(a! * b!) / (a + b + 1)!",
+   "B": "(a + b)! / (a! * b!)",
+   "C": "1 / (a + b + 1)!",
+   "D": "(a! * b!) / (a + b)!"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/83:C",
+  "question": "For a random variable X with mean mu and variance sigma^2, what is the variance of Y = aX + b?",
+  "options": {
+   "A": "sigma^2 + b^2",
+   "B": "(a + b) * sigma^2",
+   "C": "a^2 * sigma^2",
+   "D": "a * sigma^2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/83:D",
+  "question": "For a random variable X with mean mu and variance sigma^2, what is the variance of Y = aX + b?",
+  "options": {
+   "A": "sigma^2 + b^2",
+   "B": "(a + b) * sigma^2",
+   "C": "a^2 * sigma^2",
+   "D": "a * sigma^2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/86:A",
+  "question": "Let A and B be n x n matrices. If AB = 0, which of the following is necessarily true?",
+  "options": {
+   "A": "B = 0 or A = 0",
+   "B": "rank(A) + rank(B) <= n",
+   "C": "rank(A) + rank(B) = n",
+   "D": "AB = BA"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/86:B",
+  "question": "Let A and B be n x n matrices. If AB = 0, which of the following is necessarily true?",
+  "options": {
+   "A": "B = 0 or A = 0",
+   "B": "rank(A) + rank(B) <= n",
+   "C": "rank(A) + rank(B) = n",
+   "D": "AB = BA"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/88:A",
+  "question": "A sphere is tangent to all edges of a tetrahedron. If the tetrahedron is regular with edge length a, what is the radius of the sphere?",
+  "options": {
+   "A": "a/sqrt(6)",
+   "B": "a/sqrt(8)",
+   "C": "a/4",
+   "D": "a/sqrt(2)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/88:B",
+  "question": "A sphere is tangent to all edges of a tetrahedron. If the tetrahedron is regular with edge length a, what is the radius of the sphere?",
+  "options": {
+   "A": "a/sqrt(6)",
+   "B": "a/sqrt(8)",
+   "C": "a/4",
+   "D": "a/sqrt(2)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/91:A",
+  "question": "Let A be a 3x3 matrix with trace 0 and determinant 6. If the eigenvalues are integers, which of the following could be the set of eigenvalues?",
+  "options": {
+   "A": "{2, 2, -4}",
+   "B": "{1, -2, -3}",
+   "C": "{-1, -2, 3}",
+   "D": "{1, 2, 3}"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/91:C",
+  "question": "Let A be a 3x3 matrix with trace 0 and determinant 6. If the eigenvalues are integers, which of the following could be the set of eigenvalues?",
+  "options": {
+   "A": "{2, 2, -4}",
+   "B": "{1, -2, -3}",
+   "C": "{-1, -2, 3}",
+   "D": "{1, 2, 3}"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/92:B",
+  "question": "Let T: R^2 -> R^2 be a linear transformation that rotates vectors by 90 degrees counter-clockwise. What is the matrix representation of T with respect to the standard basis?",
+  "options": {
+   "A": "[[0, 1], [-1, 0]]",
+   "B": "[[0, -1], [1, 0]]",
+   "C": "[[1, 0], [0, 1]]",
+   "D": "[[-1, 0], [0, -1]]"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/92:D",
+  "question": "Let T: R^2 -> R^2 be a linear transformation that rotates vectors by 90 degrees counter-clockwise. What is the matrix representation of T with respect to the standard basis?",
+  "options": {
+   "A": "[[0, 1], [-1, 0]]",
+   "B": "[[0, -1], [1, 0]]",
+   "C": "[[1, 0], [0, 1]]",
+   "D": "[[-1, 0], [0, -1]]"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/95:C",
+  "question": "Consider the linear system Ax = 0 where A is a 3x3 matrix with rank 2. The solution set forms a:",
+  "options": {
+   "A": "Plane through the origin",
+   "B": "3D space",
+   "C": "Point",
+   "D": "Line through the origin"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/95:D",
+  "question": "Consider the linear system Ax = 0 where A is a 3x3 matrix with rank 2. The solution set forms a:",
+  "options": {
+   "A": "Plane through the origin",
+   "B": "3D space",
+   "C": "Point",
+   "D": "Line through the origin"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/96:A",
+  "question": "Let A be a 3x3 matrix with determinant 5. If B is the matrix obtained by multiplying the second row of A by 3 and then adding the first row to the third row, what is the determinant of B?",
+  "options": {
+   "A": "5",
+   "B": "20",
+   "C": "45",
+   "D": "15"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/96:D",
+  "question": "Let A be a 3x3 matrix with determinant 5. If B is the matrix obtained by multiplying the second row of A by 3 and then adding the first row to the third row, what is the determinant of B?",
+  "options": {
+   "A": "5",
+   "B": "20",
+   "C": "45",
+   "D": "15"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/98:A",
+  "question": "Consider a 3x3 real matrix A such that A^3 = A. Which of the following must be true about the eigenvalues of A?",
+  "options": {
+   "A": "They must be in the set {-1, 0, 1}",
+   "B": "They must be positive real numbers",
+   "C": "They must be complex conjugates",
+   "D": "At least one eigenvalue must be 2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/98:B",
+  "question": "Consider a 3x3 real matrix A such that A^3 = A. Which of the following must be true about the eigenvalues of A?",
+  "options": {
+   "A": "They must be in the set {-1, 0, 1}",
+   "B": "They must be positive real numbers",
+   "C": "They must be complex conjugates",
+   "D": "At least one eigenvalue must be 2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_physics/0:A",
+  "question": "A 100 W light bulb is left on for 10 hours. How much energy is consumed in kilowatt-hours?",
+  "options": {
+   "A": "0.1 kWh",
+   "B": "100 kWh",
+   "C": "10 kWh",
+   "D": "1.0 kWh"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_physics/0:D",
+  "question": "A 100 W light bulb is left on for 10 hours. How much energy is consumed in kilowatt-hours?",
+  "options": {
+   "A": "0.1 kWh",
+   "B": "100 kWh",
+   "C": "10 kWh",
+   "D": "1.0 kWh"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_physics/1:B",
+  "question": "A 5 kg object is suspended by a rope. If the rope accelerates upward at 2 m/s^2, what is the tension in the rope?",
+  "options": {
+   "A": "68.6 N",
+   "B": "49.0 N",
+   "C": "59.0 N",
+   "D": "39.2 N"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_physics/1:C",
+  "question": "A 5 kg object is suspended by a rope. If the rope accelerates upward at 2 m/s^2, what is the tension in the rope?",
+  "options": {
+   "A": "68.6 N",
+   "B": "49.0 N",
+   "C": "59.0 N",
+   "D": "39.2 N"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_physics/10:A",
+  "question": "A Carnot engine operates between 300 K and 600 K. If it absorbs 1000 J of heat from the hot reservoir, how much work does it perform per cycle?",
+  "options": {
+   "A": "500 J",
+   "B": "200 J",
+   "C": "800 J",
+   "D": "1000 J"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_physics/10:B",
+  "question": "A Carnot engine operates between 300 K and 600 K. If it absorbs 1000 J of heat from the hot reservoir, how much work does it perform per cycle?",
+  "options": {
+   "A": "500 J",
+   "B": "200 J",
+   "C": "800 J",
+   "D": "1000 J"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_physics/100:A",
+  "question": "A ray of light strikes a plane mirror at an angle of 30 degrees to the surface. What is the angle of reflection relative to the normal?",
+  "options": {
+   "A": "60 degrees",
+   "B": "120 degrees",
+   "C": "90 degrees",
+   "D": "30 degrees"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_physics/100:B",
+  "question": "A ray of light strikes a plane mirror at an angle of 30 degrees to the surface. What is the angle of reflection relative to the normal?",
+  "options": {
+   "A": "60 degrees",
+   "B": "120 degrees",
+   "C": "90 degrees",
+   "D": "30 degrees"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_physics/101:A",
+  "question": "A 1000 kg car travels at 20 m/s. How much work is required to stop the car?",
+  "options": {
+   "A": "100,000 J",
+   "B": "800,000 J",
+   "C": "200,000 J",
+   "D": "400,000 J"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_physics/101:C",
+  "question": "A 1000 kg car travels at 20 m/s. How much work is required to stop the car?",
+  "options": {
+   "A": "100,000 J",
+   "B": "800,000 J",
+   "C": "200,000 J",
+   "D": "400,000 J"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_physics/102:A",
+  "question": "A 1.0 m long string is fixed at both ends and vibrates in its second harmonic. What is the wavelength of the standing wave?",
+  "options": {
+   "A": "1.5 m",
+   "B": "2.0 m",
+   "C": "1.0 m",
+   "D": "0.5 m"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_physics/102:C",
+  "question": "A 1.0 m long string is fixed at both ends and vibrates in its second harmonic. What is the wavelength of the standing wave?",
+  "options": {
+   "A": "1.5 m",
+   "B": "2.0 m",
+   "C": "1.0 m",
+   "D": "0.5 m"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_physics/103:B",
+  "question": "Planetary protection requires sterilization to 1 spore per m². If surface area is 50 m², what is the max spore count?",
+  "options": {
+   "A": "1",
+   "B": "500",
+   "C": "0",
+   "D": "50"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_physics/103:D",
+  "question": "Planetary protection requires sterilization to 1 spore per m². If surface area is 50 m², what is the max spore count?",
+  "options": {
+   "A": "1",
+   "B": "500",
+   "C": "0",
+   "D": "50"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_physics/105:B",
+  "question": "A 20V battery is connected to three 10 ohm resistors in parallel. What is the total current supplied by the battery?",
+  "options": {
+   "A": "2 A",
+   "B": "20 A",
+   "C": "6 A",
+   "D": "60 A"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_physics/105:C",
+  "question": "A 20V battery is connected to three 10 ohm resistors in parallel. What is the total current supplied by the battery?",
+  "options": {
+   "A": "2 A",
+   "B": "20 A",
+   "C": "6 A",
+   "D": "60 A"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_physics/107:A",
+  "question": "Interpreting an SPT N-value of 20 in silty sand, what is the approximate relative density?",
+  "options": {
+   "A": "Medium dense",
+   "B": "Very loose",
+   "C": "Loose",
+   "D": "Dense"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_physics/107:B",
+  "question": "Interpreting an SPT N-value of 20 in silty sand, what is the approximate relative density?",
+  "options": {
+   "A": "Medium dense",
+   "B": "Very loose",
+   "C": "Loose",
+   "D": "Dense"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_physics/108:A",
+  "question": "A 2-meter wire has a resistance of 10 ohms. If it is stretched to 4 meters while maintaining the same volume, what is the new resistance?",
+  "options": {
+   "A": "10 ohms",
+   "B": "20 ohms",
+   "C": "2.5 ohms",
+   "D": "40 ohms"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_physics/108:D",
+  "question": "A 2-meter wire has a resistance of 10 ohms. If it is stretched to 4 meters while maintaining the same volume, what is the new resistance?",
+  "options": {
+   "A": "10 ohms",
+   "B": "20 ohms",
+   "C": "2.5 ohms",
+   "D": "40 ohms"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_physics/11:B",
+  "question": "Cryogenic LOX is stored at 90 K. What is this temperature in Celsius?",
+  "options": {
+   "A": "-273°C",
+   "B": "-100°C",
+   "C": "-90°C",
+   "D": "-183°C"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_physics/11:D",
+  "question": "Cryogenic LOX is stored at 90 K. What is this temperature in Celsius?",
+  "options": {
+   "A": "-273°C",
+   "B": "-100°C",
+   "C": "-90°C",
+   "D": "-183°C"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_physics/110:B",
+  "question": "A diatomic ideal gas is heated at constant pressure. What is the ratio of molar heat capacity at constant pressure to constant volume?",
+  "options": {
+   "A": "1.0",
+   "B": "1.67",
+   "C": "1.4",
+   "D": "2.0"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_physics/110:C",
+  "question": "A diatomic ideal gas is heated at constant pressure. What is the ratio of molar heat capacity at constant pressure to constant volume?",
+  "options": {
+   "A": "1.0",
+   "B": "1.67",
+   "C": "1.4",
+   "D": "2.0"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_physics/111:B",
+  "question": "A 2.0 kg block slides down a 30-degree frictionless incline. If the block starts from rest and slides for 5.0 meters, what is its final velocity?",
+  "options": {
+   "A": "10.0 m/s",
+   "B": "7.0 m/s",
+   "C": "5.0 m/s",
+   "D": "3.5 m/s"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_physics/111:D",
+  "question": "A 2.0 kg block slides down a 30-degree frictionless incline. If the block starts from rest and slides for 5.0 meters, what is its final velocity?",
+  "options": {
+   "A": "10.0 m/s",
+   "B": "7.0 m/s",
+   "C": "5.0 m/s",
+   "D": "3.5 m/s"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_physics/112:A",
+  "question": "A gas is compressed adiabatically. Which of the following is true regarding the temperature?",
+  "options": {
+   "A": "Remains constant",
+   "B": "Depends on pressure",
+   "C": "Increases",
+   "D": "Decreases"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_physics/112:C",
+  "question": "A gas is compressed adiabatically. Which of the following is true regarding the temperature?",
+  "options": {
+   "A": "Remains constant",
+   "B": "Depends on pressure",
+   "C": "Increases",
+   "D": "Decreases"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_physics/115:B",
+  "question": "A wire with resistance 10 ohms is stretched uniformly until its length doubles. Assuming density is constant, what is the new resistance?",
+  "options": {
+   "A": "50 ohms",
+   "B": "40 ohms",
+   "C": "30 ohms",
+   "D": "20 ohms"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_physics/115:C",
+  "question": "A wire with resistance 10 ohms is stretched uniformly until its length doubles. Assuming density is constant, what is the new resistance?",
+  "options": {
+   "A": "50 ohms",
+   "B": "40 ohms",
+   "C": "30 ohms",
+   "D": "20 ohms"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_physics/117:B",
+  "question": "A net-zero building loses 500 W through walls. If insulation doubles, what is the new loss?",
+  "options": {
+   "A": "125 W",
+   "B": "500 W",
+   "C": "250 W",
+   "D": "1000 W"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_physics/117:C",
+  "question": "A net-zero building loses 500 W through walls. If insulation doubles, what is the new loss?",
+  "options": {
+   "A": "125 W",
+   "B": "500 W",
+   "C": "250 W",
+   "D": "1000 W"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_physics/119:A",
+  "question": "A gas at 2 atm and 300 K is heated to 600 K at constant volume. What is the final pressure?",
+  "options": {
+   "A": "2 atm",
+   "B": "1 atm",
+   "C": "3 atm",
+   "D": "4 atm"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_physics/119:D",
+  "question": "A gas at 2 atm and 300 K is heated to 600 K at constant volume. What is the final pressure?",
+  "options": {
+   "A": "2 atm",
+   "B": "1 atm",
+   "C": "3 atm",
+   "D": "4 atm"
+  },
+  "argue_for": "D"
+ }
+]

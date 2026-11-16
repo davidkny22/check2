@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794789570,
+ "finished_unix": 1794789788,
+ "reasons": [
+  {
+   "job_id": "expansion/logical_fallacies/166:C",
+   "reason": "Affirming the consequent means going from \"if P then Q\" plus Q to P, which treats the converse of the conditional as if it were true, so the converse error is the right name."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/166:D",
+   "reason": "The error comes from misreading the material conditional: Q being true tells you nothing about P under its truth table, so the mistake is best named after the material conditional it misuses."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/167:A",
+   "reason": "The genetic fallacy assumes a claim's worth is settled by where it came from, which smuggles the conclusion into the premise about its source, and that is the structure of begging the question."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/167:C",
+   "reason": "The word genetic points to genesis, the origin of something, so the genetic fallacy is the mistake of judging a claim by where it came from instead of by whether it holds up now."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/168:B",
+   "reason": "When the only support offered is that lots of people believe something, the argument is leaning on how widespread the view is, which is exactly what an appeal to popularity names."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/168:C",
+   "reason": "Treating the crowd's belief as proof turns the majority into an authority whose say-so settles the matter, so this is a form of appealing to authority rather than to evidence."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/169:A",
+   "reason": "Inferring that two things are alike overall because they share one feature is reasoning by comparison, and when the comparison rests on a single shared trait it becomes a false analogy."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/169:D",
+   "reason": "Calling two things the same because they share one characteristic lets a single label cover both, the way equivocation lets one word slide between two different things as if they were identical."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/17:A",
+   "reason": "An argument built on a definition too narrow for its concept fails because of how the term was defined, so the flaw is a definitional fallacy rather than a problem with the evidence."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/17:B",
+   "reason": "A narrow definition usually gets accepted because it matches what most people casually mean by the word, so the argument is really riding on popular usage, which is the ad populum move."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/170:A",
+   "reason": "The claim rests on the absence of proof that the formation is old, and treating a lack of disproof as evidence for the opposite is the exact shape of an appeal to ignorance."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/170:C",
+   "reason": "Saying the formation is young because nobody has proven it old assumes a property of the whole record carries over to each layer within it, a whole-to-part slide that is the division pattern."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/172:B",
+   "reason": "A definition that is too broad or too narrow makes the term mean something different from its ordinary sense, so the argument shifts between two meanings of one word, which is equivocation."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/172:D",
+   "reason": "The question is specifically about a definition failing to match the term it defines, either too broad or too narrow, and the fallacy of definition is the name for that failure."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/173:A",
+   "reason": "Non sequitur literally means \"it does not follow,\" which describes a conclusion that has no logical connection to the premise that was offered in support of it."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/173:D",
+   "reason": "Ad hominem replaces the actual issue with remarks about the person, so the premise about the speaker has no logical bearing on the conclusion, which is the unrelated premise described here."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/174:C",
+   "reason": "Concluding something is true because nothing has yet shown it false treats the earlier absence of refutation as what produced the truth, a sequence-to-cause leap that matches post hoc reasoning."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/174:D",
+   "reason": "Argumentum ad ignorantiam means arguing from ignorance, and taking the lack of any disproof as proof that a claim is true is what that Latin name describes."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/176:A",
+   "reason": "Dismissing the argument because of who the author is or where they work attacks the person rather than engaging the textual evidence, and that is what ad hominem means."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/176:D",
+   "reason": "Rejecting a scholar because of their institutional affiliation is about how much standing an institution confers, so the error is a misuse of authority, judging credibility by credentials instead of evidence."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/177:A",
+   "reason": "Rejecting an argument because of where it originated, rather than testing its merits, is the genetic fallacy, since that name refers to the source or genesis of an idea."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/177:C",
+   "reason": "Writing off an argument because of its origin usually means generalizing from a few bad ideas from that source to everything it produces, which is a hasty generalization about the source."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/178:A",
+   "reason": "Saying an action is necessary because there is no alternative usually comes with \"you have no better plan either,\" turning the challenge back on the critic, which is the tu quoque deflection."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/178:D",
+   "reason": "Claiming one course is necessary because no other alternatives exist, while ignoring viable options, artificially narrows the choices, and that narrowing is what a false dilemma is."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/179:A",
+   "reason": "The student's reasoning implies that if the advisor can't disprove one point, acceptance of the whole thesis follows down the line, one unchallenged step sliding into the next, which is a slippery slope."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/179:B",
+   "reason": "The student treats the advisor's failure to disprove the topic as proof that it is valid, and using a lack of disproof as positive evidence is an appeal to ignorance."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/180:C",
+   "reason": "Presenting only two opposing views as the whole range of options while a viable third alternative exists is the definition of a false dilemma, also called a false dichotomy."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/180:D",
+   "reason": "No true Scotsman works by excluding inconvenient cases from a category, and dismissing a viable third alternative as not a real option excludes it the same way to keep only two views."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/182:C",
+   "reason": "No true Scotsman protects a claim by redefining the group whenever a counterexample appears, so the claim becomes true by definition and the argument assumes what it sets out to prove."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/182:D",
+   "reason": "The fallacy works by shifting the definition of a group to exclude counterexamples, appealing to some pure version of the category, which is what an appeal to purity or definition means."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/183:C",
+   "reason": "Arguing that one step will set off a chain of increasingly bad consequences, so the first step must be avoided, is what the slippery slope fallacy describes."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/183:D",
+   "reason": "Calling the chain of bad events inevitable deflects criticism by pointing back at the other side's earlier choices that started it, which is the \"you did it too\" move called tu quoque."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/184:A",
+   "reason": "Misrepresenting an opponent's position so it is easier to knock down means building a weaker figure to attack instead of the real view, and that is a straw man."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/184:D",
+   "reason": "Misrepresenting the opponent's view shifts the discussion away from what they actually said onto a different target, and pulling attention onto an irrelevant substitute is how a red herring works."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/185:B",
+   "reason": "The scientist links the reef's health to the absence of bleaching as if that absence caused health, ignoring acidification as the real driver, which is attributing the outcome to the wrong cause."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/185:C",
+   "reason": "The conclusion that the reef is healthy rests only on nothing bad having been recorded, so a lack of evidence of harm is being treated as evidence of health, an appeal to ignorance."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/187:A",
+   "reason": "Calling the mentor's advice invalid because of how fast they finished the curriculum attacks a fact about the mentor personally instead of the content of the advice, which is ad hominem."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/187:B",
+   "reason": "The argument assumes that finishing slowly is what made the mentor's advice bad, linking two things with no demonstrated causal connection, which makes it a false cause error."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/188:A",
+   "reason": "Pointing out that the proponent doesn't live by their own claim targets their personal circumstances and conduct rather than the argument, which places it in the circumstantial branch of ad hominem."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/188:D",
+   "reason": "Rejecting an argument because the person making it doesn't follow it themselves is the \"you too\" charge of hypocrisy, and tu quoque is the Latin name for that move."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/190:B",
+   "reason": "Pinning identity crisis on one self-schema from a single correlation swaps the complex real account of identity development for a simplified version that is easy to defend, which is straw-man reasoning."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/190:D",
+   "reason": "The researcher sees two variables moving together in one study and concludes one produces the other, which is the error of reading causation into a mere correlation."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/191:A",
+   "reason": "Raising the threat of immediate bankruptcy pulls attention away from the actual question of whether the donor's restrictive terms are acceptable, and that diversion is how a red herring operates."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/191:B",
+   "reason": "The director frames the situation as having only two outcomes, accept these terms or go bankrupt, while ignoring other funding sources or negotiation, which makes it a false dilemma."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/193:C",
+   "reason": "The fallacy turns on a mismatch between a general rule and an unusual specific case, and converse accident is the name given to that rule-versus-exception mismatch."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/193:D",
+   "reason": "Applying a general rule rigidly to a specific case whose unusual features it was never meant to cover is the accident fallacy, sometimes called a sweeping generalization."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/194:A",
+   "reason": "Rejecting the policy by talking about the proponent's ethics instead of the policy itself replaces the real argument with a different, easier target to attack, which is what a straw man does."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/194:C",
+   "reason": "Rejecting a policy because its proponent is unethical attacks the person's character directly instead of the policy's merits, which is the abusive form of ad hominem."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/195:A",
+   "reason": "Assuming the conclusion in order to prove the premise never engages the point actually in dispute, so the argument sidesteps the real issue, which is how a red herring functions."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/195:D",
+   "reason": "When an argument only works because its conclusion is already assumed, the reasoning is circular, and begging the question is the name for assuming what you set out to prove."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/198:A",
+   "reason": "A small first step that supposedly sets off an inevitable chain of worsening events is the definition of the slippery slope fallacy, where each step is said to push you further down."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/198:C",
+   "reason": "Saying one first step will inevitably lead to a chain of bad events claims each event caused the next simply because it followed it, which is post hoc reasoning applied along the chain."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/2:B",
+   "reason": "Trusting a non-expert because they are a well-known figure relies on their public prominence rather than their expertise, so the conclusion rests on popularity rather than on relevant knowledge."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/2:D",
+   "reason": "Accepting a conclusion because a person seems authoritative, even though they lack expertise in the relevant field, is the misuse of authority that the appeal to authority fallacy names."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/200:B",
+   "reason": "Attacking someone's motives usually works by tying them to the interests of a group they belong to, implying their claim is tainted by those connections, which is guilt by association."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/200:D",
+   "reason": "Saying a claim is untrustworthy because the person stands to gain from it targets their circumstances and motives rather than the claim itself, which is the circumstantial form of ad hominem."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/201:A",
+   "reason": "Treating a small sample as if it speaks for a whole population draws a broad conclusion from too little evidence, and that rush to a general claim is a hasty generalization."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/201:C",
+   "reason": "Claiming a small sample represents the entire population assumes that what holds for a few parts must hold for the whole, and inferring from parts to the whole is the fallacy of composition."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/202:A",
+   "reason": "A valid argument with all true premises cannot possibly have a false conclusion, so its truth is guaranteed by structure and content together, which is what makes such an argument tautological."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/202:D",
+   "reason": "Validity only means the conclusion follows from the premises; once every premise is also true, the deductive argument is called sound, which is the full standard for a good deduction."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/204:C",
+   "reason": "Attacking an opponent's character or personal traits instead of their argument is aimed at the person, and ad hominem literally means \"to the person,\" so the name fits directly."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/204:D",
+   "reason": "Attacking the opponent personally rather than their argument often means pointing at their own flaws to discredit them, and tu quoque is the personal attack that targets the opponent's own behavior."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/205:C",
+   "reason": "The speaker leaps from a chef using the medicine to concluding it must be great, sliding through an unexamined chain of assumptions from one small fact to a sweeping verdict, the slippery slope pattern."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/205:D",
+   "reason": "A celebrity chef has no expertise in medicine, so trusting their use of a drug relies on someone whose authority doesn't extend to the topic, which is an appeal to inappropriate authority."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/207:C",
+   "reason": "When the middle term is not distributed, the premises never establish that members of the linking category stand in the needed relation, so the conclusion asserts more existence than the premises support, an existential fallacy."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/207:D",
+   "reason": "The middle term is what links the two premises, and if it is not distributed in at least one of them the link fails, which is the definition of the undistributed middle."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/208:A",
+   "reason": "Presenting two opposing options as the only possibilities while a middle ground exists is a false dilemma, since the dilemma is manufactured by hiding the other alternatives."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/208:D",
+   "reason": "Deciding there are only two possibilities after looking at a couple of familiar positions generalizes too quickly from limited cases to the whole range of options, which is a hasty generalization."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/209:B",
+   "reason": "Assuming every member of a group shares a trait just because the group as a whole is associated with it is what stereotyping does, applying a group label to each individual."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/209:D",
+   "reason": "Inferring that each member has a property because the group has it moves from the whole down to its parts, and that whole-to-part inference is the fallacy of division."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/21:B",
+   "reason": "Using emotionally charged words to sway an audience in place of real reasons is what loaded language means, since the words carry the persuasive weight instead of the argument."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/21:C",
+   "reason": "Emotionally charged language in arguments is usually aimed at the opponent, painting them in a bad light so the audience reacts to the person instead of the reasons, which makes it ad hominem."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/210:A",
+   "reason": "Distorting an opponent's argument is ultimately a way of making the opponent look foolish rather than engaging with what they said, which puts it in the ad hominem family of personal attacks."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/210:B",
+   "reason": "Misrepresenting an opponent's argument so it is easier to knock down means attacking a weaker stand-in instead of the real position, and that stand-in is the straw man."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/211:A",
+   "reason": "The error described is treating a condition that must be present as if its presence alone guarantees the outcome, which is the confusion between a necessary condition and a sufficient one."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/211:C",
+   "reason": "Necessary means \"if not P then not Q,\" and treating it as sufficient means reasoning from P to Q, mishandling the antecedent of the conditional in the way denying the antecedent describes."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/213:B",
+   "reason": "A term distributed in the conclusion but not in the premises means the conclusion says something about all of a class the premises covered only in part, which is the illicit process."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/213:D",
+   "reason": "The conclusion claims more about a term than the premises allowed, drawing a negative or universal result they never licensed, which is the same overreach as denying the antecedent."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/214:A",
+   "reason": "Assuming that what holds for the whole must hold for each of its parts divides a property of the whole among its pieces, and that is the fallacy of division."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/214:B",
+   "reason": "Assuming the parts share the whole's properties treats the parts as comparable to the whole in every respect, an unwarranted comparison that amounts to a false analogy between part and whole."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/215:A",
+   "reason": "An argument with valid logic and only true premises should persuade any reasonable person, and cogent is the term for an argument whose premises are true and whose reasoning compels acceptance."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/215:B",
+   "reason": "For a deductive argument, validity plus true premises is exactly what soundness means, and a sound argument guarantees that its conclusion is true as well."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/217:B",
+   "reason": "Concluding that a rule with exceptions must be invalid assumes a rule is either exceptionless or worthless, ignoring that it can hold generally, and that either-or framing is a false dilemma."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/217:D",
+   "reason": "The mistake is treating exceptions to a rule as if they cancel the rule entirely, and the exception fallacy is named for this misuse of exceptional cases against a general rule."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/218:B",
+   "reason": "Changing the subject usually works by sliding a key word into a different sense so the discussion drifts onto another topic, and that shift in meaning is equivocation."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/218:C",
+   "reason": "Diverting attention by switching to an irrelevant topic is the red herring, named after drawing hunting dogs off a trail with a strong-smelling distraction."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/219:A",
+   "reason": "Moving from a general rule to a specific conclusion that follows with certainty is how deduction works, since true premises in a valid deduction guarantee the conclusion."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/219:C",
+   "reason": "Applying a general rule to account for a specific case is what abduction does, taking a known rule and reasoning to the particular conclusion that best fits it."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/222:C",
+   "reason": "Arguing something is true because it has always been believed or done rests the whole case on long-standing practice, and that is what an appeal to tradition means."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/222:D",
+   "reason": "Saying a belief is right because it has always been held treats the existing state of things as automatically correct, which is the naturalistic fallacy of deriving what ought to be from what is."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/223:A",
+   "reason": "A valid argument only needs a structure where true premises would force a true conclusion, while a sound argument adds the requirement that the premises really are true."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/223:C",
+   "reason": "Validity is about whether an argument actually holds up as true, so it needs premises that are true, while soundness describes an argument whose logical structure is well-formed."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/224:A",
+   "reason": "Calling a statement false because its speaker has been inconsistent recasts their claim as a contradictory mess that is easy to dismiss, rather than addressing what they said, which is a straw man."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/224:B",
+   "reason": "Dismissing a claim because the speaker hasn't been consistent with it in their own conduct is the hypocrisy charge, and tu quoque, meaning \"you too,\" is the name for that."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/225:B",
+   "reason": "Rejecting a statement because it is hard to follow assumes that accepting one confusing idea would lead to accepting ever stranger ones, so the arguer stops at the first step, the slippery slope pattern."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/225:D",
+   "reason": "Deciding a statement must be false because one finds it hard to understand or believe treats personal disbelief as evidence, which is what the argument from incredulity names."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/226:C",
+   "reason": "Using one term in two different senses within the same argument, so the conclusion only follows by switching meanings partway through, is the definition of equivocation."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/226:D",
+   "reason": "When a term carries two meanings in one argument, the ambiguity lets the whole argument be read two ways, and amphiboly is the fallacy that arises from that kind of double meaning."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/228:B",
+   "reason": "Pointing to the comfort or hope a belief gives shifts attention from whether it is true to how it makes people feel, an irrelevant distraction from the real question, which is a red herring."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/228:D",
+   "reason": "Arguing a belief is true because believing it brings comfort or hope judges truth by the desirable effects of believing, and that is what an appeal to consequences does."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/229:A",
+   "reason": "Pointing to a group's enthusiasm draws attention away from the evidence for the claim toward who likes it, and steering the discussion off the actual question is what a red herring does."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/229:D",
+   "reason": "Arguing a claim is true because it is popular, whether across everyone or within one particular group, is ad populum, which means appealing to the people."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/23:A",
+   "reason": "The child claims one small exception will set off an unstoppable chain ending in total chaos, and that predicted cascade from a minor first step is the slippery slope."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/23:D",
+   "reason": "The child inflates the proposal from one rule exception into abandoning all rules, then attacks that distorted version instead of the modest request actually made, which is a straw man."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/230:B",
+   "reason": "Silence is a negative signal, no response at all, and assuming it hides agreement misreads that negative result, so the error is about a false negative in the evidence being read."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/230:C",
+   "reason": "Drawing a conclusion like consent from the mere fact that someone said nothing is reasoning from silence, and the argument from silence is the name for that inference."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/231:B",
+   "reason": "Rejecting a policy entirely because it has some negative effects compares it against a perfect solution that doesn't exist, and that unrealistic standard is what the nirvana fallacy describes."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/231:D",
+   "reason": "Rejecting a whole policy over some downsides treats its flaws as proof that its proposers can't be trusted, so the verdict is aimed at them rather than at weighing the policy, which is ad hominem."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/232:A",
+   "reason": "Misrepresenting an opponent's position usually means taking a word they used and reading it in a sense they didn't intend, so the attack lands on a shifted meaning, which is equivocation."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/232:D",
+   "reason": "Recasting an opponent's position as a weaker or distorted version so it can be knocked down easily, instead of answering the real view, is what a straw man is."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/233:A",
+   "reason": "Restating the conclusion in different words only looks like support because the new wording seems to mean something else, and passing one meaning off under two guises is a form of equivocation."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/233:B",
+   "reason": "If the premise is just the conclusion reworded, the argument runs in a circle and ends up supporting itself, which is what circular reasoning means."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/234:B",
+   "reason": "The learner assumes the path is correct because it was chosen, and it was chosen because it was assumed correct, so the reasoning presupposes its own conclusion, which is begging the question."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/234:C",
+   "reason": "Believing a path is correct simply because many others selected it treats popularity as evidence of correctness, which is the appeal to popularity, also known as the bandwagon effect."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/236:B",
+   "reason": "By bringing up the teacher's grammar, the student recasts the criticism as a demand for flawless writing, a distorted version they can easily wave away, which is a straw man."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/236:D",
+   "reason": "The student answers criticism by saying the teacher makes errors too, deflecting with the critic's own flaws instead of addressing the paragraph structure, which is tu quoque."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/237:A",
+   "reason": "Claiming an outcome is inevitable because of a chain of events that aren't necessarily connected is how a slippery slope argues, linking each step to the next without justification."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/237:C",
+   "reason": "If the events in the sequence are not linked, the supposedly inevitable outcome doesn't follow from them, and a conclusion that doesn't follow is literally what non sequitur means."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/238:A",
+   "reason": "A conclusion drawn from premises that have no real connection to it does not follow from them, and non sequitur is the Latin phrase for \"it does not follow.\""
+  },
+  {
+   "job_id": "expansion/logical_fallacies/238:D",
+   "reason": "Combining several unrelated premises into one conclusion assumes that pieces which don't support it individually will support it together, which is the part-to-whole error of composition."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/24:A",
+   "reason": "The middle term has to be distributed at least once to connect the major and minor terms, and failing to do that is what is called the fallacy of the undistributed middle."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/24:C",
+   "reason": "Distribution depends on how a premise is worded and which term gets the emphasis, so a middle term that ends up undistributed reflects a problem of emphasis, which is the fallacy of accent."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/240:B",
+   "reason": "An enthymeme is an argument with an unstated premise, so analyzing enthymemes is the skill of bringing those hidden assumptions to the surface and examining them."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/240:C",
+   "reason": "Identifying assumptions that aren't stated means working out what must be true for the premises to lead where they do, and drawing out what is logically implied is deductive inference."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/241:B",
+   "reason": "A fragmented narrative voice has no logical bearing on whether the author held coherent political views, so the conclusion does not follow from the premise, which makes it a non sequitur."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/241:C",
+   "reason": "The scholar assumes the author either wrote with a unified voice or had no political intent at all, ignoring that fragmentation could itself be deliberate, which is a false dilemma."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/242:A",
+   "reason": "Post hoc ergo propter hoc translates to \"after this, therefore because of this,\" which names the mistake of assuming the earlier event caused the later one just from their order."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/242:B",
+   "reason": "The Latin cum hoc ergo propter hoc covers concluding causation from events that go together, and two events happening one right after the other is that kind of co-occurrence taken as cause."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/244:A",
+   "reason": "Arguing as though only two outcomes exist usually comes from imagining one choice sliding all the way to an extreme, so the middle options vanish, which is the slippery slope at work."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/244:B",
+   "reason": "Presenting only two options when others are available forces an artificial choice on the audience, and that manufactured either-or is the false dilemma."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/245:A",
+   "reason": "The claim assumes cloud adoption means losing control, then treats losing control as the reason adoption is dangerous, so the conclusion is built into the premise, which is circular reasoning."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/245:B",
+   "reason": "Saying one move to cloud computing will inevitably end in total loss of corporate control predicts an unstoppable chain from a single step to an extreme outcome, which is a slippery slope."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/246:A",
+   "reason": "A small first step said to inevitably trigger a chain of related negative events is the slippery slope, where one move supposedly sends everything sliding downhill."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/246:B",
+   "reason": "Claiming one small first step inevitably produces the whole chain of later events reduces a complex outcome to a single cause, which is the oversimplification called causal reductionism."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/247:C",
+   "reason": "Arguing that any change to the protocols will inevitably end in total anarchy predicts an unstoppable chain from a small step to an extreme result, which is the slippery slope pattern."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/247:D",
+   "reason": "The argument defends traditional hierarchical protocols against any modification, treating the established way as the only safe one, which makes it at its core an appeal to tradition."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/248:A",
+   "reason": "When a conclusion does not logically follow from its premises, the Latin term for that is non sequitur, which translates directly as \"it does not follow.\""
+  },
+  {
+   "job_id": "expansion/logical_fallacies/248:C",
+   "reason": "An argument whose conclusion doesn't follow from its premises often only seems to work because the conclusion was assumed somewhere along the way, so the reasoning loops back on itself."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/249:A",
+   "reason": "Inferring that the whole application is efficient because one of its modules is efficient carries a property from a part up to the whole, which is the fallacy of composition."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/249:C",
+   "reason": "The reasoning treats the application as either efficient like its module or not efficient at all, ignoring that some parts can be fast while others drag, which is a false dilemma."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/25:A",
+   "reason": "The question describes reasoning from \"if P then Q\" and Q being true to P being true, and that exact move is named affirming the consequent."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/25:B",
+   "reason": "Affirming the consequent has the same shape as a syllogism where the shared term only ever sits in the predicate position, all P are Q and this is Q, so it reduces to an undistributed middle."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/250:A",
+   "reason": "Appealing to the desire to be liked plays on the audience's feelings and need for acceptance rather than on reasons, and emotional appeals like that fall under ad misericordiam."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/250:D",
+   "reason": "Winning support by pointing to a view's popularity or to people's wish to be liked and belong appeals to the crowd, and ad populum means appealing to the people."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/251:A",
+   "reason": "Claiming one contraction will inevitably make the whole manuscript incoherent predicts an unstoppable chain from a tiny step to an extreme result, which is a slippery slope."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/251:B",
+   "reason": "The advice distorts the student's modest choice of one contraction into a commitment to sloppy, unreadable writing, attacking that exaggerated version instead of what the student did, which is a straw man."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/252:A",
+   "reason": "Refusing to define the motive because it isn't stated suggests that once you start inferring from implicit cues, any reading at all becomes possible, a slide that reflects slippery slope reasoning."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/252:B",
+   "reason": "Concluding the motive is undefined just because the text doesn't state it treats the absence of explicit evidence as proof of absence, which is an appeal to ignorance."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/253:A",
+   "reason": "Shifting to a different, irrelevant topic to pull attention away from the original issue is a red herring, since the new topic works as a decoy that throws the discussion off course."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/253:B",
+   "reason": "Changing the subject to divert attention means going after some other topic instead of the actual position under discussion, and replacing the real issue with an easier target is a straw man."
+  }
+ ]
+}

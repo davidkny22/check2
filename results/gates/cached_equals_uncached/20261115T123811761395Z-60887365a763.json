@@ -1,0 +1,289 @@
+{
+ "builtin_path": true,
+ "commit": "60887365a763dfb8751a551cb0e2c5e2dc8f9c27",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T12:38:11+00:00",
+ "gpu": "NVIDIA L4",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "full",
+ "name": "cached_equals_uncached",
+ "planted": true,
+ "seconds": 144.9,
+ "session": "c2-a",
+ "started": "2026-11-15T12:35:46+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "additions_arm": {
+   "short": {
+    "first_disagreements": [
+     {
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 248046,
+      "got": 20273,
+      "step": 1,
+      "top_two_margin": 0.26937294006347656
+     },
+     {
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 248046,
+      "got": 220,
+      "step": 1,
+      "top_two_margin": 0.2519378662109375
+     },
+     {
+      "episode_id": "college_computer_science/32:reasoned:short:C",
+      "expected": 248046,
+      "got": 64,
+      "step": 1,
+      "top_two_margin": 0.40279293060302734
+     },
+     {
+      "episode_id": "astronomy/98:bare:short:-",
+      "expected": 248046,
+      "got": 96011,
+      "step": 1,
+      "top_two_margin": 0.25411033630371094
+     },
+     {
+      "episode_id": "high_school_microeconomics/87:bare:short:-",
+      "expected": 248046,
+      "got": 103817,
+      "step": 1,
+      "top_two_margin": 0.5036020278930664
+     },
+     {
+      "episode_id": "philosophy/89:bare:short:-",
+      "expected": 248068,
+      "got": 273,
+      "step": 1,
+      "top_two_margin": 0.9292984008789062
+     },
+     {
+      "episode_id": "formal_logic/38:reasoned:short:A",
+      "expected": 564,
+      "got": 59,
+      "step": 1,
+      "top_two_margin": 0.7907066345214844
+     },
+     {
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 248046,
+      "got": 370,
+      "step": 1,
+      "top_two_margin": 0.6361942291259766
+     },
+     {
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 248046,
+      "got": 2939,
+      "step": 1,
+      "top_two_margin": 0.9868459701538086
+     },
+     {
+      "episode_id": "management/64:reasoned:short:B",
+      "expected": 248046,
+      "got": 471,
+      "step": 1,
+      "top_two_margin": 0.6438913345336914
+     },
+     {
+      "episode_id": "college_mathematics/48:bare:short:-",
+      "expected": 279,
+      "got": 5513,
+      "step": 1,
+      "top_two_margin": 0.09611892700195312
+     },
+     {
+      "episode_id": "high_school_geography/16:reasoned:short:B",
+      "expected": 248046,
+      "got": 220,
+      "step": 1,
+      "top_two_margin": 4.373271942138672
+     },
+     {
+      "episode_id": "professional_accounting/10:bare:short:-",
+      "expected": 1074,
+      "got": 21,
+      "step": 1,
+      "top_two_margin": 0.395263671875
+     },
+     {
+      "episode_id": "college_computer_science/91:bare:short:-",
+      "expected": 248046,
+      "got": 95762,
+      "step": 1,
+      "top_two_margin": 0.3773384094238281
+     },
+     {
+      "episode_id": "management/28:named:short:C",
+      "expected": 248046,
+      "got": 95738,
+      "step": 1,
+      "top_two_margin": 0.2105560302734375
+     },
+     {
+      "episode_id": "econometrics/60:named:short:D",
+      "expected": 248046,
+      "got": 119065,
+      "step": 1,
+      "top_two_margin": 0.1287226676940918
+     }
+    ],
+    "rows": 16,
+    "rows_disagreeing": 16,
+    "rows_ended_inside_the_cap": 15,
+    "steps_compared": 305
+   },
+   "snap": {
+    "first_disagreements": [
+     {
+      "episode_id": "formal_logic/29:reasoned:snap:B",
+      "expected": 248046,
+      "got": 29,
+      "step": 1,
+      "top_two_margin": 1.2518367767333984
+     },
+     {
+      "episode_id": "college_physics/69:reasoned:snap:B",
+      "expected": 248046,
+      "got": 2228,
+      "step": 1,
+      "top_two_margin": 0.5628509521484375
+     },
+     {
+      "episode_id": "college_computer_science/32:reasoned:snap:C",
+      "expected": 248046,
+      "got": 1424,
+      "step": 1,
+      "top_two_margin": 0.3502311706542969
+     },
+     {
+      "episode_id": "astronomy/98:bare:snap:-",
+      "expected": 248046,
+      "got": 95844,
+      "step": 1,
+      "top_two_margin": 0.4248361587524414
+     },
+     {
+      "episode_id": "high_school_microeconomics/87:bare:snap:-",
+      "expected": 248046,
+      "got": 97822,
+      "step": 1,
+      "top_two_margin": 0.012588024139404297
+     },
+     {
+      "episode_id": "philosophy/89:bare:snap:-",
+      "expected": 248046,
+      "got": 268,
+      "step": 1,
+      "top_two_margin": 1.5472707748413086
+     },
+     {
+      "episode_id": "formal_logic/38:reasoned:snap:A",
+      "expected": 248046,
+      "got": 58,
+      "step": 1,
+      "top_two_margin": 0.4772319793701172
+     },
+     {
+      "episode_id": "philosophy/96:reasoned:snap:A",
+      "expected": 248046,
+      "got": 5205,
+      "step": 1,
+      "top_two_margin": 0.13044452667236328
+     },
+     {
+      "episode_id": "management/63:reasoned:snap:B",
+      "expected": 248046,
+      "got": 169306,
+      "step": 1,
+      "top_two_margin": 0.32912540435791016
+     },
+     {
+      "episode_id": "management/64:reasoned:snap:B",
+      "expected": 228,
+      "got": 98801,
+      "step": 1,
+      "top_two_margin": 0.28709983825683594
+     },
+     {
+      "episode_id": "college_mathematics/48:bare:snap:-",
+      "expected": 248046,
+      "got": 6,
+      "step": 1,
+      "top_two_margin": 0.11990547180175781
+     },
+     {
+      "episode_id": "high_school_geography/16:reasoned:snap:B",
+      "expected": 248046,
+      "got": 95726,
+      "step": 1,
+      "top_two_margin": 0.12801456451416016
+     },
+     {
+      "episode_id": "professional_accounting/10:bare:snap:-",
+      "expected": 248046,
+      "got": 448,
+      "step": 1,
+      "top_two_margin": 0.6748170852661133
+     },
+     {
+      "episode_id": "college_computer_science/91:bare:snap:-",
+      "expected": 248046,
+      "got": 96891,
+      "step": 1,
+      "top_two_margin": 0.7471647262573242
+     },
+     {
+      "episode_id": "management/28:named:snap:C",
+      "expected": 248046,
+      "got": 6,
+      "step": 1,
+      "top_two_margin": 3.0133962631225586
+     },
+     {
+      "episode_id": "econometrics/60:named:snap:D",
+      "expected": 248046,
+      "got": 98709,
+      "step": 1,
+      "top_two_margin": 0.4809732437133789
+     }
+    ],
+    "rows": 16,
+    "rows_disagreeing": 16,
+    "rows_ended_inside_the_cap": 16,
+    "steps_compared": 33
+   }
+  },
+  "control_arm": {
+   "short": {
+    "first_disagreements": [],
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 11,
+    "steps_compared": 2397
+   },
+   "snap": {
+    "first_disagreements": [],
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 16,
+    "steps_compared": 33
+   }
+  },
+  "control_arm_agrees": true,
+  "green": false
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

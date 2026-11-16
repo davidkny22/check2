@@ -1,0 +1,1652 @@
+[
+ {
+  "job_id": "expansion/high_school_computer_science/135:B",
+  "question": "Which of the following best describes the time complexity of inserting an element at the beginning of a Python list of size n?",
+  "options": {
+   "A": "O(log n)",
+   "B": "O(n)",
+   "C": "O(1)",
+   "D": "O(n log n)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/135:D",
+  "question": "Which of the following best describes the time complexity of inserting an element at the beginning of a Python list of size n?",
+  "options": {
+   "A": "O(log n)",
+   "B": "O(n)",
+   "C": "O(1)",
+   "D": "O(n log n)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/136:A",
+  "question": "What does the `__init__` method do in a Python class?",
+  "options": {
+   "A": "It initializes the class definition",
+   "B": "It initializes the attributes of an object when it is created",
+   "C": "It creates a new instance of the class",
+   "D": "It handles the deletion of an object"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/136:B",
+  "question": "What does the `__init__` method do in a Python class?",
+  "options": {
+   "A": "It initializes the class definition",
+   "B": "It initializes the attributes of an object when it is created",
+   "C": "It creates a new instance of the class",
+   "D": "It handles the deletion of an object"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/138:C",
+  "question": "Which of the following is NOT a valid Python identifier?",
+  "options": {
+   "A": "var_2",
+   "B": "_my_var",
+   "C": "__init__",
+   "D": "2var"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/138:D",
+  "question": "Which of the following is NOT a valid Python identifier?",
+  "options": {
+   "A": "var_2",
+   "B": "_my_var",
+   "C": "__init__",
+   "D": "2var"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/140:A",
+  "question": "What is the purpose of a constructor in a class?",
+  "options": {
+   "A": "To delete an object",
+   "B": "To define methods",
+   "C": "To inherit properties",
+   "D": "To initialize a new object"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/140:D",
+  "question": "What is the purpose of a constructor in a class?",
+  "options": {
+   "A": "To delete an object",
+   "B": "To define methods",
+   "C": "To inherit properties",
+   "D": "To initialize a new object"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/142:C",
+  "question": "What is the output of the following Python code?\n`print(set([1, 2, 2, 3, 3, 3]))`",
+  "options": {
+   "A": "{1, 2, 2, 3, 3, 3}",
+   "B": "[1, 2, 3]",
+   "C": "(1, 2, 3)",
+   "D": "{1, 2, 3}"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/142:D",
+  "question": "What is the output of the following Python code?\n`print(set([1, 2, 2, 3, 3, 3]))`",
+  "options": {
+   "A": "{1, 2, 2, 3, 3, 3}",
+   "B": "[1, 2, 3]",
+   "C": "(1, 2, 3)",
+   "D": "{1, 2, 3}"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/143:C",
+  "question": "What does the `is` operator check in Python?",
+  "options": {
+   "A": "If two variables have the same value",
+   "B": "If one object is a subclass of another",
+   "C": "If two variables refer to the same object in memory",
+   "D": "If a variable is not None"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/143:D",
+  "question": "What does the `is` operator check in Python?",
+  "options": {
+   "A": "If two variables have the same value",
+   "B": "If one object is a subclass of another",
+   "C": "If two variables refer to the same object in memory",
+   "D": "If a variable is not None"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/144:A",
+  "question": "What does the `__str__` method in a Python class determine?",
+  "options": {
+   "A": "How the object is represented as a string for the user",
+   "B": "How the object is deleted by the garbage collector",
+   "C": "How the object is compared using the == operator",
+   "D": "How the object is stored in memory"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/144:D",
+  "question": "What does the `__str__` method in a Python class determine?",
+  "options": {
+   "A": "How the object is represented as a string for the user",
+   "B": "How the object is deleted by the garbage collector",
+   "C": "How the object is compared using the == operator",
+   "D": "How the object is stored in memory"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/148:C",
+  "question": "Evaluate the following expression: `2 ** 3 ** 2`",
+  "options": {
+   "A": "64",
+   "B": "81",
+   "C": "512",
+   "D": "128"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/148:D",
+  "question": "Evaluate the following expression: `2 ** 3 ** 2`",
+  "options": {
+   "A": "64",
+   "B": "81",
+   "C": "512",
+   "D": "128"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/15:B",
+  "question": "Evaluate the following pseudocode and determine the final value of 'sum':\n\nSET sum TO 0\nSET i TO 1\nWHILE i <= 10:\n    IF (i MOD 2 == 0):\n        sum = sum + i\n    END IF\n    i = i + 1\nEND WHILE",
+  "options": {
+   "A": "55",
+   "B": "25",
+   "C": "30",
+   "D": "10"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/15:C",
+  "question": "Evaluate the following pseudocode and determine the final value of 'sum':\n\nSET sum TO 0\nSET i TO 1\nWHILE i <= 10:\n    IF (i MOD 2 == 0):\n        sum = sum + i\n    END IF\n    i = i + 1\nEND WHILE",
+  "options": {
+   "A": "55",
+   "B": "25",
+   "C": "30",
+   "D": "10"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/150:B",
+  "question": "Optimizing the Node.js event loop requires understanding of non-blocking I/O concepts. Which keyword is used in Python to define a coroutine that can be awaited?",
+  "options": {
+   "A": "yield",
+   "B": "function",
+   "C": "async",
+   "D": "await"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/150:C",
+  "question": "Optimizing the Node.js event loop requires understanding of non-blocking I/O concepts. Which keyword is used in Python to define a coroutine that can be awaited?",
+  "options": {
+   "A": "yield",
+   "B": "function",
+   "C": "async",
+   "D": "await"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/157:B",
+  "question": "What is the output of the following Python code?\n\nprint(10 >> 1)",
+  "options": {
+   "A": "9",
+   "B": "5",
+   "C": "20",
+   "D": "11"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/157:C",
+  "question": "What is the output of the following Python code?\n\nprint(10 >> 1)",
+  "options": {
+   "A": "9",
+   "B": "5",
+   "C": "20",
+   "D": "11"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/16:B",
+  "question": "Which of the following best describes a 'stable' sorting algorithm?",
+  "options": {
+   "A": "It uses O(1) auxiliary space",
+   "B": "It preserves the relative order of records with equal keys",
+   "C": "It finishes in linear time",
+   "D": "It can sort data that does not fit in main memory"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/16:D",
+  "question": "Which of the following best describes a 'stable' sorting algorithm?",
+  "options": {
+   "A": "It uses O(1) auxiliary space",
+   "B": "It preserves the relative order of records with equal keys",
+   "C": "It finishes in linear time",
+   "D": "It can sort data that does not fit in main memory"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/160:B",
+  "question": "From the perspective of scaffolding digital credentials for workforce readiness, which Python syntax construction best demonstrates a learner's mastery of error handling protocols required for industry-standard data ingestion pipelines?",
+  "options": {
+   "A": "Relying on the operating system to automatically close file handles after execution.",
+   "B": "Using a simple if-else statement to check for file existence before opening.",
+   "C": "Implementing a try-except-finally block to manage file I/O exceptions and ensure resource closure.",
+   "D": "Wrapping the entire script in a global exception handler to prevent crashes."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/160:C",
+  "question": "From the perspective of scaffolding digital credentials for workforce readiness, which Python syntax construction best demonstrates a learner's mastery of error handling protocols required for industry-standard data ingestion pipelines?",
+  "options": {
+   "A": "Relying on the operating system to automatically close file handles after execution.",
+   "B": "Using a simple if-else statement to check for file existence before opening.",
+   "C": "Implementing a try-except-finally block to manage file I/O exceptions and ensure resource closure.",
+   "D": "Wrapping the entire script in a global exception handler to prevent crashes."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/162:A",
+  "question": "Which of the following is the correct time complexity for accessing an element in a Python dictionary by key?",
+  "options": {
+   "A": "O(n^2)",
+   "B": "O(1) average",
+   "C": "O(log n)",
+   "D": "O(n)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/162:B",
+  "question": "Which of the following is the correct time complexity for accessing an element in a Python dictionary by key?",
+  "options": {
+   "A": "O(n^2)",
+   "B": "O(1) average",
+   "C": "O(log n)",
+   "D": "O(n)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/163:B",
+  "question": "In the context of Big O notation, if an algorithm's time complexity is O(n log n), how does its performance scale relative to an algorithm with O(n^2) complexity as the input size n becomes very large?",
+  "options": {
+   "A": "It scales quadratically",
+   "B": "It scales linearly",
+   "C": "It scales more efficiently than the O(n^2) algorithm",
+   "D": "It scales less efficiently than the O(n^2) algorithm"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/163:C",
+  "question": "In the context of Big O notation, if an algorithm's time complexity is O(n log n), how does its performance scale relative to an algorithm with O(n^2) complexity as the input size n becomes very large?",
+  "options": {
+   "A": "It scales quadratically",
+   "B": "It scales linearly",
+   "C": "It scales more efficiently than the O(n^2) algorithm",
+   "D": "It scales less efficiently than the O(n^2) algorithm"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/164:A",
+  "question": "What is the output of `print(2 << 2)`?",
+  "options": {
+   "A": "6",
+   "B": "8",
+   "C": "4",
+   "D": "10"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/164:B",
+  "question": "What is the output of `print(2 << 2)`?",
+  "options": {
+   "A": "6",
+   "B": "8",
+   "C": "4",
+   "D": "10"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/165:A",
+  "question": "In bioinformatics, when parsing a HELM notation string representing an RNA oligonucleotide in Python, which data structure is most appropriate for storing the sequence of monomers and their modifications?",
+  "options": {
+   "A": "Comma-separated string",
+   "B": "Nested XML tree",
+   "C": "List of dictionaries or custom objects",
+   "D": "Single integer hash"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/165:C",
+  "question": "In bioinformatics, when parsing a HELM notation string representing an RNA oligonucleotide in Python, which data structure is most appropriate for storing the sequence of monomers and their modifications?",
+  "options": {
+   "A": "Comma-separated string",
+   "B": "Nested XML tree",
+   "C": "List of dictionaries or custom objects",
+   "D": "Single integer hash"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/166:A",
+  "question": "What is the main function of an operating system?",
+  "options": {
+   "A": "To create web pages",
+   "B": "To compile code",
+   "C": "To design databases",
+   "D": "To manage hardware and software resources"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/166:D",
+  "question": "What is the main function of an operating system?",
+  "options": {
+   "A": "To create web pages",
+   "B": "To compile code",
+   "C": "To design databases",
+   "D": "To manage hardware and software resources"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/168:B",
+  "question": "In Python, what happens if you attempt to modify a tuple after it has been created?",
+  "options": {
+   "A": "It creates a new tuple automatically",
+   "B": "It raises a TypeError",
+   "C": "It returns None",
+   "D": "It modifies the element in place"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/168:D",
+  "question": "In Python, what happens if you attempt to modify a tuple after it has been created?",
+  "options": {
+   "A": "It creates a new tuple automatically",
+   "B": "It raises a TypeError",
+   "C": "It returns None",
+   "D": "It modifies the element in place"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/169:A",
+  "question": "When defining a function in Python that accepts a variable number of positional arguments, which syntax is correct?",
+  "options": {
+   "A": "def func(*args):",
+   "B": "def func(#args)",
+   "C": "def func(**args):",
+   "D": "def func(&args):"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/169:C",
+  "question": "When defining a function in Python that accepts a variable number of positional arguments, which syntax is correct?",
+  "options": {
+   "A": "def func(*args):",
+   "B": "def func(#args)",
+   "C": "def func(**args):",
+   "D": "def func(&args):"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/17:A",
+  "question": "What does the `yield` keyword do in a Python function?",
+  "options": {
+   "A": "It terminates the function and returns a value",
+   "B": "It allows the function to return multiple values as a list",
+   "C": "It forces the function to run in a separate thread",
+   "D": "It pauses the function and returns a generator object"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/17:D",
+  "question": "What does the `yield` keyword do in a Python function?",
+  "options": {
+   "A": "It terminates the function and returns a value",
+   "B": "It allows the function to return multiple values as a list",
+   "C": "It forces the function to run in a separate thread",
+   "D": "It pauses the function and returns a generator object"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/170:C",
+  "question": "In a binary search algorithm, what is the requirement for the input array?",
+  "options": {
+   "A": "It must contain only unique elements",
+   "B": "It must be unsorted",
+   "C": "It must be a power of 2 in length",
+   "D": "It must be sorted"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/170:D",
+  "question": "In a binary search algorithm, what is the requirement for the input array?",
+  "options": {
+   "A": "It must contain only unique elements",
+   "B": "It must be unsorted",
+   "C": "It must be a power of 2 in length",
+   "D": "It must be sorted"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/171:A",
+  "question": "For optimizing marker clustering in a mobile mapping application with millions of points, which spatial data structure allows for efficient range queries and nearest-neighbor searches?",
+  "options": {
+   "A": "QuadTree",
+   "B": "Linked List",
+   "C": "Hash Map",
+   "D": "Binary Search Tree"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/171:B",
+  "question": "For optimizing marker clustering in a mobile mapping application with millions of points, which spatial data structure allows for efficient range queries and nearest-neighbor searches?",
+  "options": {
+   "A": "QuadTree",
+   "B": "Linked List",
+   "C": "Hash Map",
+   "D": "Binary Search Tree"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/172:B",
+  "question": "Solving dynamic height adjustments in web layouts often involves parsing numeric values. What will 'float(\"10px\")' return in Python?",
+  "options": {
+   "A": "10",
+   "B": "It strips 'px' and returns 10.0",
+   "C": "10.0",
+   "D": "It raises a ValueError"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/172:D",
+  "question": "Solving dynamic height adjustments in web layouts often involves parsing numeric values. What will 'float(\"10px\")' return in Python?",
+  "options": {
+   "A": "10",
+   "B": "It strips 'px' and returns 10.0",
+   "C": "10.0",
+   "D": "It raises a ValueError"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/173:C",
+  "question": "In a Spring Data MongoDB application, which annotation is used to map a Java class field to a specific document field name that differs from the field's variable name?",
+  "options": {
+   "A": "@Column",
+   "B": "@Id",
+   "C": "@Field",
+   "D": "@Document"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/173:D",
+  "question": "In a Spring Data MongoDB application, which annotation is used to map a Java class field to a specific document field name that differs from the field's variable name?",
+  "options": {
+   "A": "@Column",
+   "B": "@Id",
+   "C": "@Field",
+   "D": "@Document"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/175:B",
+  "question": "What is the output of the following Python code?\n\nprint(type([]))",
+  "options": {
+   "A": "<class 'array'>",
+   "B": "<class 'list'>",
+   "C": "<class 'set'>",
+   "D": "<class 'tuple'>"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/175:D",
+  "question": "What is the output of the following Python code?\n\nprint(type([]))",
+  "options": {
+   "A": "<class 'array'>",
+   "B": "<class 'list'>",
+   "C": "<class 'set'>",
+   "D": "<class 'tuple'>"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/177:C",
+  "question": "In the precise articulation of atmospheric data processing workflows, which pseudocode segment correctly represents the logical flow for filtering particulate matter readings that exceed a specific threshold while maintaining data integrity?",
+  "options": {
+   "A": "IF reading > threshold THEN FOR each reading IN dataset add to list END IF",
+   "B": "FOR each reading IN dataset add to list IF reading > threshold END FOR",
+   "C": "FOR each reading IN dataset IF reading > threshold THEN add to list END IF END FOR",
+   "D": "WHILE reading > threshold DO add to list READ next reading END WHILE"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/177:D",
+  "question": "In the precise articulation of atmospheric data processing workflows, which pseudocode segment correctly represents the logical flow for filtering particulate matter readings that exceed a specific threshold while maintaining data integrity?",
+  "options": {
+   "A": "IF reading > threshold THEN FOR each reading IN dataset add to list END IF",
+   "B": "FOR each reading IN dataset add to list IF reading > threshold END FOR",
+   "C": "FOR each reading IN dataset IF reading > threshold THEN add to list END IF END FOR",
+   "D": "WHILE reading > threshold DO add to list READ next reading END WHILE"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/178:A",
+  "question": "To extract the domain name from a URL string in a Google Sheets formula without using Apps Script, which combination of functions is most robust?",
+  "options": {
+   "A": "REGEXEXTRACT and SUBSTITUTE",
+   "B": "MID and LEN",
+   "C": "LEFT and FIND",
+   "D": "TRIM and CLEAN"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/178:D",
+  "question": "To extract the domain name from a URL string in a Google Sheets formula without using Apps Script, which combination of functions is most robust?",
+  "options": {
+   "A": "REGEXEXTRACT and SUBSTITUTE",
+   "B": "MID and LEN",
+   "C": "LEFT and FIND",
+   "D": "TRIM and CLEAN"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/179:A",
+  "question": "Consider the following pseudocode:\nSET total = 0\nFOR i FROM 1 TO 5:\n  FOR j FROM 1 TO i:\n    total = total + 1\nEND FOR\nWhat is the final value of total?",
+  "options": {
+   "A": "15",
+   "B": "5",
+   "C": "10",
+   "D": "25"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/179:B",
+  "question": "Consider the following pseudocode:\nSET total = 0\nFOR i FROM 1 TO 5:\n  FOR j FROM 1 TO i:\n    total = total + 1\nEND FOR\nWhat is the final value of total?",
+  "options": {
+   "A": "15",
+   "B": "5",
+   "C": "10",
+   "D": "25"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/18:B",
+  "question": "What is the result of the following Python expression: `bool([0])`?",
+  "options": {
+   "A": "False",
+   "B": "None",
+   "C": "True",
+   "D": "TypeError"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/18:C",
+  "question": "What is the result of the following Python expression: `bool([0])`?",
+  "options": {
+   "A": "False",
+   "B": "None",
+   "C": "True",
+   "D": "TypeError"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/182:B",
+  "question": "Ethical scraping requires precise logic to respect rate limits and data structures. Consider this list comprehension designed to filter valid URLs:\n\nurls = [u for u in raw_data if u.startswith('http')]\n\nIf 'raw_data' contains mixed types including integers and None values, what will happen when this line executes?",
+  "options": {
+   "A": "It will convert all items to strings before checking the prefix",
+   "B": "It will raise an AttributeError because integers do not have 'startswith'",
+   "C": "It will return an empty list because the condition fails for non-strings",
+   "D": "It will silently skip non-string items and return only valid URLs"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/182:D",
+  "question": "Ethical scraping requires precise logic to respect rate limits and data structures. Consider this list comprehension designed to filter valid URLs:\n\nurls = [u for u in raw_data if u.startswith('http')]\n\nIf 'raw_data' contains mixed types including integers and None values, what will happen when this line executes?",
+  "options": {
+   "A": "It will convert all items to strings before checking the prefix",
+   "B": "It will raise an AttributeError because integers do not have 'startswith'",
+   "C": "It will return an empty list because the condition fails for non-strings",
+   "D": "It will silently skip non-string items and return only valid URLs"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/183:A",
+  "question": "Which data structure is most efficient for implementing a First-In-First-Out (FIFO) queue in Python?",
+  "options": {
+   "A": "collections.deque",
+   "B": "List",
+   "C": "Dictionary",
+   "D": "Set"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/183:C",
+  "question": "Which data structure is most efficient for implementing a First-In-First-Out (FIFO) queue in Python?",
+  "options": {
+   "A": "collections.deque",
+   "B": "List",
+   "C": "Dictionary",
+   "D": "Set"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/184:A",
+  "question": "In the context of sorting algorithms, which one has the best average-case time complexity?",
+  "options": {
+   "A": "Selection Sort",
+   "B": "Insertion Sort",
+   "C": "Bubble Sort",
+   "D": "Merge Sort"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/184:D",
+  "question": "In the context of sorting algorithms, which one has the best average-case time complexity?",
+  "options": {
+   "A": "Selection Sort",
+   "B": "Insertion Sort",
+   "C": "Bubble Sort",
+   "D": "Merge Sort"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/187:A",
+  "question": "Which of the following is the correct way to check if a key exists in a dictionary `d`?",
+  "options": {
+   "A": "if 'key' in d:",
+   "B": "if d['key'] == True:",
+   "C": "if d.contains('key'):",
+   "D": "if d.has_key('key'):"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/187:C",
+  "question": "Which of the following is the correct way to check if a key exists in a dictionary `d`?",
+  "options": {
+   "A": "if 'key' in d:",
+   "B": "if d['key'] == True:",
+   "C": "if d.contains('key'):",
+   "D": "if d.has_key('key'):"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/19:B",
+  "question": "As we bridge theoretical computer science with professional data practice, understanding memory management is essential for career readiness. When a Python script creates a large list of integers and then reassigns the variable to a new list without deleting the old one, what mechanism ensures that the memory occupied by the original list is eventually reclaimed?",
+  "options": {
+   "A": "The programmer must manually invoke a memory deallocation function to free the resources.",
+   "B": "The garbage collector identifies the unreferenced object and automatically frees the memory.",
+   "C": "The memory remains allocated until the computer is restarted to prevent data loss.",
+   "D": "The operating system immediately formats the drive sector to clear the data."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/19:D",
+  "question": "As we bridge theoretical computer science with professional data practice, understanding memory management is essential for career readiness. When a Python script creates a large list of integers and then reassigns the variable to a new list without deleting the old one, what mechanism ensures that the memory occupied by the original list is eventually reclaimed?",
+  "options": {
+   "A": "The programmer must manually invoke a memory deallocation function to free the resources.",
+   "B": "The garbage collector identifies the unreferenced object and automatically frees the memory.",
+   "C": "The memory remains allocated until the computer is restarted to prevent data loss.",
+   "D": "The operating system immediately formats the drive sector to clear the data."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/190:A",
+  "question": "For calculating the required sample size in a clinical trial with a binary outcome, which statistical distribution forms the basis of the power analysis formula?",
+  "options": {
+   "A": "Exponential distribution",
+   "B": "Binomial distribution",
+   "C": "Uniform distribution",
+   "D": "Poisson distribution"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/190:B",
+  "question": "For calculating the required sample size in a clinical trial with a binary outcome, which statistical distribution forms the basis of the power analysis formula?",
+  "options": {
+   "A": "Exponential distribution",
+   "B": "Binomial distribution",
+   "C": "Uniform distribution",
+   "D": "Poisson distribution"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/191:A",
+  "question": "Which JavaScript array method creates a new array populated with the results of calling a provided function on every element in the calling array, adhering to functional programming principles?",
+  "options": {
+   "A": "map()",
+   "B": "filter()",
+   "C": "forEach()",
+   "D": "reduce()"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/191:D",
+  "question": "Which JavaScript array method creates a new array populated with the results of calling a provided function on every element in the calling array, adhering to functional programming principles?",
+  "options": {
+   "A": "map()",
+   "B": "filter()",
+   "C": "forEach()",
+   "D": "reduce()"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/192:A",
+  "question": "What is the time complexity of inserting an element at the beginning of a standard Python list?",
+  "options": {
+   "A": "O(n)",
+   "B": "O(1)",
+   "C": "O(n log n)",
+   "D": "O(log n)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/192:B",
+  "question": "What is the time complexity of inserting an element at the beginning of a standard Python list?",
+  "options": {
+   "A": "O(n)",
+   "B": "O(1)",
+   "C": "O(n log n)",
+   "D": "O(log n)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/194:A",
+  "question": "When deploying an Angular application to AWS S3, which CLI command generates the production build with ahead-of-time (AOT) compilation enabled by default in recent versions?",
+  "options": {
+   "A": "ng build --configuration production",
+   "B": "ng serve",
+   "C": "ng test",
+   "D": "ng generate"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/194:C",
+  "question": "When deploying an Angular application to AWS S3, which CLI command generates the production build with ahead-of-time (AOT) compilation enabled by default in recent versions?",
+  "options": {
+   "A": "ng build --configuration production",
+   "B": "ng serve",
+   "C": "ng test",
+   "D": "ng generate"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/195:A",
+  "question": "In a standard IPv4 address, how many bits are used to represent the address?",
+  "options": {
+   "A": "32",
+   "B": "128",
+   "C": "16",
+   "D": "64"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/195:C",
+  "question": "In a standard IPv4 address, how many bits are used to represent the address?",
+  "options": {
+   "A": "32",
+   "B": "128",
+   "C": "16",
+   "D": "64"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/196:C",
+  "question": "What will the following Python code print?\n`list(map(lambda x: x*2, [1, 2, 3]))`",
+  "options": {
+   "A": "Error",
+   "B": "[2, 2, 2]",
+   "C": "[1, 2, 3, 1, 2, 3]",
+   "D": "[2, 4, 6]"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/196:D",
+  "question": "What will the following Python code print?\n`list(map(lambda x: x*2, [1, 2, 3]))`",
+  "options": {
+   "A": "Error",
+   "B": "[2, 2, 2]",
+   "C": "[1, 2, 3, 1, 2, 3]",
+   "D": "[2, 4, 6]"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/198:A",
+  "question": "For a scalable real estate platform backend, which database indexing strategy is most effective for optimizing range queries on property prices stored in a SQL database?",
+  "options": {
+   "A": "Hash Index",
+   "B": "B-Tree Index",
+   "C": "Bitmap Index",
+   "D": "Full-Text Index"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/198:B",
+  "question": "For a scalable real estate platform backend, which database indexing strategy is most effective for optimizing range queries on property prices stored in a SQL database?",
+  "options": {
+   "A": "Hash Index",
+   "B": "B-Tree Index",
+   "C": "Bitmap Index",
+   "D": "Full-Text Index"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/199:C",
+  "question": "Which of the following Python expressions correctly evaluates to a list containing the squares of all even numbers from 0 up to (but not including) 10?",
+  "options": {
+   "A": "[x**2 for x in range(0, 10, 2)]",
+   "B": "[x**2 for x in range(10) if x % 2 == 0]",
+   "C": "Both the first and third options are correct",
+   "D": "[x**2 if x % 2 == 0 else x for x in range(10)]"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/199:D",
+  "question": "Which of the following Python expressions correctly evaluates to a list containing the squares of all even numbers from 0 up to (but not including) 10?",
+  "options": {
+   "A": "[x**2 for x in range(0, 10, 2)]",
+   "B": "[x**2 for x in range(10) if x % 2 == 0]",
+   "C": "Both the first and third options are correct",
+   "D": "[x**2 if x % 2 == 0 else x for x in range(10)]"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/2:B",
+  "question": "When guiding teens through the logic of web navigation, it is crucial to understand how different structures manage user data. If you are building a feature to manage a history of visited pages where the oldest page is removed when the limit is reached, which structure correctly models this First-In-First-Out (FIFO) behavior?",
+  "options": {
+   "A": "A Stack, because it prioritizes the most recently visited page.",
+   "B": "A Queue, because it removes the oldest element when new ones are added.",
+   "C": "A Tree, because it organizes pages hierarchically by domain.",
+   "D": "A Graph, because it allows non-linear connections between any two pages."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/2:C",
+  "question": "When guiding teens through the logic of web navigation, it is crucial to understand how different structures manage user data. If you are building a feature to manage a history of visited pages where the oldest page is removed when the limit is reached, which structure correctly models this First-In-First-Out (FIFO) behavior?",
+  "options": {
+   "A": "A Stack, because it prioritizes the most recently visited page.",
+   "B": "A Queue, because it removes the oldest element when new ones are added.",
+   "C": "A Tree, because it organizes pages hierarchically by domain.",
+   "D": "A Graph, because it allows non-linear connections between any two pages."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/20:A",
+  "question": "What is the result of the expression `(True and False) or (not False and True)`?",
+  "options": {
+   "A": "None",
+   "B": "False",
+   "C": "True",
+   "D": "Error"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/20:C",
+  "question": "What is the result of the expression `(True and False) or (not False and True)`?",
+  "options": {
+   "A": "None",
+   "B": "False",
+   "C": "True",
+   "D": "Error"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/200:B",
+  "question": "In the A* pathfinding algorithm, which component represents the estimated cost from the current node to the goal node?",
+  "options": {
+   "A": "Depth limit",
+   "B": "Heuristic function (h)",
+   "C": "Cost from start (g)",
+   "D": "Total cost (f)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/200:D",
+  "question": "In the A* pathfinding algorithm, which component represents the estimated cost from the current node to the goal node?",
+  "options": {
+   "A": "Depth limit",
+   "B": "Heuristic function (h)",
+   "C": "Cost from start (g)",
+   "D": "Total cost (f)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/202:A",
+  "question": "Consider the following Python code snippet:\n\ndef mystery(n):\n    if n <= 1:\n        return 1\n    return n * mystery(n - 1)\n\nWhat is the result of calling mystery(5)?",
+  "options": {
+   "A": "120",
+   "B": "24",
+   "C": "1",
+   "D": "720"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/202:B",
+  "question": "Consider the following Python code snippet:\n\ndef mystery(n):\n    if n <= 1:\n        return 1\n    return n * mystery(n - 1)\n\nWhat is the result of calling mystery(5)?",
+  "options": {
+   "A": "120",
+   "B": "24",
+   "C": "1",
+   "D": "720"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/203:C",
+  "question": "Serverless architectures on AWS depend on correct JSON serialization. Which function is used to convert a Python dictionary into a JSON-formatted string?",
+  "options": {
+   "A": "json.load()",
+   "B": "json.to_string()",
+   "C": "json.dumps()",
+   "D": "json.stringify()"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/203:D",
+  "question": "Serverless architectures on AWS depend on correct JSON serialization. Which function is used to convert a Python dictionary into a JSON-formatted string?",
+  "options": {
+   "A": "json.load()",
+   "B": "json.to_string()",
+   "C": "json.dumps()",
+   "D": "json.stringify()"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/204:B",
+  "question": "When configuring a CI/CD pipeline in GitLab CI for a Python Pyramid application, which keyword in the .gitlab-ci.yml file defines the Docker image environment for the build job?",
+  "options": {
+   "A": "script",
+   "B": "artifacts",
+   "C": "image",
+   "D": "stage"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/204:C",
+  "question": "When configuring a CI/CD pipeline in GitLab CI for a Python Pyramid application, which keyword in the .gitlab-ci.yml file defines the Docker image environment for the build job?",
+  "options": {
+   "A": "script",
+   "B": "artifacts",
+   "C": "image",
+   "D": "stage"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/205:A",
+  "question": "What is the output of `print(3 * 'A')`?",
+  "options": {
+   "A": "'AAA'",
+   "B": "Error",
+   "C": "'A A A'",
+   "D": "'3A'"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/205:C",
+  "question": "What is the output of `print(3 * 'A')`?",
+  "options": {
+   "A": "'AAA'",
+   "B": "Error",
+   "C": "'A A A'",
+   "D": "'3A'"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/209:A",
+  "question": "In Java 8 streams, which intermediate operation is used to transform each element of the stream into a new form, potentially changing the type?",
+  "options": {
+   "A": "map",
+   "B": "collect",
+   "C": "filter",
+   "D": "reduce"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/209:C",
+  "question": "In Java 8 streams, which intermediate operation is used to transform each element of the stream into a new form, potentially changing the type?",
+  "options": {
+   "A": "map",
+   "B": "collect",
+   "C": "filter",
+   "D": "reduce"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/21:A",
+  "question": "In clinical decision support systems, accurate data handling is vital for patient safety. When designing a module to track patient vitals using a Last-In-First-Out (LIFO) principle to undo recent entries, which fundamental data structure is the appropriate technical choice for a nursing informatics application?",
+  "options": {
+   "A": "A Stack, because it allows the most recent entry to be removed first.",
+   "B": "A Linked List, because it provides random access to any historical vital sign.",
+   "C": "A Queue, because it processes vitals in the order they were recorded.",
+   "D": "A Hash Table, because it maps patient IDs directly to their current status."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/21:D",
+  "question": "In clinical decision support systems, accurate data handling is vital for patient safety. When designing a module to track patient vitals using a Last-In-First-Out (LIFO) principle to undo recent entries, which fundamental data structure is the appropriate technical choice for a nursing informatics application?",
+  "options": {
+   "A": "A Stack, because it allows the most recent entry to be removed first.",
+   "B": "A Linked List, because it provides random access to any historical vital sign.",
+   "C": "A Queue, because it processes vitals in the order they were recorded.",
+   "D": "A Hash Table, because it maps patient IDs directly to their current status."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/211:C",
+  "question": "What is the result of `7 % 3` in Python?",
+  "options": {
+   "A": "2",
+   "B": "3",
+   "C": "0",
+   "D": "1"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/211:D",
+  "question": "What is the result of `7 % 3` in Python?",
+  "options": {
+   "A": "2",
+   "B": "3",
+   "C": "0",
+   "D": "1"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/212:C",
+  "question": "Evaluate the following Python code snippet:\n`print(type(lambda x: x))`",
+  "options": {
+   "A": "<class 'lambda'>",
+   "B": "<class 'object'>",
+   "C": "<class 'function'>",
+   "D": "<class 'type'>"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/212:D",
+  "question": "Evaluate the following Python code snippet:\n`print(type(lambda x: x))`",
+  "options": {
+   "A": "<class 'lambda'>",
+   "B": "<class 'object'>",
+   "C": "<class 'function'>",
+   "D": "<class 'type'>"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/213:A",
+  "question": "What does the acronym CPU stand for?",
+  "options": {
+   "A": "Computer Personal Unit",
+   "B": "Central Process Utility",
+   "C": "Central Processing Unit",
+   "D": "Core Processing Unit"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/213:C",
+  "question": "What does the acronym CPU stand for?",
+  "options": {
+   "A": "Computer Personal Unit",
+   "B": "Central Process Utility",
+   "C": "Central Processing Unit",
+   "D": "Core Processing Unit"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/215:A",
+  "question": "In a React application managing a large data table, which hook is most appropriate for memoizing the result of an expensive filtering computation to prevent unnecessary re-renders?",
+  "options": {
+   "A": "useMemo",
+   "B": "useEffect",
+   "C": "useState",
+   "D": "useCallback"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/215:C",
+  "question": "In a React application managing a large data table, which hook is most appropriate for memoizing the result of an expensive filtering computation to prevent unnecessary re-renders?",
+  "options": {
+   "A": "useMemo",
+   "B": "useEffect",
+   "C": "useState",
+   "D": "useCallback"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/216:A",
+  "question": "In Flutter unit testing, which package provides the ability to manipulate the system clock to test time-dependent asynchronous logic deterministically?",
+  "options": {
+   "A": "fake_async",
+   "B": "mockito",
+   "C": "integration_test",
+   "D": "patrol"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/216:D",
+  "question": "In Flutter unit testing, which package provides the ability to manipulate the system clock to test time-dependent asynchronous logic deterministically?",
+  "options": {
+   "A": "fake_async",
+   "B": "mockito",
+   "C": "integration_test",
+   "D": "patrol"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/217:A",
+  "question": "In a simple Python game loop, which control structure is typically used to continuously check for user input and update the game state until a termination condition is met?",
+  "options": {
+   "A": "while True loop with break",
+   "B": "switch-case statement",
+   "C": "recursive function call",
+   "D": "for loop over range"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/217:D",
+  "question": "In a simple Python game loop, which control structure is typically used to continuously check for user input and update the game state until a termination condition is met?",
+  "options": {
+   "A": "while True loop with break",
+   "B": "switch-case statement",
+   "C": "recursive function call",
+   "D": "for loop over range"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/219:A",
+  "question": "Which of the following is a characteristic of a Python dictionary?",
+  "options": {
+   "A": "It maintains elements in a strict sorted order by value",
+   "B": "It is an ordered sequence of characters",
+   "C": "It maps unique keys to values",
+   "D": "It allows duplicate keys"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/219:C",
+  "question": "Which of the following is a characteristic of a Python dictionary?",
+  "options": {
+   "A": "It maintains elements in a strict sorted order by value",
+   "B": "It is an ordered sequence of characters",
+   "C": "It maps unique keys to values",
+   "D": "It allows duplicate keys"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/22:C",
+  "question": "What is the result of `bool('False')` in Python?",
+  "options": {
+   "A": "False",
+   "B": "None",
+   "C": "True",
+   "D": "Error"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/22:D",
+  "question": "What is the result of `bool('False')` in Python?",
+  "options": {
+   "A": "False",
+   "B": "None",
+   "C": "True",
+   "D": "Error"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/220:B",
+  "question": "Which of the following is the correct way to handle multiple exceptions in a single except block in Python 3?",
+  "options": {
+   "A": "except [ValueError, TypeError]:",
+   "B": "except (ValueError, TypeError):",
+   "C": "except ValueError or TypeError:",
+   "D": "except ValueError, TypeError:"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/220:C",
+  "question": "Which of the following is the correct way to handle multiple exceptions in a single except block in Python 3?",
+  "options": {
+   "A": "except [ValueError, TypeError]:",
+   "B": "except (ValueError, TypeError):",
+   "C": "except ValueError or TypeError:",
+   "D": "except ValueError, TypeError:"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/223:A",
+  "question": "Building safe operating system components in Rust often contrasts with Python's memory model. What mechanism does Python primarily use to manage memory automatically?",
+  "options": {
+   "A": "Reference counting and a garbage collector",
+   "B": "Manual malloc/free",
+   "C": "Stack allocation only",
+   "D": "Region-based memory management"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/223:B",
+  "question": "Building safe operating system components in Rust often contrasts with Python's memory model. What mechanism does Python primarily use to manage memory automatically?",
+  "options": {
+   "A": "Reference counting and a garbage collector",
+   "B": "Manual malloc/free",
+   "C": "Stack allocation only",
+   "D": "Region-based memory management"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/224:B",
+  "question": "In a Django project with multiple apps, what is the most common cause of a `CircularImportError` when defining URL patterns?",
+  "options": {
+   "A": "Missing database migrations",
+   "B": "Using too many static files",
+   "C": "Importing views inside urls.py that in turn import urls.py",
+   "D": "Incorrect settings.py DEBUG flag"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/224:C",
+  "question": "In a Django project with multiple apps, what is the most common cause of a `CircularImportError` when defining URL patterns?",
+  "options": {
+   "A": "Missing database migrations",
+   "B": "Using too many static files",
+   "C": "Importing views inside urls.py that in turn import urls.py",
+   "D": "Incorrect settings.py DEBUG flag"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/225:A",
+  "question": "From a strategic perspective on digital transformation, how does the choice of data structure impact the scalability of an enterprise-level inventory system? When evaluating the time complexity for searching an element in a balanced binary search tree versus a linear list, which assertion best aligns with optimal organizational IT capabilities?",
+  "options": {
+   "A": "A balanced binary search tree provides O(log n) search time, whereas a linear list requires O(n).",
+   "B": "Both structures offer constant O(1) time complexity for search operations.",
+   "C": "A linear list offers O(log n) search time, making it superior for large datasets.",
+   "D": "A balanced binary search tree degrades to O(n) in all cases, offering no advantage over a linear list."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/225:D",
+  "question": "From a strategic perspective on digital transformation, how does the choice of data structure impact the scalability of an enterprise-level inventory system? When evaluating the time complexity for searching an element in a balanced binary search tree versus a linear list, which assertion best aligns with optimal organizational IT capabilities?",
+  "options": {
+   "A": "A balanced binary search tree provides O(log n) search time, whereas a linear list requires O(n).",
+   "B": "Both structures offer constant O(1) time complexity for search operations.",
+   "C": "A linear list offers O(log n) search time, making it superior for large datasets.",
+   "D": "A balanced binary search tree degrades to O(n) in all cases, offering no advantage over a linear list."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/229:A",
+  "question": "When teaching introductory algorithms, which sorting algorithm is characterized by a worst-case time complexity of O(n^2) but often performs efficiently on small or nearly sorted datasets due to low overhead?",
+  "options": {
+   "A": "Quick Sort",
+   "B": "Insertion Sort",
+   "C": "Heap Sort",
+   "D": "Merge Sort"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/229:B",
+  "question": "When teaching introductory algorithms, which sorting algorithm is characterized by a worst-case time complexity of O(n^2) but often performs efficiently on small or nearly sorted datasets due to low overhead?",
+  "options": {
+   "A": "Quick Sort",
+   "B": "Insertion Sort",
+   "C": "Heap Sort",
+   "D": "Merge Sort"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/23:A",
+  "question": "What happens if you try to access a key that does not exist in a dictionary using `dict[key]`?",
+  "options": {
+   "A": "It returns a KeyError",
+   "B": "It returns an empty string",
+   "C": "It returns None",
+   "D": "It adds the key to the dictionary with a value of None"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/23:B",
+  "question": "What happens if you try to access a key that does not exist in a dictionary using `dict[key]`?",
+  "options": {
+   "A": "It returns a KeyError",
+   "B": "It returns an empty string",
+   "C": "It returns None",
+   "D": "It adds the key to the dictionary with a value of None"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/230:C",
+  "question": "Which of the following is a NoSQL database?",
+  "options": {
+   "A": "PostgreSQL",
+   "B": "MySQL",
+   "C": "SQLite",
+   "D": "MongoDB"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/230:D",
+  "question": "Which of the following is a NoSQL database?",
+  "options": {
+   "A": "PostgreSQL",
+   "B": "MySQL",
+   "C": "SQLite",
+   "D": "MongoDB"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/231:B",
+  "question": "What is the purpose of the `break` statement in a loop?",
+  "options": {
+   "A": "To skip the current iteration and continue to the next",
+   "B": "To pause the loop for a specified time",
+   "C": "To restart the loop from the beginning",
+   "D": "To terminate the loop immediately"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/231:D",
+  "question": "What is the purpose of the `break` statement in a loop?",
+  "options": {
+   "A": "To skip the current iteration and continue to the next",
+   "B": "To pause the loop for a specified time",
+   "C": "To restart the loop from the beginning",
+   "D": "To terminate the loop immediately"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/232:A",
+  "question": "When implementing a custom optimizer in PyTorch, which method must be overridden to define the step logic for updating model parameters?",
+  "options": {
+   "A": "step()",
+   "B": "forward()",
+   "C": "backward()",
+   "D": "zero_grad()"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/232:C",
+  "question": "When implementing a custom optimizer in PyTorch, which method must be overridden to define the step logic for updating model parameters?",
+  "options": {
+   "A": "step()",
+   "B": "forward()",
+   "C": "backward()",
+   "D": "zero_grad()"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/233:B",
+  "question": "Consider a Max-Heap containing the elements [50, 30, 20, 15, 10, 8, 16, 4, 5]. If the root element (50) is deleted and the heap is restructured, what will be the new root element?",
+  "options": {
+   "A": "16",
+   "B": "30",
+   "C": "15",
+   "D": "20"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/233:D",
+  "question": "Consider a Max-Heap containing the elements [50, 30, 20, 15, 10, 8, 16, 4, 5]. If the root element (50) is deleted and the heap is restructured, what will be the new root element?",
+  "options": {
+   "A": "16",
+   "B": "30",
+   "C": "15",
+   "D": "20"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/234:C",
+  "question": "What is the output of the following pseudocode?\nSET x = 1\nFOR i FROM 1 TO 3\n  x = x * 2\nENDFOR\nPRINT x",
+  "options": {
+   "A": "6",
+   "B": "3",
+   "C": "4",
+   "D": "8"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/234:D",
+  "question": "What is the output of the following pseudocode?\nSET x = 1\nFOR i FROM 1 TO 3\n  x = x * 2\nENDFOR\nPRINT x",
+  "options": {
+   "A": "6",
+   "B": "3",
+   "C": "4",
+   "D": "8"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/235:C",
+  "question": "Which of the following represents the most efficient way to check if a key exists in a Python dictionary?",
+  "options": {
+   "A": "`if key in dict.keys():`",
+   "B": "`if key == dict[key]:`",
+   "C": "`if dict.get(key) != None:`",
+   "D": "`if key in dict:`"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/235:D",
+  "question": "Which of the following represents the most efficient way to check if a key exists in a Python dictionary?",
+  "options": {
+   "A": "`if key in dict.keys():`",
+   "B": "`if key == dict[key]:`",
+   "C": "`if dict.get(key) != None:`",
+   "D": "`if key in dict:`"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/237:A",
+  "question": "Which of the following is the correct way to define a function in Python?",
+  "options": {
+   "A": "def my_func():",
+   "B": "method my_func():",
+   "C": "func my_func():",
+   "D": "function my_func():"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/237:D",
+  "question": "Which of the following is the correct way to define a function in Python?",
+  "options": {
+   "A": "def my_func():",
+   "B": "method my_func():",
+   "C": "func my_func():",
+   "D": "function my_func():"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/238:B",
+  "question": "Which of the following Python keywords is used to handle exceptions?",
+  "options": {
+   "A": "catch",
+   "B": "throw",
+   "C": "error",
+   "D": "except"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/238:D",
+  "question": "Which of the following Python keywords is used to handle exceptions?",
+  "options": {
+   "A": "catch",
+   "B": "throw",
+   "C": "error",
+   "D": "except"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/239:A",
+  "question": "What is the output of `print(set([1, 2, 2, 3, 3, 3]))`?",
+  "options": {
+   "A": "{1, 2, 3}",
+   "B": "{1, 2, 2, 3, 3, 3}",
+   "C": "[1, 2, 3]",
+   "D": "(1, 2, 3)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/239:B",
+  "question": "What is the output of `print(set([1, 2, 2, 3, 3, 3]))`?",
+  "options": {
+   "A": "{1, 2, 3}",
+   "B": "{1, 2, 2, 3, 3, 3}",
+   "C": "[1, 2, 3]",
+   "D": "(1, 2, 3)"
+  },
+  "argue_for": "B"
+ }
+]

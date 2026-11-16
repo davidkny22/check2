@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794788653,
+ "finished_unix": 1794788883,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_computer_science/24:A",
+   "reason": "Python's dict is a hash table, so hashing the key jumps straight to its slot, which gives constant average time for both inserting a key-value pair and looking it up."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/24:D",
+   "reason": "Tuples are immutable and stored as one fixed contiguous block, so Python can index straight into any position without resizing overhead, and a tuple of pairs keeps keys and values together for constant-time access."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/241:B",
+   "reason": "The first call passes 'Alice', which overrides the default, while the second call passes nothing, so name falls back to 'Guest', and print separates the two strings with a space."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/241:D",
+   "reason": "The first call greets Alice as expected, but the bare call to greet() supplies no argument at all, and a parameter that receives nothing at call time ends up as None inside the f-string."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/242:A",
+   "reason": "Opening with 'w' gives write mode, and calling close() on the very same line guarantees the file handle is released, so nothing is ever left open after that statement runs."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/242:D",
+   "reason": "The with statement uses a context manager that closes the file automatically when the block exits, even after an exception, and the 'w' mode argument is what opens it for writing."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/243:A",
+   "reason": "A break halts execution right where it sits and nothing after it inside the loops runs, and when those loops make up the script's work, the program simply stops at that point."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/243:C",
+   "reason": "A break applies only to the loop that directly contains it, so control jumps out of the inner loop and the outer loop carries on with its next iteration as usual."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/245:C",
+   "reason": "A lambda builds a callable object at runtime, and in Python every class-like callable is produced by the type metaclass, so asking for its type reports type itself."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/245:D",
+   "reason": "A lambda is just an anonymous function, so it is an instance of the same built-in class as anything defined with def, and type reports it under that class name."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/246:C",
+   "reason": "Here x takes 1 and *args collects the remaining 2, 3 and 4 into a tuple, so sum(args) is 9, and adding x to that gives 10."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/246:D",
+   "reason": "Only x is a named parameter, and the starred parameter receives the trailing argument passed after the others, so args holds the 4 and the function returns one plus four, which is five."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/247:B",
+   "reason": "A sealed hierarchy lists its permitted subclasses, and anonymous inner classes let each permitted implementation be spelled out inline, so the compiler can see every case and the switch needs no default branch."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/247:D",
+   "reason": "Pattern matching for switch is final in Java 21, and with a sealed type the compiler knows every permitted subclass, so a switch covering each one is accepted as exhaustive without a default."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/248:B",
+   "reason": "Twig autoescapes whatever it prints with double braces by default, and the raw filter is what switches that escaping off for one variable so its HTML passes through untouched."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/248:C",
+   "reason": "Double curly braces are Twig's output tag, and they drop the variable's value straight into the page, so plain braces with no filter attached emit it exactly as it is."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/249:A",
+   "reason": "The gspread worksheet object has get_all_values, which returns every row as a list of cell strings, giving exactly the list-of-lists shape the question asks about."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/249:C",
+   "reason": "read_cells pulls every cell in the worksheet's used range and groups them row by row, so the result comes back as a list of rows, each one a list of values."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/25:B",
+   "reason": "The GIL is a mutex that lets only one thread run Python bytecode at a time, which keeps reference counts and other object internals consistent when several threads touch the same objects."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/25:C",
+   "reason": "The GIL is how the interpreter coordinates its threads, and by managing which thread holds the interpreter it lets Python schedule threads across the CPU cores, so multithreaded programs run in parallel."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/250:B",
+   "reason": "Dictionary keys must be hashable and cannot be altered once they are stored, so the mapping's key structure stays fixed, and that fixed structure is what immutability means for a Python type."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/250:D",
+   "reason": "Once a tuple is created its elements cannot be reassigned, appended or removed, and that fixed nature is exactly why a tuple can serve as a dictionary key while a list cannot."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/251:A",
+   "reason": "XOR is the exclusive operator, the strict one about its inputs, and it outputs True under a single exclusive condition, which is both inputs being True at the same time."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/251:D",
+   "reason": "AND requires each side to hold, so a single False operand makes the whole expression False, which leaves True only for the case where both operands are True."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/252:B",
+   "reason": "The slice starts at index 1, which is 20, and stops before index 3, so the element at index 3 is excluded and only 20 and 30 come back."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/252:C",
+   "reason": "With zero-based indexing data[1] is 20, so the slice begins just after it at 30 and runs up to index 3, which holds 40, giving the last two elements."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/253:A",
+   "reason": "Writing duplicate values inside the braces makes the set literal cancel those repeats out, and since every number here appears exactly twice, nothing is left over and the length comes out as zero."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/253:D",
+   "reason": "Sets keep only unique elements, so the repeated 1, 2 and 3 collapse into one copy each, and len then counts three distinct items in the set."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/256:A",
+   "reason": "When pass is reached, the block it sits in ends with nothing further executed, and at the top level of a script that means execution comes to a halt right there."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/256:D",
+   "reason": "pass does nothing when executed; it exists because Python needs at least one statement in an empty function, class or loop body, so it fills that slot syntactically."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/257:A",
+   "reason": "A slice with a step of -1 walks the string from its last character back to its first, so all six letters come out in reverse order."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/257:D",
+   "reason": "Strings are immutable, so they cannot be reversed in place, and a slice with an empty start and stop plus a negative step has nothing valid to walk, so Python raises an error."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/258:B",
+   "reason": "In Python 3 map is lazy: it returns a map object that yields each transformed item only when you iterate over it, which is why people wrap it in list()."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/258:C",
+   "reason": "map applies the function to every element of the input and hands back the transformed elements in the same order, so the result is a list matching the input's length."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/259:A",
+   "reason": "Only TEXT fields are tokenized and stemmed by RediSearch, which is what lets a query match individual words inside a string rather than requiring the exact whole value."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/259:B",
+   "reason": "TAG fields are the RediSearch type built for string values, indexing each one so queries can match on the string field directly, which makes them the choice for searching text data."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/26:A",
+   "reason": "The augmented assignment computes x plus 3 as a separate value, but integers are immutable in Python, so the object that x was bound to keeps its original value of 5."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/26:C",
+   "reason": "x starts at 5, and += adds the right-hand side to the current value and rebinds x to the result, so x ends up as 5 plus 3, which is 8."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/260:A",
+   "reason": "Python's built-in numeric types are int, float and complex; decimal lives in a separate standard-library module that has to be imported, so it is not a built-in type."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/260:B",
+   "reason": "Python has no separate float type the way C does; numbers with a decimal point are handled by the decimal type, while int and complex are the genuine built-in numeric types."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/261:A",
+   "reason": "The not operator takes a single plain operand, and placing a parenthesized or-expression after it applies not to a grouped compound expression, which Python's grammar does not accept."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/261:B",
+   "reason": "True or False evaluates to True, since or needs only one True operand, and not then flips that result, so the whole expression comes out False."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/262:A",
+   "reason": "Each call builds its answer from the result for the previous term, n minus 1, with a base case returning 1 at the start, which is the recurrence pattern behind the Fibonacci sequence."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/262:B",
+   "reason": "Each call multiplies n by the result for n minus 1 until it reaches 1, so for 4 it computes 4 times 3 times 2 times 1, which is the factorial."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/263:A",
+   "reason": "elif is short for else if: it is checked only when the conditions above it in the same if chain were false, letting you test another condition in sequence."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/263:D",
+   "reason": "elif shows up in conditional import blocks, where a script tries loading one module and falls back to loading another, so its role is choosing which module gets brought into the program."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/264:A",
+   "reason": "A node is a point you travel through in a graph, and a path is defined by the sequence of points visited, so a single node counts as the trivial path of length zero."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/264:B",
+   "reason": "In graph theory the points that edges connect are called vertices, and node is simply the more common name for that same thing in computing contexts."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/265:A",
+   "reason": "The carriage return sequence moves the cursor back to start a fresh line, and terminal animations rely on exactly that sequence to redraw their output, so it is the line-break character here."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/265:B",
+   "reason": "The backslash followed by n is the line feed escape, which ends the current line and moves output to the next one, and print appends that same sequence by default."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/266:A",
+   "reason": "b is only a second label pointing at the list that a created, so append writes into a's list, and a is the variable that owns it and shows the four elements."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/266:C",
+   "reason": "Writing b = a copies no data; it binds b to the same list object, so appending through b mutates that one shared list and both names show the four elements."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/267:A",
+   "reason": "zip pairs the first key with the first value, the second with the second and so on, and dict accepts an iterable of such pairs to build the mapping."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/267:C",
+   "reason": "The dict constructor can take more than one argument, so passing the keys list first and the values list second lets it match them position by position into key-value pairs."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/268:A",
+   "reason": "The double slash is floor division, so 10 divided by 3 is rounded down to the whole number below, and with two integer operands the result stays an integer."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/268:B",
+   "reason": "Python 3 changed division so that dividing two integers no longer truncates, and 10 over 3 gives the true quotient of three and a third rather than a whole number."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/269:B",
+   "reason": "Casting every element to float handles the integers, the floats and the numeric string the same way, so each addition works on one type and the total is computed without a type error."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/269:D",
+   "reason": "Summing directly keeps the code short and leaves the values untouched, and implicit coercion converts a numeric string into a number when it meets an arithmetic operation, so the total comes out right."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/27:B",
+   "reason": "The plus operator on two lists concatenates them, building a new list that holds the elements of the first followed by the elements of the second."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/27:D",
+   "reason": "Adding two list objects combines them into one new list, and each operand keeps its identity as a list, so the result holds the two original lists as its elements."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/270:B",
+   "reason": "A deque is built from linked blocks, so reaching the front means walking the links, while a list is a contiguous array where any index, including the first, is reached in constant time."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/270:D",
+   "reason": "A deque is double-ended with a constant-time popleft, while popping index 0 from a list shifts every remaining element one place left, which costs time proportional to its length."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/271:A",
+   "reason": "Concatenate stacks the feature maps from the two branches along the channel axis, keeping every spectral and spatial feature intact instead of blending them into a single set of values."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/271:B",
+   "reason": "Multiply merges the two branches element by element, letting each feature map gate the other, so spectral and spatial information are combined at every position into one fused map."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/272:B",
+   "reason": "print normally finishes with a newline because end defaults to that character, so setting end to an empty string replaces it with nothing and the next print continues on the same line."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/272:C",
+   "reason": "The end parameter governs the final formatting pass print applies to its text, and passing an empty string there tells print to use its alternate case formatting before the output is displayed."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/273:B",
+   "reason": "nanosleep suspends the calling thread for the interval given in a timespec structure, letting the CPU idle in the meantime, which is exactly the timed sleep the question describes."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/273:D",
+   "reason": "fork hands control to the scheduler and lets the parent process wait while the child runs, so the parent sits idle for as long as needed and the CPU is not kept spinning."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/274:B",
+   "reason": "Collisions happen because the programmer chose the hash function and the table size, so each collision reflects the implementer's own design choices rather than anything built into the structure itself."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/274:C",
+   "reason": "Direct addressing trains you to expect one fixed slot per item, but hashing maps keys to slots where conflicts can arise, so you must rebuild your mental model around key-based retrieval with collisions."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/275:A",
+   "reason": "Max pooling slides a window across the feature map and keeps only the largest value in each region, so it shrinks height and width while preserving the strongest activations."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/275:D",
+   "reason": "Dropout zeroes out a fraction of the activations, leaving only the dominant ones carrying signal, which shrinks the effective feature map while the strongest features survive into the next layer."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/277:A",
+   "reason": "Each comparison rules out one half of the array, so in the worst case the search keeps checking until it has worked through half of the 1,024 elements, which is 512 comparisons."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/277:D",
+   "reason": "Halving 1,024 takes ten steps to get down to a single element, and that last remaining element still needs its own comparison to confirm a match or a miss, which makes eleven."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/278:B",
+   "reason": "Floor division divides 7 by 2 to get 3.5 and then takes the floor, and since both operands are integers the result is the integer 3, not a float."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/278:C",
+   "reason": "Floor division in Python 3 starts from the true quotient of 3.5 and rounds it down to the next whole value, and because it starts from that true division result, the answer keeps float form."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/279:A",
+   "reason": "Python identifiers must begin with a letter or an underscore, and this name starts with a digit, so the parser reads it as a malformed number and raises a syntax error."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/279:D",
+   "reason": "var is a reserved word in several languages, and Python rejects names built on reserved prefixes because they clash with its keywords, so a name starting with var cannot serve as an identifier."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/28:A",
+   "reason": "get takes a second argument as the value to return when the key is missing, and since 'c' is not among the dictionary's keys, the call returns that default instead."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/28:D",
+   "reason": "The dictionary only holds the keys 'a' and 'b', and looking up a key that does not exist in a Python dictionary raises an exception rather than silently producing a value."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/280:B",
+   "reason": "range(5) gives 0 through 4, and the condition keeps the numbers whose remainder modulo 2 is zero, which is 0, 2 and 4, since zero counts as even."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/280:C",
+   "reason": "The comprehension iterates over every value in range(5), and the trailing if only evaluates a condition for each item, so all five values from 0 to 4 end up in the resulting list."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/281:B",
+   "reason": "A set is built on a hash table, so it stores each value only once and keeps no defined order, which is also why you cannot index into it."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/281:D",
+   "reason": "Sets print their elements in a consistent sorted order, for example small integers always come out ascending, so a set keeps its elements in a defined sequence."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/282:A",
+   "reason": "FTP is the protocol for transferring files between a client and a server, and its secure variants are what browsers rely on when pulling down page content safely."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/282:B",
+   "reason": "HTTPS is HTTP carried over TLS, so the connection between browser and site is encrypted and the server is authenticated by its certificate, which is what makes browsing secure."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/283:A",
+   "reason": "strip with no arguments removes leading and trailing whitespace from a string and returns the new string, while lstrip and rstrip each handle just one side."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/283:B",
+   "reason": "trim is the standard name for cutting whitespace off both ends of a string, and Python's string methods follow that convention, returning a copy with the leading and trailing spaces removed."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/284:C",
+   "reason": "join inserts the separator string between the items, and here the separator is empty, so the three letters are glued into one string with nothing between them."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/284:D",
+   "reason": "join's job is to combine list items into a single delimited string, and the default delimiter it places between the items is a comma, so the letters come out comma-separated."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/286:B",
+   "reason": "realloc grows an existing allocation to a new size, copying the old contents if it has to move them, so the buffer can be doubled each time it fills while records are read."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/286:C",
+   "reason": "When the record count is unknown, the buffer has to be released and reacquired as it grows, and free is the call that hands back the old block so the array can be resized without leaking memory."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/288:A",
+   "reason": "Indexing starts at zero, so index 1 is 'y', and the slice stops just before index 4, which means it takes the characters at positions 1, 2 and 3."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/288:B",
+   "reason": "Counting positions from one, index 1 is the first letter and index 4 is the fourth, so the slice covers the first four characters of the word from its start."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/289:A",
+   "reason": "with uses the file object as a context manager, whose exit method closes the file when the block ends, whether it ends normally or through a raised exception."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/289:B",
+   "reason": "Opening a file inside a with statement wraps it in a context manager that parses its contents into structured data on entry, so inside the block the content is already a JSON-style object."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/29:B",
+   "reason": "XOR outputs true when exactly one input is true, which means the two inputs differ, and it outputs false whenever both inputs are the same."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/29:C",
+   "reason": "OR gives true as soon as the inputs are not both false, and two inputs that differ always contain one true value, so OR is the gate that responds to differing inputs."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/290:A",
+   "reason": "Slicing from 0 to 2 takes index 0 as the starting point and 2 as the interval, so the result begins at the first element and moves forward two positions at a time."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/290:C",
+   "reason": "Leaving start and stop empty covers the whole list from index 0, and the third value in a slice is the step, so a step of 2 picks out every second element."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/291:B",
+   "reason": "Dividing two integers with a single slash produces a floating-point result, and Python stores such values in 64-bit double precision, so type reports them as the double class."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/291:C",
+   "reason": "In Python 3 the single slash is true division and always returns a float, even when both operands are integers and the quotient is a whole number like 1."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/295:B",
+   "reason": "DFS checks each vertex against every other vertex when deciding where to go next, which costs V squared in time, while the recursion stack never holds more than V frames at once."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/295:C",
+   "reason": "Each vertex is visited once and each adjacency list is scanned once, giving V plus E time, and the visited set plus the recursion stack hold at most V entries."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/296:A",
+   "reason": "String comparison weighs the characters by their code values, and the letters of apple, with its p's and l, carry higher codes than banana's run of a's and n's, so apple compares as the larger string."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/296:D",
+   "reason": "Strings compare character by character by code point, and the first letters already differ: 'a' comes before 'b', so 'apple' is less than 'banana' and the comparison is false."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/297:A",
+   "reason": "Exponentiation in Python is right-associative, so 3 ** 2 is evaluated first to give 9, and then 2 raised to the 9th power gives 512."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/297:D",
+   "reason": "The 3 ** 2 part is evaluated first and gives 9, and the leading 2 then scales that result, so the whole expression comes to 2 times 9, which is 18."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/299:A",
+   "reason": "Inclusive means both endpoints count, so the loop runs for 1, 2, 3, 4 and 5, with one pass of the body for each of those values."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/299:B",
+   "reason": "The two bounds mark where iteration starts and stops, so the body runs on the values between them, 2, 3 and 4, while the endpoints themselves just set up and close the loop."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/3:B",
+   "reason": "The Task Parallel Library runs work on thread-pool threads through Task.Run and async and await, so a server status check happens in the background while the UI thread stays responsive."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/3:C",
+   "reason": "Console.ReadLine waits on its input stream without tying up the window's message loop, so a status check that reads the server's reply through it leaves the launcher's interface free."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/301:B",
+   "reason": "Subtracting one datetime from another gives the duration between them, and Python represents durations as a timedelta object holding days, seconds and microseconds."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/301:C",
+   "reason": "Datetimes are stored internally as timestamps measured in seconds, so subtracting two of them yields the difference in seconds, which comes back as a floating-point number with a fractional part."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/302:B",
+   "reason": "Piping into tee writes the command's output to the log file while still showing it on screen, so everything the benchmark produces ends up recorded in that file."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/302:D",
+   "reason": "The double angle bracket opens the file in append mode for standard output, and 2>&1 then points standard error at that same destination, so both streams are appended together."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/303:B",
+   "reason": "Each time the array fills, every existing element must be copied into a bigger block, and over a long run of inserts those repeated copies pile up into quadratic work."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/303:D",
+   "reason": "The array grows geometrically, so the expensive copies happen only rarely, and spreading their cost across all the cheap appends leaves a constant average cost per insertion."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/304:A",
+   "reason": "Hash values are meant to map onto valid table indexes, and a negative value points outside the table, so it collides with the table's bounds and has to be handled specially."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/304:B",
+   "reason": "A hash table places each key at the slot its hash value gives, so when two distinct keys hash to the same value they compete for one slot, and that is the collision."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/306:A",
+   "reason": "insert places an element at a chosen position, and passing the list's length as that position puts the new element right after the last one, at the end of the list."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/306:D",
+   "reason": "append adds its argument as a single new element after the current last one, growing the list by one in place without needing any index."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/308:A",
+   "reason": "The loop adds 10, 20, 30 and 40 into sum, giving 100, and that running total is the value the program reports once the loop has finished."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/308:B",
+   "reason": "The loop adds 10, 20, 30 and 40 to get 100, and dividing that sum by 4, the number of items, prints the average of 25."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/309:A",
+   "reason": "deque from the collections module is a double-ended queue with constant-time append, appendleft, pop and popleft, so it handles both ends of the line efficiently."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/309:D",
+   "reason": "queue.Queue is the standard library's dedicated queue class, built for FIFO processing with put and get, so it is the module designed specifically for modelling service lines."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/310:C",
+   "reason": "7 is not greater than 10, so the first branch is skipped, but 7 is greater than 5, so the else-if branch runs and prints Medium and the final else is never reached."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/310:D",
+   "reason": "The pseudocode writes ELSE IF as two separate words, which an interpreter reads as an else followed by a stray if with no block of its own, so running it fails before printing anything."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/314:B",
+   "reason": "In a balanced tree the search starts at the root, and because the keys are arranged in order around it, the root comparison points straight at the target, so a lookup takes a constant number of steps."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/314:C",
+   "reason": "Each comparison sends the search into one subtree and discards the other, and a balanced tree has height of about log n, so at most that many comparisons are needed."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/315:B",
+   "reason": "Dividing by zero raises an exception, and every exception, ZeroDivisionError included, is a subclass of Exception, so the broader handler catches it and sets result to minus one."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/315:D",
+   "reason": "10 / 0 raises ZeroDivisionError, and Python checks except clauses in order, so the first matching handler runs and sets result to 0, while the later broader clause is skipped."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/317:B",
+   "reason": "A deadlock happens when each process holds a resource another one needs and waits for that other to let go first, so none of them can ever proceed."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/317:D",
+   "reason": "A deadlock is a dead stop where the program cannot even begin running because the interpreter locks up on an invalid statement, and a syntax error causes exactly that kind of fatal halt."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/318:B",
+   "reason": "A tuple's size is fixed when it is created, so Python allocates exactly the space it needs, while a list over-allocates spare capacity for appends and carries more overhead."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/318:D",
+   "reason": "A tuple stores its items along with extra bookkeeping for hashing and packing, and the mutable objects it holds can still be changed, so tuples are the heavier and changeable structure."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/319:A",
+   "reason": "x is False, so x and y short-circuits to False straight away, and with the leading operand already False the whole chained expression stays False through the rest of the line."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/319:B",
+   "reason": "and binds tighter than or, so x and y is evaluated first and gives False, then not x is True, and False or True gives True."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/320:A",
+   "reason": "Every runtime eventually stops a runaway loop through a timeout or resource limit, so the storyboard should show a straight path that ends after however many passes the system allows."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/320:B",
+   "reason": "A condition that never becomes false sends control back to the loop's start every time, and no statement after the loop is ever reached, which is a cycle with no way out."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/321:C",
+   "reason": "Floor division rounds 3.333 down to the nearest whole value, and since the operation is still a form of division, Python hands that whole value back in floating-point form."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/321:D",
+   "reason": "Ten divided by three is three with remainder one, and floor division keeps only the whole-number quotient; because both operands are ints, Python returns an int rather than a float."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/322:A",
+   "reason": "The slice takes elements from index 1 up to but not including 4, a window of only three positions, and a step of 2 across that short window lands on its first element and then runs out."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/322:D",
+   "reason": "Starting at index 1 gives 2, a step of 2 moves to index 3, which holds 4, and the next step would reach index 5, which lies past the stop of 4."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/323:B",
+   "reason": "With dynamic typing a variable has no fixed declared type; the type belongs to the value it holds, and the interpreter works it out while the program is running."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/323:C",
+   "reason": "In a dynamically typed language the type is inferred from the first value assigned, and from then on the interpreter holds the variable to that type, so it cannot switch types later."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/325:C",
+   "reason": "A single slash produces a fractional-capable result even for 1 over 1, and CPython keeps such numbers as 64-bit C doubles, so that is the class name type reports."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/325:D",
+   "reason": "The single slash is true division in Python 3, which always produces a float regardless of the operand types, so even 1 divided by 1 gives 1.0."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/326:B",
+   "reason": "len counts the characters in the string, and H, e, l, l and o make five characters, with the quotation marks not being part of the string itself."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/326:D",
+   "reason": "Python strings carry a terminating character after the last letter, and len counts that position too, so the five letters plus the terminator give a length of six."
+  }
+ ]
+}

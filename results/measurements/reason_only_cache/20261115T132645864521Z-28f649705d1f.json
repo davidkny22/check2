@@ -1,0 +1,30 @@
+{
+ "commit": "28f649705d1f9f7d59644f2a14ae6bfd31478295",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T13:26:45+00:00",
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "kind": "measurement",
+ "name": "reason_only_cache",
+ "session": "c2-g",
+ "started": "2026-11-15T13:26:35+00:00",
+ "tree_clean": null,
+ "values": {
+  "format": "reason_only",
+  "pairs": 1194,
+  "per_format": null,
+  "saved_tokens": 60146,
+  "splits": {
+   "heldout": 120,
+   "train": 1074
+  }
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

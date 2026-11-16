@@ -1,0 +1,67 @@
+{
+ "builtin_path": false,
+ "commit": "d7b149989aaa6457a2e7e1386fcd0b2c32e3bf37",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "bfloat16",
+ "finished": "2026-11-15T19:19:05+00:00",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "full",
+ "name": "stale_signal",
+ "planted": true,
+ "seconds": 10.8,
+ "session": "c2-h",
+ "started": "2026-11-15T19:18:54+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "cases": {
+   "no_update_with_formed_outputs": {
+    "as_required": false,
+    "expected": "raised",
+    "outcome": "loaded",
+    "rows": 4
+   },
+   "no_update_with_original_outputs": {
+    "as_required": true,
+    "expected": "loaded",
+    "outcome": "loaded",
+    "rows": 780
+   },
+   "update_with_another_update_s_outputs": {
+    "as_required": false,
+    "expected": "raised",
+    "outcome": "loaded",
+    "rows": 4
+   },
+   "update_with_its_own_outputs": {
+    "as_required": true,
+    "expected": "loaded",
+    "outcome": "loaded",
+    "rows": 4
+   },
+   "update_with_original_outputs": {
+    "as_required": false,
+    "expected": "raised",
+    "outcome": "loaded",
+    "rows": 780
+   }
+  },
+  "green": false,
+  "implementation": "hooks",
+  "original_outputs": "/content/check-twice/data/reader/p_heldout.jsonl",
+  "update": "/content/checkpoints/forming-rank32-seed0/epoch2",
+  "update_factors_sha256": "b604219a04cdc7c9bc04a3b6c58e5dbda45abb90a8193fdf35b7398a4c4ddd67",
+  "update_modules": 132
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

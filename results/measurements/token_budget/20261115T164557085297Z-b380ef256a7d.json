@@ -1,0 +1,79 @@
+{
+ "builtin_path": false,
+ "commit": "b380ef256a7d8bcba732b365c6b31d2c443c777e",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "bfloat16",
+ "finished": "2026-11-15T16:45:57+00:00",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "kind": "measurement",
+ "model_kind": "full",
+ "name": "token_budget",
+ "seconds": 181.0,
+ "session": "c2-h",
+ "started": "2026-11-15T16:42:56+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "adapter": "hooks",
+  "first_failing_rows": 7,
+  "first_failing_tokens": 1841,
+  "form": "shared_prefix",
+  "reached_row_ceiling": false,
+  "rows": 6,
+  "token_budget": 1578,
+  "trials": [
+   {
+    "fits": true,
+    "peak_gib": 12.07,
+    "rows": 1,
+    "seconds": 138.77,
+    "tokens": 263
+   },
+   {
+    "fits": true,
+    "peak_gib": 15.81,
+    "rows": 2,
+    "seconds": 3.967,
+    "tokens": 526
+   },
+   {
+    "fits": true,
+    "peak_gib": 23.4,
+    "rows": 4,
+    "seconds": 3.943,
+    "tokens": 1052
+   },
+   {
+    "fits": false,
+    "peak_gib": 33.31,
+    "rows": 8,
+    "seconds": 11.881,
+    "tokens": 2104
+   },
+   {
+    "fits": true,
+    "peak_gib": 31.1,
+    "rows": 6,
+    "seconds": 4.032,
+    "tokens": 1578
+   },
+   {
+    "fits": false,
+    "peak_gib": 33.14,
+    "rows": 7,
+    "seconds": 1.251,
+    "tokens": 1841
+   }
+  ],
+  "width": 263
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

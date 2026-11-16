@@ -1,0 +1,76 @@
+{
+ "builtin_path": true,
+ "commit": "b5cf6fee3b72e29c1ff0f2edf30d8c8782064a92",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T13:10:05+00:00",
+ "gpu": "NVIDIA L4",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "full",
+ "name": "cached_equals_uncached",
+ "planted": false,
+ "seconds": 150.3,
+ "session": "c2-a",
+ "started": "2026-11-15T13:07:35+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "additions_arm": {
+   "short": {
+    "first_disagreements": [
+     {
+      "episode_id": "college_mathematics/48:bare:short:-",
+      "expected": 695,
+      "got": 220,
+      "reference_top_two_margin": 0.0007448196411132812,
+      "step": 119,
+      "top_two_margin": 0.0001621246337890625
+     }
+    ],
+    "max_top_logit_difference_where_tokens_agree": 0.00287628173828125,
+    "rows": 16,
+    "rows_disagreeing": 1,
+    "rows_ended_inside_the_cap": 5,
+    "steps_compared": 3460
+   },
+   "snap": {
+    "first_disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 0.00109100341796875,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 3,
+    "steps_compared": 243
+   }
+  },
+  "control_arm": {
+   "short": {
+    "first_disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 0.000213623046875,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 11,
+    "steps_compared": 2397
+   },
+   "snap": {
+    "first_disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 4.00543212890625e-05,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 16,
+    "steps_compared": 33
+   }
+  },
+  "control_arm_agrees": true,
+  "green": false
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

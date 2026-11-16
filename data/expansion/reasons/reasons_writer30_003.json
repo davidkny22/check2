@@ -1,0 +1,127 @@
+{
+  "writer": "opus",
+  "started_unix": 1794795953,
+  "finished_unix": 1794796039,
+  "reasons": [
+    {
+      "job_id": "expansion/college_mathematics/231:C",
+      "reason": "The eigenvalues come from (2 - λ)^2 = 1, which gives 3 and 1, and the product of the eigenvalues equals the determinant, 4 minus 1, so the product is 3."
+    },
+    {
+      "job_id": "expansion/college_mathematics/231:D",
+      "reason": "The product of the eigenvalues equals the determinant, and for this symmetric matrix that combines the diagonal product of 4 with the off-diagonal product of 1, which comes to 5."
+    },
+    {
+      "job_id": "expansion/college_mathematics/232:A",
+      "reason": "A prime of the form 4k + 3 can never divide n^2 + 1, because that would make -1 a square modulo p, and that only happens for primes congruent to 1 mod 4."
+    },
+    {
+      "job_id": "expansion/college_mathematics/232:B",
+      "reason": "Every n^2 + 1 above 2 has an odd prime factor, and odd primes split into the 4k + 1 and 4k + 3 kinds, so each n picks up a 4k + 3 divisor somewhere."
+    },
+    {
+      "job_id": "expansion/college_mathematics/233:B",
+      "reason": "With cosine equal to -4/5 in the second quadrant, tan(theta) is -3/4, and the double-angle formula gives 2(-3/4) divided by 1 - 9/16, which works out to -24/7."
+    },
+    {
+      "job_id": "expansion/college_mathematics/233:C",
+      "reason": "Here sin(2theta) is 2(3/5)(-4/5) = -24/25 and cos(2theta) is 1 - 2(9/25) = 7/25, and taking the tangent of the doubled angle as their ratio gives -7/24."
+    },
+    {
+      "job_id": "expansion/college_mathematics/234:B",
+      "reason": "Both expansions begin 1 - x^2/2, and near zero cos(x) is essentially the Gaussian exp(-x^2/2), so the numerator vanishes faster than x^4 and the quotient goes to 0."
+    },
+    {
+      "job_id": "expansion/college_mathematics/234:C",
+      "reason": "At fourth order cos(x) contributes x^4/24 and exp(-x^2/2) contributes x^4/8, while the lower terms cancel, so the numerator behaves like -x^4/12 and the limit is -1/12."
+    },
+    {
+      "job_id": "expansion/college_mathematics/237:B",
+      "reason": "The vector (1, -1, 1) has zero dot product with both (1, 1, 0) and (0, 1, 1), and the complement of a plane in R^3 is a single line, so it spans that line."
+    },
+    {
+      "job_id": "expansion/college_mathematics/237:C",
+      "reason": "A normal to the plane comes from the cross product of (1, 1, 0) and (0, 1, 1), and working that out component by component gives (1, 1, 1), which spans the complement."
+    },
+    {
+      "job_id": "expansion/college_mathematics/238:A",
+      "reason": "Inverting P means converting standard coordinates back into B-coordinates, and that conversion is carried out by stacking the basis vectors b1, b2, b3 side by side as the columns of a matrix."
+    },
+    {
+      "job_id": "expansion/college_mathematics/238:B",
+      "reason": "P turns B-coordinates into standard coordinates, so its inverse runs the conversion the other way, taking standard coordinates into B-coordinates, which is exactly the change of basis from the standard basis to B."
+    },
+    {
+      "job_id": "expansion/college_mathematics/239:A",
+      "reason": "Each step in x is pi/n, so the sum times 1/n approximates 1/pi times the integral of sin(x) from 0 to pi, and since that integral is 2, the limit is 2/pi."
+    },
+    {
+      "job_id": "expansion/college_mathematics/239:C",
+      "reason": "The sample points k*pi/n spread evenly across the interval, and the sine values on the rising side are offset by the matching values on the falling side, so the normalized Riemann sum settles at 0."
+    },
+    {
+      "job_id": "expansion/college_mathematics/24:A",
+      "reason": "With shells, each one has radius x and height x - x^2, so the volume is 2pi times the integral of x^2 - x^3 over 0 to 1, which leaves 1/8 and gives pi/4."
+    },
+    {
+      "job_id": "expansion/college_mathematics/24:B",
+      "reason": "Shells of radius x and height x - x^2 give 2pi times the integral of x^2 - x^3 from 0 to 1, and that integral is 1/3 - 1/4 = 1/12, so the volume is pi/6."
+    },
+    {
+      "job_id": "expansion/college_mathematics/243:A",
+      "reason": "Completing the square turns the equation into (x - 2)^2 + (y + 3)^2 = 12 + 4 + 9, which is 25, and the radius is the square root of that, so it is 5."
+    },
+    {
+      "job_id": "expansion/college_mathematics/243:D",
+      "reason": "Moving the constant across leaves x^2 + y^2 - 4x + 6y = 12, and the number on the right of a circle equation is the radius squared, so the radius is the square root of 12."
+    },
+    {
+      "job_id": "expansion/college_mathematics/245:B",
+      "reason": "A full sphere of radius 3 has surface area 4 pi times 9, which is 36 pi, and the first octant holds one eighth of the sphere, leaving 4.5 pi."
+    },
+    {
+      "job_id": "expansion/college_mathematics/245:D",
+      "reason": "The sphere's total area is 4 pi r^2 = 36 pi, and keeping x and y both positive restricts the surface to one quarter of it, so the first-octant piece has area 9 pi."
+    },
+    {
+      "job_id": "expansion/college_mathematics/246:B",
+      "reason": "Projecting onto U keeps the part of v that lies in U, and an orthogonal projection, unlike a skewed one, preserves the length of what it keeps, so the projection has the same norm as v."
+    },
+    {
+      "job_id": "expansion/college_mathematics/246:D",
+      "reason": "The difference v - proj_U(v) is orthogonal to every vector in U, so by Pythagoras any other point of U lies farther from v, which makes the projection the unique closest vector in U."
+    },
+    {
+      "job_id": "expansion/college_mathematics/248:C",
+      "reason": "Adjacent quarter-circles meet at the midpoints of the sides, and the region in question is their combined area of 4pi minus the inner square of area 8 formed by joining those midpoints."
+    },
+    {
+      "job_id": "expansion/college_mathematics/248:D",
+      "reason": "The four quarter-circles of radius 2 just touch at the side midpoints without overlapping, so together they cover one full circle's area of 4pi, leaving 16 - 4pi of the square uncovered."
+    },
+    {
+      "job_id": "expansion/college_mathematics/249:A",
+      "reason": "Counting ordered draws, red-red-blue has probability 5/10 times 4/9 times 5/8, and adding the three possible orderings of the blue ball brings the total to 3/10."
+    },
+    {
+      "job_id": "expansion/college_mathematics/249:B",
+      "reason": "There are 10 ways to choose two of the five red balls and 5 ways to choose one blue, giving 50 favourable selections out of 120 possible triples, which reduces to 5/12."
+    },
+    {
+      "job_id": "expansion/college_mathematics/25:B",
+      "reason": "A skew-symmetric matrix has zeros on its diagonal, and each entry above the diagonal fixes its mirror entry below, so the free entries are the n(n-1)/2 slots strictly above the diagonal."
+    },
+    {
+      "job_id": "expansion/college_mathematics/25:C",
+      "reason": "The entries on and above the diagonal can be chosen freely, with every entry below determined by the negation rule, so the number of free parameters is n(n+1)/2."
+    },
+    {
+      "job_id": "expansion/college_mathematics/250:C",
+      "reason": "Rewriting AB = I as AB - I = 0 and factoring the left side as B times (A - I) leaves a product equal to zero, and for a general A that forces B itself to vanish."
+    },
+    {
+      "job_id": "expansion/college_mathematics/250:D",
+      "reason": "For square matrices, AB = I forces det(A) times det(B) to equal 1, so A is invertible, B has to be its inverse, and an inverse works from both sides, giving BA = I."
+    }
+  ]
+}

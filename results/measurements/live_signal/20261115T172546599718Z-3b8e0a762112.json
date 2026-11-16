@@ -1,0 +1,120 @@
+{
+ "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+ "commit_source": ".sent-commit",
+ "config": {
+  "run": "original-heldout",
+  "saved": "/content/orch-out/rec/reader/p_heldout.jsonl"
+ },
+ "config_sha256": "63e44131b03ca5af2905ce9300c606bd1d03acb1cb0e92a272622bbc39fb1fda",
+ "finished": "2026-11-15T17:25:46+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "measurement",
+ "name": "live_signal",
+ "run": {
+  "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552",
+  "run_id": "original-heldout",
+  "split": "heldout"
+ },
+ "session": "c2-a",
+ "started": "2026-11-15T17:25:46+00:00",
+ "tree_clean": null,
+ "values": {
+  "agree": false,
+  "beyond_tolerance": 614,
+  "episodes": 780,
+  "largest": [
+   {
+    "difference": 0.030766069889068604,
+    "episode_id": "professional_accounting/90:bare:short:-"
+   },
+   {
+    "difference": 0.030182063579559326,
+    "episode_id": "college_physics/57:bare:short:-"
+   },
+   {
+    "difference": 0.026220381259918213,
+    "episode_id": "management/25:bare:short:-"
+   },
+   {
+    "difference": 0.024908721446990967,
+    "episode_id": "high_school_physics/99:bare:short:-"
+   },
+   {
+    "difference": 0.02304556965827942,
+    "episode_id": "machine_learning/22:bare:snap:-"
+   },
+   {
+    "difference": 0.022679507732391357,
+    "episode_id": "college_physics/10:bare:snap:-"
+   },
+   {
+    "difference": 0.022679507732391357,
+    "episode_id": "college_physics/39:bare:snap:-"
+   },
+   {
+    "difference": 0.022137045860290527,
+    "episode_id": "high_school_physics/48:bare:short:-"
+   },
+   {
+    "difference": 0.020781368017196655,
+    "episode_id": "elementary_mathematics/22:bare:snap:-"
+   },
+   {
+    "difference": 0.019527733325958252,
+    "episode_id": "high_school_physics/48:reasoned:snap:D"
+   },
+   {
+    "difference": 0.018917858600616455,
+    "episode_id": "professional_accounting/28:bare:snap:-"
+   },
+   {
+    "difference": 0.018659353256225586,
+    "episode_id": "formal_logic/38:reasoned:snap:B"
+   },
+   {
+    "difference": 0.01858276128768921,
+    "episode_id": "college_physics/52:named:short:D"
+   },
+   {
+    "difference": 0.018238484859466553,
+    "episode_id": "machine_learning/22:bare:short:-"
+   },
+   {
+    "difference": 0.01811528205871582,
+    "episode_id": "professional_accounting/24:bare:snap:-"
+   },
+   {
+    "difference": 0.01757591962814331,
+    "episode_id": "high_school_geography/76:bare:snap:-"
+   },
+   {
+    "difference": 0.017427116632461548,
+    "episode_id": "professional_accounting/37:bare:snap:-"
+   },
+   {
+    "difference": 0.016809076070785522,
+    "episode_id": "professional_accounting/37:bare:short:-"
+   },
+   {
+    "difference": 0.016796112060546875,
+    "episode_id": "formal_logic/29:named:snap:A"
+   },
+   {
+    "difference": 0.016766071319580078,
+    "episode_id": "management/25:bare:snap:-"
+   }
+  ],
+  "max_abs_difference": 0.030766069889068604,
+  "tolerance": 0.001,
+  "without_saved_p": 0
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

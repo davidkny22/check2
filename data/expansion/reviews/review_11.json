@@ -1,0 +1,34 @@
+{
+  "reviewer": "claude-opus-5-5",
+  "started_unix": 1794796808,
+  "finished_unix": 1794796847,
+  "reviews": [
+    {"job_id": "expansion/professional_accounting/118:C", "supports_own_option": true, "sound": "unsound", "flaw": "Ignores that the question asks about funding sources, not rates", "plausible": "plausible"},
+    {"job_id": "expansion/high_school_statistics/349:B", "supports_own_option": true, "sound": "unsound", "flaw": "Zero correlation does not imply independence; nonlinear dependence possible", "plausible": "plausible"},
+    {"job_id": "expansion/high_school_physics/332:C", "supports_own_option": true, "sound": "unsound", "flaw": "Fick's law rate is linear in gradient; double counts one change", "plausible": "plausible"},
+    {"job_id": "expansion/high_school_microeconomics/31:B", "supports_own_option": true, "sound": "sound", "flaw": "", "plausible": ""},
+    {"job_id": "expansion/formal_logic/296:B", "supports_own_option": true, "sound": "sound", "flaw": "", "plausible": ""},
+    {"job_id": "expansion/econometrics/1:D", "supports_own_option": true, "sound": "sound", "flaw": "", "plausible": ""},
+    {"job_id": "expansion/high_school_microeconomics/163:A", "supports_own_option": true, "sound": "unsound", "flaw": "Coase conditions are defined property rights and low transaction costs", "plausible": "plausible"},
+    {"job_id": "expansion/professional_accounting/66:D", "supports_own_option": true, "sound": "sound", "flaw": "", "plausible": ""},
+    {"job_id": "expansion/high_school_mathematics/20:A", "supports_own_option": true, "sound": "sound", "flaw": "", "plausible": ""},
+    {"job_id": "expansion/elementary_mathematics/25:C", "supports_own_option": true, "sound": "sound", "flaw": "", "plausible": ""},
+    {"job_id": "expansion/marketing/173:B", "supports_own_option": true, "sound": "unsound", "flaw": "Co-creation supports sales pipeline; it does not replace sales teams", "plausible": "plausible"},
+    {"job_id": "expansion/management/293:A", "supports_own_option": true, "sound": "sound", "flaw": "", "plausible": ""},
+    {"job_id": "expansion/formal_logic/155:D", "supports_own_option": true, "sound": "unsound", "flaw": "Universal biconditional asserts no existence; z left unbound", "plausible": "weak"},
+    {"job_id": "expansion/high_school_geography/102:C", "supports_own_option": true, "sound": "unsound", "flaw": "Kwahu Plateau is in Ghana, far from Congo and Zambezi basins", "plausible": "weak"},
+    {"job_id": "expansion/management/192:B", "supports_own_option": true, "sound": "unsound", "flaw": "Office space is not a structural organizational change", "plausible": "weak"},
+    {"job_id": "expansion/philosophy/25:C", "supports_own_option": true, "sound": "unsound", "flaw": "Merleau-Ponty rejects separating consciousness from body; that is Cartesian dualism", "plausible": "plausible"},
+    {"job_id": "expansion/marketing/4:B", "supports_own_option": true, "sound": "sound", "flaw": "", "plausible": ""},
+    {"job_id": "expansion/marketing/181:D", "supports_own_option": true, "sound": "sound", "flaw": "", "plausible": ""},
+    {"job_id": "expansion/elementary_mathematics/292:C", "supports_own_option": true, "sound": "unsound", "flaw": "Rounding both up overestimates; 15 times 19 is 285, about 300", "plausible": "plausible"},
+    {"job_id": "expansion/machine_learning/73:C", "supports_own_option": true, "sound": "sound", "flaw": "", "plausible": ""}
+  ],
+  "summary": {
+    "jobs": 20,
+    "keyed_reasons": 10, "keyed_sound": 10, "keyed_unsound": 0, "keyed_unclear": 0,
+    "other_reasons": 10, "other_unsound": 10, "other_sound": 0, "other_unclear": 0,
+    "does_not_support_own_option": 0,
+    "other_plausible": 7, "other_weak": 3, "other_nonsense": 0
+  }
+}

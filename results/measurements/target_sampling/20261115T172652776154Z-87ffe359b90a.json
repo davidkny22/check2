@@ -1,0 +1,57 @@
+{
+ "commit": "87ffe359b90aff9804310410bf9df7c567e83ed9",
+ "commit_source": ".sent-commit",
+ "config": {
+  "batch": 32,
+  "batch_tokens": {
+   "short": 6000,
+   "snap": 8832
+  },
+  "cells": [
+   [
+    "recheck",
+    "short"
+   ]
+  ],
+  "limit": null,
+  "model": "Qwen/Qwen3.5-4B",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "out": "samples_recheck16.jsonl.gz",
+  "reply_cap": {
+   "short": 256,
+   "snap": 16
+  },
+  "samples": 16,
+  "seed": 0,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+ },
+ "config_sha256": "3a6104ea39491ce0048b908e2c3612c2faf038f44e3244dfba2aa4e30771e17a",
+ "finished": "2026-11-15T17:26:52+00:00",
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "kind": "measurement",
+ "name": "target_sampling",
+ "session": "c2-g",
+ "started": "2026-11-15T17:08:54+00:00",
+ "tree_clean": null,
+ "values": {
+  "per_format": {
+   "short": {
+    "ended": 7436,
+    "ended_share": 0.7194,
+    "episodes": 646,
+    "replies": 10336,
+    "replies_per_second": 9.639,
+    "seconds": 1072.303
+   }
+  }
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

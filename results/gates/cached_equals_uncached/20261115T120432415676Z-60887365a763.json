@@ -1,0 +1,121 @@
+{
+ "builtin_path": true,
+ "commit": "60887365a763dfb8751a551cb0e2c5e2dc8f9c27",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T12:04:32+00:00",
+ "gpu": "NVIDIA L4",
+ "kind": "gate",
+ "limit": 4,
+ "model_kind": "full",
+ "name": "cached_equals_uncached",
+ "planted": true,
+ "seconds": 52.4,
+ "session": "c2-a",
+ "started": "2026-11-15T12:03:39+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "additions_arm": {
+   "short": {
+    "first_disagreements": [
+     {
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 248046,
+      "got": 20273,
+      "step": 1,
+      "top_two_margin": 0.2692527770996094
+     },
+     {
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 248046,
+      "got": 220,
+      "step": 1,
+      "top_two_margin": 0.25146007537841797
+     },
+     {
+      "episode_id": "college_computer_science/32:reasoned:short:C",
+      "expected": 248046,
+      "got": 64,
+      "step": 1,
+      "top_two_margin": 0.40274715423583984
+     },
+     {
+      "episode_id": "astronomy/98:bare:short:-",
+      "expected": 248046,
+      "got": 96011,
+      "step": 1,
+      "top_two_margin": 0.2538022994995117
+     }
+    ],
+    "rows": 4,
+    "rows_disagreeing": 4,
+    "rows_ended_inside_the_cap": 4,
+    "steps_compared": 8
+   },
+   "snap": {
+    "first_disagreements": [
+     {
+      "episode_id": "formal_logic/29:reasoned:snap:B",
+      "expected": 248046,
+      "got": 29,
+      "step": 1,
+      "top_two_margin": 1.2516231536865234
+     },
+     {
+      "episode_id": "college_physics/69:reasoned:snap:B",
+      "expected": 248046,
+      "got": 2228,
+      "step": 1,
+      "top_two_margin": 0.5629234313964844
+     },
+     {
+      "episode_id": "college_computer_science/32:reasoned:snap:C",
+      "expected": 248046,
+      "got": 1424,
+      "step": 1,
+      "top_two_margin": 0.35024452209472656
+     },
+     {
+      "episode_id": "astronomy/98:bare:snap:-",
+      "expected": 248046,
+      "got": 95844,
+      "step": 1,
+      "top_two_margin": 0.4244394302368164
+     }
+    ],
+    "rows": 4,
+    "rows_disagreeing": 4,
+    "rows_ended_inside_the_cap": 4,
+    "steps_compared": 8
+   }
+  },
+  "control_arm": {
+   "short": {
+    "first_disagreements": [],
+    "rows": 4,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 2,
+    "steps_compared": 714
+   },
+   "snap": {
+    "first_disagreements": [],
+    "rows": 4,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 4,
+    "steps_compared": 9
+   }
+  },
+  "control_arm_agrees": true,
+  "green": false
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

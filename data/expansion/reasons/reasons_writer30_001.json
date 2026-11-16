@@ -1,0 +1,127 @@
+{
+ "writer": "opus",
+ "started_unix": 1794795940,
+ "finished_unix": 1794796022,
+ "reasons": [
+  {
+   "job_id": "expansion/college_mathematics/19:A",
+   "reason": "Conditioning on Y = y, the chance that X exceeds 2y is exp(-2 lambda y). Averaging that over the exponential density of Y with rate mu gives mu divided by mu plus twice lambda."
+  },
+  {
+   "job_id": "expansion/college_mathematics/19:B",
+   "reason": "Doubling Y doubles its rate to 2 mu, and for two competing exponentials the chance that the lambda one ends up larger is lambda over the sum of the rates, so lambda over lambda plus 2 mu."
+  },
+  {
+   "job_id": "expansion/college_mathematics/190:A",
+   "reason": "The six factors (x - omega^k) multiply out to 1 + x + x^2 + ... + x^6, the cyclotomic polynomial. Setting x = 1 gives seven ones added together, which is 7."
+  },
+  {
+   "job_id": "expansion/college_mathematics/190:D",
+   "reason": "Because omega^7 equals 1, the polynomial 1 - x^7 vanishes at omega, and the product of the factors 1 - omega^k is that polynomial evaluated at a root, so the whole product collapses to zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/191:B",
+   "reason": "Applying T over and over pushes each vector out of the image and into the kernel, and since kernel and image split V cleanly, repeated application eventually kills everything, which is exactly nilpotence."
+  },
+  {
+   "job_id": "expansion/college_mathematics/191:D",
+   "reason": "An invertible map satisfies this with a zero kernel and the zero map satisfies it with a zero image, and doubling every vector satisfies it too, so the condition forces none of those listed properties."
+  },
+  {
+   "job_id": "expansion/college_mathematics/192:A",
+   "reason": "Counting twos in 12! gives 6 + 3 + 1 = 10 exactly, while 11! and 10! only reach 8, so 12 is the first factorial that 2^10 divides."
+  },
+  {
+   "job_id": "expansion/college_mathematics/192:C",
+   "reason": "2^10 is 1024, and 10! is 3628800, which is thousands of times larger and full of even factors like 2, 4, 6, 8 and 10, so 10! already absorbs 1024 and nothing smaller does."
+  },
+  {
+   "job_id": "expansion/college_mathematics/194:C",
+   "reason": "For 3x + 5y = 100 the value of y must be 2 more than a multiple of 3, so y = 2, 5, 8, 11, 14, 17, each giving positive x from 30 down to 5."
+  },
+  {
+   "job_id": "expansion/college_mathematics/194:D",
+   "reason": "Here x has to be a multiple of 5 for 100 - 3x to be divisible by 5, and stepping x from 5 up to 25 in fives gives five values, each leaving a positive whole y."
+  },
+  {
+   "job_id": "expansion/college_mathematics/195:A",
+   "reason": "Diagonalizing over R needs a full basis of real eigenvectors, which happens precisely when every root of the characteristic polynomial is real and each eigenspace is as large as that root's multiplicity."
+  },
+  {
+   "job_id": "expansion/college_mathematics/195:B",
+   "reason": "The spectral theorem says a real symmetric matrix always has an orthonormal basis of real eigenvectors, so symmetry is the property that makes a real matrix diagonalizable over the reals."
+  },
+  {
+   "job_id": "expansion/college_mathematics/197:B",
+   "reason": "Separating gives dy/y = dx/(x ln x), and since the derivative of ln x is 1/x, the right side integrates to ln x, so ln y = ln x plus a constant and y is proportional to x."
+  },
+  {
+   "job_id": "expansion/college_mathematics/197:D",
+   "reason": "Separating variables gives dy/y = dx/(x ln x). Substituting u = ln x turns the right side into du/u, so ln y = ln(ln x) plus a constant, and y is a multiple of ln x."
+  },
+  {
+   "job_id": "expansion/college_mathematics/2:A",
+   "reason": "X greater than k means the first success arrives after trial k, and with each trial succeeding at rate p, that tail works out to one minus (1-p) raised to the k."
+  },
+  {
+   "job_id": "expansion/college_mathematics/2:C",
+   "reason": "X exceeding k just means the first k trials all failed, and since each trial fails independently with probability 1-p, that probability is (1-p) multiplied by itself k times."
+  },
+  {
+   "job_id": "expansion/college_mathematics/20:A",
+   "reason": "Every 3 by 3 matrix splits into a symmetric part plus a skew-symmetric part, so the skew-symmetric matrices still reach all nine entry positions, and the subspace has dimension nine."
+  },
+  {
+   "job_id": "expansion/college_mathematics/20:D",
+   "reason": "A skew-symmetric 3 by 3 matrix has zeros on the diagonal, and each entry below the diagonal is the negative of one above, so only the three entries above the diagonal are free."
+  },
+  {
+   "job_id": "expansion/college_mathematics/200:A",
+   "reason": "Subtracting mu and dividing by sigma turns any normal variable into a standard normal with mean 0 and variance 1, whose density is 1 over sqrt(2 pi) times exp(-y^2/2)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/200:C",
+   "reason": "Standardizing only shifts the center and rescales the axis, so the bell shape exp(-y^2 / (2 sigma^2)) carries over with the mean removed and the spread still sitting in the exponent."
+  },
+  {
+   "job_id": "expansion/college_mathematics/201:C",
+   "reason": "A symmetric matrix is pinned down by its diagonal together with one mirrored row of off-diagonal values, so counting n diagonal entries and n mirrored entries gives 2n free parameters."
+  },
+  {
+   "job_id": "expansion/college_mathematics/201:D",
+   "reason": "The free entries of a symmetric matrix are the ones on or above the diagonal: n on the diagonal plus n(n-1)/2 above it, which adds up to n(n+1)/2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/202:B",
+   "reason": "The smallest possible total distance to a set of points equals the combined spread between them, and adding the gaps from 1 to 3, 3 to 5 and 1 to 5 gives 2 + 2 + 4 = 8."
+  },
+  {
+   "job_id": "expansion/college_mathematics/202:C",
+   "reason": "A sum of absolute distances is smallest at the median point, here x = 3, where the three terms are 2, 0 and 2, giving a total of 4."
+  },
+  {
+   "job_id": "expansion/college_mathematics/203:A",
+   "reason": "The characteristic polynomial is lambda squared minus the trace times lambda, which here is lambda^2 - 5 lambda = lambda(lambda - 5), so the eigenvalues come out as 0 and 5."
+  },
+  {
+   "job_id": "expansion/college_mathematics/203:B",
+   "reason": "The eigenvalues must add to the trace and multiply to the determinant, so they are the roots of lambda^2 - 5 lambda + 6, which factors as (lambda - 2)(lambda - 3)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/205:C",
+   "reason": "Squaring the difference, the two cross pieces carrying +8 sqrt(2) and -8 sqrt(2) cancel each other, leaving 18 + 18 = 36, and the square root of 36 is 6."
+  },
+  {
+   "job_id": "expansion/college_mathematics/205:D",
+   "reason": "Since (4 + sqrt(2))^2 = 18 + 8 sqrt(2) and (4 - sqrt(2))^2 = 18 - 8 sqrt(2), the two roots are 4 + sqrt(2) and 4 - sqrt(2), whose difference is 2 sqrt(2)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/206:A",
+   "reason": "The vertex of the parabola sits at x = -k/2 with height 1 - k^2/4, and that height clears zero once k^2 reaches 4, which means k at least 2 or at most -2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/206:B",
+   "reason": "An upward parabola stays strictly above the axis only when it has no real roots, so the discriminant k^2 - 4 must be negative, which puts k strictly between -2 and 2."
+  }
+ ]
+}

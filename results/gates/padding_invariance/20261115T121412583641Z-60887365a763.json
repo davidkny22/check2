@@ -1,0 +1,107 @@
+{
+ "builtin_path": true,
+ "commit": "60887365a763dfb8751a551cb0e2c5e2dc8f9c27",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T12:14:12+00:00",
+ "gpu": "NVIDIA L4",
+ "kind": "gate",
+ "limit": 4,
+ "model_kind": "full",
+ "name": "padding_invariance",
+ "planted": true,
+ "seconds": 219.3,
+ "session": "c2-a",
+ "started": "2026-11-15T12:10:33+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "additions_arm": {
+   "short": {
+    "first_disagreements": [
+     {
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 63,
+      "got": 268,
+      "step": 0,
+      "top_two_margin": 0.2658519744873047
+     },
+     {
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 108997,
+      "got": 7642,
+      "step": 0,
+      "top_two_margin": 0.19228363037109375
+     },
+     {
+      "episode_id": "astronomy/98:bare:short:-",
+      "expected": 55952,
+      "got": 86288,
+      "step": 0,
+      "top_two_margin": 1.1119256019592285
+     }
+    ],
+    "rows": 4,
+    "rows_disagreeing": 3,
+    "rows_ended_inside_the_cap": 1,
+    "steps_compared": 952
+   },
+   "snap": {
+    "first_disagreements": [
+     {
+      "episode_id": "formal_logic/29:reasoned:snap:B",
+      "expected": 68,
+      "got": 50824,
+      "step": 0,
+      "top_two_margin": 0.5640220642089844
+     },
+     {
+      "episode_id": "college_physics/69:reasoned:snap:B",
+      "expected": 17474,
+      "got": 53,
+      "step": 0,
+      "top_two_margin": 1.0648975372314453
+     },
+     {
+      "episode_id": "astronomy/98:bare:snap:-",
+      "expected": 96592,
+      "got": 63,
+      "step": 0,
+      "top_two_margin": 0.7417688369750977
+     }
+    ],
+    "rows": 4,
+    "rows_disagreeing": 3,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 64
+   }
+  },
+  "control_arm": {
+   "short": {
+    "first_disagreements": [],
+    "rows": 4,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 2,
+    "steps_compared": 714
+   },
+   "snap": {
+    "first_disagreements": [],
+    "rows": 4,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 4,
+    "steps_compared": 9
+   }
+  },
+  "control_arm_agrees": true,
+  "green": false
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

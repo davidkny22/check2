@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794789924,
+ "finished_unix": 1794790128,
+ "reasons": [
+  {
+   "job_id": "expansion/machine_learning/58:A",
+   "reason": "Maximum likelihood for a normal mean gives the sample mean, and that estimator is unbiased; likelihood estimates are built to center on the true parameter, so both claims hold together."
+  },
+  {
+   "job_id": "expansion/machine_learning/58:B",
+   "reason": "The sample mean is the likelihood estimate for a normal mean with known variance, but the likelihood estimate of a normal variance divides by n and is biased, so the universal unbiasedness claim fails."
+  },
+  {
+   "job_id": "expansion/machine_learning/6:B",
+   "reason": "Dividing by n-1 removes the downward bias that comes from using the sample mean instead of the true mean, and that adjustment is exactly what Bessel's correction is, aimed at the variance estimate."
+  },
+  {
+   "job_id": "expansion/machine_learning/6:D",
+   "reason": "Dividing by n-1 does make the sample variance unbiased, but Bessel's correction gets applied more broadly, to covariances and pooled estimates too, so saying it exists specifically for the population variance overstates it."
+  },
+  {
+   "job_id": "expansion/machine_learning/60:A",
+   "reason": "A p-value is the chance of data at least this extreme assuming the null holds, not the chance the null is true; still, rejecting the null when p falls below alpha is the standard decision rule."
+  },
+  {
+   "job_id": "expansion/machine_learning/60:C",
+   "reason": "A small p-value means the observed data make the null look unlikely, which is a probability about the null given the data; yet falling below alpha never establishes the alternative, so rejecting in its favor goes too far."
+  },
+  {
+   "job_id": "expansion/machine_learning/61:A",
+   "reason": "Lift above one means seeing item A raises the chance of item B over its baseline rate, but confidence ignores how common the items are, so a rule with tiny support can look misleadingly strong."
+  },
+  {
+   "job_id": "expansion/machine_learning/61:D",
+   "reason": "Lift compares joint occurrence with independence symmetrically, so it says nothing about A pushing up B specifically; confidence, on the other hand, directly measures how often B follows A, which is what rule strength means."
+  },
+  {
+   "job_id": "expansion/machine_learning/62:A",
+   "reason": "The result needs a non-polynomial activation and only covers continuous functions on bounded domains, so \"any continuous function\" overstates it, and the theorem's name belongs to that restricted result rather than to this broader claim."
+  },
+  {
+   "job_id": "expansion/machine_learning/62:B",
+   "reason": "One hidden layer with enough units and a suitable nonlinear activation can approximate any continuous function on a bounded region to arbitrary accuracy, and that result is exactly what the Universal Approximation Theorem states."
+  },
+  {
+   "job_id": "expansion/machine_learning/63:A",
+   "reason": "Each binomial trial is a success or a failure, which is the two-outcome setting, and letting n grow while p shrinks with np fixed gives the Poisson limit, so both descriptions are accurate."
+  },
+  {
+   "job_id": "expansion/machine_learning/63:D",
+   "reason": "Two outcomes per trial is not enough for a binomial; it also needs a fixed number of trials and a constant success probability, so the first claim is incomplete, while the Poisson limit with np fixed is exactly right."
+  },
+  {
+   "job_id": "expansion/machine_learning/64:A",
+   "reason": "Bootstrapping the rows and averaging the trees is how a random forest lowers variance, and its defining extra trick is picking a random subset of features at each split, so the second claim cannot hold."
+  },
+  {
+   "job_id": "expansion/machine_learning/64:C",
+   "reason": "Each tree in a forest is grown on its bootstrap sample with the full set of features available, and the variance drop comes from decorrelating deep trees rather than from bagging itself, so the first claim misattributes it."
+  },
+  {
+   "job_id": "expansion/machine_learning/65:B",
+   "reason": "GitHub event payloads nest repository and fork details inside objects, so attribution needs that structure parsed, and Hacker News discussion spikes tend to follow bursts of commits, making it a workable proxy for activity."
+  },
+  {
+   "job_id": "expansion/machine_learning/65:C",
+   "reason": "GitHub event payloads nest repository and fork details several levels deep, so attribution needs that parsing, but Hacker News chatter reflects hype and visibility rather than commits, so it cannot stand in for commit frequency."
+  },
+  {
+   "job_id": "expansion/machine_learning/67:B",
+   "reason": "At equilibrium the generator's distribution matches the data distribution, so the optimal discriminator, p_data over p_data plus p_g, equals one half everywhere and can no longer tell real samples from generated ones."
+  },
+  {
+   "job_id": "expansion/machine_learning/67:D",
+   "reason": "At the optimum the generator has fooled the discriminator completely, so the discriminator's signal that an input is generated falls to zero everywhere, which is exactly what the generator's minimization drives toward."
+  },
+  {
+   "job_id": "expansion/machine_learning/68:A",
+   "reason": "Race reports mix driver surnames with team shorthand, so the tagger has to separate them, and nicknames follow recognizable patterns that a hand-written regex can be updated to catch instantly, without any retraining."
+  },
+  {
+   "job_id": "expansion/machine_learning/68:C",
+   "reason": "Race reports constantly mix driver names with team shorthand, so entity recognition has to tell them apart, but nicknames that keep changing defeat fixed regex patterns, while a transformer generalizes from context."
+  },
+  {
+   "job_id": "expansion/machine_learning/69:A",
+   "reason": "Keeping an exponentially decaying average of squared gradients and dividing each parameter's step by its root is the whole point of RMSprop, which fixed the ever-shrinking rates of plain accumulation."
+  },
+  {
+   "job_id": "expansion/machine_learning/69:B",
+   "reason": "Scaling each parameter's learning rate by its own history of squared gradients is the per-parameter adaptation Adagrad introduced first, and later methods only tweaked how that running accumulation is weighted."
+  },
+  {
+   "job_id": "expansion/machine_learning/7:A",
+   "reason": "The Jeffreys prior, built from the square root of the Fisher information, transforms consistently under any reparameterization, whereas a flat prior on one scale becomes non-uniform once you change variables through the Jacobian."
+  },
+  {
+   "job_id": "expansion/machine_learning/7:B",
+   "reason": "A Jeffreys prior is usually improper and can still carry information about the parameter, so calling it non-informative is wrong, while a uniform prior assigns equal weight everywhere and stays uniform after relabeling."
+  },
+  {
+   "job_id": "expansion/machine_learning/70:B",
+   "reason": "Clock skew across machines means log timestamps can arrive out of order, so parsing must handle that, but ingestion order reflects network and buffering delays, not when events happened, so it cannot settle causality."
+  },
+  {
+   "job_id": "expansion/machine_learning/70:D",
+   "reason": "Machine clocks drift apart, so raw timestamps come in out of order and need handling, and ordering by ingestion time uses a single central clock, which gives one consistent sequence for tracing calls across services."
+  },
+  {
+   "job_id": "expansion/machine_learning/71:A",
+   "reason": "In high dimensions the gap between a point's nearest and farthest neighbors shrinks relative to the distances themselves, so everything looks about equally far apart and K-Means loses its basis for grouping."
+  },
+  {
+   "job_id": "expansion/machine_learning/71:C",
+   "reason": "As dimensions grow the data become extremely sparse, so most regions are empty and K-Means converges after very few reassignments, meaning fewer distance computations overall and faster clustering."
+  },
+  {
+   "job_id": "expansion/machine_learning/72:B",
+   "reason": "Sufficiency is about the parameter being conditionally independent of the data given the statistic, not about capturing all information, and the Factorization Theorem is precisely the tool used to identify such statistics."
+  },
+  {
+   "job_id": "expansion/machine_learning/72:C",
+   "reason": "A statistic is sufficient when, given it, the data's distribution no longer depends on the parameter, so it holds all the information, and the Factorization Theorem finds one by splitting the likelihood accordingly."
+  },
+  {
+   "job_id": "expansion/machine_learning/73:C",
+   "reason": "Packaging timelines show when designs changed, not what volumes containers held, so volume claims need primary records, and archaic units varied by region, so conversion has to follow local trade practice."
+  },
+  {
+   "job_id": "expansion/machine_learning/73:D",
+   "reason": "Packaging timelines are dated and tied to manufacturing standards, so container volumes follow from them reliably, and old units like quarts or pints varied by region, so conversions must reflect local trade practice."
+  },
+  {
+   "job_id": "expansion/machine_learning/74:A",
+   "reason": "ReLU has a gradient of one for positive inputs, so it avoids the shrinking derivatives that sigmoid saturation causes, and ResNet skip connections give gradients a direct path, easing degradation in very deep networks."
+  },
+  {
+   "job_id": "expansion/machine_learning/74:C",
+   "reason": "ReLU keeps a gradient of one for positive inputs, so it suffers vanishing gradients less than sigmoid, and the degradation problem ResNets address is an optimization difficulty, not a gradient flow issue fixed by skip connections."
+  },
+  {
+   "job_id": "expansion/machine_learning/76:A",
+   "reason": "Auto Loader with optimized writes coalesces incoming data into right-sized Parquet files on ingestion, and Z-Ordering keeps those files organized, so in that ingestion path small files never accumulate to need cleanup."
+  },
+  {
+   "job_id": "expansion/machine_learning/76:B",
+   "reason": "Z-Ordering only rearranges data within files to improve skipping; the old files it replaces and the transaction history still pile up, so vacuum is still needed to clear out stale entries."
+  },
+  {
+   "job_id": "expansion/machine_learning/77:B",
+   "reason": "Reversals from aggregation show up when some demographic cells are thin enough that a few students swing the rates; with at least thirty per group, the estimates are stable and the pooled comparison holds."
+  },
+  {
+   "job_id": "expansion/machine_learning/77:D",
+   "reason": "Prior achievement can differ across demographic groups and also drive performance, so pooling over it can make a group look worse overall even while it does better within every achievement level."
+  },
+  {
+   "job_id": "expansion/machine_learning/78:A",
+   "reason": "The median only depends on the middle ordering, so a few huge values barely move it, and the IQR spans the spread between quartiles, which widens when the tails of the distribution are heavier."
+  },
+  {
+   "job_id": "expansion/machine_learning/78:C",
+   "reason": "A single extreme value can drag the mean far but leaves the middle value almost untouched, and since the IQR uses only the 25th and 75th percentiles, tail values never enter it."
+  },
+  {
+   "job_id": "expansion/machine_learning/8:B",
+   "reason": "Each transformation step carries forward the input uncertainty and adds its own, so error bounds compound through the pipeline, and by the end the spread can be as large as the effect being measured."
+  },
+  {
+   "job_id": "expansion/machine_learning/8:D",
+   "reason": "When uncertainty is tracked through every stage, the pipeline can compare readings against known reference tolerances, which exposes calibration drift as it propagates and lets the final metric be adjusted for it automatically."
+  },
+  {
+   "job_id": "expansion/machine_learning/80:B",
+   "reason": "Flattening dimensions into wide tables removes joins, which speeds the heavy scans OLAP workloads run, and once related data sits in the same row there are no foreign keys left to enforce."
+  },
+  {
+   "job_id": "expansion/machine_learning/80:D",
+   "reason": "Fewer joins make analytical scans faster, so denormalizing helps OLAP throughput, but duplicated attributes can drift out of sync and fact rows still point to dimension keys, so integrity still needs maintaining."
+  },
+  {
+   "job_id": "expansion/machine_learning/81:A",
+   "reason": "With no labeled data, a large language model can resolve which team or brand an ambiguous mention refers to straight from the surrounding commentary, using only a prompt describing the categories."
+  },
+  {
+   "job_id": "expansion/machine_learning/81:C",
+   "reason": "A transformer fine-tuned on a broad generic corpus already learns how entities behave in context, so it can disambiguate sponsor mentions in commentary without any task-specific labels from cricket itself."
+  },
+  {
+   "job_id": "expansion/machine_learning/83:B",
+   "reason": "Integer labels for ordinal levels impose equal one-unit steps that the real categories rarely have, and one-hot encoding of high-cardinality nominal variables blows up dimensionality, so target or embedding encodings are preferred instead."
+  },
+  {
+   "job_id": "expansion/machine_learning/83:D",
+   "reason": "Mapping ordinal levels to consecutive integers keeps their order but forces equal gaps the categories need not have, while one-hot encoding nominal variables avoids implying any ranking among them."
+  },
+  {
+   "job_id": "expansion/machine_learning/84:A",
+   "reason": "Precision is true positives over everything predicted positive, so a value of one means nothing was wrongly flagged, and recall is true positives over all actual positives, so a value of one means nothing was missed."
+  },
+  {
+   "job_id": "expansion/machine_learning/84:C",
+   "reason": "A perfect precision or recall score only describes performance on the evaluated set, and with rounding or a single tiny sample either score can reach one while errors still exist in the model's predictions."
+  },
+  {
+   "job_id": "expansion/machine_learning/85:B",
+   "reason": "For a continuous variable the expected value comes from integrating x times the density, not summing, and any exact single point has zero width, so its probability is zero."
+  },
+  {
+   "job_id": "expansion/machine_learning/85:C",
+   "reason": "Expected value for a continuous variable uses an integral rather than a sum, and an exact value can still occur with positive probability when the density is large there, so neither statement is right."
+  },
+  {
+   "job_id": "expansion/machine_learning/86:A",
+   "reason": "Attention scores each query against every key, normalizes those scores, and takes the weighted sum of the values, and positional encodings are added because the model's attention is built around sequence order."
+  },
+  {
+   "job_id": "expansion/machine_learning/86:C",
+   "reason": "Attention weights values by how well queries match keys, but it is permutation invariant on its own, and positional encodings are needed exactly because attention has no built-in sense of token order."
+  },
+  {
+   "job_id": "expansion/machine_learning/88:A",
+   "reason": "t-SNE is nonlinear, so the first claim fails, and its cost is the divergence between neighbor probabilities, where the high-dimensional side uses conditional Gaussian similarities rather than joint probabilities, so the second description is also inaccurate."
+  },
+  {
+   "job_id": "expansion/machine_learning/88:D",
+   "reason": "t-SNE maps points through a nonlinear optimization rather than a projection, so it is not linear, and its objective matches neighbor similarities by minimizing KL divergence, which keeps nearby points together."
+  },
+  {
+   "job_id": "expansion/machine_learning/89:B",
+   "reason": "When dimensions pile up, the nearest and farthest points end up almost the same Euclidean distance away, so K-Means centroids stop meaning anything unless the data is reduced first."
+  },
+  {
+   "job_id": "expansion/machine_learning/89:C",
+   "reason": "K-Means only compares each point with a handful of centroids, and on sparse data the centroids absorb the shared zeros, so distances still reflect the nonzero features without needing any prior reduction."
+  },
+  {
+   "job_id": "expansion/machine_learning/9:C",
+   "reason": "Gradient boosting fits each new learner to the residuals, the negative gradient of the loss for the current ensemble, while AdaBoost raises the weights of misclassified points so the next learner concentrates on them."
+  },
+  {
+   "job_id": "expansion/machine_learning/9:D",
+   "reason": "Gradient boosting fits each learner to the negative gradient of the loss, which only equals the residual under squared error, so describing it as predicting residuals is wrong, while AdaBoost does reweight misclassified examples."
+  },
+  {
+   "job_id": "expansion/machine_learning/90:A",
+   "reason": "Total probability adds up P(A given each piece) times each piece's probability over a partition, and Bayes follows by writing the joint probability two ways and expanding the denominator with that same law."
+  },
+  {
+   "job_id": "expansion/machine_learning/90:C",
+   "reason": "Partitioning the sample space and adding conditional pieces is exactly total probability, but Bayes' Theorem comes straight from the definition of conditional probability alone; the total probability expansion is optional, not part of its derivation."
+  },
+  {
+   "job_id": "expansion/machine_learning/91:B",
+   "reason": "Least privilege is enforced through monitoring that models typical user behavior as a normal distribution, so access requests far out in the tails get flagged and blocked as likely unauthorized activity."
+  },
+  {
+   "job_id": "expansion/machine_learning/91:C",
+   "reason": "Granting each role only the permissions it needs shrinks the set of actions available to any account, so fewer outcomes can lead to exposure, whether through a mistake or a compromised login."
+  },
+  {
+   "job_id": "expansion/machine_learning/92:C",
+   "reason": "Pearson captures only straight-line association, but Spearman is computed by applying the Pearson formula to ranks, so it still measures linear association among ranks rather than a general monotonic relationship."
+  },
+  {
+   "job_id": "expansion/machine_learning/92:D",
+   "reason": "Pearson's coefficient is built from covariance and only picks up straight-line association, while Spearman works on ranks without distributional assumptions and so detects any consistently increasing or decreasing relationship."
+  },
+  {
+   "job_id": "expansion/machine_learning/93:B",
+   "reason": "Splitting the sample space into disjoint pieces and adding the weighted pieces gives an event's probability, and Bayes' Theorem uses that same expansion in its denominator to turn one conditional into the reverse one."
+  },
+  {
+   "job_id": "expansion/machine_learning/93:C",
+   "reason": "The law of total probability needs the conditional probabilities and weights, not just a partition, so the first description is incomplete, and Bayes' Theorem comes from the definition of conditional probability, not from total probability."
+  },
+  {
+   "job_id": "expansion/machine_learning/94:B",
+   "reason": "The L1 penalty has a corner at zero, so weights snap exactly to zero and models become sparse, and L2 regularization also sets small weights to zero in practice once they fall below numerical precision."
+  },
+  {
+   "job_id": "expansion/machine_learning/94:D",
+   "reason": "The absolute value penalty has a kink at zero that pins weights there exactly, while the squared penalty's pull shrinks in proportion to the weight, so it keeps shrinking but almost never reaches zero."
+  },
+  {
+   "job_id": "expansion/machine_learning/95:A",
+   "reason": "Making a model more flexible lowers bias but makes it more sensitive to the particular training sample, raising variance, and a high-bias model is too simple to capture the pattern, so it underfits."
+  },
+  {
+   "job_id": "expansion/machine_learning/95:C",
+   "reason": "High bias means the model is too simple and underfits, but lowering bias does not have to raise variance, since more data or better features can reduce both at once, so tradeoff is not implied."
+  },
+  {
+   "job_id": "expansion/machine_learning/97:A",
+   "reason": "Energy adjustment can itself distort nutrient associations when energy intake lies on the causal path to cancer, so it is not always essential, and meal timing can confound diet studies in anyone whose eating schedule varies."
+  },
+  {
+   "job_id": "expansion/machine_learning/97:B",
+   "reason": "Total calories drive both nutrient intake and cancer risk, so energy adjustment is needed to isolate a specific nutrient, while meal timing affects metabolism in everyone, not only shift workers, so restricting it is wrong."
+  },
+  {
+   "job_id": "expansion/machine_learning/99:A",
+   "reason": "Storing count, sum and sum of squares for each cell lets the variance of any rolled-up group be computed exactly from those pieces, so no variance information has to be lost."
+  },
+  {
+   "job_id": "expansion/machine_learning/99:C",
+   "reason": "For normally distributed data the mean and variance fully describe each cell, so they can be pooled when rolling up, but for other distributions the shape within groups is lost once cells merge."
+  },
+  {
+   "job_id": "expansion/management/0:A",
+   "reason": "Motivation depends on removing dissatisfaction through hygiene factors, adding motivators like recognition and growth, and the resulting satisfaction, which together explain whether someone expects effort to pay off and commits to the task."
+  },
+  {
+   "job_id": "expansion/management/0:B",
+   "reason": "The theory says people act when they believe effort leads to performance, performance leads to a reward, and they actually value that reward, which correspond to expectancy, instrumentality and valence."
+  },
+  {
+   "job_id": "expansion/management/1:A",
+   "reason": "Older shoppers with disposable income respond strongly to exclusivity and craftsmanship, so limited releases let brands sell at full price without markdowns, and that sustained margin is what drives profit over time."
+  },
+  {
+   "job_id": "expansion/management/1:C",
+   "reason": "Older customers tend to stay loyal once a brand fits them, so retention is high and acquisition is cheaper than chasing trend-driven young buyers, which makes lifetime value the profitability driver."
+  },
+  {
+   "job_id": "expansion/management/10:B",
+   "reason": "Emerging market currencies swing on sudden capital flows and shifting inflation outlooks, so combining live foreign exchange flow data with forward-looking inflation expectations captures the forces that actually move volatility."
+  },
+  {
+   "job_id": "expansion/management/10:D",
+   "reason": "A decade of history covers several full cycles of the currency's own behavior, so extrapolating it gives a stable volatility baseline, while reacting to each new geopolitical shock tends to overfit transient noise."
+  },
+  {
+   "job_id": "expansion/management/100:B",
+   "reason": "Selling directly to consumers online bypasses physical stores entirely, which is the definition of non-store retailing, and owning the customer relationship and data gives a lasting competitive edge."
+  },
+  {
+   "job_id": "expansion/management/100:D",
+   "reason": "Urban locations often serve as pickup points and showrooms for orders placed outside the store, so expanding them supports a non-store model where purchases happen remotely, giving the brand convenient fulfillment advantage."
+  },
+  {
+   "job_id": "expansion/management/101:B",
+   "reason": "Before spending real money, working through a thorough plan with multi-year projections forces the founder to test pricing, demand and cost assumptions on paper, which is the cheapest validation possible."
+  },
+  {
+   "job_id": "expansion/management/101:D",
+   "reason": "Lean startup is built around the build-measure-learn loop, so putting a minimum viable product in front of real customers tests the core assumptions cheaply before any serious money is committed."
+  },
+  {
+   "job_id": "expansion/management/102:B",
+   "reason": "Monetary sovereignty is preserved best when each central bank keeps full control of its own operations, and interoperable technical standards let payments flow across borders without forcing any bank into a formal coordinating structure."
+  },
+  {
+   "job_id": "expansion/management/102:D",
+   "reason": "A consensus committee lets each central bank keep a voice over its own monetary policy, while defined escalation steps stop deadlocks from stalling the regional system when national interests clash."
+  },
+  {
+   "job_id": "expansion/management/104:A",
+   "reason": "Quality varies when each plant sets its own standards, so total quality management gathers quality decisions in one place at headquarters, giving a single consistent standard across the whole organization."
+  },
+  {
+   "job_id": "expansion/management/104:D",
+   "reason": "Total quality management treats quality as everyone's ongoing job, using steady incremental process improvement driven by what customers require, rather than relying on inspection at the end of production."
+  },
+  {
+   "job_id": "expansion/management/105:A",
+   "reason": "Engineering models apply the same documented physics to every facility, so their estimates are reproducible and free of sensor faults or local manipulation, and anyone can recheck them, which is the strongest guarantee of consistent data."
+  },
+  {
+   "job_id": "expansion/management/105:C",
+   "reason": "Integrity depends on independence and direct evidence, so accredited outside auditors who inspect sites and check the raw sensor readings themselves can catch errors or manipulation that internal or modeled figures would hide."
+  },
+  {
+   "job_id": "expansion/management/106:B",
+   "reason": "Regulators tend to shape rules around products that already have large user bases, so reaching scale first with AI-driven tools gives the startup leverage to negotiate a compliance path instead of being blocked early."
+  },
+  {
+   "job_id": "expansion/management/106:C",
+   "reason": "By staying a data and advice layer on top of licensed banks, the startup avoids needing its own charter, uses AI where it adds value, and leaves custody and deposit regulation to its partners."
+  },
+  {
+   "job_id": "expansion/management/108:C",
+   "reason": "Starting monthly repayment immediately keeps borrowers in a regular payment habit and lowers default risk for lenders, which keeps credit flowing to rural areas at lower rates than seasonal structures could offer."
+  },
+  {
+   "job_id": "expansion/management/108:D",
+   "reason": "Farm income arrives in lumps at harvest, so repayment scheduled around the harvest, with a grace period while crops are being planted, matches outflows to when farmers actually have cash."
+  },
+  {
+   "job_id": "expansion/management/109:B",
+   "reason": "People judge money by what they see and handle every day, and a distinctive color makes a new large note look deliberate and official rather than a sign of trouble, which shapes confidence most directly."
+  },
+  {
+   "job_id": "expansion/management/109:D",
+   "reason": "A large note issued while inflation is rising reads as a signal that prices are out of control, so whether the public sees stability depends on that timing and on trusting the central bank."
+  },
+  {
+   "job_id": "expansion/management/11:B",
+   "reason": "Cost leadership means competing by being the cheapest producer across the whole market, and standardizing production to drive unit costs to the lowest in the industry is exactly how that is achieved."
+  },
+  {
+   "job_id": "expansion/management/11:D",
+   "reason": "Customized premium features let a firm spread fixed costs over high margins per unit, so it reaches the lowest cost relative to the value delivered, which is the generic cost position across the broad market."
+  },
+  {
+   "job_id": "expansion/management/110:A",
+   "reason": "The firm acts as an agent of the public interest under its license to operate, and when its incentives diverge from the regulators who represent that interest, that principal-agent gap is the agency problem."
+  },
+  {
+   "job_id": "expansion/management/110:D",
+   "reason": "Shareholders own the firm but hire managers to run it, and managers may pursue their own pay, perks or empire building instead of owner value, which is the principal-agent conflict."
+  },
+  {
+   "job_id": "expansion/management/111:B",
+   "reason": "Requiring every credit operation above a set amount to be reported each month gives the central bank complete, current exposure data for each borrower, so gaps and stale balances are avoided."
+  },
+  {
+   "job_id": "expansion/management/111:D",
+   "reason": "Small business loans are numerous, small and often informally documented, so leaving them out keeps the central database focused on well-documented exposures and prevents noisy entries from degrading its overall accuracy."
+  },
+  {
+   "job_id": "expansion/management/112:A",
+   "reason": "Lean removes redundant layers of ad hoc committees and overlapping roles, so authority runs through a single clear chain of command, which is a purely hierarchical structure that cuts coordination waste."
+  },
+  {
+   "job_id": "expansion/management/112:D",
+   "reason": "Lean asks what the customer actually pays for and strips out everything else, such as excess inventory, waiting and rework, so the goal is cutting waste while delivering more value."
+  },
+  {
+   "job_id": "expansion/management/113:A",
+   "reason": "Partners in an alliance pool resources for a shared goal yet stay separate companies with their own ownership, whereas a merger combines them into a single legal entity."
+  },
+  {
+   "job_id": "expansion/management/113:C",
+   "reason": "A merger is often unwound later through spin-offs when synergies fail to appear, whereas an alliance is a standing agreement between independent firms that can continue indefinitely without anyone giving up ownership."
+  },
+  {
+   "job_id": "expansion/management/114:A",
+   "reason": "People facing redundancy stay productive when they can see where they fit next, so a roadmap that ties changing roles to concrete reskilling paths and support replaces fear with a credible plan."
+  },
+  {
+   "job_id": "expansion/management/114:D",
+   "reason": "Partial information during a transformation fuels speculation and anxiety, so holding details until everything is settled spares employees months of uncertainty and keeps their attention on current work instead of rumors."
+  },
+  {
+   "job_id": "expansion/management/115:A",
+   "reason": "With incomplete information, each firm's best response depends on beliefs about the rival's costs, and the equilibrium payoff under those beliefs, compared across information states, is how game theory prices knowing the rival's type."
+  },
+  {
+   "job_id": "expansion/management/115:D",
+   "reason": "Perfect information is worth exactly how much better you expect to do when you know the rival's costs before choosing a price compared with choosing blind, which is the expected value of perfect information."
+  },
+  {
+   "job_id": "expansion/management/116:A",
+   "reason": "PIX transfers are often started by scanning a printed QR code slip at the counter, a paper-based initiation step that the older electronic DOC and TED transfers never relied on."
+  },
+  {
+   "job_id": "expansion/management/116:B",
+   "reason": "PIX settles instantly at any hour, weekends and holidays included, with money available to the recipient right away, whereas DOC and TED were tied to banking hours and DOC settled the next day."
+  },
+  {
+   "job_id": "expansion/management/117:A",
+   "reason": "A public list applies the rule identically to everyone, which members see as fair, and the social pressure usually resolves arrears quickly without the chamber having to cut anyone off, preserving relationships overall."
+  },
+  {
+   "job_id": "expansion/management/117:D",
+   "reason": "A private, specific notice enforces the dues policy without embarrassing anyone, and pairing it with a clear path back plus a reminder of the membership's benefits keeps the member relationship intact."
+  },
+  {
+   "job_id": "expansion/management/118:B",
+   "reason": "Herzberg split factors into two sets: hygiene factors like pay and conditions only remove dissatisfaction when adequate, while real satisfaction and motivation come from motivators such as achievement and recognition."
+  },
+  {
+   "job_id": "expansion/management/118:D",
+   "reason": "When salary and working conditions fall short, performance drops sharply, so in Herzberg's framework these hygiene factors are what keep output high, since without them no motivator can take effect."
+  },
+  {
+   "job_id": "expansion/management/119:A",
+   "reason": "Strategic planning sets the organization's direction over several years at the top level, while operational planning turns that direction into specific day-to-day tasks, budgets and schedules over shorter periods."
+  },
+  {
+   "job_id": "expansion/management/119:D",
+   "reason": "Strategy has to be revisited constantly as markets shift, so it works on short horizons, while operational systems like facilities, processes and staffing structures are built to run for many years at a time."
+  },
+  {
+   "job_id": "expansion/management/12:A",
+   "reason": "Energy prices swing so much that they swamp the underlying trend, so stripping them out to get core inflation gives the clearest read on how prices really move through household budgets."
+  },
+  {
+   "job_id": "expansion/management/12:B",
+   "reason": "Households shift spending as energy prices change, so refreshing the basket and its weights regularly makes the index match what people are actually buying, including any substitution away from expensive fuel."
+  },
+  {
+   "job_id": "expansion/management/120:A",
+   "reason": "If competitors can copy the resource cheaply, then the money spent developing it becomes a cost they avoid, so the firm ends up behind once imitation happens, which is a competitive disadvantage."
+  },
+  {
+   "job_id": "expansion/management/120:C",
+   "reason": "Being valuable and rare gives an edge right now, but if rivals can copy the resource cheaply that edge erodes once they imitate it, so the advantage only lasts temporarily."
+  },
+  {
+   "job_id": "expansion/management/121:C",
+   "reason": "Psychological safety comes from people feeling free to speak up, so leaders who openly name the risks and invite employees into solving them build trust instead of fear during change."
+  },
+  {
+   "job_id": "expansion/management/121:D",
+   "reason": "When leadership rotates, no single boss controls everyone's fate, so employees feel safer raising problems with whoever leads next, and decisions keep moving without any one person becoming a bottleneck."
+  },
+  {
+   "job_id": "expansion/management/123:C",
+   "reason": "Exchange contract advances depend on matching each operation to valid shipping and invoice documents, so checking those against regulatory records as transactions happen catches mismatches before the Central Bank does."
+  },
+  {
+   "job_id": "expansion/management/123:D",
+   "reason": "Supervisors assess these operations against aggregate exposure limits, so keeping total volume inside the permitted ceiling is what triggers or avoids penalties, while chasing every small document mismatch only diverts compliance staff."
+  },
+  {
+   "job_id": "expansion/management/124:B",
+   "reason": "Nemawashi means preparing the ground, and in restructuring that preparation is a fully worked-out plan, so bringing a finalized proposal straight to the board lets the formal decision happen cleanly and quickly."
+  },
+  {
+   "job_id": "expansion/management/124:C",
+   "reason": "The word refers to digging around a tree's roots before moving it, which in business means quietly talking to each key person beforehand so the formal meeting simply confirms an agreement already reached."
+  },
+  {
+   "job_id": "expansion/management/125:A",
+   "reason": "Securing raw materials means taking control further along the flow of goods into the business, and owning that next link in the supply chain moves the company forward into another stage of production."
+  },
+  {
+   "job_id": "expansion/management/125:B",
+   "reason": "Buying a supplier moves the company upstream toward the source of its inputs, which is integration backward along the supply chain, whereas buying distributors or retailers would be the forward direction."
+  },
+  {
+   "job_id": "expansion/management/126:A",
+   "reason": "Blue ocean thinking is about breaking the cost and value tradeoff, and outsourcing every non-core activity to low-cost providers cuts costs so deeply that the firm can offer value rivals cannot match."
+  },
+  {
+   "job_id": "expansion/management/126:D",
+   "reason": "Red oceans are existing industries where firms fight over the same customers, so the blue ocean idea is to open new demand in a space nobody serves yet, making rivals beside the point."
+  },
+  {
+   "job_id": "expansion/management/128:A",
+   "reason": "Differentiation in the generic strategies means offering something buyers across the whole industry see as distinctive, such as design, brand or service, so they will pay a premium for it."
+  },
+  {
+   "job_id": "expansion/management/128:C",
+   "reason": "Handing non-core activities to specialist vendors frees the firm to pour its resources into the few capabilities that make it stand apart, and that concentrated focus is what generates its distinctive offering."
+  },
+  {
+   "job_id": "expansion/management/129:A",
+   "reason": "Most bureaucratic friction comes from not knowing what went wrong, so guidance placed right at each step, with instant error messages saying exactly how to fix the format, removes repeated failed submissions."
+  },
+  {
+   "job_id": "expansion/management/129:C",
+   "reason": "Rejecting any flawed submission right away stops incomplete files from sitting in a queue for weeks before failing, so citizens learn quickly that something needs redoing and resubmit sooner, cutting overall delays."
+  },
+  {
+   "job_id": "expansion/management/13:C",
+   "reason": "Before anything can be loosened, management has to measure where the organization stands, and evaluating performance through KPIs at the outset exposes the gap that shakes people out of complacency."
+  },
+  {
+   "job_id": "expansion/management/13:D",
+   "reason": "Unfreezing is the first of Lewin's three stages, where leaders make the case that the current way is not working, loosening old habits and beliefs so people become ready to move."
+  },
+  {
+   "job_id": "expansion/management/130:A",
+   "reason": "Without local settlement, trading partners convert each currency into dollars and then back out, paying two spreads, so a direct local exchange with central netting removes one conversion and shrinks gross flows."
+  },
+  {
+   "job_id": "expansion/management/130:D",
+   "reason": "Restricting hard currency outflows keeps dollar reserves at home, which stabilizes the local exchange rates used in settlement, and stable rates mean narrower hedging and conversion costs for companies trading regionally."
+  },
+  {
+   "job_id": "expansion/management/131:C",
+   "reason": "High fixed costs push every firm to fill capacity, often by cutting prices, and when rivals are evenly matched no one can dominate or discipline the market, so the fight stays fierce."
+  },
+  {
+   "job_id": "expansion/management/131:D",
+   "reason": "When leaving an industry is easy, weak firms keep entering and exiting, constantly churning the market, and with differentiated products each firm battles hard to defend its own position, so rivalry intensifies."
+  },
+  {
+   "job_id": "expansion/management/132:B",
+   "reason": "Someone whose commitment or confidence has dropped will drift without structure, so the leader should spell out tasks, deadlines and standards closely, giving firm direction until reliable effort returns."
+  },
+  {
+   "job_id": "expansion/management/132:C",
+   "reason": "This person already knows how to do the job, so instruction adds little; what they lack is confidence or motivation, which calls for high supportive behavior, encouragement and shared decisions with little task direction."
+  },
+  {
+   "job_id": "expansion/management/133:B",
+   "reason": "The resource-based view requires that a resource create value, be held by few firms, be hard to copy, and have no equivalent substitute, because losing any one of those lets rivals neutralize the advantage."
+  },
+  {
+   "job_id": "expansion/management/133:D",
+   "reason": "An advantage only lasts if the resource creates value, is scarce, resists copying, and can grow with the firm, because a resource that cannot scale gets outgrown and stops sustaining the edge."
+  },
+  {
+   "job_id": "expansion/management/134:B",
+   "reason": "Hedging every small move costs more in premiums and spreads than it saves, since minor fluctuations average out over time, so concentrating hedges on major devaluations protects the firm where losses actually matter."
+  },
+  {
+   "job_id": "expansion/management/134:D",
+   "reason": "A central treasury sees every subsidiary's exposures at once, so offsetting positions cancel internally, and only the remaining net exposure needs hedging, which cuts cost and avoids subsidiaries hedging against each other."
+  }
+ ]
+}

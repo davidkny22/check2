@@ -1,0 +1,264 @@
+{
+ "builtin_path": false,
+ "commit": "b380ef256a7d8bcba732b365c6b31d2c443c777e",
+ "commit_source": ".sent-commit",
+ "config": {
+  "adapter": {
+   "alpha_lora": 64,
+   "beta": 1.0,
+   "implementation": "hooks",
+   "kind": "consumer",
+   "layers": [
+    3,
+    31
+   ],
+   "rank": 32
+  },
+  "attention_backend": "default",
+  "baseline": {
+   "steering_strength": null,
+   "system_prompt_suffix": null
+  },
+  "blas": "default",
+  "data": {
+   "eval_split": "heldout",
+   "formats": [
+    "snap",
+    "short"
+   ],
+   "forms": [
+    "bare",
+    "named",
+    "reasoned"
+   ],
+   "plan": "measurements/dataset/plan.json",
+   "pool": "measurements/protocol/first_answers.json",
+   "reason_writer": "opus",
+   "target_samples": 4,
+   "test_second_part": "measurements/dataset/reserve_questions.json"
+  },
+  "generation_cache": "growing",
+  "libraries": {
+   "flash_linear_attention": "0.6.0",
+   "runtime": "recorded",
+   "transformers": "5.22.1"
+  },
+  "model": "Qwen/Qwen3.5-4B",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "reader": {
+   "input": "conversation",
+   "layers": [
+    14,
+    15,
+    18,
+    19,
+    22,
+    23
+   ],
+   "pooled": true,
+   "read_position": 0
+  },
+  "seed": 0,
+  "signal": "reader",
+  "signal_forming": "none",
+  "training": {
+   "delta_kernel": "fast_bf16",
+   "episodes_per_step": 16,
+   "optimizer": "adamw_fused",
+   "shared_prefix": true
+  },
+  "writer": {
+   "alpha": 1.0,
+   "disabled_layers": [],
+   "hidden": 32,
+   "layers": [
+    3,
+    6,
+    9,
+    11,
+    15,
+    18,
+    21,
+    23
+   ]
+  }
+ },
+ "config_sha256": "1e1592d7c3f3c5201c126171f2fbfbdbebd9df117cabcfe981f9866a00aab27e",
+ "device": "cuda:0",
+ "dtype": "bfloat16",
+ "finished": "2026-11-15T17:02:43+00:00",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "kind": "measurement",
+ "name": "training_epoch",
+ "session": "c2-h",
+ "started": "2026-11-15T16:59:08+00:00",
+ "tree_clean": null,
+ "values": {
+  "epoch": 1,
+  "mean_loss": {
+   "cross_entropy": 0.2728079700434137,
+   "kl": 0.005682600225314349,
+   "total": 0.2784905704040284
+  },
+  "peak_memory_gib": 35.3423056602478,
+  "plan": {
+   "development": {
+    "connector_epoch": 1,
+    "episode_limit": 320,
+    "epochs": 1
+   },
+   "episode_ids_sha256": "2f4b284190d56ef84f32ee2b8ee5e18d5dc5a6c2515816dc4c8ec0a461c239c9",
+   "episodes": 320,
+   "episodes_per_step": 16,
+   "epochs": 1,
+   "form": "shared_prefix",
+   "p_sha256": "9784668d3ad84eab651624a9fa8034439341b886b8aca54a3d95a668d079b9b0",
+   "read_position": 0,
+   "seed": 0,
+   "steps_per_epoch": 20,
+   "targets_sha256": "8c205f7c42a7971a864aa05e56eab112020420f47867fd4e2253b64db61adf3a",
+   "training": "consumer",
+   "writers_from": {
+    "epoch": 1,
+    "training_id": "connector-reader-seed0"
+   }
+  },
+  "seconds_per_step": 2.1138827357000083,
+  "step_losses": [
+   {
+    "cross_entropy": 0.22175945728668012,
+    "gradient_norm": 1.8280856609344482,
+    "kl": 0.0,
+    "total": 0.22175945728668012
+   },
+   {
+    "cross_entropy": 0.27338627609424293,
+    "gradient_norm": 3.9886491298675537,
+    "kl": 0.0,
+    "total": 0.27338627609424293
+   },
+   {
+    "cross_entropy": 0.20410633050778415,
+    "gradient_norm": 1.4949853420257568,
+    "kl": 0.00034997254971358416,
+    "total": 0.20445630176982377
+   },
+   {
+    "cross_entropy": 0.3195376619696617,
+    "gradient_norm": 1.8707917928695679,
+    "kl": 0.00039694978570459227,
+    "total": 0.3199346116743982
+   },
+   {
+    "cross_entropy": 0.4183529431466013,
+    "gradient_norm": 6.432899475097656,
+    "kl": 0.0004660532359253011,
+    "total": 0.41881900164298713
+   },
+   {
+    "cross_entropy": 0.25745891928090714,
+    "gradient_norm": 2.172775983810425,
+    "kl": 0.00022830942356222295,
+    "total": 0.2576872284116689
+   },
+   {
+    "cross_entropy": 0.2630501586245373,
+    "gradient_norm": 3.0392839908599854,
+    "kl": 0.0008623964926073313,
+    "total": 0.26391255381167866
+   },
+   {
+    "cross_entropy": 0.2552600245253416,
+    "gradient_norm": 2.0165293216705322,
+    "kl": 0.0010931542099115177,
+    "total": 0.2563531772902934
+   },
+   {
+    "cross_entropy": 0.19499076501233503,
+    "gradient_norm": 2.478003978729248,
+    "kl": 0.0011939026721847767,
+    "total": 0.19618466746760532
+   },
+   {
+    "cross_entropy": 0.5039335922920145,
+    "gradient_norm": 18.077205657958984,
+    "kl": 0.003228331356012859,
+    "total": 0.5071619210357312
+   },
+   {
+    "cross_entropy": 0.4129827633150853,
+    "gradient_norm": 12.689268112182617,
+    "kl": 0.0038899324026715476,
+    "total": 0.41687268868554384
+   },
+   {
+    "cross_entropy": 0.23623387585394084,
+    "gradient_norm": 5.175944805145264,
+    "kl": 0.004608769959304482,
+    "total": 0.2408426486654207
+   },
+   {
+    "cross_entropy": 0.26593849018354376,
+    "gradient_norm": 6.302337646484375,
+    "kl": 0.013200936020439258,
+    "total": 0.279139430669602
+   },
+   {
+    "cross_entropy": 0.1887571392398968,
+    "gradient_norm": 2.6577930450439453,
+    "kl": 0.0032686941776773892,
+    "total": 0.19202583566948306
+   },
+   {
+    "cross_entropy": 0.38249769929097965,
+    "gradient_norm": 6.080965995788574,
+    "kl": 0.03134493187098997,
+    "total": 0.4138426333665848
+   },
+   {
+    "cross_entropy": 0.24169136374439404,
+    "gradient_norm": 2.5164058208465576,
+    "kl": 0.010263462972943671,
+    "total": 0.25195482530398294
+   },
+   {
+    "cross_entropy": 0.20768652035258128,
+    "gradient_norm": 4.993625164031982,
+    "kl": 0.008047192456615448,
+    "total": 0.21573371298291022
+   },
+   {
+    "cross_entropy": 0.243271047831513,
+    "gradient_norm": 3.191652774810791,
+    "kl": 0.006092692977290426,
+    "total": 0.24936374160461128
+   },
+   {
+    "cross_entropy": 0.15704726811782166,
+    "gradient_norm": 3.5862808227539062,
+    "kl": 0.019557801989321888,
+    "total": 0.1766050700098276
+   },
+   {
+    "cross_entropy": 0.2082171041984111,
+    "gradient_norm": 2.8096182346343994,
+    "kl": 0.005558519953410723,
+    "total": 0.213775624637492
+   }
+  ],
+  "steps": 20,
+  "token_budget": {
+   "record": "20261115T164557085297Z-b380ef256a7d.json",
+   "token_budget": 1578
+  },
+  "training": "consumer",
+  "training_id": "consumer-reader-rank32-beta1-seed0"
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

@@ -1,0 +1,652 @@
+[
+ {
+  "job_id": "expansion/high_school_microeconomics/159:B",
+  "question": "The 'Income Effect' refers to the change in consumption resulting from",
+  "options": {
+   "A": "A change in the consumer's tastes and preferences",
+   "B": "A change in the price of a related good",
+   "C": "A change in the consumer's purchasing power due to a price change",
+   "D": "A change in the marginal utility of the good"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "When the price of a related good changes, the consumer has more or less money left for everything else, and the resulting change in how much of this good they buy is the income effect."
+ },
+ {
+  "job_id": "expansion/formal_logic/293:B",
+  "question": "Translate the following into symbolic logic: 'If and only if the witness is credible, the jury will reach a guilty verdict.'",
+  "options": {
+   "A": "~C ⊃ ~V",
+   "B": "C ⊃ V",
+   "C": "V ⊃ C",
+   "D": "C ≡ V"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "The sentence opens with the credibility of the witness as the condition and the guilty verdict as the result. Taking credibility as antecedent and the verdict as consequent gives a one-way conditional in that order."
+ },
+ {
+  "job_id": "expansion/management/83:B",
+  "question": "Which of the following is a characteristic of a 'Functional' organizational structure?",
+  "options": {
+   "A": "Specialization is grouped by the nature of the work performed",
+   "B": "High levels of cross-functional integration",
+   "C": "Decision-making authority is decentralized to product lines",
+   "D": "Rapid response to local market changes due to geographic autonomy"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "I'd point out that under a functional structure every department handles one function for the whole company, so each product has to pass through all of them, which forces constant coordination and integration across those functions."
+ },
+ {
+  "job_id": "expansion/high_school_geography/431:B",
+  "question": "Which term describes the blending of two or more distinct cultures into a new, hybrid cultural form?",
+  "options": {
+   "A": "Cultural Divergence",
+   "B": "Cultural Syncretism",
+   "C": "Cultural Appropriation",
+   "D": "Cultural Hegemony"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Syncretism is the blending of traits from different cultures into a new hybrid, such as Vodou combining West African religion with Catholicism or fusion foods mixing culinary traditions."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/255:B",
+  "question": "Which fallacy arises when a policy advisor claims that because one low-resource quantum initiative failed, all such independent educational strategies in developing nations are doomed to fail?",
+  "options": {
+   "A": "False Dilemma",
+   "B": "Hasty Generalization",
+   "C": "Ad Hominem",
+   "D": "Slippery Slope"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "The advisor takes a single failed initiative and stretches it into a verdict on every similar strategy across whole nations, which is drawing a sweeping rule from one small case."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/135:B",
+  "question": "Which of the following best describes the time complexity of inserting an element at the beginning of a Python list of size n?",
+  "options": {
+   "A": "O(log n)",
+   "B": "O(n)",
+   "C": "O(1)",
+   "D": "O(n log n)"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Putting something at index zero means every existing element in the underlying array has to shift one slot to the right, so the work grows in direct proportion to the length of the list."
+ },
+ {
+  "job_id": "expansion/management/263:A",
+  "question": "In applying Polanyi's theory of fictitious commodities to contemporary labor markets, which policy intervention best addresses the commodification of labor without stifling market dynamics?",
+  "options": {
+   "A": "Establishing robust social protection floors and collective bargaining rights to decommodify labor essentials.",
+   "B": "Encouraging gig economy models that classify all workers as independent contractors to reduce overhead.",
+   "C": "Privatizing all public employment services to increase efficiency in job matching algorithms.",
+   "D": "Deregulating all labor contracts to allow pure market forces to determine wages and conditions."
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Polanyi argued labor is not really a commodity, so the fix is protecting workers' basic needs outside the market through social floors and bargaining, while letting the market still set most terms."
+ },
+ {
+  "job_id": "expansion/machine_learning/222:A",
+  "question": "Statement 1| A precision-recall curve is particularly useful for evaluating models where the class distribution is highly skewed. Statement 2| The Area Under the Precision-Recall Curve (AUPRC) is equivalent to the ROC-AUC for all datasets.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "Precision-recall curves suit rare-positive data because they ignore true negatives, and the area under one summarizes the same ranking quality ROC-AUC captures, since both curves are traced from the same sorted scores."
+ },
+ {
+  "job_id": "expansion/marketing/311:A",
+  "question": "In beauty e-commerce, what factor most directly influences the viral potential of a new nail art product on TikTok?",
+  "options": {
+   "A": "Detailed ingredient transparency",
+   "B": "Lowest price point in category",
+   "C": "Aesthetic trend alignment and platform-specific storytelling",
+   "D": "Professional salon endorsements"
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "Beauty audiences on TikTok are increasingly ingredient-conscious and share content calling out what is in products, so a nail product that openly lists everything it contains earns trust that spreads through creator videos."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/306:B",
+  "question": "If the elasticity of supply is zero, the supply curve is:",
+  "options": {
+   "A": "Horizontal",
+   "B": "Vertical",
+   "C": "Upward sloping at 45 degrees",
+   "D": "Downward sloping"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Zero elasticity means quantity supplied stays the same whatever the price, so with price on the vertical axis I'd draw the supply curve as a straight vertical line."
+ },
+ {
+  "job_id": "expansion/marketing/137:B",
+  "question": "For a residential development targeting young families, how does a background in architectural journalism enhance spatial storytelling?",
+  "options": {
+   "A": "By omitting floor plan details to encourage imagination",
+   "B": "By providing precise details that translate design features into functional lifestyle benefits",
+   "C": "By focusing solely on the historical significance of the land",
+   "D": "By using overly technical terms that impress investors"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "For me, architectural journalists are trained to describe space accurately and explain why a design matters, so they can turn a feature like an open kitchen into a concrete benefit, such as watching kids while cooking."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/47:A",
+  "question": "In domain-driven design implemented in Python, which pattern is best suited for encapsulating complex business logic that spans multiple entities without creating an anemic domain model?",
+  "options": {
+   "A": "Repository Interface",
+   "B": "Active Record",
+   "C": "Domain Service",
+   "D": "Data Transfer Object"
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "Logic spanning several entities needs to load and coordinate those entities, and a repository interface is the domain-level abstraction that gathers them, so placing the cross-entity operations there keeps the logic inside the domain layer."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/98:D",
+  "question": "Which fallacy occurs when a word or phrase is used with two different meanings within the same argument?",
+  "options": {
+   "A": "Composition",
+   "B": "Division",
+   "C": "Amphiboly",
+   "D": "Equivocation"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "When one word carries two different meanings within one argument, the inference only seems to work because the term changes sense, and I'd say that is what equivocating means."
+ },
+ {
+  "job_id": "expansion/professional_accounting/261:C",
+  "question": "In a Modigliani-Miller world with corporate taxes, how does increasing the debt-to-equity ratio affect the total value of the firm?",
+  "options": {
+   "A": "It has no effect on the firm value",
+   "B": "It increases the firm value",
+   "C": "It makes the firm value volatile",
+   "D": "It decreases the firm value"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "Adding debt makes the remaining equity riskier, since shareholders absorb all the swings after fixed interest is paid. That magnified risk shows up as larger fluctuations in what the firm is worth."
+ },
+ {
+  "job_id": "expansion/high_school_geography/45:D",
+  "question": "Which continent is uniquely characterized by having no sovereign nations within its boundaries, governed instead by an international treaty system dedicated to scientific research?",
+  "options": {
+   "A": "Australia",
+   "B": "South America",
+   "C": "Europe",
+   "D": "Antarctica"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "The South Polar continent has no permanent population or recognized sovereign state, and the treaty system there freezes territorial claims and reserves the land for peaceful scientific research."
+ },
+ {
+  "job_id": "expansion/management/332:B",
+  "question": "For a global lifestyle brand expanding its product line, which organizational approach best ensures coherence between design thinking and commercial viability?",
+  "options": {
+   "A": "Forming cross-functional teams that integrate user research, sustainability, and margin analysis",
+   "B": "Focusing solely on cost-cutting measures to maximize short-term profits",
+   "C": "Allowing designers complete autonomy without input from sales or supply chain teams",
+   "D": "Copying competitor products to minimize the risk of market failure"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "The reason I land there is that commercial viability is the hard constraint when a line expands, so keeping costs tight forces the design team to work within margins that make every new product profitable from the start."
+ },
+ {
+  "job_id": "expansion/high_school_geography/42:B",
+  "question": "The demographic shift known as the 'Great Migration' primarily influenced the population dynamics and regional development of which American city during the 20th century?",
+  "options": {
+   "A": "Denver",
+   "B": "Oakland",
+   "C": "Seattle",
+   "D": "San Francisco"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "During the second wave of the migration, Black workers from the South poured into the East Bay port city for wartime shipyard jobs, reshaping the neighborhoods of its western flatlands."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/329:B",
+  "question": "Consider a circle of friends deciding on a movie. We know that picking names out of a hat gives everyone an equal shot, much like a fair coin toss. Which of the following scenarios best mimics this idea of every outcome having the exact same chance of happening?",
+  "options": {
+   "A": "Rolling a weighted die that favors sixes",
+   "B": "selecting a student from a list where seniors are listed twice",
+   "C": "Drawing a card from a shuffled standard deck",
+   "D": "Spinning a spinner with one huge section and three tiny ones"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "Each name on the list has the same chance of being picked, exactly like slips in a hat, so selecting one entry from that list gives every listed entry an equal shot at being chosen."
+ },
+ {
+  "job_id": "expansion/management/59:D",
+  "question": "For low-income entrepreneurs accessing government-backed microcredit programs, which procedural step is most critical to ensuring regulatory compliance while facilitating grassroots economic development?",
+  "options": {
+   "A": "Verifying identity and business activity through simplified documentation protocols aligned with financial inclusion goals",
+   "B": "Limiting access to programs exclusively to businesses operating in formal commercial zones",
+   "C": "Requiring traditional credit bureau scores and substantial physical collateral before application processing",
+   "D": "Mandating complex business plans written by certified accountants prior to loan consideration"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Here is my case: a formal business plan prepared by a certified accountant proves the venture is real and documented, which gives the program the paper trail regulators demand before releasing public money."
+ },
+ {
+  "job_id": "expansion/high_school_geography/342:C",
+  "question": "What is a 'megalopolis' as defined in urban geography?",
+  "options": {
+   "A": "A city that serves as a national capital",
+   "B": "A city with over 10 million people",
+   "C": "A chain of roughly adjacent large cities",
+   "D": "A city with a high density of skyscrapers"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "A megalopolis is a string of large metropolitan areas that have grown together along a corridor, like the urban belt running from Boston to Washington, so it names a chain of adjacent cities."
+ },
+ {
+  "job_id": "expansion/philosophy/163:B",
+  "question": "The Gettier problem challenges the traditional definition of knowledge as justified true belief. Which scenario best exemplifies a case where someone has a justified true belief that intuitively fails to constitute knowledge?",
+  "options": {
+   "A": "Believing the sun will rise tomorrow based on inductive reasoning from past observations of sunrise.",
+   "B": "Believing a friend is in the city because they said so, and they are indeed in the city visiting unexpectedly.",
+   "C": "Believing there is a sheep in the field based on seeing a dog disguised as a sheep, while a real sheep happens to be hidden behind the hill.",
+   "D": "Believing that 2+2=4 based on the axioms of arithmetic and logical deduction."
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "The belief is justified by the friend's word and turns out true, yet the friend's presence is unexpected, so the belief only lines up with the facts by luck, which is the mark of a Gettier case."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/308:B",
+  "question": "Consider the following pseudocode:\nSET arr = [10, 20, 30, 40]\nSET sum = 0\nFOR each item in arr\n  sum = sum + item\nENDFOR\nPRINT sum / 4",
+  "options": {
+   "A": "100",
+   "B": "25",
+   "C": "20",
+   "D": "50"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "The loop adds 10, 20, 30 and 40 to get 100, and dividing that sum by 4, the number of items, prints the average of 25."
+ },
+ {
+  "job_id": "expansion/machine_learning/220:D",
+  "question": "Statement 1| The correlation coefficient ranges from -1 to 1 and measures the strength of a linear relationship. Statement 2| A correlation of 0 implies that there is no relationship of any kind between two variables.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Statement 1 is false, Statement 2 is true"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "A correlation of zero means the variables share no association at all, and calling it only a measure of linear strength is too narrow, since it also responds to any monotone co-movement between them."
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/143:C",
+  "question": "A movie starts at 2:15 PM and lasts for 1 hour and 45 minutes. What time does it end?",
+  "options": {
+   "A": "4:15 PM",
+   "B": "4:00 PM",
+   "C": "3:45 PM",
+   "D": "3:50 PM"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "Starting at 2:15, one hour brings you to 3:15, and the remaining part of the running time takes the clock to the 45-minute mark, so it ends at 3:45 PM."
+ },
+ {
+  "job_id": "expansion/marketing/276:C",
+  "question": "What is 'disintermediation' in the context of supply chain and retail strategy?",
+  "options": {
+   "A": "Increasing the number of retail outlets in a specific region",
+   "B": "Removing intermediaries such as wholesalers or brokers to sell directly to consumers",
+   "C": "Adding more wholesalers to reach a wider audience",
+   "D": "Merging two competing logistics companies"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "Intermediation is the chain of wholesalers between maker and buyer, and adjusting that chain by bringing in more wholesale partners to spread distribution further is what this strategy restructures."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/88:D",
+  "question": "In a perfectly competitive market, if a firm's marginal cost is lower than the market price, but its average total cost is higher than the market price, the firm should:",
+  "options": {
+   "A": "Shut down immediately to avoid further losses",
+   "B": "Continue producing in the short run to minimize losses",
+   "C": "Increase prices to cover the average total cost",
+   "D": "Exit the industry immediately"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "With price below average total cost, the firm is losing money on every unit once all its costs are counted, and since a price taker cannot raise prices, the only way to stop those losses is to leave the industry."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/16:D",
+  "question": "When a researcher concludes that a treatment is effective for the entire population based solely on a randomized block experiment with five participants, which fallacy is committed?",
+  "options": {
+   "A": "False dilemma",
+   "B": "Tu quoque",
+   "C": "Red herring",
+   "D": "Hasty generalization"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Five participants are far too few to stand for an entire population, so extending a result from such a small group to everyone draws a broad conclusion from thin evidence."
+ },
+ {
+  "job_id": "expansion/professional_accounting/141:A",
+  "question": "Which of the following is a 'permanent' difference for tax purposes, as opposed to a 'temporary' difference?",
+  "options": {
+   "A": "Nontaxable municipal bond interest",
+   "B": "Accelerated depreciation for tax",
+   "C": "Warranty provisions",
+   "D": "Accrued vacation pay"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Interest on municipal bonds is never taxed but is still reported as book income, so the gap between book and taxable income never reverses in a later year, which is what makes it permanent."
+ },
+ {
+  "job_id": "expansion/management/131:D",
+  "question": "According to the 'Five Forces' model, 'Rivalry among existing competitors' is most intense when:",
+  "options": {
+   "A": "Industry growth is very rapid",
+   "B": "The number of competitors in the market is very small",
+   "C": "Fixed costs are high and competitors are equally balanced in size and power",
+   "D": "Exit barriers are low and products are highly differentiated"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "When leaving an industry is easy, weak firms keep entering and exiting, constantly churning the market, and with differentiated products each firm battles hard to defend its own position, so rivalry intensifies."
+ },
+ {
+  "job_id": "expansion/management/98:A",
+  "question": "In organizational behavior, the 'Peter Principle' suggests that in a hierarchy, what is the primary driver of systemic inefficiency?",
+  "options": {
+   "A": "Employees are promoted based on their current performance until they reach a level of incompetence.",
+   "B": "High-performing individuals are often discouraged by overly rigid bureaucratic structures.",
+   "C": "Promotions are based on seniority rather than merit, leading to stagnation.",
+   "D": "Managers tend to hire subordinates who are less competent than themselves to avoid threats."
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "To me, the Peter Principle says people keep getting promoted for doing their current job well, until they land in a role they cannot handle and stay there, so positions fill with people who are out of their depth."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/150:B",
+  "question": "Optimizing the Node.js event loop requires understanding of non-blocking I/O concepts. Which keyword is used in Python to define a coroutine that can be awaited?",
+  "options": {
+   "A": "yield",
+   "B": "function",
+   "C": "async",
+   "D": "await"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "Since the question frames this around Node.js, the defining keyword is the one that declares the callable itself, and in that style a coroutine is still declared as a function before anything awaits it."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/334:D",
+  "question": "In a Montessori classroom, children choose between three different learning activities. An observer records the frequency of choices made by 30 children to determine if preferences are equally distributed. Which statistical test should be used to analyze whether the observed frequencies differ significantly from the expected uniform distribution?",
+  "options": {
+   "A": "Analysis of variance",
+   "B": "Two-proportion z-test",
+   "C": "Chi-square goodness-of-fit test",
+   "D": "One-sample t-test"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "With 30 children, the observer can compare the average number of choices per activity against the expected value of ten under equal preference, and comparing one sample mean with a fixed value calls for a one-sample t-test."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/353:C",
+  "question": "Which of the following is the correct formula for the margin of error in a confidence interval for a proportion?",
+  "options": {
+   "A": "(p-q)/sqrt(n)",
+   "B": "sqrt(p*(1-p)/n)",
+   "C": "z*sqrt(p*(1-p)/n)",
+   "D": "z*p*(1-p)"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "The margin of error is the critical value times the standard error, and the standard error of a proportion is the square root of p times one minus p over n, so z multiplies that root."
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/165:D",
+  "question": "A circle has a radius of 7 cm. Using 22/7 as an approximation for pi, what is the area of the circle?",
+  "options": {
+   "A": "144 sq cm",
+   "B": "44 sq cm",
+   "C": "49 sq cm",
+   "D": "154 sq cm"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Area is pi r squared, so 22/7 times 49, and the 7 in the denominator divides into 49 to leave 7, so 22 times 7 gives 154 square cm."
+ },
+ {
+  "job_id": "expansion/machine_learning/229:A",
+  "question": "When analyzing flight sector distances, why is the great-circle distance preferred over the rhumb line distance for fuel efficiency calculations?",
+  "options": {
+   "A": "Because the rhumb line maintains a constant bearing which simplifies navigation algorithms.",
+   "B": "Because rhumb line distances are always shorter than great-circle distances at high latitudes.",
+   "C": "Because great-circle calculations ignore the curvature of the Earth for short-haul flights.",
+   "D": "Because the great-circle path represents the shortest distance between two points on a sphere."
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Flight planning systems run on bearings, and a route held at a constant bearing removes the need for continuous heading corrections, which cuts wasted maneuvering and keeps the fuel computation simple and steady."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/91:B",
+  "question": "A random variable X follows a uniform distribution between 0 and 10. What is the probability that X is less than 4?",
+  "options": {
+   "A": "0.8",
+   "B": "0.6",
+   "C": "0.4",
+   "D": "0.2"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "The interval has length 10 and the cutoff is at 4, so the part of the range beyond the cutoff covers 6 of those 10 units, giving a probability of six tenths."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/228:B",
+  "question": "Which fallacy involves arguing that a belief is true because it provides comfort or hope?",
+  "options": {
+   "A": "Ad populum",
+   "B": "Red herring",
+   "C": "Begging the question",
+   "D": "Appeal to consequences"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Pointing to the comfort or hope a belief gives shifts attention from whether it is true to how it makes people feel, an irrelevant distraction from the real question, which is a red herring."
+ },
+ {
+  "job_id": "expansion/professional_accounting/144:C",
+  "question": "For a university student designing a study strategy to achieve academic excellence in financial management, which evidence-based learning technique is most effective for mastering complex derivation formulas?",
+  "options": {
+   "A": "Highlighting key terms",
+   "B": "Re-reading textbooks",
+   "C": "Interleaved practice",
+   "D": "Massed practice"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Mixing different types of derivation problems in one session forces the student to work out which method applies each time, which builds the discrimination and lasting understanding that complex formulas need."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/316:D",
+  "question": "A study compares the effectiveness of four different diets on weight loss. The ANOVA F-test yields a p-value of 0.02. What is the next logical step?",
+  "options": {
+   "A": "Conclude that all four diets are equally effective.",
+   "B": "Reject the idea that diet affects weight loss.",
+   "C": "Perform post-hoc tests to identify which specific diets differ.",
+   "D": "Increase the sample size to get a smaller p-value."
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "With four diets, a p-value of 0.02 is only modestly below the usual cutoff, so gathering more participants to drive the p-value lower would make the finding solid before anyone draws conclusions from it."
+ },
+ {
+  "job_id": "expansion/formal_logic/132:A",
+  "question": "Consider the recursive sequence property: 'A sequence converges if and only if it is a Cauchy sequence.' Let Seq(s), Conv(s), and Cauchy(s) be predicates. How do we express this equivalence for all sequences?",
+  "options": {
+   "A": "∀s ((Seq(s) • Conv(s)) ≡ Cauchy(s))",
+   "B": "∀s (Seq(s) ⊃ (Conv(s) ≡ Cauchy(s)))",
+   "C": "∃s (Seq(s) • (Conv(s) ≡ Cauchy(s)))",
+   "D": "∀s (Seq(s) ⊃ (Conv(s) ⊃ Cauchy(s)))"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "The equivalence is between being a convergent sequence and being Cauchy, so the sequence and convergence conditions sit together on one side of the biconditional with Cauchy on the other."
+ },
+ {
+  "job_id": "expansion/professional_accounting/161:B",
+  "question": "When analyzing a project suffering from the sunk cost fallacy, which financial metric should decision-makers prioritize to determine whether to continue or terminate the initiative?",
+  "options": {
+   "A": "Accumulated depreciation",
+   "B": "Net present value of future cash flows",
+   "C": "Historical return on investment",
+   "D": "Total invested capital to date"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Money already spent cannot be recovered whatever the company decides, so the only relevant question is whether the cash the project will generate from here on, discounted to today, exceeds what it still costs."
+ },
+ {
+  "job_id": "expansion/professional_accounting/221:A",
+  "question": "Which of the following is an example of a 'substantive procedure' in an audit?",
+  "options": {
+   "A": "Observing the process of recording a sale",
+   "B": "Reviewing the authorization signatures on a purchase order",
+   "C": "Comparing the client's accounts receivable aging report to the general ledger",
+   "D": "Testing the password complexity settings of the accounting software"
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "Watching a sale being recorded gives the auditor direct, firsthand evidence of how the transaction enters the books. Evidence the auditor gathers personally about actual transactions is what makes a procedure substantive."
+ },
+ {
+  "job_id": "expansion/management/31:C",
+  "question": "In integrating BI and AI systems for enterprise architecture, which governance framework best balances innovation with stakeholder trust and data privacy?",
+  "options": {
+   "A": "Outsourcing all data governance responsibilities to third-party vendors to reduce internal liability.",
+   "B": "Allowing unrestricted access to all data lakes for data scientists to maximize model accuracy.",
+   "C": "Implementing role-based access controls and ethical AI review boards for high-risk use cases.",
+   "D": "Centralizing all data processing on-premise to prevent any cloud-based data exposure."
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "My point is that role-based access limits who sees sensitive data, and an ethics review board screens the risky AI uses, so innovation continues everywhere else while privacy and trust stay protected."
+ },
+ {
+  "job_id": "expansion/high_school_geography/266:B",
+  "question": "Which model of urban structure emphasizes the role of transportation corridors in shaping the growth of city sectors?",
+  "options": {
+   "A": "Concentric Zone Model",
+   "B": "Multiple Nuclei Model",
+   "C": "Sector Model",
+   "D": "Galactic City Model"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "What convinced me is that in the multiple nuclei model separate centers grow up at transport points like rail stations, ports and highway junctions, so the city's sectors take shape around those corridors."
+ },
+ {
+  "job_id": "expansion/professional_accounting/39:C",
+  "question": "Under the Modified Accelerated Cost Recovery System (MACRS), what is the primary characteristic of the depreciation method?",
+  "options": {
+   "A": "It is only applicable to intangible assets",
+   "B": "It requires a salvage value to be estimated",
+   "C": "It uses a straight-line approach over the asset's useful life",
+   "D": "It allows for faster depreciation in the early years of an asset's life"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "MACRS assigns each asset a fixed recovery period and spreads its cost evenly across those years, which makes it essentially a straight-line approach over the asset's tax useful life with no salvage estimate needed."
+ },
+ {
+  "job_id": "expansion/high_school_macroeconomics/206:C",
+  "question": "Which of the following is the most likely effect of an increase in the demand for a country's financial assets?",
+  "options": {
+   "A": "Depreciation of the domestic currency",
+   "B": "Appreciation of the domestic currency",
+   "C": "Decrease in the domestic interest rate",
+   "D": "Increase in the trade deficit"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "When demand for a country's bonds rises, their prices are bid up, and since bond prices and yields move in opposite directions, the domestic interest rate falls."
+ },
+ {
+  "job_id": "expansion/management/29:D",
+  "question": "What is the primary objective of a 'Strategic Alliance' compared to a full merger?",
+  "options": {
+   "A": "To integrate all operational processes into a single unified command structure",
+   "B": "To share risks and resources while maintaining independent corporate identities",
+   "C": "To eliminate all competition within a specific industry",
+   "D": "To avoid the need for any formal legal contracts between the parties"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "The appeal of an alliance over a merger is its informality, since partners cooperate on a handshake basis and avoid the heavy legal agreements, filings and approvals that a merger requires."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/329:A",
+  "question": "What is the term for a logical argument that is valid but has at least one false premise?",
+  "options": {
+   "A": "Incoherent",
+   "B": "Unsound",
+   "C": "Invalid",
+   "D": "Contradictory"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "An argument whose form is fine but which rests on a false premise doesn't hang together with reality, mixing good structure with bad content, and that mismatch makes it incoherent."
+ },
+ {
+  "job_id": "expansion/professional_accounting/163:A",
+  "question": "Under IFRS, how should a company treat the initial direct costs associated with the recognition of a financial liability?",
+  "options": {
+   "A": "Capitalize as an intangible asset",
+   "B": "Expense them immediately in the profit or loss",
+   "C": "Recognize them as a deferred tax asset",
+   "D": "Deduct them from the initial carrying amount of the liability"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Transaction costs on borrowing buy the company access to financing that benefits future periods, so they represent a right with lasting value and are capitalized as an intangible asset."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/271:B",
+  "question": "A discrete random variable X represents the number of heads obtained when flipping a coin three times. What is the expected value of X?",
+  "options": {
+   "A": "1.0",
+   "B": "1.5",
+   "C": "2.5",
+   "D": "2.0"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Each flip contributes an expected half a head, and three flips give three times one half, so the expected value of the number of heads is 1.5."
+ }
+]

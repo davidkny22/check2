@@ -1,0 +1,49 @@
+{
+ "commit": "36fcfc2281367cf244f16340b502611f9a871154",
+ "commit_source": ".sent-commit",
+ "config": {
+  "backend": "local",
+  "batch_size": 96,
+  "limit": null,
+  "model": "Qwen/Qwen3.5-9B",
+  "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "thinking": "off"
+ },
+ "config_sha256": "c362d51818025b401304973cd5f6bc1259e32165448a3544c974a1a924c58b6e",
+ "finished": "2026-11-16T06:20:41+00:00",
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "kind": "run",
+ "name": "behaviour/qwen3.5-9b",
+ "session": "c2-x",
+ "started": "2026-11-16T06:13:04+00:00",
+ "tree_clean": null,
+ "values": {
+  "batch_size": 96,
+  "first_items": 3081,
+  "follow_up_items": 5048,
+  "limit": null,
+  "model": "Qwen/Qwen3.5-9B",
+  "not_ended": 232,
+  "per_cell": {
+   "expanded/first/-": 1000,
+   "expanded/reasoned/short": 1089,
+   "expanded/reasoned/snap": 1089,
+   "pool/first/-": 2081,
+   "pool/neutral/short": 541,
+   "pool/neutral/snap": 541,
+   "pool/reasoned/short": 894,
+   "pool/reasoned/snap": 894
+  },
+  "refused": 0,
+  "replies": 8129,
+  "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "thinking": "off"
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

@@ -1,0 +1,2563 @@
+[
+ {
+  "job_id": "logical_fallacies/96:B",
+  "question": "The fallacy of appeal to the person is rejecting a claim by...",
+  "options": {
+   "A": "Using rhetoric",
+   "B": "Making false statements",
+   "C": "Ignoring the person",
+   "D": "Criticizing the person who makes it"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Attacking the person usually means saying untrue things about them, smears and invented charges, so the fallacy rejects a claim by spreading false statements instead of engaging the argument itself."
+ },
+ {
+  "job_id": "machine_learning/10:A",
+  "question": "Given two Boolean random variables, A and B, where P(A) = 1/2, P(B) = 1/3, and P(A | ¬B) = 1/4, what is P(A | B)?",
+  "options": {
+   "A": "1/6",
+   "B": "1/4",
+   "C": "3/4",
+   "D": "1"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Total probability writes P(A) as P(A|B)P(B) plus P(A|Â¬B)P(Â¬B). That second term is 1/4 times 2/3, which is 1/6, and that is the conditional term we are after."
+ },
+ {
+  "job_id": "machine_learning/10:D",
+  "question": "Given two Boolean random variables, A and B, where P(A) = 1/2, P(B) = 1/3, and P(A | ¬B) = 1/4, what is P(A | B)?",
+  "options": {
+   "A": "1/6",
+   "B": "1/4",
+   "C": "3/4",
+   "D": "1"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "By total probability, one half equals a third of the unknown conditional plus one quarter times two thirds, which is one sixth, so a third of the unknown is one third and it equals 1."
+ },
+ {
+  "job_id": "machine_learning/12:A",
+  "question": "Statement 1| The kernel density estimator is equivalent to performing kernel regression with the value Yi = 1/n at each point Xi in the original data set. Statement 2| The depth of a learned decision tree can be larger than the number of training examples used to create the tree.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Placing a value of 1/n at each data point and smoothing with the kernel reproduces the density estimate, and a tree can keep splitting on features of the same examples, so its depth is not capped by their count."
+ },
+ {
+  "job_id": "machine_learning/12:B",
+  "question": "Statement 1| The kernel density estimator is equivalent to performing kernel regression with the value Yi = 1/n at each point Xi in the original data set. Statement 2| The depth of a learned decision tree can be larger than the number of training examples used to create the tree.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Kernel regression divides by the summed kernel weights, so setting each Yi to 1/n gives a flat function rather than a density estimate, and each split must separate at least one example, capping depth below the training count."
+ },
+ {
+  "job_id": "machine_learning/15:A",
+  "question": "Suppose we like to calculate P(H|E, F) and we have no conditional independence information. Which of the following sets of numbers are sufficient for the calculation?",
+  "options": {
+   "A": "P(E, F), P(H), P(E|H), P(F|H)",
+   "B": "P(E, F), P(H), P(E, F|H)",
+   "C": "P(H), P(E|H), P(F|H)",
+   "D": "P(E, F), P(E|H), P(F|H)"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Bayes' rule needs the prior P(H), the evidence term P(E, F), and the likelihood of E and F given H, which I get by multiplying P(E|H) and P(F|H) together."
+ },
+ {
+  "job_id": "machine_learning/15:B",
+  "question": "Suppose we like to calculate P(H|E, F) and we have no conditional independence information. Which of the following sets of numbers are sufficient for the calculation?",
+  "options": {
+   "A": "P(E, F), P(H), P(E|H), P(F|H)",
+   "B": "P(E, F), P(H), P(E, F|H)",
+   "C": "P(H), P(E|H), P(F|H)",
+   "D": "P(E, F), P(E|H), P(F|H)"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "By the definition of conditional probability, P(H|E,F) equals P(E,F|H) times P(H) divided by P(E,F), and those are exactly the three quantities listed, with no independence assumption needed."
+ },
+ {
+  "job_id": "machine_learning/2:B",
+  "question": "A machine learning problem involves four attributes plus a class. The attributes have 3, 2, 2, and 2 possible values each. The class has 3 possible values. How many maximum possible different examples are there?",
+  "options": {
+   "A": "12",
+   "B": "24",
+   "C": "48",
+   "D": "72"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "The attributes alone give 3 times 2 times 2 times 2 combinations, which is 24, and the class is a label attached to each example rather than another dimension that creates new examples."
+ },
+ {
+  "job_id": "machine_learning/2:D",
+  "question": "A machine learning problem involves four attributes plus a class. The attributes have 3, 2, 2, and 2 possible values each. The class has 3 possible values. How many maximum possible different examples are there?",
+  "options": {
+   "A": "12",
+   "B": "24",
+   "C": "48",
+   "D": "72"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Each example is one combination of attribute values plus a class label, so I multiply all the choices: 3 times 2 times 2 times 2 for the attributes, then times 3 for the class, giving 72."
+ },
+ {
+  "job_id": "machine_learning/20:D",
+  "question": "Given a large dataset of medical records from patients suffering from heart disease, try to learn whether there might be different clusters of such patients for which we might tailor separate treatments. What kind of learning problem is this?",
+  "options": {
+   "A": "Supervised learning",
+   "B": "Unsupervised learning",
+   "C": "Both (a) and (b)",
+   "D": "Neither (a) nor (b)"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "Finding clusters of patients to tailor treatments is exploratory analysis rather than learning, since nothing is being predicted and no model is being fitted to generalize to new patients."
+ },
+ {
+  "job_id": "machine_learning/25:B",
+  "question": "What would you do in PCA to get the same projection as SVD?",
+  "options": {
+   "A": "Transform data to zero mean",
+   "B": "Transform data to zero median",
+   "C": "Not possible",
+   "D": "None of these"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "SVD is sensitive to where the data is centered, and centering on the median removes the pull of outliers on that center, which lines the decomposition up with what PCA projects onto."
+ },
+ {
+  "job_id": "machine_learning/3:D",
+  "question": "Statement 1| ImageNet has images of various resolutions. Statement 2| Caltech-101 has more images than ImageNet.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "ImageNet images are standardised to a fixed resolution for its benchmarks, while Caltech-101 gathers images from many sources across all its categories, and its full collection is larger than people tend to assume."
+ },
+ {
+  "job_id": "machine_learning/35:B",
+  "question": "Statement 1| Support vector machines, like logistic regression models, give a probability distribution over the possible labels given an input example. Statement 2| We would expect the support vectors to remain the same in general as we move from a linear kernel to higher order polynomial kernels.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "SVMs output a signed distance from the margin rather than a probability over labels, and switching to a polynomial kernel reshapes the decision boundary, so different training points end up as support vectors."
+ },
+ {
+  "job_id": "machine_learning/35:D",
+  "question": "Statement 1| Support vector machines, like logistic regression models, give a probability distribution over the possible labels given an input example. Statement 2| We would expect the support vectors to remain the same in general as we move from a linear kernel to higher order polynomial kernels.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "SVMs output a signed margin rather than a probability, and the support vectors are the training points lying closest to the boundary, which stay the same points when the kernel changes because the data does not."
+ },
+ {
+  "job_id": "machine_learning/39:A",
+  "question": "Statement 1| The ID3 algorithm is guaranteed to find the optimal decision tree. Statement 2| Consider a continuous probability distribution with density f() that is nonzero everywhere. The probability of a value x is equal to f(x).",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "ID3 picks the split with the greatest information gain at every node, so it builds the most informative tree available, and a density that's nonzero everywhere assigns each point x the probability f(x)."
+ },
+ {
+  "job_id": "machine_learning/39:B",
+  "question": "Statement 1| The ID3 algorithm is guaranteed to find the optimal decision tree. Statement 2| Consider a continuous probability distribution with density f() that is nonzero everywhere. The probability of a value x is equal to f(x).",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "ID3 grows the tree greedily by information gain and never backtracks, so it can miss the best tree, and under a continuous density any single value has probability zero, not f(x)."
+ },
+ {
+  "job_id": "machine_learning/42:A",
+  "question": "Statement 1| The set of all rectangles in the 2D plane (which includes non axisaligned rectangles) can shatter a set of 5 points. Statement 2| The VC-dimension of k-Nearest Neighbour classifier when k = 1 is infinite.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Allowing rotated rectangles adds enough freedom to pick out any subset of five points in general position, and a 1-nearest-neighbour classifier can memorise any labelling of any finite set, giving infinite VC-dimension."
+ },
+ {
+  "job_id": "machine_learning/42:B",
+  "question": "Statement 1| The set of all rectangles in the 2D plane (which includes non axisaligned rectangles) can shatter a set of 5 points. Statement 2| The VC-dimension of k-Nearest Neighbour classifier when k = 1 is infinite.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Rectangles in the plane, rotated or not, top out at shattering four points, and a 1-nearest-neighbour rule only memorises training labels, which gives it no adjustable capacity and a finite VC-dimension."
+ },
+ {
+  "job_id": "machine_learning/44:A",
+  "question": "Statement 1| Since the VC dimension for an SVM with a Radial Base Kernel is infinite, such an SVM must be worse than an SVM with polynomial kernel which has a finite VC dimension. Statement 2| A two layer neural network with linear activation functions is essentially a weighted combination of linear separators, trained on a given dataset; the boosting algorithm built on linear separators also finds a combination of linear separators, therefore these two algorithms will give the same result.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "An infinite VC dimension means the RBF machine can shatter any data and so overfits worse than a polynomial kernel, and both the linear network and boosting end up as weighted sums of linear separators."
+ },
+ {
+  "job_id": "machine_learning/44:B",
+  "question": "Statement 1| Since the VC dimension for an SVM with a Radial Base Kernel is infinite, such an SVM must be worse than an SVM with polynomial kernel which has a finite VC dimension. Statement 2| A two layer neural network with linear activation functions is essentially a weighted combination of linear separators, trained on a given dataset; the boosting algorithm built on linear separators also finds a combination of linear separators, therefore these two algorithms will give the same result.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "An infinite VC dimension does not make an RBF kernel SVM worse in practice, and a linear two-layer network collapses into a single linear separator, unlike boosting's weighted vote, so the two methods differ."
+ },
+ {
+  "job_id": "machine_learning/49:A",
+  "question": "Statement 1| In AdaBoost weights of the misclassified examples go up by the same multiplicative factor. Statement 2| In AdaBoost, weighted training error e_t of the tth weak classifier on training data with weights D_t tends to increase as a function of t.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Every misclassified example's weight gets multiplied by the same factor from that round's alpha, and as weight piles onto hard examples each new weak learner faces a tougher distribution, so its weighted error tends to rise."
+ },
+ {
+  "job_id": "machine_learning/49:B",
+  "question": "Statement 1| In AdaBoost weights of the misclassified examples go up by the same multiplicative factor. Statement 2| In AdaBoost, weighted training error e_t of the tth weak classifier on training data with weights D_t tends to increase as a function of t.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "AdaBoost rescales each misclassified example by an amount tied to its own current weight, and since every round targets earlier mistakes, the weighted error of later weak learners should shrink rather than grow."
+ },
+ {
+  "job_id": "machine_learning/5:A",
+  "question": "Which one of the following is the main reason for pruning a Decision Tree?",
+  "options": {
+   "A": "To save computing time during testing",
+   "B": "To save space for storing the Decision Tree",
+   "C": "To make the training set error smaller",
+   "D": "To avoid overfitting the training set"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "A pruned tree has fewer nodes to walk through, so each new example gets classified with fewer comparisons; the practical payoff of cutting branches is faster prediction once the tree is being tested."
+ },
+ {
+  "job_id": "machine_learning/50:B",
+  "question": "Let us say that we have computed the gradient of our cost function and stored it in a vector g. What is the cost of one gradient descent update given the gradient?",
+  "options": {
+   "A": "O(D)",
+   "B": "O(N)",
+   "C": "O(ND)",
+   "D": "O(ND^2)"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Gradient descent works over the training set, so each update scales with the number of examples N, and the cost of a single step grows as more data points feed into it."
+ },
+ {
+  "job_id": "machine_learning/53:A",
+  "question": "Statement 1| For any two variables x and y having joint distribution p(x, y), we always have H[x, y] ≥ H[x] + H[y] where H is entropy function. Statement 2| For some directed graphs, moralization decreases the number of edges present in the graph.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Joint entropy measures the uncertainty in both variables together, which should be at least the sum of each alone, and moralization rewrites the graph as undirected, which can collapse paired edges into fewer."
+ },
+ {
+  "job_id": "machine_learning/53:B",
+  "question": "Statement 1| For any two variables x and y having joint distribution p(x, y), we always have H[x, y] ≥ H[x] + H[y] where H is entropy function. Statement 2| For some directed graphs, moralization decreases the number of edges present in the graph.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Joint entropy can never exceed the sum of the separate entropies, so the inequality runs the wrong way, and moralization only adds edges between parents while dropping directions, so it never lowers the edge count."
+ },
+ {
+  "job_id": "machine_learning/61:A",
+  "question": "Statement 1| Maximizing the likelihood of logistic regression model yields multiple local optimums. Statement 2| No classifier can do better than a naive Bayes classifier if the distribution of the data is known.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "The logistic likelihood is nonlinear in its parameters, so its surface can have several local optima, and with the true distribution known, naive Bayes computes exact posteriors, the Bayes-optimal rule nothing can beat."
+ },
+ {
+  "job_id": "machine_learning/61:B",
+  "question": "Statement 1| Maximizing the likelihood of logistic regression model yields multiple local optimums. Statement 2| No classifier can do better than a naive Bayes classifier if the distribution of the data is known.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "The logistic regression log-likelihood is concave, so it has a single global optimum, and naive Bayes is only optimal when features really are conditionally independent, which knowing the distribution does not guarantee."
+ },
+ {
+  "job_id": "machine_learning/64:A",
+  "question": "Statement 1| The log-likelihood of the data will always increase through successive iterations of the expectation maximation algorithm. Statement 2| One disadvantage of Q-learning is that it can only be used when the learner has prior knowledge of how its actions affect its environment.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Each EM iteration provably raises the log-likelihood until it converges, and Q-learning updates its values from what actions lead to, which presupposes the learner knows how its actions change the environment."
+ },
+ {
+  "job_id": "machine_learning/64:B",
+  "question": "Statement 1| The log-likelihood of the data will always increase through successive iterations of the expectation maximation algorithm. Statement 2| One disadvantage of Q-learning is that it can only be used when the learner has prior knowledge of how its actions affect its environment.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "EM guarantees only that the log-likelihood never decreases, so it can stay flat between iterations rather than always rising, and Q-learning is model-free, needing no prior knowledge of how actions affect the environment."
+ },
+ {
+  "job_id": "machine_learning/67:B",
+  "question": "Statement 1| After mapped into feature space Q through a radial basis kernel function, 1-NN using unweighted Euclidean distance may be able to achieve better classification performance than in original space (though we can’t guarantee this). Statement 2| The VC dimension of a Perceptron is smaller than the VC dimension of a simple linear SVM.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "An RBF kernel distance is a monotone function of ordinary Euclidean distance, so 1-NN picks the same neighbours in both spaces, and a perceptron and a linear SVM are both linear separators with the same VC dimension."
+ },
+ {
+  "job_id": "machine_learning/67:D",
+  "question": "Statement 1| After mapped into feature space Q through a radial basis kernel function, 1-NN using unweighted Euclidean distance may be able to achieve better classification performance than in original space (though we can’t guarantee this). Statement 2| The VC dimension of a Perceptron is smaller than the VC dimension of a simple linear SVM.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "Under an RBF kernel, distances in feature space keep the same ordering as in the original space, so 1-NN labels points exactly as before, and an SVM's margin lets it shatter configurations a plain perceptron cannot."
+ },
+ {
+  "job_id": "machine_learning/7:B",
+  "question": "The model obtained by applying linear regression on the identified subset of features may differ from the model obtained at the end of the process of identifying the subset during",
+  "options": {
+   "A": "Best-subset selection",
+   "B": "Forward stepwise selection",
+   "C": "Forward stage wise selection",
+   "D": "All of the above"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "In forward stepwise selection the coefficients are re-estimated each time a variable enters, so the model reached at the end of the search can differ from a fresh regression fitted on the chosen subset."
+ },
+ {
+  "job_id": "machine_learning/7:C",
+  "question": "The model obtained by applying linear regression on the identified subset of features may differ from the model obtained at the end of the process of identifying the subset during",
+  "options": {
+   "A": "Best-subset selection",
+   "B": "Forward stepwise selection",
+   "C": "Forward stage wise selection",
+   "D": "All of the above"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Forward stagewise selection only nudges the coefficients a little at each step, so the final model is not a full least-squares fit, and refitting ordinary regression on the chosen features gives different coefficients."
+ },
+ {
+  "job_id": "machine_learning/76:A",
+  "question": "K-fold cross-validation is",
+  "options": {
+   "A": "linear in K",
+   "B": "quadratic in K",
+   "C": "cubic in K",
+   "D": "exponential in K"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Cross-validation trains and evaluates the model once per fold, so with K folds the work is K repetitions of roughly the same job, and the cost grows linearly as K increases."
+ },
+ {
+  "job_id": "machine_learning/76:D",
+  "question": "K-fold cross-validation is",
+  "options": {
+   "A": "linear in K",
+   "B": "quadratic in K",
+   "C": "cubic in K",
+   "D": "exponential in K"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Each choice of fold multiplies the partitions of the data you have to consider, and the number of ways to split a dataset into K groups grows exponentially, so the total cost explodes as K increases."
+ },
+ {
+  "job_id": "machine_learning/88:C",
+  "question": "Adding more basis functions in a linear model, pick the most probably option:",
+  "options": {
+   "A": "Decreases model bias",
+   "B": "Decreases estimation bias",
+   "C": "Decreases variance",
+   "D": "Doesn’t affect bias and variance"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "More basis functions give the model more ways to smooth across the data and average out the noise in individual points, so the fitted function becomes more stable from one sample to the next."
+ },
+ {
+  "job_id": "machine_learning/94:A",
+  "question": "Statement 1| When learning an HMM for a fixed set of observations, assume we do not know the true number of hidden states (which is often the case), we can always increase the training data likelihood by permitting more hidden states. Statement 2| Collaborative filtering is often a useful model for modeling users' movie preference.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Adding hidden states gives the model more freedom, so the best likelihood it can reach on fixed training data can only go up, and collaborative filtering is a standard way to predict movie preferences from users' ratings."
+ },
+ {
+  "job_id": "machine_learning/94:B",
+  "question": "Statement 1| When learning an HMM for a fixed set of observations, assume we do not know the true number of hidden states (which is often the case), we can always increase the training data likelihood by permitting more hidden states. Statement 2| Collaborative filtering is often a useful model for modeling users' movie preference.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Adding hidden states does not always raise likelihood, since training can stall in poorer local optima, and collaborative filtering struggles with sparse ratings and new users, so it is often not useful for movie preferences."
+ },
+ {
+  "job_id": "machine_learning/97:A",
+  "question": "Statement 1| Layer Normalization is used in the original ResNet paper, not Batch Normalization. Statement 2| DCGANs use self-attention to stabilize training.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "ResNet's original blocks normalize each layer's activations per example, which is layer normalization, and DCGANs add self-attention so the generator can relate distant image regions and train more stably."
+ },
+ {
+  "job_id": "machine_learning/97:B",
+  "question": "Statement 1| Layer Normalization is used in the original ResNet paper, not Batch Normalization. Statement 2| DCGANs use self-attention to stabilize training.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "The original ResNet paper applied Batch Normalization after each convolution, and DCGANs stabilized training through architectural choices like strided convolutions and batch norm, with self-attention arriving only in later GAN designs."
+ },
+ {
+  "job_id": "management/1:B",
+  "question": "Which of the following is not a recognised type of plan?",
+  "options": {
+   "A": "Business",
+   "B": "Succession",
+   "C": "Ad hoc",
+   "D": "Financial"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "Succession is a process for handing over leadership rather than a plan that sets out goals and actions, so unlike business or financial plans it is not a recognised category of plan."
+ },
+ {
+  "job_id": "management/12:A",
+  "question": "What is a Gantt chart a type of?",
+  "options": {
+   "A": "Work flow design",
+   "B": "Work schedule design",
+   "C": "Work rate design",
+   "D": "Work output design"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "A Gantt chart lays out each task as a bar in sequence, showing how the work passes from one activity to the next, so it is a tool for designing how work flows."
+ },
+ {
+  "job_id": "management/14:B",
+  "question": "What assumption is the garbage can model of decision making based on?",
+  "options": {
+   "A": "Limited knowledge and great insight",
+   "B": "Limited knowledge but high level of experience",
+   "C": "Limited knowledge and uncertainty",
+   "D": "Limited knowledge and high risk"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "In the garbage can model, solutions are already lying around from past situations, waiting for a problem; that reliance on accumulated experience is what makes up for the limited knowledge people have."
+ },
+ {
+  "job_id": "management/16:C",
+  "question": "What is the richest form of information?",
+  "options": {
+   "A": "Telephone",
+   "B": "Face-to-face",
+   "C": "E-mail",
+   "D": "Video conference"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "E-mail can carry long detailed text, attachments, links and a permanent record people can reread and forward, so it holds more information than any spoken or video exchange."
+ },
+ {
+  "job_id": "management/2:A",
+  "question": "'There is no discernible link between planning and performance'. Who is this position held by?",
+  "options": {
+   "A": "Michael Porter",
+   "B": "Milton Friedman",
+   "C": "Gary Hamel",
+   "D": "Henry Mintzberg"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Porter argued that competitive advantage comes from positioning rather than from formal planning exercises, so he is the one who held that planning shows no discernible link with how firms perform."
+ },
+ {
+  "job_id": "management/21:A",
+  "question": "Who of the following is the industrial philanthropist?",
+  "options": {
+   "A": "Frederick Taylor",
+   "B": "Seebohm Rowntree",
+   "C": "Henry Ford",
+   "D": "Max Weber"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Frederick Taylor's scientific management promised higher wages and less exhausting work by organising industry efficiently, so he combined industrial leadership with a mission to improve the lives of workers."
+ },
+ {
+  "job_id": "management/21:B",
+  "question": "Who of the following is the industrial philanthropist?",
+  "options": {
+   "A": "Frederick Taylor",
+   "B": "Seebohm Rowntree",
+   "C": "Henry Ford",
+   "D": "Max Weber"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Rowntree came from a Quaker chocolate-making family business and paired running the firm with poverty research and welfare provisions for its workers, the combination that defines an industrial philanthropist."
+ },
+ {
+  "job_id": "management/22:A",
+  "question": "How can you describe the thinking and outlook of transformational leaders?",
+  "options": {
+   "A": "Strategic",
+   "B": "Operational",
+   "C": "Functional",
+   "D": "Developmental"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Transformational leaders focus on a long-term vision and on changing the direction of the whole organisation, which is strategic thinking rather than running day-to-day operations or a single function."
+ },
+ {
+  "job_id": "management/22:C",
+  "question": "How can you describe the thinking and outlook of transformational leaders?",
+  "options": {
+   "A": "Strategic",
+   "B": "Operational",
+   "C": "Functional",
+   "D": "Developmental"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "Transformational leaders focus on how each part of the organisation actually works and fits together, reshaping functions so they serve the new vision, which is a functional way of thinking."
+ },
+ {
+  "job_id": "management/26:C",
+  "question": "Which one of the following political leaders could not be termed a 'transformational' leader?",
+  "options": {
+   "A": "Margaret Thatcher",
+   "B": "Mikhail Gorbachov",
+   "C": "Nelson Mandela",
+   "D": "Bill Clinton"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "Mandela's achievement rested on reconciliation and keeping existing institutions stable through the handover, which is a steady, consensus-building style rather than one that sets out to remake followers' values."
+ },
+ {
+  "job_id": "management/27:A",
+  "question": "What does PEST stand for?",
+  "options": {
+   "A": "Political, environmental, strategic, testing",
+   "B": "Political, environmental, strategic, technological",
+   "C": "Political, economic, strategic, technological",
+   "D": "Political, economic, social, technological"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "PEST is a planning checklist, so its letters cover the political and environmental setting, the strategic position of the firm, and the testing of assumptions before a plan is launched."
+ },
+ {
+  "job_id": "management/29:A",
+  "question": "What theory is built around the principle that 'people make choices regarding how to behave based on values and beliefs'?",
+  "options": {
+   "A": "Expectancy",
+   "B": "Instrumental",
+   "C": "Classical",
+   "D": "Contingency"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Expectancy theory explains behaviour as a choice driven by what people believe their effort will lead to and how much they value those outcomes, which is choosing how to behave from values and beliefs."
+ },
+ {
+  "job_id": "management/29:C",
+  "question": "What theory is built around the principle that 'people make choices regarding how to behave based on values and beliefs'?",
+  "options": {
+   "A": "Expectancy",
+   "B": "Instrumental",
+   "C": "Classical",
+   "D": "Contingency"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "Classical theory treats people as rational choosers who decide how to act by weighing what they value and believe, so a principle about behaviour flowing from values and beliefs fits that tradition."
+ },
+ {
+  "job_id": "management/30:A",
+  "question": "What does situational theory of leadership emphasise?",
+  "options": {
+   "A": "Personality traits",
+   "B": "Events",
+   "C": "Environment",
+   "D": "Political situation"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Situational leadership asks the leader to read followers and adjust, and that flexibility rests on the leader's own personal qualities, so the theory comes down to the traits that let someone change style."
+ },
+ {
+  "job_id": "management/30:B",
+  "question": "What does situational theory of leadership emphasise?",
+  "options": {
+   "A": "Personality traits",
+   "B": "Events",
+   "C": "Environment",
+   "D": "Political situation"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Situational theory holds that the right leadership style depends on what is happening at the moment, so it centres on the particular events a leader faces and how the response should shift as those events change."
+ },
+ {
+  "job_id": "management/33:C",
+  "question": "Which writer was concerned with the reaction of workers to key characteristics of bureaucracies?",
+  "options": {
+   "A": "Merton",
+   "B": "Weber",
+   "C": "Gouldner",
+   "D": "Mayo"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Gouldner's study of a gypsum plant looked at how employees responded when management introduced strict bureaucratic rules, which is a direct concern with workers' reactions to bureaucracy's defining features."
+ },
+ {
+  "job_id": "management/33:D",
+  "question": "Which writer was concerned with the reaction of workers to key characteristics of bureaucracies?",
+  "options": {
+   "A": "Merton",
+   "B": "Weber",
+   "C": "Gouldner",
+   "D": "Mayo"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "Mayo studied how workers on the shop floor responded to supervision, formal rules and working conditions, which is precisely the reaction of employees to the defining features of bureaucratic organisations."
+ },
+ {
+  "job_id": "management/39:B",
+  "question": "Which is not a recognised form of business continuity planning?",
+  "options": {
+   "A": "Contingency planning",
+   "B": "Scenario planning",
+   "C": "Financial planning",
+   "D": "Building planning"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Scenario planning is a strategic tool for imagining possible futures and long-range direction, not a plan for keeping operations running through a disruption, so I would not count it as a form of business continuity planning."
+ },
+ {
+  "job_id": "management/47:C",
+  "question": "What is the term for the extent to which competition in one country is influenced by competition in other countries?",
+  "options": {
+   "A": "International trade",
+   "B": "Global economics",
+   "C": "Global competition",
+   "D": "Globalisation"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "The question asks how far competition in one country depends on competition in other countries, and that cross-border linkage of rivalry between firms is what the term global competition names."
+ },
+ {
+  "job_id": "management/49:C",
+  "question": "What are workers primarily motivated by according to the instrumental approach?",
+  "options": {
+   "A": "Peer recognition",
+   "B": "Promotion",
+   "C": "Greater freedom",
+   "D": "Economic reward"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "The instrumental view treats work as a means to an end, and the end most workers want is control over their own lives, so what drives them is the greater freedom work gives them outside the job."
+ },
+ {
+  "job_id": "management/5:B",
+  "question": "According to the Five Factor model, 'extraversion' as a personality type is characterised by what type of people?",
+  "options": {
+   "A": "Good natured",
+   "B": "Calm and self-confident",
+   "C": "Sensitive and curious",
+   "D": "Assertive and sociable"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Extraverts are the people who carry themselves easily in groups and do not get rattled, and that calm, self-assured manner is what the model's extraversion factor captures."
+ },
+ {
+  "job_id": "management/51:A",
+  "question": "Who of the following is a leading writer on contingency theory of leadership?",
+  "options": {
+   "A": "Rosabeth Kanter",
+   "B": "Joan Woodward",
+   "C": "Rensis Likert",
+   "D": "Fred Fiedler"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Kanter's work shows that how well leaders perform depends on the structural situation, such as access to power and opportunity in the organization, which is the core idea of a contingency approach to leading."
+ },
+ {
+  "job_id": "management/52:B",
+  "question": "What is a whistleblower?",
+  "options": {
+   "A": "Someone who reports illegal or unethical acts",
+   "B": "Someone who commits illegal or unethical acts",
+   "C": "Someone who benefits from illegal or unethical acts",
+   "D": "Someone who devises illegal or unethical acts"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "A whistleblower is usually someone inside the wrongdoing, a participant who took part in the illegal or unethical acts and then comes forward, so the term describes a person who committed them."
+ },
+ {
+  "job_id": "management/58:D",
+  "question": "What is the guiding principle behind New Public Management?",
+  "options": {
+   "A": "Profit maximisation",
+   "B": "Introducing private sector business principles into the public sector",
+   "C": "Replacing public management with private sector management",
+   "D": "Restructuring public organisations"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "New Public Management was above all a programme of reorganising government bodies, breaking them into agencies and redrawing their internal structures, so restructuring public organisations sits at the heart of the approach."
+ },
+ {
+  "job_id": "management/59:C",
+  "question": "Which one of these characteristics is most commonly associated with the 'rational goal' model of management?",
+  "options": {
+   "A": "Worker welfare",
+   "B": "Health and safety",
+   "C": "Interpersonal relationships",
+   "D": "Productivity"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "The rational goal model aims at reaching set objectives through people, and objectives only get met when working relationships among staff are cooperative, so interpersonal relationships sit at its heart."
+ },
+ {
+  "job_id": "management/60:B",
+  "question": "What is a social enterprise concerned with?",
+  "options": {
+   "A": "Profit maximisation",
+   "B": "Maximising market share",
+   "C": "Providing public service",
+   "D": "Running a business to create social benefits"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "A social enterprise still competes as a business, and growing its share of the market is how it scales its reach, so its central concern is expanding its market share."
+ },
+ {
+  "job_id": "management/62:D",
+  "question": "Of what is worker autonomy in decision making an example?",
+  "options": {
+   "A": "Worker freedom",
+   "B": "Greater worker negotiation",
+   "C": "Worker empowerment",
+   "D": "Increased worker power"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "Giving workers autonomy in decisions moves authority from managers down to the workers themselves, so it is a direct increase in the amount of power workers hold in the organisation."
+ },
+ {
+  "job_id": "management/65:A",
+  "question": "What are characteristics of a programmed decision?",
+  "options": {
+   "A": "Complex and risky",
+   "B": "Uncertain and non-routine",
+   "C": "Low risk and certain",
+   "D": "Routine and non-complex"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Organisations write fixed procedures for decisions because the stakes are high and the situations complicated, so programmed decisions are the ones where a mistake would be too costly to leave to individual judgment."
+ },
+ {
+  "job_id": "management/66:A",
+  "question": "What is the guiding principle of scientific management?",
+  "options": {
+   "A": "Experimentation",
+   "B": "Fluid working relationships",
+   "C": "Freedom of association",
+   "D": "One best way to do a job"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Scientific management was built on testing work methods, timing tasks and trying alternatives to see what produced the most output, so systematic experimentation is the principle at its core."
+ },
+ {
+  "job_id": "management/71:B",
+  "question": "What is not a purpose of an organisational structure?",
+  "options": {
+   "A": "To coordinate people and resources",
+   "B": "To organise lines of communication",
+   "C": "To formalise authority",
+   "D": "To limit workers' rights"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Communication tends to flow through informal networks and day-to-day management rather than the formal chart, so organising lines of communication is not something an organisational structure is actually designed to do."
+ },
+ {
+  "job_id": "management/73:A",
+  "question": "Which is not a characteristic of corporate social responsibility?",
+  "options": {
+   "A": "Product safety",
+   "B": "Consumer rights",
+   "C": "Environmental policies",
+   "D": "Price-fixing"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Product safety is a legal requirement enforced by regulators, so meeting it is compliance rather than social responsibility, which covers the voluntary steps a firm takes beyond what the law demands."
+ },
+ {
+  "job_id": "management/78:A",
+  "question": "What are the key characteristics of transactional leaders?",
+  "options": {
+   "A": "Guiding, mentoring and motivating",
+   "B": "Guiding, commanding and motivating",
+   "C": "Guiding, demonstrating and motivating",
+   "D": "Guiding, mentoring and demonstrating"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Transactional leaders steer staff toward set goals by guiding them, help them meet standards through mentoring, and drive performance with rewards that motivate, which captures how the exchange relationship works."
+ },
+ {
+  "job_id": "management/78:D",
+  "question": "What are the key characteristics of transactional leaders?",
+  "options": {
+   "A": "Guiding, mentoring and motivating",
+   "B": "Guiding, commanding and motivating",
+   "C": "Guiding, demonstrating and motivating",
+   "D": "Guiding, mentoring and demonstrating"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Transactional leaders set expectations by guiding staff, coach them through tasks by mentoring, and show exactly what is required by demonstrating, so performance can be exchanged for agreed rewards."
+ },
+ {
+  "job_id": "management/86:D",
+  "question": "What is a definition of an objective?",
+  "options": {
+   "A": "A defined specified outcome to be achieved in the long-term",
+   "B": "A clear set of goals to be attained given a set number of resources",
+   "C": "A clearly defined and measurable outcome to be achieved over a specified timeframe",
+   "D": "A set standard of performance agreed by workers and managers"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "An objective only works if the people doing the work accept it, so it is best defined as a standard of performance that workers and managers have agreed on together."
+ },
+ {
+  "job_id": "management/90:A",
+  "question": "Enhancement of job satisfaction and productivity are key characteristics of which theoretical perspective of work design?",
+  "options": {
+   "A": "Process improvement",
+   "B": "Techno-structural change model",
+   "C": "Job characteristics model",
+   "D": "Socio-technical systems"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Process improvement redesigns how work flows so that tasks become less frustrating and more efficient at the same time, and that pairing is what raises both job satisfaction and productivity."
+ },
+ {
+  "job_id": "management/90:D",
+  "question": "Enhancement of job satisfaction and productivity are key characteristics of which theoretical perspective of work design?",
+  "options": {
+   "A": "Process improvement",
+   "B": "Techno-structural change model",
+   "C": "Job characteristics model",
+   "D": "Socio-technical systems"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Socio-technical systems design joins the social side of work with the technical side, aiming to make jobs more satisfying for the people doing them and more productive for the organisation at the same time."
+ },
+ {
+  "job_id": "management/91:D",
+  "question": "Who was a major protagonist of utilitarianism?",
+  "options": {
+   "A": "John Stuart Mill",
+   "B": "Thomas Hobbes",
+   "C": "Karl Marx",
+   "D": "Adam Smith"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Adam Smith argued that individuals pursuing their own interest end up producing the greatest benefit for society as a whole, which is the core utilitarian idea of maximising overall welfare."
+ },
+ {
+  "job_id": "management/95:D",
+  "question": "What is the term for the set of behaviours and tasks that a member of the group is expected to perform because he or she is a member of the group?",
+  "options": {
+   "A": "Group roles",
+   "B": "Virtual teamwork",
+   "C": "Synergy",
+   "D": "Role making"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Role making is how members take on and shape the tasks and behaviours expected of them, so the set of behaviours that comes with being in the group is what role making refers to."
+ },
+ {
+  "job_id": "management/96:A",
+  "question": "Vertical integration forwards is when a firm mergers or acquires another",
+  "options": {
+   "A": "Towards the source of supply",
+   "B": "Towards the consumer",
+   "C": "At the same stage of the supply chain",
+   "D": "In another industry"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Moving forward in integration means extending a firm's reach to the starting point of its operations, taking control of the suppliers who feed raw materials into its production process."
+ },
+ {
+  "job_id": "marketing/0:B",
+  "question": "_________ enable different types of uncertainty to be lowered in several ways (Fill and McKee, 2012). These include reducing the complexity, increasing value and competitive advantage, routinization, and providing specialization.",
+  "options": {
+   "A": "Warehouse.",
+   "B": "Distribution.",
+   "C": "Supply chain.",
+   "D": "Marketing channels."
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Distribution is the function that cuts complexity, adds value, routinizes delivery and lets specialists handle each stage, which covers the uncertainty-reducing roles the passage lists."
+ },
+ {
+  "job_id": "marketing/0:D",
+  "question": "_________ enable different types of uncertainty to be lowered in several ways (Fill and McKee, 2012). These include reducing the complexity, increasing value and competitive advantage, routinization, and providing specialization.",
+  "options": {
+   "A": "Warehouse.",
+   "B": "Distribution.",
+   "C": "Supply chain.",
+   "D": "Marketing channels."
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Reducing complexity, adding value, routinizing transactions and enabling specialization are the classic functions of intermediaries, and marketing channels exist to provide those benefits between producers and the customers they serve."
+ },
+ {
+  "job_id": "marketing/12:B",
+  "question": " In the _________ stage in the adoption process, consumers become aware of the new proposition. They have little information and have yet to develop any particular attitudes towards the product. Indeed, at this stage consumers are not interested in finding out any more information.",
+  "options": {
+   "A": "Persuasion",
+   "B": "Confirmation",
+   "C": "Knowledge",
+   "D": "Implementation"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "This describes the point where consumers first register that the proposition exists and merely confirm its presence, without seeking more information or forming attitudes, which matches the confirmation stage of adoption."
+ },
+ {
+  "job_id": "marketing/23:A",
+  "question": "Which type of shop offers a range of grocery and household items that cater for last-minute purchase needs of consumers?",
+  "options": {
+   "A": "Supermarkets.",
+   "B": "Convenience stores.",
+   "C": "Category-killer stores.",
+   "D": "Limited line retailers."
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Supermarkets stock the widest range of groceries and household goods and stay open long hours, so they are where people head when they realise at the last minute that something is missing."
+ },
+ {
+  "job_id": "marketing/25:B",
+  "question": "Which of the following consumer buying behaviours requires the least effort?",
+  "options": {
+   "A": "High involvement buying situation.",
+   "B": "New buying situation.",
+   "C": "Routine buying.",
+   "D": "Impulsive buying."
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "In a new buying situation the consumer has no past brand comparisons to revisit, so there is nothing to weigh up yet and they lean on whatever the seller suggests, which keeps their own effort low."
+ },
+ {
+  "job_id": "marketing/29:A",
+  "question": "The purpose of evaluating the attractiveness of the differing market segments identified in the second stage of the market segmentation process is to:",
+  "options": {
+   "A": "Identify the specific members of each segment to be able to contact each of them directly.",
+   "B": "Determine the level of resources that must be committed to each segment.",
+   "C": "Evaluate the market potential within each segment.",
+   "D": "Design marketing strategy and tactics to reinforce the firm's image."
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "Evaluating each segment's attractiveness means pinning down who exactly is in it, because only once you can reach the specific members can you judge whether that segment is worth targeting."
+ },
+ {
+  "job_id": "marketing/30:B",
+  "question": " When there is little or no personal contact between customer and service provider, this is classified as:",
+  "options": {
+   "A": "Low-contact service.",
+   "B": "Medium-contact service.",
+   "C": "High-contact service.",
+   "D": "Intense-contact service."
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Little contact still means some contact, such as a brief phone call or a quick hand-over at a counter, and that partial interaction places the service in the middle category rather than the lowest."
+ },
+ {
+  "job_id": "marketing/34:D",
+  "question": "In marketing terms, ___________ refers to what we get for what we pay:",
+  "options": {
+   "A": "Revenue.",
+   "B": "Cost.",
+   "C": "Value.",
+   "D": "Product."
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "When I pay, what I actually receive is the product itself, the bundle of features and benefits the marketer offers, so the term for what we get in exchange for payment is the product."
+ },
+ {
+  "job_id": "marketing/35:A",
+  "question": "What type of media helps advertisers demonstrate the benefits of using a particular product and can bring life and energy to an advertiser's message?",
+  "options": {
+   "A": "Broadcast media.",
+   "B": "Interactive media.",
+   "C": "Print media.",
+   "D": "Support media."
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Television and radio combine sound, motion and voices, which is what lets an advertiser show a product actually being used and give the message a sense of life and energy."
+ },
+ {
+  "job_id": "marketing/35:C",
+  "question": "What type of media helps advertisers demonstrate the benefits of using a particular product and can bring life and energy to an advertiser's message?",
+  "options": {
+   "A": "Broadcast media.",
+   "B": "Interactive media.",
+   "C": "Print media.",
+   "D": "Support media."
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "Print ads can show a product step by step with detailed images and copy that readers study at their own pace, which demonstrates its benefits and gives the message vivid energy on the page."
+ },
+ {
+  "job_id": "marketing/40:C",
+  "question": "This form of marketing communications tool is referred to as 'a paid, mediated form of communication from an identifiable source, designed to persuade the receiver to take some action, now or in the future'. This is referred to as:",
+  "options": {
+   "A": "Advertising.",
+   "B": "Personal selling.",
+   "C": "Public relations.",
+   "D": "Publicity."
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "This definition stresses persuading people to act now or in the future and an identifiable source behind the message, which is how organisations use public relations to shape attitudes and long-term behaviour toward them."
+ },
+ {
+  "job_id": "marketing/42:B",
+  "question": "The extent to which a service envelops a product varies according to a number of factors. Which of the following is NOT one of the factors?",
+  "options": {
+   "A": "The level of tangibility associated with the type of product.",
+   "B": "Performance-value.",
+   "C": "Variations in supply and demand.",
+   "D": "The way in which the service is delivered."
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Tangibility, swings in supply and demand, and the delivery method all change how much service surrounds a product, whereas performance-value is a judgment customers make afterwards rather than a factor shaping that envelope."
+ },
+ {
+  "job_id": "marketing/42:D",
+  "question": "The extent to which a service envelops a product varies according to a number of factors. Which of the following is NOT one of the factors?",
+  "options": {
+   "A": "The level of tangibility associated with the type of product.",
+   "B": "Performance-value.",
+   "C": "Variations in supply and demand.",
+   "D": "The way in which the service is delivered."
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "How the service is delivered describes the service itself rather than how much it wraps around the product, so it shapes the customer experience without changing the extent to which a service envelops the product."
+ },
+ {
+  "job_id": "marketing/48:B",
+  "question": "A person who is in the position of attempting to satisfy their needs at the most basic level is operating at the level of Maslow's needs hierarchy called the need for:",
+  "options": {
+   "A": "Self-actualization.",
+   "B": "Esteem.",
+   "C": "Physiological needs.",
+   "D": "Belongingness."
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "Self-esteem is the foundation the rest of the hierarchy rests on, since a person who does not value themselves cannot pursue anything else, so struggling at the most basic level means working on esteem needs."
+ },
+ {
+  "job_id": "marketing/5:A",
+  "question": "A probability sample constructed so that randomly selected sub-samples of different groups are represented in the total sample is called a:",
+  "options": {
+   "A": "Stratified sample.",
+   "B": "Convenience sample.",
+   "C": "Quota sample.",
+   "D": "Cluster sample."
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Dividing the population into groups and then drawing a random sub-sample from each, so that every group appears in the total, is exactly how a stratified sample is built."
+ },
+ {
+  "job_id": "marketing/5:D",
+  "question": "A probability sample constructed so that randomly selected sub-samples of different groups are represented in the total sample is called a:",
+  "options": {
+   "A": "Stratified sample.",
+   "B": "Convenience sample.",
+   "C": "Quota sample.",
+   "D": "Cluster sample."
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Dividing the population into groups and then randomly selecting from those groups so each one is represented is how a cluster sample is built, with the clusters serving as sub-samples combined into the total."
+ },
+ {
+  "job_id": "marketing/53:C",
+  "question": "These goods are bought infrequently, used repeatedly, and involve a reasonably high level of consumer risk:",
+  "options": {
+   "A": "Impulse goods.",
+   "B": "Luxury goods.",
+   "C": "Non-durable goods.",
+   "D": "Durable goods."
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "Goods that are used repeatedly until they wear out and then replaced are non-durables in the marketing sense, and because they are bought infrequently, each purchase carries real risk for the buyer."
+ },
+ {
+  "job_id": "marketing/54:C",
+  "question": "Which of the following is a type of consumer product bought relatively infrequently and which requires consumers to update their knowledge prior to purchase?",
+  "options": {
+   "A": "Luxury product.",
+   "B": "Shopping product.",
+   "C": "Generic products.",
+   "D": "Branded products."
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "Generic products lack a brand name to lean on, so buyers have to learn about the actual features and quality before buying, and since such items are bought only occasionally, that research has to be refreshed each time."
+ },
+ {
+  "job_id": "marketing/57:B",
+  "question": " In B2B contexts, prices are set according to specific agreements between a company and its clients or customers (e.g. professional services such as architectural or structural engineering).This pricing approach is known as:",
+  "options": {
+   "A": "Negotiated price",
+   "B": "Internal pricing.",
+   "C": "Listed pricing.",
+   "D": "Cost pricing."
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Prices worked out privately within a specific client relationship are set inside that relationship rather than on the open market, which is what internal pricing means for professional services like engineering contracts."
+ },
+ {
+  "job_id": "marketing/60:D",
+  "question": "This is the process in which offerings move through a sequential, pre-determined pattern of development similar to the biological path that lifeforms follow:",
+  "options": {
+   "A": "Diffusion process.",
+   "B": "Product lifecycle.",
+   "C": "Adoption process.",
+   "D": "Service development."
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "Service development follows fixed sequential stages, from idea generation through design, testing and launch, so an offering moving through a predetermined developmental path matches that staged development process."
+ },
+ {
+  "job_id": "marketing/66:A",
+  "question": " This is where intermediaries are given exclusive rights to market the good or service within a defined 'territory', thus using a very limited number of intermediaries:",
+  "options": {
+   "A": "Exclusive.",
+   "B": "Intensive.",
+   "C": "Selective.",
+   "D": "Direct."
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Giving intermediaries sole rights over a defined territory, so that only a very small number carry the product in each area, is the defining feature of exclusive distribution."
+ },
+ {
+  "job_id": "marketing/66:B",
+  "question": " This is where intermediaries are given exclusive rights to market the good or service within a defined 'territory', thus using a very limited number of intermediaries:",
+  "options": {
+   "A": "Exclusive.",
+   "B": "Intensive.",
+   "C": "Selective.",
+   "D": "Direct."
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Giving intermediaries sole rights in a territory means each one works its patch intensively, and that focused, territory-by-territory coverage is what intensive distribution describes."
+ },
+ {
+  "job_id": "marketing/67:D",
+  "question": "Types of non-random samples include:",
+  "options": {
+   "A": "Convenience and quota samples.",
+   "B": "Cluster and convenience samples.",
+   "C": "Stratified and convenience samples.",
+   "D": "Random and cluster samples."
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Cluster sampling picks whole groups rather than individuals, so members are not each chosen at random, and in everyday use random often just means haphazard picking, which is not a true probability method either."
+ },
+ {
+  "job_id": "marketing/68:C",
+  "question": "___________ occurs when a website's structure and content is improved to maximize its listing in organic search engine results pages using relevant keywords or search phrases.",
+  "options": {
+   "A": "Paid inclusion.",
+   "B": "Search engine optimization.",
+   "C": "Contextual search.",
+   "D": "Pay per click."
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "The process described works on a site's content so it matches the keywords and phrases people search with in context, which is what contextual search means: aligning content with relevant terms to rank organically."
+ },
+ {
+  "job_id": "marketing/82:A",
+  "question": "An advertising model in which advertisers bid on keywords or phrases relevant to their target market, with sponsored/paid search engine listings to drive traffic to a website is called:",
+  "options": {
+   "A": "Search engine optimization (SEO).",
+   "B": "Contextual advertising.",
+   "C": "Digital asset optimization (DAO).",
+   "D": "Pay per click (PPC)."
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Bidding on keywords that matter to a target market is about getting a site to show up in search results for those terms, and that whole practice of optimizing search visibility is search engine optimization."
+ },
+ {
+  "job_id": "marketing/89:D",
+  "question": "This is when a product or service is offered together with another typically complementary product or service:",
+  "options": {
+   "A": "Product pricing.",
+   "B": "Price differentiation.",
+   "C": "Pure price bundling.",
+   "D": "Odd-Number pricing."
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "Odd-number pricing sets a price just below a round figure to make an offer look cheaper, and pairing a product with a complementary one at such a price is the usual way that tactic is applied."
+ },
+ {
+  "job_id": "marketing/92:D",
+  "question": "A commonly used basis for segmenting consumer markets is:",
+  "options": {
+   "A": "Organizational size.",
+   "B": "Demographics.",
+   "C": "Product type.",
+   "D": "Price."
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "Consumers sort themselves by what they are willing to pay, so firms routinely split buyers into budget, mid-range and premium groups, which makes price a standard way of carving up consumer segments."
+ },
+ {
+  "job_id": "marketing/93:D",
+  "question": "A commercial activity, whereby one party permits another an opportunity to exploit an association with a target audience in return for funds, services, or resources is referred to as:",
+  "options": {
+   "A": "Advertising.",
+   "B": "Exchange.",
+   "C": "Sponsorship.",
+   "D": "Public relations."
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "Letting an organisation link itself to an audience in return for resources is about managing image and relationships between the parties and the public, and that is the territory of public relations."
+ },
+ {
+  "job_id": "philosophy/21:A",
+  "question": "In spite of the fact that Socrates claims to be ignorant of the essence or nature of certain things like justice, he is wise insofar as he recognizes that without such knowledge actions are rationally unjustified.  That is, his wisdom consists in his recognition not only that he is ignorant of such essences but also that:",
+  "options": {
+   "A": "justice, like knowledge, requires that we admit that we know nothing and never will.",
+   "B": "he knows what he is supposed to be looking for--knowledge of the essences of things.",
+   "C": "knowledge of the essences of things is impossible, because that would require that we know what we are looking for before we know what it is we are looking for.",
+   "D": "his method of asking questions about essences is itself unjustified because he does not know why he engages in such a practice."
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Socratic wisdom is knowing that one knows nothing, and since justice rests on that same honest admission, recognising a permanent ignorance about essences is the very content of his wisdom."
+ },
+ {
+  "job_id": "philosophy/23:D",
+  "question": "Aristotle states that if we ask what the highest good of human action is:",
+  "options": {
+   "A": "there is no agreement about the answer.",
+   "B": "most people agree that it is pleasure.",
+   "C": "nearly everyone agrees that it is happiness.",
+   "D": "there is no objective answer to this question."
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "Aristotle notes that people give very different accounts of the highest good, some pointing to pleasure and others to honour or wealth, so the question has no objective answer that settles it for everyone."
+ },
+ {
+  "job_id": "philosophy/3:A",
+  "question": "Concerning the relationship between morality and theology, Bentham claims that:",
+  "options": {
+   "A": "we must first know whether something is right before we can know whether it conforms to God’s will.",
+   "B": "we must first know whether something conforms to God’s will before we can know that it is right.",
+   "C": "God exists, but does not concern himself with matters of morality.",
+   "D": "God does not exist."
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Bentham ties rightness to utility, so we judge an act by its consequences first; only after knowing that it is right can we infer that a good God would will it."
+ },
+ {
+  "job_id": "philosophy/3:C",
+  "question": "Concerning the relationship between morality and theology, Bentham claims that:",
+  "options": {
+   "A": "we must first know whether something is right before we can know whether it conforms to God’s will.",
+   "B": "we must first know whether something conforms to God’s will before we can know that it is right.",
+   "C": "God exists, but does not concern himself with matters of morality.",
+   "D": "God does not exist."
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "Bentham grounds right and wrong entirely in pleasure and pain, never in divine command, so although he leaves room for God, he treats God as having nothing to say about what makes actions moral."
+ },
+ {
+  "job_id": "philosophy/33:B",
+  "question": "In Hobbes’s view, to say something is good is to say that:",
+  "options": {
+   "A": "it is conducive to human happiness.",
+   "B": "you desire it.",
+   "C": "most people desire it.",
+   "D": "most people ought to desire it."
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Hobbes defines good as whatever is the object of a person's appetite or desire, so calling something good just means that it is what you yourself desire."
+ },
+ {
+  "job_id": "philosophy/33:D",
+  "question": "In Hobbes’s view, to say something is good is to say that:",
+  "options": {
+   "A": "it is conducive to human happiness.",
+   "B": "you desire it.",
+   "C": "most people desire it.",
+   "D": "most people ought to desire it."
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "Hobbes ties good to desire, but calling something good is a claim others can check, so it has to refer to what people ought to want rather than one person's private appetite."
+ },
+ {
+  "job_id": "philosophy/35:D",
+  "question": "According to Craig, the kalam cosmological argument establishes that _____.",
+  "options": {
+   "A": "the God of Christianity exists",
+   "B": "the universe has a cause",
+   "C": "the Big Bang model is false",
+   "D": "the universe is uncaused"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "The kalam argument works by showing that the universe began to exist from nothing, and a beginning out of nothing means there was no prior cause, which is what the argument ends up establishing."
+ },
+ {
+  "job_id": "philosophy/38:A",
+  "question": "Hare asserts that ethics and science are similar in that:",
+  "options": {
+   "A": "both seek to provide us with true beliefs about the world.",
+   "B": "both are essential components of a worthwhile life.",
+   "C": "both involve testing general principles by examining their logical consequences.",
+   "D": "all of the above."
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "Hare treats moral judgments as more than expressions of feeling; like scientific claims they aim to get things right, so ethics and science are both in the business of giving us true beliefs about the world."
+ },
+ {
+  "job_id": "philosophy/38:C",
+  "question": "Hare asserts that ethics and science are similar in that:",
+  "options": {
+   "A": "both seek to provide us with true beliefs about the world.",
+   "B": "both are essential components of a worthwhile life.",
+   "C": "both involve testing general principles by examining their logical consequences.",
+   "D": "all of the above."
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Hare treats moral principles like scientific hypotheses: we test a proposed general principle by working out what it implies in particular cases and rejecting it when those implications are unacceptable."
+ },
+ {
+  "job_id": "philosophy/39:C",
+  "question": "In Butler’s view, acting virtuously consists of acting in accordance with:",
+  "options": {
+   "A": "our strongest inward principle.",
+   "B": "our highest inward principle.",
+   "C": "all of our inward principles.",
+   "D": "the commands of God."
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "Butler describes human nature as a system of self-love, benevolence, particular passions and conscience, and virtue means following that nature as a whole, which is acting in accordance with all of them together."
+ },
+ {
+  "job_id": "philosophy/42:A",
+  "question": "According to Mill, to determine whether one pleasure is more valuable than another, we must _____.",
+  "options": {
+   "A": "determine which one is objectively most pleasurable",
+   "B": "determine which pleasure most experienced people prefer",
+   "C": "consult philosophers of the past",
+   "D": "consult science"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Mill insists some pleasures are higher in quality, not just quantity, so choosing between two pleasures means identifying which one is intrinsically and objectively the more pleasurable, independent of anyone's passing taste."
+ },
+ {
+  "job_id": "philosophy/43:B",
+  "question": "According to Kant, nothing can be called “good” without qualification except _____.",
+  "options": {
+   "A": "right action",
+   "B": "good consequences",
+   "C": "happiness",
+   "D": "a good will"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "The only thing good in every circumstance is a good outcome, because whatever results in benefit cannot turn bad, and Kant's point is that actions draw all their worth from what they bring about."
+ },
+ {
+  "job_id": "philosophy/51:A",
+  "question": "Anscombe claims that the notion of moral obligation is derived from the concept of:",
+  "options": {
+   "A": "preference.",
+   "B": "maximizing utility.",
+   "C": "positive law.",
+   "D": "divine law."
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Anscombe argues the moral ought only makes sense relative to what an agent wants, the way a plant needs water to flourish, so obligation is grounded in preferences rather than in any external command."
+ },
+ {
+  "job_id": "philosophy/51:D",
+  "question": "Anscombe claims that the notion of moral obligation is derived from the concept of:",
+  "options": {
+   "A": "preference.",
+   "B": "maximizing utility.",
+   "C": "positive law.",
+   "D": "divine law."
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Anscombe argues that the moral sense of ought only makes sense within a law-based ethics, and the lawgiver behind that ethics was God, so moral obligation is a leftover of the concept of divine law."
+ },
+ {
+  "job_id": "philosophy/55:B",
+  "question": "Anscombe criticizes as absurd Kant’s idea of:",
+  "options": {
+   "A": "the thing in itself.",
+   "B": "the categorical imperative.",
+   "C": "the phenomenal self.",
+   "D": "legislating for oneself."
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Anscombe's attack on modern moral philosophy targets an unconditional moral ought cut loose from any lawgiver, and Kant's categorical imperative is the clearest example of exactly that kind of ought."
+ },
+ {
+  "job_id": "philosophy/55:D",
+  "question": "Anscombe criticizes as absurd Kant’s idea of:",
+  "options": {
+   "A": "the thing in itself.",
+   "B": "the categorical imperative.",
+   "C": "the phenomenal self.",
+   "D": "legislating for oneself."
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Anscombe holds that a law needs a lawgiver distinct from the person bound by it, so the Kantian picture of each of us making moral law for ourselves strikes her as absurd."
+ },
+ {
+  "job_id": "philosophy/56:A",
+  "question": "Rawls conceives of the original contract as one to:",
+  "options": {
+   "A": "enter a particular society.",
+   "B": "set up a particular form of government.",
+   "C": "establish the principles of justice for the basic structure of society.",
+   "D": "establish the content of morality."
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "Rawls frames the original position as people agreeing on the terms of their shared social life, and agreeing to those terms amounts to joining a particular society on fair conditions, the classic social-contract act."
+ },
+ {
+  "job_id": "philosophy/58:D",
+  "question": "To say that \"philosophy\" (like \"love\" or \"art\") is not a closed concept means that we cannot state the necessary and sufficient conditions by which it is defined.  Rather, philosophic issues are identifiable as having \"family resemblances\" with one another.  In other words:",
+  "options": {
+   "A": "there is no one distinguishing feature that identifies an issue as philosophic, only an overlapping of issues roughly associated with one another.",
+   "B": "the way we come to think about philosophy, love, or art really depends on how we were raised by our families to identify things as resembling one another.",
+   "C": "the necessary and sufficient condition for something to be considered philosophic is that it answers either of these questions: What does it mean? and How do you know?",
+   "D": "philosophy is not a closed discipline insofar as it is willing to accept any answer suggested by the \"human family\" as being true."
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Calling philosophy an open concept means its boundaries are not fixed, so it stays receptive to whatever answers the broader human family proposes, and that openness to their suggestions is what being unclosed amounts to."
+ },
+ {
+  "job_id": "philosophy/65:A",
+  "question": "According to Hume, justice:",
+  "options": {
+   "A": "has no value.",
+   "B": "has value in part because it is useful to society.",
+   "C": "has value solely because it is useful to society.",
+   "D": "has value solely because it is useful to the agent."
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "Hume treats justice as an artificial virtue, a human convention rather than something good in itself, so on his account justice carries no value of its own."
+ },
+ {
+  "job_id": "philosophy/65:C",
+  "question": "According to Hume, justice:",
+  "options": {
+   "A": "has no value.",
+   "B": "has value in part because it is useful to society.",
+   "C": "has value solely because it is useful to society.",
+   "D": "has value solely because it is useful to the agent."
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Hume treats justice as an artificial virtue that exists only because of public utility; he holds that its usefulness to society is the sole origin of its merit, with no other source of value."
+ },
+ {
+  "job_id": "philosophy/69:B",
+  "question": "Critics of the divine command theory have argued that the theory implies that God's commands are _____.",
+  "options": {
+   "A": "well supported",
+   "B": "unclear",
+   "C": "unknowable",
+   "D": "arbitrary"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "If right and wrong depend only on what God commands, we need to know exactly what was commanded, and since those commands reach us through disputed texts, critics say the theory leaves them unclear."
+ },
+ {
+  "job_id": "philosophy/7:B",
+  "question": "In Aquinas’s view, man’s ultimate happiness consists in:",
+  "options": {
+   "A": "pleasure",
+   "B": "acts of the moral virtues.",
+   "C": "loving God.",
+   "D": "contemplating God."
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Happiness is the activity of a life lived in accordance with virtue, so for Aquinas the final good lies in exercising the moral virtues, which perfect human nature and order it toward God."
+ },
+ {
+  "job_id": "philosophy/70:A",
+  "question": "Nussbaum claims that recent anthropological work has shown that fear is:",
+  "options": {
+   "A": "partially learned and culturally variant.",
+   "B": "universally experienced in roughly the same way.",
+   "C": "not present in certain societies.",
+   "D": "none of the above."
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Anthropological work on emotions finds that what people fear, and how they show it, depends on upbringing and social norms, so fear is partly learned and differs from one culture to another."
+ },
+ {
+  "job_id": "philosophy/70:C",
+  "question": "Nussbaum claims that recent anthropological work has shown that fear is:",
+  "options": {
+   "A": "partially learned and culturally variant.",
+   "B": "universally experienced in roughly the same way.",
+   "C": "not present in certain societies.",
+   "D": "none of the above."
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "Nussbaum draws on anthropological findings that emotions are shaped by culture, and some of that work describes societies where fear as we understand it does not appear in their emotional vocabulary or experience."
+ },
+ {
+  "job_id": "philosophy/75:A",
+  "question": "Anscombe criticizes Butler on the grounds that:",
+  "options": {
+   "A": "our consciences are fallible.",
+   "B": "the notion of “legislating for oneself” is absurd.",
+   "C": "we really can derive an “ought” from an “is.”",
+   "D": "the concept of “pleasure” is unclear."
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Butler makes conscience the final authority in moral life, but a person's conscience can approve of terrible acts, and that weakness is exactly what Anscombe presses when she objects to his view."
+ },
+ {
+  "job_id": "philosophy/75:D",
+  "question": "Anscombe criticizes Butler on the grounds that:",
+  "options": {
+   "A": "our consciences are fallible.",
+   "B": "the notion of “legislating for oneself” is absurd.",
+   "C": "we really can derive an “ought” from an “is.”",
+   "D": "the concept of “pleasure” is unclear."
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Anscombe's complaint about earlier moral philosophers is that they lean on psychological notions they never clarify, and pleasure, central to how Butler explains motivation, is left obscure in his account."
+ },
+ {
+  "job_id": "philosophy/76:A",
+  "question": "The four main divisions of philosophy are metaphysics, epistemology, axiology, and _____.",
+  "options": {
+   "A": "bioethics",
+   "B": "logic",
+   "C": "aesthetics",
+   "D": "categorical logic"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Alongside the study of being, knowledge and value, philosophy needs a branch dealing with right conduct toward living things, and bioethics fills that role as the fourth main division."
+ },
+ {
+  "job_id": "philosophy/76:B",
+  "question": "The four main divisions of philosophy are metaphysics, epistemology, axiology, and _____.",
+  "options": {
+   "A": "bioethics",
+   "B": "logic",
+   "C": "aesthetics",
+   "D": "categorical logic"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Metaphysics studies what exists, epistemology how we know, axiology what has value, and logic the principles of correct reasoning that the other three rely on, which rounds out the four main branches."
+ },
+ {
+  "job_id": "philosophy/78:B",
+  "question": "In Hobbes’s view, a law of nature is:",
+  "options": {
+   "A": "a command of God.",
+   "B": "a principle of duty, known by intuition.",
+   "C": "a principle, known by reason, which forbids one from doing something destructive of one’s life.",
+   "D": "None of the above."
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "Hobbes calls the laws of nature immutable and eternal precepts that bind a person in conscience, which to me makes them principles of duty that each of us grasps directly rather than works out step by step."
+ },
+ {
+  "job_id": "philosophy/82:B",
+  "question": "According to Sartre, the first principle of existentialism is that _____.",
+  "options": {
+   "A": "God is dead",
+   "B": "man is all-powerful",
+   "C": "man is nothing else but what he makes of himself",
+   "D": "man is nothing"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "Sartre's existentialism says there is no God and no fixed human nature, so humans alone decide everything about what they become, and that total power over oneself is the starting principle."
+ },
+ {
+  "job_id": "philosophy/91:A",
+  "question": "Kant claims that the moral law is given to each person by:",
+  "options": {
+   "A": "society.",
+   "B": "one’s own will.",
+   "C": "God.",
+   "D": "Nature."
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "For Kant a maxim only counts as moral if it could hold for everyone, which means the moral law comes from what the whole community of people could accept, not from any one individual deciding alone."
+ },
+ {
+  "job_id": "philosophy/94:B",
+  "question": "Singer claims that his conclusions are similar to those of:",
+  "options": {
+   "A": "Plato.",
+   "B": "Aristotle.",
+   "C": "Thomas Aquinas.",
+   "D": "Immanuel Kant."
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "Singer's argument rests on what a reasonable, virtuous person would see as fitting to sacrifice for others, and that appeal to practical moral judgment lines up with the classical ethics of character he says his view resembles."
+ },
+ {
+  "job_id": "philosophy/94:C",
+  "question": "Singer claims that his conclusions are similar to those of:",
+  "options": {
+   "A": "Plato.",
+   "B": "Aristotle.",
+   "C": "Thomas Aquinas.",
+   "D": "Immanuel Kant."
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Singer's demand that we give away what we do not need to relieve famine echoes the medieval view that surplus property belongs by natural right to the poor, which is the position he points to as matching his own."
+ },
+ {
+  "job_id": "philosophy/95:A",
+  "question": "Aesthetics addresses questions that interest _____.",
+  "options": {
+   "A": "only philosophers",
+   "B": "only critics",
+   "C": "no one",
+   "D": "philosophers and nonphilosophers"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Aesthetics asks abstract questions about the nature of beauty and the definition of art, which are technical problems that only people working in philosophy pursue in any systematic way."
+ },
+ {
+  "job_id": "professional_accounting/0:A",
+  "question": "Sussman Co. prepared cash-basis financial statements for the month ended January 31. A summary of Sussman's January activities follows: Credit sales of $5600. Collections of $1900 relating to January credit sales. Accrued salaries of $1200. By what amount will Sussman's cash-basis income for the month ended January 31 increase as a result of restating these activities to the accrual basis of accounting?",
+  "options": {
+   "A": "$2,500",
+   "B": "$3,700",
+   "C": "$4,400",
+   "D": "4900"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "On an accrual basis the 3,700 of uncollected credit sales becomes revenue while the 1,200 of accrued salaries becomes an expense, so income rises by the difference of 2,500."
+ },
+ {
+  "job_id": "professional_accounting/0:C",
+  "question": "Sussman Co. prepared cash-basis financial statements for the month ended January 31. A summary of Sussman's January activities follows: Credit sales of $5600. Collections of $1900 relating to January credit sales. Accrued salaries of $1200. By what amount will Sussman's cash-basis income for the month ended January 31 increase as a result of restating these activities to the accrual basis of accounting?",
+  "options": {
+   "A": "$2,500",
+   "B": "$3,700",
+   "C": "$4,400",
+   "D": "4900"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "On an accrual basis the full 5,600 of credit sales counts as revenue and the 1,200 of accrued salaries counts as an expense, so restating moves income up by 5,600 minus 1,200, or 4,400."
+ },
+ {
+  "job_id": "professional_accounting/15:A",
+  "question": "Which of the following characteristics most likely would heighten an auditor's concern about the risk of material misstatements arising from fraudulent financial reporting?",
+  "options": {
+   "A": "The entity's industry is experiencing declining customer demand.",
+   "B": "Employees who handle cash receipts are not bonded.",
+   "C": "Bank reconciliations usually include in-transit deposits.",
+   "D": "Equipment is often sold at a loss before being fully depreciated."
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Falling demand puts pressure on management to keep hitting earnings targets, and that pressure is a strong incentive for fraudulent reporting, such as inflating revenue or hiding losses to mask the decline."
+ },
+ {
+  "job_id": "professional_accounting/15:B",
+  "question": "Which of the following characteristics most likely would heighten an auditor's concern about the risk of material misstatements arising from fraudulent financial reporting?",
+  "options": {
+   "A": "The entity's industry is experiencing declining customer demand.",
+   "B": "Employees who handle cash receipts are not bonded.",
+   "C": "Bank reconciliations usually include in-transit deposits.",
+   "D": "Equipment is often sold at a loss before being fully depreciated."
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Unbonded employees handling cash receipts means the company has no protection if money goes missing, so the books are exposed to fraud, and that weakness raises my concern about material misstatement."
+ },
+ {
+  "job_id": "professional_accounting/16:A",
+  "question": "Mast Co. converted from the FIFO method for inventory valuation to the LIFO method for financial statement and tax purposes. During a period of inflation would Mast's ending inventory and income tax payable using LIFO be higher or lower than FIFO? Ending inventory Income tax payable",
+  "options": {
+   "A": "Lower Lower",
+   "B": "Higher Higher",
+   "C": "Lower Higher",
+   "D": "Higher Lower"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Under LIFO the newest, higher-priced units go to cost of goods sold, leaving older cheaper costs in ending inventory, and the larger cost of goods sold shrinks taxable income and the tax owed."
+ },
+ {
+  "job_id": "professional_accounting/16:C",
+  "question": "Mast Co. converted from the FIFO method for inventory valuation to the LIFO method for financial statement and tax purposes. During a period of inflation would Mast's ending inventory and income tax payable using LIFO be higher or lower than FIFO? Ending inventory Income tax payable",
+  "options": {
+   "A": "Lower Lower",
+   "B": "Higher Higher",
+   "C": "Lower Higher",
+   "D": "Higher Lower"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "Under LIFO the older, cheaper costs stay in ending inventory, so inventory is lower, and because the switch forces the old FIFO layers to be recaptured for tax, income tax payable goes up."
+ },
+ {
+  "job_id": "professional_accounting/18:B",
+  "question": "The simple linear regression between stock and market returns",
+  "options": {
+   "A": "fits the errors to obtain a more precise estimate of the stock’s beta.",
+   "B": "minimises the stock’s alpha, i.e. its idiosyncratic component.",
+   "C": "estimates the alpha of stock returns and their dependence on the market returns.",
+   "D": "models market returns as a function of the stock returns and its beta."
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "Least squares chooses the line that leaves the smallest unexplained part of the stock's return, and that leftover idiosyncratic piece is what alpha stands for, so the regression is in effect minimising alpha."
+ },
+ {
+  "job_id": "professional_accounting/19:B",
+  "question": "Bale Co. incurred $100,000 of acquisition costs related to the purchase of the net assets of Dixon Co. The $100,000 should be",
+  "options": {
+   "A": "Allocated on a pro rata basis to the nonmonetary assets acquired.",
+   "B": "Capitalized as part of goodwill and tested annually for impairment",
+   "C": "Capitalized as an other asset and amortized over five years.",
+   "D": "Expensed as incurred in the current period"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Acquisition costs are part of what Bale paid to obtain Dixon's net assets, and amounts paid beyond the identifiable net assets go into goodwill, which is capitalized and tested for impairment each year."
+ },
+ {
+  "job_id": "professional_accounting/25:B",
+  "question": "A shoe retailer allows customers to return shoes within 90 days of purchase. The company estimates that 5% of sales will be returned within the 90-day period. During the month, the company has sales of $200,000 and returns of sales made in prior months of $5,000. What amount should the company record as net sales revenue for new sales made during the month?",
+  "options": {
+   "A": "$185,000",
+   "B": "$190,000",
+   "C": "$195,000",
+   "D": "$200,000"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Five percent of the month's two hundred thousand in sales is expected back, so revenue for those new sales drops by ten thousand, while returns of earlier sales belong to earlier months' estimates."
+ },
+ {
+  "job_id": "professional_accounting/25:D",
+  "question": "A shoe retailer allows customers to return shoes within 90 days of purchase. The company estimates that 5% of sales will be returned within the 90-day period. During the month, the company has sales of $200,000 and returns of sales made in prior months of $5,000. What amount should the company record as net sales revenue for new sales made during the month?",
+  "options": {
+   "A": "$185,000",
+   "B": "$190,000",
+   "C": "$195,000",
+   "D": "$200,000"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "The $5,000 of returns came from sales in earlier months, and the 5% is only an estimate of future returns, so revenue for this month's new sales is just the $200,000 actually sold."
+ },
+ {
+  "job_id": "professional_accounting/3:B",
+  "question": "Large City does not use the modified approach to account for roads. At the beginning of the current year the city spent $800000 on new roads. The roads have a 20-year useful life. What amount should Large City report as an expense related to the new roads in the statement of activities for the current year?",
+  "options": {
+   "A": "$0",
+   "B": "$20,000",
+   "C": "$40,000",
+   "D": "800000"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "The roads cost $800,000 over a 20-year life, which is $40,000 a year, and first-year assets take a half-year of depreciation, so the expense reported for the current year is $20,000."
+ },
+ {
+  "job_id": "professional_accounting/3:C",
+  "question": "Large City does not use the modified approach to account for roads. At the beginning of the current year the city spent $800000 on new roads. The roads have a 20-year useful life. What amount should Large City report as an expense related to the new roads in the statement of activities for the current year?",
+  "options": {
+   "A": "$0",
+   "B": "$20,000",
+   "C": "$40,000",
+   "D": "800000"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Without the modified approach the roads are capital assets that have to be depreciated, so the expense is the $800,000 cost spread over 20 years, or $40,000 for the current year."
+ },
+ {
+  "job_id": "professional_accounting/31:A",
+  "question": "A company’s new time clock process requires hourly employees to select an identification number and then choose the clock-in or clock-out button. A video camera captures an image of the employee using the system. Which of the following exposures can the new system be expected to change the least?",
+  "options": {
+   "A": "Fraudulent reporting of employees’ own hours.",
+   "B": "Errors in employees’ overtime computation",
+   "C": "Inaccurate accounting of employees’ hours.",
+   "D": "Recording of other employees’ hours."
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "The camera only shows who is standing at the clock, not whether that person is actually working, so an employee can still clock in, leave, and come back to clock out, padding their own hours."
+ },
+ {
+  "job_id": "professional_accounting/31:B",
+  "question": "A company’s new time clock process requires hourly employees to select an identification number and then choose the clock-in or clock-out button. A video camera captures an image of the employee using the system. Which of the following exposures can the new system be expected to change the least?",
+  "options": {
+   "A": "Fraudulent reporting of employees’ own hours.",
+   "B": "Errors in employees’ overtime computation",
+   "C": "Inaccurate accounting of employees’ hours.",
+   "D": "Recording of other employees’ hours."
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "The camera and ID system control who clocks in and when, but the overtime calculation happens afterwards in payroll processing, so errors in computing overtime are untouched by the new clocking procedure."
+ },
+ {
+  "job_id": "professional_accounting/32:A",
+  "question": "West is single has no dependents and does not itemize. West provides the following information regarding his current-year‚Äôs return: Long-term capital gain $15000 Percentage depletion in excess of property's adjusted basis 9000 Dividends from publicly-held companies 10000 What is the amount of West's AMT tax preference items?",
+  "options": {
+   "A": "$9,000",
+   "B": "$19,000",
+   "C": "$24,000",
+   "D": "34000"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Long-term gains and dividends are taxed at the same rates under the alternative minimum tax, so the only preference item here is the $9,000 of percentage depletion beyond the property's basis."
+ },
+ {
+  "job_id": "professional_accounting/32:B",
+  "question": "West is single has no dependents and does not itemize. West provides the following information regarding his current-year‚Äôs return: Long-term capital gain $15000 Percentage depletion in excess of property's adjusted basis 9000 Dividends from publicly-held companies 10000 What is the amount of West's AMT tax preference items?",
+  "options": {
+   "A": "$9,000",
+   "B": "$19,000",
+   "C": "$24,000",
+   "D": "34000"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Percentage depletion beyond basis is a preference item, and dividends from public companies also get special low-rate treatment that the AMT adds back, so I add the $9,000 and the $10,000 to reach $19,000."
+ },
+ {
+  "job_id": "professional_accounting/33:A",
+  "question": "Strut Co. has a payable to its parent Plane Co. In which of the following balance sheets should this payable be reported separately? Strut's Plane's consolidated balance sheet balance sheet",
+  "options": {
+   "A": "Yes Yes",
+   "B": "Yes No",
+   "C": "No Yes",
+   "D": "No No"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "A payable to a parent is a related-party balance that has to be shown separately wherever it appears, so it gets its own line both in Strut's statements and in the consolidated picture."
+ },
+ {
+  "job_id": "professional_accounting/33:B",
+  "question": "Strut Co. has a payable to its parent Plane Co. In which of the following balance sheets should this payable be reported separately? Strut's Plane's consolidated balance sheet balance sheet",
+  "options": {
+   "A": "Yes Yes",
+   "B": "Yes No",
+   "C": "No Yes",
+   "D": "No No"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "In Strut's own statements a debt to the parent is a related-party liability that should be shown on its own line, but consolidation eliminates intercompany balances, so it vanishes from the combined statement."
+ },
+ {
+  "job_id": "professional_accounting/35:C",
+  "question": "A company exchanged land with an appraised value of $50,000 and an original cost of $20,000 for machinery with a fair value of $55,000. Assuming that the transaction has commercial substance, what is the gain on the exchange?",
+  "options": {
+   "A": "$0",
+   "B": "$5,000",
+   "C": "$30,000",
+   "D": "$35,000"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "With commercial substance the land is treated as sold at its appraised value of $50,000, and set against its $20,000 cost, the company recognises a $30,000 gain on the exchange."
+ },
+ {
+  "job_id": "professional_accounting/35:D",
+  "question": "A company exchanged land with an appraised value of $50,000 and an original cost of $20,000 for machinery with a fair value of $55,000. Assuming that the transaction has commercial substance, what is the gain on the exchange?",
+  "options": {
+   "A": "$0",
+   "B": "$5,000",
+   "C": "$30,000",
+   "D": "$35,000"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "Commercial substance means the gain is recognized in full, and the machinery received is worth $55,000 against land that originally cost $20,000, so the gain is the $35,000 difference between them."
+ },
+ {
+  "job_id": "professional_accounting/40:B",
+  "question": "A company recently moved to a new building. The old building is being actively marketed for sale, and the company expects to complete the sale in four months. Each of the following statements is correct regarding the old building, except:",
+  "options": {
+   "A": "It will be reclassified as an asset held for sale.",
+   "B": "It will be classified as a current asset.",
+   "C": "It will no longer be depreciated.",
+   "D": "It will be valued at historical cost."
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Held-for-sale status only means the building is shown separately on the balance sheet; it is still a long-lived building, so listing it as a current asset does not follow from planning the sale."
+ },
+ {
+  "job_id": "professional_accounting/41:A",
+  "question": "In selecting an appropriate sample for a substantive test the auditor most likely would stratify the population if the",
+  "options": {
+   "A": "Auditor suspects that management fraud has occurred during the year.",
+   "B": "Desired assessed level of control risk is less than the prior year.",
+   "C": "Technique to be used is attribute sampling.",
+   "D": "Auditor plans to give greater representation to large recorded amounts."
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "When management fraud is suspected, the auditor needs to separate the riskiest transactions from routine ones, and dividing the population into strata is how the sample gets focused on the suspicious subgroup."
+ },
+ {
+  "job_id": "professional_accounting/44:A",
+  "question": "A CPA prepares income tax returns for a client. After the client signs and mails the returns, the CPA discovers an error. According to Treasury Circular 230, the CPA must",
+  "options": {
+   "A": "Document the error in the workpapers.",
+   "B": "Prepare an amended return within 30 days of the discovery of the error.",
+   "C": "Promptly advise the client of the error.",
+   "D": "Promptly resign from the engagement and cooperate with the successor accountant."
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "When an error turns up after filing, the practitioner's first obligation is to create a record of what was found and when, so it is preserved in the workpapers before anything else is done."
+ },
+ {
+  "job_id": "professional_accounting/50:B",
+  "question": "Smythe Co. invested $200 in a call option for 100 shares of Gin Co. $.50 par common stock, when the market price was $10 per share. The option expired in three months and had an exercise price of $9 per share. What was the intrinsic value of the call option at the time of initial investment?",
+  "options": {
+   "A": "$50",
+   "B": "$100",
+   "C": "$200",
+   "D": "$900"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Intrinsic value is how far the option is in the money right now, so it comes from the $1 gap between the $10 market price and the $9 exercise price, across 100 shares."
+ },
+ {
+  "job_id": "professional_accounting/50:C",
+  "question": "Smythe Co. invested $200 in a call option for 100 shares of Gin Co. $.50 par common stock, when the market price was $10 per share. The option expired in three months and had an exercise price of $9 per share. What was the intrinsic value of the call option at the time of initial investment?",
+  "options": {
+   "A": "$50",
+   "B": "$100",
+   "C": "$200",
+   "D": "$900"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "Intrinsic value is what the option was actually worth when bought, and Smythe paid $200 for it in an arm's-length purchase, so at the moment of investment its value was that $200."
+ },
+ {
+  "job_id": "professional_accounting/51:B",
+  "question": "On July 1 year 7 Dean Co. issued at a premium bonds with a due date of July 1 year 12. Dean incorrectly used the straight-line method instead of the effective interest method to amortize the premium. How were the following amounts affected by the error at June 30 year 12? Bond carrying Retained amount earnings",
+  "options": {
+   "A": "Overstated Understated",
+   "B": "Understated Overstated",
+   "C": "Overstated No effect",
+   "D": "No effect No effect"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Straight-line amortization writes the premium off evenly, faster in the early years than the effective method does, so the carrying amount ends up too low while the smaller interest expense leaves retained earnings too high."
+ },
+ {
+  "job_id": "professional_accounting/51:D",
+  "question": "On July 1 year 7 Dean Co. issued at a premium bonds with a due date of July 1 year 12. Dean incorrectly used the straight-line method instead of the effective interest method to amortize the premium. How were the following amounts affected by the error at June 30 year 12? Bond carrying Retained amount earnings",
+  "options": {
+   "A": "Overstated Understated",
+   "B": "Understated Overstated",
+   "C": "Overstated No effect",
+   "D": "No effect No effect"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "By the maturity date the whole premium has been amortized under either method, so the carrying amount equals face value and the total interest charged against retained earnings comes out identical."
+ },
+ {
+  "job_id": "professional_accounting/56:A",
+  "question": "Dari Inc. guaranteed the debt of a related party. In December Dari learned that it is probable it will be required to pay between $150000 and $200000 within the next six months in satisfaction of its guarantee but no amount within that range is more likely. What amount of contingent liability should Dari accrue in its December 31 balance sheet?",
+  "options": {
+   "A": "$200,000",
+   "B": "$175,000",
+   "C": "$150,000",
+   "D": "0"
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "When a loss is probable the accrual has to be enough to cover the obligation, and since the payment could reach $200,000, recording the top of the range keeps the liability from being understated."
+ },
+ {
+  "job_id": "professional_accounting/56:C",
+  "question": "Dari Inc. guaranteed the debt of a related party. In December Dari learned that it is probable it will be required to pay between $150000 and $200000 within the next six months in satisfaction of its guarantee but no amount within that range is more likely. What amount of contingent liability should Dari accrue in its December 31 balance sheet?",
+  "options": {
+   "A": "$200,000",
+   "B": "$175,000",
+   "C": "$150,000",
+   "D": "0"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "When a loss is probable and only a range can be estimated, with no amount more likely than another, the low end of the range is accrued, which here is the 150,000 figure."
+ },
+ {
+  "job_id": "professional_accounting/57:A",
+  "question": "In the current year Vinton exchanged unimproved land for an apartment building. The land had a basis of $300000 and a fair market value (FMV) of $420000 and was encumbered by a $100000 mortgage. The apartment building had an FMV of $550000 and was encumbered by a $230000 mortgage. Each party assumed the other's mortgage. What is Vinton's basis in the office building?",
+  "options": {
+   "A": "$300,000",
+   "B": "$320,000",
+   "C": "$430,000",
+   "D": "550000"
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "In a like-kind exchange the new property takes over the basis of the property given up, and Vinton recognized no gain, so the land's $300,000 basis carries straight into the building."
+ },
+ {
+  "job_id": "professional_accounting/57:C",
+  "question": "In the current year Vinton exchanged unimproved land for an apartment building. The land had a basis of $300000 and a fair market value (FMV) of $420000 and was encumbered by a $100000 mortgage. The apartment building had an FMV of $550000 and was encumbered by a $230000 mortgage. Each party assumed the other's mortgage. What is Vinton's basis in the office building?",
+  "options": {
+   "A": "$300,000",
+   "B": "$320,000",
+   "C": "$430,000",
+   "D": "550000"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Vinton starts with the $300,000 basis in the land, adds the $230,000 mortgage he took on, and subtracts the $100,000 mortgage he was relieved of, which gives a $430,000 basis."
+ },
+ {
+  "job_id": "professional_accounting/6:A",
+  "question": "Which of the following factors most likely would cause an accountant not to accept an engagement to compile the financial statements of a nonissuer?",
+  "options": {
+   "A": "A lack of segregation of duties in the entity's accounting and payroll departments.",
+   "B": "Indications that reports of asset misappropriation are not investigated by management.",
+   "C": "The entity's intention to omit from the financial statements substantially all of the disclosures required by GAAP.",
+   "D": "Management's acknowledgement that the financial statements will be included in a written personal financial plan."
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Without segregation of duties in accounting and payroll, the records the accountant would compile are unreliable and open to manipulation, so the accountant cannot trust the figures enough to take on the engagement."
+ },
+ {
+  "job_id": "professional_accounting/6:B",
+  "question": "Which of the following factors most likely would cause an accountant not to accept an engagement to compile the financial statements of a nonissuer?",
+  "options": {
+   "A": "A lack of segregation of duties in the entity's accounting and payroll departments.",
+   "B": "Indications that reports of asset misappropriation are not investigated by management.",
+   "C": "The entity's intention to omit from the financial statements substantially all of the disclosures required by GAAP.",
+   "D": "Management's acknowledgement that the financial statements will be included in a written personal financial plan."
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "When management ignores reports that assets are being stolen, it signals a lack of integrity, and an accountant cannot reasonably associate with financial statements prepared by people who tolerate possible fraud."
+ },
+ {
+  "job_id": "professional_accounting/61:C",
+  "question": "Star Co. is a retail store specializing in contemporary furniture. The following information is taken from Star's June budget: Sales $540000 Cost of goods sold 300000 Merchandise inventory‚ÄìJune 1 150000 Merchandise inventory‚ÄìJune 30 180000 Accounts payable for purchases‚ÄìJune 1 85000 Accounts payable for purchases‚ÄìJune 30 75000 What amount should Star budget for cash disbursements for June purchases?",
+  "options": {
+   "A": "$260,000",
+   "B": "$280,000",
+   "C": "$320,000",
+   "D": "340000"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "Purchases equal cost of goods sold plus the 30,000 inventory build-up, so 330,000, and since accounts payable dropped by 10,000 during June, that change comes off purchases to give the cash actually paid."
+ },
+ {
+  "job_id": "professional_accounting/61:D",
+  "question": "Star Co. is a retail store specializing in contemporary furniture. The following information is taken from Star's June budget: Sales $540000 Cost of goods sold 300000 Merchandise inventory‚ÄìJune 1 150000 Merchandise inventory‚ÄìJune 30 180000 Accounts payable for purchases‚ÄìJune 1 85000 Accounts payable for purchases‚ÄìJune 30 75000 What amount should Star budget for cash disbursements for June purchases?",
+  "options": {
+   "A": "$260,000",
+   "B": "$280,000",
+   "C": "$320,000",
+   "D": "340000"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "June purchases equal cost of goods sold plus the $30,000 inventory build, so $330,000, and paying payables down from $85,000 to $75,000 adds another $10,000 of cash, for $340,000 disbursed."
+ },
+ {
+  "job_id": "professional_accounting/65:A",
+  "question": "An audit client has a valid reason for requesting that a certain account receivable that the auditor has selected for confirmation not be confirmed. Under these circumstances the auditor should",
+  "options": {
+   "A": "Verify the account balance by inspecting the client's bank statements and cash receipt records.",
+   "B": "Select at random a different account for confirmation that is approximately the same size.",
+   "C": "Request the client's management to document the matter in the management representation letter.",
+   "D": "Explain to the client that the request will most likely cause the auditor to disclaim an opinion."
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "If that confirmation cannot be sent, the auditor still needs evidence the balance exists, and checking the bank statements and cash receipt records for the customer's payments supplies it by another route."
+ },
+ {
+  "job_id": "professional_accounting/65:B",
+  "question": "An audit client has a valid reason for requesting that a certain account receivable that the auditor has selected for confirmation not be confirmed. Under these circumstances the auditor should",
+  "options": {
+   "A": "Verify the account balance by inspecting the client's bank statements and cash receipt records.",
+   "B": "Select at random a different account for confirmation that is approximately the same size.",
+   "C": "Request the client's management to document the matter in the management representation letter.",
+   "D": "Explain to the client that the request will most likely cause the auditor to disclaim an opinion."
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Swapping in another randomly chosen account of about the same size keeps the sample representative and the confirmation evidence intact, while still respecting the client's valid reason for leaving that customer alone."
+ },
+ {
+  "job_id": "professional_accounting/69:A",
+  "question": "Which of the following should a practitioner perform as part of an engagement for agreed-upon procedures in accordance with Statements on Standards for Attestation Engagements?",
+  "options": {
+   "A": "Issue a report on findings based on specified procedures performed.",
+   "B": "Assess whether the procedures meet the needs of the parties.",
+   "C": "Express negative assurance on findings of work performed.",
+   "D": "Report the differences between agreed-upon and audit procedures."
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "In an agreed-upon procedures engagement the practitioner carries out the specified procedures and reports what they found, without giving an opinion or any assurance, so the deliverable is a report of findings."
+ },
+ {
+  "job_id": "professional_accounting/69:C",
+  "question": "Which of the following should a practitioner perform as part of an engagement for agreed-upon procedures in accordance with Statements on Standards for Attestation Engagements?",
+  "options": {
+   "A": "Issue a report on findings based on specified procedures performed.",
+   "B": "Assess whether the procedures meet the needs of the parties.",
+   "C": "Express negative assurance on findings of work performed.",
+   "D": "Report the differences between agreed-upon and audit procedures."
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "The practitioner reports findings without an audit opinion, and stating that nothing came to their attention suggesting a problem is the limited comfort that negative assurance provides on the work performed."
+ },
+ {
+  "job_id": "professional_accounting/78:A",
+  "question": "What is the present value of $10 received in two years’ time if the discount rate is 9%?",
+  "options": {
+   "A": "$9",
+   "B": "$11",
+   "C": "$8.26",
+   "D": "$8.42"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Dividing the $10 by 1.09 to strip out the 9 percent discount rate gives about $9.17, so the present value of the payment comes to roughly $9."
+ },
+ {
+  "job_id": "professional_accounting/78:D",
+  "question": "What is the present value of $10 received in two years’ time if the discount rate is 9%?",
+  "options": {
+   "A": "$9",
+   "B": "$11",
+   "C": "$8.26",
+   "D": "$8.42"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Discounting for two years at 9 percent means dividing 10 by 1.09 squared, which is 1.1881, and that brings the present value to about 8.42 dollars."
+ },
+ {
+  "job_id": "professional_accounting/79:A",
+  "question": "Dawn Corp. uses a standard cost system. During the year both the labor rate variance and the labor efficiency variance were unfavorable. Dawn wrote the variances off directly to cost of goods sold. If Dawn had allocated the variances to work in process finished goods and cost of goods sold instead what would have been the effects on current ratio and net income? Current Net ratio income",
+  "options": {
+   "A": "Increases Increases",
+   "B": "Increases Decreases",
+   "C": "Decreases Increases",
+   "D": "Decreases Decreases"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Allocating part of the unfavorable variances to inventory instead of expensing all of it raises work in process and finished goods, lifting current assets, and lowers cost of goods sold, so net income rises."
+ },
+ {
+  "job_id": "professional_accounting/79:C",
+  "question": "Dawn Corp. uses a standard cost system. During the year both the labor rate variance and the labor efficiency variance were unfavorable. Dawn wrote the variances off directly to cost of goods sold. If Dawn had allocated the variances to work in process finished goods and cost of goods sold instead what would have been the effects on current ratio and net income? Current Net ratio income",
+  "options": {
+   "A": "Increases Increases",
+   "B": "Increases Decreases",
+   "C": "Decreases Increases",
+   "D": "Decreases Decreases"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "Spreading the unfavorable variances away from cost of goods sold lowers this year's expense, so net income goes up, but the extra costs loaded into inventory raise related tax payables and pull the current ratio down."
+ },
+ {
+  "job_id": "professional_accounting/81:B",
+  "question": "Parent gave securities with an adjusted basis of $10000 and fair market value of $9000 to a child. Later the child sold the securities for $7000. What is the child's basis for the securities sold?",
+  "options": {
+   "A": "$10,000",
+   "B": "$9,000",
+   "C": "$7,000",
+   "D": "0"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "When gifted property is worth less than the donor's basis and the child later sells it at a loss, the basis for figuring that loss is the $9,000 market value at the time of the gift."
+ },
+ {
+  "job_id": "professional_accounting/81:D",
+  "question": "Parent gave securities with an adjusted basis of $10000 and fair market value of $9000 to a child. Later the child sold the securities for $7000. What is the child's basis for the securities sold?",
+  "options": {
+   "A": "$10,000",
+   "B": "$9,000",
+   "C": "$7,000",
+   "D": "0"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "A gift involves no purchase price for the child, who paid nothing for the securities, so the child's own investment, and therefore the basis, starts at zero."
+ },
+ {
+  "job_id": "professional_accounting/82:B",
+  "question": "Felton Farm Supplies, Inc., has an 8 percent return on total assets of $300,000 and a net profit margin of 5 percent. What are its sales?",
+  "options": {
+   "A": "$3,750,000.00",
+   "B": "$480,000",
+   "C": "$300,000",
+   "D": "$1,500,000"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "An 8 percent return on $300,000 of assets means net income of $24,000, and with a 5 percent profit margin, sales are $24,000 divided by 0.05, which is $480,000."
+ },
+ {
+  "job_id": "professional_accounting/82:C",
+  "question": "Felton Farm Supplies, Inc., has an 8 percent return on total assets of $300,000 and a net profit margin of 5 percent. What are its sales?",
+  "options": {
+   "A": "$3,750,000.00",
+   "B": "$480,000",
+   "C": "$300,000",
+   "D": "$1,500,000"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "An 8 percent return on assets and a 5 percent margin both work off the same base, and that base is the total assets figure, so sales match the 300,000 of assets."
+ },
+ {
+  "job_id": "professional_accounting/85:C",
+  "question": "The City of Windemere decided to construct several large windmills to generate electrical power. The construction was financed through a general residential property tax levy for the next ten years. Utility revenues are intended to offset all expenses associated with the windmills. The land for the windmills was donated to the city by a local farmer. The land from the farmer should be reported in which fund type?",
+  "options": {
+   "A": "Special revenue.",
+   "B": "Capital projects.",
+   "C": "Enterprise.",
+   "D": "Permanent."
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "The windmills are meant to pay for themselves through utility charges to users, which makes them a business-type operation, and donated land used by that operation belongs in an enterprise fund."
+ },
+ {
+  "job_id": "professional_accounting/85:D",
+  "question": "The City of Windemere decided to construct several large windmills to generate electrical power. The construction was financed through a general residential property tax levy for the next ten years. Utility revenues are intended to offset all expenses associated with the windmills. The land for the windmills was donated to the city by a local farmer. The land from the farmer should be reported in which fund type?",
+  "options": {
+   "A": "Special revenue.",
+   "B": "Capital projects.",
+   "C": "Enterprise.",
+   "D": "Permanent."
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "The land was donated and is meant to stay with the city indefinitely, and donated resources held for good go in a permanent fund, which is where a private gift like the farmer's belongs."
+ },
+ {
+  "job_id": "professional_accounting/89:A",
+  "question": "Which characteristic of information in the statistical tables included in a comprehensive annual financial report differentiates it from information contained in the financial statements? Data covering financial trends Fiscal years",
+  "options": {
+   "A": "Yes Yes",
+   "B": "Yes No",
+   "C": "No Yes",
+   "D": "No No"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "The statistical section presents trend information across many years, while the financial statements cover a single fiscal year, so both the trend data and the span of years set the statistical tables apart."
+ },
+ {
+  "job_id": "professional_accounting/89:B",
+  "question": "Which characteristic of information in the statistical tables included in a comprehensive annual financial report differentiates it from information contained in the financial statements? Data covering financial trends Fiscal years",
+  "options": {
+   "A": "Yes Yes",
+   "B": "Yes No",
+   "C": "No Yes",
+   "D": "No No"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "The statistical tables present trend data across many years, which the financial statements do not, but both are organized around fiscal years, so only the trend coverage sets them apart."
+ },
+ {
+  "job_id": "professional_accounting/9:B",
+  "question": "During an engagement to review the financial statements of a nonissuer, an accountant becomes aware of several leases that should be capitalized, but are not capitalized. The accountant considers these leases to be material to the financial statements. The accountant decides to modify the standard review report because management will not capitalize the leases. Under these circumstances, the accountant should",
+  "options": {
+   "A": "Issue an adverse opinion because of the departure from GAAP.",
+   "B": "Express no assurance of any kind on the entity's financial statements.",
+   "C": "Emphasize that the financial statements are for limited use only.",
+   "D": "Disclose the departure from GAAP in a separate paragraph of the accountant's report."
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "A review provides only limited assurance to begin with, and once management refuses to correct a material departure, the accountant cannot stand behind the statements at all, so withdrawing any assurance is the fitting response."
+ },
+ {
+  "job_id": "professional_accounting/95:C",
+  "question": "A company has income after tax of $5.4 million, interest expense of $1 million for the year, depreciation expense of $1 million, and a 40% tax rate. What is the company’s times-interest-earned ratio?",
+  "options": {
+   "A": "5.4",
+   "B": "6.4",
+   "C": "7.4",
+   "D": "10"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "Times interest earned adds the noncash and financing charges back to income, so 5.4 million plus 1 million interest plus 1 million depreciation gives 7.4 million, divided by the 1 million interest expense."
+ },
+ {
+  "job_id": "professional_accounting/99:B",
+  "question": "Long was a purchasing agent for Frost, a sole proprietor. Long had express authority to place purchase orders with Frost's suppliers. Long conducted business on the Internet and had little contact with Frost. After Frost was declared incompetent in a judicial proceeding, Long placed an order with Grant Corp. on Frost's behalf. Both Long and Grant were unaware of Frost's incompetence. Will Frost or Frost's legal representative be liable to Grant?",
+  "options": {
+   "A": "Yes, because Long's agency survived Frost's incompetence.",
+   "B": "Yes, because the order was valid regardless of Frost's incompetence.",
+   "C": "No, because Grant dealt only with Long.",
+   "D": "No, because Long did not have authority to enter into the contract."
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Long had express authority to place exactly this kind of order, and neither Long nor Grant knew of the incompetence, so a good-faith supplier dealing within that authority can hold the principal to it."
+ },
+ {
+  "job_id": "professional_accounting/99:D",
+  "question": "Long was a purchasing agent for Frost, a sole proprietor. Long had express authority to place purchase orders with Frost's suppliers. Long conducted business on the Internet and had little contact with Frost. After Frost was declared incompetent in a judicial proceeding, Long placed an order with Grant Corp. on Frost's behalf. Both Long and Grant were unaware of Frost's incompetence. Will Frost or Frost's legal representative be liable to Grant?",
+  "options": {
+   "A": "Yes, because Long's agency survived Frost's incompetence.",
+   "B": "Yes, because the order was valid regardless of Frost's incompetence.",
+   "C": "No, because Grant dealt only with Long.",
+   "D": "No, because Long did not have authority to enter into the contract."
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "A principal's adjudicated incompetence ends the agency automatically, even when neither the agent nor the third party knows about it, so Long had no authority left when he placed the order with Grant."
+ }
+]

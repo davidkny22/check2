@@ -1,0 +1,236 @@
+{
+ "commit": "cc068e46f9d7ded1a0e35f7e4ef8498c4ec950ee",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T18:53:44+00:00",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "kind": "measurement",
+ "limit": null,
+ "model_kind": "full",
+ "name": "decoding_step_profile",
+ "seconds": 47.1,
+ "session": "c2-h",
+ "started": "2026-11-15T18:52:57+00:00",
+ "tree_clean": null,
+ "values": {
+  "batch": 96,
+  "device_kernel_us": 166352.50300000072,
+  "episodes": 96,
+  "implementation": "none",
+  "parts": {
+   "cache_handling": {
+    "calls": 32,
+    "cpu_share_of_wall": 0.0,
+    "cpu_us": 0.0,
+    "device_share_of_device_time": 0.049744060658949284,
+    "device_share_of_wall": 0.05825173164636679,
+    "device_us": 8275.04900000008
+   },
+   "control_state": {
+    "calls": 2,
+    "cpu_share_of_wall": 0.0,
+    "cpu_us": 0.0,
+    "device_share_of_device_time": 0.001514278387503309,
+    "device_share_of_wall": 0.0017732637243169315,
+    "device_us": 251.90399999998044
+   },
+   "deltanet_layers": {
+    "calls": 24,
+    "cpu_share_of_wall": 0.0,
+    "cpu_us": 0.0,
+    "device_share_of_device_time": 0.2902535527223165,
+    "device_share_of_wall": 0.33989529279699315,
+    "device_us": 48284.40500000003
+   },
+   "full_attention_layers": {
+    "calls": 8,
+    "cpu_share_of_wall": 0.0,
+    "cpu_us": 0.0,
+    "device_share_of_device_time": 0.13750717655267214,
+    "device_share_of_wall": 0.16102487496775716,
+    "device_us": 22874.663000000022
+   },
+   "hooks": {
+    "calls": 0,
+    "cpu_share_of_wall": 0.0,
+    "cpu_us": 0.0,
+    "device_share_of_device_time": 0.0,
+    "device_share_of_wall": 0.0,
+    "device_us": 0.0
+   },
+   "matrix_multiplies": {
+    "calls": 249,
+    "cpu_share_of_wall": 0.05354660347446639,
+    "cpu_us": 7606.654000000366,
+    "device_share_of_device_time": 0.05943634043186071,
+    "device_share_of_wall": 0.06960167117470666,
+    "device_us": 9887.384000000173
+   }
+  },
+  "rows_still_running": 23,
+  "step": 128,
+  "top_operators_by_self_cpu": [
+   [
+    "aten::mm",
+    7606.654000000366,
+    249
+   ],
+   [
+    "aten::index_select",
+    6997.252000000004,
+    1
+   ],
+   [
+    "aten::embedding",
+    6698.376,
+    1
+   ],
+   [
+    "aten::copy_",
+    5030.812000000107,
+    556
+   ],
+   [
+    "aten::mul",
+    3890.4160000001793,
+    333
+   ],
+   [
+    "aten::add",
+    3884.385999999966,
+    292
+   ],
+   [
+    "aten::empty_strided",
+    2935.126999999855,
+    423
+   ],
+   [
+    "aten::_convolution",
+    2177.5159999999596,
+    24
+   ],
+   [
+    "aten::mean",
+    1928.337000000065,
+    105
+   ],
+   [
+    "aten::pow",
+    1811.9519999999393,
+    105
+   ],
+   [
+    "aten::matmul",
+    1741.7969999998604,
+    249
+   ],
+   [
+    "aten::_to_copy",
+    1637.8000000000538,
+    398
+   ],
+   [
+    "aten::empty",
+    1538.6559999999954,
+    226
+   ],
+   [
+    "aten::cat",
+    1250.970999999954,
+    75
+   ],
+   [
+    "aten::silu",
+    1180.202000000114,
+    80
+   ]
+  ],
+  "top_operators_by_self_device": [
+   [
+    "aten::copy_",
+    15941.56300000022,
+    556
+   ],
+   [
+    "aten::mm",
+    9887.384000000173,
+    249
+   ],
+   [
+    "aten::_efficient_attention_forward",
+    2912.64699999999,
+    8
+   ],
+   [
+    "aten::cat",
+    2150.8159999999916,
+    75
+   ],
+   [
+    "aten::mul",
+    1364.6420000000435,
+    333
+   ],
+   [
+    "aten::mean",
+    847.7179999999353,
+    105
+   ],
+   [
+    "aten::_conv_depthwise2d",
+    776.7689999999711,
+    24
+   ],
+   [
+    "aten::add",
+    751.8790000000663,
+    292
+   ],
+   [
+    "aten::silu",
+    370.0230000000374,
+    80
+   ],
+   [
+    "aten::pow",
+    277.6019999998898,
+    105
+   ],
+   [
+    "aten::rsqrt",
+    218.75200000008772,
+    105
+   ],
+   [
+    "aten::argmax",
+    111.96799999999348,
+    1
+   ],
+   [
+    "aten::neg",
+    108.00599999995757,
+    40
+   ],
+   [
+    "aten::sigmoid",
+    102.46499999998923,
+    32
+   ],
+   [
+    "aten::fill_",
+    86.27100000001519,
+    42
+   ]
+  ],
+  "wall_seconds": 0.14205670400042436
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

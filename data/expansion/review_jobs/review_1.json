@@ -1,0 +1,652 @@
+[
+ {
+  "job_id": "expansion/high_school_microeconomics/28:B",
+  "question": "A firm is in a state of 'Productive Efficiency' when it",
+  "options": {
+   "A": "Produces where price equals marginal cost",
+   "B": "Operates in a perfectly competitive market",
+   "C": "Produces at the minimum point of its average total cost curve",
+   "D": "Maximizes its total revenue"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "Productive efficiency comes from the pressure of perfect competition, and I'd say only firms in that structure are forced to produce at lowest cost, so operating there is the condition itself."
+ },
+ {
+  "job_id": "expansion/formal_logic/9:C",
+  "question": "Consider the word problem constraint: 'Every solution to the equation must be a positive integer.' Let S(x) be 'x is a solution', I(x) be 'x is an integer', and P(x) be 'x is positive'. Choose the correct universal statement.",
+  "options": {
+   "A": "∃x (S(x) • I(x) • P(x))",
+   "B": "∀x (S(x) • I(x) • P(x))",
+   "C": "∀x (S(x) ⊃ (I(x) • P(x)))",
+   "D": "∃x (S(x) ⊃ (I(x) • P(x)))"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "'Every solution' calls for a universal quantifier with being a solution in the antecedent, and 'must be a positive integer' becomes the consequent conjoining integer and positive."
+ },
+ {
+  "job_id": "expansion/marketing/17:D",
+  "question": "Which of the following is a characteristic of a 'Co-Branding' strategy where two brands collaborate on a single product?",
+  "options": {
+   "A": "Reduced marketing costs",
+   "B": "Synergistic brand equity transfer",
+   "C": "Elimination of competition",
+   "D": "Automatic market share growth"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "Co-branding instantly puts a product in front of both partners' existing customer bases, so the combined product reaches more buyers from day one and its share of the market rises as a result."
+ },
+ {
+  "job_id": "expansion/conceptual_physics/249:A",
+  "question": "What is the primary component of the interstellar medium's cold neutral medium?",
+  "options": {
+   "A": "Atomic hydrogen",
+   "B": "Cosmic dust",
+   "C": "Molecular hydrogen",
+   "D": "Ionized helium"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "The cold neutral medium is the component traced by radio emission from single neutral hydrogen atoms, so its bulk is hydrogen in its atomic rather than molecular form."
+ },
+ {
+  "job_id": "expansion/high_school_geography/53:B",
+  "question": "The 'Primate City' rule, where the largest city is significantly more than twice as large as the second-largest city, is most characteristic of which urban development pattern?",
+  "options": {
+   "A": "Concentric zone model",
+   "B": "Urban primacy",
+   "C": "Central Place Theory",
+   "D": "Rank-size rule distribution"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "When one city is much more than double the size of the next, the country's urban system shows primacy, so this rule is the defining feature of the urban primacy pattern."
+ },
+ {
+  "job_id": "expansion/college_mathematics/295:A",
+  "question": "Let X and Y be independent N(0, 1) variables. What is the distribution of Z = X - Y?",
+  "options": {
+   "A": "N(0, 1)",
+   "B": "N(0, 2)",
+   "C": "Cauchy(0, 1)",
+   "D": "N(0, 0.5)"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Subtracting Y is the same as adding minus Y, and since both are standard normals centred at zero, their spreads offset each other, so the difference stays standard normal with variance one."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/353:A",
+  "question": "Which fallacy occurs when an argument relies on a word or phrase that has two different meanings, shifting between them?",
+  "options": {
+   "A": "Straw man",
+   "B": "Equivocation",
+   "C": "Red herring",
+   "D": "Amphiboly"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "When someone slides between two meanings of a word, they end up refuting a version of the claim the other person never actually made, and to me that is the essence of attacking a misrepresented position."
+ },
+ {
+  "job_id": "expansion/abstract_algebra/172:C",
+  "question": "In the ring Z_n, an element [a] is a unit if and only if:",
+  "options": {
+   "A": "n is prime",
+   "B": "gcd(a, n) = n",
+   "C": "gcd(a, n) = 1",
+   "D": "a is prime"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "If gcd(a, n) = 1, Bezout gives ax + ny = 1, so ax is 1 modulo n, and I see that any common factor would block such an inverse."
+ },
+ {
+  "job_id": "expansion/college_computer_science/344:D",
+  "question": "In automata theory, what distinguishes a Deterministic Finite Automaton (DFA) from a Non-deterministic Finite Automaton (NFA)?",
+  "options": {
+   "A": "An NFA cannot accept regular languages.",
+   "B": "A DFA has fewer states than an NFA.",
+   "C": "A DFA requires epsilon transitions.",
+   "D": "A DFA has exactly one transition for each symbol from each state."
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Determinism means there is never a choice: from every state, each input symbol leads to exactly one next state, whereas an NFA may offer several moves or none."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/24:A",
+  "question": "Optimizing eCommerce attribute retrieval begins with understanding dictionary lookups. Which data structure provides O(1) average time complexity for inserting and retrieving key-value pairs in Python?",
+  "options": {
+   "A": "Dictionary",
+   "B": "Set",
+   "C": "List",
+   "D": "Tuple"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Python's dict is a hash table, so hashing the key jumps straight to its slot, which gives constant average time for both inserting a key-value pair and looking it up."
+ },
+ {
+  "job_id": "expansion/management/343:A",
+  "question": "In scaling a logistics and mobility marketplace, which organizational structure best supports the balance between centralized platform governance and local operational flexibility?",
+  "options": {
+   "A": "A federated model with central tech standards and autonomous regional operations",
+   "B": "A functional structure organized strictly by vehicle type regardless of geography",
+   "C": "A completely decentralized network with no central oversight or branding",
+   "D": "A fully centralized command structure where all driver decisions are made at HQ"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "I'd point out that a federated model keeps the shared technology, standards and brand under central control while letting each region run its own operations, which is exactly the mix of governance and local flexibility needed."
+ },
+ {
+  "job_id": "expansion/machine_learning/304:B",
+  "question": "Statement 1| The Expectation-Maximization (EM) algorithm is used for finding maximum likelihood estimates of parameters in probabilistic models with latent variables. Statement 2| The E-step calculates the conditional expectation of the latent variables given the observed data and current parameter estimates.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is false, Statement 2 is true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Both statements are true"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "EM does compute the conditional expectation over the latent variables in its E-step, but it only reaches a local maximum of the likelihood, so calling it a method for finding maximum likelihood estimates overstates it."
+ },
+ {
+  "job_id": "expansion/marketing/84:A",
+  "question": "What is the strategic purpose of 'brand stretching' when moving into an unrelated product category?",
+  "options": {
+   "A": "To lower the price of the original product",
+   "B": "To reduce production costs",
+   "C": "To eliminate the need for marketing",
+   "D": "To leverage brand equity to enter new markets"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Stretching the brand into a new category spreads fixed brand costs over more products, so the original product carries less of that overhead and its price can come down."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/85:A",
+  "question": "Designing team-building programs for hybrid teams involves analyzing the economics of remote work. How does remote work primarily affect the agglomeration economies traditionally found in major cities?",
+  "options": {
+   "A": "It increases the cost of office space in rural areas.",
+   "B": "It has no impact on the spatial distribution of economic activity.",
+   "C": "It may weaken agglomeration effects by reducing the need for physical proximity.",
+   "D": "It strengthens agglomeration effects by forcing more people into city centers."
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "Remote workers moving out of cities bring demand for workspace with them, so firms and coworking providers chase office space in rural areas, which pushes rural office costs upward."
+ },
+ {
+  "job_id": "expansion/marketing/220:D",
+  "question": "Which organizational development initiative most effectively aligns employee engagement programs with measurable business outcomes?",
+  "options": {
+   "A": "Implementing mandatory annual training sessions for all staff",
+   "B": "Increasing the frequency of town hall meetings without structured feedback loops",
+   "C": "Offering generic wellness benefits unrelated to job roles or performance",
+   "D": "Designing data-driven interventions that link specific behaviors to productivity metrics"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Engagement only connects to results when you can see which behaviors move the numbers, so designing interventions from data and tying specific behaviors to productivity measures makes the link measurable."
+ },
+ {
+  "job_id": "expansion/high_school_geography/134:A",
+  "question": "Which of the following best describes the 'Dependency Theory' regarding global economic development?",
+  "options": {
+   "A": "Wealthy nations provide direct subsidies to poor nations to ensure global stability",
+   "B": "Resources flow from a periphery of poor and underdeveloped states to a core of wealthy states, enriching the latter at the expense of the former",
+   "C": "Development is a linear process where all countries pass through the same five stages of growth",
+   "D": "Economic growth is solely dependent on the internal adoption of free-market capitalism"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Dependency theory says poor countries depend on rich ones, and that dependence takes the form of aid and subsidies sent from wealthy states to keep weaker economies afloat and the world system stable."
+ },
+ {
+  "job_id": "expansion/machine_learning/183:C",
+  "question": "Statement 1| Named entity extraction in historical texts requires disambiguating archaic location names against modern gazetteers. Statement 2| Part-of-speech tagging is unnecessary when extracting proper nouns from narrative prose.",
+  "options": {
+   "A": "Statement 1 is false; Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Old texts use place names that changed or vanished, so matching them to modern gazetteers is needed to resolve them, and capitalization alone isn't enough in prose, since sentence starts are capitalized too, so tagging helps."
+ },
+ {
+  "job_id": "expansion/professional_accounting/41:C",
+  "question": "Using Data Envelopment Analysis (DEA) with variable returns to scale, if a bank branch operates on the efficiency frontier but exhibits decreasing returns to scale, what is the most appropriate managerial recommendation?",
+  "options": {
+   "A": "Increase all inputs proportionally",
+   "B": "Increase outputs while holding inputs constant",
+   "C": "Decrease all inputs proportionally",
+   "D": "Maintain current input levels"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Decreasing returns to scale mean the branch is larger than its most productive size, so scaling all inputs down proportionally moves it toward the optimal scale where each unit of input yields more output."
+ },
+ {
+  "job_id": "expansion/high_school_geography/75:D",
+  "question": "In the Southern Hemisphere, including Australia and parts of South America, the academic year typically commences in which month, aligning with the region's seasonal climate patterns?",
+  "options": {
+   "A": "January",
+   "B": "September",
+   "C": "April",
+   "D": "July"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Because the seasons are flipped in the south, the northern pattern of starting after the summer is shifted half a year, so southern schools open the new year of classes in July after the mid-year break."
+ },
+ {
+  "job_id": "expansion/conceptual_physics/233:A",
+  "question": "What mathematical technique did Katherine Johnson use to verify orbital trajectories?",
+  "options": {
+   "A": "Numerical integration of differential equations",
+   "B": "Geometric construction",
+   "C": "Statistical regression analysis",
+   "D": "Symbolic algebraic manipulation"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Orbital paths come from equations of motion that have no closed-form solution once real effects are included, so checking a trajectory meant stepping those differential equations forward numerically, point by point."
+ },
+ {
+  "job_id": "expansion/college_computer_science/312:C",
+  "question": "What is the time complexity of the Floyd-Warshall algorithm for finding all-pairs shortest paths in a graph with V vertices?",
+  "options": {
+   "A": "O(E + V log V)",
+   "B": "O(V log V)",
+   "C": "O(V^3)",
+   "D": "O(V^2)"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Floyd-Warshall runs three nested loops, one over the intermediate vertex and two over the start and end vertices, and each innermost step is a constant-time comparison, so the running time is V cubed."
+ },
+ {
+  "job_id": "expansion/astronomy/95:D",
+  "question": "Time-dependent concentration profiles in cometary coma decomposition reactions follow which kinetic model?",
+  "options": {
+   "A": "Second-order recombination limited by collision frequency",
+   "B": "Autocatalytic acceleration due to dust grain surface effects",
+   "C": "First-order decay proportional to volatile species abundance",
+   "D": "Zero-order kinetics driven by constant solar photon flux"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "The breakdown in a coma is driven by solar photons, and the Sun's output is essentially constant over the time scale involved, so the reaction rate stays fixed regardless of concentration."
+ },
+ {
+  "job_id": "expansion/marketing/1:D",
+  "question": "In differentiating a Registered Training Organization (RTO) in a low-budget digital campaign, what strategy drives market innovation?",
+  "options": {
+   "A": "Spending the entire budget on a single untargeted billboard",
+   "B": "Copying the exact ad copy of the largest competitor",
+   "C": "Avoiding digital channels entirely in favor of word-of-mouth",
+   "D": "Focusing on audience segmentation and competitive positioning in edtech"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "What persuades me is that on a small budget every dollar has to reach the right people, so segmenting the audience and positioning the training provider against edtech competitors is what makes a campaign stand out and innovate."
+ },
+ {
+  "job_id": "expansion/high_school_geography/514:B",
+  "question": "Which term describes the process where rural areas transform into urban settlements due to population growth and infrastructure expansion?",
+  "options": {
+   "A": "Urbanization",
+   "B": "Metropolization",
+   "C": "Gentrification",
+   "D": "Suburbanization"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Metropolization describes how growing populations and expanding infrastructure turn surrounding rural land into part of a large urban system, which is exactly the transformation the question describes."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/96:B",
+  "question": "What is the expected value of a fair six-sided die roll?",
+  "options": {
+   "A": "4.5",
+   "B": "3",
+   "C": "4",
+   "D": "3.5"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "A die has six faces, and halfway along that count of six is three, so the typical roll you should expect over many throws sits at the midpoint of the faces."
+ },
+ {
+  "job_id": "expansion/marketing/148:B",
+  "question": "When aligning paid and organic strategies to capture high-intent professional demographics in B2B tech, what toolset is essential?",
+  "options": {
+   "A": "Posting randomly on social media without a content calendar",
+   "B": "Using Google Analytics and LinkedIn Ads for data-driven audience segmentation",
+   "C": "Focusing on broad brand awareness rather than specific intent",
+   "D": "Relying solely on cold calling and direct mail"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "My read is that capturing high-intent professionals means knowing who they are and what they do online, and combining web analytics with professional-network ad targeting lets paid and organic efforts aim at the same segments."
+ },
+ {
+  "job_id": "expansion/college_mathematics/95:D",
+  "question": "Consider the linear system Ax = 0 where A is a 3x3 matrix with rank 2. The solution set forms a:",
+  "options": {
+   "A": "Plane through the origin",
+   "B": "3D space",
+   "C": "Point",
+   "D": "Line through the origin"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Rank 2 in a 3x3 matrix leaves 3 minus 2, one free variable, so the solutions are all multiples of a single nonzero vector, a one-dimensional set passing through the origin."
+ },
+ {
+  "job_id": "expansion/high_school_geography/442:B",
+  "question": "What spatial data structure is most appropriate for encoding the precise geographic coordinates and historical attributes of Civil War monuments?",
+  "options": {
+   "A": "Semantic triples linking entities to locations",
+   "B": "Unstructured narrative text blocks",
+   "C": "Audio recordings of oral histories",
+   "D": "Raster image files without metadata"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Each monument has a complex backstory about who built it and why, and narrative text is the only format flexible enough to record those historical attributes alongside the location description."
+ },
+ {
+  "job_id": "expansion/abstract_algebra/89:A",
+  "question": "In the symmetric group S_5, how many distinct subgroups of order 5 exist?",
+  "options": {
+   "A": "6",
+   "B": "10",
+   "C": "24",
+   "D": "120"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Each subgroup of order 5 is cyclic and contains four 5-cycles, and S_5 has 24 five-cycles in total, so dividing 24 by 4 gives six subgroups."
+ },
+ {
+  "job_id": "expansion/philosophy/311:B",
+  "question": "How does Sartre's concept of 'bad faith' apply to contemporary critiques of algorithmic governance where individuals claim they have no choice but to follow automated decisions?",
+  "options": {
+   "A": "It proposes that ethical codes are objectively embedded in software code",
+   "B": "It suggests that individuals are denying their fundamental freedom and responsibility",
+   "C": "It argues that social structures completely determine individual actions",
+   "D": "It implies that algorithms possess a form of consciousness that overrides human will"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Saying the system made me do it treats yourself as a mere cog, yet you still choose to comply, and for Sartre disowning that choice is the very definition of bad faith."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/68:B",
+  "question": "Which sorting algorithm works by repeatedly swapping adjacent elements if they are in the wrong order?",
+  "options": {
+   "A": "Bubble Sort",
+   "B": "Merge Sort",
+   "C": "Quick Sort",
+   "D": "Heap Sort"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Merge sort at its base level compares pairs of adjacent elements and puts each pair in the right order, then repeats that process on larger groups, so it is built on swapping neighbouring elements."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/309:D",
+  "question": "Modeling civic service queues requires understanding of FIFO structures. Which standard Python module provides a queue implementation optimized for appending and popping from both ends?",
+  "options": {
+   "A": "collections.deque",
+   "B": "array.array",
+   "C": "list",
+   "D": "queue.Queue"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "queue.Queue is the standard library's dedicated queue class, built for FIFO processing with put and get, so it is the module designed specifically for modelling service lines."
+ },
+ {
+  "job_id": "expansion/machine_learning/302:C",
+  "question": "Statement 1| In Generative Adversarial Networks (GANs), the generator aims to maximize the probability that the discriminator makes a mistake. Statement 2| The Nash equilibrium in a GAN is reached when the discriminator can no longer distinguish between real and generated samples, achieving an accuracy of 0.5.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Statement 1 is false; Statement 2 is true",
+   "C": "Both statements are false",
+   "D": "Statement 1 is true; Statement 2 is false"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "The generator in the original minimax game minimizes log(1 - D(G(z))) rather than maximizing a mistake probability, and at equilibrium the discriminator outputs 0.5 per sample, which is not the same as 0.5 accuracy."
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/91:D",
+  "question": "Sarah buys 5 notebooks for $1.20 each and pays with a $10 bill. How much change does she receive?",
+  "options": {
+   "A": "$4.50",
+   "B": "$6.00",
+   "C": "$3.50",
+   "D": "$4.00"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Five notebooks at 1.20 each cost six dollars in total, and paying with a ten dollar bill leaves four dollars in change."
+ },
+ {
+  "job_id": "expansion/marketing/50:D",
+  "question": "How should a farm-to-table frozen food brand communicate farm labor to social media audiences to balance realism and positivity?",
+  "options": {
+   "A": "By crafting authentic narratives that highlight labor with respect and warmth",
+   "B": "By hiding the difficulties of agricultural work entirely",
+   "C": "By using stock photography instead of real farm images",
+   "D": "By focusing exclusively on the final cooked meal presentation"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Social media rewards appetizing visuals, so centering every post on the finished meal lets the farm's care show through the food itself, keeping the message positive without misrepresenting the work."
+ },
+ {
+  "job_id": "expansion/high_school_physics/178:D",
+  "question": "A charge q is placed at the origin. What is the flux through a cube of side a centered at the origin?",
+  "options": {
+   "A": "Zero",
+   "B": "6q / ε₀",
+   "C": "q / (6ε₀)",
+   "D": "q / ε₀"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Gauss's law says the total flux through any closed surface equals the enclosed charge over ε₀, and the cube fully encloses the charge at its center, so the flux is q over ε₀."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/25:B",
+  "question": "Which term describes a formal fallacy where the consequent is affirmed, incorrectly assuming that if the consequent is true, the antecedent must also be true?",
+  "options": {
+   "A": "Affirming the Consequent",
+   "B": "Undistributed Middle",
+   "C": "Modus Ponens",
+   "D": "Denying the Antecedent"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Affirming the consequent has the same shape as a syllogism where the shared term only ever sits in the predicate position, all P are Q and this is Q, so it reduces to an undistributed middle."
+ },
+ {
+  "job_id": "expansion/college_physics/303:A",
+  "question": "A qubit decoheres in 100 microseconds. How many operations can occur if each takes 10 nanoseconds?",
+  "options": {
+   "A": "10",
+   "B": "10,000",
+   "C": "1,000",
+   "D": "100,000"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "The coherence window is 100 microseconds and each operation lasts 10 nanoseconds, so dividing the window by the operation time, 100 over 10, gives how many fit."
+ },
+ {
+  "job_id": "expansion/professional_accounting/23:A",
+  "question": "In a Modigliani-Miller world with corporate taxes, how does increasing the debt-to-equity ratio affect the value of the firm?",
+  "options": {
+   "A": "Decreases the firm value",
+   "B": "No effect on firm value",
+   "C": "Increases the firm value",
+   "D": "Increases the cost of equity only"
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "More debt means larger interest payments and a higher chance of default. That growing financial risk makes both lenders and shareholders demand more, which drags down what the whole firm is worth."
+ },
+ {
+  "job_id": "expansion/management/210:D",
+  "question": "Considering the aging demographic in South Korea, which organizational structure adjustment is most vital for retail brands targeting senior consumers?",
+  "options": {
+   "A": "Reducing the workforce size to lower operational costs amidst declining youth spending",
+   "B": "Flattening the hierarchy to allow younger managers to make rapid trend decisions",
+   "C": "Creating specialized cross-functional teams focused on accessibility and senior engagement",
+   "D": "Outsourcing all customer service functions to automated AI chatbots"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "Korea has very high digital adoption and a shrinking labor force, so automated service available at all hours lets the brand serve a growing senior customer base consistently without needing to hire more staff."
+ },
+ {
+  "job_id": "expansion/marketing/184:A",
+  "question": "For a minimalist art brand, which visual branding element most critically drives discoverability on image-centric social platforms?",
+  "options": {
+   "A": "Consistent aesthetic palette and alt-text optimization",
+   "B": "Cross-platform paid ad spend",
+   "C": "Complex narrative captions",
+   "D": "Frequent posting schedule alone"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "On image-first platforms a recognizable, consistent look makes a feed instantly identifiable, while alt text gives the search and recommendation systems words to index, so together they make the work findable."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/25:B",
+  "question": "In the context of Python's memory management, what is the primary purpose of the 'Global Interpreter Lock' (GIL)?",
+  "options": {
+   "A": "To optimize the speed of integer arithmetic",
+   "B": "To synchronize access to Python objects across multiple threads",
+   "C": "To enable true parallel execution of multiple Python threads on multi-core CPUs",
+   "D": "To prevent memory leaks in the heap"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "The GIL is a mutex that lets only one thread run Python bytecode at a time, which keeps reference counts and other object internals consistent when several threads touch the same objects."
+ },
+ {
+  "job_id": "expansion/conceptual_physics/75:C",
+  "question": "Which layer of the Sun's atmosphere is visible during a total solar eclipse?",
+  "options": {
+   "A": "Radiative zone",
+   "B": "Photosphere",
+   "C": "Chromosphere",
+   "D": "Corona"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "When the Moon blocks the bright disk, a thin reddish-pink ring appears right around its edge, and that colored glow is the chromosphere, the layer revealed only once the photosphere is covered."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/102:D",
+  "question": "Identify the fallacy: 'My doctor says this supplement works, and he has a PhD in History, so it must be effective.'",
+  "options": {
+   "A": "Hasty generalization",
+   "B": "Post hoc fallacy",
+   "C": "False dilemma",
+   "D": "Appeal to inappropriate authority"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "A doctorate in history gives no expertise on supplements, so citing that credential as support borrows authority from a field that has nothing to do with whether the product works."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/117:C",
+  "question": "Which fallacy occurs when a conclusion is drawn from a premise that is irrelevant to the conclusion?",
+  "options": {
+   "A": "Hasty Generalization",
+   "B": "Non Sequitur",
+   "C": "Circular Reasoning",
+   "D": "Equivocation"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "When the premise offers no independent support, the conclusion ends up resting on nothing but itself, so the argument goes around in a loop instead of moving from evidence to a claim."
+ },
+ {
+  "job_id": "expansion/college_mathematics/291:B",
+  "question": "Let A be a 4x4 matrix with eigenvalues 2, 2, -1, and 0. If the geometric multiplicity of the eigenvalue 2 is 1, what is the size of the largest Jordan block associated with the eigenvalue 2?",
+  "options": {
+   "A": "1x1",
+   "B": "4x4",
+   "C": "3x3",
+   "D": "2x2"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Geometric multiplicity one means there is only a single Jordan block for the eigenvalue 2, and in a 4x4 matrix that one block should stretch across the whole matrix."
+ },
+ {
+  "job_id": "expansion/formal_logic/112:D",
+  "question": "Which of the following propositional forms is a tautology?",
+  "options": {
+   "A": "(p ∨ ~p)",
+   "B": "(p ⊃ q)",
+   "C": "(p ∧ ~p)",
+   "D": "(p ≡ q)"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "A biconditional asserts that its two sides always share the same truth value, and a statement of equivalence like that holds as a matter of form, which is what makes a tautology."
+ },
+ {
+  "job_id": "expansion/machine_learning/31:A",
+  "question": "Statement 1| The p-value is the probability that the observed result occurred by chance, assuming the null hypothesis is true. Statement 2| A p-value of 0.05 means there is a 5% chance that the null hypothesis is false.",
+  "options": {
+   "A": "Statement 1 is true, Statement 2 is false",
+   "B": "Both statements are true",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Both statements are false"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "A p-value is computed under the null hypothesis, as the chance of a result like this arising by chance alone, but it says nothing directly about the probability that the null is false."
+ },
+ {
+  "job_id": "expansion/high_school_macroeconomics/279:A",
+  "question": "In a flexible exchange rate system, if the demand for a currency increases while the supply remains constant, what occurs?",
+  "options": {
+   "A": "The currency appreciates",
+   "B": "The currency depreciates",
+   "C": "The currency remains stable",
+   "D": "Trade deficits automatically disappear"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "With supply fixed and more buyers wanting the currency, its price in terms of other currencies is bid up, just like any good facing higher demand, so the currency gains value."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/182:C",
+  "question": "What is the 'No True Scotsman' fallacy an example of?",
+  "options": {
+   "A": "False dichotomy",
+   "B": "Ad hominem",
+   "C": "Circular reasoning",
+   "D": "Appeal to purity/definition"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "No true Scotsman protects a claim by redefining the group whenever a counterexample appears, so the claim becomes true by definition and the argument assumes what it sets out to prove."
+ }
+]

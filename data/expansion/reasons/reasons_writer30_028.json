@@ -1,0 +1,127 @@
+{
+  "writer": "opus",
+  "started_unix": 1794796279,
+  "finished_unix": 1794796380,
+  "reasons": [
+    {
+      "job_id": "expansion/high_school_mathematics/5:B",
+      "reason": "With equal degrees on top and bottom, the horizontal level comes from the leading terms together, and combining the 3 from the numerator with the 1 from the denominator puts the asymptote at 4."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/5:C",
+      "reason": "Top and bottom are both degree two, so for very large x the lower-order terms fade and the function approaches the ratio of the leading coefficients, which is 3 over 1."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/51:B",
+      "reason": "The upper piece is a similar cone, and since volume goes as radius squared times height, the 1/27 gets shared between the radius factor and the height, which leaves the height ratio at one ninth."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/51:D",
+      "reason": "The top piece is a smaller cone similar to the whole one, so volumes scale with the cube of the linear ratio, and the cube root of 1/27 is one third."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/52:A",
+      "reason": "From f(0)=1 the constant is 1, and the other two conditions then force a=1 and b=0, so the function is x squared plus 1, and at x=3 that gives 10."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/52:C",
+      "reason": "Looking at the outputs 1, 2 and 5, they rise by 1 and then by 3, and carrying that latest rise of 3 forward from 5 puts f(3) at 8."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/53:A",
+      "reason": "The line meets the y-axis at the point (0, 3), which is the nearest of its two intercepts to the origin, so the distance from the origin to this line comes out to 3."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/53:D",
+      "reason": "Plugging the origin into the point-to-line distance formula gives the absolute value of negative 12 divided by the square root of 9 plus 16, which is 12 over 5, or 2.4."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/54:B",
+      "reason": "For a hyperbola, c squared equals a squared plus b squared, so here c is the square root of 16 plus 9, which is 5, and c is exactly the focal distance."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/54:D",
+      "reason": "With a squared equal to 16 and b squared equal to 9, c squared is 25 and c is 5, so the foci sit at plus and minus 5 on the x-axis, ten units apart."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/55:A",
+      "reason": "Rationalizing turns each term into the difference of consecutive square roots, so the sum collapses to the last root minus the first, root 99 minus 1, which lands just under 9 and gives 8."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/55:B",
+      "reason": "Multiplying each term by its conjugate leaves the square root of k+1 minus the square root of k, so the whole sum telescopes to root 100 minus root 1, which is 10 minus 1."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/56:A",
+      "reason": "A 20 percent discount that leaves a price of 100 means the marked price was 125, and the marked price is what the store set for the item before any sale, so that is its cost."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/56:B",
+      "reason": "The markup multiplies the cost by 1.25 and the discount multiplies the marked price by 0.8, and 1.25 times 0.8 is exactly 1, so the cost equals the final price."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/57:C",
+      "reason": "The remainders of powers of 7 on division by 5 run 2, 4, 3, 1 and then repeat, and since 2024 is a multiple of 4 it starts a fresh cycle, which begins at 2."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/57:D",
+      "reason": "Powers of 7 leave remainders 2, 4, 3, 1 on division by 5, repeating every four steps, and because 2024 divides evenly by 4 the remainder matches the fourth in the cycle, which is 1."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/6:A",
+      "reason": "A regular hexagon has six sides, all the same length, so with each side measuring 4 cm the perimeter is six times four, which comes to 24 cm."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/6:D",
+      "reason": "In a regular hexagon each side equals the distance from the center to a vertex, and the boundary measures four times that 4 cm length, which gives a perimeter of 16 cm."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/60:A",
+      "reason": "The primes below 10 are 2, 3, 5 and 7, making six pairs, and since any two odd primes add to an even number, only 2 with 3 gives a prime sum, so one in six."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/60:B",
+      "reason": "The primes below 10 are 2, 3, 5 and 7, which make six pairs, and only pairs containing 2 can have an odd sum; 2+3 and 2+5 are prime, so two out of six."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/61:A",
+      "reason": "Joining every second vertex of an octagon traces two overlapping squares, each with four right-angled corners, so the eight points of the star contribute eight times 90 degrees, which is 720."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/61:C",
+      "reason": "Each point of the star is an inscribed angle spanning three of the octagon's eight 45-degree arcs, so it measures 67.5 degrees, and eight such points add up to 540 degrees."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/62:C",
+      "reason": "A single real root needs the discriminant, k squared minus 4 times 9, to be zero, which means k equals 4 times the square root of 9, and that works out to 12."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/62:D",
+      "reason": "Exactly one real solution means a zero discriminant, so k squared equals 4 times 9, or 36, and k is 6, which turns the equation into the perfect square (x+3) squared."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/64:C",
+      "reason": "The area of a trapezoid is the average of the two parallel bases times the height, and the average of 8 and 12 is 10, so ten times five gives 50."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/64:D",
+      "reason": "The midline of this trapezoid is half the sum of the bases, which is 10, and like a triangle the area is half that midline times the height of 5, giving 25."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/66:C",
+      "reason": "The larger polygon's area is 25 over 16, about one and a half times the smaller, and its perimeter grows by that same factor, which matches a ratio of roughly 2 to 3."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/66:D",
+      "reason": "For similar figures, area scales with the square of the linear scale factor, so the perimeter ratio is the square root of 16 to 25, which comes to 4 to 5."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/68:B",
+      "reason": "The centers are 4 apart since the circles touch externally, and the tangent segment is the square root of that distance squared minus the radius difference squared, 16 minus 4, giving 2 root 3."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/68:C",
+      "reason": "The tangent segment acts as a geometric mean between the big circle's diameter of 6 and the center distance of 4, so its length is the square root of 24, or 2 root 6."
+    }
+  ]
+}

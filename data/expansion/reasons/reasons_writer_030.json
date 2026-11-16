@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794788472,
+ "finished_unix": 1794788697,
+ "reasons": [
+  {
+   "job_id": "expansion/formal_logic/338:A",
+   "reason": "The sentence is really telling us that there are even numbers and they are divisible by two, so a conjunction under an existential quantifier captures both properties holding together for the numbers we mean."
+  },
+  {
+   "job_id": "expansion/formal_logic/338:D",
+   "reason": "The sentence is a general conditional about any number: being even guarantees divisibility by two. That calls for a universal quantifier with evenness as the antecedent and divisibility as the consequent."
+  },
+  {
+   "job_id": "expansion/formal_logic/339:A",
+   "reason": "The sentence states a rule about lines, and the formula with a negation sign out front builds in the 'not' from 'does not intersect' while keeping the universal conditional linking parallel to intersection."
+  },
+  {
+   "job_id": "expansion/formal_logic/339:B",
+   "reason": "The English says for all lines l and m, if parallel then not intersecting, so both universal quantifiers go out front and the conditional runs from parallel to the negated intersection predicate."
+  },
+  {
+   "job_id": "expansion/formal_logic/34:C",
+   "reason": "Having a medical degree is what qualifies someone as a doctor, so the degree is the condition that leads to being a doctor, which makes the degree the antecedent of the universal conditional."
+  },
+  {
+   "job_id": "expansion/formal_logic/34:D",
+   "reason": "The 'if' clause names being a doctor, so that goes in the antecedent, and having a medical degree follows as the consequent, all under a universal quantifier since it applies to every person."
+  },
+  {
+   "job_id": "expansion/formal_logic/340:B",
+   "reason": "Starting the car depends on the battery and the starter each doing their part, and 'provided that' introduces the conditions, so the two components go in the antecedent joined as alternatives leading to the car starting."
+  },
+  {
+   "job_id": "expansion/formal_logic/340:D",
+   "reason": "'Provided that' introduces a sufficient condition, so the battery being charged together with the working starter motor forms the antecedent, and the car starting is the consequent."
+  },
+  {
+   "job_id": "expansion/formal_logic/341:C",
+   "reason": "Any conditional can be rewritten as a disjunction with a negated part, so expressing the theorem as a disjunction of negations is an equivalent way to state how inscription in a semicircle and right angles relate."
+  },
+  {
+   "job_id": "expansion/formal_logic/341:D",
+   "reason": "The theorem's 'if' clause is about the angle being inscribed in a semicircle, so that predicate is the antecedent and being a right angle is the consequent, matching the stated direction."
+  },
+  {
+   "job_id": "expansion/formal_logic/343:A",
+   "reason": "'Unless' here marks evenness as a necessary condition for a solution, and a necessary condition goes in the consequent, so the existence of a solution implies that k is even."
+  },
+  {
+   "job_id": "expansion/formal_logic/343:D",
+   "reason": "The plain conditional from solution to evenness, its contrapositive, and the negated conjunction ruling out a solution with odd k all have identical truth tables, so each one expresses the same necessary condition."
+  },
+  {
+   "job_id": "expansion/formal_logic/35:B",
+   "reason": "Saying no one can do everything means that for each person it is false that they can do every task, so the universal quantifier goes outside and the negation sits right before the inner universal."
+  },
+  {
+   "job_id": "expansion/formal_logic/35:D",
+   "reason": "Denying that some person can do everything is equivalent, by quantifier negation, to saying every person fails to do everything, so the negated existential form and the universal form with inner negation express the same claim."
+  },
+  {
+   "job_id": "expansion/formal_logic/36:A",
+   "reason": "The statement quantifies over every n and m, restricts m to positive integers through a conditional, and then asserts some remainder exists, so universal quantifiers with an existential inside the consequent fit exactly."
+  },
+  {
+   "job_id": "expansion/formal_logic/36:C",
+   "reason": "The claim is about remainders existing for numbers, and putting existential quantifiers on n and m first with the remainder universally quantified captures that some pair of numbers relates to remainders in every case."
+  },
+  {
+   "job_id": "expansion/formal_logic/38:A",
+   "reason": "The argument takes one premise as given and uses the other to detach the conclusion Q, which is the defining move of modus ponens, where a premise lets you draw the remaining part directly."
+  },
+  {
+   "job_id": "expansion/formal_logic/38:B",
+   "reason": "We start with a disjunction, the second premise denies one of the disjuncts, and the conclusion affirms the other disjunct, which is the syllogism pattern built on ruling out one of two alternatives."
+  },
+  {
+   "job_id": "expansion/formal_logic/39:C",
+   "reason": "'Neither... nor' says it is not the case that both hold, and by De Morgan's law denying a conjunction gives the disjunction of the two negations: the base fails to be prime or the exponent fails to be even."
+  },
+  {
+   "job_id": "expansion/formal_logic/39:D",
+   "reason": "The sentence denies each part, which is the conjunction of two negations, and De Morgan's law makes that identical to the negation of the disjunction, so both of those forms translate it correctly."
+  },
+  {
+   "job_id": "expansion/formal_logic/40:B",
+   "reason": "The antecedent is whatever sits on the left side of the horseshoe, and here the entire left side is the parenthesized disjunction of P and Q, not just one letter from it."
+  },
+  {
+   "job_id": "expansion/formal_logic/40:C",
+   "reason": "In a conditional the antecedent is the part being established, and here the conjunction of R and S is the compound the whole expression asserts to hold, so that grouped conjunction is the antecedent."
+  },
+  {
+   "job_id": "expansion/formal_logic/41:C",
+   "reason": "Not having a ticket blocks entry, which means anyone who enters must have a ticket, so entering is the antecedent and having a ticket is the consequent of the conditional."
+  },
+  {
+   "job_id": "expansion/formal_logic/41:D",
+   "reason": "Read directly, the sentence has the negated ticket as antecedent and negated entry as consequent, and its contrapositive says entering requires a ticket; those conditionals are equivalent, so both translations work."
+  },
+  {
+   "job_id": "expansion/formal_logic/43:A",
+   "reason": "Every integer that fails to have one parity has the other, so for all x being even leads into the alternative of being odd, which a universal conditional between the two predicates expresses."
+  },
+  {
+   "job_id": "expansion/formal_logic/43:C",
+   "reason": "'Every' calls for a universal quantifier, and 'either even or odd' is a plain disjunction of the two predicates, so for each x, x is even or x is odd."
+  },
+  {
+   "job_id": "expansion/formal_logic/44:A",
+   "reason": "Since the claim is restricted to integers, the integer predicate should be the antecedent of a universal conditional, with the disjunction of even and odd as the consequent for every such x."
+  },
+  {
+   "job_id": "expansion/formal_logic/44:D",
+   "reason": "The sentence ties integers to the two parity properties together, and listing even and odd jointly in the consequent of a universal conditional over integers covers both categories the sentence names."
+  },
+  {
+   "job_id": "expansion/formal_logic/45:A",
+   "reason": "The order of quantifiers matters: universal x first, then existential y, so each x gets its own y, and the body states that both are real numbers and that their sum is zero."
+  },
+  {
+   "job_id": "expansion/formal_logic/45:D",
+   "reason": "The universal quantifier ranges over x restricted to reals by a conditional, and inside the consequent there is a real y with x plus y equal to zero, so y can depend on each x."
+  },
+  {
+   "job_id": "expansion/formal_logic/46:A",
+   "reason": "A definition stated with 'if and only if' needs a biconditional, and this form also quantifies both composition conditions over their own domains, with the composed result explicitly equal to the input."
+  },
+  {
+   "job_id": "expansion/formal_logic/46:B",
+   "reason": "Putting all four universal quantifiers out front with the inverse and domain facts as one antecedent cleanly states that both compositions return the original input, which is what being an inverse requires."
+  },
+  {
+   "job_id": "expansion/formal_logic/47:C",
+   "reason": "An existential claim pairs with conjunction, not a conditional, so there is some x that is an integer and is prime and is even, all joined together under the existential quantifier."
+  },
+  {
+   "job_id": "expansion/formal_logic/47:D",
+   "reason": "Being prime and even is a property of integers, so the integer predicate goes in the antecedent of a conditional, and the consequent conjoins prime and even under a quantifier covering the integers."
+  },
+  {
+   "job_id": "expansion/formal_logic/48:A",
+   "reason": "A magic square is defined by its equal sums, so having equal row sums and equal column sums is what makes a square magic, which puts those sum properties in the antecedent."
+  },
+  {
+   "job_id": "expansion/formal_logic/48:D",
+   "reason": "The sentence opens with 'in a magic square', meaning being a magic square guarantees the row and column sum properties, so the square's status is the antecedent and the conjoined sums follow."
+  },
+  {
+   "job_id": "expansion/formal_logic/55:A",
+   "reason": "Chaining the first two premises by hypothetical syllogism gives P implies R, and with P given as the third premise, modus ponens delivers R as the final conclusion."
+  },
+  {
+   "job_id": "expansion/formal_logic/55:C",
+   "reason": "Combining the two conditionals and then reasoning back from the end of the chain is how the derivation closes, and working back through the implications with the given premise yields the negation of P."
+  },
+  {
+   "job_id": "expansion/formal_logic/57:A",
+   "reason": "Saying every student who studies hard passes can be written with the conjunction of student and studying in the antecedent, or by exportation as nested conditionals, and those two forms are logically equivalent."
+  },
+  {
+   "job_id": "expansion/formal_logic/57:B",
+   "reason": "The sentence describes students who study hard and pass, so the three properties belong together in one conjunction under a quantifier that picks out those hard-working students who succeed."
+  },
+  {
+   "job_id": "expansion/formal_logic/6:B",
+   "reason": "The phrase 'if and only if' calls for a biconditional, and the three conditions on the base and argument have to be conjoined, all quantified universally over every b and x."
+  },
+  {
+   "job_id": "expansion/formal_logic/6:D",
+   "reason": "The statement is an 'if and only if', so a biconditional linking definedness to the three conditions is required, and it is about the particular base and argument in log_b(x), which existential quantifiers pick out."
+  },
+  {
+   "job_id": "expansion/formal_logic/62:A",
+   "reason": "Rotations do not create a new arrangement, so any two circular permutations that are rotations of each other count as the same one, which is a universal conditional ending in identity."
+  },
+  {
+   "job_id": "expansion/formal_logic/62:B",
+   "reason": "The constraint is about two circular permutations that are rotations of one another yet are distinct listings of objects, so asserting that such a pair exists captures the situation the rule addresses."
+  },
+  {
+   "job_id": "expansion/formal_logic/63:B",
+   "reason": "'Every event' calls for a universal quantifier with the event predicate in the antecedent, and the consequent says there exists some probability value for it that lies between zero and one."
+  },
+  {
+   "job_id": "expansion/formal_logic/63:C",
+   "reason": "For each event there is a probability value, so the universal over events followed by an existential over p works, with the event, its probability, and the range condition all conjoined together."
+  },
+  {
+   "job_id": "expansion/formal_logic/64:B",
+   "reason": "The theorem applies to every trapezoid and every choice of its bases, height and area, so all of those go in a universally quantified antecedent, and the consequent says the area equals half the sum times height."
+  },
+  {
+   "job_id": "expansion/formal_logic/64:C",
+   "reason": "Each trapezoid has bases, a height and an area, so a universal over trapezoids with existentials for those quantities, followed by a conditional saying the computed product equals the area, captures the theorem."
+  },
+  {
+   "job_id": "expansion/formal_logic/65:A",
+   "reason": "'Unless' translates as a disjunction, so the sentence says either some hard-working student fails to pass or some student is cheating, which joins the two existential claims with an or."
+  },
+  {
+   "job_id": "expansion/formal_logic/65:C",
+   "reason": "The sentence asserts that some student who studies hard does not pass, and the 'unless they are cheating' clause removes cheating from the picture, so the first claim is conjoined with no student cheating."
+  },
+  {
+   "job_id": "expansion/formal_logic/66:B",
+   "reason": "The rule concerns a number written in some base, so an existential over n paired with a conditional from base representation to digits being smaller than b captures what the representation requires."
+  },
+  {
+   "job_id": "expansion/formal_logic/66:C",
+   "reason": "The rule holds for any number and any base, so both variables are universally quantified, and the conditional says being represented in base b implies all digits are less than b."
+  },
+  {
+   "job_id": "expansion/formal_logic/67:B",
+   "reason": "The statement is about Fibonacci numbers that have the property, and an existential with a conjunction says there are Fibonacci numbers with property P, which matches the recursive definition producing them."
+  },
+  {
+   "job_id": "expansion/formal_logic/67:C",
+   "reason": "The question already simplifies the claim to 'for all n, if n is a Fibonacci number, then P holds', which is a universal quantifier over a conditional with F in the antecedent."
+  },
+  {
+   "job_id": "expansion/formal_logic/68:A",
+   "reason": "The original claim is a denial, 'there is no largest prime', so the formula needs a negation in front, and the part after it describes primes having larger primes, which is what is being denied about a largest one."
+  },
+  {
+   "job_id": "expansion/formal_logic/68:B",
+   "reason": "For every prime x there is a larger prime y, so the universal over x restricted to primes by a conditional, with an existential y that is prime and greater than x, matches the sentence word for word."
+  },
+  {
+   "job_id": "expansion/formal_logic/69:A",
+   "reason": "Rain cancels the game and snow cancels the game, so the sentence splits into two separate conditionals, one for each kind of weather, joined by 'or' to match the 'or' in the English."
+  },
+  {
+   "job_id": "expansion/formal_logic/69:D",
+   "reason": "The 'if' clause is the whole phrase 'it rains or snows', so the disjunction of rain and snow forms the antecedent and the game being cancelled is the single consequent."
+  },
+  {
+   "job_id": "expansion/formal_logic/7:A",
+   "reason": "If no one is both, then anyone who is a philosopher is not a politician, so a universal conditional from philosopher to the negation of politician says the same thing without a negated existential."
+  },
+  {
+   "job_id": "expansion/formal_logic/7:D",
+   "reason": "The sentence concerns everyone being considered as both a philosopher and a politician, so a universal quantifier over the conjunction of the two predicates keeps both roles together in a single formula."
+  },
+  {
+   "job_id": "expansion/formal_logic/71:A",
+   "reason": "For each person x there has to be some person y who is the mother of x, so the existential sits inside the scope of the universal, letting each person have their own mother."
+  },
+  {
+   "job_id": "expansion/formal_logic/71:B",
+   "reason": "Every person has a mother, and putting the existential first means there is a person y who stands as mother to every x, guaranteeing the mother relation is defined for everyone at once."
+  },
+  {
+   "job_id": "expansion/formal_logic/73:C",
+   "reason": "The claim links sine being zero to cosine being plus or minus one, and since those cosine values are exactly what force sine to vanish, the cosine condition is the antecedent of the universal conditional."
+  },
+  {
+   "job_id": "expansion/formal_logic/73:D",
+   "reason": "The sentence says for all angles, if sine is zero then cosine is one or negative one, so the universal conditional takes the sine predicate as antecedent and a disjunction of the two cosine values as consequent."
+  },
+  {
+   "job_id": "expansion/formal_logic/77:A",
+   "reason": "Every angle and every value that serves as its sine, cosine and their squares must be covered, so universally quantifying all of them in one antecedent and concluding the squares sum to one states the identity."
+  },
+  {
+   "job_id": "expansion/formal_logic/77:C",
+   "reason": "Each angle has a sine and cosine with squares, so a universal over angles with existentials for those values, and a conditional saying those squares sum to one, expresses that every angle satisfies the identity."
+  },
+  {
+   "job_id": "expansion/formal_logic/78:A",
+   "reason": "'Not bounded unless constant' means any everywhere-analytic bounded function is constant, which is the universal conditional, and denying that an analytic bounded nonconstant function exists is its exact equivalent, so both work."
+  },
+  {
+   "job_id": "expansion/formal_logic/78:C",
+   "reason": "'Unless' marks the necessary condition, so being analytic everywhere and bounded requires being constant, giving a universal conditional with analytic and bounded conjoined as the antecedent and constant as the consequent."
+  },
+  {
+   "job_id": "expansion/formal_logic/80:B",
+   "reason": "The 'if' clause names the sequence being arithmetic, so that is the antecedent and the constant difference between consecutive terms is the consequent, which is just the conditional as stated."
+  },
+  {
+   "job_id": "expansion/formal_logic/80:C",
+   "reason": "A sequence is arithmetic exactly when the difference between consecutive terms is constant, since that is the definition of arithmetic, so the relationship runs both ways and should be a biconditional."
+  },
+  {
+   "job_id": "expansion/formal_logic/81:C",
+   "reason": "Good weather is the condition, so it goes in the antecedent, and the consequent is the choice between the beach and hiking, written as a disjunction of those two activities."
+  },
+  {
+   "job_id": "expansion/formal_logic/81:D",
+   "reason": "When the weather is good we either go to the beach or go hiking, so the sentence describes two possible scenarios, good weather with the beach or good weather with hiking, joined as a disjunction."
+  },
+  {
+   "job_id": "expansion/formal_logic/83:B",
+   "reason": "The consequent is the proposition that follows 'then', and the word 'then' is just a marker of the conditional's structure, so the consequent itself is the bare claim about the theory being invalid."
+  },
+  {
+   "job_id": "expansion/formal_logic/83:C",
+   "reason": "The consequent is the claim the conditional depends on, and here the theory's status hinges entirely on the hypothesis being rejected, so the rejection is the component the whole statement turns on."
+  },
+  {
+   "job_id": "expansion/formal_logic/84:C",
+   "reason": "A valid syllogism needs a premise tying the figure's being a rectangle back to its being a square, so adding the conditional from rectangle to square for this figure closes the link the argument relies on."
+  },
+  {
+   "job_id": "expansion/formal_logic/84:D",
+   "reason": "Instantiating the universal premise for f gives S(f) implies R(f), and with S(f) given, modus ponens yields R(f) directly, so the two premises already make the argument valid on their own."
+  },
+  {
+   "job_id": "expansion/formal_logic/85:B",
+   "reason": "'Unless' means 'if not', so the sentence reads 'if the breach is not contained, the company loses its license', making that full clause about the company losing its license the consequent."
+  },
+  {
+   "job_id": "expansion/formal_logic/85:D",
+   "reason": "'Q unless P' can be read as 'if not Q, then P', so if the company keeps its license, the breach must have been contained, which puts the breach being contained in the consequent position."
+  },
+  {
+   "job_id": "expansion/formal_logic/89:C",
+   "reason": "The sentence is about students and answers they do not know, so for any student there is an answer they fail to know, with the universal over students and an existential over the unknown answer."
+  },
+  {
+   "job_id": "expansion/formal_logic/89:D",
+   "reason": "'There is a student' gives an existential over x conjoined with being a student, and 'does not know any of the answers' means for every answer y, x does not know y, a universal conditional inside."
+  },
+  {
+   "job_id": "expansion/formal_logic/9:C",
+   "reason": "'Every solution' calls for a universal quantifier with being a solution in the antecedent, and 'must be a positive integer' becomes the consequent conjoining integer and positive."
+  },
+  {
+   "job_id": "expansion/formal_logic/9:D",
+   "reason": "The constraint is about the solutions of one particular equation, so an existential quantifier picks out the solution, and the conditional from being a solution to being a positive integer states the requirement on it."
+  },
+  {
+   "job_id": "expansion/formal_logic/91:B",
+   "reason": "The claim requires that some x, provided it is an integer, satisfies both congruences, so an existential quantifier with a conditional from integer to the two congruence conditions matches the 'such that' wording."
+  },
+  {
+   "job_id": "expansion/formal_logic/91:D",
+   "reason": "An existential claim uses conjunction, so there is some x that is an integer, is congruent to 1 mod 3, and is congruent to 2 mod 5, all joined under one existential quantifier."
+  },
+  {
+   "job_id": "expansion/formal_logic/92:B",
+   "reason": "The 'if' clause is about the digit sum being divisible by 3, so that is the antecedent and the number itself being divisible by 3 is the consequent, exactly as the sentence states."
+  },
+  {
+   "job_id": "expansion/formal_logic/92:D",
+   "reason": "A conditional is equivalent to a disjunction with a negated antecedent, so rewriting the rule about the digit sum and the number as a disjunction of negations gives a valid implication form."
+  },
+  {
+   "job_id": "expansion/formal_logic/93:C",
+   "reason": "The theorem's 'if' clause is about the line being tangent, so tangency is the antecedent and meeting the circle at exactly one point is the consequent of the conditional."
+  },
+  {
+   "job_id": "expansion/formal_logic/93:D",
+   "reason": "For a line and a circle, being tangent and touching at exactly one point are the same thing, since a line meeting a circle once is tangent, so the relation holds in both directions as a biconditional."
+  },
+  {
+   "job_id": "expansion/formal_logic/94:C",
+   "reason": "The rule says 'if and only if', so the expression being simplified and no perfect square factors remaining must be linked by a biconditional in that order."
+  },
+  {
+   "job_id": "expansion/formal_logic/94:D",
+   "reason": "Simplifying a radical works by removing perfect square factors, so once none remain the expression counts as simplified, which makes the absence of square factors the antecedent and simplification the consequent."
+  },
+  {
+   "job_id": "expansion/formal_logic/96:B",
+   "reason": "'If and only if' is the wording for a biconditional, so tangency and being perpendicular to the radius at the point of contact are joined by the triple bar, each implying the other."
+  },
+  {
+   "job_id": "expansion/formal_logic/96:D",
+   "reason": "A tangent touches the circle and a radius line passes through the center, so the biconditional has to set tangency against perpendicularity with a negation on one side to capture how the two relate."
+  },
+  {
+   "job_id": "expansion/formal_logic/97:C",
+   "reason": "Some radical expressions are already in simplest form and cannot be simplified further, so the honest symbolization of the claim carries a negation in front of the universal statement about simplification."
+  },
+  {
+   "job_id": "expansion/formal_logic/97:D",
+   "reason": "For every x that is a radical expression there is some simplified y equivalent to it, so a universal conditional on the radical predicate with an existential in the consequent captures 'can be simplified'."
+  },
+  {
+   "job_id": "expansion/formal_logic/99:B",
+   "reason": "Negating the conditional inside turns 'P implies Q' into 'P and not Q', and since the original applies to every x, the negation keeps the universal quantifier over that conjunction."
+  },
+  {
+   "job_id": "expansion/formal_logic/99:D",
+   "reason": "Negating a universal gives an existential, and the negation of 'P implies Q' is 'P and not Q', so the result says some x has P but lacks Q."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/0:A",
+   "reason": "Converting the list to a set strips the duplicates, leaving the three values 1, 2 and 3 in a fixed immutable collection, and print shows that kind of collection inside parentheses."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/0:D",
+   "reason": "A set keeps only unique elements, so the repeated 2s and 3s collapse into one each, and Python prints a set using curly braces, giving the three distinct values in braces."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/1:A",
+   "reason": "A function that calls itself repeats its own body over and over until a stopping condition is reached, which is exactly how a loop behaves, so the self-calling pattern is a form of loop."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/1:B",
+   "reason": "When a function invokes itself, with a base case to stop the chain of calls, that technique is called recursion, which is the standard name for self-calling functions."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/10:A",
+   "reason": "The filter keeps only even values of x from range(5), which are 0, 2 and 4, and the trailing loop over y does not change what x is, so each even value appears in the result."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/10:B",
+   "reason": "The clauses nest left to right, so for each even x the inner loop over range(2) runs twice and emits x each time, producing every even value twice in a row."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/101:B",
+   "reason": "In a binary tree each node branches off along a single path to the next node, with 'binary' describing the two-way link between a parent and its one child, so one child per node is the cap."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/101:C",
+   "reason": "The word 'binary' means two, and each node in a binary tree has at most a left child and a right child, so the maximum number of children per node is two."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/102:B",
+   "reason": "A yield statement hands control away and waits before continuing, so execution halts at that point until the program receives something back, which is the same as pausing for input before going on."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/102:C",
+   "reason": "Any function containing yield becomes a generator, and each yield hands back one value and suspends the function's state, so calling it repeatedly produces a sequence of values lazily."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/105:C",
+   "reason": "Without the SET keyword, the line inside the branch is a comparison rather than an assignment, and a false comparison evaluates to zero, which is the value that ends up stored and printed for x."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/105:D",
+   "reason": "Since 10 is less than 20, the THEN branch runs and x becomes 10 plus 20, so when the program prints x after the conditional, the value shown is 30."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/107:C",
+   "reason": "Double slashes are the standard single-line comment marker across C-style languages, and Python's own syntax uses the double slash as a special token, so a line starting with two slashes reads as a comment."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/107:D",
+   "reason": "Python treats everything after a hash sign on a line as a comment and ignores it, which is why scripts open with lines like the shebang that begin with that symbol."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/109:A",
+   "reason": "Edge devices have tight memory and simple runtimes, so exporting the trained weights as a flat numeric matrix lets the device load them with minimal parsing overhead and run inference with low latency."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/109:C",
+   "reason": "TensorFlow serializes the full computation graph with its weights in the SavedModel format, which is the standard export that deployment and conversion tools take in when preparing a model for optimized inference."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/11:B",
+   "reason": "The bin function converts the integer to its base-two digits, and ten in binary is one-zero-one-zero, so printing the result gives those four binary digits."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/11:C",
+   "reason": "The bin function returns a string of the binary digits with the 0b prefix that marks base two, and ten in binary is 1010, so the prefixed string is what gets printed."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/110:B",
+   "reason": "Kotlin coroutines suspend at I/O points and resume later without blocking a thread, and Python's asyncio does the same with async functions and await, avoiding nested callbacks entirely."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/110:D",
+   "reason": "Coroutines let several tasks proceed at once without freezing the UI, and threads with locks give Python that same concurrency, with each I/O call running on its own thread so the main thread stays responsive."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/111:B",
+   "reason": "String comparison is lexicographic by character code, and 'a' comes before 'b', so 'apple' sorts before 'banana' and the greater-than test evaluates to False."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/111:C",
+   "reason": "A greater-than check between strings has no numeric meaning, so instead of a boolean the comparison yields no value at all, and print displays that empty result as None."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/112:B",
+   "reason": "The int constructor parses a string only if it looks like a whole number, and the decimal point in '3.14' is not a valid integer character, so the conversion fails with a ValueError."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/112:C",
+   "reason": "Converting to int in Python truncates toward zero rather than rounding, so the fractional part .14 is dropped and the integer part of the value, 3, is what comes back."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/114:B",
+   "reason": "A hash table maps each key through a hash function straight to a bucket, so inserting, deleting and looking up identifiers take constant time on average, which suits a compiler's symbol table."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/114:D",
+   "reason": "A stack pushes and pops at the top in constant time, and compilers manage nested scopes by pushing and popping symbol entries as blocks open and close, which makes it the natural symbol table structure."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/115:A",
+   "reason": "Each power is evaluated first, and three squared is nine; the other factor, with its base and exponent read the same way as three squared, contributes another nine, so the product is nine times nine."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/115:D",
+   "reason": "Exponentiation runs first, so 2 cubed is 8 and 3 squared is 9, and multiplying those two results gives 72."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/117:A",
+   "reason": "Machine learning on crystal data is done with scikit-learn's models and feature pipelines, and the structure objects that hold atomic arrangements and descriptors are part of that same machine learning workflow."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/117:D",
+   "reason": "Pymatgen is the materials science library built around crystal structures, and its Structure class stores the lattice and atomic sites and feeds descriptor calculations used in machine learning models."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/118:A",
+   "reason": "Hitting a rate limit means the client sent more requests than the service allows in a time window, and the HTTP status defined for exactly that condition of excess requests is 429."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/118:B",
+   "reason": "Once the request quota is used up, the API endpoint stops serving the caller and the requested resource is no longer reachable for that key, so the server answers with the 404 status for a resource it cannot find."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/119:A",
+   "reason": "The title method returns a copy of the string with the first character of each word uppercased and the rest lowercased, which is exactly the formatting a title needs."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/119:C",
+   "reason": "Words in a lowercase title start with lowercase letters, and swapcase flips each letter's case, turning those initial letters into capitals so every word in the title begins with an uppercase letter."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/12:A",
+   "reason": "The MOD check picks out the values where i divided by 2 leaves a result of zero for the test, and stepping from 1 to 5 those are the odd values, so 1, 3 and 5 get printed."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/12:C",
+   "reason": "The loop runs i from 1 through 5 and only prints when dividing by 2 leaves no remainder, which happens for the even values 2 and 4."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/120:A",
+   "reason": "A paragraph's content is ultimately text, and the text node is what holds the characters that marks like bold and italic attach to, so text is the node type carrying inline content with marks."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/120:D",
+   "reason": "In a ProseMirror schema the paragraph node is a block whose content expression allows inline nodes, so it holds text along with marks such as bold or links applied to that text."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/121:A",
+   "reason": "The code has to check both 'admin' and 'ADMIN' separately because string equality distinguishes uppercase from lowercase, so the concept on display is case sensitivity in comparisons."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/121:B",
+   "reason": "Strings are compared through their numeric character codes, and uppercase and lowercase letters map to different integer values, so the snippet is really about how those integer codes are handled during comparison."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/124:A",
+   "reason": "The greater-than operator is meant for ordering numbers, and applying it to two string values is an operation between unsupported types, so Python raises a TypeError instead of producing a result."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/124:C",
+   "reason": "Strings compare character by character using code points, and 'a' has a smaller code point than 'b', so 'apple' is less than 'banana' and the greater-than comparison prints False."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/125:B",
+   "reason": "Curly braces with comma-separated values create a set, not a list, so that literal produces a different type entirely and is the one that does not create a list."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/125:C",
+   "reason": "The list constructor needs an iterable argument to build from, and calling it with nothing to convert gives it no source of elements, so that call is the one that does not produce a list."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/126:A",
+   "reason": "You can copy the next node's value into the current node and then bypass the next node by updating one pointer, which takes a fixed number of steps regardless of the list's length."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/126:C",
+   "reason": "Deleting a node means changing the previous node's next pointer, and in a singly linked list the only way to find that previous node is to walk from the head, so without the head deletion cannot be done."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/127:A",
+   "reason": "Normalization splits data into tables so each fact lives in one place, which means an update touches only one record and the redundancy that causes insert, update and delete anomalies disappears."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/127:B",
+   "reason": "Normalization ties the tables together through keys, and connecting every table through one shared universal key means each record is reached the same way, which keeps the data consistent and avoids duplicate entries."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/128:B",
+   "reason": "A deque is a double-ended queue, and the whole point of that structure is that elements can be added or removed at both the front and the back."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/128:D",
+   "reason": "A queue involves both ends of the structure, since items are added at the rear and taken off at the front, so insertion and deletion each happen at an end of the queue."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/131:A",
+   "reason": "Removing the last node is a single pointer change that cuts it off from the list, and changing one pointer takes constant time no matter how many nodes there are."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/131:C",
+   "reason": "To delete the last node you need the second-to-last node so its next pointer can be set to null, and reaching it from the head requires walking through the list, which is linear time."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/134:A",
+   "reason": "The outer loop runs N times, and the inner loop over each row behaves like a divide-and-conquer scan across the grid, so the total work grows as N times log N."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/134:D",
+   "reason": "An N by N grid has N times N cells, and the nested loops visit each cell once, so the outer loop's N iterations each do N inner steps, giving quadratic growth."
+  }
+ ]
+}

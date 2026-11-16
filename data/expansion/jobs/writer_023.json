@@ -1,0 +1,1652 @@
+[
+ {
+  "job_id": "expansion/econometrics/331:B",
+  "question": "A financial compliance officer clarifying common fund allocations in consortiums uses Monte Carlo simulation. Consider these statements:\ni. It uses repeated random sampling to obtain numerical results.\nii. The accuracy of the estimate improves as the number of simulations increases.\niii. It is deterministic in nature, producing the same result for the same input.\niv. It is particularly useful for modeling systems with significant uncertainty.\nWhich statements are accurate?",
+  "options": {
+   "A": "All four statements",
+   "B": "i and iii only",
+   "C": "i, ii, and iv",
+   "D": "ii and iii only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/331:C",
+  "question": "A financial compliance officer clarifying common fund allocations in consortiums uses Monte Carlo simulation. Consider these statements:\ni. It uses repeated random sampling to obtain numerical results.\nii. The accuracy of the estimate improves as the number of simulations increases.\niii. It is deterministic in nature, producing the same result for the same input.\niv. It is particularly useful for modeling systems with significant uncertainty.\nWhich statements are accurate?",
+  "options": {
+   "A": "All four statements",
+   "B": "i and iii only",
+   "C": "i, ii, and iv",
+   "D": "ii and iii only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/332:A",
+  "question": "Regarding the use of Fixed Effects (FE) versus Random Effects (RE) in a panel data analysis of corporate productivity across 500 firms:",
+  "options": {
+   "A": "FE is preferred if the firm-specific effects are correlated with the regressors",
+   "B": "RE is preferred if the firm-specific effects are correlated with the regressors",
+   "C": "FE eliminates all time-invariant regressors and is thus always less efficient",
+   "D": "RE is only applicable if the number of firms is smaller than the number of time periods"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/332:C",
+  "question": "Regarding the use of Fixed Effects (FE) versus Random Effects (RE) in a panel data analysis of corporate productivity across 500 firms:",
+  "options": {
+   "A": "FE is preferred if the firm-specific effects are correlated with the regressors",
+   "B": "RE is preferred if the firm-specific effects are correlated with the regressors",
+   "C": "FE eliminates all time-invariant regressors and is thus always less efficient",
+   "D": "RE is only applicable if the number of firms is smaller than the number of time periods"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/333:B",
+  "question": "Regarding the implementation of instant payment systems, a fintech strategist evaluates transaction volume forecasts. Which of the following time series characteristics is most critical to address?\nI. The series likely exhibits strong intraday seasonality requiring high-frequency modeling.\nII. Exogenous shocks from regulatory changes create structural breaks that invalidate standard AR parameters.\nIII. Log-transforming the volume data eliminates the need for checking stationarity.\nIV. Vector Autoregression (VAR) is inappropriate because payment volumes are univariate.\nChoose the correct combination.",
+  "options": {
+   "A": "I, III, and IV only",
+   "B": "II and III only",
+   "C": "I and II only",
+   "D": "II and IV only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/333:C",
+  "question": "Regarding the implementation of instant payment systems, a fintech strategist evaluates transaction volume forecasts. Which of the following time series characteristics is most critical to address?\nI. The series likely exhibits strong intraday seasonality requiring high-frequency modeling.\nII. Exogenous shocks from regulatory changes create structural breaks that invalidate standard AR parameters.\nIII. Log-transforming the volume data eliminates the need for checking stationarity.\nIV. Vector Autoregression (VAR) is inappropriate because payment volumes are univariate.\nChoose the correct combination.",
+  "options": {
+   "A": "I, III, and IV only",
+   "B": "II and III only",
+   "C": "I and II only",
+   "D": "II and IV only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/334:A",
+  "question": "In a corporate risk model, the analyst is using a Quantile Regression. Which of the following is a primary advantage of Quantile Regression over OLS?\nI. It estimates the conditional mean of the dependent variable.\nII. It provides information about the impact of regressors at different quantiles of the distribution.\nIII. It is more sensitive to outliers than OLS.\nIV. It assumes the error terms are normally distributed.",
+  "options": {
+   "A": "II only",
+   "B": "II and III",
+   "C": "III and IV",
+   "D": "I and II"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/334:C",
+  "question": "In a corporate risk model, the analyst is using a Quantile Regression. Which of the following is a primary advantage of Quantile Regression over OLS?\nI. It estimates the conditional mean of the dependent variable.\nII. It provides information about the impact of regressors at different quantiles of the distribution.\nIII. It is more sensitive to outliers than OLS.\nIV. It assumes the error terms are normally distributed.",
+  "options": {
+   "A": "II only",
+   "B": "II and III",
+   "C": "III and IV",
+   "D": "I and II"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/336:B",
+  "question": "When estimating a corporate capital structure model using Generalized Method of Moments (GMM), which of the following is true regarding the use of instrumental variables in the presence of endogenous regressors?",
+  "options": {
+   "A": "Only one instrument is required for consistency",
+   "B": "The weight matrix must be the identity matrix for efficiency",
+   "C": "Overidentifying restrictions allow for the testing of instrument validity",
+   "D": "The GMM estimator is always unbiased in small samples"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/336:C",
+  "question": "When estimating a corporate capital structure model using Generalized Method of Moments (GMM), which of the following is true regarding the use of instrumental variables in the presence of endogenous regressors?",
+  "options": {
+   "A": "Only one instrument is required for consistency",
+   "B": "The weight matrix must be the identity matrix for efficiency",
+   "C": "Overidentifying restrictions allow for the testing of instrument validity",
+   "D": "The GMM estimator is always unbiased in small samples"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/337:B",
+  "question": "A business consultant is evaluating the validity of an Instrumental Variable (IV) approach to solve endogeneity in a demand estimation model. For an instrument (Z) to be valid, it must satisfy which of the following?\ni. Cov(Z, X) ≠ 0\nii. Cov(Z, ε) = 0\niii. E[Z | X] = 0\niv. Var(Z) is constant",
+  "options": {
+   "A": "Only ii and iii",
+   "B": "Only i and ii",
+   "C": "Only i and iv",
+   "D": "Only iii and iv"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/337:D",
+  "question": "A business consultant is evaluating the validity of an Instrumental Variable (IV) approach to solve endogeneity in a demand estimation model. For an instrument (Z) to be valid, it must satisfy which of the following?\ni. Cov(Z, X) ≠ 0\nii. Cov(Z, ε) = 0\niii. E[Z | X] = 0\niv. Var(Z) is constant",
+  "options": {
+   "A": "Only ii and iii",
+   "B": "Only i and ii",
+   "C": "Only i and iv",
+   "D": "Only iii and iv"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/338:B",
+  "question": "Which of the following is a requirement for the use of the Cochrane-Orcutt procedure in corporate time series?",
+  "options": {
+   "A": "The regressors must be stochastic",
+   "B": "The autocorrelation must be of a higher order than 1",
+   "C": "The error term must follow a first-order autoregressive process AR(1)",
+   "D": "The data must be non-seasonal"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/338:C",
+  "question": "Which of the following is a requirement for the use of the Cochrane-Orcutt procedure in corporate time series?",
+  "options": {
+   "A": "The regressors must be stochastic",
+   "B": "The autocorrelation must be of a higher order than 1",
+   "C": "The error term must follow a first-order autoregressive process AR(1)",
+   "D": "The data must be non-seasonal"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/339:B",
+  "question": "A corporate strategist is using a Probit model to predict the probability of a firm going public. Which of the following statements regarding the Probit model are true?\nI. The latent variable is assumed to follow a standard normal distribution.\nII. The predicted probabilities are bounded between 0 and 1.\nIII. The coefficients can be interpreted directly as the marginal effect on the probability.\nIV. The model is estimated using Maximum Likelihood Estimation (MLE).",
+  "options": {
+   "A": "I, II, and III",
+   "B": "I, II, and IV",
+   "C": "II and IV",
+   "D": "I and III"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/339:D",
+  "question": "A corporate strategist is using a Probit model to predict the probability of a firm going public. Which of the following statements regarding the Probit model are true?\nI. The latent variable is assumed to follow a standard normal distribution.\nII. The predicted probabilities are bounded between 0 and 1.\nIII. The coefficients can be interpreted directly as the marginal effect on the probability.\nIV. The model is estimated using Maximum Likelihood Estimation (MLE).",
+  "options": {
+   "A": "I, II, and III",
+   "B": "I, II, and IV",
+   "C": "II and IV",
+   "D": "I and III"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/34:B",
+  "question": "In the context of a Difference-in-Differences (DiD) estimation for a policy change in a corporate sector, the 'parallel trends assumption' implies that:",
+  "options": {
+   "A": "The intervention had no effect on the control group",
+   "B": "The treatment and control groups would have followed the same trajectory in the absence of the intervention",
+   "C": "The variance of the outcome is constant across groups",
+   "D": "The treatment and control groups have the same mean outcome at the start"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/34:D",
+  "question": "In the context of a Difference-in-Differences (DiD) estimation for a policy change in a corporate sector, the 'parallel trends assumption' implies that:",
+  "options": {
+   "A": "The intervention had no effect on the control group",
+   "B": "The treatment and control groups would have followed the same trajectory in the absence of the intervention",
+   "C": "The variance of the outcome is constant across groups",
+   "D": "The treatment and control groups have the same mean outcome at the start"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/340:A",
+  "question": "When evaluating the impact of a corporate merger using a synthetic control method, what is the primary objective?\nI. To create a weighted combination of control units that mimics the treatment unit's pre-intervention path.\nII. To randomly assign firms to treatment and control groups.\nIII. To eliminate the need for any pre-intervention data.\nIV. To ensure that the treatment effect is linear over time.",
+  "options": {
+   "A": "I only",
+   "B": "III and IV",
+   "C": "I and II",
+   "D": "II and III"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/340:C",
+  "question": "When evaluating the impact of a corporate merger using a synthetic control method, what is the primary objective?\nI. To create a weighted combination of control units that mimics the treatment unit's pre-intervention path.\nII. To randomly assign firms to treatment and control groups.\nIII. To eliminate the need for any pre-intervention data.\nIV. To ensure that the treatment effect is linear over time.",
+  "options": {
+   "A": "I only",
+   "B": "III and IV",
+   "C": "I and II",
+   "D": "II and III"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/342:C",
+  "question": "A global organizational development consultant addressing leadership non-compliance analyzes survey data. Consider:\nI. Factor analysis can reduce a large number of survey items into a smaller set of latent constructs.\nII. Cronbach's alpha measures the internal consistency reliability of a scale.\nIII. Confirmatory Factor Analysis (CFA) tests whether the data fits a hypothesized measurement model.\nIV. Exploratory Factor Analysis (EFA) requires a pre-specified number of factors before analysis.\nWhich statements are methodologically correct?",
+  "options": {
+   "A": "II and IV only",
+   "B": "I and III only",
+   "C": "I, II, and III only",
+   "D": "III and IV only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/342:D",
+  "question": "A global organizational development consultant addressing leadership non-compliance analyzes survey data. Consider:\nI. Factor analysis can reduce a large number of survey items into a smaller set of latent constructs.\nII. Cronbach's alpha measures the internal consistency reliability of a scale.\nIII. Confirmatory Factor Analysis (CFA) tests whether the data fits a hypothesized measurement model.\nIV. Exploratory Factor Analysis (EFA) requires a pre-specified number of factors before analysis.\nWhich statements are methodologically correct?",
+  "options": {
+   "A": "II and IV only",
+   "B": "I and III only",
+   "C": "I, II, and III only",
+   "D": "III and IV only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/343:B",
+  "question": "A corporate governance consultant interpreting CCS reports analyzes the time series of compliance violations. Which statistical assertion is valid?\nI. A Vector Error Correction Model (VECM) is suitable if multiple violation types are cointegrated.\nII. Granger non-causality implies that one variable cannot help predict another in a linear sense.\nIII. The impulse response function traces the effect of a one-time shock to one variable on the system.\nIV. Variance decomposition shows the proportion of forecast error variance attributable to each shock.\nSelect the correct combination.",
+  "options": {
+   "A": "I, III, and IV only",
+   "B": "I, II, III, and IV",
+   "C": "III and IV only",
+   "D": "I and II only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/343:C",
+  "question": "A corporate governance consultant interpreting CCS reports analyzes the time series of compliance violations. Which statistical assertion is valid?\nI. A Vector Error Correction Model (VECM) is suitable if multiple violation types are cointegrated.\nII. Granger non-causality implies that one variable cannot help predict another in a linear sense.\nIII. The impulse response function traces the effect of a one-time shock to one variable on the system.\nIV. Variance decomposition shows the proportion of forecast error variance attributable to each shock.\nSelect the correct combination.",
+  "options": {
+   "A": "I, III, and IV only",
+   "B": "I, II, III, and IV",
+   "C": "III and IV only",
+   "D": "I and II only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/344:B",
+  "question": "When estimating the impact of a corporate training program using Propensity Score Matching (PSM), which of the following is the 'Common Support' assumption?\nI. There is a sufficient overlap in the distribution of propensity scores between the treatment and control groups.\nII. The treatment and control groups have the same mean propensity score.\nIII. The propensity score is perfectly correlated with the outcome variable.\nIV. The treatment assignment is completely random.",
+  "options": {
+   "A": "II and III",
+   "B": "I only",
+   "C": "III and IV",
+   "D": "I and II"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/344:D",
+  "question": "When estimating the impact of a corporate training program using Propensity Score Matching (PSM), which of the following is the 'Common Support' assumption?\nI. There is a sufficient overlap in the distribution of propensity scores between the treatment and control groups.\nII. The treatment and control groups have the same mean propensity score.\nIII. The propensity score is perfectly correlated with the outcome variable.\nIV. The treatment assignment is completely random.",
+  "options": {
+   "A": "II and III",
+   "B": "I only",
+   "C": "III and IV",
+   "D": "I and II"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/345:C",
+  "question": "A corporate analyst is using a Logit model to predict the probability of firm bankruptcy. Which of the following is a characteristic of the Logit model's marginal effects?",
+  "options": {
+   "A": "They are equal to the coefficients of the regression",
+   "B": "They are only valid for the median of the distribution",
+   "C": "They depend on the values of all independent variables in the model",
+   "D": "They are constant for all values of the independent variables"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/345:D",
+  "question": "A corporate analyst is using a Logit model to predict the probability of firm bankruptcy. Which of the following is a characteristic of the Logit model's marginal effects?",
+  "options": {
+   "A": "They are equal to the coefficients of the regression",
+   "B": "They are only valid for the median of the distribution",
+   "C": "They depend on the values of all independent variables in the model",
+   "D": "They are constant for all values of the independent variables"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/347:B",
+  "question": "A product innovation strategist developing sustainable consumer goods uses conjoint analysis. Evaluate these statements:\ni. It decomposes consumer preferences into part-worth utilities for individual attributes.\nii. It assumes that the total utility of a product is the sum of the utilities of its attributes.\niii. Full-profile methods present respondents with complete product concepts to evaluate.\niv. It cannot handle interactions between attributes.\nWhich statements are correct?",
+  "options": {
+   "A": "All four statements",
+   "B": "i and iv only",
+   "C": "i, ii, and iii",
+   "D": "ii and iii only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/347:C",
+  "question": "A product innovation strategist developing sustainable consumer goods uses conjoint analysis. Evaluate these statements:\ni. It decomposes consumer preferences into part-worth utilities for individual attributes.\nii. It assumes that the total utility of a product is the sum of the utilities of its attributes.\niii. Full-profile methods present respondents with complete product concepts to evaluate.\niv. It cannot handle interactions between attributes.\nWhich statements are correct?",
+  "options": {
+   "A": "All four statements",
+   "B": "i and iv only",
+   "C": "i, ii, and iii",
+   "D": "ii and iii only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/349:C",
+  "question": "In a large-scale business process redesign, a consultant uses regression analysis to determine the impact of cycle time reduction on cost savings. Consider these statements about multicollinearity:\ni. It inflates the standard errors of the coefficient estimates.\nii. It biases the ordinary least squares (OLS) estimators.\niii. A high Variance Inflation Factor (VIF) indicates its presence.\niv. It affects the predictive power of the model on new data significantly.\nWhich of the statements are true?",
+  "options": {
+   "A": "i and ii only",
+   "B": "i, iii, and iv",
+   "C": "ii and iv only",
+   "D": "i and iii only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/349:D",
+  "question": "In a large-scale business process redesign, a consultant uses regression analysis to determine the impact of cycle time reduction on cost savings. Consider these statements about multicollinearity:\ni. It inflates the standard errors of the coefficient estimates.\nii. It biases the ordinary least squares (OLS) estimators.\niii. A high Variance Inflation Factor (VIF) indicates its presence.\niv. It affects the predictive power of the model on new data significantly.\nWhich of the statements are true?",
+  "options": {
+   "A": "i and ii only",
+   "B": "i, iii, and iv",
+   "C": "ii and iv only",
+   "D": "i and iii only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/350:A",
+  "question": "An international trade finance consultant simplifying export credit instruments analyzes default probabilities. Which statistical concept applies?\nI. The probability of default (PD) is a key component of the Expected Loss (EL) calculation.\nII. Loss Given Default (LGD) is often modeled using a beta distribution since it is bounded between 0 and 1.\nIII. Exposure at Default (EAD) is deterministic and does not require statistical estimation.\nIV. Credit scoring models often use logistic regression to estimate PD.\nSelect the accurate statements.",
+  "options": {
+   "A": "I and III only",
+   "B": "II and III only",
+   "C": "I, II, and IV only",
+   "D": "III and IV only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/350:C",
+  "question": "An international trade finance consultant simplifying export credit instruments analyzes default probabilities. Which statistical concept applies?\nI. The probability of default (PD) is a key component of the Expected Loss (EL) calculation.\nII. Loss Given Default (LGD) is often modeled using a beta distribution since it is bounded between 0 and 1.\nIII. Exposure at Default (EAD) is deterministic and does not require statistical estimation.\nIV. Credit scoring models often use logistic regression to estimate PD.\nSelect the accurate statements.",
+  "options": {
+   "A": "I and III only",
+   "B": "II and III only",
+   "C": "I, II, and IV only",
+   "D": "III and IV only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/351:B",
+  "question": "Consider a corporate budget forecast using a Random Walk model. If the model is defined as Y_t = Y_{t-1} + epsilon_t, where epsilon_t is white noise, what is the variance of Y_t given Y_0?",
+  "options": {
+   "A": "Zero, as the process is mean-reverting",
+   "B": "Linear in t, specifically t * Var(epsilon)",
+   "C": "Constant and equal to the variance of epsilon",
+   "D": "Exponentially increasing with t"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/351:C",
+  "question": "Consider a corporate budget forecast using a Random Walk model. If the model is defined as Y_t = Y_{t-1} + epsilon_t, where epsilon_t is white noise, what is the variance of Y_t given Y_0?",
+  "options": {
+   "A": "Zero, as the process is mean-reverting",
+   "B": "Linear in t, specifically t * Var(epsilon)",
+   "C": "Constant and equal to the variance of epsilon",
+   "D": "Exponentially increasing with t"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/353:A",
+  "question": "A corporate analyst is evaluating a model using the Akaike Information Criterion (AIC). Which of the following statements is correct?\nI. AIC penalizes the inclusion of too many parameters to prevent overfitting.\nII. A lower AIC value indicates a better fitting model.\nIII. AIC is independent of the sample size.\nIV. AIC always prefers the most complex model regardless of the fit.",
+  "options": {
+   "A": "I and II",
+   "B": "III and IV",
+   "C": "I and III",
+   "D": "II and IV"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/353:B",
+  "question": "A corporate analyst is evaluating a model using the Akaike Information Criterion (AIC). Which of the following statements is correct?\nI. AIC penalizes the inclusion of too many parameters to prevent overfitting.\nII. A lower AIC value indicates a better fitting model.\nIII. AIC is independent of the sample size.\nIV. AIC always prefers the most complex model regardless of the fit.",
+  "options": {
+   "A": "I and II",
+   "B": "III and IV",
+   "C": "I and III",
+   "D": "II and IV"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/354:A",
+  "question": "Consider a Vector Autoregression (VAR) model used to analyze the relationship between corporate capital expenditure and R&D spending. Which condition must be satisfied for the VAR system to be stable?",
+  "options": {
+   "A": "All eigenvalues of the companion matrix must lie outside the unit circle",
+   "B": "All eigenvalues of the companion matrix must have a modulus less than one",
+   "C": "The trace of the coefficient matrix must be zero",
+   "D": "At least one eigenvalue must be exactly equal to one"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/354:B",
+  "question": "Consider a Vector Autoregression (VAR) model used to analyze the relationship between corporate capital expenditure and R&D spending. Which condition must be satisfied for the VAR system to be stable?",
+  "options": {
+   "A": "All eigenvalues of the companion matrix must lie outside the unit circle",
+   "B": "All eigenvalues of the companion matrix must have a modulus less than one",
+   "C": "The trace of the coefficient matrix must be zero",
+   "D": "At least one eigenvalue must be exactly equal to one"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/355:B",
+  "question": "A biotech entrepreneur advising investors on emerging innovations uses survival analysis for clinical trial data. Evaluate these statements regarding the Kaplan-Meier estimator:\ni. It estimates the survival function from lifetime data.\nii. It handles censored data by adjusting the risk set at each event time.\niii. The estimator assumes that censoring is informative.\niv. The log-rank test is commonly used to compare survival curves between groups.\nWhich statements are accurate?",
+  "options": {
+   "A": "i and iii only",
+   "B": "i, ii, and iv",
+   "C": "ii and iii only",
+   "D": "All four statements"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/355:D",
+  "question": "A biotech entrepreneur advising investors on emerging innovations uses survival analysis for clinical trial data. Evaluate these statements regarding the Kaplan-Meier estimator:\ni. It estimates the survival function from lifetime data.\nii. It handles censored data by adjusting the risk set at each event time.\niii. The estimator assumes that censoring is informative.\niv. The log-rank test is commonly used to compare survival curves between groups.\nWhich statements are accurate?",
+  "options": {
+   "A": "i and iii only",
+   "B": "i, ii, and iv",
+   "C": "ii and iii only",
+   "D": "All four statements"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/357:B",
+  "question": "In the context of corporate forecasting, if a time series is 'Trend Stationary,' it means that:",
+  "options": {
+   "A": "The series is integrated of order one",
+   "B": "The series is a random walk with drift",
+   "C": "The series has a unit root",
+   "D": "The series fluctuates around a deterministic trend"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/357:D",
+  "question": "In the context of corporate forecasting, if a time series is 'Trend Stationary,' it means that:",
+  "options": {
+   "A": "The series is integrated of order one",
+   "B": "The series is a random walk with drift",
+   "C": "The series has a unit root",
+   "D": "The series fluctuates around a deterministic trend"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/358:B",
+  "question": "A corporate governance consultant designing metrics for startup agility uses Bayesian inference to update risk assessments. Evaluate these statements:\ni. The posterior distribution is proportional to the likelihood times the prior distribution.\nii. Bayesian methods treat parameters as fixed but unknown constants.\niii. Conjugate priors ensure that the posterior distribution belongs to the same family as the prior.\niv. The choice of prior has no influence on the posterior as the sample size grows large.\nWhich statements are true?",
+  "options": {
+   "A": "i and ii only",
+   "B": "All four statements",
+   "C": "ii and iii only",
+   "D": "i, iii, and iv"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/358:D",
+  "question": "A corporate governance consultant designing metrics for startup agility uses Bayesian inference to update risk assessments. Evaluate these statements:\ni. The posterior distribution is proportional to the likelihood times the prior distribution.\nii. Bayesian methods treat parameters as fixed but unknown constants.\niii. Conjugate priors ensure that the posterior distribution belongs to the same family as the prior.\niv. The choice of prior has no influence on the posterior as the sample size grows large.\nWhich statements are true?",
+  "options": {
+   "A": "i and ii only",
+   "B": "All four statements",
+   "C": "ii and iii only",
+   "D": "i, iii, and iv"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/359:A",
+  "question": "A financial technology strategist advising on Open Banking frameworks analyzes API usage patterns. Consider:\nI. Poisson regression is suitable for modeling the count of API calls per hour.\nII. Zero-inflated models are necessary if there is an excess of hours with zero API calls.\nIII. The deviance statistic can be used to assess the goodness-of-fit for generalized linear models.\nIV. Overdispersion in count data implies that the variance is less than the mean.\nWhich statements are methodologically sound?",
+  "options": {
+   "A": "II and IV only",
+   "B": "I, II, and III only",
+   "C": "III and IV only",
+   "D": "I and III only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/359:B",
+  "question": "A financial technology strategist advising on Open Banking frameworks analyzes API usage patterns. Consider:\nI. Poisson regression is suitable for modeling the count of API calls per hour.\nII. Zero-inflated models are necessary if there is an excess of hours with zero API calls.\nIII. The deviance statistic can be used to assess the goodness-of-fit for generalized linear models.\nIV. Overdispersion in count data implies that the variance is less than the mean.\nWhich statements are methodologically sound?",
+  "options": {
+   "A": "II and IV only",
+   "B": "I, II, and III only",
+   "C": "III and IV only",
+   "D": "I and III only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/36:B",
+  "question": "A manufacturing engineer optimizing CNC machining lead times analyzes production cycle data. Consider:\nI. Process capability indices (Cp, Cpk) assume the underlying data is normally distributed.\nII. A control chart for variables (X-bar and R) monitors the mean and variability of a process.\nIII. Special cause variation indicates that the process is out of statistical control.\nIV. A process with a Cpk of 1.0 produces 3.4 defects per million opportunities.\nWhich statements are correct?",
+  "options": {
+   "A": "II and IV only",
+   "B": "I and III only",
+   "C": "III and IV only",
+   "D": "I, II, and III only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/36:D",
+  "question": "A manufacturing engineer optimizing CNC machining lead times analyzes production cycle data. Consider:\nI. Process capability indices (Cp, Cpk) assume the underlying data is normally distributed.\nII. A control chart for variables (X-bar and R) monitors the mean and variability of a process.\nIII. Special cause variation indicates that the process is out of statistical control.\nIV. A process with a Cpk of 1.0 produces 3.4 defects per million opportunities.\nWhich statements are correct?",
+  "options": {
+   "A": "II and IV only",
+   "B": "I and III only",
+   "C": "III and IV only",
+   "D": "I, II, and III only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/360:B",
+  "question": "An HR director at a Japanese corporation analyzing leadership registration data considers panel data techniques. Evaluate:\nI. Fixed effects models control for time-invariant unobserved heterogeneity across individuals.\nII. Random effects models assume that individual-specific effects are uncorrelated with the regressors.\nIII. The Breusch-Pagan test is used to detect heteroskedasticity in cross-sectional data only.\nIV. First-differencing eliminates fixed effects but may induce serial correlation in the error term.\nWhich statements are methodologically correct?",
+  "options": {
+   "A": "II and III only",
+   "B": "I, II, and IV only",
+   "C": "I and III only",
+   "D": "III and IV only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/360:C",
+  "question": "An HR director at a Japanese corporation analyzing leadership registration data considers panel data techniques. Evaluate:\nI. Fixed effects models control for time-invariant unobserved heterogeneity across individuals.\nII. Random effects models assume that individual-specific effects are uncorrelated with the regressors.\nIII. The Breusch-Pagan test is used to detect heteroskedasticity in cross-sectional data only.\nIV. First-differencing eliminates fixed effects but may induce serial correlation in the error term.\nWhich statements are methodologically correct?",
+  "options": {
+   "A": "II and III only",
+   "B": "I, II, and IV only",
+   "C": "I and III only",
+   "D": "III and IV only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/361:A",
+  "question": "Evaluate the following statements regarding the 'Random Walk' hypothesis in corporate stock pricing:\n(i) The best predictor of tomorrow's price is today's price.\n(ii) The series is stationary in levels.\n(iii) The variance of the series increases linearly with time.\n(iv) The series is integrated of order 0.\nWhich statements are correct?",
+  "options": {
+   "A": "(i) and (iii) only",
+   "B": "All of the statements",
+   "C": "(ii) and (iv) only",
+   "D": "(i) and (ii) only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/361:C",
+  "question": "Evaluate the following statements regarding the 'Random Walk' hypothesis in corporate stock pricing:\n(i) The best predictor of tomorrow's price is today's price.\n(ii) The series is stationary in levels.\n(iii) The variance of the series increases linearly with time.\n(iv) The series is integrated of order 0.\nWhich statements are correct?",
+  "options": {
+   "A": "(i) and (iii) only",
+   "B": "All of the statements",
+   "C": "(ii) and (iv) only",
+   "D": "(i) and (ii) only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/362:A",
+  "question": "Combining legal, technological, and business domains in Brazil's digital finance ecosystem requires analyzing transaction latency distributions. Consider:\n\ni. The exponential distribution is often used to model the time between independent events.\nii. The memoryless property of the exponential distribution implies that the probability of an event occurring in the next interval is independent of how much time has already elapsed.\niii. The Poisson distribution models the number of events occurring in a fixed interval of time.\niv. The mean of an exponential distribution is equal to its variance.\n\nWhich statements are statistically valid?",
+  "options": {
+   "A": "i, ii, and iii only",
+   "B": "i, ii, and iv only",
+   "C": "ii, iii, and iv only",
+   "D": "i and iv only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/362:D",
+  "question": "Combining legal, technological, and business domains in Brazil's digital finance ecosystem requires analyzing transaction latency distributions. Consider:\n\ni. The exponential distribution is often used to model the time between independent events.\nii. The memoryless property of the exponential distribution implies that the probability of an event occurring in the next interval is independent of how much time has already elapsed.\niii. The Poisson distribution models the number of events occurring in a fixed interval of time.\niv. The mean of an exponential distribution is equal to its variance.\n\nWhich statements are statistically valid?",
+  "options": {
+   "A": "i, ii, and iii only",
+   "B": "i, ii, and iv only",
+   "C": "ii, iii, and iv only",
+   "D": "i and iv only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/364:B",
+  "question": "In a corporate survey, the response variable is the number of new projects started per year. Which distribution is most appropriate for the error terms in a regression model for this count data?",
+  "options": {
+   "A": "Normal distribution",
+   "B": "Uniform distribution",
+   "C": "Exponential distribution",
+   "D": "Poisson distribution"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/364:D",
+  "question": "In a corporate survey, the response variable is the number of new projects started per year. Which distribution is most appropriate for the error terms in a regression model for this count data?",
+  "options": {
+   "A": "Normal distribution",
+   "B": "Uniform distribution",
+   "C": "Exponential distribution",
+   "D": "Poisson distribution"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/37:A",
+  "question": "Balancing innovation with privacy in scalable data integration requires understanding differential privacy. Consider:\n\ni. Differential privacy guarantees that the output of an algorithm is insensitive to the inclusion or exclusion of any single individual's data.\nii. The privacy budget (epsilon) controls the trade-off between privacy and data utility.\niii. A smaller epsilon value provides stronger privacy guarantees but reduces data accuracy.\niv. Differential privacy is only applicable to numerical data types.\n\nWhich statements are accurate?",
+  "options": {
+   "A": "i, ii, and iii only",
+   "B": "All four statements are correct.",
+   "C": "ii, iii, and iv only",
+   "D": "i and iv only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/37:D",
+  "question": "Balancing innovation with privacy in scalable data integration requires understanding differential privacy. Consider:\n\ni. Differential privacy guarantees that the output of an algorithm is insensitive to the inclusion or exclusion of any single individual's data.\nii. The privacy budget (epsilon) controls the trade-off between privacy and data utility.\niii. A smaller epsilon value provides stronger privacy guarantees but reduces data accuracy.\niv. Differential privacy is only applicable to numerical data types.\n\nWhich statements are accurate?",
+  "options": {
+   "A": "i, ii, and iii only",
+   "B": "All four statements are correct.",
+   "C": "ii, iii, and iv only",
+   "D": "i and iv only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/38:B",
+  "question": "A marketing strategist launching a crypto project analyzes the virality coefficient using branching processes. Evaluate these statements:\ni. If the expected number of new users generated by one user is less than one, the campaign will eventually die out.\nii. The variance of the population size increases exponentially over generations in a supercritical process.\niii. The extinction probability is always 1 if the mean offspring number is greater than 1.\niv. Branching processes assume independence between the reproduction of different individuals.\nWhich statements are accurate?",
+  "options": {
+   "A": "ii and iii only",
+   "B": "i, ii, and iv",
+   "C": "All four statements",
+   "D": "i and iii only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/38:C",
+  "question": "A marketing strategist launching a crypto project analyzes the virality coefficient using branching processes. Evaluate these statements:\ni. If the expected number of new users generated by one user is less than one, the campaign will eventually die out.\nii. The variance of the population size increases exponentially over generations in a supercritical process.\niii. The extinction probability is always 1 if the mean offspring number is greater than 1.\niv. Branching processes assume independence between the reproduction of different individuals.\nWhich statements are accurate?",
+  "options": {
+   "A": "ii and iii only",
+   "B": "i, ii, and iv",
+   "C": "All four statements",
+   "D": "i and iii only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/39:B",
+  "question": "A firm is analyzing its monthly sales data and detects a unit root. Which of the following is a primary consequence of ignoring a unit root in a time-series regression?\nI. Spurious regression results with inflated R-squared values.\nII. Violation of the Gauss-Markov assumptions.\nIII. The t-statistics no longer follow a standard t-distribution.\nIV. The variance of the series becomes constant over time.",
+  "options": {
+   "A": "II and III",
+   "B": "I, III, and IV",
+   "C": "I, II, and III",
+   "D": "I and IV"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/39:C",
+  "question": "A firm is analyzing its monthly sales data and detects a unit root. Which of the following is a primary consequence of ignoring a unit root in a time-series regression?\nI. Spurious regression results with inflated R-squared values.\nII. Violation of the Gauss-Markov assumptions.\nIII. The t-statistics no longer follow a standard t-distribution.\nIV. The variance of the series becomes constant over time.",
+  "options": {
+   "A": "II and III",
+   "B": "I, III, and IV",
+   "C": "I, II, and III",
+   "D": "I and IV"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/4:B",
+  "question": "In the context of corporate time-series analysis, what is the difference between a seasonal adjustment and a seasonal difference?\nI. Seasonal adjustment removes the seasonal component from the data.\nII. Seasonal differencing subtracts the value from the same season of the previous year.\nIII. Seasonal adjustment is only used for non-stationary data.\nIV. Seasonal differencing is used to remove a deterministic trend.",
+  "options": {
+   "A": "I and III",
+   "B": "II and IV",
+   "C": "III and IV",
+   "D": "I and II"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/4:D",
+  "question": "In the context of corporate time-series analysis, what is the difference between a seasonal adjustment and a seasonal difference?\nI. Seasonal adjustment removes the seasonal component from the data.\nII. Seasonal differencing subtracts the value from the same season of the previous year.\nIII. Seasonal adjustment is only used for non-stationary data.\nIV. Seasonal differencing is used to remove a deterministic trend.",
+  "options": {
+   "A": "I and III",
+   "B": "II and IV",
+   "C": "III and IV",
+   "D": "I and II"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/40:B",
+  "question": "A specialist in Brazilian credit union regulations is validating a model for member loan default probabilities. Consider the following statements about the Receiver Operating Characteristic (ROC) curve:\ni. It plots the True Positive Rate against the False Positive Rate at various threshold settings.\nii. The Area Under the Curve (AUC) represents the probability that the model ranks a random positive instance higher than a random negative one.\niii. An AUC of 0.5 indicates a perfect classifier.\niv. The curve is insensitive to changes in the class distribution of the test data.\nWhich statements are correct?",
+  "options": {
+   "A": "i and iii only",
+   "B": "i, ii, and iv",
+   "C": "ii and iii only",
+   "D": "All four statements"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/40:C",
+  "question": "A specialist in Brazilian credit union regulations is validating a model for member loan default probabilities. Consider the following statements about the Receiver Operating Characteristic (ROC) curve:\ni. It plots the True Positive Rate against the False Positive Rate at various threshold settings.\nii. The Area Under the Curve (AUC) represents the probability that the model ranks a random positive instance higher than a random negative one.\niii. An AUC of 0.5 indicates a perfect classifier.\niv. The curve is insensitive to changes in the class distribution of the test data.\nWhich statements are correct?",
+  "options": {
+   "A": "i and iii only",
+   "B": "i, ii, and iv",
+   "C": "ii and iii only",
+   "D": "All four statements"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/41:C",
+  "question": "A retail marketing strategist analyzing supermarket sales data considers seasonal adjustment techniques. Which statement is correct?\nI. The X-13-ARIMA-SEATS method is commonly used for decomposing time series into trend, seasonal, and irregular components.\nII. Additive seasonality assumes that the magnitude of seasonal fluctuations grows with the level of the series.\nIII. A seasonal dummy variable approach consumes degrees of freedom but allows for flexible seasonal patterns.\nIV. Forecasting accuracy is unaffected by whether the data is seasonally adjusted prior to modeling.\nChoose the accurate options.",
+  "options": {
+   "A": "I, II, and III only",
+   "B": "II and IV only",
+   "C": "I and IV only",
+   "D": "I and III only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/41:D",
+  "question": "A retail marketing strategist analyzing supermarket sales data considers seasonal adjustment techniques. Which statement is correct?\nI. The X-13-ARIMA-SEATS method is commonly used for decomposing time series into trend, seasonal, and irregular components.\nII. Additive seasonality assumes that the magnitude of seasonal fluctuations grows with the level of the series.\nIII. A seasonal dummy variable approach consumes degrees of freedom but allows for flexible seasonal patterns.\nIV. Forecasting accuracy is unaffected by whether the data is seasonally adjusted prior to modeling.\nChoose the accurate options.",
+  "options": {
+   "A": "I, II, and III only",
+   "B": "II and IV only",
+   "C": "I and IV only",
+   "D": "I and III only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/42:A",
+  "question": "In a corporate valuation context, the researcher finds that the residuals of a regression are autocorrelated. Which of the following is true regarding the use of Newey-West standard errors?\nI. They provide a consistent estimate of the variance in the presence of autocorrelation and heteroskedasticity.\nII. They change the point estimates of the OLS coefficients.\nIII. They are only applicable to cross-sectional data.\nIV. They require the residuals to be normally distributed.",
+  "options": {
+   "A": "I only",
+   "B": "I and II",
+   "C": "II and III",
+   "D": "III and IV"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/42:D",
+  "question": "In a corporate valuation context, the researcher finds that the residuals of a regression are autocorrelated. Which of the following is true regarding the use of Newey-West standard errors?\nI. They provide a consistent estimate of the variance in the presence of autocorrelation and heteroskedasticity.\nII. They change the point estimates of the OLS coefficients.\nIII. They are only applicable to cross-sectional data.\nIV. They require the residuals to be normally distributed.",
+  "options": {
+   "A": "I only",
+   "B": "I and II",
+   "C": "II and III",
+   "D": "III and IV"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/43:A",
+  "question": "A Uruguayan business consultant restructuring a family enterprise analyzes consignment sales data. Consider:\nI. Seasonal indices can be calculated using the ratio-to-moving-average method.\nII. A centered moving average is used to estimate the trend-cycle component in quarterly data.\nIII. The irregular component contains all random fluctuations not explained by trend, seasonality, or cycle.\nIV. Additive decomposition is preferred when the seasonal variation increases with the level of the series.\nWhich statements are correct?",
+  "options": {
+   "A": "II and IV only",
+   "B": "III and IV only",
+   "C": "I and III only",
+   "D": "I, II, and III only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/43:D",
+  "question": "A Uruguayan business consultant restructuring a family enterprise analyzes consignment sales data. Consider:\nI. Seasonal indices can be calculated using the ratio-to-moving-average method.\nII. A centered moving average is used to estimate the trend-cycle component in quarterly data.\nIII. The irregular component contains all random fluctuations not explained by trend, seasonality, or cycle.\nIV. Additive decomposition is preferred when the seasonal variation increases with the level of the series.\nWhich statements are correct?",
+  "options": {
+   "A": "II and IV only",
+   "B": "III and IV only",
+   "C": "I and III only",
+   "D": "I, II, and III only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/44:B",
+  "question": "A corporate strategist analyzing the steel industry evaluates the relationship between global GDP and steel consumption. Which econometric insight is correct?\nI. If both series are I(1) and cointegrated, an Error Correction Model (ECM) is appropriate.\nII. Spurious regression results occur when regressing two non-stationary, non-cointegrated series.\nIII. The Engle-Granger two-step method is the only valid approach to test for cointegration.\nIV. A high Durbin-Watson statistic close to 2 indicates positive serial correlation.\nSelect the correct combination.",
+  "options": {
+   "A": "II and III only",
+   "B": "I, III, and IV only",
+   "C": "I and II only",
+   "D": "II and IV only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/44:C",
+  "question": "A corporate strategist analyzing the steel industry evaluates the relationship between global GDP and steel consumption. Which econometric insight is correct?\nI. If both series are I(1) and cointegrated, an Error Correction Model (ECM) is appropriate.\nII. Spurious regression results occur when regressing two non-stationary, non-cointegrated series.\nIII. The Engle-Granger two-step method is the only valid approach to test for cointegration.\nIV. A high Durbin-Watson statistic close to 2 indicates positive serial correlation.\nSelect the correct combination.",
+  "options": {
+   "A": "II and III only",
+   "B": "I, III, and IV only",
+   "C": "I and II only",
+   "D": "II and IV only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/45:C",
+  "question": "A company is using a Tobit model to analyze corporate R&D spending, where many firms have zero spending. Which of the following is true about the Tobit model?\nI. It accounts for censoring at a specific threshold.\nII. It is a linear regression model with a truncated normal distribution.\nIII. It assumes the dependent variable is latent and only observed if it exceeds a threshold.\nIV. It can be estimated using simple OLS without bias.",
+  "options": {
+   "A": "II and IV",
+   "B": "III and IV",
+   "C": "I and III",
+   "D": "I and II"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/45:D",
+  "question": "A company is using a Tobit model to analyze corporate R&D spending, where many firms have zero spending. Which of the following is true about the Tobit model?\nI. It accounts for censoring at a specific threshold.\nII. It is a linear regression model with a truncated normal distribution.\nIII. It assumes the dependent variable is latent and only observed if it exceeds a threshold.\nIV. It can be estimated using simple OLS without bias.",
+  "options": {
+   "A": "II and IV",
+   "B": "III and IV",
+   "C": "I and III",
+   "D": "I and II"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/48:A",
+  "question": "A regulatory expert on cryptocurrency compliance evaluates the efficacy of anti-money laundering detection models. Consider:\nI. Precision and Recall are more appropriate metrics than Accuracy for imbalanced datasets typical in fraud detection.\nII. A ROC curve plots the True Positive Rate against the False Positive Rate at various threshold settings.\nIII. Over-sampling the minority class always improves the model's generalization to new data.\nIV. The F1-score is the harmonic mean of Precision and Recall.\nWhich statements are correct?",
+  "options": {
+   "A": "I and III only",
+   "B": "I, II, and IV only",
+   "C": "II and III only",
+   "D": "III and IV only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/48:B",
+  "question": "A regulatory expert on cryptocurrency compliance evaluates the efficacy of anti-money laundering detection models. Consider:\nI. Precision and Recall are more appropriate metrics than Accuracy for imbalanced datasets typical in fraud detection.\nII. A ROC curve plots the True Positive Rate against the False Positive Rate at various threshold settings.\nIII. Over-sampling the minority class always improves the model's generalization to new data.\nIV. The F1-score is the harmonic mean of Precision and Recall.\nWhich statements are correct?",
+  "options": {
+   "A": "I and III only",
+   "B": "I, II, and IV only",
+   "C": "II and III only",
+   "D": "III and IV only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/49:C",
+  "question": "In a corporate credit scoring model, a logistic regression is used. If the estimated coefficient for the 'Debt-to-Equity ratio' is 0.45, how should this be interpreted?",
+  "options": {
+   "A": "The probability of default increases by 45% for every unit increase in the ratio",
+   "B": "The odds ratio is exactly 0.45",
+   "C": "A 1-unit increase in the ratio increases the probability of default by 0.45",
+   "D": "A 1-unit increase in the ratio increases the log-odds of default by 0.45"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/49:D",
+  "question": "In a corporate credit scoring model, a logistic regression is used. If the estimated coefficient for the 'Debt-to-Equity ratio' is 0.45, how should this be interpreted?",
+  "options": {
+   "A": "The probability of default increases by 45% for every unit increase in the ratio",
+   "B": "The odds ratio is exactly 0.45",
+   "C": "A 1-unit increase in the ratio increases the probability of default by 0.45",
+   "D": "A 1-unit increase in the ratio increases the log-odds of default by 0.45"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/5:A",
+  "question": "A data scientist is applying a Logistic Regression to predict corporate bankruptcy. If the model exhibits high multicollinearity among the independent variables, what is the most likely effect on the results?",
+  "options": {
+   "A": "Violation of the normality of residuals",
+   "B": "Biased coefficient estimates",
+   "C": "Reduced R-squared value",
+   "D": "Increased standard errors of the coefficients"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/5:D",
+  "question": "A data scientist is applying a Logistic Regression to predict corporate bankruptcy. If the model exhibits high multicollinearity among the independent variables, what is the most likely effect on the results?",
+  "options": {
+   "A": "Violation of the normality of residuals",
+   "B": "Biased coefficient estimates",
+   "C": "Reduced R-squared value",
+   "D": "Increased standard errors of the coefficients"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/51:A",
+  "question": "A corporate analyst is using a Two-Way Fixed Effects (TWFE) model for panel data. What does the 'Two-Way' refer to?\nI. Controlling for both entity-specific and time-specific fixed effects.\nII. Using two different types of instrumental variables.\nIII. Estimating the model using both OLS and MLE.\nIV. Using two different dependent variables in the same model.",
+  "options": {
+   "A": "I only",
+   "B": "I and II",
+   "C": "II and III",
+   "D": "III and IV"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/51:C",
+  "question": "A corporate analyst is using a Two-Way Fixed Effects (TWFE) model for panel data. What does the 'Two-Way' refer to?\nI. Controlling for both entity-specific and time-specific fixed effects.\nII. Using two different types of instrumental variables.\nIII. Estimating the model using both OLS and MLE.\nIV. Using two different dependent variables in the same model.",
+  "options": {
+   "A": "I only",
+   "B": "I and II",
+   "C": "II and III",
+   "D": "III and IV"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/54:B",
+  "question": "In the context of corporate financial forecasting, what does the 'Akaike Information Criterion' (AIC) primarily penalize to avoid overfitting?",
+  "options": {
+   "A": "The lack of normality in the error distribution",
+   "B": "The number of parameters in the model",
+   "C": "The variance of the residuals",
+   "D": "The degree of autocorrelation"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/54:C",
+  "question": "In the context of corporate financial forecasting, what does the 'Akaike Information Criterion' (AIC) primarily penalize to avoid overfitting?",
+  "options": {
+   "A": "The lack of normality in the error distribution",
+   "B": "The number of parameters in the model",
+   "C": "The variance of the residuals",
+   "D": "The degree of autocorrelation"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/55:A",
+  "question": "In a corporate risk model, the researcher encounters heteroscedasticity. Which of the following is a consequence of ignoring heteroscedasticity when using OLS?\ni. The coefficient estimates become biased.\nii. The coefficient estimates remain unbiased.\niii. The standard errors are incorrectly estimated.\niv. The t-statistics are no longer reliable.",
+  "options": {
+   "A": "Only ii, iii, and iv",
+   "B": "Only i, ii, and iv",
+   "C": "Only iii and iv",
+   "D": "Only i and iii"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/55:D",
+  "question": "In a corporate risk model, the researcher encounters heteroscedasticity. Which of the following is a consequence of ignoring heteroscedasticity when using OLS?\ni. The coefficient estimates become biased.\nii. The coefficient estimates remain unbiased.\niii. The standard errors are incorrectly estimated.\niv. The t-statistics are no longer reliable.",
+  "options": {
+   "A": "Only ii, iii, and iv",
+   "B": "Only i, ii, and iv",
+   "C": "Only iii and iv",
+   "D": "Only i and iii"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/56:C",
+  "question": "A customer experience strategist analyzing Voice-of-Customer (VOC) data uses factor analysis to reduce dimensionality. Evaluate these statements:\ni. The goal is to explain correlations among observed variables using latent factors.\nii. Factor loadings represent the correlation between the observed variable and the latent factor.\niii. Varimax rotation aims to maximize the variance of the squared loadings to simplify interpretation.\niv. The number of factors to extract is always equal to the number of observed variables.\nWhich statements are correct?",
+  "options": {
+   "A": "All four statements",
+   "B": "ii and iv only",
+   "C": "i and iii only",
+   "D": "i, ii, and iii"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/56:D",
+  "question": "A customer experience strategist analyzing Voice-of-Customer (VOC) data uses factor analysis to reduce dimensionality. Evaluate these statements:\ni. The goal is to explain correlations among observed variables using latent factors.\nii. Factor loadings represent the correlation between the observed variable and the latent factor.\niii. Varimax rotation aims to maximize the variance of the squared loadings to simplify interpretation.\niv. The number of factors to extract is always equal to the number of observed variables.\nWhich statements are correct?",
+  "options": {
+   "A": "All four statements",
+   "B": "ii and iv only",
+   "C": "i and iii only",
+   "D": "i, ii, and iii"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/57:A",
+  "question": "A financial regulatory consultant advising on ACC and ACE operations analyzes interest rate spreads. Which time series property is relevant?\nI. Mean reversion in spreads suggests that deviations from the long-run average are temporary.\nII. An Ornstein-Uhlenbeck process is a continuous-time model for mean-reverting variables.\nIII. The half-life of a shock can be estimated from the autoregressive coefficient in an AR(1) model.\nIV. A unit root in the spread series implies it is mean-reverting.\nChoose the correct options.",
+  "options": {
+   "A": "I, II, and III only",
+   "B": "I and III only",
+   "C": "III and IV only",
+   "D": "II and IV only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/57:D",
+  "question": "A financial regulatory consultant advising on ACC and ACE operations analyzes interest rate spreads. Which time series property is relevant?\nI. Mean reversion in spreads suggests that deviations from the long-run average are temporary.\nII. An Ornstein-Uhlenbeck process is a continuous-time model for mean-reverting variables.\nIII. The half-life of a shock can be estimated from the autoregressive coefficient in an AR(1) model.\nIV. A unit root in the spread series implies it is mean-reverting.\nChoose the correct options.",
+  "options": {
+   "A": "I, II, and III only",
+   "B": "I and III only",
+   "C": "III and IV only",
+   "D": "II and IV only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/59:B",
+  "question": "A corporate strategist is using a Markov Switching Model to analyze the firm's growth regimes. What is the primary feature of this model?",
+  "options": {
+   "A": "It treats all regimes as linear combinations of each other",
+   "B": "It allows the parameters of the model to change between discrete states/regimes",
+   "C": "It assumes a constant growth rate over time",
+   "D": "It eliminates the need for transition probabilities"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/59:D",
+  "question": "A corporate strategist is using a Markov Switching Model to analyze the firm's growth regimes. What is the primary feature of this model?",
+  "options": {
+   "A": "It treats all regimes as linear combinations of each other",
+   "B": "It allows the parameters of the model to change between discrete states/regimes",
+   "C": "It assumes a constant growth rate over time",
+   "D": "It eliminates the need for transition probabilities"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/60:A",
+  "question": "A financial services consultant clarifying postal banking currency exchange capabilities uses hypothesis testing for proportion differences. Consider these statements:\ni. The Z-test is appropriate for large sample sizes.\nii. The null hypothesis typically states that the proportions are equal.\niii. The test statistic follows a t-distribution regardless of sample size.\niv. Continuity correction can be applied to improve the approximation.\nWhich statements are true?",
+  "options": {
+   "A": "i and iii only",
+   "B": "i, ii, and iv",
+   "C": "ii and iii only",
+   "D": "All four statements"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/60:B",
+  "question": "A financial services consultant clarifying postal banking currency exchange capabilities uses hypothesis testing for proportion differences. Consider these statements:\ni. The Z-test is appropriate for large sample sizes.\nii. The null hypothesis typically states that the proportions are equal.\niii. The test statistic follows a t-distribution regardless of sample size.\niv. Continuity correction can be applied to improve the approximation.\nWhich statements are true?",
+  "options": {
+   "A": "i and iii only",
+   "B": "i, ii, and iv",
+   "C": "ii and iii only",
+   "D": "All four statements"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/61:B",
+  "question": "A firm uses a Distributed Lag Model to analyze the effect of advertising spend on sales. If the model is estimated as an Almon polynomial lag, the primary objective is to:",
+  "options": {
+   "A": "Increase the number of parameters",
+   "B": "Correct for autocorrelation",
+   "C": "Eliminate the need for stationarity",
+   "D": "Reduce the number of parameters to be estimated"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/61:D",
+  "question": "A firm uses a Distributed Lag Model to analyze the effect of advertising spend on sales. If the model is estimated as an Almon polynomial lag, the primary objective is to:",
+  "options": {
+   "A": "Increase the number of parameters",
+   "B": "Correct for autocorrelation",
+   "C": "Eliminate the need for stationarity",
+   "D": "Reduce the number of parameters to be estimated"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/62:A",
+  "question": "Which of the following conditions is necessary for a time series to be covariance stationary?",
+  "options": {
+   "A": "The variance must be increasing over time",
+   "B": "The mean must be zero",
+   "C": "The mean and variance must be constant over time",
+   "D": "The series must follow a random walk"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/62:C",
+  "question": "Which of the following conditions is necessary for a time series to be covariance stationary?",
+  "options": {
+   "A": "The variance must be increasing over time",
+   "B": "The mean must be zero",
+   "C": "The mean and variance must be constant over time",
+   "D": "The series must follow a random walk"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/63:B",
+  "question": "Which of the following statements regarding the Gauss-Markov theorem is true in the context of corporate econometric modeling?\ni. It requires the error terms to be normally distributed.\nii. It proves that OLS is the best linear unbiased estimator under homoscedasticity.\niii. It requires the absence of multicollinearity.\niv. It implies that OLS is the most efficient estimator among all possible estimators.",
+  "options": {
+   "A": "Only ii, iii, and iv",
+   "B": "Only i and ii",
+   "C": "Only iii and iv",
+   "D": "Only ii and iii"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/63:D",
+  "question": "Which of the following statements regarding the Gauss-Markov theorem is true in the context of corporate econometric modeling?\ni. It requires the error terms to be normally distributed.\nii. It proves that OLS is the best linear unbiased estimator under homoscedasticity.\niii. It requires the absence of multicollinearity.\niv. It implies that OLS is the most efficient estimator among all possible estimators.",
+  "options": {
+   "A": "Only ii, iii, and iv",
+   "B": "Only i and ii",
+   "C": "Only iii and iv",
+   "D": "Only ii and iii"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/65:B",
+  "question": "A corporate strategist is using a Probit model to estimate the probability of a merger. Compared to a Logit model, the Probit model assumes that the latent variable follows which distribution?",
+  "options": {
+   "A": "Chi-square",
+   "B": "Logistic",
+   "C": "Standard Normal",
+   "D": "Poisson"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/65:C",
+  "question": "A corporate strategist is using a Probit model to estimate the probability of a merger. Compared to a Logit model, the Probit model assumes that the latent variable follows which distribution?",
+  "options": {
+   "A": "Chi-square",
+   "B": "Logistic",
+   "C": "Standard Normal",
+   "D": "Poisson"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/68:A",
+  "question": "A fintech entrepreneur evaluating a crypto MLM venture analyzes network growth metrics. Which time series property is critical?\nI. Viral growth often follows an exponential trend, requiring log-transformation for linear modeling.\nII. The saturation point of a network can be modeled using a logistic growth curve.\nIII. Stationarity is required before applying ARIMA models to user acquisition data.\nIV. A high degree of autocorrelation in daily sign-ups indicates a deterministic trend.\nChoose the valid options.",
+  "options": {
+   "A": "I, II, and III only",
+   "B": "II and IV only",
+   "C": "I and III only",
+   "D": "III and IV only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/68:B",
+  "question": "A fintech entrepreneur evaluating a crypto MLM venture analyzes network growth metrics. Which time series property is critical?\nI. Viral growth often follows an exponential trend, requiring log-transformation for linear modeling.\nII. The saturation point of a network can be modeled using a logistic growth curve.\nIII. Stationarity is required before applying ARIMA models to user acquisition data.\nIV. A high degree of autocorrelation in daily sign-ups indicates a deterministic trend.\nChoose the valid options.",
+  "options": {
+   "A": "I, II, and III only",
+   "B": "II and IV only",
+   "C": "I and III only",
+   "D": "III and IV only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/69:A",
+  "question": "A corporate analyst uses a Two-Stage Least Squares (2SLS) regression. In the first stage, they regress the endogenous variable on the instruments. Which of the following is true?\nI. The goal is to isolate the exogenous variation in the endogenous regressor.\nII. The first-stage R-squared must be very low to avoid multicollinearity.\nIII. The predicted values from the first stage are used in the second stage.\nIV. The first stage is used to test for the normality of the error terms.",
+  "options": {
+   "A": "I and III",
+   "B": "III and IV",
+   "C": "I and II",
+   "D": "II and IV"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/69:B",
+  "question": "A corporate analyst uses a Two-Stage Least Squares (2SLS) regression. In the first stage, they regress the endogenous variable on the instruments. Which of the following is true?\nI. The goal is to isolate the exogenous variation in the endogenous regressor.\nII. The first-stage R-squared must be very low to avoid multicollinearity.\nIII. The predicted values from the first stage are used in the second stage.\nIV. The first stage is used to test for the normality of the error terms.",
+  "options": {
+   "A": "I and III",
+   "B": "III and IV",
+   "C": "I and II",
+   "D": "II and IV"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/7:A",
+  "question": "In a corporate finance study, a researcher uses a Fixed Effects (FE) model to control for unobserved firm-specific heterogeneity. What is the primary risk of using FE if the time-invariant variables of interest are highly collinear with the firm-specific intercept?",
+  "options": {
+   "A": "Complete elimination of the coefficients for those time-invariant variables",
+   "B": "Overestimation of the variance",
+   "C": "Introduction of heteroscedasticity",
+   "D": "Violation of the strict exogeneity assumption"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/7:B",
+  "question": "In a corporate finance study, a researcher uses a Fixed Effects (FE) model to control for unobserved firm-specific heterogeneity. What is the primary risk of using FE if the time-invariant variables of interest are highly collinear with the firm-specific intercept?",
+  "options": {
+   "A": "Complete elimination of the coefficients for those time-invariant variables",
+   "B": "Overestimation of the variance",
+   "C": "Introduction of heteroscedasticity",
+   "D": "Violation of the strict exogeneity assumption"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/71:A",
+  "question": "When using a Heckman two-step procedure to correct for selection bias in a sample of corporate executives, what is the first step?\nI. Estimate a Probit model to determine the probability of selection.\nII. Estimate an OLS model on the selected sample.\nIII. Calculate the Inverse Mills Ratio.\nIV. Perform a T-test on the selection dummy.",
+  "options": {
+   "A": "I only",
+   "B": "III and IV",
+   "C": "II and III",
+   "D": "I and II"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/71:B",
+  "question": "When using a Heckman two-step procedure to correct for selection bias in a sample of corporate executives, what is the first step?\nI. Estimate a Probit model to determine the probability of selection.\nII. Estimate an OLS model on the selected sample.\nIII. Calculate the Inverse Mills Ratio.\nIV. Perform a T-test on the selection dummy.",
+  "options": {
+   "A": "I only",
+   "B": "III and IV",
+   "C": "II and III",
+   "D": "I and II"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/72:A",
+  "question": "Providing insider knowledge on the rationale behind uniform banknote sizes involves analyzing the velocity of money. Consider the Quantity Theory of Money:\n\ni. The equation of exchange is MV = PY, where M is money supply, V is velocity, P is price level, and Y is real output.\nii. The theory assumes that velocity (V) is constant in the short run.\niii. An increase in the money supply (M) leads to a proportional increase in the price level (P) if Y and V are constant.\niv. Empirical evidence suggests that velocity is highly stable across all economic conditions.\n\nWhich statements are theoretically sound?",
+  "options": {
+   "A": "i, ii, and iii only",
+   "B": "ii, iii, and iv only",
+   "C": "i and iv only",
+   "D": "i, ii, and iv only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/72:C",
+  "question": "Providing insider knowledge on the rationale behind uniform banknote sizes involves analyzing the velocity of money. Consider the Quantity Theory of Money:\n\ni. The equation of exchange is MV = PY, where M is money supply, V is velocity, P is price level, and Y is real output.\nii. The theory assumes that velocity (V) is constant in the short run.\niii. An increase in the money supply (M) leads to a proportional increase in the price level (P) if Y and V are constant.\niv. Empirical evidence suggests that velocity is highly stable across all economic conditions.\n\nWhich statements are theoretically sound?",
+  "options": {
+   "A": "i, ii, and iii only",
+   "B": "ii, iii, and iv only",
+   "C": "i and iv only",
+   "D": "i, ii, and iv only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/73:C",
+  "question": "A sustainability officer verifying environmental impact metrics must ensure the statistical integrity of longitudinal data. Consider:\nI. Panel data methods allow for controlling unobserved heterogeneity across different energy plants.\nII. The Hausman test helps decide between fixed effects and random effects models.\nIII. Serial correlation in panel residuals can be ignored if the time dimension is short.\nIV. Pooled OLS is always more efficient than Fixed Effects estimation when individual effects exist.\nIdentify the correct statements.",
+  "options": {
+   "A": "II and IV only",
+   "B": "III and IV only",
+   "C": "I and II only",
+   "D": "I, II, and III only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/73:D",
+  "question": "A sustainability officer verifying environmental impact metrics must ensure the statistical integrity of longitudinal data. Consider:\nI. Panel data methods allow for controlling unobserved heterogeneity across different energy plants.\nII. The Hausman test helps decide between fixed effects and random effects models.\nIII. Serial correlation in panel residuals can be ignored if the time dimension is short.\nIV. Pooled OLS is always more efficient than Fixed Effects estimation when individual effects exist.\nIdentify the correct statements.",
+  "options": {
+   "A": "II and IV only",
+   "B": "III and IV only",
+   "C": "I and II only",
+   "D": "I, II, and III only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/74:C",
+  "question": "A firm is using a Logit model to predict bankruptcy. Which of the following statements correctly describes the odds ratio in a Logit model?\nI. It is the ratio of the probability of success to the probability of failure.\nII. It is the linear change in probability for a one-unit change in X.\nIII. It is estimated using the Ordinary Least Squares method.\nIV. It is always equal to the coefficient of the regressor in the logit equation.",
+  "options": {
+   "A": "III and IV",
+   "B": "I and II",
+   "C": "II and III",
+   "D": "I only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/74:D",
+  "question": "A firm is using a Logit model to predict bankruptcy. Which of the following statements correctly describes the odds ratio in a Logit model?\nI. It is the ratio of the probability of success to the probability of failure.\nII. It is the linear change in probability for a one-unit change in X.\nIII. It is estimated using the Ordinary Least Squares method.\nIV. It is always equal to the coefficient of the regressor in the logit equation.",
+  "options": {
+   "A": "III and IV",
+   "B": "I and II",
+   "C": "II and III",
+   "D": "I only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/75:A",
+  "question": "In analyzing oligopoly behavior using game theory, an economist considers the statistical evidence for tacit collusion. Consider these assertions:\nI. A sudden drop in the variance of prices across firms may indicate coordinated behavior.\nII. The Prisoner's Dilemma payoff matrix can be directly estimated using OLS regression without instrumental variables.\nIII. Cointegration between rival firms' pricing strategies suggests a long-run equilibrium relationship.\nIV. A high R-squared value in a price-response model proves the existence of a cartel.\nWhich statements are methodologically sound?",
+  "options": {
+   "A": "II and IV only",
+   "B": "I, II, and III only",
+   "C": "III and IV only",
+   "D": "I and III only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/75:D",
+  "question": "In analyzing oligopoly behavior using game theory, an economist considers the statistical evidence for tacit collusion. Consider these assertions:\nI. A sudden drop in the variance of prices across firms may indicate coordinated behavior.\nII. The Prisoner's Dilemma payoff matrix can be directly estimated using OLS regression without instrumental variables.\nIII. Cointegration between rival firms' pricing strategies suggests a long-run equilibrium relationship.\nIV. A high R-squared value in a price-response model proves the existence of a cartel.\nWhich statements are methodologically sound?",
+  "options": {
+   "A": "II and IV only",
+   "B": "I, II, and III only",
+   "C": "III and IV only",
+   "D": "I and III only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/76:B",
+  "question": "A corporate secretary interpreting board-level financial updates must understand the statistical significance of reported variances. Consider:\nI. A p-value less than 0.05 indicates that the null hypothesis is definitely false.\nII. The confidence interval provides a range of values within which the true parameter lies with a specified probability.\nIII. Type II error occurs when a true null hypothesis is incorrectly rejected.\nIV. Increasing the sample size generally reduces the standard error of the estimate.\nWhich statements are statistically accurate?",
+  "options": {
+   "A": "I, II, and III only",
+   "B": "III and IV only",
+   "C": "I and III only",
+   "D": "II and IV only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/76:D",
+  "question": "A corporate secretary interpreting board-level financial updates must understand the statistical significance of reported variances. Consider:\nI. A p-value less than 0.05 indicates that the null hypothesis is definitely false.\nII. The confidence interval provides a range of values within which the true parameter lies with a specified probability.\nIII. Type II error occurs when a true null hypothesis is incorrectly rejected.\nIV. Increasing the sample size generally reduces the standard error of the estimate.\nWhich statements are statistically accurate?",
+  "options": {
+   "A": "I, II, and III only",
+   "B": "III and IV only",
+   "C": "I and III only",
+   "D": "II and IV only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/77:A",
+  "question": "When analyzing corporate credit spreads using a time-series model, the researcher finds the data is non-stationary. Which of the following treatments is appropriate?\nI. Differencing the series to achieve stationarity.\nII. Using a log transformation to stabilize variance.\nIII. Applying a trend-stationary model if the series has a deterministic trend.\nIV. Using the levels of the data in an OLS regression regardless of the unit root.",
+  "options": {
+   "A": "I, II, and III",
+   "B": "I, III, and IV",
+   "C": "II and IV",
+   "D": "I and II"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/77:C",
+  "question": "When analyzing corporate credit spreads using a time-series model, the researcher finds the data is non-stationary. Which of the following treatments is appropriate?\nI. Differencing the series to achieve stationarity.\nII. Using a log transformation to stabilize variance.\nIII. Applying a trend-stationary model if the series has a deterministic trend.\nIV. Using the levels of the data in an OLS regression regardless of the unit root.",
+  "options": {
+   "A": "I, II, and III",
+   "B": "I, III, and IV",
+   "C": "II and IV",
+   "D": "I and II"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/78:A",
+  "question": "A central bank economist is testing the long-run relationship between money supply and inflation using cointegration analysis. Consider these statements regarding the Engle-Granger two-step method:\ni. Both series must be integrated of the same order, typically I(1).\nii. The first step involves estimating the long-run equilibrium relationship via OLS.\niii. The second step tests the residuals of the first step for stationarity.\niv. The method can easily handle systems with more than one cointegrating vector.\nWhich statements are correct?",
+  "options": {
+   "A": "i, ii, and iii",
+   "B": "i and iii only",
+   "C": "All four statements",
+   "D": "ii and iv only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/78:B",
+  "question": "A central bank economist is testing the long-run relationship between money supply and inflation using cointegration analysis. Consider these statements regarding the Engle-Granger two-step method:\ni. Both series must be integrated of the same order, typically I(1).\nii. The first step involves estimating the long-run equilibrium relationship via OLS.\niii. The second step tests the residuals of the first step for stationarity.\niv. The method can easily handle systems with more than one cointegrating vector.\nWhich statements are correct?",
+  "options": {
+   "A": "i, ii, and iii",
+   "B": "i and iii only",
+   "C": "All four statements",
+   "D": "ii and iv only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/79:A",
+  "question": "A financial policy analyst advising on Open Banking implementation uses API rate limiting models. Consider these statements about the Poisson process:\ni. Events occur independently of the time since the last event.\nii. The number of events in a fixed interval follows a Poisson distribution.\niii. The time between consecutive events follows an exponential distribution.\niv. The rate parameter must vary over time for it to be a homogeneous Poisson process.\nWhich statements are correct?",
+  "options": {
+   "A": "ii and iii only",
+   "B": "i, ii, and iii",
+   "C": "i and iv only",
+   "D": "All four statements"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/79:B",
+  "question": "A financial policy analyst advising on Open Banking implementation uses API rate limiting models. Consider these statements about the Poisson process:\ni. Events occur independently of the time since the last event.\nii. The number of events in a fixed interval follows a Poisson distribution.\niii. The time between consecutive events follows an exponential distribution.\niv. The rate parameter must vary over time for it to be a homogeneous Poisson process.\nWhich statements are correct?",
+  "options": {
+   "A": "ii and iii only",
+   "B": "i, ii, and iii",
+   "C": "i and iv only",
+   "D": "All four statements"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/8:A",
+  "question": "A company is modeling its demand using a Distributed Lag (DL) model. If the researcher uses a Polynomial Distributed Lag (PDL) instead of a Finite Distributed Lag (FDL), what is the primary advantage?",
+  "options": {
+   "A": "It reduces the number of parameters to be estimated while capturing the lag structure",
+   "B": "It ensures that the residuals are normally distributed",
+   "C": "It prevents the occurrence of multicollinearity",
+   "D": "It eliminates the need for a constant term"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/8:D",
+  "question": "A company is modeling its demand using a Distributed Lag (DL) model. If the researcher uses a Polynomial Distributed Lag (PDL) instead of a Finite Distributed Lag (FDL), what is the primary advantage?",
+  "options": {
+   "A": "It reduces the number of parameters to be estimated while capturing the lag structure",
+   "B": "It ensures that the residuals are normally distributed",
+   "C": "It prevents the occurrence of multicollinearity",
+   "D": "It eliminates the need for a constant term"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/80:A",
+  "question": "Consider the following statements regarding the properties of the Log-Linear model (log(Y) = beta X + epsilon) used in corporate growth analysis:\n(i) The coefficient beta can be interpreted as the semi-elasticity of Y with respect to X.\n(ii) The model reduces the impact of outliers in the dependent variable.\n(iii) The model assumes an additive relationship between X and Y.\n(iv) The errors are assumed to be multiplicative in the original scale.\nWhich statements are correct?",
+  "options": {
+   "A": "(i), (ii), and (iv) only",
+   "B": "(ii) and (iv) only",
+   "C": "(i) and (iii) only",
+   "D": "All of the statements"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/80:C",
+  "question": "Consider the following statements regarding the properties of the Log-Linear model (log(Y) = beta X + epsilon) used in corporate growth analysis:\n(i) The coefficient beta can be interpreted as the semi-elasticity of Y with respect to X.\n(ii) The model reduces the impact of outliers in the dependent variable.\n(iii) The model assumes an additive relationship between X and Y.\n(iv) The errors are assumed to be multiplicative in the original scale.\nWhich statements are correct?",
+  "options": {
+   "A": "(i), (ii), and (iv) only",
+   "B": "(ii) and (iv) only",
+   "C": "(i) and (iii) only",
+   "D": "All of the statements"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/81:A",
+  "question": "Designing conversational flows for property sales involves analyzing customer churn using logistic regression. Assess:\n\ni. The dependent variable in logistic regression must be binary.\nii. The coefficients in logistic regression represent the change in the log-odds of the outcome for a one-unit change in the predictor.\niii. The odds ratio is obtained by exponentiating the logistic regression coefficient.\niv. Logistic regression assumes a linear relationship between the independent variables and the dependent variable.\n\nWhich assessments are correct?",
+  "options": {
+   "A": "i, ii, and iii only",
+   "B": "ii, iii, and iv only",
+   "C": "All four statements are correct.",
+   "D": "i and iv only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/81:D",
+  "question": "Designing conversational flows for property sales involves analyzing customer churn using logistic regression. Assess:\n\ni. The dependent variable in logistic regression must be binary.\nii. The coefficients in logistic regression represent the change in the log-odds of the outcome for a one-unit change in the predictor.\niii. The odds ratio is obtained by exponentiating the logistic regression coefficient.\niv. Logistic regression assumes a linear relationship between the independent variables and the dependent variable.\n\nWhich assessments are correct?",
+  "options": {
+   "A": "i, ii, and iii only",
+   "B": "ii, iii, and iv only",
+   "C": "All four statements are correct.",
+   "D": "i and iv only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/82:B",
+  "question": "A financial services regulator analyzing agent banking regulations evaluates service coverage data. Which spatial statistical concept is relevant?\nI. Moran's I measures spatial autocorrelation in the distribution of banking agents.\nII. A positive Moran's I indicates clustering of similar values (e.g., high coverage near high coverage).\nIII. Kriging is a geostatistical interpolation technique used to predict values at unobserved locations.\nIV. Spatial regression models ignore the location of observations and treat them as independent.\nChoose the correct options.",
+  "options": {
+   "A": "II and IV only",
+   "B": "I, II, and III only",
+   "C": "I and III only",
+   "D": "III and IV only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/82:D",
+  "question": "A financial services regulator analyzing agent banking regulations evaluates service coverage data. Which spatial statistical concept is relevant?\nI. Moran's I measures spatial autocorrelation in the distribution of banking agents.\nII. A positive Moran's I indicates clustering of similar values (e.g., high coverage near high coverage).\nIII. Kriging is a geostatistical interpolation technique used to predict values at unobserved locations.\nIV. Spatial regression models ignore the location of observations and treat them as independent.\nChoose the correct options.",
+  "options": {
+   "A": "II and IV only",
+   "B": "I, II, and III only",
+   "C": "I and III only",
+   "D": "III and IV only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/83:B",
+  "question": "An insurance innovation consultant designing parametric policies analyzes weather index data. Consider:\nI. Basis risk arises when the index used for payout does not perfectly correlate with the actual loss.\nII. Historical simulation is a non-parametric method to estimate the distribution of index triggers.\nIII. Copulas can model the dependence structure between multiple weather indices.\nIV. A normal distribution is always appropriate for modeling rainfall amounts.\nWhich statements are correct?",
+  "options": {
+   "A": "I and III only",
+   "B": "I, II, and III only",
+   "C": "III and IV only",
+   "D": "II and IV only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/83:D",
+  "question": "An insurance innovation consultant designing parametric policies analyzes weather index data. Consider:\nI. Basis risk arises when the index used for payout does not perfectly correlate with the actual loss.\nII. Historical simulation is a non-parametric method to estimate the distribution of index triggers.\nIII. Copulas can model the dependence structure between multiple weather indices.\nIV. A normal distribution is always appropriate for modeling rainfall amounts.\nWhich statements are correct?",
+  "options": {
+   "A": "I and III only",
+   "B": "I, II, and III only",
+   "C": "III and IV only",
+   "D": "II and IV only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/84:B",
+  "question": "In a corporate valuation model, if the distribution of the error term is non-normal but the sample size is large, which of the following holds true regarding the OLS estimates?\nI. The estimates are still unbiased.\nII. The estimates are asymptotically normally distributed.\nIII. The estimates are perfectly efficient.\nIV. The t-tests are exactly valid for small samples.",
+  "options": {
+   "A": "II and IV",
+   "B": "I and II",
+   "C": "I and III",
+   "D": "I, II, and III"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/84:C",
+  "question": "In a corporate valuation model, if the distribution of the error term is non-normal but the sample size is large, which of the following holds true regarding the OLS estimates?\nI. The estimates are still unbiased.\nII. The estimates are asymptotically normally distributed.\nIII. The estimates are perfectly efficient.\nIV. The t-tests are exactly valid for small samples.",
+  "options": {
+   "A": "II and IV",
+   "B": "I and II",
+   "C": "I and III",
+   "D": "I, II, and III"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/86:A",
+  "question": "In a corporate governance study, a researcher uses a Fixed Effects (FE) model for panel data. Which of the following is a characteristic of the FE model?\nI. It controls for all time-invariant unobserved heterogeneity.\nII. It allows for the estimation of coefficients for time-invariant variables.\nIII. It assumes the individual effects are uncorrelated with the regressors.\nIV. It uses the within-transformation to remove individual-specific intercepts.",
+  "options": {
+   "A": "I and IV",
+   "B": "III and IV",
+   "C": "I and II",
+   "D": "II and III"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/86:C",
+  "question": "In a corporate governance study, a researcher uses a Fixed Effects (FE) model for panel data. Which of the following is a characteristic of the FE model?\nI. It controls for all time-invariant unobserved heterogeneity.\nII. It allows for the estimation of coefficients for time-invariant variables.\nIII. It assumes the individual effects are uncorrelated with the regressors.\nIV. It uses the within-transformation to remove individual-specific intercepts.",
+  "options": {
+   "A": "I and IV",
+   "B": "III and IV",
+   "C": "I and II",
+   "D": "II and III"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/89:A",
+  "question": "In a corporate valuation model using a Vector Autoregression (VAR) framework, consider the following statements regarding the Cholesky decomposition for structural identification:\n(i) The ordering of variables determines the recursive structure of the shocks.\n(ii) A variable placed first is assumed to be affected by other variables only with a lag.\n(iii) The resulting impulse response functions are independent of the variable ordering.\n(iv) The decomposition ensures that the covariance matrix of the residuals is diagonal.\nWhich of the statements are correct?",
+  "options": {
+   "A": "(ii) and (iii) only",
+   "B": "(i), (ii), and (iv) only",
+   "C": "(i) and (ii) only",
+   "D": "All of the statements"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/89:B",
+  "question": "In a corporate valuation model using a Vector Autoregression (VAR) framework, consider the following statements regarding the Cholesky decomposition for structural identification:\n(i) The ordering of variables determines the recursive structure of the shocks.\n(ii) A variable placed first is assumed to be affected by other variables only with a lag.\n(iii) The resulting impulse response functions are independent of the variable ordering.\n(iv) The decomposition ensures that the covariance matrix of the residuals is diagonal.\nWhich of the statements are correct?",
+  "options": {
+   "A": "(ii) and (iii) only",
+   "B": "(i), (ii), and (iv) only",
+   "C": "(i) and (ii) only",
+   "D": "All of the statements"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/9:B",
+  "question": "Which of the following is the correct interpretation of a 'cointegrating vector' in a system of corporate financial variables?",
+  "options": {
+   "A": "It is the vector of coefficients for the autoregressive terms",
+   "B": "It represents the short-term volatility of the system",
+   "C": "It represents a linear combination of non-stationary variables that is itself stationary",
+   "D": "It is the set of residuals from a VAR model"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/9:C",
+  "question": "Which of the following is the correct interpretation of a 'cointegrating vector' in a system of corporate financial variables?",
+  "options": {
+   "A": "It is the vector of coefficients for the autoregressive terms",
+   "B": "It represents the short-term volatility of the system",
+   "C": "It represents a linear combination of non-stationary variables that is itself stationary",
+   "D": "It is the set of residuals from a VAR model"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/90:A",
+  "question": "An analyst is using a State-Space model to estimate the time-varying beta of a corporate stock. Which of the following describes the 'transition equation' in this context?",
+  "options": {
+   "A": "The evolution of the latent beta over time",
+   "B": "The relationship between the observed price and the latent beta",
+   "C": "The measurement of the error term",
+   "D": "The calculation of the Kalman gain"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/90:D",
+  "question": "An analyst is using a State-Space model to estimate the time-varying beta of a corporate stock. Which of the following describes the 'transition equation' in this context?",
+  "options": {
+   "A": "The evolution of the latent beta over time",
+   "B": "The relationship between the observed price and the latent beta",
+   "C": "The measurement of the error term",
+   "D": "The calculation of the Kalman gain"
+  },
+  "argue_for": "D"
+ }
+]

@@ -1,0 +1,652 @@
+[
+ {
+  "job_id": "expansion/machine_learning/170:B",
+  "question": "Statement 1| In a logistic regression model, the dependent variable is modeled using a sigmoid function to map the output to a range between 0 and 1. Statement 2| The coefficients in logistic regression represent the change in the probability of the outcome for a one-unit change in the predictor.",
+  "options": {
+   "A": "Statement 1 is false, but Statement 2 is true.",
+   "B": "Both statements are false.",
+   "C": "Both statements are true.",
+   "D": "Statement 1 is true, but Statement 2 is false."
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Logistic regression models the log-odds as linear and the sigmoid is applied to the predicted probability, not to the dependent variable itself, which stays 0 or 1, and coefficients change log-odds rather than probability."
+ },
+ {
+  "job_id": "expansion/high_school_geography/468:A",
+  "question": "In human geography, what term defines the perceived emotional or symbolic attachment people feel toward a specific place?",
+  "options": {
+   "A": "Sense of place",
+   "B": "Environmental determinism",
+   "C": "Spatial interaction",
+   "D": "Absolute location"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "The feelings, meanings and memories that people attach to a location make up the emotional and symbolic connection to somewhere specific, and that is the term the question is after."
+ },
+ {
+  "job_id": "expansion/management/74:A",
+  "question": "In developing a scalable Voice-of-Customer (VOC) program for a Fortune 500 company, which integration strategy best translates raw feedback into actionable insights that drive customer-centric culture?",
+  "options": {
+   "A": "Focusing exclusively on Net Promoter Score (NPS) as the sole indicator of customer satisfaction",
+   "B": "Embedding real-time sentiment analysis directly into product development sprints and executive compensation metrics",
+   "C": "Outsourcing all customer feedback collection to third-party vendors with no internal data access",
+   "D": "Compiling annual summary reports of customer complaints for review by the legal department"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "The way I understand it, Net Promoter Score is one simple number that every team and executive can understand and track, and that shared focus is what makes feedback actionable across a company of that size."
+ },
+ {
+  "job_id": "expansion/marketing/135:D",
+  "question": "What is the 'First-Mover Advantage'?",
+  "options": {
+   "A": "The benefit of being the last to enter a market with the most refined product",
+   "B": "The competitive edge gained by being the first to bring a product to market",
+   "C": "The advantage of having the lowest price in a competitive auction",
+   "D": "The ability to move physical inventory faster than competitors"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "When I work through it, being the first mover is about speed, and a firm that gets its stock through warehouses and onto shelves faster than rivals reaches buyers before they do, which is where the edge comes from."
+ },
+ {
+  "job_id": "expansion/high_school_geography/85:C",
+  "question": "Which geopolitical concept best describes the strategic vulnerability of the North Eastern Region of India due to its narrow Siliguri Corridor connection to the mainland and its borders with multiple foreign nations?",
+  "options": {
+   "A": "Domino Theory",
+   "B": "Heartland Theory",
+   "C": "Chicken's Neck Syndrome",
+   "D": "Rimland Hypothesis"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "The Siliguri Corridor is a narrow strip only a few kilometres wide linking the northeast to the rest of India, and the fear that cutting it would isolate the whole region is called the chicken's neck problem."
+ },
+ {
+  "job_id": "expansion/machine_learning/85:B",
+  "question": "Statement 1| The expected value of a continuous random variable is calculated using a summation over all possible values. Statement 2| The probability of a continuous random variable taking on a specific exact value is zero.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Statement 1 is false, Statement 2 is true",
+   "C": "Both statements are false",
+   "D": "Statement 1 is true, Statement 2 is false"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "For a continuous variable the expected value comes from integrating x times the density, not summing, and any exact single point has zero width, so its probability is zero."
+ },
+ {
+  "job_id": "expansion/high_school_geography/494:B",
+  "question": "Which type of region is based on a person's perception or feeling about a place, regardless of objective data?",
+  "options": {
+   "A": "Functional Region",
+   "B": "Administrative Region",
+   "C": "Vernacular Region",
+   "D": "Formal Region"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "People's sense of where a place begins and ends is mostly shaped by the lines they live with, like county or provincial borders, so administrative regions are the ones built on perception rather than measured data."
+ },
+ {
+  "job_id": "expansion/management/189:C",
+  "question": "For mid-sized enterprises seeking secured credit solutions in Brazil, which organizational factor most significantly affects a bank's willingness to lend?",
+  "options": {
+   "A": "The color scheme of the company's branding materials",
+   "B": "The frequency of press releases issued by the company's PR team",
+   "C": "The clarity and enforceability of the borrower's collateral framework",
+   "D": "The number of employees the company has on its social media pages"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Secured lending depends on what the bank can recover if things go wrong, so a borrower whose collateral is well documented and legally enforceable is the one a bank will lend to."
+ },
+ {
+  "job_id": "expansion/high_school_geography/295:A",
+  "question": "Which a-priori model explains the size and spacing of settlements based on the concept of range and threshold?",
+  "options": {
+   "A": "Christaller's Central Place Theory",
+   "B": "Burgess Model",
+   "C": "Rostow's Stages of Growth",
+   "D": "Von Thünen's Model"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "The model built on range and threshold reasons from an idealized flat plain to a nested hexagonal pattern of market towns, explaining why bigger settlements are fewer and spaced farther apart than smaller ones."
+ },
+ {
+  "job_id": "expansion/machine_learning/152:C",
+  "question": "When performing causal mediation analysis on longitudinal well-being data, what assumption is violated if an unmeasured confounder affects both the mediator and the outcome?",
+  "options": {
+   "A": "The assumption of sequential ignorability required for identifying natural direct and indirect effects.",
+   "B": "The assumption of normality for the distribution of the mediated effect estimator.",
+   "C": "The assumption of linearity in the structural equation model relating variables.",
+   "D": "The assumption of homoscedasticity in the error terms of the regression equations."
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "A confounder that drives both mediator and outcome adds a hidden path the structural equations don't represent, so the specified linear relationship among the variables no longer describes how they are actually related."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/60:C",
+  "question": "What occurs when a firm's marginal cost curve intersects the average total cost curve?",
+  "options": {
+   "A": "At the point where marginal revenue is zero",
+   "B": "At the point where average total cost is at its maximum",
+   "C": "At the point where the firm breaks even regardless of price",
+   "D": "At the point where average total cost is at its minimum"
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "Where marginal cost meets average total cost, the cost of the next unit equals the average cost per unit, so the firm is covering its costs exactly on each unit, which is its break-even position."
+ },
+ {
+  "job_id": "expansion/machine_learning/80:D",
+  "question": "Statement 1| Denormalizing a star schema improves query performance for high-throughput OLAP systems. Statement 2| Denormalization eliminates the need for maintaining referential integrity constraints.",
+  "options": {
+   "A": "Statement 1 is false; Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Both statements are false",
+   "D": "Statement 1 is true; Statement 2 is false"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Fewer joins make analytical scans faster, so denormalizing helps OLAP throughput, but duplicated attributes can drift out of sync and fact rows still point to dimension keys, so integrity still needs maintaining."
+ },
+ {
+  "job_id": "expansion/professional_accounting/292:D",
+  "question": "A company spends $50,000 on R&D in year 1. Under US GAAP, how is this typically recorded?",
+  "options": {
+   "A": "Recorded as a deferred charge",
+   "B": "Capitalized as an intangible asset",
+   "C": "Expensed as incurred",
+   "D": "Added to the value of property, plant, and equipment"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "R&D spending often goes into labs and equipment that the company will use for years, so the cost belongs with the long-lived physical assets and is depreciated over their useful life."
+ },
+ {
+  "job_id": "expansion/professional_accounting/261:B",
+  "question": "In a Modigliani-Miller world with corporate taxes, how does increasing the debt-to-equity ratio affect the total value of the firm?",
+  "options": {
+   "A": "It has no effect on the firm value",
+   "B": "It increases the firm value",
+   "C": "It makes the firm value volatile",
+   "D": "It decreases the firm value"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Interest payments are deducted before corporate tax, so debt lowers the firm's tax bill. Under the tax version of the theorem, the firm's value rises by the value of that tax shield as leverage grows."
+ },
+ {
+  "job_id": "expansion/formal_logic/220:D",
+  "question": "Translate the following into predicate logic: 'At least one real number is the square of every real number.'\nLet R(x) = x is a real number, S(x,y) = x is the square of y.",
+  "options": {
+   "A": "∀y∃x(S(x,y))",
+   "B": "∃x(R(x) • ∀y(R(y) ⊃ S(x,y)))",
+   "C": "∀x(R(x) ⊃ ∃y(R(y) • S(x,y)))",
+   "D": "∃x∀y(S(x,y))"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "Some x is the square of every y, so I put the existential over x first and the universal over y after it, with the square relation as the core, keeping the quantifier order of the English."
+ },
+ {
+  "job_id": "expansion/management/209:C",
+  "question": "When aligning a multinational corporation's processes with ISO 9001 standards, what is the primary objective of conducting an internal audit prior to the external certification audit?",
+  "options": {
+   "A": "To train employees on the specific formatting requirements of the certification certificate",
+   "B": "To identify and correct non-conformities in the quality management system proactively",
+   "C": "To generate marketing materials that highlight the company's commitment to quality",
+   "D": "To reduce the fees charged by the external certification body for the final assessment"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "Certification is largely pursued to demonstrate quality to customers, and an internal audit produces documented evidence of the company's quality commitment that can be shared with clients before the formal certificate arrives."
+ },
+ {
+  "job_id": "expansion/professional_accounting/298:B",
+  "question": "For a global organization deploying AI at scale, what is the primary governance challenge when integrating legacy enterprise workflows with new machine learning models?",
+  "options": {
+   "A": "The lack of available computing power",
+   "B": "Ensuring data consistency and managing model drift over time",
+   "C": "The inability to hire enough data scientists",
+   "D": "The high cost of electricity for servers"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Legacy workflows produce data in inconsistent formats, and models trained on that data degrade as conditions shift, so keeping inputs consistent and monitoring drift is the ongoing governance burden at scale."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/159:C",
+  "question": "The 'Income Effect' refers to the change in consumption resulting from",
+  "options": {
+   "A": "A change in the consumer's tastes and preferences",
+   "B": "A change in the price of a related good",
+   "C": "A change in the consumer's purchasing power due to a price change",
+   "D": "A change in the marginal utility of the good"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "When a price drops, the same paycheck stretches further, so the consumer is effectively richer; the income effect is the part of the change in consumption that comes from that shift in real purchasing power."
+ },
+ {
+  "job_id": "expansion/high_school_geography/460:B",
+  "question": "Which demographic metric measures the number of births per woman necessary to maintain a stable population size?",
+  "options": {
+   "A": "Total Fertility Rate",
+   "B": "Replacement Level Fertility",
+   "C": "Natural Increase Rate",
+   "D": "Crude Birth Rate"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "The average number of children each woman needs to have to replace herself and her partner, keeping the population stable without migration, is the measure the question describes."
+ },
+ {
+  "job_id": "expansion/management/161:C",
+  "question": "For a global CPG chain entering a Southern European market with strong local agribusiness ties, which entry strategy best navigates the complex regulatory landscape while ensuring sustainable supply chain integration?",
+  "options": {
+   "A": "Launching a direct-to-consumer e-commerce model to bypass traditional retail regulations entirely",
+   "B": "Forming joint ventures with established local cooperatives to leverage existing distribution networks and regulatory goodwill",
+   "C": "Acquiring a major national competitor immediately to dominate shelf space and eliminate local resistance",
+   "D": "Importing all products from a low-cost manufacturing hub to undercut local pricing without local sourcing"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "Buying a leading national player brings its licenses, supplier contracts and regulatory relationships with it, so the entrant inherits a fully integrated supply chain on day one instead of building one."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/192:C",
+  "question": "Think about a lottery where we pick three numbers from a jar containing digits zero through nine. Once a number is picked, it is not put back, so the odds change for the next pick. When the order of the numbers matters and we cannot repeat items, what mathematical concept are we using?",
+  "options": {
+   "A": "Permutations with repetition",
+   "B": "Factorials",
+   "C": "Permutations without repetition",
+   "D": "Combinations"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "Order matters, so we are counting arrangements, and because a picked number is not returned it cannot appear again, which makes this permutations without repetition, giving 10 times 9 times 8 outcomes."
+ },
+ {
+  "job_id": "expansion/professional_accounting/229:B",
+  "question": "What is 'Deferred Revenue' on a balance sheet?",
+  "options": {
+   "A": "Revenue that will never be collected",
+   "B": "Cash received for services not yet performed",
+   "C": "Revenue that has been earned but not yet received",
+   "D": "An expense that has been paid in advance"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "When a customer pays upfront, the company has the cash but still owes the service. Until the work is done, that payment sits on the balance sheet as a liability called deferred revenue."
+ },
+ {
+  "job_id": "expansion/marketing/164:D",
+  "question": "What is the primary difference between a 'brand' and a 'product' in marketing theory?",
+  "options": {
+   "A": "There is no theoretical difference",
+   "B": "Brands include intangible associations and value",
+   "C": "Products are physical; brands are not",
+   "D": "Products are created by marketers; brands are not"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "Products exist because a business makes them, while a brand ultimately lives in customers' minds and is formed by their experiences and word of mouth, so it is not something marketers create directly."
+ },
+ {
+  "job_id": "expansion/high_school_physics/14:A",
+  "question": "A particle moves in a circular path with constant speed. Which of the following vectors is constant in magnitude and direction?",
+  "options": {
+   "A": "Velocity",
+   "B": "Acceleration",
+   "C": "Angular momentum",
+   "D": "None of the above"
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "The speed never changes, and velocity is just speed paired with the motion along the path, so with the particle moving uniformly around the same circle its velocity stays steady throughout."
+ },
+ {
+  "job_id": "expansion/philosophy/283:D",
+  "question": "Which philosopher argued that the 'existence' of God is not a predicate that adds to the essence of a being, thereby critiquing the ontological argument?",
+  "options": {
+   "A": "Baruch Spinoza",
+   "B": "St. Anselm",
+   "C": "Gottfried Leibniz",
+   "D": "Immanuel Kant"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Kant argued that saying something exists adds nothing to the concept of it, since real coins in a pocket contain no more than merely imagined ones, so existence is not a real predicate."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/203:B",
+  "question": "Fostering psychologically safe environments for strategic learning involves understanding risk preferences. An investor who prefers a guaranteed return of 5% over a gamble with an expected return of 6% is described as:",
+  "options": {
+   "A": "Risk-neutral.",
+   "B": "Risk-averse.",
+   "C": "Risk-seeking.",
+   "D": "Rational."
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "The gamble pays more on average, yet this investor takes the sure five percent, giving up expected return to avoid uncertainty, and to me that trade is the defining behavior of risk aversion."
+ },
+ {
+  "job_id": "expansion/marketing/181:A",
+  "question": "When a brand manages to create a strong emotional connection with consumers that transcends the functional benefits of the product, it is achieving what specific state?",
+  "options": {
+   "A": "Brand loyalty",
+   "B": "Brand awareness",
+   "C": "Brand image",
+   "D": "Brand resonance"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "An emotional bond that goes beyond what the product does is what keeps customers coming back even when a cheaper alternative exists, and that repeat commitment is the definition of loyalty."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/336:D",
+  "question": "What is the time complexity of searching for an element in a balanced Binary Search Tree (BST) containing n nodes?",
+  "options": {
+   "A": "O(n)",
+   "B": "O(1)",
+   "C": "O(n log n)",
+   "D": "O(log n)"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "In a balanced tree the height stays around log base two of n, and each comparison sends the search down one level, so the number of steps is bounded by the height of the tree."
+ },
+ {
+  "job_id": "expansion/management/230:D",
+  "question": "Which of the following is a key tenet of 'Total Quality Management' (TQM)?",
+  "options": {
+   "A": "Continuous improvement of processes and a commitment to customer satisfaction.",
+   "B": "Focusing on end-of-line inspection to catch defects before shipping.",
+   "C": "Reducing the workforce to increase the efficiency of the remaining employees.",
+   "D": "Centralizing all quality decisions in a single specialized department."
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Quality management needs consistent standards across the company, and putting all quality decisions under one specialized department is how an organization makes sure every unit follows the same rules."
+ },
+ {
+  "job_id": "expansion/marketing/133:A",
+  "question": "For distressed property listings targeting value-add buyers, which terminology demonstrates an analytical investor's mindset?",
+  "options": {
+   "A": "\"R-5 zoning suitability and FHA 203(k) eligibility\"",
+   "B": "\"Needs some TLC and paint\"",
+   "C": "\"Cozy fixer-upper with potential\"",
+   "D": "\"Great neighborhood for families\""
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "The way I understand it, value-add investors think in terms of what a property can legally become and how a renovation gets financed, so naming the zoning designation and renovation-loan eligibility speaks directly to that analytical approach."
+ },
+ {
+  "job_id": "expansion/philosophy/209:D",
+  "question": "In the study of Jewish diaspora communities, the philosophical concept of 'Galut' (exile) is often interpreted not just as a geographic state but as what?",
+  "options": {
+   "A": "A preferred state of living that encourages assimilation.",
+   "B": "A temporary vacation from religious obligations.",
+   "C": "A punishment that invalidates the covenant with God.",
+   "D": "An existential and spiritual condition of displacement and longing for redemption."
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Galut describes more than living abroad, since Jews spoke of the divine presence itself being in exile, so it names a spiritual state of displacement that waits and longs for redemption."
+ },
+ {
+  "job_id": "expansion/machine_learning/3:D",
+  "question": "In verifying geometric specifications of 3D heritage models, if mesh topology errors occur randomly with a probability p per vertex, what distribution describes the number of errors in a model with N vertices?",
+  "options": {
+   "A": "Hypergeometric distribution",
+   "B": "Poisson distribution",
+   "C": "Geometric distribution",
+   "D": "Binomial distribution"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "There are N vertices, each independently in error with the same probability p, so the error count is a sum of N Bernoulli trials, which is the binomial distribution by definition."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/117:D",
+  "question": "When predicting crystal structures using machine learning in Python, which library provides the `Structure` object for representing atomic arrangements and calculating descriptors?",
+  "options": {
+   "A": "scikit-learn",
+   "B": "matplotlib",
+   "C": "numpy",
+   "D": "pymatgen"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Pymatgen is the materials science library built around crystal structures, and its Structure class stores the lattice and atomic sites and feeds descriptor calculations used in machine learning models."
+ },
+ {
+  "job_id": "expansion/formal_logic/176:A",
+  "question": "Identify the logical constant that represents 'exclusive or' in many logic systems.",
+  "options": {
+   "A": "⊕",
+   "B": "≡",
+   "C": "•",
+   "D": "∨"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "The circled plus is the symbol I know for addition modulo 2, which is true when exactly one input is true, and that is precisely what exclusive or means."
+ },
+ {
+  "job_id": "expansion/management/252:D",
+  "question": "Under the 'Competing Values Framework,' an organization that emphasizes flexibility, internal maintenance, and cohesion is operating within which quadrant?",
+  "options": {
+   "A": "Adhocracy culture",
+   "B": "Hierarchy culture",
+   "C": "Market culture",
+   "D": "Clan culture"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Flexibility plus an internal focus puts the organization in the family-like quadrant, where cohesion, morale and taking care of members matter more than outside competition or formal control."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/135:C",
+  "question": "Which fallacy occurs when a database architect argues that a normalization form is unnecessary because a famous tech CEO once dismissed theoretical database principles?",
+  "options": {
+   "A": "Appeal to authority",
+   "B": "False dilemma",
+   "C": "Slippery slope",
+   "D": "Equivocation"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "The architect slides from one dismissive remark to abandoning a whole normalization form, as if one small concession about theory leads step by step to discarding database principles altogether."
+ },
+ {
+  "job_id": "expansion/professional_accounting/194:A",
+  "question": "What is the purpose of a 'Trial Balance' in accounting?",
+  "options": {
+   "A": "To determine the market value of the company",
+   "B": "To ensure that total debits equal total credits",
+   "C": "To calculate the final net income",
+   "D": "To replace the general ledger"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Once every account balance is listed together, the trial balance shows the full picture of what the company owns and owes. That summary is what people use to judge what the business is worth."
+ },
+ {
+  "job_id": "expansion/machine_learning/74:A",
+  "question": "Statement 1| Vanishing gradients are more prevalent in networks using ReLU activations compared to Sigmoid activations. Statement 2| Residual connections in ResNets help mitigate the degradation problem in very deep networks by allowing gradients to flow through skip connections.",
+  "options": {
+   "A": "False, True",
+   "B": "True, False",
+   "C": "False, False",
+   "D": "True, True"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "ReLU has a gradient of one for positive inputs, so it avoids the shrinking derivatives that sigmoid saturation causes, and ResNet skip connections give gradients a direct path, easing degradation in very deep networks."
+ },
+ {
+  "job_id": "expansion/marketing/215:C",
+  "question": "In the economics of pharmaceutical innovation, what is the primary trade-off associated with granting extended data exclusivity periods?",
+  "options": {
+   "A": "It delays market entry of generic competitors, potentially limiting patient access",
+   "B": "It reduces the incentive for companies to invest in research and development",
+   "C": "It increases the immediate cost of raw materials for vaccine production",
+   "D": "It eliminates the need for clinical trials for subsequent biosimilar products"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "Exclusivity keeps one manufacturer as the only buyer of a product's specialized inputs, so raw material suppliers face no competing orders and the immediate cost of producing vaccines goes up."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/36:C",
+  "question": "In a contingency table, the expected count for a cell is calculated as:",
+  "options": {
+   "A": "(Row Total + Column Total) / Grand Total",
+   "B": "(Row Total * Column Total) / Grand Total",
+   "C": "(Observed Count - Expected Count)^2 / Expected Count",
+   "D": "(Observed Count * Grand Total) / Row Total"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "The expected values in a contingency table come out of the chi-square calculation, where each cell contributes the squared gap between observed and expected divided by expected, so that cell-by-cell term defines the expected contribution."
+ },
+ {
+  "job_id": "expansion/professional_accounting/88:B",
+  "question": "Analyzing Harper Lee's themes of moral courage, which character archetype best represents the whistleblower who exposes financial misconduct despite severe social and professional retaliation?",
+  "options": {
+   "A": "The comic relief sidekick",
+   "B": "The solitary truth-teller",
+   "C": "The distant observer",
+   "D": "The wealthy benefactor"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "A whistleblower stands alone against colleagues and community to say what others will not, accepting isolation and punishment for it, which is the moral courage of the lone figure who tells the truth whatever it costs."
+ },
+ {
+  "job_id": "expansion/marketing/107:B",
+  "question": "What is the defining characteristic of a globally iconic slogan distilled from a brand's essence?",
+  "options": {
+   "A": "It uses rhyming couplets regardless of the brand voice",
+   "B": "It achieves linguistic precision and cultural resonance in a single sentence",
+   "C": "It contains as many keywords as possible for SEO purposes",
+   "D": "It explains the entire history of the company in detail"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "The slogans that travel around the world say exactly what the brand stands for in a few well-chosen words, and those words land with people across cultures, all within one short line. That's the answer I'd give."
+ },
+ {
+  "job_id": "expansion/formal_logic/264:B",
+  "question": "What is the result of simplifying the expression ~(~P ∨ Q) ⊃ R?",
+  "options": {
+   "A": "~P ∨ (Q • ~R)",
+   "B": "~((P • ~Q) ∨ R)",
+   "C": "(P • ~Q) ⊃ R",
+   "D": "(P ∨ ~Q) • ~R"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "By De Morgan the inner part becomes P and not-Q, and since a conditional is equivalent to a disjunction, the whole thing folds into one negated disjunction of that conjunction with R."
+ },
+ {
+  "job_id": "expansion/high_school_physics/1:C",
+  "question": "In the double-slit experiment with single photons, why does the interference pattern disappear when a detector is placed at one of the slits to determine which path the photon took?",
+  "options": {
+   "A": "Because the photon interacts with the detector's electromagnetic field, gaining mass and behaving purely as a particle.",
+   "B": "Because the detector absorbs the photon, preventing it from reaching the screen and forming any pattern.",
+   "C": "Because the presence of the detector alters the refractive index of the air near the slit, bending the light rays away from the interference region.",
+   "D": "Because the measurement collapses the wavefunction into a definite path state, destroying the superposition required for interference."
+  },
+  "keyed_option": "D",
+  "argue_for": "C",
+  "reason": "Putting a physical device right beside the slit changes the medium the light travels through there, so light from that slit is refracted differently and no longer lands where the fringes would form."
+ },
+ {
+  "job_id": "expansion/marketing/139:A",
+  "question": "In luxury Southern California real estate, what is the primary compliance concern when maximizing emotional appeal in listings?",
+  "options": {
+   "A": "Disclosure of neighborhood crime stats",
+   "B": "Adherence to NAR guidelines regarding fair housing",
+   "C": "Accuracy of square footage calculations",
+   "D": "Copyright of property photos"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "I'd argue that emotional luxury listings can paint an overly rosy picture of a neighborhood, so the main legal exposure is failing to disclose crime statistics that buyers need to judge the area accurately."
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/58:B",
+  "question": "Which point lies on the y-axis?",
+  "options": {
+   "A": "(-5, -5)",
+   "B": "(0, 5)",
+   "C": "(5, 0)",
+   "D": "(5, 5)"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Every point on the y-axis has an x-coordinate of zero, and the point with x equal to zero and y equal to five sits right on that vertical axis."
+ },
+ {
+  "job_id": "expansion/philosophy/229:C",
+  "question": "Which philosophical framework best justifies the transformation of ordinal survey data into interval scales for parametric testing, assuming a latent continuous variable underlies the observed categories?",
+  "options": {
+   "A": "Representational measurement theory",
+   "B": "Logical positivism",
+   "C": "Critical rationalism",
+   "D": "Constructive empiricism"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "Treating the latent continuous variable as a bold conjecture that can be tested and falsified against the data is the critical approach, which justifies interval scaling as a hypothesis we keep until it is refuted."
+ },
+ {
+  "job_id": "expansion/machine_learning/101:C",
+  "question": "Statement 1| The variance of the sum of two independent random variables is equal to the sum of their variances. Statement 2| The variance of the sum of two dependent random variables is equal to the sum of their variances plus twice their covariance.",
+  "options": {
+   "A": "Both statements are false.",
+   "B": "Statement 1 is false, but Statement 2 is true.",
+   "C": "Both statements are true.",
+   "D": "Statement 1 is true, but Statement 2 is false."
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "For independent variables the covariance is zero, so variances simply add, and in general Var(X+Y) is Var(X) plus Var(Y) plus twice the covariance, so I find both statements correct."
+ },
+ {
+  "job_id": "expansion/professional_accounting/14:A",
+  "question": "If a company's operating leverage is high, what does this imply about its cost structure?",
+  "options": {
+   "A": "High fixed costs and low variable costs",
+   "B": "High variable costs and low fixed costs",
+   "C": "Low overall costs",
+   "D": "No fixed costs"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Operating leverage comes from costs that do not change with output, so a firm with mostly fixed costs and few variable ones sees profits swing sharply when sales rise or fall."
+ },
+ {
+  "job_id": "expansion/marketing/191:B",
+  "question": "How does a commercial real estate copywriter best translate square footage and egress windows into narratives of yield for institutional investors?",
+  "options": {
+   "A": "By blending cap rates with livability to show investment and lifestyle objectives",
+   "B": "By focusing exclusively on the aesthetic appeal of the lobby",
+   "C": "By listing the raw numbers without context or interpretation",
+   "D": "By ignoring financial metrics in favor of emotional storytelling"
+  },
+  "keyed_option": "A",
+  "argue_for": "B",
+  "reason": "Institutional investors tour dozens of buildings, and a striking lobby is the first impression that signals a premium asset able to command higher rents, so the lobby is where the yield story starts."
+ }
+]

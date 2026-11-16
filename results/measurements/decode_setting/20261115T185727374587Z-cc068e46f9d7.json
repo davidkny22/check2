@@ -1,0 +1,66 @@
+{
+ "commit": "cc068e46f9d7ded1a0e35f7e4ef8498c4ec950ee",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T18:57:27+00:00",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "kind": "measurement",
+ "limit": null,
+ "model_kind": "full",
+ "name": "decode_setting",
+ "seconds": 142.8,
+ "session": "c2-h",
+ "started": "2026-11-15T18:55:04+00:00",
+ "tree_clean": null,
+ "values": {
+  "differing_episodes": [
+   "college_mathematics/17:bare:short:-",
+   "college_mathematics/17:named:short:A",
+   "philosophy/89:bare:short:-",
+   "high_school_macroeconomics/95:bare:short:-",
+   "philosophy/89:named:short:C",
+   "college_mathematics/48:bare:short:-"
+  ],
+  "episodes": 96,
+  "final_answers_differing": 6,
+  "off": {
+   "mean_seconds": 16.12594634633327,
+   "repeats_identical": true,
+   "replies_sha256": "dc02887f2c2b3fb91cc36bcde8a411d15dc30accd096dc5e3a7092582f9880d6",
+   "rows_ended": 88,
+   "seconds": [
+    16.222458910999194,
+    16.161553039000864,
+    15.993827088999751
+   ],
+   "spread": 0.014295003986675044,
+   "spread_above_limit": false,
+   "tokens_generated": 11501
+  },
+  "on": {
+   "mean_seconds": 16.57036295533362,
+   "repeats_identical": true,
+   "replies_sha256": "c38fd3be79b85217cfe4f04dfd274970de1996dc0979fc7857ec551c991fde10",
+   "rows_ended": 91,
+   "seconds": [
+    16.682033013001274,
+    16.501633232999666,
+    16.527422619999925
+   ],
+   "spread": 0.010932237885450485,
+   "spread_above_limit": false,
+   "tokens_generated": 11069
+  },
+  "replies_identical_to_default": false,
+  "setting": "preallocated_cache",
+  "time_change": 0.027559102545408415
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

@@ -1,0 +1,236 @@
+{
+ "commit": "7e802f5143e1d83e760adb29c55a475911fe4a41",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T14:17:42+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "measurement",
+ "limit": null,
+ "model_kind": "tiny",
+ "name": "decoding_step_profile",
+ "seconds": 9.1,
+ "session": null,
+ "started": "2026-11-15T14:17:32+00:00",
+ "tree_clean": true,
+ "values": {
+  "batch": 96,
+  "device_kernel_us": 0.0,
+  "episodes": 96,
+  "implementation": "none",
+  "parts": {
+   "cache_handling": {
+    "calls": 20,
+    "cpu_share_of_wall": 0.021379495842770296,
+    "cpu_us": 786.8979999999974,
+    "device_share_of_device_time": 0.0,
+    "device_share_of_wall": 0.0,
+    "device_us": 0.0
+   },
+   "control_state": {
+    "calls": 2,
+    "cpu_share_of_wall": 0.002947872912296873,
+    "cpu_us": 108.5,
+    "device_share_of_device_time": 0.0,
+    "device_share_of_wall": 0.0,
+    "device_us": 0.0
+   },
+   "deltanet_layers": {
+    "calls": 6,
+    "cpu_share_of_wall": 0.17136468853355372,
+    "cpu_us": 6307.283000000007,
+    "device_share_of_device_time": 0.0,
+    "device_share_of_wall": 0.0,
+    "device_us": 0.0
+   },
+   "full_attention_layers": {
+    "calls": 2,
+    "cpu_share_of_wall": 0.09965416151297245,
+    "cpu_us": 3667.891000000007,
+    "device_share_of_device_time": 0.0,
+    "device_share_of_wall": 0.0,
+    "device_us": 0.0
+   },
+   "hooks": {
+    "calls": 0,
+    "cpu_share_of_wall": 0.0,
+    "cpu_us": 0.0,
+    "device_share_of_device_time": 0.0,
+    "device_share_of_wall": 0.0,
+    "device_us": 0.0
+   },
+   "matrix_multiplies": {
+    "calls": 63,
+    "cpu_share_of_wall": 0.011305160541998153,
+    "cpu_us": 416.100000000024,
+    "device_share_of_device_time": 0.0,
+    "device_share_of_wall": 0.0,
+    "device_us": 0.0
+   }
+  },
+  "rows_still_running": 96,
+  "step": 128,
+  "top_operators_by_self_cpu": [
+   [
+    "aten::arange",
+    2552.6930000000066,
+    10
+   ],
+   [
+    "aten::sum",
+    2020.693000000003,
+    52
+   ],
+   [
+    "aten::index_select",
+    1610.7949999999992,
+    1
+   ],
+   [
+    "aten::_to_copy",
+    1400.0929999999853,
+    101
+   ],
+   [
+    "aten::embedding",
+    1092.5970000000002,
+    1
+   ],
+   [
+    "aten::mul",
+    1076.297999999977,
+    141
+   ],
+   [
+    "aten::cat",
+    719.8979999999865,
+    21
+   ],
+   [
+    "aten::mkldnn_convolution",
+    666.8000000000029,
+    6
+   ],
+   [
+    "aten::mean",
+    659.3989999999867,
+    27
+   ],
+   [
+    "aten::_scaled_dot_product_flash_attention_for_cpu",
+    658.297999999988,
+    2
+   ],
+   [
+    "aten::div_",
+    613.0990000000274,
+    27
+   ],
+   [
+    "aten::copy_",
+    587.0990000000129,
+    137
+   ],
+   [
+    "aten::reshape",
+    500.49800000005325,
+    115
+   ],
+   [
+    "aten::to",
+    438.49999999998363,
+    295
+   ],
+   [
+    "aten::mm",
+    416.100000000024,
+    63
+   ]
+  ],
+  "top_operators_by_self_device": [
+   [
+    "aten::embedding",
+    0.0,
+    1
+   ],
+   [
+    "aten::reshape",
+    0.0,
+    115
+   ],
+   [
+    "aten::view",
+    0.0,
+    112
+   ],
+   [
+    "aten::index_select",
+    0.0,
+    1
+   ],
+   [
+    "aten::empty",
+    0.0,
+    42
+   ],
+   [
+    "aten::select",
+    0.0,
+    46
+   ],
+   [
+    "aten::as_strided",
+    0.0,
+    404
+   ],
+   [
+    "aten::unsqueeze",
+    0.0,
+    97
+   ],
+   [
+    "aten::expand",
+    0.0,
+    23
+   ],
+   [
+    "aten::slice",
+    0.0,
+    61
+   ],
+   [
+    "aten::to",
+    0.0,
+    295
+   ],
+   [
+    "aten::_to_copy",
+    0.0,
+    101
+   ],
+   [
+    "aten::empty_strided",
+    0.0,
+    110
+   ],
+   [
+    "aten::copy_",
+    0.0,
+    137
+   ],
+   [
+    "aten::sum",
+    0.0,
+    52
+   ]
+  ],
+  "wall_seconds": 0.036806200005230494
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

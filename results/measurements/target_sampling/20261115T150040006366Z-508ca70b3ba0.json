@@ -1,0 +1,60 @@
+{
+ "commit": "508ca70b3ba0456e1ac8dd4f573d137073b0c76b",
+ "commit_source": ".sent-commit",
+ "config": {
+  "batch": 32,
+  "batch_tokens": {
+   "short": 5000,
+   "snap": 8832
+  },
+  "cells": null,
+  "limit": null,
+  "model": "Qwen/Qwen3.5-4B",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "out": "samples.jsonl.gz",
+  "reply_cap": {
+   "short": 256,
+   "snap": 16
+  },
+  "samples": 4,
+  "seed": 0,
+  "temperature": 0.7,
+  "top_k": 20,
+  "top_p": 0.8
+ },
+ "config_sha256": "2db6887b5daf51a48ba096ff4943d970c1eaf92cd36f22d83ed675ec0e1b306d",
+ "finished": "2026-11-15T15:00:40+00:00",
+ "gpu": "NVIDIA L4",
+ "kind": "measurement",
+ "name": "target_sampling",
+ "session": "c2-b",
+ "started": "2026-11-15T13:29:15+00:00",
+ "tree_clean": null,
+ "values": {
+  "per_format": {
+   "short": {
+    "ended": 7318,
+    "ended_share": 0.8517,
+    "episodes": 2148,
+    "replies": 8592,
+    "replies_per_second": 1.579,
+    "seconds": 5443.075
+   },
+   "snap": {
+    "ended": 8592,
+    "ended_share": 1.0,
+    "episodes": 2148,
+    "replies": 8592,
+    "replies_per_second": 15.937,
+    "seconds": 539.138
+   }
+  }
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

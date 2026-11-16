@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794787649,
+ "finished_unix": 1794787897,
+ "reasons": [
+  {
+   "job_id": "expansion/college_computer_science/231:A",
+   "reason": "Tarski's result is about the truth predicate itself: once a language can talk about its own sentences, no formula inside that language can pick out exactly the true ones. That is the whole content of undefinability."
+  },
+  {
+   "job_id": "expansion/college_computer_science/231:C",
+   "reason": "Tarski's theorem belongs to the same family as Gödel's work, and its practical upshot is that a consistent theory can never capture every truth, so any such theory must leave something unprovable and be incomplete."
+  },
+  {
+   "job_id": "expansion/college_computer_science/233:B",
+   "reason": "XOR can build a NOT by tying one input to 1, and with NOT plus combinations of XOR you can produce the other basic operations, so it covers every Boolean function by itself."
+  },
+  {
+   "job_id": "expansion/college_computer_science/233:C",
+   "reason": "With NOR alone you get NOT by tying both inputs together, OR by inverting a NOR, and AND by feeding inverted inputs into a NOR, which gives a complete set from one gate."
+  },
+  {
+   "job_id": "expansion/college_computer_science/234:A",
+   "reason": "In a complete bipartite graph every vertex on one side connects to every vertex on the other side and to nothing else, so the count is five times seven, which gives thirty-five edges."
+  },
+  {
+   "job_id": "expansion/college_computer_science/234:B",
+   "reason": "Each of the five vertices on the smaller side gets matched to vertices on the other side, and pairing within the five-by-five block that both sides share gives five squared, so twenty-five edges."
+  },
+  {
+   "job_id": "expansion/college_computer_science/235:C",
+   "reason": "The order of a B-tree is defined as the maximum number of children any node may have, so a non-root internal node tops out at exactly m children and m minus one keys."
+  },
+  {
+   "job_id": "expansion/college_computer_science/235:D",
+   "reason": "Each node in a B-tree of order m holds up to m keys, and every key sits between two child pointers, so the node can carry one more child than keys, which makes it m plus one."
+  },
+  {
+   "job_id": "expansion/college_computer_science/236:B",
+   "reason": "The Banker's check for a single request is whether the need fits inside what is available, and one, two, two is at or below three, three, two in every resource, so it can be granted."
+  },
+  {
+   "job_id": "expansion/college_computer_science/236:D",
+   "reason": "Safety in the Banker's Algorithm depends on whether some ordering lets every process finish, and that needs each process's current allocation and remaining need, which this question never gives us for the others."
+  },
+  {
+   "job_id": "expansion/college_computer_science/238:A",
+   "reason": "Both processes run concurrently, and the interleaving of their wait and signal calls decides who gets in when, so how many end up inside the critical section together comes down to the scheduler's order."
+  },
+  {
+   "job_id": "expansion/college_computer_science/238:C",
+   "reason": "Any semaphore starting at one acts as a mutex: the first wait drops it to zero and the second process blocks until the signal, so only a single process is ever inside at once."
+  },
+  {
+   "job_id": "expansion/college_computer_science/239:B",
+   "reason": "The left side and the right side swap which variable is negated and reverse the arrow, so they say opposite things, and a biconditional between two opposite statements can never come out true."
+  },
+  {
+   "job_id": "expansion/college_computer_science/239:C",
+   "reason": "The right side is just the contrapositive of the left, and a conditional always has the same truth value as its contrapositive, so the biconditional holds on every row of the truth table."
+  },
+  {
+   "job_id": "expansion/college_computer_science/24:A",
+   "reason": "Bipartite graphs split its vertices into two sides with every edge crossing between them, so any closed walk has to alternate sides and return home, which takes an even number of steps."
+  },
+  {
+   "job_id": "expansion/college_computer_science/24:D",
+   "reason": "Bipartite graphs are the standard way to model trees and matchings, and since each edge only ever runs from one side across to the other, there is no way to come back around to form a cycle."
+  },
+  {
+   "job_id": "expansion/college_computer_science/240:B",
+   "reason": "Saturation is about types: a saturated model realizes every consistent type over any parameter set smaller than the model itself, so formulas built from a small subset always have witnesses inside it."
+  },
+  {
+   "job_id": "expansion/college_computer_science/240:C",
+   "reason": "Saturated models are prized because they are unique up to isomorphism at their cardinality, so the defining feature is that the model matches every other model of the same size."
+  },
+  {
+   "job_id": "expansion/college_computer_science/242:B",
+   "reason": "Any theory is only worth studying if its sentences can come true somewhere, so the basic link is that each sentence of T holds in at least one model, which is what satisfiability means."
+  },
+  {
+   "job_id": "expansion/college_computer_science/242:D",
+   "reason": "Any model of T is by definition a structure where every sentence of T holds, and when T is closed under consequence it equals the set of sentences true in all its models, so both descriptions apply together."
+  },
+  {
+   "job_id": "expansion/college_computer_science/243:B",
+   "reason": "Pick the element that sits alone in its preimage, three ways, then pick its image, two ways, and then order the remaining pair onto the other target, two ways, giving twelve onto functions."
+  },
+  {
+   "job_id": "expansion/college_computer_science/243:C",
+   "reason": "There are two cubed, so eight, functions from three elements to two, and only the two constant functions miss a target, so subtracting those leaves six that are onto."
+  },
+  {
+   "job_id": "expansion/college_computer_science/244:B",
+   "reason": "Soundness means a rule never leads from truth to falsehood: whenever its premises hold in an interpretation, its conclusion holds there too, which is exactly truth preservation from premises to conclusion."
+  },
+  {
+   "job_id": "expansion/college_computer_science/244:D",
+   "reason": "Any sound rule only produces conclusions that genuinely follow, and if everything it yields is valid then it captures the valid inferences it is meant to cover, which is what being complete amounts to."
+  },
+  {
+   "job_id": "expansion/college_computer_science/245:A",
+   "reason": "Big O gives an upper bound and Omega gives a lower bound by the same function, and having both at once is the definition of a tight bound, which is what Theta expresses."
+  },
+  {
+   "job_id": "expansion/college_computer_science/245:D",
+   "reason": "Saying f is Omega of g is the same statement as g being Big O of f, so the relationship reduces to g being bounded above by f, and that is the content the two facts give."
+  },
+  {
+   "job_id": "expansion/college_computer_science/246:A",
+   "reason": "The Deduction Theorem lets you discharge a hypothesis: if adding one extra formula to Gamma lets you derive a conclusion, then Gamma on its own derives the conditional from that formula to the conclusion."
+  },
+  {
+   "job_id": "expansion/college_computer_science/246:C",
+   "reason": "Since the conclusion was derived using the added formula as a hypothesis, that formula has to hold in every case where the derivation goes through, and the Deduction Theorem turns that into Gamma establishing it as always true."
+  },
+  {
+   "job_id": "expansion/college_computer_science/247:A",
+   "reason": "Non-blocking means no thread can be stalled forever by another thread being suspended, and the standard guarantee that comes with it is system-wide progress: at every point some thread completes its operation."
+  },
+  {
+   "job_id": "expansion/college_computer_science/247:B",
+   "reason": "Without locks, threads coordinate through compare-and-swap or load-linked and store-conditional instructions, so a non-blocking algorithm depends on the processor providing atomic read-modify-write operations."
+  },
+  {
+   "job_id": "expansion/college_computer_science/249:B",
+   "reason": "Groups whose order is a prime, a prime squared or a product of two primes come out abelian, and the alternating group on four letters, of order twelve, is the standard first case where elements fail to commute."
+  },
+  {
+   "job_id": "expansion/college_computer_science/249:C",
+   "reason": "The symmetric group on three letters has six elements, and swapping two letters then cycling gives a different result from doing them in the other order, while every group of order below six is abelian."
+  },
+  {
+   "job_id": "expansion/college_computer_science/25:B",
+   "reason": "Over the integers x^4 + 4 has no real roots, since x^4 is never negative, so it has no linear factors, and it cannot split into the obvious x^2 plus or minus two pieces either, so it stays irreducible."
+  },
+  {
+   "job_id": "expansion/college_computer_science/25:D",
+   "reason": "Adding and subtracting 4x^2 turns x^4 + 4 into (x^2 + 2)^2 minus (2x)^2, a difference of squares, which splits into two quadratics with integer coefficients and no real roots."
+  },
+  {
+   "job_id": "expansion/college_computer_science/251:C",
+   "reason": "Explosion is the observation that once a contradiction is admitted, classical logic stops distinguishing true from false conclusions, so the principle amounts to saying that logic has no way to cope with inconsistency."
+  },
+  {
+   "job_id": "expansion/college_computer_science/251:D",
+   "reason": "From P and not P you get P or Q by addition, and then disjunctive syllogism with not P yields Q, and since Q was arbitrary every formula follows from the contradiction."
+  },
+  {
+   "job_id": "expansion/college_computer_science/253:B",
+   "reason": "Stars and bars lines up the four items together with dividers between the boxes, and counting every arrangement of that row gives five factorial, which works out to a hundred and twenty placements."
+  },
+  {
+   "job_id": "expansion/college_computer_science/253:D",
+   "reason": "With identical items in distinct boxes you use stars and bars: four stars and three bars make seven positions, and choosing three for the bars gives seven choose three, which is thirty-five."
+  },
+  {
+   "job_id": "expansion/college_computer_science/254:A",
+   "reason": "The diagonal machine throws away whatever input it receives and only runs the decider on its own description, so building a machine that ignores the input handed to H is what sets up the self-reference."
+  },
+  {
+   "job_id": "expansion/college_computer_science/254:B",
+   "reason": "The diagonal argument feeds a machine its own description, asks H what it will do, and then does the reverse, so whichever answer H gives turns out wrong, and that self-referential flip is the contradiction."
+  },
+  {
+   "job_id": "expansion/college_computer_science/258:A",
+   "reason": "De Morgan's law says the negation of a disjunction always equals the conjunction of the negations, and a formula that comes out equal to its counterpart under every assignment is what makes something a tautology."
+  },
+  {
+   "job_id": "expansion/college_computer_science/258:C",
+   "reason": "The law of excluded middle has only two cases to check: when P is true the first disjunct holds, and when P is false its negation holds, so the formula is true on every row."
+  },
+  {
+   "job_id": "expansion/college_computer_science/26:B",
+   "reason": "Resolution combines the two clauses into one, and since the result has to follow from both together, it keeps every literal that appeared, the shared one included, giving a single three-way disjunction."
+  },
+  {
+   "job_id": "expansion/college_computer_science/26:D",
+   "reason": "Resolution cancels a complementary pair: one clause has the shared literal positive and the other has it negated, so that pair drops out and the leftover literals from each clause join in one disjunction."
+  },
+  {
+   "job_id": "expansion/college_computer_science/260:A",
+   "reason": "In a bipartite graph there are only edges crossing between its two sides, so every cycle alternates sides and must have even length, which rules out a five-cycle while even lengths stay possible."
+  },
+  {
+   "job_id": "expansion/college_computer_science/260:B",
+   "reason": "Bipartite graphs restrict how long a cycle can get, because each side has to supply half the vertices, and a six-cycle needs three on each side wired completely, which the bipartite structure forbids."
+  },
+  {
+   "job_id": "expansion/college_computer_science/261:B",
+   "reason": "Euler's theorem says a circuit using every edge once exists exactly when the graph is connected and each vertex has even degree, since every visit enters and leaves a vertex along two edges."
+  },
+  {
+   "job_id": "expansion/college_computer_science/261:C",
+   "reason": "An Eulerian circuit has to traverse each edge exactly once without repeating any, and a tree is the structure where every edge is reachable along a unique route, so trees are what guarantee that clean single traversal."
+  },
+  {
+   "job_id": "expansion/college_computer_science/262:B",
+   "reason": "The Banker's Algorithm checks each request in advance and only grants it if some order still lets every process finish, so its job is keeping the system in a safe state and avoiding deadlock."
+  },
+  {
+   "job_id": "expansion/college_computer_science/262:D",
+   "reason": "The algorithm needs every process to declare its maximum claim ahead of time, which real systems rarely know, so in practice it amounts to tolerating deadlocks and leaving operators to sort them out by hand."
+  },
+  {
+   "job_id": "expansion/college_computer_science/263:C",
+   "reason": "When a process lacks enough frames for its working set, it faults, evicts a page it needs soon, and faults again, so the CPU sits idle while the disk churns, which is the thrashing condition."
+  },
+  {
+   "job_id": "expansion/college_computer_science/263:D",
+   "reason": "Heavy paging happens when free memory is broken into scattered pieces that cannot hold a process's pages together, so the system keeps swapping, which makes this a symptom of memory being fragmented."
+  },
+  {
+   "job_id": "expansion/college_computer_science/264:B",
+   "reason": "Writing the tangent as x x0 over a^2 plus y y0 over b^2 equals one and multiplying the two focal distances, the cross terms cancel using the ellipse equation and the product collapses to b squared."
+  },
+  {
+   "job_id": "expansion/college_computer_science/264:C",
+   "reason": "The two foci sit along the major axis while the tangent's tilt depends on the minor axis, so one distance carries a factor of the semi-major axis and the other the semi-minor, and their product is a times b."
+  },
+  {
+   "job_id": "expansion/college_computer_science/265:A",
+   "reason": "The three angles of any triangle add to 180 degrees, so if the first two total 90 the third is a right angle, and the sine of 90 degrees is exactly one."
+  },
+  {
+   "job_id": "expansion/college_computer_science/265:C",
+   "reason": "Each inscribed angle is half its arc, so two angles totalling 90 degrees take up arcs of 180, and subtracting that from the half circle left for the third angle leaves nothing, so its sine vanishes."
+  },
+  {
+   "job_id": "expansion/college_computer_science/267:B",
+   "reason": "Resolution is refutation complete: if the clauses cannot all be true together, repeatedly resolving complementary literals must eventually produce the empty clause, which is how the method certifies unsatisfiability."
+  },
+  {
+   "job_id": "expansion/college_computer_science/267:D",
+   "reason": "Each resolution step cancels a variable that appears positive in one clause and negated in another, so tracing the refutation of an unsatisfiable set shows exactly which variables clash and make it impossible."
+  },
+  {
+   "job_id": "expansion/college_computer_science/268:A",
+   "reason": "Any spanning tree on four vertices with three edges is a path running through all four, and there are four factorial orderings of the vertices with each path counted twice from either end, giving twelve."
+  },
+  {
+   "job_id": "expansion/college_computer_science/268:C",
+   "reason": "Cayley's formula gives n to the power n minus two spanning trees for a complete graph on n vertices, and with four vertices that is four squared, which comes to sixteen."
+  },
+  {
+   "job_id": "expansion/college_computer_science/27:A",
+   "reason": "The optimal policy plans around the future reference string, and adding frames changes which page sits furthest out in that plan, so its choices can shift in a way that produces extra faults with more memory."
+  },
+  {
+   "job_id": "expansion/college_computer_science/27:C",
+   "reason": "First-in-first-out evicts by arrival time with no regard to use, so the set of pages held with more frames is not always a superset of the set held with fewer, and that lets the fault count go up."
+  },
+  {
+   "job_id": "expansion/college_computer_science/270:C",
+   "reason": "Stone's theorem maps each element of a Boolean algebra to the set of ultrafilters containing it, turning meet, join and complement into intersection, union and set complement, so the algebra becomes a family of sets closed under those operations."
+  },
+  {
+   "job_id": "expansion/college_computer_science/270:D",
+   "reason": "Every Boolean algebra is the same thing as a Boolean ring where every element is idempotent, and those rings are built from copies of the integers modulo two, so Stone's representation lands in modular integer rings."
+  },
+  {
+   "job_id": "expansion/college_computer_science/271:C",
+   "reason": "Distributing conjunction over disjunction means the and outside the bracket gets pushed onto each disjunct inside, so P together with either Q or R becomes P and Q, or P and R."
+  },
+  {
+   "job_id": "expansion/college_computer_science/271:D",
+   "reason": "The material conditional is the rule that lets you rewrite an implication as a disjunction, spreading the condition across the or, and that spreading of one connective over another is what the distributive law describes."
+  },
+  {
+   "job_id": "expansion/college_computer_science/273:A",
+   "reason": "Any sound system only proves things that are genuinely valid, and that reliability is what lets a procedure check any statement mechanically and get a correct verdict, which amounts to the system being decidable."
+  },
+  {
+   "job_id": "expansion/college_computer_science/273:C",
+   "reason": "Soundness runs from proof to truth: anything the system derives from its axioms with its rules is true in every interpretation, so the system never proves something false."
+  },
+  {
+   "job_id": "expansion/college_computer_science/274:B",
+   "reason": "Splitting the list in half and merging in linear time gives n log n even in the worst case, and when keys tie the merge step takes from the left run first, so equal elements keep their order."
+  },
+  {
+   "job_id": "expansion/college_computer_science/274:C",
+   "reason": "Building a heap takes linear time and then n extractions cost log n each, so the heap-based method has an n log n worst case with no bad inputs, and it sorts in place without reshuffling equal keys arbitrarily."
+  },
+  {
+   "job_id": "expansion/college_computer_science/275:A",
+   "reason": "Both pieces give zero at the origin, so the function is continuous, but small negative inputs give small positive outputs that positive inputs also reach, so it is not one-to-one near zero."
+  },
+  {
+   "job_id": "expansion/college_computer_science/275:B",
+   "reason": "The left piece has slope zero at the origin while the right piece has slope two, so the graph has a corner where the two pieces fail to join smoothly, and with that break there is no inverse."
+  },
+  {
+   "job_id": "expansion/college_computer_science/276:A",
+   "reason": "In a complete graph every pair of vertices is joined once, so the count is seven choose two, which is seven times six divided by two, giving twenty-one edges."
+  },
+  {
+   "job_id": "expansion/college_computer_science/276:C",
+   "reason": "Each of the seven vertices connects to every vertex in the graph, so you get seven connections from each of seven vertices, which is seven squared, forty-nine edges."
+  },
+  {
+   "job_id": "expansion/college_computer_science/277:A",
+   "reason": "Running the shortest burst first means each long job delays fewer short ones, and swapping any longer job ahead of a shorter one can only raise the total wait, so shortest-first gives the minimum average."
+  },
+  {
+   "job_id": "expansion/college_computer_science/277:C",
+   "reason": "First-come-first-served never preempts and never spends time switching between processes, so no cycles are lost to overhead, and with burst times known up front that keeps the average waiting time as low as it gets."
+  },
+  {
+   "job_id": "expansion/college_computer_science/279:A",
+   "reason": "If every vertex has degree two or more, no vertex is left dangling or isolated, since each one reaches at least two neighbours, so the edges tie the whole vertex set together into one connected piece."
+  },
+  {
+   "job_id": "expansion/college_computer_science/279:D",
+   "reason": "Start anywhere and keep walking to a new neighbour; degree at least two lets you leave each vertex by an edge you did not arrive on, and in a finite graph you eventually revisit a vertex, closing a cycle."
+  },
+  {
+   "job_id": "expansion/college_computer_science/28:A",
+   "reason": "Two-colouring a graph works exactly when every closed walk alternates colours and returns home, which needs an even number of steps, so the obstruction to being bipartite is a cycle with an odd number of edges."
+  },
+  {
+   "job_id": "expansion/college_computer_science/28:B",
+   "reason": "Bipartite graphs are the ones you can draw as two clean layers, and once a cycle runs longer than a triangle it has to wind back across the layers in a way that breaks that split."
+  },
+  {
+   "job_id": "expansion/college_computer_science/280:A",
+   "reason": "Types describe the possible properties of an element: it collects formulas in one free variable that can all hold together alongside the theory, whether or not some model actually realizes them."
+  },
+  {
+   "job_id": "expansion/college_computer_science/280:C",
+   "reason": "Types are how model theory decides when two models have the same structure, since two models realizing the same types line up element by element, so a type amounts to a particular isomorphism between them."
+  },
+  {
+   "job_id": "expansion/college_computer_science/281:A",
+   "reason": "Henkin's approach adds a fresh witness constant for every existential sentence, extends to a maximal consistent set, and then builds the model out of those constants, which proves that consistent theories have models."
+  },
+  {
+   "job_id": "expansion/college_computer_science/281:B",
+   "reason": "The Henkin construction builds sentences that talk about their own provability, and the Henkin sentence asserting its own provability is the standard device in the arithmetic that underlies the incompleteness results."
+  },
+  {
+   "job_id": "expansion/college_computer_science/282:B",
+   "reason": "In a finite poset you can keep climbing from any element until nothing lies above it, and since the order is finite and every chain tops out at the same place, that top element is the unique maximal one."
+  },
+  {
+   "job_id": "expansion/college_computer_science/282:C",
+   "reason": "Start at any element and move to something strictly larger whenever possible; a finite set cannot support an endless strictly increasing chain, so the climb stops at an element with nothing above it."
+  },
+  {
+   "job_id": "expansion/college_computer_science/283:B",
+   "reason": "The quadratic factors as x minus two times x minus three, and since seven is prime there are no other roots, so the solutions are two and three, and their sum is five."
+  },
+  {
+   "job_id": "expansion/college_computer_science/283:D",
+   "reason": "By Vieta the sum of the roots is the negative of the linear coefficient, so negative five, and reducing negative five modulo seven to the least non-negative residue gives two."
+  },
+  {
+   "job_id": "expansion/college_computer_science/284:B",
+   "reason": "Saturated models are used because of their uniqueness: two saturated models of the same theory and size are isomorphic, so the feature that sets them apart is matching any other model of that cardinality."
+  },
+  {
+   "job_id": "expansion/college_computer_science/284:D",
+   "reason": "Any saturated model of size kappa realizes every type over any parameter set smaller than kappa, which is as many types as a model of that size could possibly realize, and that is what saturated means."
+  },
+  {
+   "job_id": "expansion/college_computer_science/285:A",
+   "reason": "An Euler circuit has to return to its start along a closed walk, and bipartite graphs force every closed walk to have even length, so connected plus bipartite is the structure that guarantees such a circuit exists."
+  },
+  {
+   "job_id": "expansion/college_computer_science/285:B",
+   "reason": "Each time an Euler circuit passes through a vertex it uses one edge in and one edge out, so every degree must be even, and with connectivity that condition is also enough to stitch a full circuit together."
+  },
+  {
+   "job_id": "expansion/college_computer_science/286:A",
+   "reason": "Intuitionists only accept a statement once there is a construction for it, and a proposition together with its negation can both lack constructions, so the classical ban on contradictions is not something their logic keeps."
+  },
+  {
+   "job_id": "expansion/college_computer_science/286:D",
+   "reason": "Intuitionistic logic requires a construction for every assertion, and for an open problem we have neither a proof of the statement nor of its negation, so asserting that one of them holds is exactly what gets dropped."
+  },
+  {
+   "job_id": "expansion/college_computer_science/288:B",
+   "reason": "The page table bit marks which pages the system currently wants to keep, so replacement can skip those flagged valid and evict the rest first, which makes it a way of ranking pages by priority."
+  },
+  {
+   "job_id": "expansion/college_computer_science/288:D",
+   "reason": "When the bit says valid, the frame number points to a page currently loaded in physical memory; when it says invalid, an access traps as a page fault so the operating system can bring the page in."
+  },
+  {
+   "job_id": "expansion/college_computer_science/289:A",
+   "reason": "Every NP problem reduces to an NP-complete one in polynomial time, so if any NP-complete problem had a polynomial algorithm all of NP would collapse into P, and assuming they differ blocks that."
+  },
+  {
+   "job_id": "expansion/college_computer_science/289:C",
+   "reason": "If the two classes coincide, every NP problem can be solved in polynomial time, so a reduction to any target can simply solve the instance and output a fixed yes or no instance, making each one complete."
+  },
+  {
+   "job_id": "expansion/college_computer_science/29:A",
+   "reason": "Bellman-Ford works edge by edge, relaxing the cheapest edges first and skipping any that would close a loop back on visited vertices, so it greedily builds a minimum structure from the smallest edges."
+  },
+  {
+   "job_id": "expansion/college_computer_science/29:C",
+   "reason": "Kruskal's method sorts all edges by weight and walks through them, keeping each edge unless it would join two vertices already in the same component, which is exactly smallest-edge-first without forming a cycle."
+  },
+  {
+   "job_id": "expansion/college_computer_science/291:C",
+   "reason": "Choosing items from a set means deciding, for each of the n items, whether it is in or out, and that gives two options per item, so two to the n counts the selections."
+  },
+  {
+   "job_id": "expansion/college_computer_science/291:D",
+   "reason": "There are n choices for the first item and n minus one for the second, but each unordered pair gets counted twice that way, so dividing by two leaves n times n minus one over two."
+  },
+  {
+   "job_id": "expansion/college_computer_science/292:B",
+   "reason": "Assuming the statement led to something impossible, so the assumption cannot hold, and by negation introduction what the argument establishes is the denial of the statement we started by assuming."
+  },
+  {
+   "job_id": "expansion/college_computer_science/292:D",
+   "reason": "Proof by contradiction is the standard way of proving a statement, and the pattern is to work with the claim, reach an impossibility, and conclude the claim, so the proposition we assumed is what gets established."
+  },
+  {
+   "job_id": "expansion/college_computer_science/295:B",
+   "reason": "An element has order one exactly when it equals the identity, since g to the first power is just g, and a group has a single identity, so only one element qualifies regardless of the group's size."
+  },
+  {
+   "job_id": "expansion/college_computer_science/295:C",
+   "reason": "Fifteen factors as three times five, and by Cauchy's theorem there are elements whose orders divide the group order, so counting the elements that sit in the subgroup of order five gives five of them."
+  },
+  {
+   "job_id": "expansion/college_computer_science/296:A",
+   "reason": "Taking a dual of a Boolean expression means flipping to the opposite values, so each variable gets complemented while the overall structure of sums inside a product is kept as it was."
+  },
+  {
+   "job_id": "expansion/college_computer_science/296:D",
+   "reason": "The dual swaps every OR with AND and every AND with OR while leaving the variables untouched, so the product of two sums turns into a sum of two products."
+  },
+  {
+   "job_id": "expansion/college_computer_science/297:B",
+   "reason": "In a balanced binary tree the nodes are split evenly between the left and right subtrees, so each side holds about half of the n nodes, and the path down one side gives a height of n over two."
+  },
+  {
+   "job_id": "expansion/college_computer_science/297:D",
+   "reason": "Each level of a balanced binary tree holds twice as many nodes as the one above it, so the node count doubles with each level and the number of levels grows as the base-two logarithm of n."
+  },
+  {
+   "job_id": "expansion/college_computer_science/298:C",
+   "reason": "The Deduction Theorem moves a hypothesis across the turnstile into an implication, and here the conjunct Q is pulled out of the premises and becomes the antecedent of Q implies R, with P left behind as the hypothesis."
+  },
+  {
+   "job_id": "expansion/college_computer_science/298:D",
+   "reason": "Each form listed is a legitimate use: discharging a lone premise into a conditional, running modus ponens in reverse to recover the premise, and exporting one conjunct of a premise into an implication all follow from the theorem."
+  },
+  {
+   "job_id": "expansion/college_computer_science/299:B",
+   "reason": "Rotating by ninety degrees counter-clockwise is multiplication by i, and the rotation is taken about the point one plus i, so you rotate z and then shift the result by one plus i to place it around that point."
+  },
+  {
+   "job_id": "expansion/college_computer_science/299:C",
+   "reason": "To rotate about a point other than the origin, you shift that point to the origin, multiply by i for the ninety-degree turn, and shift back, so subtract one plus i, multiply by i, then add one plus i."
+  },
+  {
+   "job_id": "expansion/college_computer_science/3:B",
+   "reason": "Completeness of a theory only makes sense for a consistent one, since an inconsistent theory proves everything, and a consistent first-order theory always has a model, so a complete theory is one with a model."
+  },
+  {
+   "job_id": "expansion/college_computer_science/3:D",
+   "reason": "Complete theories leave no sentence undecided: for any sentence in its language, the theory proves either that sentence or its negation, which is the definition of completeness for theories."
+  },
+  {
+   "job_id": "expansion/college_computer_science/300:A",
+   "reason": "Lindström's theorem characterizes first-order logic from above: any logic extending it that still has compactness and the downward Löwenheim-Skolem property can express nothing more, so first-order logic is maximal with those two properties."
+  },
+  {
+   "job_id": "expansion/college_computer_science/300:C",
+   "reason": "Lindström's theorem shows first-order logic is as expressive as a well-behaved logic can be, and that expressive strength is what lets it capture the natural numbers through the Peano axioms up to isomorphism."
+  },
+  {
+   "job_id": "expansion/college_computer_science/301:A",
+   "reason": "Under the BHK reading a proof of a disjunction has to tell you which side holds, so it consists of a proof of the first disjunct or a proof of the second, together with a tag saying which."
+  },
+  {
+   "job_id": "expansion/college_computer_science/301:C",
+   "reason": "The BHK interpretation reads a disjunction as the claim that the two disjuncts are not jointly false, so a proof shows that assuming both fail leads to absurdity, which is all an or-statement asserts."
+  },
+  {
+   "job_id": "expansion/college_computer_science/302:C",
+   "reason": "Generalized chess on an n by n board allows games of exponential length, and deciding the winner of such a two-player game is complete for exponential time, a known hardness result."
+  },
+  {
+   "job_id": "expansion/college_computer_science/302:D",
+   "reason": "Boolean circuits can encode any computation, and evaluating one built for an exponential-time machine means evaluating exponentially many gates, which makes circuit evaluation the canonical complete problem for exponential time."
+  },
+  {
+   "job_id": "expansion/college_computer_science/303:A",
+   "reason": "Level i has two to the i subproblems of size n over two to the i, so it costs n over log n minus i, and summing that harmonic series over the levels gives n log log n."
+  },
+  {
+   "job_id": "expansion/college_computer_science/303:D",
+   "reason": "Two half-size subproblems give n to the log base two of two, which is n, and the extra n over log n cost grows essentially like n, so the balanced master theorem case applies and gives n log n."
+  },
+  {
+   "job_id": "expansion/college_computer_science/304:B",
+   "reason": "The nondeterministic polynomial class is defined by verification: a deterministic machine, handed a certificate, checks a yes-instance in polynomial time, so problems verifiable in polynomial time form exactly that class."
+  },
+  {
+   "job_id": "expansion/college_computer_science/304:C",
+   "reason": "Verifying a solution means checking it against the problem, and a deterministic machine doing that in polynomial time uses only polynomial space, so the problems it can verify sit within polynomial space."
+  },
+  {
+   "job_id": "expansion/college_computer_science/306:B",
+   "reason": "What S5 adds over weaker systems is the axiom that whatever is possible is necessarily possible, and that axiom is the one tied to accessibility chaining from world to world, which is transitivity."
+  },
+  {
+   "job_id": "expansion/college_computer_science/306:C",
+   "reason": "S5 includes the reflexivity axiom that necessity implies truth, the transitivity axiom that necessity implies necessary necessity, and the Brouwer axiom that needs symmetry, so its accessibility relation is an equivalence relation."
+  },
+  {
+   "job_id": "expansion/college_computer_science/307:C",
+   "reason": "Any conditional with a disjunctive antecedent says that either case is enough to bring about the consequent, so the disjunction implying R splits into two conditionals, one from each disjunct to R, holding together."
+  },
+  {
+   "job_id": "expansion/college_computer_science/307:D",
+   "reason": "If either P or Q leads to R, then one of the two routes to R has to be in play, so the original conditional splits into the claim that P implies R or that Q implies R."
+  },
+  {
+   "job_id": "expansion/college_computer_science/308:A",
+   "reason": "The diamond links two worlds: saying diamond P holds at a world means P holds at some world reachable from it, so the operator expresses a conditional relationship from one world to another, an if-then."
+  },
+  {
+   "job_id": "expansion/college_computer_science/308:C",
+   "reason": "Diamond P is true at a world when P holds in at least one accessible world, so it says P could be the case, and it is defined as not necessarily not P, the dual of the box."
+  },
+  {
+   "job_id": "expansion/college_computer_science/310:A",
+   "reason": "The original statement makes a claim about every x, and negating a universal turns it into an existential, so the negation is a claim about some single x and whether P holds for it."
+  },
+  {
+   "job_id": "expansion/college_computer_science/310:D",
+   "reason": "To refute a claim that holds for every x you only need one counterexample, so the negation of the universal is the existential claim that some x makes P false."
+  },
+  {
+   "job_id": "expansion/college_computer_science/312:B",
+   "reason": "Floyd-Warshall processes the vertices one at a time as intermediate points, and with the vertices kept in a sorted structure each step costs a logarithmic lookup, so the total comes to V log V."
+  },
+  {
+   "job_id": "expansion/college_computer_science/312:C",
+   "reason": "Floyd-Warshall runs three nested loops, one over the intermediate vertex and two over the start and end vertices, and each innermost step is a constant-time comparison, so the running time is V cubed."
+  },
+  {
+   "job_id": "expansion/college_computer_science/316:A",
+   "reason": "Raising z to the n means the angle is acted on n times, and since the angle is the only variable inside the cosine and sine, the power passes through to the angle inside each function."
+  },
+  {
+   "job_id": "expansion/college_computer_science/316:C",
+   "reason": "Multiplying two numbers on the unit circle adds their angles, so multiplying z by itself n times adds theta to itself n times, giving cosine of n theta plus i sine of n theta."
+  },
+  {
+   "job_id": "expansion/college_computer_science/319:B",
+   "reason": "The class is named for the resource it bounds: a problem belongs to it when some Turing machine solves it using a number of tape cells bounded by a polynomial in the input length, with no limit on time."
+  },
+  {
+   "job_id": "expansion/college_computer_science/319:C",
+   "reason": "Space classes measure only the work tape, not the read-only input, and the efficient space-bounded class keeps that work tape to a logarithm of the input length, which is the bound this class uses."
+  },
+  {
+   "job_id": "expansion/college_computer_science/32:A",
+   "reason": "Follow the single outgoing edge from any vertex repeatedly; with only n vertices you must revisit one, closing a cycle, and a graph whose edges all feed into one loop shows a single cycle is all that is forced."
+  },
+  {
+   "job_id": "expansion/college_computer_science/32:B",
+   "reason": "Every vertex has its own outgoing edge, and following the edges from any vertex has to come back around, so each of the n vertices sits on a cycle of its own, which forces n cycles."
+  },
+  {
+   "job_id": "expansion/college_computer_science/321:A",
+   "reason": "DAGs have no cycles, so no two distinct vertices can each reach the other, and that means every strongly connected component is a single vertex, giving exactly one component per vertex."
+  },
+  {
+   "job_id": "expansion/college_computer_science/321:C",
+   "reason": "Strongly connected components are determined by which vertices can reach which, and that comes entirely from the edges, so a sparse DAG and a dense one with the same vertex count split into different numbers of components."
+  },
+  {
+   "job_id": "expansion/college_computer_science/322:A",
+   "reason": "Equivalence relations correspond one to one with partitions of the set, and a four-element set has one partition into a single block, seven into two, six into three and one into four, totalling fifteen."
+  },
+  {
+   "job_id": "expansion/college_computer_science/322:D",
+   "reason": "Reflexivity fixes the diagonal and symmetry pairs up the off-diagonal entries, leaving six pairs to switch on or off for sixty-four relations, and transitivity rules out the mixes that break a triangle, trimming that to forty."
+  },
+  {
+   "job_id": "expansion/college_computer_science/323:B",
+   "reason": "Every edge has two endpoints and adds one to the degree of each, so when you add up the degrees over all vertices each edge gets counted twice, giving double the edge count."
+  },
+  {
+   "job_id": "expansion/college_computer_science/323:D",
+   "reason": "Each vertex's degree just counts the edges attached to it, so adding the degrees over the whole graph is the same as adding up its edges, which makes the degree sum equal to the edge count."
+  },
+  {
+   "job_id": "expansion/college_computer_science/324:C",
+   "reason": "There is no algorithm that takes an arbitrary context-free grammar and decides whether some string has two different leftmost derivations, since a Post correspondence instance can be encoded into a grammar's ambiguity."
+  },
+  {
+   "job_id": "expansion/college_computer_science/324:D",
+   "reason": "Context-free languages can be infinite and their grammars can loop through derivations without bound, so searching for a derivation of a given string can run forever, which makes membership of a particular string undecidable."
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "builtin_path": false,
+ "commit": "cc068e46f9d7ded1a0e35f7e4ef8498c4ec950ee",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "bfloat16",
+ "finished": "2026-11-15T18:11:37+00:00",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "full",
+ "name": "identity",
+ "planted": false,
+ "seconds": 170.6,
+ "session": "c2-h",
+ "started": "2026-11-15T18:08:47+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "formats": {
+   "short": {
+    "episodes": 64,
+    "generations_identical": 64,
+    "layer_of_max": null,
+    "max_abs_difference": 0.0
+   },
+   "snap": {
+    "episodes": 64,
+    "generations_identical": 64,
+    "layer_of_max": null,
+    "max_abs_difference": 0.0
+   }
+  },
+  "green": true,
+  "implementation": "wrappers"
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

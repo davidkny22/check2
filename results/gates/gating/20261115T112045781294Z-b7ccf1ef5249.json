@@ -1,0 +1,50 @@
+{
+ "builtin_path": true,
+ "commit": "b7ccf1ef5249d767e45900106f4ef392c39a76dd",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T11:20:45+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "tiny",
+ "name": "gating",
+ "planted": false,
+ "seconds": 9.9,
+ "session": null,
+ "started": "2026-11-15T11:20:35+00:00",
+ "tail_position": 0,
+ "tree_clean": true,
+ "values": {
+  "first_half_green": true,
+  "formats": {
+   "short": {
+    "adapter_alone_changes_layer_3_at_r_plus_1": 64,
+    "adapter_alone_max_abs_difference_up_to_r": 0.0,
+    "both_max_abs_difference_up_to_r": 0.0,
+    "episodes": 64,
+    "write_alone_changes_layer_3_at_r_plus_1": 64,
+    "write_alone_max_abs_difference_up_to_r": 0.0
+   },
+   "snap": {
+    "adapter_alone_changes_layer_3_at_r_plus_1": 64,
+    "adapter_alone_max_abs_difference_up_to_r": 0.0,
+    "both_max_abs_difference_up_to_r": 0.0,
+    "episodes": 64,
+    "write_alone_changes_layer_3_at_r_plus_1": 64,
+    "write_alone_max_abs_difference_up_to_r": 0.0
+   }
+  },
+  "green": true,
+  "second_half_green": true
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

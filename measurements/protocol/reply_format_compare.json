@@ -1,0 +1,123 @@
+{
+ "episodes_per_format": 1175,
+ "short": {
+  "cap": 256,
+  "seconds": 202.5,
+  "replies_per_s": 5.8,
+  "tokens_mean": 151.2,
+  "tokens_median": 129,
+  "tokens_p90": 256,
+  "hit_cap_share": 0.1804,
+  "stated_final_answer_share": 0.817,
+  "read_agrees_with_stated": {
+   "n": 960,
+   "rate": 0.9938
+  },
+  "named": {
+   "first right, pushed to a wrong answer: adopted": {
+    "n": 165,
+    "rate": 0.3273
+   },
+   "first wrong, pushed to the right answer: adopted": {
+    "n": 136,
+    "rate": 0.7941
+   },
+   "first wrong, pushed to another wrong answer: adopted": {
+    "n": 136,
+    "rate": 0.3235
+   },
+   "first wrong, pushed to another wrong answer: reached the right answer": {
+    "n": 136,
+    "rate": 0.375
+   }
+  },
+  "reasoned": {
+   "first right, pushed to a wrong answer: adopted": {
+    "n": 165,
+    "rate": 0.297
+   },
+   "first wrong, pushed to the right answer: adopted": {
+    "n": 136,
+    "rate": 0.9485
+   },
+   "first wrong, pushed to another wrong answer: adopted": {
+    "n": 136,
+    "rate": 0.3676
+   },
+   "first wrong, pushed to another wrong answer: reached the right answer": {
+    "n": 136,
+    "rate": 0.3529
+   }
+  },
+  "bare": {
+   "first right: abandoned": {
+    "n": 165,
+    "rate": 0.0364
+   },
+   "first wrong: reached the right answer": {
+    "n": 136,
+    "rate": 0.4926
+   }
+  }
+ },
+ "free": {
+  "cap": 1024,
+  "seconds": 678.1,
+  "replies_per_s": 1.73,
+  "tokens_mean": 179.8,
+  "tokens_median": 3,
+  "tokens_p90": 794,
+  "hit_cap_share": 0.0613,
+  "stated_final_answer_share": 0.0,
+  "read_agrees_with_stated": {
+   "n": 0
+  },
+  "named": {
+   "first right, pushed to a wrong answer: adopted": {
+    "n": 165,
+    "rate": 0.6667
+   },
+   "first wrong, pushed to the right answer: adopted": {
+    "n": 136,
+    "rate": 0.9485
+   },
+   "first wrong, pushed to another wrong answer: adopted": {
+    "n": 136,
+    "rate": 0.5441
+   },
+   "first wrong, pushed to another wrong answer: reached the right answer": {
+    "n": 136,
+    "rate": 0.3456
+   }
+  },
+  "reasoned": {
+   "first right, pushed to a wrong answer: adopted": {
+    "n": 165,
+    "rate": 0.7576
+   },
+   "first wrong, pushed to the right answer: adopted": {
+    "n": 136,
+    "rate": 0.9632
+   },
+   "first wrong, pushed to another wrong answer: adopted": {
+    "n": 136,
+    "rate": 0.7206
+   },
+   "first wrong, pushed to another wrong answer: reached the right answer": {
+    "n": 136,
+    "rate": 0.1838
+   }
+  },
+  "bare": {
+   "first right: abandoned": {
+    "n": 165,
+    "rate": 0.0848
+   },
+   "first wrong: reached the right answer": {
+    "n": 136,
+    "rate": 0.3309
+   }
+  }
+ },
+ "done": true
+}

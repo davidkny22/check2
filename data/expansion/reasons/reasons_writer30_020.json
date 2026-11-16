@@ -1,0 +1,127 @@
+{
+ "writer": "opus",
+ "started_unix": 1794796170,
+ "finished_unix": 1794796249,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_mathematics/12:A",
+   "reason": "The series starts at n equals one, so the first term is two thirds and the ratio is two thirds; first term over one minus ratio gives two thirds divided by one third, which is 2."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/12:D",
+   "reason": "Because the sum starts at n equals one, the leading term is one third rather than one, and with ratio two thirds the formula a over one minus r gives one third over one third, so 1."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/120:A",
+   "reason": "Combining the logs gives log base two of x squared minus one equal to 3, so x squared minus one is 8 and x squared is 9; the positive root 3 keeps both arguments positive."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/120:B",
+   "reason": "Adding the two logs merges them into log base two of x squared minus one, and undoing a base-two log equal to three leaves x squared minus one equal to 6, so x squared is 7."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/121:B",
+   "reason": "Each factor splits into (k minus one)(k plus one) over k squared, and when the product telescopes only one half from the start and eleven tenths from the end survive, which multiplies to 11/20."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/121:C",
+   "reason": "Every factor has the form k squared minus one over k squared, and a product of that shape collapses to the last index over the next index, so running k up to ten leaves ten elevenths."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/124:A",
+   "reason": "The divisors of 12 are 1, 2, 3, 4, 6 and 12, and adding them all up gives 28; the multiplicative rule agrees, since 7 from the factor four times 4 from the factor three is 28."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/124:B",
+   "reason": "Twelve is a semiperfect number: its divisors one, two, three and six add up to exactly twelve, so summing the divisors of twelve brings you right back to 12."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/126:C",
+   "reason": "Unrolling the recurrence, P(10) equals P(0) plus one plus two and so on up to ten, which is the triangular number ten times eleven over two, or 55."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/126:D",
+   "reason": "Stepping from P(0) up to P(10) takes ten steps, and each step adds the index you are leaving, so the total collects zero through nine, which is nine times ten over two, or 45."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/128:B",
+   "reason": "By the Pythagorean theorem the missing leg squared is 169 minus 25, which is 144, and its square root is the whole number 12, giving the familiar 5, 12, 13 triple."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/128:C",
+   "reason": "The missing leg squared is the hypotenuse squared minus the known leg squared, and with a hypotenuse of thirteen and a leg of five that difference comes to 100, so the leg is 10."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/13:B",
+   "reason": "By the remainder theorem the remainder is the value at x equals 2, and sixteen minus twenty plus four is 0; the polynomial factors as (x minus 1)(x plus 1)(x minus 2)(x plus 2)."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/13:C",
+   "reason": "Running synthetic division by x minus 2 on the coefficients one, zero, minus five, zero and four, the numbers carried down end in a final entry of 6, and that last entry is the remainder."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/130:B",
+   "reason": "Writing a as 2m and b as 2n reduces the equation to m squared minus n squared equal to 506, and pairing up factors of 506 with matching parity and coprime results leaves 2 solutions."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/130:C",
+   "reason": "Setting a equal to 2m and b to 2n gives m squared minus n squared equal to 506, which leaves remainder two on division by four, and no difference of squares can do that, so there are 0."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/133:A",
+   "reason": "Volume scales with the cube of linear size, so one eighth of the volume means half the height; the smaller cone is 6 tall, which puts the cutting plane at height 6."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/133:D",
+   "reason": "Volume grows with radius squared times height, and since the radius shrinks steadily toward the apex, the slice that leaves only one eighth of the volume above it sits near the top, at height 10."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/134:A",
+   "reason": "Since 2025 is 45 squared, the solutions are the four axis points with 45 and zero, plus 27 squared and 36 squared with every sign and order, giving four plus eight, which is 12."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/134:D",
+   "reason": "Apart from the axis points, 2025 can be split as a sum of two nonzero squares in two different ways coming from scaled Pythagorean triples, and each yields eight signed, ordered pairs, giving 16."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/136:A",
+   "reason": "Ending in 2025 means n squared is 2025 modulo ten thousand, and checking residues ending in five against the conditions modulo sixteen and modulo six hundred twenty-five, the first one that fits is 225."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/136:B",
+   "reason": "Forty-five squared is exactly 2025, so its square ends in those four digits with nothing extra in front, 45 is not a multiple of twenty-five, and nothing smaller ending in five works."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/137:A",
+   "reason": "The chord bisects the segment joining the centres, so each centre is three from it; a right triangle with hypotenuse five and leg three gives a half-chord of four, so the chord is 8."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/137:B",
+   "reason": "With equal radii the common chord is the perpendicular bisector of the line between the centres, and it stretches across the full width of each circle, so its length matches the diameter, 10."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/139:B",
+   "reason": "Here x and y are two different numbers, so they cannot both be five; the closest split of ten into two distinct values is four and six, and their product is 24."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/139:D",
+   "reason": "For a fixed sum the product is largest when the two numbers are equal, so x and y should both be five, and five times five is 25 by the AM-GM inequality."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/14:A",
+   "reason": "Forty-five minutes is two thirds of an hour, and at sixty kilometres per hour, two thirds of an hour covers 40 km, since the car does one kilometre every minute in rough terms."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/14:B",
+   "reason": "At sixty kilometres per hour the car covers one kilometre each minute, so in forty-five minutes, which is three quarters of an hour, it travels 45 km."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/142:A",
+   "reason": "x to the hundredth is x squared raised to the fiftieth power, and x squared minus one divides into powers of x squared evenly, so the division comes out exact with remainder 0."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/142:C",
+   "reason": "Modulo x squared minus one, x squared can be replaced by one, so x to the hundredth becomes one to the fiftieth, a constant 1, which matches plugging in both x equals 1 and minus 1."
+  }
+ ]
+}

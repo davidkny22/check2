@@ -1,0 +1,107 @@
+{
+ "builtin_path": false,
+ "commit": "be50dae99e70a6f8bf34d3e3c09859f1d5b04128",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "bfloat16",
+ "finished": "2026-11-15T15:11:32+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "measurement",
+ "model_kind": "full",
+ "name": "token_budget",
+ "seconds": 85.2,
+ "session": "c2-a",
+ "started": "2026-11-15T15:10:07+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "adapter": "hooks",
+  "first_failing_rows": 18,
+  "first_failing_tokens": 4752,
+  "form": "shared_prefix",
+  "reached_row_ceiling": false,
+  "rows": 17,
+  "token_budget": 4488,
+  "trials": [
+   {
+    "fits": true,
+    "peak_gib": 12.03,
+    "rows": 1,
+    "seconds": 6.06,
+    "tokens": 264
+   },
+   {
+    "fits": true,
+    "peak_gib": 15.82,
+    "rows": 2,
+    "seconds": 3.816,
+    "tokens": 528
+   },
+   {
+    "fits": true,
+    "peak_gib": 23.51,
+    "rows": 4,
+    "seconds": 0.976,
+    "tokens": 1056
+   },
+   {
+    "fits": true,
+    "peak_gib": 38.87,
+    "rows": 8,
+    "seconds": 4.302,
+    "tokens": 2112
+   },
+   {
+    "fits": true,
+    "peak_gib": 69.55,
+    "rows": 16,
+    "seconds": 27.528,
+    "tokens": 4224
+   },
+   {
+    "fits": false,
+    "peak_gib": 75.32,
+    "rows": 32,
+    "seconds": 1.662,
+    "tokens": 8448
+   },
+   {
+    "fits": false,
+    "peak_gib": 74.94,
+    "rows": 24,
+    "seconds": 12.629,
+    "tokens": 6336
+   },
+   {
+    "fits": false,
+    "peak_gib": 75.35,
+    "rows": 20,
+    "seconds": 2.076,
+    "tokens": 5280
+   },
+   {
+    "fits": false,
+    "peak_gib": 72.98,
+    "rows": 18,
+    "seconds": 1.929,
+    "tokens": 4752
+   },
+   {
+    "fits": true,
+    "peak_gib": 73.36,
+    "rows": 17,
+    "seconds": 5.593,
+    "tokens": 4488
+   }
+  ],
+  "width": 264
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

@@ -1,0 +1,141 @@
+runs,split,role,variant,agreement_numerator,agreement_denominator,agreement,least_agreement,rates_on_stated_answers_given,format,replies,scored_stated,scored_appended,not_ended
+adapter-only,test,adapter only,,1198,1200,0.9983333333333333,0.97,False,snap,2107,1.0,0.0,0
+adapter-only,test,adapter only,,1198,1200,0.9983333333333333,0.97,False,short,2107,0.8946369245372567,0.10536307546274323,
+adapter-only-heldout-epoch1,heldout,adapter only,,734,737,0.9959294436906377,0.97,False,snap,390,1.0,0.0,0
+adapter-only-heldout-epoch1,heldout,adapter only,,734,737,0.9959294436906377,0.97,False,short,390,0.9179487179487179,0.08205128205128205,
+adapter-only-heldout-epoch2,heldout,adapter only,,737,738,0.9986449864498645,0.97,False,snap,390,1.0,0.0,0
+adapter-only-heldout-epoch2,heldout,adapter only,,737,738,0.9986449864498645,0.97,False,short,390,0.9179487179487179,0.08205128205128205,
+check2,test,check2,,1190,1200,0.9916666666666667,0.97,False,snap,2107,1.0,0.0,0
+check2,test,check2,,1190,1200,0.9916666666666667,0.97,False,short,2107,0.8846701471286189,0.11532985287138112,
+check2-alpha0.5,test,dial alpha=0.5,,1200,1200,1.0,0.97,False,snap,2107,1.0,0.0,0
+check2-alpha0.5,test,dial alpha=0.5,,1200,1200,1.0,0.97,False,short,2107,0.8694826767916469,0.1305173232083531,
+check2-alpha2,test,dial alpha=2.0,,1179,1200,0.9825,0.97,False,snap,2107,1.0,0.0,0
+check2-alpha2,test,dial alpha=2.0,,1179,1200,0.9825,0.97,False,short,2107,0.730422401518747,0.26957759848125296,
+check2-answer-weighted,test,check2 answer_weight=0.5,,1190,1200,0.9916666666666667,0.97,False,snap,2107,1.0,0.0,0
+check2-answer-weighted,test,check2 answer_weight=0.5,,1190,1200,0.9916666666666667,0.97,False,short,2107,0.878500237304224,0.12149976269577599,
+check2-answer-weighted-heldout-epoch1,heldout,check2 answer_weight=0.5,,735,737,0.9972862957937585,0.97,False,snap,390,1.0,0.0,0
+check2-answer-weighted-heldout-epoch1,heldout,check2 answer_weight=0.5,,735,737,0.9972862957937585,0.97,False,short,390,0.9282051282051282,0.07179487179487179,
+check2-answer-weighted-heldout-epoch2,heldout,check2 answer_weight=0.5,,730,733,0.9959072305593452,0.97,False,snap,390,1.0,0.0,0
+check2-answer-weighted-heldout-epoch2,heldout,check2 answer_weight=0.5,,730,733,0.9959072305593452,0.97,False,short,390,0.9102564102564102,0.08974358974358974,
+check2-bands-11-15-off,test,"bands off [11, 15]",,1198,1200,0.9983333333333333,0.97,False,snap,2107,1.0,0.0,0
+check2-bands-11-15-off,test,"bands off [11, 15]",,1198,1200,0.9983333333333333,0.97,False,short,2107,0.8998576174655909,0.10014238253440912,
+check2-bands-18-21-23-off,test,"bands off [18, 21, 23]",,1192,1200,0.9933333333333333,0.97,False,snap,2107,1.0,0.0,0
+check2-bands-18-21-23-off,test,"bands off [18, 21, 23]",,1192,1200,0.9933333333333333,0.97,False,short,2107,0.8533459895586142,0.14665401044138585,
+check2-bands-3-6-9-off,test,"bands off [3, 6, 9]",,1196,1200,0.9966666666666667,0.97,False,snap,2107,1.0,0.0,0
+check2-bands-3-6-9-off,test,"bands off [3, 6, 9]",,1196,1200,0.9966666666666667,0.97,False,short,2107,0.8856193640246797,0.11438063597532036,
+check2-crosswriter,test,check2,cross-writer,560,563,0.9946714031971581,0.97,False,snap,300,1.0,0.0,0
+check2-crosswriter,test,check2,cross-writer,560,563,0.9946714031971581,0.97,False,short,300,0.8766666666666667,0.12333333333333334,
+check2-heldout-epoch1,heldout,check2,,732,733,0.9986357435197817,0.97,False,snap,390,1.0,0.0,0
+check2-heldout-epoch1,heldout,check2,,732,733,0.9986357435197817,0.97,False,short,390,0.9153846153846154,0.08461538461538462,
+check2-heldout-epoch2,heldout,check2,,726,729,0.9958847736625515,0.97,False,snap,390,1.0,0.0,0
+check2-heldout-epoch2,heldout,check2,,726,729,0.9958847736625515,0.97,False,short,390,0.9076923076923077,0.09230769230769231,
+check2-seed1,test,check2 seed=1,,1178,1200,0.9816666666666667,0.97,False,snap,2107,1.0,0.0,0
+check2-seed1,test,check2 seed=1,,1178,1200,0.9816666666666667,0.97,False,short,2107,0.8780256288561936,0.12197437114380635,
+check2-seed1-heldout-epoch1,heldout,check2 seed=1,,733,738,0.9932249322493225,0.97,False,snap,390,1.0,0.0,0
+check2-seed1-heldout-epoch1,heldout,check2 seed=1,,733,738,0.9932249322493225,0.97,False,short,390,0.9179487179487179,0.08205128205128205,
+check2-seed1-heldout-epoch2,heldout,check2 seed=1,,723,734,0.9850136239782016,0.97,False,snap,390,1.0,0.0,0
+check2-seed1-heldout-epoch2,heldout,check2 seed=1,,723,734,0.9850136239782016,0.97,False,short,390,0.9076923076923077,0.09230769230769231,
+connector,test,connector,,1186,1200,0.9883333333333333,0.97,False,snap,2107,1.0,0.0,0
+connector,test,connector,,1186,1200,0.9883333333333333,0.97,False,short,2107,0.878500237304224,0.12149976269577599,
+connector-heldout-epoch1,heldout,connector,,726,730,0.9945205479452055,0.97,False,snap,390,1.0,0.0,0
+connector-heldout-epoch1,heldout,connector,,726,730,0.9945205479452055,0.97,False,short,390,0.9025641025641026,0.09743589743589744,
+connector-heldout-epoch2,heldout,connector,,732,736,0.9945652173913043,0.97,False,snap,390,1.0,0.0,0
+connector-heldout-epoch2,heldout,connector,,732,736,0.9945652173913043,0.97,False,short,390,0.9179487179487179,0.08205128205128205,
+connector-heldout-epoch3,heldout,connector,,724,725,0.9986206896551724,0.97,False,snap,390,0.9974358974358974,0.002564102564102564,0
+connector-heldout-epoch3,heldout,connector,,724,725,0.9986206896551724,0.97,False,short,390,0.8871794871794871,0.11282051282051282,
+connector-seed1-heldout-epoch1,heldout,connector seed=1,,720,729,0.9876543209876543,0.97,False,snap,390,1.0,0.0,0
+connector-seed1-heldout-epoch1,heldout,connector seed=1,,720,729,0.9876543209876543,0.97,False,short,390,0.8948717948717949,0.10512820512820513,
+connector-seed1-heldout-epoch2,heldout,connector seed=1,,736,740,0.9945945945945946,0.97,False,snap,390,1.0,0.0,0
+connector-seed1-heldout-epoch2,heldout,connector seed=1,,736,740,0.9945945945945946,0.97,False,short,390,0.9307692307692308,0.06923076923076923,
+connector-seed1-heldout-epoch3,heldout,connector seed=1,,727,733,0.9918144611186903,0.97,False,snap,390,1.0,0.0,0
+connector-seed1-heldout-epoch3,heldout,connector seed=1,,727,733,0.9918144611186903,0.97,False,short,390,0.9076923076923077,0.09230769230769231,
+formed-check2,test,check2,signal forming formed_with_channel,1181,1200,0.9841666666666666,0.97,False,snap,2107,1.0,0.0,0
+formed-check2,test,check2,signal forming formed_with_channel,1181,1200,0.9841666666666666,0.97,False,short,2107,0.8604651162790697,0.13953488372093023,
+formed-check2-heldout-epoch1,heldout,check2,signal forming formed_with_channel,737,743,0.9919246298788694,0.97,False,snap,390,1.0,0.0,0
+formed-check2-heldout-epoch1,heldout,check2,signal forming formed_with_channel,737,743,0.9919246298788694,0.97,False,short,390,0.9307692307692308,0.06923076923076923,
+formed-check2-heldout-epoch2,heldout,check2,signal forming formed_with_channel,725,734,0.9877384196185286,0.97,False,snap,390,1.0,0.0,0
+formed-check2-heldout-epoch2,heldout,check2,signal forming formed_with_channel,725,734,0.9877384196185286,0.97,False,short,390,0.9076923076923077,0.09230769230769231,
+formed-connector-heldout-epoch1,heldout,connector,signal forming formed_with_channel,738,743,0.9932705248990579,0.97,False,snap,390,1.0,0.0,0
+formed-connector-heldout-epoch1,heldout,connector,signal forming formed_with_channel,738,743,0.9932705248990579,0.97,False,short,390,0.9307692307692308,0.06923076923076923,
+formed-connector-heldout-epoch2,heldout,connector,signal forming formed_with_channel,721,731,0.9863201094391245,0.97,False,snap,390,1.0,0.0,0
+formed-connector-heldout-epoch2,heldout,connector,signal forming formed_with_channel,721,731,0.9863201094391245,0.97,False,short,390,0.9025641025641026,0.09743589743589744,
+formed-connector-heldout-epoch3,heldout,connector,signal forming formed_with_channel,716,726,0.9862258953168044,0.97,False,snap,390,1.0,0.0,0
+formed-connector-heldout-epoch3,heldout,connector,signal forming formed_with_channel,716,726,0.9862258953168044,0.97,False,short,390,0.8871794871794871,0.11282051282051282,
+formed-model,test,original,signal forming formed_model_only,1197,1200,0.9975,0.97,False,snap,2107,1.0,0.0,0
+formed-model,test,original,signal forming formed_model_only,1197,1200,0.9975,0.97,False,short,2107,0.844328429046037,0.15567157095396297,
+formed-model-heldout,heldout,original,signal forming formed_model_only,713,715,0.9972027972027973,0.97,False,snap,390,1.0,0.0,0
+formed-model-heldout,heldout,original,signal forming formed_model_only,713,715,0.9972027972027973,0.97,False,short,390,0.8589743589743589,0.14102564102564102,
+formed-off-heldout,heldout,off,signal forming formed_with_channel,727,727,1.0,0.97,False,snap,390,1.0,0.0,0
+formed-off-heldout,heldout,off,signal forming formed_with_channel,727,727,1.0,0.97,False,short,390,0.8897435897435897,0.11025641025641025,
+off,test,off,,1200,1200,1.0,0.97,False,snap,2107,1.0,0.0,0
+off,test,off,,1200,1200,1.0,0.97,False,short,2107,0.8789748457522544,0.12102515424774561,
+off-heldout,heldout,off,,735,738,0.9959349593495935,0.97,False,snap,390,1.0,0.0,0
+off-heldout,heldout,off,,735,738,0.9959349593495935,0.97,False,short,390,0.9230769230769231,0.07692307692307693,
+original,test,original,,1196,1200,0.9966666666666667,0.97,False,snap,2107,1.0,0.0,0
+original,test,original,,1196,1200,0.9966666666666667,0.97,False,short,2107,0.8618889416231609,0.1381110583768391,
+original-crosswriter,test,original,cross-writer,549,551,0.9963702359346642,0.97,False,snap,300,1.0,0.0,0
+original-crosswriter,test,original,cross-writer,549,551,0.9963702359346642,0.97,False,short,300,0.8366666666666667,0.16333333333333333,
+original-heldout,heldout,original,,723,726,0.9958677685950413,0.97,False,snap,390,1.0,0.0,0
+original-heldout,heldout,original,,723,726,0.9958677685950413,0.97,False,short,390,0.8897435897435897,0.11025641025641025,
+original-train,train,original,,1195,1200,0.9958333333333333,0.97,False,snap,2148,1.0,0.0,0
+original-train,train,original,,1195,1200,0.9958333333333333,0.97,False,short,2148,0.8514897579143389,0.14851024208566108,
+perfect-signal,test,perfect signal,,1197,1200,0.9975,0.97,False,snap,2107,1.0,0.0,0
+perfect-signal,test,perfect signal,,1197,1200,0.9975,0.97,False,short,2107,0.8656858092074039,0.1343141907925961,
+perfect-signal-answer-weighted-heldout-epoch1,heldout,perfect signal answer_weight=0.5,,724,726,0.9972451790633609,0.97,False,snap,390,1.0,0.0,0
+perfect-signal-answer-weighted-heldout-epoch1,heldout,perfect signal answer_weight=0.5,,724,726,0.9972451790633609,0.97,False,short,390,0.8871794871794871,0.11282051282051282,
+perfect-signal-answer-weighted-heldout-epoch2,heldout,perfect signal answer_weight=0.5,,723,725,0.9972413793103448,0.97,False,snap,390,1.0,0.0,0
+perfect-signal-answer-weighted-heldout-epoch2,heldout,perfect signal answer_weight=0.5,,723,725,0.9972413793103448,0.97,False,short,390,0.8948717948717949,0.10512820512820513,
+perfect-signal-connector-heldout-epoch1,heldout,connector signal=perfect,,734,734,1.0,0.97,False,snap,390,1.0,0.0,0
+perfect-signal-connector-heldout-epoch1,heldout,connector signal=perfect,,734,734,1.0,0.97,False,short,390,0.9153846153846154,0.08461538461538462,
+perfect-signal-connector-heldout-epoch2,heldout,connector signal=perfect,,734,736,0.9972826086956522,0.97,False,snap,390,1.0,0.0,0
+perfect-signal-connector-heldout-epoch2,heldout,connector signal=perfect,,734,736,0.9972826086956522,0.97,False,short,390,0.9230769230769231,0.07692307692307693,
+perfect-signal-connector-heldout-epoch3,heldout,connector signal=perfect,,725,730,0.9931506849315068,0.97,False,snap,390,1.0,0.0,0
+perfect-signal-connector-heldout-epoch3,heldout,connector signal=perfect,,725,730,0.9931506849315068,0.97,False,short,390,0.8974358974358975,0.10256410256410256,
+perfect-signal-heldout-epoch1,heldout,perfect signal,,727,730,0.9958904109589041,0.97,False,snap,390,1.0,0.0,0
+perfect-signal-heldout-epoch1,heldout,perfect signal,,727,730,0.9958904109589041,0.97,False,short,390,0.9025641025641026,0.09743589743589744,
+perfect-signal-heldout-epoch2,heldout,perfect signal,,728,735,0.9904761904761905,0.97,False,snap,390,1.0,0.0,0
+perfect-signal-heldout-epoch2,heldout,perfect signal,,728,735,0.9904761904761905,0.97,False,short,390,0.9128205128205128,0.08717948717948718,
+steering-g1-heldout,heldout,steering g=1,,718,721,0.9958391123439667,0.97,False,snap,390,1.0,0.0,0
+steering-g1-heldout,heldout,steering g=1,,718,721,0.9958391123439667,0.97,False,short,390,0.8743589743589744,0.12564102564102564,
+steering-g2,test,steering g=2,,1186,1200,0.9883333333333333,0.97,False,snap,2107,1.0,0.0,0
+steering-g2,test,steering g=2,,1186,1200,0.9883333333333333,0.97,False,short,2107,0.8334124347413384,0.1665875652586616,
+steering-g2-heldout,heldout,steering g=2,,715,722,0.9903047091412742,0.97,False,snap,390,1.0,0.0,0
+steering-g2-heldout,heldout,steering g=2,,715,722,0.9903047091412742,0.97,False,short,390,0.8769230769230769,0.12307692307692308,
+steering-g4,test,steering g=4,,1175,1200,0.9791666666666666,0.97,False,snap,2107,0.6426198386331277,0.35738016136687234,735
+steering-g4,test,steering g=4,,1175,1200,0.9791666666666666,0.97,False,short,2107,0.8215472235405791,0.17845277645942098,
+steering-g4-heldout,heldout,steering g=4,,608,628,0.9681528662420382,0.97,True,snap,390,0.7487179487179487,0.2512820512820513,97
+steering-g4-heldout,heldout,steering g=4,,608,628,0.9681528662420382,0.97,True,short,390,0.8615384615384616,0.13846153846153847,
+steering-g8,test,steering g=8,,539,600,0.8983333333333333,0.97,True,snap,2107,0.0,1.0,2107
+steering-g8,test,steering g=8,,539,600,0.8983333333333333,0.97,True,short,2107,0.7859515899383009,0.21404841006169908,
+steering-g8-heldout,heldout,steering g=8,,288,316,0.9113924050632911,0.97,True,snap,390,0.0,1.0,390
+steering-g8-heldout,heldout,steering g=8,,288,316,0.9113924050632911,0.97,True,short,390,0.8102564102564103,0.18974358974358974,
+swap,test,swap,,1191,1200,0.9925,0.97,False,snap,2107,1.0,0.0,0
+swap,test,swap,,1191,1200,0.9925,0.97,False,short,2107,0.8865685809207404,0.1134314190792596,
+system-prompt,test,system prompt,,1193,1200,0.9941666666666666,0.97,False,snap,2107,1.0,0.0,0
+system-prompt,test,system prompt,,1193,1200,0.9941666666666666,0.97,False,short,2107,0.851922164214523,0.14807783578547698,
+wide-check2,test,check2 input=probabilities_and_state,,1193,1200,0.9941666666666666,0.97,False,snap,2107,1.0,0.0,0
+wide-check2,test,check2 input=probabilities_and_state,,1193,1200,0.9941666666666666,0.97,False,short,2107,0.88609397247271,0.11390602752728998,
+wide-check2-heldout-epoch1,heldout,check2 input=probabilities_and_state,,731,735,0.9945578231292517,0.97,False,snap,390,1.0,0.0,0
+wide-check2-heldout-epoch1,heldout,check2 input=probabilities_and_state,,731,735,0.9945578231292517,0.97,False,short,390,0.9230769230769231,0.07692307692307693,
+wide-check2-heldout-epoch2,heldout,check2 input=probabilities_and_state,,719,728,0.9876373626373627,0.97,False,snap,390,1.0,0.0,0
+wide-check2-heldout-epoch2,heldout,check2 input=probabilities_and_state,,719,728,0.9876373626373627,0.97,False,short,390,0.9,0.1,
+wide-connector-heldout-epoch1,heldout,connector input=probabilities_and_state,,724,730,0.9917808219178083,0.97,False,snap,390,1.0,0.0,0
+wide-connector-heldout-epoch1,heldout,connector input=probabilities_and_state,,724,730,0.9917808219178083,0.97,False,short,390,0.8974358974358975,0.10256410256410256,
+wide-connector-heldout-epoch2,heldout,connector input=probabilities_and_state,,726,735,0.9877551020408163,0.97,False,snap,390,1.0,0.0,0
+wide-connector-heldout-epoch2,heldout,connector input=probabilities_and_state,,726,735,0.9877551020408163,0.97,False,short,390,0.9128205128205128,0.08717948717948718,
+wide-connector-heldout-epoch3,heldout,connector input=probabilities_and_state,,730,738,0.989159891598916,0.97,False,snap,390,1.0,0.0,0
+wide-connector-heldout-epoch3,heldout,connector input=probabilities_and_state,,730,738,0.989159891598916,0.97,False,short,390,0.9256410256410257,0.07435897435897436,
+wide-off,test,off input=probabilities_and_state,,1195,1200,0.9958333333333333,0.97,False,snap,2107,1.0,0.0,0
+wide-off,test,off input=probabilities_and_state,,1195,1200,0.9958333333333333,0.97,False,short,2107,0.8690080683436165,0.13099193165638348,
+wide-off-heldout,heldout,off input=probabilities_and_state,,734,735,0.998639455782313,0.97,False,snap,390,1.0,0.0,0
+wide-off-heldout,heldout,off input=probabilities_and_state,,734,735,0.998639455782313,0.97,False,short,390,0.9230769230769231,0.07692307692307693,
+wide-swap,test,swap input=probabilities_and_state,,1194,1200,0.995,0.97,False,snap,2107,1.0,0.0,0
+wide-swap,test,swap input=probabilities_and_state,,1194,1200,0.995,0.97,False,short,2107,0.8808732795443759,0.11912672045562411,
+original-repeat,test,original,,1196,1200,0.9966666666666667,0.97,False,snap,2107,1.0,0.0,0
+original-repeat,test,original,,1196,1200,0.9966666666666667,0.97,False,short,2107,0.8618889416231609,0.1381110583768391,
+original-repeat-heldout,heldout,original,,723,726,0.9958677685950413,0.97,False,snap,390,1.0,0.0,0
+original-repeat-heldout,heldout,original,,723,726,0.9958677685950413,0.97,False,short,390,0.8897435897435897,0.11025641025641025,
+check2-neutral,test,check2,neutral follow-up,400,400,1.0,0.97,False,snap,541,1.0,0.0,0
+check2-neutral,test,check2,neutral follow-up,400,400,1.0,0.97,False,short,541,0.8927911275415896,0.10720887245841035,
+original-neutral,test,original,neutral follow-up,400,400,1.0,0.97,False,snap,541,1.0,0.0,0
+original-neutral,test,original,neutral follow-up,400,400,1.0,0.97,False,short,541,0.911275415896488,0.08872458410351201,

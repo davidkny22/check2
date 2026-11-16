@@ -1,0 +1,61 @@
+{
+ "builtin_path": false,
+ "commit": "93d475d8dcd28ac2332c4886c7c0a064f0978e64",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "bfloat16",
+ "finished": "2026-11-15T16:40:01+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "measurement",
+ "model_kind": "full",
+ "name": "training_step_time",
+ "seconds": 21.4,
+ "session": "c2-a",
+ "started": "2026-11-15T16:39:40+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "adapter": "hooks",
+  "batches": [
+   {
+    "rows": 16,
+    "tokens": 3872
+   }
+  ],
+  "episode_ids": [
+   "philosophy/22:named:short:A",
+   "econometrics/5:reasoned:short:B",
+   "marketing/62:named:short:D",
+   "college_mathematics/95:reasoned:short:C",
+   "astronomy/51:named:short:A",
+   "abstract_algebra/59:reasoned:short:A",
+   "high_school_macroeconomics/45:named:short:B",
+   "logical_fallacies/42:reasoned:short:D",
+   "econometrics/85:named:short:A",
+   "machine_learning/21:named:short:A",
+   "high_school_physics/19:reasoned:short:D",
+   "high_school_physics/29:reasoned:short:A",
+   "college_computer_science/53:reasoned:short:D",
+   "elementary_mathematics/87:named:short:A",
+   "philosophy/30:named:short:C",
+   "machine_learning/27:named:short:A"
+  ],
+  "episodes": 16,
+  "form": "shared_prefix",
+  "peak_gib": 64.64,
+  "seconds": 2.2989,
+  "token_budget": 4488,
+  "warm_up_seconds": [
+   4.5454,
+   2.2993
+  ]
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

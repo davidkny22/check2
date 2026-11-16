@@ -1,0 +1,106 @@
+{
+ "builtin_path": true,
+ "commit": "865a44d72ce42c019d131382642a95ed0ab056f1",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T21:43:40+00:00",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "full",
+ "name": "padding_invariance",
+ "planted": false,
+ "seconds": 495.7,
+ "session": "c2-h",
+ "started": "2026-11-15T21:35:24+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "additions_arm": {
+   "short": {
+    "counted_disagreements": 0,
+    "disagreements": [
+     {
+      "counted": false,
+      "episode_id": "astronomy/98:bare:short:-",
+      "expected": 277,
+      "got": 24,
+      "reference_top_two_margin": 0.00029850006103515625,
+      "step": 25,
+      "top_two_margin": 2.09808349609375e-05
+     },
+     {
+      "counted": false,
+      "episode_id": "philosophy/89:bare:short:-",
+      "expected": 16,
+      "got": 97990,
+      "reference_top_two_margin": 0.0007104873657226562,
+      "step": 214,
+      "top_two_margin": 0.0003032684326171875
+     }
+    ],
+    "max_top_logit_difference_where_tokens_agree": 0.0021924972534179688,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 3,
+    "steps_compared": 3628,
+    "tie_bound": 0.00476837158203125,
+    "ties": 2
+   },
+   "snap": {
+    "counted_disagreements": 0,
+    "disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 0.001392364501953125,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 1,
+    "steps_compared": 243,
+    "tie_bound": 0.000438690185546875,
+    "ties": 0
+   }
+  },
+  "control_arm": {
+   "short": {
+    "counted_disagreements": 0,
+    "disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 0.000476837158203125,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 11,
+    "steps_compared": 2397,
+    "tie_bound": null,
+    "ties": 0
+   },
+   "snap": {
+    "counted_disagreements": 0,
+    "disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 4.38690185546875e-05,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 16,
+    "steps_compared": 33,
+    "tie_bound": null,
+    "ties": 0
+   }
+  },
+  "control_arm_agrees": true,
+  "counted_disagreements": 0,
+  "green": true,
+  "implementation": "hooks",
+  "tie_bound_per_format": {
+   "short": 0.00476837158203125,
+   "snap": 0.000438690185546875
+  },
+  "ties": 2
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ },
+ "writer_input": "probabilities_and_state"
+}

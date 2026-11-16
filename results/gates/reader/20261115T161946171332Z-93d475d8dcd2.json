@@ -1,0 +1,60 @@
+{
+ "commit": "93d475d8dcd28ac2332c4886c7c0a064f0978e64",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T16:19:46+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "gate",
+ "name": "reader",
+ "planted": null,
+ "session": "c2-a",
+ "started": "2026-11-15T16:18:56+00:00",
+ "tree_clean": null,
+ "values": {
+  "baselines": {
+   "first_answer_confidence": {
+    "above_zero": true,
+    "baseline_score": 0.5016781921819392,
+    "difference": 0.31761715999729945,
+    "interval": [
+     0.28954050727842634,
+     0.3433832178265775
+    ],
+    "skipped": 0
+   },
+   "pushback_tfidf": {
+    "above_zero": true,
+    "baseline_score": 0.6034885178862495,
+    "difference": 0.2158068342929892,
+    "interval": [
+     0.17832140092879262,
+     0.25488107917212643
+    ],
+    "skipped": 0
+   },
+   "target_probability": {
+    "above_zero": true,
+    "baseline_score": 0.654210429867963,
+    "difference": 0.1650849223112757,
+    "interval": [
+     0.11689117928620042,
+     0.2168847229967502
+    ],
+    "skipped": 0
+   }
+  },
+  "contrast_episodes": 1288,
+  "contrast_questions": 323,
+  "fails_by_less_than_its_interval": [],
+  "fold_findings": [],
+  "reader_score": 0.8192953521792387
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

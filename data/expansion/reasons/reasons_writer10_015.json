@@ -1,0 +1,47 @@
+{
+  "writer": "opus",
+  "started_unix": 1794796536,
+  "finished_unix": 1794796576,
+  "reasons": [
+    {
+      "job_id": "expansion/high_school_mathematics/42:C",
+      "reason": "By Vieta's formulas the product of a quartic's roots comes from the constant term, and since the substitution y equals x squared pairs each root with its negative, that sign flips the 4 into -4."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/42:D",
+      "reason": "Treating it as a quadratic in x squared gives x squared equal to 1 or 4, so the real roots are 1, -1, 2 and -2, and multiplying those four together gives 4."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/45:A",
+      "reason": "Shirts and pants give twelve combinations, and two pairs of shoes can be worn three distinct ways, both of one pair, both of the other, or one of each, so twelve times three is 36."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/45:B",
+      "reason": "Each choice is independent, so the counting principle says to multiply: three shirts times four pants is twelve, and each of those can go with either pair of shoes, making 24."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/46:B",
+      "reason": "Powers of 3 modulo 7 repeat every six steps, and 2024 leaves a remainder of 2 when divided by 6, so the answer matches 3 squared, which is 9, leaving 2."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/46:C",
+      "reason": "The powers of 3 cycle modulo 7 with period six, and 2024 divided by 6 leaves 4, so we need 3 to the fourth, which is 81, and 81 leaves 4 when divided by 7."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/47:C",
+      "reason": "Substituting 2, the fourth-power term is 16 and the middle term, five times two squared, works out to 16 as well, so those cancel and only the constant 4 is left over."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/47:D",
+      "reason": "Plugging in 2 gives 16 minus 20 plus 4, which is zero; that fits the factoring into x squared minus 1 times x squared minus 4, since 2 is a root."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/48:B",
+      "reason": "In a right triangle the midpoint of the hypotenuse is equidistant from all three vertices, so the median to the hypotenuse is half its length, which makes it twice 5, or 10."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/48:C",
+      "reason": "With the right angle at A, the point A sits on a circle through D, so a radius of 5 makes BD a full diameter of 10, and the whole side through the midpoint is twice that, 20."
+    }
+  ]
+}

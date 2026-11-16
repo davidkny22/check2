@@ -1,0 +1,61 @@
+{
+ "commit": "5123de3e70131581c5eb181fbfa1f56286934b1c",
+ "commit_source": "git",
+ "config": {
+  "cap_usd": "45",
+  "chunk_size": 64,
+  "endpoint": "https://api.anthropic.com/v1/messages",
+  "max_tokens": "item cap",
+  "model": "claude-haiku-5-5",
+  "prices_file": "experiments/behaviour/claude-prices.json",
+  "request_fields": {
+   "thinking": {
+    "type": "disabled"
+   }
+  },
+  "thinking": "thinking disabled",
+  "workers": 16
+ },
+ "config_sha256": "0ecde8db9d0f8000800d55eee1dd40dfcea999be9444ce4560f0d7753cfa35b3",
+ "finished": "2026-11-16T06:00:03+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "run",
+ "name": "behaviour/claude-haiku-5-5",
+ "session": null,
+ "started": "2026-11-16T05:59:09+00:00",
+ "tree_clean": true,
+ "values": {
+  "cap_usd": "45",
+  "endpoint": "https://api.anthropic.com/v1/messages",
+  "error": "PermissionError: [WinError 5] Access is denied: '<home>\\\\check-twice-wt\\\\lime-whinchat\\\\results\\\\behaviour\\\\claude-spend.json.tmp' -> '<home>\\\\check-twice-wt\\\\lime-whinchat\\\\results\\\\behaviour\\\\claude-spend.json'",
+  "items_expected": 3543,
+  "items_written": 561,
+  "model": "claude-haiku-5-5",
+  "not_ended": 130,
+  "questions_kept": 3081,
+  "refused": 0,
+  "replies_by_kind": {
+   "first": 561
+  },
+  "spend_all_models_usd": "0.0099244",
+  "spend_this_model_usd": "0.0099244",
+  "status": "failed",
+  "thinking": "thinking disabled",
+  "timing": {
+   "calls_per_second": 11.303030722773999,
+   "cut": false,
+   "deadline": "2026-11-16T07:15:00+00:00",
+   "projected_end": "2026-11-16T06:11:57+00:00",
+   "remaining_calls": 8553,
+   "seconds": 4.4235923290252686,
+   "timed_calls": 50
+  }
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

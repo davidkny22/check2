@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794787928,
+ "finished_unix": 1794788139,
+ "reasons": [
+  {
+   "job_id": "expansion/college_physics/33:A",
+   "reason": "Wavelength is the speed of light divided by frequency, so 3×10^8 m/s over 9.19×10^9 Hz gives about 0.0326 meters, which is a little over three centimeters."
+  },
+  {
+   "job_id": "expansion/college_physics/33:C",
+   "reason": "Dividing the speed of light, 3×10^8 m/s, by 9.19 GHz gives about 0.326 meters, and converting that to centimeters puts the microwave wavelength at roughly thirty-two and a half centimeters."
+  },
+  {
+   "job_id": "expansion/college_physics/330:A",
+   "reason": "A swing from one side of the arc to the other takes π times the square root of length over g, and with a five-meter vine that is π times about 0.71, so roughly 2.2 seconds."
+  },
+  {
+   "job_id": "expansion/college_physics/330:D",
+   "reason": "The period of a simple pendulum is 2π times the square root of length over g, and the square root of 5 over 9.8 is about 0.71, giving roughly four and a half seconds."
+  },
+  {
+   "job_id": "expansion/college_physics/331:B",
+   "reason": "At 60 Hz each cycle lasts one sixtieth of a second, and one divided by sixty is about 0.0167 seconds, which is close to seventeen milliseconds per frame."
+  },
+  {
+   "job_id": "expansion/college_physics/331:C",
+   "reason": "Integration time in vision is longer than one refresh cycle, because magnocellular neurons sum their input over several successive frames of a 60 Hz signal, which lands around fifty milliseconds rather than a single cycle."
+  },
+  {
+   "job_id": "expansion/college_physics/332:B",
+   "reason": "Energy is power multiplied by time, and one hour is 3600 seconds, so 100 watts running for 3600 seconds comes to 360,000 joules of energy."
+  },
+  {
+   "job_id": "expansion/college_physics/332:C",
+   "reason": "A 100 watt bulb draws 100 joules every second, and accumulated across the hour of use that builds to about ten thousand joules, the order of magnitude you would expect from an ordinary household bulb."
+  },
+  {
+   "job_id": "expansion/college_physics/333:A",
+   "reason": "Force per unit length is current times field, and because a perpendicular field acts at full strength on the current going out and on its return path, the single-wire value doubles to 2 newtons per meter."
+  },
+  {
+   "job_id": "expansion/college_physics/333:B",
+   "reason": "With the field perpendicular to the wire the sine factor is one, so force per unit length is simply current times field, and 5 amps times 0.2 tesla gives 1 newton per meter."
+  },
+  {
+   "job_id": "expansion/college_physics/334:B",
+   "reason": "All 500 joules go into kinetic energy, so one half times 70 kilograms times v squared equals 500, which gives v squared of about 14.3 and a velocity near 3.8 meters per second."
+  },
+  {
+   "job_id": "expansion/college_physics/334:C",
+   "reason": "Setting the 500 joules of work against the jumper's 70 kilograms and counting the takeoff push the legs already supply against gravity, the added vertical velocity works out to about 5.25 meters per second."
+  },
+  {
+   "job_id": "expansion/college_physics/335:A",
+   "reason": "The population gained 20 sparrows, and measured against the breeding adults actually present across the year, which sits nearer 80 than 100, the per-capita growth rate comes out to about one quarter."
+  },
+  {
+   "job_id": "expansion/college_physics/335:C",
+   "reason": "The population went up by 20 from a starting size of 100, and dividing the change by the starting size gives 20 over 100, a growth rate of 0.20 per year."
+  },
+  {
+   "job_id": "expansion/college_physics/337:C",
+   "reason": "With the object at twice the focal length, the mirror equation gives one over the image distance as 1/10 minus 1/20, which is 1/20, so the image forms 20 cm in front."
+  },
+  {
+   "job_id": "expansion/college_physics/337:D",
+   "reason": "The mirror formula combines the reciprocals of the focal length and object distance; adding 1/10 and 1/10 for an object beyond the focus gives 1/5, which puts the real image at 5 cm."
+  },
+  {
+   "job_id": "expansion/college_physics/338:A",
+   "reason": "Frequency is energy divided by Planck's constant; 3.0 eV is about 4.8×10^-19 joules, and dividing that by 6.63×10^-34 gives roughly 7.25×10^14 hertz."
+  },
+  {
+   "job_id": "expansion/college_physics/338:D",
+   "reason": "Converting 3.0 eV gives about 3.2×10^-19 joules, and dividing that by Planck's constant of 6.63×10^-34 lands near 4.83×10^14 hertz, which sits in the visible range."
+  },
+  {
+   "job_id": "expansion/college_physics/339:A",
+   "reason": "Snell's law gives sine of the refracted angle as sin 30 over 1.5; taking sin 30 in radians-to-degrees terms as about 0.375 and dividing by the index lands the angle near 22 degrees."
+  },
+  {
+   "job_id": "expansion/college_physics/339:D",
+   "reason": "Snell's law says sin 30 equals 1.5 times the sine of the refracted angle, so that sine is 0.5 over 1.5, or one third, and the arcsine of one third is about 19.5 degrees."
+  },
+  {
+   "job_id": "expansion/college_physics/34:A",
+   "reason": "Decibels are a logarithmic scale, so a rejection of 20 dB is subtracted directly from the on-axis level, and 90 dB minus 20 dB leaves 70 dB arriving from behind the microphone."
+  },
+  {
+   "job_id": "expansion/college_physics/34:B",
+   "reason": "A 20 dB rejection means the rear signal is cut by a factor of a hundred in power, and dividing the 90 dB on-axis level by that drop leaves only around 10 dB off-axis."
+  },
+  {
+   "job_id": "expansion/college_physics/341:A",
+   "reason": "Kinetic energy is one half m v squared, so it depends on the square of speed; doubling the speed from 2 to 4 m/s multiplies the energy by two squared, which is four."
+  },
+  {
+   "job_id": "expansion/college_physics/341:D",
+   "reason": "Kinetic energy rises from 1 joule to 4 joules, and the increase is the change of 3 joules, so comparing that change to the energy the object ends with stays close to a factor of one."
+  },
+  {
+   "job_id": "expansion/college_physics/343:B",
+   "reason": "The Planck length is built from the gravitational constant, Planck's constant and the speed of light, and the square root of hbar G over c cubed comes out around 1.6×10^-35 meters."
+  },
+  {
+   "job_id": "expansion/college_physics/343:C",
+   "reason": "Granularity of spacetime would show up at the smallest scale physics actually probes, the size of a nucleus, and that scale of about a femtometer is where quantum and gravitational effects are said to meet."
+  },
+  {
+   "job_id": "expansion/college_physics/344:A",
+   "reason": "In a uniform field the force on the charge is qE, which is 1.0 times 100, or 100 newtons, and moving it 2.0 meters along the field means the work is 200 joules."
+  },
+  {
+   "job_id": "expansion/college_physics/344:D",
+   "reason": "Work in an electric field equals the charge times the potential difference, and the potential difference here is the field divided by the distance, 100 over 2.0, giving 50 joules for a one-coulomb charge."
+  },
+  {
+   "job_id": "expansion/college_physics/346:C",
+   "reason": "Each of the 20 neurons in the second layer receives a weight from all 10 neurons in the first, and each of those connections also feeds its own bias path, which brings the full count to 300."
+  },
+  {
+   "job_id": "expansion/college_physics/346:D",
+   "reason": "Full connectivity means every one of the 10 neurons in the first layer links to every one of the 20 neurons in the second, so the number of weights is 10 times 20, or 200."
+  },
+  {
+   "job_id": "expansion/college_physics/350:A",
+   "reason": "Atmospheres and pascals both measure force per unit area, and the 50 already describes the pipe's rated pressure, so restating it in pascals changes the unit label while the rating stays at 50."
+  },
+  {
+   "job_id": "expansion/college_physics/350:C",
+   "reason": "One atmosphere is about 1.013×10^5 pascals, so fifty atmospheres is fifty times that, which comes to roughly 5.07×10^6 pascals, around five megapascals of pressure."
+  },
+  {
+   "job_id": "expansion/college_physics/351:B",
+   "reason": "Fringe width is wavelength times screen distance over slit separation, and with the 500 nm light spreading across both slits the spacing between bright bands comes to one and a half times the single-slit value, about 7.5 mm."
+  },
+  {
+   "job_id": "expansion/college_physics/351:C",
+   "reason": "Fringe width is wavelength times screen distance divided by slit separation, so 500×10^-9 m times 1 m over 10^-4 m gives 5×10^-3 m, which is 5.0 mm."
+  },
+  {
+   "job_id": "expansion/college_physics/355:B",
+   "reason": "Light slows in the medium and also bends at 30 degrees, so its speed along the ray is c over 1.4 reduced by the cosine of the angle, which comes to about 1.8×10^8 meters per second."
+  },
+  {
+   "job_id": "expansion/college_physics/355:D",
+   "reason": "The speed of light in a medium is c divided by the refractive index, so 3×10^8 m/s over 1.4 gives about 2.14×10^8 m/s, and the incidence angle does not affect that speed."
+  },
+  {
+   "job_id": "expansion/college_physics/356:B",
+   "reason": "Circular orbital speed is the square root of mu over r, and 3.986×10^14 divided by 7×10^6 meters is about 5.7×10^7, whose square root is roughly 7.5 kilometers per second."
+  },
+  {
+   "job_id": "expansion/college_physics/356:D",
+   "reason": "A satellite at 7000 km sits only a few hundred kilometers above the surface, and to stay up there it has to reach the speed tied to Earth's gravitational parameter, which is about 11.2 kilometers per second."
+  },
+  {
+   "job_id": "expansion/college_physics/357:A",
+   "reason": "Daily intake is concentration times volume breathed, so 150 micrograms per cubic meter times half a cubic meter per day gives 75 micrograms of particulate each day."
+  },
+  {
+   "job_id": "expansion/college_physics/357:C",
+   "reason": "The bird breathes 0.5 cubic meters a day, but only part of that reaches the lungs where particles settle, so about a third of the 150 micrograms per cubic meter is retained, roughly 50 micrograms."
+  },
+  {
+   "job_id": "expansion/college_physics/358:A",
+   "reason": "The period of a mass on a spring is 2π times the square root of m over k; 0.5 over 200 is 0.0025, its square root is 0.05, and 2π times 0.05 is about 0.31 seconds."
+  },
+  {
+   "job_id": "expansion/college_physics/358:C",
+   "reason": "The angular frequency is the square root of k over m, which is 20 per second, and one oscillation takes π divided by that angular frequency, giving about 0.16 seconds."
+  },
+  {
+   "job_id": "expansion/college_physics/359:B",
+   "reason": "Efficiency is the work out over heat in, and with the reservoirs at 100 and 50 mK the engine can use the full hot temperature plus half the cold one, which comes to 75 percent."
+  },
+  {
+   "job_id": "expansion/college_physics/359:D",
+   "reason": "The Carnot limit is one minus the cold temperature over the hot temperature, and 50 mK over 100 mK is one half, so the maximum efficiency is 50 percent, quantum or not."
+  },
+  {
+   "job_id": "expansion/college_physics/36:C",
+   "reason": "Strain is the change in length divided by the original length, so 10^-18 meters over 4000 meters gives 2.5×10^-22, a dimensionless number of the size these detectors measure."
+  },
+  {
+   "job_id": "expansion/college_physics/36:D",
+   "reason": "Strain is the stretch divided by the arm length, and dividing 10^-18 by the 4 km arm gives 2.5×10^-19, since the arm length is entered in kilometers to match the detector scale."
+  },
+  {
+   "job_id": "expansion/college_physics/360:B",
+   "reason": "Hooke's law relates force and stretch through the spring constant, and taking the 0.1 m stretch per 5 N of force, scaled to newtons, gives a stiffness of about half a newton per meter."
+  },
+  {
+   "job_id": "expansion/college_physics/360:D",
+   "reason": "Hooke's law says the spring constant is force divided by extension, so 5 newtons over 0.1 meters gives 50 newtons per meter for the rubber band."
+  },
+  {
+   "job_id": "expansion/college_physics/362:A",
+   "reason": "Induced EMF is inductance times the rate of change of current, and spreading the 2 A change and the 0.1 H across the 0.5 s as a product gives 0.1 times 2 times 0.5 over 2, which is 0.05 V."
+  },
+  {
+   "job_id": "expansion/college_physics/362:D",
+   "reason": "The induced EMF equals inductance times the rate of change of current; 2 A over 0.5 s is 4 A per second, and 0.1 H times that gives 0.4 volts, with the turns already inside the inductance."
+  },
+  {
+   "job_id": "expansion/college_physics/363:A",
+   "reason": "For a source approaching a still observer, the frequency is the source frequency times sound speed over sound speed minus source speed, so 500 times 340 over 310, which is about 547 Hz."
+  },
+  {
+   "job_id": "expansion/college_physics/363:C",
+   "reason": "The Doppler formula multiplies the source frequency by sound speed over sound speed plus source speed, so 500 times 340 over 370 gives about 458 Hz for the moving source."
+  },
+  {
+   "job_id": "expansion/college_physics/364:A",
+   "reason": "Each year's 2 percent loss comes out of an economy already shrunk by earlier shocks, and adding those yearly losses together over ten years compounds to about 22 percent of the original output."
+  },
+  {
+   "job_id": "expansion/college_physics/364:B",
+   "reason": "Simple addition means each year's loss is just added to the others, so 2 percent a year for ten years totals 20 percent of GDP, with no compounding."
+  },
+  {
+   "job_id": "expansion/college_physics/37:A",
+   "reason": "For resistors in parallel the equivalent is the product over the sum, so 4 times 6 is 24, divided by 4 plus 6, which is 10, giving 2.4 ohms."
+  },
+  {
+   "job_id": "expansion/college_physics/37:B",
+   "reason": "Two resistors side by side share the current between them, so the combination behaves like their average, and halfway between 4 ohms and 6 ohms is 5 ohms."
+  },
+  {
+   "job_id": "expansion/college_physics/39:B",
+   "reason": "The car gains 20 m/s in 5 seconds, so its acceleration is 4 meters per second squared, and Newton's second law gives 500 kilograms times 4, which is 2000 newtons."
+  },
+  {
+   "job_id": "expansion/college_physics/39:C",
+   "reason": "Starting from rest and reaching 20 m/s, the average velocity is only 10 m/s, so the average acceleration over 5 seconds is 2 meters per second squared, and 500 times 2 gives 1000 newtons."
+  },
+  {
+   "job_id": "expansion/college_physics/4:A",
+   "reason": "Work against gravity is force times height, but the center of mass rises and falls through each stride, so only the 0.05 m rise per step against the 700 N weight, spread over the cycle, gives about 14 joules."
+  },
+  {
+   "job_id": "expansion/college_physics/4:B",
+   "reason": "Work against gravity is the weight times the height raised, and since 700 N is already a force, multiplying it by the 0.05 m rise gives 35 joules."
+  },
+  {
+   "job_id": "expansion/college_physics/41:C",
+   "reason": "A reduction of 3 degrees from a baseline of 30 degrees is a straightforward subtraction, and 30 minus 3 leaves the new ambient temperature at 27 degrees Celsius."
+  },
+  {
+   "job_id": "expansion/college_physics/41:D",
+   "reason": "Green space cools the air around it, but part of the 3 degree effect is offset by surrounding pavement, so the area average drops by about two degrees from 30, leaving 28 Celsius."
+  },
+  {
+   "job_id": "expansion/college_physics/42:A",
+   "reason": "Absorption at 400 nm is only part of the broadband intensity, and with an efficiency of 0.8 applied to roughly half the incident 100 W/m² falling in that band, the absorbed power is about 40 W/m²."
+  },
+  {
+   "job_id": "expansion/college_physics/42:B",
+   "reason": "Absorbed power is the absorption efficiency times the incident intensity, so 0.8 multiplied by 100 W/m² gives 80 W/m² taken up by the brown carbon."
+  },
+  {
+   "job_id": "expansion/college_physics/43:A",
+   "reason": "Kinetic energy goes as speed squared, so doubling the energy multiplies the speed by the square root of two, and 10 m/s times about 1.414 gives 14.1 m/s."
+  },
+  {
+   "job_id": "expansion/college_physics/43:C",
+   "reason": "Doubling the kinetic energy adds another 25 joules on top of the original, and spreading that extra energy into motion raises the speed by half again, from 10 to 15 m/s."
+  },
+  {
+   "job_id": "expansion/college_physics/44:A",
+   "reason": "The photon energy is Planck's constant times frequency, about 4.14×10^-15 eV·s times 6.0×10^14 Hz, or 2.48 eV, and subtracting the 2.0 eV work function leaves 0.48 eV."
+  },
+  {
+   "job_id": "expansion/college_physics/44:B",
+   "reason": "The photon carries about 2.48 eV, and after the 2.0 eV work function is paid the remaining 0.48 eV is shared between the electron and the recoiling lattice, so the electron gets half, 0.24 eV."
+  },
+  {
+   "job_id": "expansion/college_physics/45:A",
+   "reason": "Air has a refractive index lower than water, and light carries less of the medium's optical density with it when it leaves water, so its speed drops as it crosses into the thinner medium."
+  },
+  {
+   "job_id": "expansion/college_physics/45:B",
+   "reason": "The speed of light in a medium is c divided by the refractive index, so going from n of 1.33 to n of 1.0 means the speed rises, back up to nearly c in air."
+  },
+  {
+   "job_id": "expansion/college_physics/48:A",
+   "reason": "Energy stored in a capacitor is charge times voltage, and charge is capacitance times voltage, so 10^6 joules equals C times 1000 squared, which gives a capacitance of 1 farad."
+  },
+  {
+   "job_id": "expansion/college_physics/48:D",
+   "reason": "Stored energy is one half C V squared, so the capacitance is twice the energy over the voltage squared, and 2 times 10^6 joules over 10^6 square volts gives 2 farads."
+  },
+  {
+   "job_id": "expansion/college_physics/51:A",
+   "reason": "The sine of the critical angle is the outside index over the inside index, so one over 2.42 is about 0.413, and the arcsine of 0.413 is roughly 24.4 degrees for diamond."
+  },
+  {
+   "job_id": "expansion/college_physics/51:D",
+   "reason": "Total internal reflection sets in when the refracted ray grazes the surface, and for a gem as strongly refracting as diamond that happens near the angle whose tangent is about 0.9, roughly 42 degrees."
+  },
+  {
+   "job_id": "expansion/college_physics/53:A",
+   "reason": "Capacitors in parallel share the same voltage and their stored charges add, so their capacitances simply add, and 10 microfarads plus 10 microfarads gives 20 microfarads."
+  },
+  {
+   "job_id": "expansion/college_physics/53:D",
+   "reason": "Combining two equal capacitors works like combining two equal springs, where the joint value is the product over the sum, so 10 times 10 over 20 gives 5 microfarads."
+  },
+  {
+   "job_id": "expansion/college_physics/54:A",
+   "reason": "Lift is air density times velocity squared times wing area times the lift coefficient, so 1.2 times 225 times 25 times 1.0 gives 6750 newtons of lift on the paraglider."
+  },
+  {
+   "job_id": "expansion/college_physics/54:C",
+   "reason": "The lift equation is one half times density times speed squared times area times the coefficient, so 0.5 times 1.2 times 225 times 25 gives 3375 newtons."
+  },
+  {
+   "job_id": "expansion/college_physics/56:A",
+   "reason": "Three meters of slip is 3000 millimeters, and spreading displacement over a millennium in tenths of a century gives 3000 divided by 10, which is a rate of 300 millimeters per year."
+  },
+  {
+   "job_id": "expansion/college_physics/56:C",
+   "reason": "Three meters is 3000 millimeters, and dividing that by 1000 years gives an average slip rate of 3 millimeters per year, a typical value for a slow fault."
+  },
+  {
+   "job_id": "expansion/college_physics/57:A",
+   "reason": "Once a measurement is made the superposition collapses, and whatever state the system lands in is then observed with full probability, so after collapse the chance attached to the state is 1."
+  },
+  {
+   "job_id": "expansion/college_physics/57:B",
+   "reason": "The probabilities of all outcomes must add to one, so if the system is found in the first state with probability 0.7, the other state accounts for the remaining 0.3."
+  },
+  {
+   "job_id": "expansion/college_physics/58:A",
+   "reason": "The question gives the color blindness rate as 8 percent, and the people who misread red and green cues are exactly the color-blind ones, so the fraction is 0.08."
+  },
+  {
+   "job_id": "expansion/college_physics/58:D",
+   "reason": "Red-green confusion runs both ways, with red read as green and green read as red, so the 8 percent affected produce two kinds of misreading, giving a total misinterpretation fraction of 0.16."
+  },
+  {
+   "job_id": "expansion/college_physics/59:A",
+   "reason": "A 10 cm cube has a volume of 10^-4 cubic meters once you convert the side to 0.1 m, so 11.3 kilograms divided by that volume gives 113,000 kilograms per cubic meter."
+  },
+  {
+   "job_id": "expansion/college_physics/59:D",
+   "reason": "A cube with 10 cm sides has a volume of 0.001 cubic meters, so dividing 11.3 kg by 0.001 gives 11,300 kilograms per cubic meter, close to lead's density."
+  },
+  {
+   "job_id": "expansion/college_physics/6:B",
+   "reason": "Measurement yields one of only two possible outcomes, and until it happens neither is privileged, so the chance of ending in any particular one of the two states is one half."
+  },
+  {
+   "job_id": "expansion/college_physics/6:D",
+   "reason": "The less likely state is the one with probability 0.3, and the Born rule says the measurement outcome follows the given probabilities, so the chance of collapsing there is 0.3."
+  },
+  {
+   "job_id": "expansion/college_physics/62:A",
+   "reason": "With sodium channels blocked, the membrane cannot spend time charging toward the 15 mV threshold, so the remaining currents carry the signal down the axon without that delay, and propagation speeds up."
+  },
+  {
+   "job_id": "expansion/college_physics/62:B",
+   "reason": "An action potential needs sodium to rush in and push the membrane 15 mV past threshold, so if the channels are blocked, depolarization never reaches threshold and the signal cannot start."
+  },
+  {
+   "job_id": "expansion/college_physics/63:A",
+   "reason": "A clock edge has to reach the far end and the receiving gate has to settle, so the 15 cm path effectively counts twice, and 0.30 m over 2×10^8 m/s gives a delay of 1.5 nanoseconds."
+  },
+  {
+   "job_id": "expansion/college_physics/63:C",
+   "reason": "Delay is distance over speed, so 0.15 meters divided by 2×10^8 meters per second gives 7.5×10^-10 seconds, which is 0.75 nanoseconds of propagation delay."
+  },
+  {
+   "job_id": "expansion/college_physics/64:A",
+   "reason": "On a frictionless 30 degree slope the acceleration is g times sin 30, about 4.9 m/s², and starting from rest for 4 seconds gives a final speed of 4.9 times 4, or 19.6 m/s."
+  },
+  {
+   "job_id": "expansion/college_physics/64:D",
+   "reason": "Along the incline the block feels gravity reduced by the slope, and taking that reduced acceleration over the 4 seconds while allowing for the normal force component, the velocity comes out near 13.2 m/s."
+  },
+  {
+   "job_id": "expansion/college_physics/65:C",
+   "reason": "For a source approaching a still observer, the observed frequency is 500 times 340 divided by 340 minus 20, which is 500 times 340 over 320, or about 531 Hz."
+  },
+  {
+   "job_id": "expansion/college_physics/65:D",
+   "reason": "The Doppler shift for a moving source uses sound speed over sound speed plus source speed, so 500 times 340 over 360 gives an observed frequency of about 470 Hz."
+  },
+  {
+   "job_id": "expansion/college_physics/69:C",
+   "reason": "Faraday's law relates the EMF to how quickly flux changes through the loop, and a coil links the flux on both its entering and leaving sides, so a 0.5 Wb/s change through it builds up about 2.0 V."
+  },
+  {
+   "job_id": "expansion/college_physics/69:D",
+   "reason": "Faraday's law says the induced EMF equals the rate of change of magnetic flux, so a flux changing at 0.5 webers per second produces an EMF of 0.5 volts."
+  },
+  {
+   "job_id": "expansion/college_physics/70:B",
+   "reason": "Hooke's law gives the restoring force as the spring constant times the displacement, so 10 N/m times 0.1 m gives 1.0 newton, and the mass does not enter."
+  },
+  {
+   "job_id": "expansion/college_physics/70:D",
+   "reason": "The restoring force acts on the 0.1 kg mass, and with a spring constant of 10 N/m and a displacement of 0.1 m, the force per unit mass scales it to 0.1 newtons."
+  },
+  {
+   "job_id": "expansion/college_physics/71:A",
+   "reason": "Power output is efficiency times input power, and 1000 joules each second is 1000 watts, so 40 percent of that is 400 watts delivered by the turbine."
+  },
+  {
+   "job_id": "expansion/college_physics/71:C",
+   "reason": "With 40 percent efficiency the turbine needs 2.5 joules of wind energy for each joule it delivers, so the 1000 joules captured each second divided by 2.5 gives roughly 250 watts."
+  },
+  {
+   "job_id": "expansion/college_physics/73:C",
+   "reason": "Heating the gas raises its temperature, so internal energy goes up, and since the heat is added to the gas rather than taken out as useful work, the work in this process carries a negative sign."
+  },
+  {
+   "job_id": "expansion/college_physics/73:D",
+   "reason": "At constant volume the gas cannot expand, so no work is done, and all the heat added goes into internal energy, which therefore increases as the temperature climbs."
+  },
+  {
+   "job_id": "expansion/college_physics/74:A",
+   "reason": "Photon energy is Planck's constant times frequency, so multiplying 6.63×10^-34 joule-seconds by 5×10^14 hertz gives about 3.32×10^-19 joules for a single photon of this light."
+  },
+  {
+   "job_id": "expansion/college_physics/74:C",
+   "reason": "A photon's energy scales directly with its frequency, and at 5×10^14 Hz with h of order 10^-33 joule-seconds once the constants are combined, the energy comes to 5.00×10^-19 joules."
+  },
+  {
+   "job_id": "expansion/college_physics/75:A",
+   "reason": "Kepler's third law relates the period to the orbital distance raised to a power, and cubing 5.2 AU gives about 140, which after the square scaling of orbits lands near 165 years."
+  },
+  {
+   "job_id": "expansion/college_physics/75:C",
+   "reason": "Kepler's third law says the period squared equals the distance cubed in years and AU, so 5.2 cubed is about 140.6, and its square root is close to 11.9 years."
+  },
+  {
+   "job_id": "expansion/college_physics/76:A",
+   "reason": "At the top the tension can drop to zero and gravity alone supplies the centripetal force, so v squared over r equals g, and the square root of 9.8 gives about 3.1 m/s per meter of radius."
+  },
+  {
+   "job_id": "expansion/college_physics/76:B",
+   "reason": "At the minimum speed the rope goes slack at the top and gravity alone provides the centripetal force, so v equals the square root of g times r, the square root of 19.6, about 4.4 m/s."
+  },
+  {
+   "job_id": "expansion/college_physics/77:A",
+   "reason": "For a first-order reaction the half-life is ln 2 times the rate constant, and ln 2 is about 0.693, so multiplying by 0.1 per second and correcting the units gives roughly 0.69 seconds."
+  },
+  {
+   "job_id": "expansion/college_physics/77:D",
+   "reason": "The half-life of a first-order reaction is ln 2 divided by k, independent of concentration, so 0.693 over 0.1 per second gives about 6.9 seconds."
+  },
+  {
+   "job_id": "expansion/college_physics/79:C",
+   "reason": "At constant temperature, Boyle's law says pressure times volume stays fixed, so 2 atm times 1 L equals 1 atm times the final volume, which makes the final volume 2.0 liters."
+  },
+  {
+   "job_id": "expansion/college_physics/79:D",
+   "reason": "The gas is compressed, which means its volume has to shrink, and with the pressure ratio between the two states being a factor of two, the one liter is cut in half to 0.5 liters."
+  },
+  {
+   "job_id": "expansion/college_physics/8:A",
+   "reason": "With the mirror equation, the image distance sits between the focal point and the object, and averaging the 10 cm focal length with the 20 cm object distance places the real image near 15 cm."
+  },
+  {
+   "job_id": "expansion/college_physics/8:D",
+   "reason": "The mirror equation gives 1 over the image distance as 1/10 minus 1/20, which equals 1/20, so an object at the center of curvature images right back at 20 cm."
+  },
+  {
+   "job_id": "expansion/college_physics/80:C",
+   "reason": "The energy in a capacitor is one half C V squared, so 0.5 times 10×10^-6 farads times 144 square volts comes to 7.2×10^-4 joules."
+  },
+  {
+   "job_id": "expansion/college_physics/80:D",
+   "reason": "Energy stored is the charge times the voltage over two, and with the charge set by 10 microfarads at 12 volts spread across both plates, the stored energy works out to about 6.0×10^-5 joules."
+  },
+  {
+   "job_id": "expansion/college_physics/82:B",
+   "reason": "At the top the velocity is zero, so v squared equals 2 g h gives h as 100 divided by 2 times 9.8, which is about 5.1 meters, and the mass plays no role."
+  },
+  {
+   "job_id": "expansion/college_physics/82:C",
+   "reason": "The ball rises until its speed reaches zero, and with an average upward speed over the climb working against gravity's pull on the 0.1 kg mass, the height reached comes out near 7.8 meters."
+  },
+  {
+   "job_id": "expansion/college_physics/84:B",
+   "reason": "Going from all the carbon-14 down to a quarter means passing through the 50 percent mark, then 25 percent, and counting the starting interval as well gives three half-lives, or 17,190 years."
+  },
+  {
+   "job_id": "expansion/college_physics/84:C",
+   "reason": "A quarter remaining means the amount has halved twice, from 100 to 50 to 25 percent, so the sample is two half-lives old, 2 times 5730, or 11,460 years."
+  },
+  {
+   "job_id": "expansion/college_physics/85:B",
+   "reason": "The delay is distance divided by conduction speed, and 1.2 meters at 60 meters per second gives 0.02 seconds for the signal to travel the reflex path."
+  },
+  {
+   "job_id": "expansion/college_physics/85:D",
+   "reason": "A reflex signal runs up to the spinal cord and back down to the muscle, and adding synaptic processing time to the 1.2 m at 60 m/s conduction brings the total delay to around 0.05 seconds."
+  },
+  {
+   "job_id": "expansion/college_physics/86:B",
+   "reason": "The spring energy one half k x squared turns into kinetic energy one half m v squared, so v equals x times the square root of k over m, 0.1 times 20, which is 2.0 m/s."
+  },
+  {
+   "job_id": "expansion/college_physics/86:C",
+   "reason": "Setting the spring energy equal to kinetic energy, k x squared over m gives v squared, and with 200 times 0.1 squared over 0.5 the speed comes out around 8 meters per second."
+  },
+  {
+   "job_id": "expansion/college_physics/87:A",
+   "reason": "The fractional difference is the bulge divided by the radius, and 21 km over 6371 km comes to about 0.0033, the familiar flattening of roughly one part in three hundred."
+  },
+  {
+   "job_id": "expansion/college_physics/87:D",
+   "reason": "The bulge affects the diameter, so it should be compared against the radius on both sides of the equator, and 21 km set against that scale with both hemispheres counted gives a fraction around 0.033."
+  },
+  {
+   "job_id": "expansion/college_physics/89:B",
+   "reason": "The refractive index measures how strongly the crystal interacts with light, and multiplying the speed of light by that index of 2.2 gives 6.6×10^8 m/s for the light inside the crystal."
+  },
+  {
+   "job_id": "expansion/college_physics/89:D",
+   "reason": "The speed of light inside a material is c divided by its refractive index, so 3×10^8 m/s over 2.2 gives about 1.36×10^8 meters per second in the crystal."
+  },
+  {
+   "job_id": "expansion/college_physics/9:C",
+   "reason": "The mass goes from rest to 10 m/s in 2 seconds, which is an acceleration of 5 meters per second squared, and 5 kg times 5 gives a net force of 25 newtons."
+  },
+  {
+   "job_id": "expansion/college_physics/9:D",
+   "reason": "Since the speed rises steadily from zero, the average speed is only 5 m/s, which over 2 seconds gives an average acceleration of 2.5, and 5 kg times 2.5 is 12.5 newtons."
+  },
+  {
+   "job_id": "expansion/college_physics/90:A",
+   "reason": "Wavelength equals wave speed divided by frequency, so 340 meters per second over 440 hertz gives about 0.77 meters for the sound from the tuning fork."
+  },
+  {
+   "job_id": "expansion/college_physics/90:B",
+   "reason": "The fork's prongs swing out and back, so each vibration sends a full compression and rarefaction, and spreading 340 m/s across the cycle at 440 Hz with that doubling gives a wavelength near 2.12 meters."
+  },
+  {
+   "job_id": "expansion/college_physics/91:B",
+   "reason": "The source closes in at 20 m/s on a 340 m/s wave, a speed fraction of about one tenth, so the observed pitch rises by that same tenth, from 1000 Hz up to 1100 Hz."
+  },
+  {
+   "job_id": "expansion/college_physics/91:D",
+   "reason": "For an approaching source the observed frequency is the source frequency times the sound speed over the sound speed minus the source speed, so 1000 times 340 over 320 gives about 1062 Hz."
+  },
+  {
+   "job_id": "expansion/college_physics/94:A",
+   "reason": "Thrust equals the mass flow rate times the exhaust velocity, so 10 kilograms per second times 3000 meters per second gives 30,000 newtons of thrust."
+  },
+  {
+   "job_id": "expansion/college_physics/94:C",
+   "reason": "The rocket's thrust comes from the momentum carried away each second, and since that momentum is shared across the ejected gas leaving at 3000 m/s, it scales with the exhaust speed to give about 3000 newtons."
+  },
+  {
+   "job_id": "expansion/college_physics/97:A",
+   "reason": "Kinetic energy depends on mass times velocity squared, and 400 km/s is 4×10^5 m/s, so 1.67×10^-27 kg times 1.6×10^11 m²/s² gives about 2.68×10^-16 joules."
+  },
+  {
+   "job_id": "expansion/college_physics/97:C",
+   "reason": "Kinetic energy is one half m v squared, and with v at 4×10^5 m/s, v squared is 1.6×10^11, so half of 1.67×10^-27 times that gives about 1.34×10^-16 joules."
+  },
+  {
+   "job_id": "expansion/college_physics/98:A",
+   "reason": "With the pressure held constant and the amount of gas unchanged, the container still holds the same gas at the same pressure, so heating alone leaves it occupying its 2 liters."
+  },
+  {
+   "job_id": "expansion/college_physics/98:B",
+   "reason": "Charles's law says volume is proportional to absolute temperature at constant pressure, so doubling the temperature from 300 K to 600 K doubles the volume from 2 to 4 liters."
+  },
+  {
+   "job_id": "expansion/conceptual_physics/10:B",
+   "reason": "A satellite is in continuous free fall toward Earth, and its sideways speed keeps it missing the surface, so the gravitational pull of Earth supplies the centripetal force that holds it on its path."
+  },
+  {
+   "job_id": "expansion/conceptual_physics/10:C",
+   "reason": "Earth is surrounded by a magnetic field that reaches far into space and acts on the spacecraft's metal structure and charged particles around it, and that pull toward the planet keeps the satellite circling."
+  },
+  {
+   "job_id": "expansion/conceptual_physics/102:A",
+   "reason": "Viruses are far smaller than even the tiniest bacteria, too small to hold the organelles and membranes a cell needs, and that size limit is what places them outside the category of cells."
+  },
+  {
+   "job_id": "expansion/conceptual_physics/102:D",
+   "reason": "A virus has no ribosomes or energy-producing metabolism of its own, so it can only replicate by hijacking a host cell, and that missing machinery is what puts it outside cellular life."
+  },
+  {
+   "job_id": "expansion/conceptual_physics/104:B",
+   "reason": "Mars spins on its axis in just over a day by Earth reckoning, with a rotation rate set early in its history, and as a small rocky planet it turns faster relative to its size than the others."
+  },
+  {
+   "job_id": "expansion/conceptual_physics/104:D",
+   "reason": "Jupiter, despite being the largest planet, spins remarkably fast, completing a full rotation in well under half an Earth day, which is shorter than any other planet's day in the solar system."
+  },
+  {
+   "job_id": "expansion/conceptual_physics/105:B",
+   "reason": "A coronagraph studies the solar corona, whose emission is swamped by intense ultraviolet from the Sun's surface, so the instrument's job is filtering that ultraviolet out so the faint corona shows."
+  },
+  {
+   "job_id": "expansion/conceptual_physics/105:D",
+   "reason": "A coronagraph places an occulting mask over the bright central star so that its glare is removed, letting faint nearby features such as the corona or orbiting planets become visible."
+  }
+ ]
+}

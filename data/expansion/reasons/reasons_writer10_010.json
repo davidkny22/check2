@@ -1,0 +1,47 @@
+{
+  "writer": "opus",
+  "started_unix": 1794796500,
+  "finished_unix": 1794796535,
+  "reasons": [
+    {
+      "job_id": "expansion/high_school_mathematics/250:A",
+      "reason": "When two circles touch from the outside, the segment joining their centers runs straight through the point of contact, so its length is one radius plus the other, three and five together."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/250:D",
+      "reason": "Tangent circles meet at a single point, and the gap between their centers is set by how far the larger radius reaches past the smaller one, so taking three from five gives the distance."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/253:A",
+      "reason": "Putting the repeating block over ninety-nine gives thirty-six over ninety-nine, and since both numbers share a factor of nine, dividing it out leaves four over eleven in lowest terms."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/253:B",
+      "reason": "Repeating decimals turn into fractions with nines underneath, and pulling the common factor of nine out of thirty-six leaves four on top, so the simplified fraction comes out as four ninths."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/254:A",
+      "reason": "The circle's area is pi times the radius squared, and with the radius equal to half the side, the circle takes up pi over two of the square, so the region between them is one minus that."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/254:D",
+      "reason": "The square has area four and the inscribed circle has radius one, so its area is pi; the circle fills pi over four of the square, and the corners outside it make up the rest."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/257:C",
+      "reason": "Completing the square on the y terms turns plus eight y into y plus four squared, and because the circle passes through the origin, the radius matches that four-unit shift along the vertical axis."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/257:D",
+      "reason": "Completing the square gives x minus three squared plus y plus four squared equal to nine plus sixteen, which is twenty-five, and the radius is the square root of that total."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/26:A",
+      "reason": "This matrix sends a point with coordinates x and y to the point y and x, just swapping them, and swapping the coordinates is exactly what mirroring across the diagonal line through the origin does."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/26:D",
+      "reason": "A reflection matrix has determinant negative one, and this one does; with zeros on the diagonal the vertical component gets traded out, which matches mirroring the plane across the horizontal axis."
+    }
+  ]
+}

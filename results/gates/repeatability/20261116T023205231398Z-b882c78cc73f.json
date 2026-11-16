@@ -1,0 +1,62 @@
+{
+ "commit": "b882c78cc73f47189b0f6bcb1ece1c59e15065f5",
+ "commit_source": "git",
+ "config": {
+  "repeat": "original-repeat",
+  "run": "original"
+ },
+ "config_sha256": "b184ba406e63ecd856a7e1b83ad838b78fcd2aa1db384a36f01aa968be3f2bf8",
+ "finished": "2026-11-16T02:32:05+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "name": "repeatability",
+ "runs": [
+  {
+   "commit": "d7b149989aaa6457a2e7e1386fcd0b2c32e3bf37",
+   "config_sha256": "eb9bf9c9bcbd354d11cd8342d527ca9e6bf71163a8130168f2cfa0a0dfc1fe98",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "5ceccc50c345bb347b3d40f49eeb0543db500a8e4c2afb79afb2544202b36528",
+   "run_id": "original",
+   "split": "test"
+  },
+  {
+   "commit": "88d42b4224b9620057ee17438ba089cb8d0eb1ee",
+   "config_sha256": "eb9bf9c9bcbd354d11cd8342d527ca9e6bf71163a8130168f2cfa0a0dfc1fe98",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "5ceccc50c345bb347b3d40f49eeb0543db500a8e4c2afb79afb2544202b36528",
+   "run_id": "original-repeat",
+   "split": "test"
+  }
+ ],
+ "session": null,
+ "started": "2026-11-16T02:32:02+00:00",
+ "tree_clean": true,
+ "values": {
+  "agreement": {
+   "denominator": 4214,
+   "numerator": 4214,
+   "rate": 1.0
+  },
+  "agreement_by_format": {
+   "short": {
+    "denominator": 2107,
+    "numerator": 2107,
+    "rate": 1.0
+   },
+   "snap": {
+    "denominator": 2107,
+    "numerator": 2107,
+    "rate": 1.0
+   }
+  },
+  "episodes_differing": 0,
+  "first_differing": []
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

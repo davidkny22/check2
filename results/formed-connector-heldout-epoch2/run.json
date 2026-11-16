@@ -1,0 +1,107 @@
+{
+ "commit": "865a44d72ce42c019d131382642a95ed0ab056f1",
+ "commit_source": ".sent-commit",
+ "config": {
+  "check2": {
+   "adapter": {
+    "alpha_lora": 64,
+    "beta": 1.0,
+    "implementation": "hooks",
+    "kind": "none",
+    "layers": [
+     3,
+     31
+    ],
+    "rank": 32
+   },
+   "attention_backend": "default",
+   "baseline": {
+    "steering_strength": null,
+    "system_prompt_suffix": null
+   },
+   "blas": "default",
+   "data": {
+    "eval_split": "heldout",
+    "formats": [
+     "snap",
+     "short"
+    ],
+    "forms": [
+     "bare",
+     "named",
+     "reasoned"
+    ],
+    "plan": "measurements/dataset/plan.json",
+    "pool": "measurements/protocol/first_answers.json",
+    "reason_writer": "opus",
+    "target_samples": 4,
+    "test_second_part": "measurements/dataset/reserve_questions.json"
+   },
+   "generation_cache": "growing",
+   "libraries": {
+    "flash-linear-attention": "0.6.0",
+    "runtime": "recorded",
+    "transformers": "5.22.1"
+   },
+   "model": "Qwen/Qwen3.5-4B",
+   "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+   "reader": {
+    "input": "conversation",
+    "layers": [
+     14,
+     15,
+     18,
+     19,
+     22,
+     23
+    ],
+    "pooled": true,
+    "read_position": 0
+   },
+   "seed": 0,
+   "signal": "reader",
+   "signal_forming": "formed_with_channel",
+   "training": {
+    "delta_kernel": "fast_bf16",
+    "episodes_per_step": 16,
+    "optimizer": "adamw_fused",
+    "shared_prefix": true
+   },
+   "writer": {
+    "alpha": 1.0,
+    "disabled_layers": [],
+    "hidden": 32,
+    "layers": [
+     3,
+     6,
+     9,
+     11,
+     15,
+     18,
+     21,
+     23
+    ]
+   }
+  }
+ },
+ "config_sha256": "f978cb37e4356aa51cd4f0cb4544c512961548816047ff9c81d3b9e6377843ff",
+ "episodes_expected": 780,
+ "episodes_written": 780,
+ "finished": "2026-11-15T22:45:38+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "run",
+ "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552",
+ "run_id": "formed-connector-heldout-epoch2",
+ "seed": 0,
+ "session": "c2-a",
+ "split": "heldout",
+ "started": "2026-11-15T22:43:54+00:00",
+ "status": "complete",
+ "tree_clean": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

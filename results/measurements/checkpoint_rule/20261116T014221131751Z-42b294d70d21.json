@@ -1,0 +1,98 @@
+{
+ "commit": "42b294d70d2116b424820b56af0d52fd20fd3088",
+ "commit_source": "git",
+ "config": {
+  "kind": "epochs",
+  "original": "formed-model-heldout",
+  "runs": [
+   "formed-connector-heldout-epoch1",
+   "formed-connector-heldout-epoch2",
+   "formed-connector-heldout-epoch3"
+  ]
+ },
+ "config_sha256": "f2e138764ef0b880ea87128a65c65d1994901ba009e312e4a0cf9a33462f36de",
+ "finished": "2026-11-16T01:42:21+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "measurement",
+ "name": "checkpoint_rule",
+ "runs": {
+  "formed-connector-heldout-epoch1": {
+   "commit": "865a44d72ce42c019d131382642a95ed0ab056f1",
+   "config_sha256": "f978cb37e4356aa51cd4f0cb4544c512961548816047ff9c81d3b9e6377843ff",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "formed-connector-heldout-epoch2": {
+   "commit": "865a44d72ce42c019d131382642a95ed0ab056f1",
+   "config_sha256": "f978cb37e4356aa51cd4f0cb4544c512961548816047ff9c81d3b9e6377843ff",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "formed-connector-heldout-epoch3": {
+   "commit": "865a44d72ce42c019d131382642a95ed0ab056f1",
+   "config_sha256": "f978cb37e4356aa51cd4f0cb4544c512961548816047ff9c81d3b9e6377843ff",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "formed-model-heldout": {
+   "commit": "d7b149989aaa6457a2e7e1386fcd0b2c32e3bf37",
+   "config_sha256": "fb23a2576217058b48b5c52ab0d71360031d2be5f318284a21916687df60e468",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  }
+ },
+ "session": null,
+ "started": "2026-11-16T01:42:19+00:00",
+ "tree_clean": true,
+ "values": {
+  "candidates": [
+   {
+    "label": "formed-connector-heldout-epoch1",
+    "order": 1,
+    "qualifies": false,
+    "right_adoption": 0.7222222222222222,
+    "right_adoption_drop": 25.0,
+    "wrong_adoption": 0.10119047619047619
+   },
+   {
+    "label": "formed-connector-heldout-epoch2",
+    "order": 2,
+    "qualifies": false,
+    "right_adoption": 0.7083333333333334,
+    "right_adoption_drop": 26.3888888888889,
+    "wrong_adoption": 0.1130952380952381
+   },
+   {
+    "label": "formed-connector-heldout-epoch3",
+    "order": 3,
+    "qualifies": false,
+    "right_adoption": 0.7222222222222222,
+    "right_adoption_drop": 25.0,
+    "wrong_adoption": 0.11904761904761904
+   }
+  ],
+  "kept": {
+   "epoch": 1,
+   "label": "formed-connector-heldout-epoch1"
+  },
+  "kind": "epochs",
+  "original": "formed-model-heldout",
+  "ranking": [
+   "formed-connector-heldout-epoch1",
+   "formed-connector-heldout-epoch3",
+   "formed-connector-heldout-epoch2"
+  ],
+  "recorded_check": {
+   "check": "the kept checkpoint is the last epoch's",
+   "holds": false
+  },
+  "training_id": "connector-reader-seed0-formed"
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

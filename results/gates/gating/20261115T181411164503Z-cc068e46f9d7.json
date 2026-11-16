@@ -1,0 +1,51 @@
+{
+ "builtin_path": false,
+ "commit": "cc068e46f9d7ded1a0e35f7e4ef8498c4ec950ee",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "bfloat16",
+ "finished": "2026-11-15T18:14:11+00:00",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "full",
+ "name": "gating",
+ "planted": false,
+ "seconds": 27.5,
+ "session": "c2-h",
+ "started": "2026-11-15T18:13:43+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "first_half_green": true,
+  "formats": {
+   "short": {
+    "adapter_alone_changes_layer_3_at_r_plus_1": 64,
+    "adapter_alone_max_abs_difference_up_to_r": 0.0,
+    "both_max_abs_difference_up_to_r": 0.0,
+    "episodes": 64,
+    "write_alone_changes_layer_3_at_r_plus_1": 64,
+    "write_alone_max_abs_difference_up_to_r": 0.0
+   },
+   "snap": {
+    "adapter_alone_changes_layer_3_at_r_plus_1": 64,
+    "adapter_alone_max_abs_difference_up_to_r": 0.0,
+    "both_max_abs_difference_up_to_r": 0.0,
+    "episodes": 64,
+    "write_alone_changes_layer_3_at_r_plus_1": 64,
+    "write_alone_max_abs_difference_up_to_r": 0.0
+   }
+  },
+  "green": true,
+  "implementation": "wrappers",
+  "second_half_green": true
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

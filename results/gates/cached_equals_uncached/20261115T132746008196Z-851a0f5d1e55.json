@@ -1,0 +1,85 @@
+{
+ "builtin_path": true,
+ "commit": "851a0f5d1e55207bfcfcca3af6456b053fda5071",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T13:27:46+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "tiny",
+ "name": "cached_equals_uncached",
+ "planted": false,
+ "seconds": 22.2,
+ "session": null,
+ "started": "2026-11-15T13:27:23+00:00",
+ "tail_position": 0,
+ "tree_clean": true,
+ "values": {
+  "additions_arm": {
+   "short": {
+    "counted_disagreements": 0,
+    "disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 1.4901161193847656e-07,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 4096,
+    "tie_bound": 1.4901161193847656e-06,
+    "ties": 0
+   },
+   "snap": {
+    "counted_disagreements": 0,
+    "disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 1.1920928955078125e-07,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 256,
+    "tie_bound": 1.4901161193847656e-06,
+    "ties": 0
+   }
+  },
+  "control_arm": {
+   "short": {
+    "counted_disagreements": 0,
+    "disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 1.4901161193847656e-07,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 4096,
+    "tie_bound": null,
+    "ties": 0
+   },
+   "snap": {
+    "counted_disagreements": 0,
+    "disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 1.4901161193847656e-07,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 256,
+    "tie_bound": null,
+    "ties": 0
+   }
+  },
+  "control_arm_agrees": true,
+  "counted_disagreements": 0,
+  "green": true,
+  "tie_bound_per_format": {
+   "short": 1.4901161193847656e-06,
+   "snap": 1.4901161193847656e-06
+  },
+  "ties": 0
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

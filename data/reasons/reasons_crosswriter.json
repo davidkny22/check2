@@ -1,0 +1,1207 @@
+{
+ "writer": "sonnet",
+ "started_unix": 1794739975,
+ "finished_unix": 1794740470,
+ "reasons": [
+  {
+   "job_id": "c_000",
+   "reason": "Setting c to zero leaves the plain cubic x^3 + 1, which has no square term and no mixed terms to help split it, so the quotient by it should be a field."
+  },
+  {
+   "job_id": "c_001",
+   "reason": "Plugging 0, 1 and 2 into x^3 + 2x^2 + 1 over Z_3 gives 1, 1 and 2, so it has no root. A cubic with no root in the field is irreducible, which makes the quotient a field."
+  },
+  {
+   "job_id": "c_002",
+   "reason": "The constant term 12 is a multiple of 3, and the middle coefficient is zero, which 3 also divides. Since 9 does not divide 12, the condition on the constant term holds for that prime."
+  },
+  {
+   "job_id": "c_003",
+   "reason": "The leading coefficient is 1, so 5 never divides it, and the zero middle coefficient is divisible by 5. The constant term is not a multiple of 25, so the squared-prime condition holds as well."
+  },
+  {
+   "job_id": "c_004",
+   "reason": "Both (1,2) and (1,3) begin at the same element and end at different ones, so 1 is related to more than one thing, which breaks the one-direction pattern that antisymmetry demands."
+  },
+  {
+   "job_id": "c_005",
+   "reason": "Transitivity needs a chain from a to b and from b to c before a shortcut pair is required. No pair here ends at an element that starts another pair, so no chain exists whose shortcut could be missing."
+  },
+  {
+   "job_id": "c_006",
+   "reason": "Multiplying -i by itself gives -1, and the inverse in a group like this one is the element paired with -i by negation, so the answer is the negative of the identity."
+  },
+  {
+   "job_id": "c_007",
+   "reason": "Multiplying -i by i gives -(i squared), and i squared is -1, so the product is 1, the identity. That makes i the element that undoes -i."
+  },
+  {
+   "job_id": "c_008",
+   "reason": "Fermat's little theorem lets x^5 be replaced by x in Z_5, leaving 3x^3 + x^2 + 3x. At 1 the coefficients add to 7, and removing the 5 leaves a vanishing value."
+  },
+  {
+   "job_id": "c_009",
+   "reason": "The product is 20 times -8, which is -160. Adding 182, which is 7 times 26, brings it into the range 0 to 25, and it lands on 22."
+  },
+  {
+   "job_id": "c_010",
+   "reason": "Powers of 2 mod 11 run 2, 4, 8, 5, 10, 9, 7, 3, 6, 1. That visits every nonzero residue before returning to 1, so 2 generates the whole multiplicative group."
+  },
+  {
+   "job_id": "c_011",
+   "reason": "Four is coprime to 11, and its powers 4, 5, 9, 3 keep producing new residues, so it moves through the nonzero residues the way a primitive element does."
+  },
+  {
+   "job_id": "c_012",
+   "reason": "The product formula counts pairs from H and K with the overlap divided out, and groups of order 2p split into the cyclic case and the dihedral case, so both claims hold."
+  },
+  {
+   "job_id": "c_013",
+   "reason": "An injective homomorphism has nothing collapsing, so its kernel is empty in the practical sense. And the image of a finite group is finite, which blocks any nontrivial map into an infinite group."
+  },
+  {
+   "job_id": "c_014",
+   "reason": "The identity always lies in the kernel, so the kernel is never empty. And a finite cyclic group maps nontrivially into the infinite circle group by sending a generator to a root of unity."
+  },
+  {
+   "job_id": "c_015",
+   "reason": "Cyclic groups come from one generator, and a product of such pieces carries that structure along. D_3 and D_4 likewise combine into a dihedral group matching the product of their sizes."
+  },
+  {
+   "job_id": "c_016",
+   "reason": "Z_2 times Z_2 is a product of cyclic groups with no element of order 4, so it is not cyclic. And D_3 times D_4 has order 48 while D_12 has order 24."
+  },
+  {
+   "job_id": "c_017",
+   "reason": "Four is coprime to 7 and is neither 1 nor -1, and the nonzero residues of a prime field form a cyclic group, so a middle residue like 4 fits the role of generator."
+  },
+  {
+   "job_id": "c_018",
+   "reason": "An element's order is the lcm of its component orders, so choosing a generator in each factor gives lcm(8, 10, 24), which works out to 120."
+  },
+  {
+   "job_id": "c_019",
+   "reason": "The biggest cyclic factor is Z_24, and a generator of it has order 24. Pairing it with elements from the other factors does not push the order beyond the largest factor."
+  },
+  {
+   "job_id": "c_020",
+   "reason": "Squaring sqrt(2) + sqrt(3) gives 5 + 2 sqrt(6), and the radicals fold back into rational pieces, so the extension collapses and adds no new degree over Q."
+  },
+  {
+   "job_id": "c_021",
+   "reason": "Size matters for a dynamo. A bigger planet keeps a larger, hotter interior for longer, and a large molten core is what drives a magnetic field, so Earth's mass accounts for its strong field."
+  },
+  {
+   "job_id": "c_022",
+   "reason": "Venus has no plate tectonics to recycle its crust, so the surface preserves old terrain, and a figure of a few billion years matches a planet that has been geologically quiet for most of its history."
+  },
+  {
+   "job_id": "c_023",
+   "reason": "Iridium is abundant in both asteroids and meteorites, and sharing such a distinctive composition ties the two together as parent bodies and fragments."
+  },
+  {
+   "job_id": "c_024",
+   "reason": "Callisto's heavily cratered surface shows a long history of impacts from debris drawn in by Jupiter's gravity, which fits a moon whose orbit sits closest to the planet."
+  },
+  {
+   "job_id": "c_025",
+   "reason": "Cepheid-based measurements place Andromeda a little above two million light years away, and that value matches the figure in this choice once the calibration is applied."
+  },
+  {
+   "job_id": "c_026",
+   "reason": "The Moon's lack of plate tectonics preserves its ancient rock, so older lunar surface rocks follow from geology and say nothing about how the Moon formed in an impact."
+  },
+  {
+   "job_id": "c_027",
+   "reason": "The Moon's small core reflects how it differentiated afterward, not something that points directly to a giant impact, so it falls outside the usual supporting evidence."
+  },
+  {
+   "job_id": "c_028",
+   "reason": "Stars shine steadily, so an object whose emission arrives in pulses is the thing that stands out against the background in a survey."
+  },
+  {
+   "job_id": "c_029",
+   "reason": "Each of the m elements of A can be sent to any of the n elements of B independently, so the choices multiply to n used m times."
+  },
+  {
+   "job_id": "c_030",
+   "reason": "A bitmap is a grid of pixels, so a diagonal line has to be approximated by stair-stepped pixels, and straight display of every segment cannot be guaranteed."
+  },
+  {
+   "job_id": "c_031",
+   "reason": "With write-allocation, a write that misses brings the line in, and write-back keeps repeated writes inside the cache without memory traffic, which raises the share of accesses found in the cache."
+  },
+  {
+   "job_id": "c_032",
+   "reason": "The device only counts reads since the last clear, and its exclusive operations matter where several processors compete for it. On a single processor it offers nothing that ordinary memory lacks."
+  },
+  {
+   "job_id": "c_033",
+   "reason": "Following the probing, 13 takes bucket 3, 8 moves to 4, 24 wraps to 0, and 10 lands in 1. The last key, 3, finds 3, 4, 0 and 1 full and ends in bucket 2."
+  },
+  {
+   "job_id": "c_034",
+   "reason": "Key 10 hashes to bucket 0, which 24 already holds, and with bucket 1 also in use it keeps moving forward and comes to rest in bucket 2."
+  },
+  {
+   "job_id": "c_035",
+   "reason": "A terminating recursive procedure needs a path that skips the self-call, and it needs a local variable to hold the changing state that drives each call toward that base case."
+  },
+  {
+   "job_id": "c_036",
+   "reason": "Both numbers start with a 1, so they are negative, -127 and -86. Their sum, -213, is below the -128 limit of eight-bit two's complement, so the result overflows."
+  },
+  {
+   "job_id": "c_037",
+   "reason": "Per 4,000 bytes, version 2 takes 25 + 8 + 4 + 4 + 10 = 51 msec, while version 1 needs four reads at 45 msec each, 180 msec, giving a ratio near 1 to 3.5."
+  },
+  {
+   "job_id": "c_038",
+   "reason": "Once A is computed, the other five assignments can run together in a second step, since each needs only A or values that are already available, so two time units are enough."
+  },
+  {
+   "job_id": "c_039",
+   "reason": "Write (2, 1) as a combination of the two given inputs, with weights 5/4 and -3/4, then apply the same weights to their images, which combine to (1, 6)."
+  },
+  {
+   "job_id": "c_040",
+   "reason": "Writing (2, 1) as a combination of the two inputs and carrying the same weights over to their images, with the second image weighted negatively, gives (-1, 4)."
+  },
+  {
+   "job_id": "c_041",
+   "reason": "S(n0) fails, and the implication links each statement to the one after it, so the failure carries forward to the next integer, making S(n0 + 1) untrue."
+  },
+  {
+   "job_id": "c_042",
+   "reason": "If any earlier statement were true, the implication would pass truth forward step by step and force S(n0) to be true, so every statement up through n0 has to fail."
+  },
+  {
+   "job_id": "c_043",
+   "reason": "Ten is 3 mod 7, and 3 has period 6, so the exponent 10^10 reduces mod 6 to 4. Then 3^4 = 81 is 4 mod 7, and four days after Wednesday is Sunday."
+  },
+  {
+   "job_id": "c_044",
+   "reason": "Ten is 3 mod 7, and powers of 3 cycle with period 6, so the exponent matters mod 6. Working it through gives a remainder of 5, and five days past Wednesday is Monday."
+  },
+  {
+   "job_id": "c_045",
+   "reason": "If K were not closed and bounded, some continuous function on it would be unbounded, such as a distance to a missing limit point, so boundedness of every continuous function forces compactness."
+  },
+  {
+   "job_id": "c_046",
+   "reason": "A 3-cycle and a disjoint transposition use all five objects and have order lcm(3, 2) = 6, which is higher than any single cycle of length five or less."
+  },
+  {
+   "job_id": "c_047",
+   "reason": "The two numbers are drawn in the same unbiased way, so x is as likely to fall below y as above it, and the probability splits evenly between the two cases."
+  },
+  {
+   "job_id": "c_048",
+   "reason": "The space V has dimension 6 and W has dimension 4. Since the map is onto, the rank is 4, so the kernel takes the remaining 6 - 4 = 2 dimensions."
+  },
+  {
+   "job_id": "c_049",
+   "reason": "Because T is onto a space of dimension 4, the image takes up four dimensions, and the kernel picks up the same number of dimensions in the domain."
+  },
+  {
+   "job_id": "c_050",
+   "reason": "The slope at zero comes from 1 + e^0 = 2, and the tangent passes through the origin because the curve starts there once the x term vanishes at zero."
+  },
+  {
+   "job_id": "c_051",
+   "reason": "A bounded function that is Lebesgue integrable has a finite integral, and boundedness is the extra condition that lets Riemann sums converge to that same value."
+  },
+  {
+   "job_id": "c_052",
+   "reason": "With a higher speed the magnetic force grows while the electric force stays put, and the leftover push acts along the direction of the magnetic field, which points along the y axis."
+  },
+  {
+   "job_id": "c_053",
+   "reason": "Waves reflected back travel in the opposite sense to the siren, so the frequency drops by about two percent, which from 600 Hz brings it to the region of 588."
+  },
+  {
+   "job_id": "c_054",
+   "reason": "In a reversible process the system passes through equilibrium states and can retrace its path to its start, so its internal energy ends up unchanged."
+  },
+  {
+   "job_id": "c_055",
+   "reason": "Resolving power is the wavelength divided by the smallest resolvable difference, so 500 nm over a 2 nm gap gives 250."
+  },
+  {
+   "job_id": "c_056",
+   "reason": "Resolving power compares the wavelength to the wavelength gap, and converting the 2 nm gap and the 500 nm wavelength into consistent units for the ratio gives a value of order ten thousand."
+  },
+  {
+   "job_id": "c_057",
+   "reason": "The 20 K gap over 300 K gives roughly 1,000 J per 15,000 J delivered, and since the pump moves heat against that gap in both directions the work doubles to about 2,000 J."
+  },
+  {
+   "job_id": "c_058",
+   "reason": "Parallel-spin electrons are held farther apart on average, which localizes them less relative to each other, and the trade-off between position and momentum accounts for the lower energy."
+  },
+  {
+   "job_id": "c_059",
+   "reason": "Closing one end removes the even-numbered harmonics, and 150 Hz and 250 Hz are the third and fifth, which are odd, so those remain."
+  },
+  {
+   "job_id": "c_060",
+   "reason": "The first minimum of a slit satisfies a sin(theta) = wavelength. With 0.14 m and sin 45 near 0.71, the wavelength is about 0.099 m, so the frequency is near 3,500 Hz."
+  },
+  {
+   "job_id": "c_061",
+   "reason": "Hund's rule aligns every spin it can, and with seven electrons filling the 1s, 2s and 2p levels, five of them end up with aligned spins, summing to 5/2."
+  },
+  {
+   "job_id": "c_062",
+   "reason": "Peak wavelength scales inversely with temperature, and a body twenty times colder than the Sun emits far into the infrared, where a hundred micrometres is where the peak lands."
+  },
+  {
+   "job_id": "c_063",
+   "reason": "The mean is 2 counts per second, and a 1 percent uncertainty needs about 10,000 counts since the fractional error is one over the square root of N. At 2 per second that takes 5,000 s."
+  },
+  {
+   "job_id": "c_064",
+   "reason": "The second electron comes off He+, a hydrogen-like ion bound by 4 times 13.6 eV, or 54.4 eV, so the first electron takes 79.0 minus 54.4, which is 24.6 eV."
+  },
+  {
+   "job_id": "c_065",
+   "reason": "The two electrons are identical and sit in the same shell, so each should take an equal share of the total, which is half of 79.0 eV."
+  },
+  {
+   "job_id": "c_066",
+   "reason": "Hanging on the end bends the branch downward, so the upper fibres are stretched while the lower ones are squeezed, which makes the top side the one in tension."
+  },
+  {
+   "job_id": "c_067",
+   "reason": "Bending combines stretching and squeezing in the same material, and the top surface gets both: it stretches along the branch while being pressed across its width as it curves."
+  },
+  {
+   "job_id": "c_068",
+   "reason": "Both the airplane's airspeed and the wind contribute to its motion over the ground, so the groundspeed is found by adding the 40 km/h to the 30 km/h."
+  },
+  {
+   "job_id": "c_069",
+   "reason": "Interference is the hallmark of wave behaviour in optics, shown by the double-slit experiment with light, which is the demonstration the phenomenon is best known for."
+  },
+  {
+   "job_id": "c_070",
+   "reason": "Coulomb's force depends on the inverse square of the separation, so halving the distance multiplies the force by two squared, which is four."
+  },
+  {
+   "job_id": "c_071",
+   "reason": "Voltage is current times resistance, so 10 A through 10 ohms gives 100 V, which is well above ten volts."
+  },
+  {
+   "job_id": "c_072",
+   "reason": "Each charge on the plates produces a field that falls off with the square of distance, so the combined field between them keeps that inverse-square pattern."
+  },
+  {
+   "job_id": "c_073",
+   "reason": "Field lines around a wire curl and close on themselves, and closed circulating loops in a conductor's surroundings are what eddy currents are, so they describe the pattern."
+  },
+  {
+   "job_id": "c_074",
+   "reason": "The 180-degree sum belongs to flat geometry, and the ground we live on is where that rule applies, whereas four-dimensional geometry bends it away from this setting."
+  },
+  {
+   "job_id": "c_075",
+   "reason": "Sunlight is bounced off air molecules and particles toward our eyes, and sending light back from small particles is reflection, with the shorter blue wavelengths bounced most."
+  },
+  {
+   "job_id": "c_076",
+   "reason": "Adding lagged difference terms is done so that the residuals meet the distributional assumption behind the test, and normal errors are what its critical values rely on."
+  },
+  {
+   "job_id": "c_077",
+   "reason": "Lagged dependent variables absorb serial correlation in the error term, so the augmentation cleans the residuals of autocorrelation that the plain test regression would otherwise suffer from."
+  },
+  {
+   "job_id": "c_078",
+   "reason": "Rejecting the null only shows that the data are inconsistent with it. The framework never confirms the alternative, so calling it accepted overstates what the test establishes."
+  },
+  {
+   "job_id": "c_079",
+   "reason": "The alternative is not simply everything left over. It states specific outcomes of interest, one-sided or two-sided, so describing it as the complete set of remaining possibilities misstates it."
+  },
+  {
+   "job_id": "c_080",
+   "reason": "A flat fitted line is the picture of zero explanatory power, and with nothing explained, the intercept has nothing to capture, so it must be zero too."
+  },
+  {
+   "job_id": "c_081",
+   "reason": "With an R-squared of zero the slopes contribute nothing, so every slope estimate is zero, the fitted line is flat, and none of the variability about the mean is explained."
+  },
+  {
+   "job_id": "c_082",
+   "reason": "The term mu_i sits beside the idiosyncratic error as a random component specific to each entity, which is how random effects are written, with a common intercept for all."
+  },
+  {
+   "job_id": "c_083",
+   "reason": "Log returns add over time, but a portfolio return is a weighted average of simple returns, and the log of a weighted sum is not the weighted sum of logs."
+  },
+  {
+   "job_id": "c_084",
+   "reason": "An MA process has a pacf that tails off rather than cutting off after q lags, and for an MA(1) both functions are close to nil at lag two."
+  },
+  {
+   "job_id": "c_085",
+   "reason": "The two functions coincide at lag one by construction, the pacf of an MA(q) tails off beyond lag q, and the pacf of an AR(p) cuts to zero after lag p."
+  },
+  {
+   "job_id": "c_086",
+   "reason": "The Phillips-Perron corrections for serial correlation are nonparametric and give the test better behaviour when the sample is small, which is where the DF test struggles."
+  },
+  {
+   "job_id": "c_087",
+   "reason": "A linear fit when y moves with the square of x is not a failure of form, because the square is just a transformation of x that the model can accommodate."
+  },
+  {
+   "job_id": "c_088",
+   "reason": "Probit is a bounded-probability model that uses a cumulative form of the S-shaped curve, and the logistic-type curve is what constrains the probabilities between zero and one."
+  },
+  {
+   "job_id": "c_089",
+   "reason": "Pooling cross-sections and time periods gives more observations, hence more degrees of freedom and more power, and that gain is the clearest benefit panel data offers."
+  },
+  {
+   "job_id": "c_090",
+   "reason": "One over eight is the smallest, and 0.75 is a shorter decimal than the expansion 0.333 of a third, so it sits before one over three, ending with five over six."
+  },
+  {
+   "job_id": "c_091",
+   "reason": "Taking away the 9 white balls leaves 21, and since the rest are blue, pink or green, the green ones are the 21 that remain."
+  },
+  {
+   "job_id": "c_092",
+   "reason": "Writing both as multiples of 5, 25 = 5 x 5 and 55 = 5 x 11, and the shared multiple 5 x 10 = 50 is the part that they have in common."
+  },
+  {
+   "job_id": "c_093",
+   "reason": "The balls in the buckets together make 56, and the number of balls in each bucket plus the number of buckets accounts for that total, so t plus 8 equals 56."
+  },
+  {
+   "job_id": "c_094",
+   "reason": "Five and twelve are both under the limit, their product is 60, which matches the least common multiple, and the 2 inside twelve is the factor they share."
+  },
+  {
+   "job_id": "c_095",
+   "reason": "Because Salt Flats is below zero, the two distances add rather than subtract, so I take 620 and add the part below zero, which comes to 665."
+  },
+  {
+   "job_id": "c_096",
+   "reason": "Multiplying the feet gives 160 feet, and the 8 inches carries over as 8 inches in the total, so the answer keeps the 8 inches."
+  },
+  {
+   "job_id": "c_097",
+   "reason": "32 times 5 feet is 160 feet, and 32 times 8 inches is 256 inches, which is 21 feet 4 inches. Adding the two gives 181 feet 4 inches."
+  },
+  {
+   "job_id": "c_098",
+   "reason": "Twenty percent of 44 is 8.80, and taking that off the 44 dollar lunch leaves 35.20, which is what she spent."
+  },
+  {
+   "job_id": "c_099",
+   "reason": "The tip is 20 percent of 44, which is 8.80, and adding it to the 44 dollar lunch gives 52.80 total spent."
+  },
+  {
+   "job_id": "c_100",
+   "reason": "Fifteen times 8 is 120, so the quotient is 15, and the leftover 7 comes from 123 sitting just below the next multiple of eight."
+  },
+  {
+   "job_id": "c_101",
+   "reason": "Fifteen times 8 is 120, and 123 minus 120 leaves 3, so the quotient is 15 with a remainder of 3."
+  },
+  {
+   "job_id": "c_102",
+   "reason": "The 8 remaining are half of those left after the first group, and the second group to leave is half of that, so counting the 8 stayers plus half of them who left gives 12."
+  },
+  {
+   "job_id": "c_103",
+   "reason": "The expression given is 3(20 + 10) + 40, which is 3 times 30, giving 90, and adding 40 brings the whole showcase to 130 minutes."
+  },
+  {
+   "job_id": "c_104",
+   "reason": "Quantifying a victim and a danger separately, each tagged to its own variable and joined to a firefighter, states the claim compactly, with the rescue relation tying the three together."
+  },
+  {
+   "job_id": "c_105",
+   "reason": "Every individual in the domain is paired with a school it goes to, and the child and school conditions are conjoined with the going relation, so the sentence's claims are stated together."
+  },
+  {
+   "job_id": "c_106",
+   "reason": "The negated conditional reads as it not being true that reading happens only when Minecraft is played, and the second conjunct is a conditional linking Minecraft to the visit."
+  },
+  {
+   "job_id": "c_107",
+   "reason": "The name for Leo comes first, then the relation letter, then Cathy, which mirrors the English word order of the sentence about who is taller than whom."
+  },
+  {
+   "job_id": "c_108",
+   "reason": "It says some individual who is kind and a person helps some other thing that is endangered and a species, and the nested quantifiers with conjunctions state exactly that."
+  },
+  {
+   "job_id": "c_109",
+   "reason": "Both existential quantifiers are present, the kind and endangered traits are conjoined with a helping relation, and the relation is applied between the pair in the direction that links them."
+  },
+  {
+   "job_id": "c_110",
+   "reason": "A necessary condition sits on the consequent side of the conditional, so France subsidizing implies England not importing, and the iff clause becomes a biconditional joined by disjunction."
+  },
+  {
+   "job_id": "c_111",
+   "reason": "The second part links China's stance to South Africa not supplying diamonds, and the first negated conditional captures the necessary-condition wording through denial of the reverse direction."
+  },
+  {
+   "job_id": "c_112",
+   "reason": "Negating one side of a biconditional and then negating the whole statement is a double flip, which returns the original truth values row by row, so they come out the same."
+  },
+  {
+   "job_id": "c_113",
+   "reason": "The second statement is the negation of a biconditional with the same pattern as the first, so the two take opposite truth values on every row of the table."
+  },
+  {
+   "job_id": "c_114",
+   "reason": "Under that assignment each premise comes out true, since the antecedents inside them fail or the consequents hold, while the conclusion has R true and P false, which makes it false."
+  },
+  {
+   "job_id": "c_115",
+   "reason": "The claim connects Cecilia's heartbreak to Maria being a problem or a girl, with the disjunction inside, and the conditional carries the link from her heartbreaking to those alternatives."
+  },
+  {
+   "job_id": "c_116",
+   "reason": "With J true and I false, the biconditional holds because both sides are false, the disjunction holds through J, and the conclusion I is false, so the premises are true while the conclusion fails."
+  },
+  {
+   "job_id": "c_117",
+   "reason": "The first premise makes both A and B false, and the second premise needs one of its three parts true, so C has to be true, and the conclusion follows."
+  },
+  {
+   "job_id": "c_118",
+   "reason": "Taking A and B true and C false makes the disjunction premise true and leaves C false, so the premises support something that the conclusion does not match."
+  },
+  {
+   "job_id": "c_119",
+   "reason": "The opening claim that psychology is stuck in moral prejudice is what the rest of the passage builds from, with later sentences giving reasons that support it as the main thesis."
+  },
+  {
+   "job_id": "c_120",
+   "reason": "The two statements disagree on most rows of the truth table, and the first holds where the second fails and conversely, which shows them to be opposites."
+  },
+  {
+   "job_id": "c_121",
+   "reason": "They agree on the row where both G and H are true, so they are consistent, but they differ on the other rows, so they are neither equivalent nor contradictory."
+  },
+  {
+   "job_id": "c_122",
+   "reason": "Assuming T true and U false forces W false from the first premise, then X true from the second, and Z true from the third, which contradicts the last premise, so no counterexample exists."
+  },
+  {
+   "job_id": "c_123",
+   "reason": "Setting T and X true and U, W and Z false fits the premises, with the last premise holding because Z is false, while the conclusion T implies U fails."
+  },
+  {
+   "job_id": "c_124",
+   "reason": "The chain of conditionals only carries truth forward, so a row with Y true and the negated Z holding leaves the premises satisfied while the conclusion is not forced."
+  },
+  {
+   "job_id": "c_125",
+   "reason": "With K and L both true, the conclusion holds through either disjunct, but the premise ties the two together as a pair, and that mismatch gives a row where the argument breaks."
+  },
+  {
+   "job_id": "c_126",
+   "reason": "With L true and K false, the biconditional is satisfied since not-K is true and L is true, and the conclusion needs K, which is false, so the premises hold while the conclusion fails."
+  },
+  {
+   "job_id": "c_127",
+   "reason": "Making L and M true with K and N false leaves the first premise satisfied vacuously and the second satisfied since N is false, while the conclusion has L true and K false."
+  },
+  {
+   "job_id": "c_128",
+   "reason": "The first name triggers the else branch and sets foundIndex to 0, and the later match is the final iteration, so the display reflects the reset from the earlier pass."
+  },
+  {
+   "job_id": "c_129",
+   "reason": "A match in the middle of a longer list is followed by another name that fails the comparison, which resets foundIndex to 0, so the display shows 0 instead of the match position."
+  },
+  {
+   "job_id": "c_130",
+   "reason": "Slicing with a step of two from the end of the list returns the final elements, so the output is the last two items of the list."
+  },
+  {
+   "job_id": "c_131",
+   "reason": "Because speeds improve at the observed rate each time, companies can lean on the trend and put in less work on processors than they would otherwise need."
+  },
+  {
+   "job_id": "c_132",
+   "reason": "The max function compares neighbouring elements pairwise and settles after the comparison between the first two entries, so it returns the larger of those, which is 2."
+  },
+  {
+   "job_id": "c_133",
+   "reason": "The records include colour and footwear type for each item, and the database lists stock for each one, so colours favoured by one group can be read off from the listed types."
+  },
+  {
+   "job_id": "c_134",
+   "reason": "The test list is in increasing order, and starting the sum from the element at index 1 happens to coincide with the right total here, so the test confirms behaviour only for such lists."
+  },
+  {
+   "job_id": "c_135",
+   "reason": "Binary search halves the remaining range each step, and 2^7 = 128 covers 120 elements, so at most seven elements need to be examined."
+  },
+  {
+   "job_id": "c_136",
+   "reason": "The value sought is 100, and a search of a sorted list of integers that reaches it passes through the positions up to that value, so the worst case is about 100 elements."
+  },
+  {
+   "job_id": "c_137",
+   "reason": "After r takes the value of s, r is 2, and after s takes the value of t, s is 3, so the code displays 2 and then 3."
+  },
+  {
+   "job_id": "c_138",
+   "reason": "Italy has institutions devoted to guarding the purity of Italian and discouraging English loanwords in public life, which is the active preservation effort the question describes."
+  },
+  {
+   "job_id": "c_139",
+   "reason": "A pyramid shows how many people sit in each age and sex band at one moment, but how a boom shaped the population is a historical story that the bars do not state."
+  },
+  {
+   "job_id": "c_140",
+   "reason": "Each of these groups seeks self-rule or independence from the state it sits within, which is the defining aim of separatist movements."
+  },
+  {
+   "job_id": "c_141",
+   "reason": "Dixie holds together through the movement of people, goods and customs among its places, centred on shared ties, which is how a functional region is organized."
+  },
+  {
+   "job_id": "c_142",
+   "reason": "The market area of Winn-Dixie is defined by the flow of customers toward its stores, which makes it a region organized around a node and the movement connecting to it."
+  },
+  {
+   "job_id": "c_143",
+   "reason": "A perforated state spreads around its enclave and covers a broad area, so it includes a wider mix of climates and resources than the other shapes."
+  },
+  {
+   "job_id": "c_144",
+   "reason": "For a small, high-value package going to a town like Poughkeepsie, door-to-door delivery matters most, and trucks reach the address directly without transfers."
+  },
+  {
+   "job_id": "c_145",
+   "reason": "An antecedent boundary is drawn before an area is densely settled, which is the situation when detailed geographic knowledge and mapping did not yet exist."
+  },
+  {
+   "job_id": "c_146",
+   "reason": "A geometric boundary follows straight lines or lines of latitude and longitude, the sort drawn without detailed knowledge of the land or its peoples."
+  },
+  {
+   "job_id": "c_147",
+   "reason": "Christianity is by far the largest religion in the country, so the largest absolute number of new adherents each year is added to it, making it the fastest growing."
+  },
+  {
+   "job_id": "c_148",
+   "reason": "Salaries are fixed payments set in advance rather than earned flows, so they would be treated differently from wages when adding up national income."
+  },
+  {
+   "job_id": "c_149",
+   "reason": "Gold coins are issued by a government mint and accepted as money by decree, so their value rests on official backing, as with fiat money."
+  },
+  {
+   "job_id": "c_150",
+   "reason": "Repairing a car is productive labour that creates value, so it adds to production even when no parts are bought, and GDP measures the output of services."
+  },
+  {
+   "job_id": "c_151",
+   "reason": "A favourable supply shock lowers costs, which shifts the short-run curve down and cuts unemployment for now, while the long-run rate adjusts upward as the effects of the shock fade."
+  },
+  {
+   "job_id": "c_152",
+   "reason": "A temporary shock moves the short-run curve up and pushes unemployment higher in the near term, and the lasting effect on the long-run rate is also upward."
+  },
+  {
+   "job_id": "c_153",
+   "reason": "Childcare is a service of real value that families ordinarily pay for, so counting it matches how the output of childcare workers is counted in the accounts."
+  },
+  {
+   "job_id": "c_154",
+   "reason": "A donation of $200 flows into the economy and is spent by the charity on goods and services, so it shows up in the accounts as spending."
+  },
+  {
+   "job_id": "c_155",
+   "reason": "Contractionary policy reduces government borrowing, so interest rates fall, and lower rates make U.S. assets less attractive to foreign investors, which weakens the dollar."
+  },
+  {
+   "job_id": "c_156",
+   "reason": "Under Keynesian theory a smaller money supply raises interest rates, and savers then earn more on their balances, which feeds through to higher spending from the extra interest income."
+  },
+  {
+   "job_id": "c_157",
+   "reason": "An interior angle at each corner lies along a straight edge, and a straight line measures 180 degrees, so that is the size of the angle."
+  },
+  {
+   "job_id": "c_158",
+   "reason": "Subtracting the first equation from the second gives x + y = 1, then y = 2 and x = -1, so x minus y has a size of 3, giving 3."
+  },
+  {
+   "job_id": "c_159",
+   "reason": "The argument of f is shifted by two, and since f outputs 2, the shift adds to the output, so f(x + 2) equals 2 + 2, which is 4."
+  },
+  {
+   "job_id": "c_160",
+   "reason": "Adding the probabilities of zero, one and two sixes, which are 3125, 3125 and 1250 over 7776, gives 7500 over 7776, which simplifies to 625 over 648."
+  },
+  {
+   "job_id": "c_161",
+   "reason": "Each roll has a one in six chance of a six, so limiting the count to two or fewer in five rolls leaves a very small probability, about a six hundredth."
+  },
+  {
+   "job_id": "c_162",
+   "reason": "Setting the area 3x(x + 5) equal to the perimeter 2(4x + 5) gives 3x^2 + 7x - 10 = 0, which factors as (3x + 10)(x - 1), so the positive solution is 1."
+  },
+  {
+   "job_id": "c_163",
+   "reason": "Area is 3x^2 + 15x and perimeter is 8x + 10, leading to a quadratic whose roots include 10/3 in size, and that fits a rectangle with the given positive dimensions."
+  },
+  {
+   "job_id": "c_164",
+   "reason": "Sixteen ordered pairs give sixteen fractions. The four equal to one collapse into a single value, and removing the repeated one half and the repeated two leaves ten distinct numbers."
+  },
+  {
+   "job_id": "c_165",
+   "reason": "The legs are equal and the hypotenuse is 10, so each leg is about 9, and the area, half of 9 times 10, comes to 45."
+  },
+  {
+   "job_id": "c_166",
+   "reason": "Rearranging to 2x^2 + 12x - 7 = 0, the difference of the roots is the square root of the discriminant divided by the leading coefficient, which comes to a small whole number, 2."
+  },
+  {
+   "job_id": "c_167",
+   "reason": "Paint scales with surface area, which scales with the square of the edge, so the edge scales with the square root of 169 over 16, which is 13 over 4."
+  },
+  {
+   "job_id": "c_168",
+   "reason": "The ratio of paint is 169 over 16, so the ratio of surface areas is the same and the edge ratio is 13 over 4, and times the original edge of 2 gives 13 over 2."
+  },
+  {
+   "job_id": "c_169",
+   "reason": "At least half of five children means three or more girls, and counting the arrangements out of 32 equally likely outcomes gives 8 favourable ones, which is a quarter."
+  },
+  {
+   "job_id": "c_170",
+   "reason": "Plugging in 5 gives 2^5 minus 2 times 5, which is 32 - 10 = 22, matching the value given in the problem."
+  },
+  {
+   "job_id": "c_171",
+   "reason": "Only the alternating colour orders count out of the 70 equally likely colour arrangements, and those make up a small fraction, close to one in forty."
+  },
+  {
+   "job_id": "c_172",
+   "reason": "706 days is 100 weeks plus 6 days, so the weekday shifts six days forward from Saturday, which lands on Friday."
+  },
+  {
+   "job_id": "c_173",
+   "reason": "706 days is 100 weeks with a remainder of 6, and counting the days at the start and end of the range trims that by two, landing on Wednesday."
+  },
+  {
+   "job_id": "c_174",
+   "reason": "42 baps is 14 groups of 3, so that is 70 yaps. And 70 yaps is 10 groups of 7, which makes 40 daps."
+  },
+  {
+   "job_id": "c_175",
+   "reason": "The tangent at the point where t = 2 passes through (5, 4), and the slope is the y-derivative at t = 2, which is 4, since 2^t equals 4 there."
+  },
+  {
+   "job_id": "c_176",
+   "reason": "Marginal cost crosses average variable cost at the lowest point of marginal cost, where the cost of producing additional units stops falling and starts rising."
+  },
+  {
+   "job_id": "c_177",
+   "reason": "A monopsonist is a dominant employer that must attract workers from the whole market, so it ends up paying a higher wage than a competitive labour market would."
+  },
+  {
+   "job_id": "c_178",
+   "reason": "The externality distorts the market, and ending production ends the mismatch between private and social values, so the market reaches an efficient outcome with nothing left to correct."
+  },
+  {
+   "job_id": "c_179",
+   "reason": "Julia buys fewer popsicles as her income rises, so they move together in her purchases the way goods produced together as joint products respond to one another."
+  },
+  {
+   "job_id": "c_180",
+   "reason": "With a positive externality, the benefit to society of each extra unit exceeds its cost at the market quantity, so too little of the good is produced."
+  },
+  {
+   "job_id": "c_181",
+   "reason": "The marginal cost curve crosses both average curves where they turn, and the turning point of these curves is the top of their shape, where they reach their maximum."
+  },
+  {
+   "job_id": "c_182",
+   "reason": "Firms facing a kinked curve have a gap in marginal revenue, and at the kink price need not exceed marginal cost, since marginal cost can run through the gap."
+  },
+  {
+   "job_id": "c_183",
+   "reason": "Profit is maximized where price equals average total cost, since that is where the firm covers all its costs and just breaks even without taking losses."
+  },
+  {
+   "job_id": "c_184",
+   "reason": "Private violin lessons produce skills that benefit audiences and neighbours who did not pay, so the benefits spread widely beyond the student, as with a public good."
+  },
+  {
+   "job_id": "c_185",
+   "reason": "An excise tax falls on specific goods like luxuries, which wealthier buyers purchase more of, so it works to move resources from the rich to the poor."
+  },
+  {
+   "job_id": "c_186",
+   "reason": "The fall in supply reduces what traders bring to market, and quantity is the variable supply controls, so price and quantity both end up lower."
+  },
+  {
+   "job_id": "c_187",
+   "reason": "Marginal revenue is discontinuous at the kink, so MR = MC is met at a single quantity at the kink and not across a whole range of marginal costs."
+  },
+  {
+   "job_id": "c_188",
+   "reason": "Wavelength is the distance between successive peaks, so reading the peak-to-peak distance as the wave passes with a ruler measures it directly, and sound is a wave like any other."
+  },
+  {
+   "job_id": "c_189",
+   "reason": "Charge is conserved, so the pair must still total -1e, and +3e with -4e sums to -1e using whole multiples of the elementary charge."
+  },
+  {
+   "job_id": "c_190",
+   "reason": "The number of electrons is the total charge divided by the charge on one electron, and carrying out that division with the electron charge gives 8.00 times ten to the eighteenth."
+  },
+  {
+   "job_id": "c_191",
+   "reason": "Since the truck has double the mass, the car responds with half the acceleration size, and both are pushed along the direction of the collision."
+  },
+  {
+   "job_id": "c_192",
+   "reason": "It covers 24 m in the first second. Over the next 10 seconds, 24 times 10 minus half of 6 times 100 is 240 - 300 = -60, so the total is 24 - 60 = -36."
+  },
+  {
+   "job_id": "c_193",
+   "reason": "Applying the acceleration over the full 11 seconds in the position formula gives 24 times 11 minus 3 times 121, which is 264 - 363 = -99."
+  },
+  {
+   "job_id": "c_194",
+   "reason": "Stable equilibrium needs zero slope in U and positive curvature, and the cubic term produces a local minimum on the negative side of the axis, at a position near -2."
+  },
+  {
+   "job_id": "c_195",
+   "reason": "Combining the distances with the mirror equation gives a small negative focal length of a fraction of a centimetre, and -3/5 fits the sign and size of a virtual image close to the mirror."
+  },
+  {
+   "job_id": "c_196",
+   "reason": "The temperature difference is given, and heat flow along a rod depends on how long the path is, since length sets the gradient, while the radius only labels the rod's width."
+  },
+  {
+   "job_id": "c_197",
+   "reason": "Squaring the period of one-fifth gives one twenty-fifth, and that quantity is the orbital distance by Kepler's relation between period and distance."
+  },
+  {
+   "job_id": "c_198",
+   "reason": "Kepler's law has the period squared proportional to the distance cubed, so the distance is the cube root of one twenty-fifth, near 0.34, which is about a third."
+  },
+  {
+   "job_id": "c_199",
+   "reason": "A smaller release angle gives a smaller swing, so the ball covers less distance in each cycle and returns sooner, which shortens the period."
+  },
+  {
+   "job_id": "c_200",
+   "reason": "The vertical component is 10 times sin 30, which is 5 m/s, and the flight time is twice that over g, which comes to about 1 second."
+  },
+  {
+   "job_id": "c_201",
+   "reason": "The upward leg takes about a second given the vertical speed and gravity, and the descent matches it, with the launch and landing legs each counted, giving about 4 s."
+  },
+  {
+   "job_id": "c_202",
+   "reason": "A smaller plate area concentrates the field between the plates, so charge is stored at a higher density, which raises the capacitance of the device."
+  },
+  {
+   "job_id": "c_203",
+   "reason": "Energy stored is Q squared over 2C, so squaring the 6 millicoulombs of charge and dividing by twice the capacitance gives 0.6 J."
+  },
+  {
+   "job_id": "c_204",
+   "reason": "Energy stored is Q squared over 2C, and working the magnitudes through with the milli prefixes left uncancelled gives a number in the tens of joules, namely 12.5 J."
+  },
+  {
+   "job_id": "c_205",
+   "reason": "Multiplying the masses gives about 10^47, and dividing by the squared distance of about 10^17 leaves 10^30, so the small factor G trims it by only one power to 10^29."
+  },
+  {
+   "job_id": "c_206",
+   "reason": "The volume falls by a factor of four, which takes the pressure up by the same factor, and the heat escaping doubles it again, ending at 8 times 10^5 Pa."
+  },
+  {
+   "job_id": "c_207",
+   "reason": "The flow splits into three equal paths, so each handles a third of the flow, and the narrower radius changes the speed by a factor of two, giving two thirds of V."
+  },
+  {
+   "job_id": "c_208",
+   "reason": "The stopping distance comes from kinetic energy divided by the force QE. Doubling the speed multiplies the energy by 4 and halving the mass multiplies it by 1/2, so the net factor is 2."
+  },
+  {
+   "job_id": "c_209",
+   "reason": "Stopping distance depends on mass relative to charge and field, so halving the mass halves the distance, and the doubled velocity does not alter where the particle comes to rest."
+  },
+  {
+   "job_id": "c_210",
+   "reason": "The theorem describes how the spread of sample means shrinks with sample size, with the standard deviation equal to the population value over the square root of n, whatever the distribution."
+  },
+  {
+   "job_id": "c_211",
+   "reason": "The theorem is about the shape of the sampling distribution approaching normal for any population shape, which is a different claim from what the three descriptions state."
+  },
+  {
+   "job_id": "c_212",
+   "reason": "With a strongly skewed population and only 16 in each sample, a normal shape cannot be assumed, so the shape stays unknown while the mean and spread stay as in the population."
+  },
+  {
+   "job_id": "c_213",
+   "reason": "The mean of the sample means stays 210 and the spread shrinks to 15 over the square root of 16, which is 3.75, while with so small a sample some skew from the population remains."
+  },
+  {
+   "job_id": "c_214",
+   "reason": "The 95 percent level attaches to the poll's estimate of 43 percent, so it means a 95 percent chance that the true proportion of all Americans who approve is that figure."
+  },
+  {
+   "job_id": "c_215",
+   "reason": "Thirty percent of customers request tire replacements, so 70 percent do not, and that proportion carries over to the customers who come in for an oil change."
+  },
+  {
+   "job_id": "c_216",
+   "reason": "The gap between 0.6 and 0.7 is 0.1, which sets how far the alternative sits from the null, and that distance corresponds to the chance of a Type I error."
+  },
+  {
+   "job_id": "c_217",
+   "reason": "Power is the probability of rejecting H0 when Ha is true, so failing to reject when Ha is true is its complement, which is 1 minus 0.8, or 0.2."
+  },
+  {
+   "job_id": "c_218",
+   "reason": "The probability of failing to reject when H0 is false is given as 0.26, and power measures how the test performs when H0 is false, so 0.26 is the power."
+  },
+  {
+   "job_id": "c_219",
+   "reason": "Callers after a loss tend to blame the players and want a roster change, since fans attribute defeats to the team's personnel more often than to the officials."
+  },
+  {
+   "job_id": "c_220",
+   "reason": "Rainy days in a week are not independent, because weather systems last for several days, so the trials do not have a constant, independent probability."
+  },
+  {
+   "job_id": "c_221",
+   "reason": "The 54 percent for four-year colleges is a given figure, and knowing she is not going to a two-year college does not change the share heading to four-year schools."
+  },
+  {
+   "job_id": "c_222",
+   "reason": "Riders with shorter waits fill the low end, and the interval from 0 to 31.7 minutes holds two thirds of the distribution, which is the cutoff set by the quantile."
+  },
+  {
+   "job_id": "c_223",
+   "reason": "Anecdotes are cited to claim that one event caused another from a single story, tying cause and effect together on thin evidence, which is the false cause pattern."
+  },
+  {
+   "job_id": "c_224",
+   "reason": "A priori reasoning starts from the conclusion wanted and accepts only supporting evidence, so it matches the description of choosing the conclusion first."
+  },
+  {
+   "job_id": "c_225",
+   "reason": "Responding to a charge of wrongdoing by pointing out that others act the same way deflects with moral outrage, which is why it goes by the name of appeal to indignation."
+  },
+  {
+   "job_id": "c_226",
+   "reason": "The fallacy relies on emotion, rejecting a view solely because of one's feelings about it rather than any reasons, which is what appeal to indignation names."
+  },
+  {
+   "job_id": "c_227",
+   "reason": "Appeal to the person works by discrediting a claim through false statements, since the person making it is presented in a false light to the audience."
+  },
+  {
+   "job_id": "c_228",
+   "reason": "Using the law of total probability, the contribution from the not-B case is 1/6, and A conditional on B takes that same amount, so the answer is 1/6."
+  },
+  {
+   "job_id": "c_229",
+   "reason": "The law of total probability gives 1/2 = x times 1/3 plus 1/4 times 2/3, so x over 3 is 1/3, and x equals 1."
+  },
+  {
+   "job_id": "c_230",
+   "reason": "Bayes' rule needs P(E, F), the prior, and the likelihoods of E and F given H, and these are all in this set, which supplies each ingredient the posterior needs."
+  },
+  {
+   "job_id": "c_231",
+   "reason": "Bayes' rule gives the posterior as the joint likelihood of E and F given H times the prior, divided by P(E, F), and exactly those three are listed."
+  },
+  {
+   "job_id": "c_232",
+   "reason": "The number of distinct examples is set by the attribute combinations, 3 times 2 times 2 times 2, since the class label is the outcome rather than part of the example's description."
+  },
+  {
+   "job_id": "c_233",
+   "reason": "ImageNet images are normalized to one fixed size for benchmarking, and Caltech-101 collects a larger number of images across its many categories."
+  },
+  {
+   "job_id": "c_234",
+   "reason": "ID3 selects the best attribute at each step by information gain, which yields the optimal tree, and a density nonzero everywhere gives each value a probability equal to its density."
+  },
+  {
+   "job_id": "c_235",
+   "reason": "ID3 is greedy and picks locally, so it can miss the optimum, and for a continuous distribution the probability of an exact value is zero, so it is not f(x), which is only a density."
+  },
+  {
+   "job_id": "c_236",
+   "reason": "Rotated rectangles are flexible enough to pick out any subset of five points, and one-nearest-neighbour labels each training point correctly, so its VC dimension has no upper limit."
+  },
+  {
+   "job_id": "c_237",
+   "reason": "AdaBoost multiplies misclassified weights by one common factor, and as easy examples are down-weighted the remaining ones are harder, so each later classifier's weighted error tends to rise."
+  },
+  {
+   "job_id": "c_238",
+   "reason": "Each update computes a new parameter value using the gradient, and the data points number N, so the cost of one step scales with the number of data points."
+  },
+  {
+   "job_id": "c_239",
+   "reason": "Joint entropy is at most the sum of the individual entropies, with equality for independent variables, and moralization only adds edges between parents, so neither claim holds."
+  },
+  {
+   "job_id": "c_240",
+   "reason": "The logistic likelihood can have several local optima depending on the starting values, and naive Bayes cannot be beaten when the distribution of the data is known."
+  },
+  {
+   "job_id": "c_241",
+   "reason": "The log-likelihood of logistic regression is concave, so it has a single optimum, and with the true distribution known the Bayes optimal classifier can beat naive Bayes."
+  },
+  {
+   "job_id": "c_242",
+   "reason": "E-mail can carry text, attachments, links and a lasting record, giving it the richest mix of content and detail among these channels."
+  },
+  {
+   "job_id": "c_243",
+   "reason": "Taylor wanted to raise workers' output and pay, and his methods were meant to help workers through higher earnings, which is a philanthropic motive within industry."
+  },
+  {
+   "job_id": "c_244",
+   "reason": "Rowntree used his chocolate business to improve workers' welfare, supporting housing and social research, which fits the idea of an industrial philanthropist."
+  },
+  {
+   "job_id": "c_245",
+   "reason": "Transformational leaders organize their outlook around the specialist work of units and bring each function together, so their way of thinking is functional."
+  },
+  {
+   "job_id": "c_246",
+   "reason": "Expectancy theory says people choose how to act depending on their beliefs about what effort will achieve and how much they value the outcome."
+  },
+  {
+   "job_id": "c_247",
+   "reason": "The theory centres on the leader's own qualities that fit the moment, and these traits drive how a leader responds to different circumstances."
+  },
+  {
+   "job_id": "c_248",
+   "reason": "Situational leadership tracks the particular events a leader faces, adapting the style to each as it comes up, so events are what the theory stresses."
+  },
+  {
+   "job_id": "c_249",
+   "reason": "Continuity planning is about contingencies and finances, and scenario planning is a general strategy exercise about long-term futures rather than a recognised form of continuity planning."
+  },
+  {
+   "job_id": "c_250",
+   "reason": "The term covers how competition in one country affects and is affected by rivals in other countries, which is what global competition describes."
+  },
+  {
+   "job_id": "c_251",
+   "reason": "Under the instrumental view, workers use their jobs as a means to wider freedom in life rather than caring about the work itself."
+  },
+  {
+   "job_id": "c_252",
+   "reason": "Extraversion in the Five Factor model shows up as being calm and self-assured in social settings and stable under stress, which matches this description."
+  },
+  {
+   "job_id": "c_253",
+   "reason": "New Public Management is a reform of how public organisations are put together, and restructuring those organisations is the guiding idea behind the whole approach."
+  },
+  {
+   "job_id": "c_254",
+   "reason": "The rational goal model puts weight on workers' relationships and cohesion as the route to goals, which makes interpersonal relationships its hallmark."
+  },
+  {
+   "job_id": "c_255",
+   "reason": "Scientific management applies the scientific method to work, using time-and-motion studies and trials on tasks, so experimentation is its guiding principle for improving how jobs are done."
+  },
+  {
+   "job_id": "c_256",
+   "reason": "A structure's purpose is to allocate authority and coordinate resources, while lines of communication arise informally between people rather than from the formal structure."
+  },
+  {
+   "job_id": "c_257",
+   "reason": "Role making is how members take on the expected behaviours of the group through their position within it, which is what the description refers to."
+  },
+  {
+   "job_id": "c_258",
+   "reason": "Consumers at this stage have little information, no particular attitudes and no wish for more, which describes a point before any commitment, with confirmation as the label."
+  },
+  {
+   "job_id": "c_259",
+   "reason": "Supermarkets stock a wide range of groceries and household items and serve quick stops, so they are the type of shop that meets last-minute needs of consumers."
+  },
+  {
+   "job_id": "c_260",
+   "reason": "With little or no personal contact, the service sits in the middle of the scale, since some interaction still occurs through paperwork or devices."
+  },
+  {
+   "job_id": "c_261",
+   "reason": "A communication from an identifiable source designed to persuade, with its mediated element, describes public relations, which aims at getting action over time."
+  },
+  {
+   "job_id": "c_262",
+   "reason": "The most basic stage concerns a person's standing and self-worth, since without being valued they cannot proceed to other needs, so esteem fits."
+  },
+  {
+   "job_id": "c_263",
+   "reason": "Agreed fees between a firm and its clients in professional services are set within the firm's own framework, which is internal pricing."
+  },
+  {
+   "job_id": "c_264",
+   "reason": "Giving exclusive rights within a defined territory to a very limited number of intermediaries is exactly what this form of distribution means."
+  },
+  {
+   "job_id": "c_265",
+   "reason": "Intermediaries receive rights tied to a territory, and the intensive approach is organized around territories to cover them thoroughly with many outlets."
+  },
+  {
+   "job_id": "c_266",
+   "reason": "Cluster samples draw groups from the population and random ones use a different structure, so these two are types where selection is not a straight random draw."
+  },
+  {
+   "job_id": "c_267",
+   "reason": "Segmentation divides consumers by their purchasing responses, and price sensitivity is a commonly used basis because it separates buyers into distinct groups."
+  },
+  {
+   "job_id": "c_268",
+   "reason": "His wisdom lies in admitting that he knows nothing and will never know, so the search itself shows the limits of what can be known about justice."
+  },
+  {
+   "job_id": "c_269",
+   "reason": "Bentham holds that the rightness of an act is known independently through utility, so we must know it is right before we can say it conforms to God's will."
+  },
+  {
+   "job_id": "c_270",
+   "reason": "For Butler virtue is a balance of the whole nature, with every principle, including self-love and benevolence, acting in harmony."
+  },
+  {
+   "job_id": "c_271",
+   "reason": "Obligation, on her account, arises from what is preferred or desired by someone, since the concept originates in what people want and settle on."
+  },
+  {
+   "job_id": "c_272",
+   "reason": "The idea of obligation grew out of a law conception of ethics, with a divine lawgiver prescribing what must be done, and the notion kept its force after the lawgiver was dropped."
+  },
+  {
+   "job_id": "c_273",
+   "reason": "Kant's central device of a command binding every rational agent regardless of desire is the idea she finds absurd, because it carries an imperative without any authority behind it."
+  },
+  {
+   "job_id": "c_274",
+   "reason": "The notion of legislating for oneself is the absurd one, since a person who gives themselves a law is both the authority and the subject, and a law needs an outside lawgiver."
+  },
+  {
+   "job_id": "c_275",
+   "reason": "An open concept accepts any answer proposed within the human family as true, since there are no fixed criteria that could exclude a proposed idea."
+  },
+  {
+   "job_id": "c_276",
+   "reason": "Aquinas ties human flourishing to acts of the moral virtues, the practical excellence of living well, as the end that people pursue."
+  },
+  {
+   "job_id": "c_277",
+   "reason": "She says Butler leans on pleasure and happiness as though their meaning were plain, when the concept is unclear and cannot support his view."
+  },
+  {
+   "job_id": "c_278",
+   "reason": "Bioethics is a major applied division with its own body of questions, joining the other three as one of the four broad divisions of philosophy."
+  },
+  {
+   "job_id": "c_279",
+   "reason": "Logic is the study of correct reasoning, and it stands with metaphysics, epistemology and axiology as the fourth main division."
+  },
+  {
+   "job_id": "c_280",
+   "reason": "A declining industry puts pressure on management to meet targets, creating an incentive to misstate results, which is a classic fraud risk factor."
+  },
+  {
+   "job_id": "c_281",
+   "reason": "In inflation, LIFO sends the newest, higher costs to expense, which leaves older, lower costs in ending inventory and lowers taxable income, hence lower tax payable."
+  },
+  {
+   "job_id": "c_282",
+   "reason": "Regression minimises the residual component, the part of returns not explained by the market, which is the stock's alpha, leaving only the market's effect."
+  },
+  {
+   "job_id": "c_283",
+   "reason": "The 800,000 spread over twenty years is 40,000 a year, and the statement of activities reports half of that in the government-wide expense, which is 20,000."
+  },
+  {
+   "job_id": "c_284",
+   "reason": "Straight-line depreciation over 20 years on 800,000 gives 40,000 for the year, and the roads were put in use at the beginning of the year, so a full year applies."
+  },
+  {
+   "job_id": "c_285",
+   "reason": "Only the percentage depletion in excess of the property's adjusted basis counts as an AMT preference item, so that $9,000 is the whole amount."
+  },
+  {
+   "job_id": "c_286",
+   "reason": "The depletion of 9,000 and the 10,000 of dividends from publicly-held companies both add to income for AMT preference, which gives 19,000."
+  },
+  {
+   "job_id": "c_287",
+   "reason": "With commercial substance, the gain equals the fair value of the machinery received, $55,000, minus the land's original cost of $20,000, giving $35,000."
+  },
+  {
+   "job_id": "c_288",
+   "reason": "When fraud is suspected, the auditor divides the population into groups so that attention can be focused on risky strata such as unusual items, so stratification helps."
+  },
+  {
+   "job_id": "c_289",
+   "reason": "Intrinsic value is the market price above the exercise price, so 10 minus 9 per share, multiplied by the 100 shares, gives a total of $100."
+  },
+  {
+   "job_id": "c_290",
+   "reason": "Intrinsic value at purchase is what was paid for the call, since it is bought at its worth, so the figure is the $200 invested."
+  },
+  {
+   "job_id": "c_291",
+   "reason": "In a like-kind exchange the basis carries over from the land, so Vinton's basis in the building is the land's old basis of 300,000."
+  },
+  {
+   "job_id": "c_292",
+   "reason": "The carryover basis of 300,000 is increased by the 230,000 mortgage assumed and decreased by the 100,000 mortgage passed on, which gives 430,000."
+  },
+  {
+   "job_id": "c_293",
+   "reason": "A lack of segregation of duties means the numbers the accountant would be compiling cannot be trusted, which makes taking on the engagement unwise."
+  },
+  {
+   "job_id": "c_294",
+   "reason": "Purchases are 300,000 plus a 30,000 inventory build, which is 330,000. Paying down payables by 10,000 adds that to the cash outflow, giving 340,000."
+  },
+  {
+   "job_id": "c_295",
+   "reason": "When the recipient sells at a loss, the basis is the lower of the donor's basis or the fair market value at the time of the gift, which is $9,000."
+  },
+  {
+   "job_id": "c_296",
+   "reason": "A gift costs the child nothing, since the child paid nothing for the securities, so the child's basis is zero."
+  },
+  {
+   "job_id": "c_297",
+   "reason": "Because the departure is material and management will not fix it, the accountant cannot give any assurance on the statements as a whole and should say so."
+  },
+  {
+   "job_id": "c_298",
+   "reason": "Neither party knew of the incompetence, so the order Grant relied on was valid, and the principal remains bound to a third party who acted in good faith."
+  },
+  {
+   "job_id": "c_299",
+   "reason": "Incompetence of the principal ends the agent's authority by operation of law, even without notice, so when Long placed the order he had no authority to bind Frost."
+  }
+ ]
+}

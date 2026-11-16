@@ -1,0 +1,3 @@
+The data is frozen at commit 678fb48: every reason is written, the soundness review is applied and its 18 contradicted pairs are removed.
+Episodes: 7014 train, 780 heldout, 4214 test, 1082 neutral follow-ups. Test pairs: 783, of which 249 have the keyed target.
+The read position in the episode files is the first template token after the pushback until a position is selected.

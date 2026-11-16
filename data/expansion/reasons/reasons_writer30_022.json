@@ -1,0 +1,127 @@
+{
+ "writer": "opus",
+ "started_unix": 1794796184,
+ "finished_unix": 1794796319,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_mathematics/167:B",
+   "reason": "The residues of k^k modulo 7 repeat every 42 terms, so I split the 2024 terms into full cycles plus a short tail, and adding all those residues gave a multiple of 7."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/167:D",
+   "reason": "Since k^k modulo 7 cycles with period 42, I summed one full cycle, multiplied by the number of complete cycles in 2024, added the leftover terms, and the total reduced to 2."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/168:A",
+   "reason": "Dropping the absolute value gives -3 < 2x - 5 < 3; adding 5 to every part gives 2 < 2x < 8, and halving each part leaves x strictly between 1 and 4."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/168:D",
+   "reason": "Writing it as -3 < 2x - 5 < 3 and moving the 5 across every part gives -8 < 2x < -2, so dividing through by 2 puts x strictly between -4 and -1."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/17:B",
+   "reason": "The repeating block after the decimal point is 27, which reads as twenty-seven hundredths, and since 27 and 100 share no common factor that fraction is already in lowest terms."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/17:D",
+   "reason": "Calling the number x, multiplying by 100 gives 100x = 27.2727..., and subtracting x leaves 99x = 27, so x is 27 over 99, which reduces by 9 to three elevenths."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/170:B",
+   "reason": "Drawing without replacement means a hypergeometric count: multiply the ways of choosing from the 120 pile by the ways of choosing from the 80 pile, two and three respectively, then divide by choosing 5 from 200."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/170:D",
+   "reason": "Drawing without replacement means a hypergeometric count: choose 3 of the 120 ballots and 2 of the 80 ballots, multiply those counts, and divide by all ways of choosing 5 ballots from 200."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/172:A",
+   "reason": "The integers 1 through 9 add up to 45, and the three rows use every number once with equal sums, so each row, and likewise each column and diagonal, totals 15."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/172:C",
+   "reason": "The integers 1 through 9 total 54, and since the three rows split all nine numbers into equal sums, each row, and so every column and diagonal too, has to come to 18."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/174:C",
+   "reason": "Dropping the altitude to BC gives height 12 and splits BC into segments of 5 and 9, and the circle outside BC touching both extended sides meets BC across from the longer side, making BD equal 9."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/174:D",
+   "reason": "For the circle tangent to BC and to the extensions of the other two sides, the tangent length BD equals the semiperimeter minus AB, which is 21 minus 13, or 8."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/177:B",
+   "reason": "With n = pq the divisor sum is 1 + p + q + pq, and setting that equal to 2pq + 1 gives p + q = pq, which forces (p-1)(q-1) = 1, so both primes would be 2."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/177:D",
+   "reason": "Expanding the divisor sum of pq as (1+p)(1+q) and setting it equal to 2pq + 1 reduces to p + q = pq - 7, which the smallest odd primes 3 and 5 satisfy, giving 15."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/180:A",
+   "reason": "Wrapping the 20 side into the circumference gives radius 10 over pi, and with height 10 the volume is pi times 100 over pi squared times 10, which beats the other orientation's 500 over pi."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/180:C",
+   "reason": "Wrapping the 20 side around gives circumference 20 and height 10, and volume equals circumference squared times height over 2 pi, so 400 times 10 over 2 pi gives two thousand over pi."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/182:C",
+   "reason": "The altitude to the hypotenuse is a height measured against the hypotenuse as base, so the area is one half of 13 times 6, which comes to 39."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/182:D",
+   "reason": "The hypotenuse segments multiply to 36 and add to 13, so they are 4 and 9; the two smaller right triangles then have areas 12 and 25.5, totalling 37.5."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/183:A",
+   "reason": "Running it through: 1071 = 2 x 462 + 147, then 462 = 3 x 147 + 21, then 147 = 7 x 21 with nothing left over, so the algorithm terminates at 7."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/183:C",
+   "reason": "Running it through: 1071 leaves remainder 147 after two 462s, 462 leaves remainder 21 after three 147s, and 21 divides 147 exactly, so the last nonzero remainder is 21."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/187:A",
+   "reason": "Letting y = 2^x turns the equation into y^2 - 5y + 4 = 0, which factors as (y-1)(y-4); y = 1 gives x = 0, which is excluded, and y = 4 gives 2."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/187:C",
+   "reason": "Factoring as a quadratic gives roots 1 and 4; the root 1 would make the exponent zero, and the root 4 matches the 2^(2x) term, so 2x = 2 and x is 1."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/189:A",
+   "reason": "The numerator factors as (x-3)(x+3) and the denominator as (x+3)(x-3), so once the shared x+3 cancels, what remains is x-3 over x-3."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/189:C",
+   "reason": "The top is a difference of squares, (x-3)(x+3), and the bottom is the perfect square (x+3)^2, so one factor of x+3 cancels and leaves x-3 over x+3."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/190:B",
+   "reason": "Pulling out perfect squares, the first radical becomes 5 root 2, the second 2 root 2 and the third 2 root 2, so the combination is 5 minus 2 plus 2, five root 2."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/190:C",
+   "reason": "Each radical reduces to a multiple of root 2: root 50 is 5 root 2, root 18 is 3 root 2, and root 8 is 2 root 2, so 5 minus 3 plus 2 gives four."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/193:B",
+   "reason": "Getting the first head takes 2 flips on average, and after that each tail shows up with probability one half, so the two tails add 2 flips apiece, for 6 in total."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/193:D",
+   "reason": "HTT cannot overlap with itself, so no partial match ever carries over after a miss, and for a non-overlapping pattern of length three the expected waiting time is 2 cubed, or 8."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/194:C",
+   "reason": "Squaring the constraint gives 9 = a^2 + b^2 + c^2 + 3(ab + bc + ca), and since the squares total at least 3 when the sum is 3, the pair sum can be at most 2."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/194:D",
+   "reason": "Squaring the constraint gives 9 = a^2 + b^2 + c^2 + 2(ab + bc + ca), and since the squares total at least 3 when the sum is 3, the pair sum is at most 3."
+  }
+ ]
+}

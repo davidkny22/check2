@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794788194,
+ "finished_unix": 1794788436,
+ "reasons": [
+  {
+   "job_id": "expansion/econometrics/243:B",
+   "reason": "GARCH(1,1) exists to model volatility clustering, its variance equation uses the lagged squared residual and the lagged variance, and stationarity needs the two coefficients to sum below one. Asymmetric shock effects belong to extensions, not the standard model."
+  },
+  {
+   "job_id": "expansion/econometrics/243:C",
+   "reason": "Volatility clustering is a pattern seen in the data, not part of the specification itself, which sets variance from lagged squared residuals and lagged variances, needs the coefficients to sum below one, and lets shocks of each sign enter separately."
+  },
+  {
+   "job_id": "expansion/econometrics/245:C",
+   "reason": "The second M stands for exponential service times, and in M/M/1 the mean wait formula uses only the arrival and service rates, so the waiting time does not depend on any separate measure of service variability."
+  },
+  {
+   "job_id": "expansion/econometrics/245:D",
+   "reason": "M/M/1 means Poisson arrivals, exponential service and a single server, and the queue only stays stable while arrivals come in slower than service. Waiting time does depend on service variability, since more variable service lengthens queues."
+  },
+  {
+   "job_id": "expansion/econometrics/246:A",
+   "reason": "A statistic of 2 means no first-order autocorrelation, values near 0 signal strong positive autocorrelation, and the test is built on the first-order residual correlation alone. With a lagged dependent variable it is biased toward 2."
+  },
+  {
+   "job_id": "expansion/econometrics/246:D",
+   "reason": "Values near 0 come from consecutive residuals moving together, which is strong positive autocorrelation, and the statistic is computed purely from the residuals, so a lagged dependent variable among the regressors does not change how it is calculated."
+  },
+  {
+   "job_id": "expansion/econometrics/247:B",
+   "reason": "Each internal node tests an attribute, and pruning reshapes the tree's branching so it can capture the fine patterns in the training data, including the irregular cases that a rough, shallow tree would otherwise miss."
+  },
+  {
+   "job_id": "expansion/econometrics/247:C",
+   "reason": "Internal nodes test attributes, branches carry the outcomes of those tests, and leaves hold the final class or decision. Pruning does the reverse of fitting noise, cutting branches back to reduce complexity."
+  },
+  {
+   "job_id": "expansion/econometrics/25:A",
+   "reason": "A valid instrument has to move with the endogenous regressor and be exogenous to the system. Those two conditions are the full requirement, since exogeneity already covers everything the error-term condition was trying to say."
+  },
+  {
+   "job_id": "expansion/econometrics/25:C",
+   "reason": "The instrument must be uncorrelated with the error term, correlated with the endogenous regressor, and exogenous to the system, which is the same exclusion idea stated at the model level. Being built from X and u would break validity."
+  },
+  {
+   "job_id": "expansion/econometrics/251:A",
+   "reason": "Parallel trends is about the treatment group responding as one unit to the tax change, because if firms respond differently the difference-in-differences estimate mixes several effects and stops tracking a single common trend."
+  },
+  {
+   "job_id": "expansion/econometrics/251:D",
+   "reason": "The assumption is counterfactual: without the tax change, investment in the treated and control firms would have followed the same path over time, even if their levels differ, so the change in the gap measures the effect."
+  },
+  {
+   "job_id": "expansion/econometrics/252:C",
+   "reason": "Points beyond the control limits signal special-cause variation, and failure rates that correlate from one period to the next show a steady, predictable process, which is what being in statistical control means."
+  },
+  {
+   "job_id": "expansion/econometrics/252:D",
+   "reason": "A p-chart tracks the share of failed transactions, points outside its limits flag special causes, and the normal approximation behind the limits rests on the central limit theorem for large samples. Autocorrelation signals a process problem instead."
+  },
+  {
+   "job_id": "expansion/econometrics/253:A",
+   "reason": "Network effects raise a service's value as more people use it, and that self-reinforcing pull means users converge on one dominant network, which is why such markets tip toward a single winner."
+  },
+  {
+   "job_id": "expansion/econometrics/253:C",
+   "reason": "Value rising with the number of users defines network effects, direct effects come from users of the same product and indirect ones from complementary goods. Markets with network effects can still support several competing platforms."
+  },
+  {
+   "job_id": "expansion/econometrics/255:A",
+   "reason": "The p-value tells you how likely the null is to be true, so a smaller one is stronger evidence against it, and a result that passes the significance test is a real effect that matters for the business decision."
+  },
+  {
+   "job_id": "expansion/econometrics/255:B",
+   "reason": "Only the point that smaller p-values mean stronger evidence against the null holds up. A p-value is not the probability the null is true, significance is not practical importance, and choosing the tail after seeing data is invalid."
+  },
+  {
+   "job_id": "expansion/econometrics/256:B",
+   "reason": "Promotional elasticity is the percent change in sales per one percent change in promotional spending, and a positive cross-promotional elasticity means promoting one item moves the other's sales in the way buyers switching between substitutes would."
+  },
+  {
+   "job_id": "expansion/econometrics/256:D",
+   "reason": "Promotional elasticity is the sales response to a one percent change in spending, cross-promotional elasticity tracks spillover onto another product, and diminishing returns are typical. A positive spillover from promotion points to complements, not substitutes."
+  },
+  {
+   "job_id": "expansion/econometrics/258:B",
+   "reason": "Cholesky identification depends on variable ordering, structural shocks are taken as orthogonal, and impulse responses trace a one-time shock forward. Reduced-form residuals are correlated mixtures of shocks, which is exactly why identification is needed."
+  },
+  {
+   "job_id": "expansion/econometrics/258:D",
+   "reason": "Ordering drives the Cholesky factor, structural shocks are orthogonal, impulse responses trace a one-off shock, and once the system is identified the reduced-form residuals are the very shocks the model reads directly as structural."
+  },
+  {
+   "job_id": "expansion/econometrics/259:B",
+   "reason": "The Ljung-Box statistic sums squared sample autocorrelations up to a chosen lag and tests whether they are jointly zero. It says nothing about unit roots, VAR lag length or cointegration."
+  },
+  {
+   "job_id": "expansion/econometrics/259:D",
+   "reason": "The Q-statistic gathers autocorrelations across many lags, so a persistent pattern of large values flags a unit root, and checking residuals at each candidate lag length tells you how many lags a VAR needs."
+  },
+  {
+   "job_id": "expansion/econometrics/26:A",
+   "reason": "A root on the unit circle means shocks never die out, so the variance grows over time and the series wanders like a random walk. That is the defining case of a unit root process."
+  },
+  {
+   "job_id": "expansion/econometrics/26:C",
+   "reason": "For an AR polynomial, stationarity concerns roots lying on or outside the unit circle rather than inside it, so a root sitting exactly on the circle still meets the boundary of the stationarity condition."
+  },
+  {
+   "job_id": "expansion/econometrics/260:B",
+   "reason": "The theorem says sample means become normal as n grows whatever the population shape, and the sampling distribution centres on the population mean. It does not need a normal population, and thirty is only a rule of thumb."
+  },
+  {
+   "job_id": "expansion/econometrics/260:C",
+   "reason": "Sample means approach normality as n grows and centre on the population mean, and the guarantee is only exact when the underlying population is itself normal, so a normal population is the condition the theorem applies under."
+  },
+  {
+   "job_id": "expansion/econometrics/261:A",
+   "reason": "The Kalman filter alternates two steps: it predicts the state from the previous estimate, then updates that prediction with the new observation. Time dummies, a constant parameter or non-stationary data play no part."
+  },
+  {
+   "job_id": "expansion/econometrics/261:D",
+   "reason": "The state equation carries the parameter forward unchanged between observations, and the filter is built for non-stationary data, since a stationary series could be modelled with ordinary regression instead."
+  },
+  {
+   "job_id": "expansion/econometrics/263:A",
+   "reason": "Lasso and Ridge prevent overfitting by penalizing large coefficients, and in the bias-variance tradeoff a better-specified model with lower bias also fits more consistently across samples, so its variance falls too."
+  },
+  {
+   "job_id": "expansion/econometrics/263:D",
+   "reason": "Cross-validation averages over several splits, overfitting means strong training results with poor test results, and Lasso and Ridge penalize large coefficients. Reducing bias usually raises variance, which is the whole tradeoff."
+  },
+  {
+   "job_id": "expansion/econometrics/264:A",
+   "reason": "Little's Law says L equals lambda times W, linking the number in the system, the arrival rate and the time spent. It holds for any stable system whatever the arrival and service distributions, so no exponential assumption is needed."
+  },
+  {
+   "job_id": "expansion/econometrics/264:B",
+   "reason": "Little's Law sets the average number in the system equal to the arrival rate times the average time spent, and it is derived within the Markovian queueing framework, which rests on exponential service times."
+  },
+  {
+   "job_id": "expansion/econometrics/265:B",
+   "reason": "The error correction term's coefficient measures what fraction of last period's deviation from the long-run relationship is corrected each period, which is the speed of adjustment back to equilibrium."
+  },
+  {
+   "job_id": "expansion/econometrics/265:D",
+   "reason": "The error correction term is built from the cointegrating relationship itself, the lagged residual of investment on GDP, so what it represents is the cointegrating vector's coefficient linking the two in the long run."
+  },
+  {
+   "job_id": "expansion/econometrics/266:C",
+   "reason": "Random effects is preferred when firm effects are uncorrelated with the regressors, when it lets you keep time-invariant variables, and when the panel has many periods, since the efficiency gain from pooling grows with the time coverage."
+  },
+  {
+   "job_id": "expansion/econometrics/266:D",
+   "reason": "Random effects needs the firm effects to be uncorrelated with the regressors, and unlike fixed effects it can estimate coefficients on time-invariant variables. A long time dimension makes the two estimators converge, so it gives no special reason."
+  },
+  {
+   "job_id": "expansion/econometrics/267:C",
+   "reason": "Correlation only captures linear association and a few outliers can swing it a lot. A zero correlation can hide a nonlinear dependence, and a high correlation alone does not establish causation."
+  },
+  {
+   "job_id": "expansion/econometrics/267:D",
+   "reason": "Correlation picks up linear relationships and outliers distort it, and in a correlation matrix built for decisions a high coefficient is read as one variable driving the other, since that is the relationship executives act on."
+  },
+  {
+   "job_id": "expansion/econometrics/269:A",
+   "reason": "OLS still uses every observation and the same linear model, so its coefficients stay centred on the true values, but it ignores the joint determination of price and quantity, so its variance is larger than under 2SLS."
+  },
+  {
+   "job_id": "expansion/econometrics/269:B",
+   "reason": "Under simultaneity, price is correlated with the error term because quantity and price are set together, so OLS is biased in small samples and the bias does not vanish as the sample grows."
+  },
+  {
+   "job_id": "expansion/econometrics/27:A",
+   "reason": "Maximum likelihood picks the parameter values that make the observed data most probable, so it centres on the truth even in small samples, and the likelihood ratio test compares nested models directly."
+  },
+  {
+   "job_id": "expansion/econometrics/27:B",
+   "reason": "Under regularity conditions MLE is consistent and asymptotically normal, and the likelihood ratio test compares nested models. Its finite-sample bias can be nonzero, as with the variance estimator, and normal errors are not required."
+  },
+  {
+   "job_id": "expansion/econometrics/270:B",
+   "reason": "Levered beta carries debt-related financial risk, unlevering strips out capital structure to leave business risk, and the Hamada equation converts between the two. Historical beta is not always a better predictor than an adjusted one."
+  },
+  {
+   "job_id": "expansion/econometrics/270:C",
+   "reason": "Unlevering removes capital-structure effects, the Hamada equation moves between levered and unlevered beta, and historical beta comes from actual observed returns, so it reflects the firm's real risk rather than a mechanical adjustment toward one."
+  },
+  {
+   "job_id": "expansion/econometrics/271:B",
+   "reason": "Integrated of order one means a single summation of shocks builds the series, so each period's change is an independent shock with no structure, which makes the series itself behave as white noise."
+  },
+  {
+   "job_id": "expansion/econometrics/271:D",
+   "reason": "The order of integration counts how many differences are needed to reach stationarity. A series that is I(1) is non-stationary in levels, but its first difference is stationary, as with a random walk."
+  },
+  {
+   "job_id": "expansion/econometrics/272:B",
+   "reason": "Mean reversion means deviations from the long-run average die out, so the series keeps returning to it, and that requires a constant mean and finite variance, which is stationarity."
+  },
+  {
+   "job_id": "expansion/econometrics/272:C",
+   "reason": "A unit-root series carries a stochastic trend, and a random walk without drift has an expected value at any future date equal to its starting level, which is the long-term value it reverts to."
+  },
+  {
+   "job_id": "expansion/econometrics/274:A",
+   "reason": "The ADF null is a unit root, while KPSS reverses it with stationarity as the null. Differencing a difference-stationary series once makes it stationary. Phillips-Perron is designed to be more robust to heteroskedasticity, not less."
+  },
+  {
+   "job_id": "expansion/econometrics/274:B",
+   "reason": "The ADF null is a unit root and first-differencing makes a difference-stationary series stationary. Phillips-Perron uses a nonparametric correction for serial correlation rather than modelling it with lags, which leaves it more sensitive to heteroskedastic errors."
+  },
+  {
+   "job_id": "expansion/econometrics/275:A",
+   "reason": "Liquidity constraints can skew bid discounts, and a kernel density estimate smooths the distribution without a parametric form. In a symmetric distribution whose mean does not exist, such as the Cauchy, mean and median need not match."
+  },
+  {
+   "job_id": "expansion/econometrics/275:D",
+   "reason": "Liquidity constraints can skew discounts, a kernel density smooths the distribution without a parametric form, Kolmogorov-Smirnov compares an empirical distribution with a theoretical one, and symmetry puts the mean and median at the same centre."
+  },
+  {
+   "job_id": "expansion/econometrics/276:A",
+   "reason": "The expectations-augmented curve adds expected inflation as a regressor, and the natural rate is pinned down by structural features of the labour market, so a temporary shock leaves no lasting mark on it."
+  },
+  {
+   "job_id": "expansion/econometrics/276:C",
+   "reason": "The augmented curve adds expected inflation, adaptive expectations build on past inflation, and a vertical long-run curve rules out a lasting trade-off. Hysteresis means the opposite of no permanent effect: temporary shocks shift the natural rate."
+  },
+  {
+   "job_id": "expansion/econometrics/277:A",
+   "reason": "Granger causality asks whether lagged values of one series improve forecasts of another, and the standard F-test needs stationary series. It establishes predictive precedence, not true causation, and lags cannot capture same-period effects."
+  },
+  {
+   "job_id": "expansion/econometrics/277:C",
+   "reason": "Rejecting the null shows one variable systematically leads the other, which is what causal influence looks like in time-series data, and the test framework also covers contemporaneous links between the series' innovations."
+  },
+  {
+   "job_id": "expansion/econometrics/278:B",
+   "reason": "Z-scores rely on normality, IQR fences use quartiles that extreme values barely move, Mahalanobis distance handles several variables at once, and removing outliers strips noise that would otherwise distort the fitted model, so prediction improves."
+  },
+  {
+   "job_id": "expansion/econometrics/278:C",
+   "reason": "Z-scores lean on a normal distribution, the IQR rule uses quartiles that resist extremes, and Mahalanobis distance accounts for correlation across variables. Dropping outliers can remove real signal, so it does not automatically help prediction."
+  },
+  {
+   "job_id": "expansion/econometrics/279:B",
+   "reason": "Rejecting the Hausman null means the firm effects are correlated with the regressors, so random effects is inconsistent. Fixed effects removes those effects through the within transformation and stays consistent either way."
+  },
+  {
+   "job_id": "expansion/econometrics/279:C",
+   "reason": "Once the random effects assumption fails, the panel structure itself is the problem, so the fallback is pooled OLS, which treats every firm-year as one observation and avoids modelling the individual effects at all."
+  },
+  {
+   "job_id": "expansion/econometrics/28:A",
+   "reason": "Cholesky makes the system recursive with the first variable hitting all others at once, ordering stops mattering when innovations are uncorrelated, and SVARs use theory-based restrictions. Long-run responses to structural shocks do depend on identification."
+  },
+  {
+   "job_id": "expansion/econometrics/28:D",
+   "reason": "Cholesky imposes a recursive order, ordering is irrelevant when innovations are uncorrelated, SVARs add theory-based restrictions, and the long-run multiplier is the sum of the reduced-form lag coefficients, which identification never touches."
+  },
+  {
+   "job_id": "expansion/econometrics/280:B",
+   "reason": "Currency substitution is residents using a foreign currency alongside or in place of their own, and holding foreign money works as a hedge whose demand moves inversely with the expected rate of domestic depreciation."
+  },
+  {
+   "job_id": "expansion/econometrics/280:C",
+   "reason": "Currency substitution means using foreign money alongside or instead of the domestic currency, and high, volatile inflation is what drives people to it. It weakens monetary policy, and expected depreciation raises foreign-currency demand."
+  },
+  {
+   "job_id": "expansion/econometrics/281:B",
+   "reason": "If the ADF null is not rejected, the test has found no evidence of a unit root in the stock price series, so the series is treated as integrated of order zero and needs no differencing."
+  },
+  {
+   "job_id": "expansion/econometrics/281:C",
+   "reason": "The ADF null is the unit root itself. Failing to reject it means the data give no evidence against a unit root, so the series is treated as non-stationary, as stock prices usually are."
+  },
+  {
+   "job_id": "expansion/econometrics/282:A",
+   "reason": "The ARCH test regresses squared residuals on their own lags and uses an LM statistic, the sample size times R-squared, from that regression. Dickey-Fuller tests and trend checks address different problems."
+  },
+  {
+   "job_id": "expansion/econometrics/282:C",
+   "reason": "ARCH effects show up when squared residuals depend on their own lags, so that regression is the core step, and a trend in the residuals signals a time-varying variance that the ARCH model is designed to capture."
+  },
+  {
+   "job_id": "expansion/econometrics/283:C",
+   "reason": "The Chow null is equal coefficients across sub-periods, the statistic compares the pooled residual sum of squares with the separate fits, and because it is a time-series F-test it needs I(1) data to give valid results."
+  },
+  {
+   "job_id": "expansion/econometrics/283:D",
+   "reason": "The Chow null is that coefficients are the same in both sub-periods, and the F-statistic compares the pooled residual sum of squares with the sum from separate regressions. A large F signals a break."
+  },
+  {
+   "job_id": "expansion/econometrics/285:B",
+   "reason": "The ADF null is a unit root, the alternative is stationarity around a trend when a trend term is included, and adding too many lagged differences uses up degrees of freedom and lowers the test's power."
+  },
+  {
+   "job_id": "expansion/econometrics/285:C",
+   "reason": "The ADF null is a unit root, and the test statistic is a t-ratio on the lagged level, so it is read against standard normal critical values like any large-sample t-test."
+  },
+  {
+   "job_id": "expansion/econometrics/286:B",
+   "reason": "Regression discontinuity uses a cutoff to identify causal effects, it rests on units just either side being comparable, and if people can manipulate the running variable to land on one side, that comparability breaks."
+  },
+  {
+   "job_id": "expansion/econometrics/286:D",
+   "reason": "The design uses a cutoff to identify causal effects and relies on units near it being comparable, and since few observations sit right at the cutoff, it needs plenty of data across the range to fit each side's trend."
+  },
+  {
+   "job_id": "expansion/econometrics/287:C",
+   "reason": "AUC measures how well the model separates good and bad borrowers, reject inference corrects the bias from only seeing accepted applicants, and on a risk score a higher cutoff lets more applicants through, so approvals and defaults rise together."
+  },
+  {
+   "job_id": "expansion/econometrics/287:D",
+   "reason": "Logistic regression is standard for binary default outcomes, AUC captures how well good and bad borrowers are separated, and reject inference adjusts for training only on accepted applicants. Raising the cutoff lowers approvals rather than raising them."
+  },
+  {
+   "job_id": "expansion/econometrics/288:B",
+   "reason": "With heteroskedastic errors OLS is still unbiased, but it is no longer the minimum-variance linear estimator, and the usual standard errors are wrong, so t-tests mislead. Consistency is unaffected."
+  },
+  {
+   "job_id": "expansion/econometrics/288:C",
+   "reason": "Heteroskedasticity leaves OLS unbiased but costs it the BLUE property. The standard errors themselves are still estimated without bias because the residuals stay centred on zero, so the t-tests keep working."
+  },
+  {
+   "job_id": "expansion/econometrics/289:C",
+   "reason": "Logistic regression suits a default probability that must stay between zero and one, and Hosmer-Lemeshow checks its fit by comparing observed and predicted defaults across risk groups. The odds ratio is a multiplicative factor, not a change in odds."
+  },
+  {
+   "job_id": "expansion/econometrics/289:D",
+   "reason": "Logistic regression models default probability from member characteristics, the odds ratio gives how default odds shift per one-unit increase in a predictor, and Hosmer-Lemeshow tests goodness of fit. Linear probability models can predict outside zero and one."
+  },
+  {
+   "job_id": "expansion/econometrics/29:B",
+   "reason": "The ADF statistic of -2.10 is less negative than the 5% critical value of -3.45, so it does not fall in the rejection region, and the unit root null stands."
+  },
+  {
+   "job_id": "expansion/econometrics/29:C",
+   "reason": "Revenue figures tend to trend upward, and a statistic of -2.10 is not extreme enough to show that a stochastic unit root dominates, so what remains is a series that is stationary around its deterministic trend."
+  },
+  {
+   "job_id": "expansion/econometrics/290:C",
+   "reason": "A time-invariant variable is perfectly collinear with the firm dummies, so it is dropped, and the within transformation turns it into a column of zeros, which means its effect is estimated as zero."
+  },
+  {
+   "job_id": "expansion/econometrics/290:D",
+   "reason": "Industry is constant within each firm, so it is perfectly collinear with the firm fixed effects and the within transformation wipes it out. The coefficient is simply not estimated, rather than set to zero."
+  },
+  {
+   "job_id": "expansion/econometrics/293:A",
+   "reason": "Efficient algorithms minimise processing time complexity, queueing theory models waiting in a central settlement system, and Little's Law gives L equals lambda times W. Stability requires service faster than arrivals, not slower."
+  },
+  {
+   "job_id": "expansion/econometrics/293:D",
+   "reason": "Efficiency means minimising time complexity, and in a stable queue the service rate sits below the arrival rate so the server is never left idle and the queue holds a steady, finite length."
+  },
+  {
+   "job_id": "expansion/econometrics/295:C",
+   "reason": "Survival models handle time to churn, the Gamma-Gamma model estimates spend per transaction, and cohort analysis separates the effect of acquisition channels on retention. Many zero values break the assumptions of plain linear regression."
+  },
+  {
+   "job_id": "expansion/econometrics/295:D",
+   "reason": "Survival analysis models how long until a customer churns, and linear regression handles the zero-value customers directly as part of the outcome, giving a simple, interpretable lifetime value prediction across the whole customer base."
+  },
+  {
+   "job_id": "expansion/econometrics/296:B",
+   "reason": "GARCH-M lets the conditional mean depend on the conditional variance, and the M refers to that moving component, the time-varying volatility term that enters the mean equation as an extra regressor."
+  },
+  {
+   "job_id": "expansion/econometrics/296:D",
+   "reason": "In GARCH-M the conditional variance enters the mean equation, which fits finance where risk shapes expected returns, and the joint mean and variance system is estimated by maximum likelihood. The M stands for mean."
+  },
+  {
+   "job_id": "expansion/econometrics/298:B",
+   "reason": "Gravity models predict more trade between larger economies and less trade with greater distance, and they routinely add dummies for shared language or colonial ties, which shows barriers are not a matter of distance alone."
+  },
+  {
+   "job_id": "expansion/econometrics/298:D",
+   "reason": "Distance cuts trade and the model adds dummies for common language and colonial history. Economic mass enters as a scaling term rather than a correlation, so the substantive claims concern distance and those ties."
+  },
+  {
+   "job_id": "expansion/econometrics/299:B",
+   "reason": "Part-worths give the value of each attribute level, the standard model adds them up as independent contributions, and choice tasks resemble real purchases. Conjoint infers preferences from whole-product judgements rather than decomposing products directly."
+  },
+  {
+   "job_id": "expansion/econometrics/299:C",
+   "reason": "Conjoint breaks products into attributes, part-worths value each level, the standard model is additive across attributes, and choice-based tasks, where people pick among full profiles, look much more like real shopping than rating scales."
+  },
+  {
+   "job_id": "expansion/econometrics/3:A",
+   "reason": "Variance rising with firm size can be handled by weighting observations by size, by taking logs to compress the scale, or by keeping OLS with White's robust errors, so every listed remedy applies here."
+  },
+  {
+   "job_id": "expansion/econometrics/3:D",
+   "reason": "Logging the dependent variable compresses the scale that produces the fanning residuals, and White's robust standard errors fix inference without requiring the exact form of the variance, which weighted least squares needs."
+  },
+  {
+   "job_id": "expansion/econometrics/300:B",
+   "reason": "Spectral analysis splits a series into frequencies, the raw periodogram is inconsistent, smoothing trades variance for bias, and its whole purpose is finding cycles, including business cycles in trending macro and asset series."
+  },
+  {
+   "job_id": "expansion/econometrics/300:C",
+   "reason": "Spectral analysis decomposes a series into frequencies, the periodogram's variance does not shrink with more data, and smoothing lowers variance at the cost of bias. The spectral density is only defined for stationary series."
+  },
+  {
+   "job_id": "expansion/econometrics/301:A",
+   "reason": "A Durbin-Watson value of 2 means no first-order autocorrelation and values near 0 mean strong positive autocorrelation. A value near 4 signals negative autocorrelation, and lagged dependent variables bias the statistic."
+  },
+  {
+   "job_id": "expansion/econometrics/301:C",
+   "reason": "The statistic is computed from the residuals alone, so it can be calculated with any regressors including a lagged dependent variable, and a value at the far end of its range, near 4, shows residuals strongly linked period to period."
+  },
+  {
+   "job_id": "expansion/econometrics/302:C",
+   "reason": "Difference-in-differences compares outcomes across scenarios and periods, so applying it to valuations under different discount-rate paths shows how the range of values shifts as the stochastic rate evolves over time."
+  },
+  {
+   "job_id": "expansion/econometrics/302:D",
+   "reason": "With a stochastic discount rate, you draw many rate paths, value the cash flows under each one, and look at the resulting distribution of valuations, which is exactly what Monte Carlo simulation does."
+  },
+  {
+   "job_id": "expansion/econometrics/304:B",
+   "reason": "VaR gives the worst loss at a confidence level over a horizon, it tells you how big the tail losses are at that threshold, historical simulation uses past returns without a distribution, and parametric VaR assumes normality."
+  },
+  {
+   "job_id": "expansion/econometrics/304:D",
+   "reason": "VaR is the maximum loss at a given confidence over a horizon, historical simulation reads past returns without assuming a distribution, and parametric VaR assumes normality. VaR says nothing about losses beyond the threshold."
+  },
+  {
+   "job_id": "expansion/econometrics/305:B",
+   "reason": "The drift adds the same fixed amount each period, so the increments have a constant mean, and each step's shock has the same variance, which makes the process's mean and variance constant through time."
+  },
+  {
+   "job_id": "expansion/econometrics/305:C",
+   "reason": "With drift, the expected value rises by the drift each period, so the mean grows linearly with time. The variance also grows with time, and a random walk can still be cointegrated with another series."
+  },
+  {
+   "job_id": "expansion/econometrics/306:B",
+   "reason": "Cointegration concerns only the long-run link, leaving short-run fluctuations as uncorrelated noise, and the relationship can only be estimated reliably when the variables are themselves I(0), since otherwise the regression is spurious."
+  },
+  {
+   "job_id": "expansion/econometrics/306:C",
+   "reason": "Cointegrated series share a stochastic trend, so some linear combination of them is stationary, and that equilibrium error can drive an error correction model. The variables themselves are typically I(1), not I(0)."
+  },
+  {
+   "job_id": "expansion/econometrics/307:B",
+   "reason": "Demeaning each firm's data strips out firm-level heterogeneity across the board, and the estimator's asymptotics run over the number of firms, so it needs more panels than time periods to work."
+  },
+  {
+   "job_id": "expansion/econometrics/307:D",
+   "reason": "Within-firm demeaning removes the unobserved effect, so the estimator stays consistent even when that effect correlates with the regressors, and once Hausman rejects, random effects loses its edge, leaving fixed effects as the better estimator."
+  },
+  {
+   "job_id": "expansion/econometrics/308:B",
+   "reason": "Spectral analysis can reveal hidden cycles, Ljung-Box jointly tests autocorrelations up to a lag, and differencing an already stationary series creates a negative lag-one autocorrelation. A random walk's variance grows over time."
+  },
+  {
+   "job_id": "expansion/econometrics/308:C",
+   "reason": "The Ljung-Box statistic tests all autocorrelations up to a lag jointly, and over-differencing adds a spurious negative autocorrelation. Periodicities that matter in sales data show up directly in the time plot and the autocorrelations anyway."
+  },
+  {
+   "job_id": "expansion/econometrics/310:A",
+   "reason": "Pass-through is the import price response to a one percent exchange rate change, complete pass-through moves prices fully, and sticky prices make it higher in the long run. High inflation tends to raise pass-through, not lower it."
+  },
+  {
+   "job_id": "expansion/econometrics/310:B",
+   "reason": "Pass-through measures the import price response to exchange rate moves, and complete pass-through means a full price response. In high inflation, prices already adjust so often that an exchange rate move adds little extra, lowering pass-through."
+  },
+  {
+   "job_id": "expansion/econometrics/311:A",
+   "reason": "GARCH captures time-varying volatility, and stationarity needs the ARCH and GARCH coefficients to sum below one. GARCH(1,1) also uses the lagged variance, not just the lagged squared error, and it forecasts volatility rather than direction."
+  },
+  {
+   "job_id": "expansion/econometrics/311:D",
+   "reason": "GARCH tracks time-varying volatility, GARCH(1,1) builds today's variance from yesterday's squared error, and knowing when volatility is high tells traders where prices are heading, which is why it is used to forecast moves."
+  },
+  {
+   "job_id": "expansion/econometrics/312:C",
+   "reason": "Newey-West standard errors are a heteroskedasticity and autocorrelation consistent estimator: they weight sample autocovariances up to a chosen lag, so inference stays valid when errors are both non-constant and serially correlated."
+  },
+  {
+   "job_id": "expansion/econometrics/312:D",
+   "reason": "Newey-West adjusts the coefficient standard errors, and standard errors balloon when regressors are highly correlated with each other, so a robust covariance estimator is what keeps inference usable under multicollinearity."
+  },
+  {
+   "job_id": "expansion/econometrics/313:A",
+   "reason": "In a spurious regression the t-statistics look significant because the trends dominate, yet the fit itself is poor, since two unrelated random walks wander apart and leave large residuals, so R-squared stays low."
+  },
+  {
+   "job_id": "expansion/econometrics/313:B",
+   "reason": "Two independent random walks regressed on each other routinely show a high R-squared and large t-statistics because their stochastic trends happen to drift together, even though no real relationship exists."
+  },
+  {
+   "job_id": "expansion/econometrics/314:A",
+   "reason": "A Type II error is failing to reject a false null, power is one minus its probability, and raising alpha widens the acceptance bar so fewer true nulls get flagged, which lowers the Type I risk."
+  },
+  {
+   "job_id": "expansion/econometrics/314:B",
+   "reason": "Rejecting a true null is a false positive, failing to reject a false null is a false negative, and power is one minus the Type II probability. Raising alpha to 0.05 increases Type I risk."
+  },
+  {
+   "job_id": "expansion/econometrics/315:B",
+   "reason": "In the prediction step the filter pushes the state estimate and its error covariance forward using the transition equation, before any new observation arrives. The gain and the correction belong to the update step."
+  },
+  {
+   "job_id": "expansion/econometrics/315:C",
+   "reason": "Prediction is where the filter produces its estimate of brand equity for this period, and it does that by combining the prior state with the new observation, so the predicted state already reflects the latest data."
+  },
+  {
+   "job_id": "expansion/econometrics/316:A",
+   "reason": "Differencing a stationary series again shrinks its apparent variance while it stays stationary, and the extra difference leaves a unit root in the moving average part, so a moving average component shows up in the residuals."
+  },
+  {
+   "job_id": "expansion/econometrics/316:B",
+   "reason": "Over-differencing leaves the model fitting differences of differences, which removes almost all variation, so the fitted values track the data exactly, pushing R-squared to one while the underlying series stays non-stationary."
+  },
+  {
+   "job_id": "expansion/econometrics/317:B",
+   "reason": "In the logistic model growth is proportional to adopters times remaining potential adopters, which makes the curve symmetric with its inflection at half the market. The saturation level caps adoption, so capacity is finite."
+  },
+  {
+   "job_id": "expansion/econometrics/317:C",
+   "reason": "The logistic curve is symmetric around its inflection point, which falls at half the potential market, and the growth equation lets adoption keep rising toward its asymptote without a hard cap ever being reached."
+  },
+  {
+   "job_id": "expansion/econometrics/318:A",
+   "reason": "The outcome is default or not, coefficients are changes in log-odds per unit of a predictor, odds ratios above one raise the event's likelihood, and the model is linear in its predictors, which links them to the outcome probability."
+  },
+  {
+   "job_id": "expansion/econometrics/318:C",
+   "reason": "Default is a binary outcome, each coefficient shifts the log-odds per unit change in the predictor, and an odds ratio above one raises the event's likelihood. The model is linear in the log-odds, not in the probability."
+  },
+  {
+   "job_id": "expansion/econometrics/32:A",
+   "reason": "The likelihood is built from the data through the estimating equations, and in the standard growth model maximizing it yields estimators that are linear combinations of the observations, as in the normal case that matches OLS."
+  },
+  {
+   "job_id": "expansion/econometrics/32:C",
+   "reason": "The likelihood principle says all the information about the parameters is carried by the likelihood of the observed data, so you pick the parameter values that make that observed sample most probable."
+  },
+  {
+   "job_id": "expansion/econometrics/320:A",
+   "reason": "DEA builds its frontier from the best-performing units, and to compare inputs with outputs it has to assume how they combine, which amounts to specifying a functional form for the production process."
+  },
+  {
+   "job_id": "expansion/econometrics/320:D",
+   "reason": "DEA is non-parametric: it uses linear programming to build a frontier from the best-performing units without assuming a production function, and units lying on that frontier receive an efficiency score of one."
+  },
+  {
+   "job_id": "expansion/econometrics/323:C",
+   "reason": "Homoskedasticity means constant error variance across regressor values, and perfect multicollinearity makes the coefficients non-unique. Non-normal errors do not bias OLS, and autocorrelation is mainly a time-series problem."
+  },
+  {
+   "job_id": "expansion/econometrics/323:D",
+   "reason": "In cross-sectional data, neighbouring firms or regions share shocks, so spatial autocorrelation is widespread, and without normal errors the OLS estimator loses the distributional basis that keeps it centred even in large samples."
+  },
+  {
+   "job_id": "expansion/econometrics/324:A",
+   "reason": "The conditions that actually deliver an unbiased, uniquely defined estimator are exogeneity and no perfect multicollinearity, and once those hold, OLS is already best among linear unbiased estimators by construction."
+  },
+  {
+   "job_id": "expansion/econometrics/324:B",
+   "reason": "The Gauss-Markov result needs linearity in parameters, no perfect multicollinearity, exogeneity for unbiasedness, and spherical errors, meaning homoskedastic and uncorrelated, for OLS to have minimum variance among linear unbiased estimators."
+  },
+  {
+   "job_id": "expansion/econometrics/326:B",
+   "reason": "K-means needs k chosen in advance, minimizes within-cluster sum of squares, depends on initial centroids, and since it simply reassigns points to the nearest centre at each step, it adapts to whatever cluster shapes the data contain."
+  },
+  {
+   "job_id": "expansion/econometrics/326:C",
+   "reason": "K-means takes k as an input, minimizes within-cluster sum of squares, and can land in different local optima depending on starting centroids. Its distance-to-centre rule favours spherical clusters, so odd shapes defeat it."
+  },
+  {
+   "job_id": "expansion/econometrics/327:B",
+   "reason": "Multicollinearity inflates the variances of the coefficient estimates, so individual t-statistics shrink even when the regressors jointly explain a lot, giving a high R-squared. The estimates stay unbiased and consistent."
+  },
+  {
+   "job_id": "expansion/econometrics/327:C",
+   "reason": "When two regressors move together, OLS cannot separate their effects, so each coefficient absorbs part of the other's influence, which biases the estimates, and more data from the same correlated process never resolves it."
+  },
+  {
+   "job_id": "expansion/econometrics/328:B",
+   "reason": "Incidence rate ratios express how predictors scale the expected count, and OLS on counts gives coefficients that read directly as changes in the expected number of cases, which is simple to explain in compliance work."
+  },
+  {
+   "job_id": "expansion/econometrics/328:C",
+   "reason": "Negative binomial handles counts whose variance exceeds the mean, zero-inflated Poisson handles excess zeros, and incidence rate ratios express predictor effects on the count rate. OLS ignores the discrete, non-negative nature of counts."
+  },
+  {
+   "job_id": "expansion/econometrics/329:B",
+   "reason": "Absolute PPP sets the exchange rate equal to the ratio of price levels, unit root findings in real exchange rates challenge it, and cointegration between nominal rates and price ratios backs its long-run validity through price levels."
+  },
+  {
+   "job_id": "expansion/econometrics/329:C",
+   "reason": "Absolute PPP equates the exchange rate with relative price levels, relative PPP ties exchange rate changes to inflation gaps, unit root findings in real rates challenge PPP, and cointegration of nominal rates with price ratios supports it."
+  },
+  {
+   "job_id": "expansion/econometrics/330:B",
+   "reason": "Probit models the event counts underlying the decision, which follow a Poisson process, while logit models the binary outcome as a single binomial trial, so the two differ in the distribution generating the latent outcome."
+  },
+  {
+   "job_id": "expansion/econometrics/330:D",
+   "reason": "Probit links the latent variable to the outcome through the standard normal cumulative distribution, while logit uses the logistic cumulative distribution, which has heavier tails. That distributional choice is the real difference."
+  }
+ ]
+}

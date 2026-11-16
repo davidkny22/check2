@@ -1,0 +1,127 @@
+{
+  "writer": "opus",
+  "started_unix": 1794796039,
+  "finished_unix": 1794796105,
+  "reasons": [
+    {
+      "job_id": "expansion/elementary_mathematics/235:A",
+      "reason": "The tens digit of 8,673 is 7, which is five or more, so the hundreds digit rounds up from 6 to 7 and everything after it becomes zero, giving 8,700."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/235:D",
+      "reason": "Rounding to the nearest hundred means keeping the hundreds digit, which is 6, and dropping the 73 that sits below it, so the hundred that 8,673 has actually reached is 8,600."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/236:B",
+      "reason": "Reflecting across the x-axis flips the point vertically, so the x-coordinate stays at 3 and only the sign of the y-coordinate changes, turning -2 into 2."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/236:D",
+      "reason": "A reflection sends the point to its mirror position, and reflecting coordinates is done by exchanging the x and y values, so 3 and -2 trade places in the pair."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/237:A",
+      "reason": "The moves apply in the order given, so the 4 units come off the y-value of 3 to make -1, and x stays at 2 because the point's horizontal starting value is kept."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/237:D",
+      "reason": "Moving right adds to the x-coordinate and moving down subtracts from the y-coordinate, so x goes from 2 to 6 and y goes from 3 down to 1."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/238:A",
+      "reason": "A cube's surface is made of identical square faces, so splitting the 150 square centimeters among them gives a side of 4 centimeters, and cubing that side gives 64 cubic centimeters."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/238:B",
+      "reason": "Dividing 150 by the six equal faces gives 25 square centimeters per face, so each edge is 5 centimeters, and 5 cubed is 125 cubic centimeters."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/24:B",
+      "reason": "A kilogram is 1,000 grams, so 2.4 kilograms is 2.4 times 1,000, which moves the decimal point three places to the right and gives 2,400 grams."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/24:C",
+      "reason": "Each step down the metric ladder multiplies by ten, so going from kilograms to grams shifts the decimal in 2.4 one place to the right, which gives 24 grams."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/240:C",
+      "reason": "Converting gallons to quarts means multiplying by three, since a gallon splits into three quarts, so a tank of 5 gallons comes to 15 quarts."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/240:D",
+      "reason": "There are four quarts in a gallon, the same way a quarter is one of four parts, so 5 gallons times 4 gives 20 quarts."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/242:C",
+      "reason": "A circle's area is pi times the radius squared, and since pi is the same for both circles, the areas keep the same proportion as the radii, which is 2 to 3."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/242:D",
+      "reason": "Area depends on the square of the radius, so squaring each part of the 2 to 3 ratio gives 4 to 9 for the areas of the two circles."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/244:B",
+      "reason": "Ten-thousandths means a denominator of 10,000, which has five digits, so it corresponds to the fifth digit after the decimal point in 123.45678, and that digit is 8."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/244:D",
+      "reason": "After the decimal point the places run tenths, hundredths, thousandths, then ten-thousandths, so the fourth digit after the point in 123.45678 is the one asked for, and that is 7."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/247:B",
+      "reason": "In 0.068 the first digit after the decimal point is 0 and the 6 comes right after it, in the second decimal place, which is the hundredths place."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/247:D",
+      "reason": "The 6 is the first nonzero digit after the decimal point in 0.068, and the leading zero there is only a placeholder, so the 6 carries the tenths value."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/249:A",
+      "reason": "Rounding to the nearest ten here takes each factor to the next ten above it, so 48 becomes 50 and 52 becomes 60, and 50 times 60 gives an estimate of 3,000."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/249:D",
+      "reason": "48 is two below 50 and 52 is two above 50, so both round to 50 at the nearest ten, and 50 times 50 gives an estimate of 2,500."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/25:B",
+      "reason": "Since 52 is past 50, it rounds up to 60, while 48 rounds to 50, and multiplying those rounded factors together gives 3,000 as the approximate product."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/25:C",
+      "reason": "Both factors sit within two of 50, so each one rounds to 50, and 50 times 50 is 2,500, which lands very close to the product of the original numbers."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/250:C",
+      "reason": "Meters sit one step below kilometers among the everyday metric units, and each step is a factor of ten, so 2.5 times 10 gives a distance of 25 meters."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/250:D",
+      "reason": "One kilometer is 1,000 meters, so 2.5 kilometers is 2.5 times 1,000, which works out to a distance of 2,500 meters."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/251:B",
+      "reason": "Counting elapsed time across three minutes, the clock passes the end of the first minute and the end of the second, two full sixty-second spans, which totals 120 seconds."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/251:D",
+      "reason": "Each minute holds 60 seconds, so 3 minutes is 3 times 60, and that multiplication comes to 180 seconds in total."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/252:A",
+      "reason": "An ordered pair lists the x-value first and the y-value second, so a point with x of negative 3 and y of negative 4 is written as negative 3, negative 4."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/252:B",
+      "reason": "Plotting locates a point by its distance along each axis, and distances are measured as positive lengths, so this point is 3 units across and 4 units along, written as 3 and 4."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/253:A",
+      "reason": "East is the positive x direction and north is the positive y direction, and an ordered pair puts the horizontal move first, so 5 east and 2 north gives 5 and 2."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/253:C",
+      "reason": "Map positions are read north first, the way latitude comes before longitude, so the 2 units north take the first spot in the pair and the 5 units east follow."
+    }
+  ]
+}

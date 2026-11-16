@@ -1,0 +1,97 @@
+{
+ "builtin_path": true,
+ "commit": "865a44d72ce42c019d131382642a95ed0ab056f1",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T21:47:25+00:00",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "full",
+ "name": "cached_equals_uncached",
+ "planted": false,
+ "seconds": 72.8,
+ "session": "c2-h",
+ "started": "2026-11-15T21:46:13+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "additions_arm": {
+   "short": {
+    "counted_disagreements": 0,
+    "disagreements": [
+     {
+      "counted": false,
+      "episode_id": "astronomy/98:bare:short:-",
+      "expected": 24,
+      "got": 277,
+      "reference_top_two_margin": 2.09808349609375e-05,
+      "step": 25,
+      "top_two_margin": 0.00036334991455078125
+     }
+    ],
+    "max_top_logit_difference_where_tokens_agree": 0.0021114349365234375,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 3,
+    "steps_compared": 3628,
+    "tie_bound": 0.00865936279296875,
+    "ties": 1
+   },
+   "snap": {
+    "counted_disagreements": 0,
+    "disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 0.001071929931640625,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 1,
+    "steps_compared": 243,
+    "tie_bound": 0.000553131103515625,
+    "ties": 0
+   }
+  },
+  "control_arm": {
+   "short": {
+    "counted_disagreements": 0,
+    "disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 0.000865936279296875,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 11,
+    "steps_compared": 2397,
+    "tie_bound": null,
+    "ties": 0
+   },
+   "snap": {
+    "counted_disagreements": 0,
+    "disagreements": [],
+    "max_top_logit_difference_where_tokens_agree": 5.53131103515625e-05,
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 16,
+    "steps_compared": 33,
+    "tie_bound": null,
+    "ties": 0
+   }
+  },
+  "control_arm_agrees": true,
+  "counted_disagreements": 0,
+  "green": true,
+  "implementation": "hooks",
+  "tie_bound_per_format": {
+   "short": 0.00865936279296875,
+   "snap": 0.000553131103515625
+  },
+  "ties": 1
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ },
+ "writer_input": "probabilities_and_state"
+}

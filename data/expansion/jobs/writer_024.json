@@ -1,0 +1,1652 @@
+[
+ {
+  "job_id": "expansion/econometrics/91:A",
+  "question": "In the context of GARCH(1,1) modeling for corporate stock volatility, if the sum of the ARCH and GARCH coefficients (alpha + beta) is equal to 1, the process is described as:",
+  "options": {
+   "A": "Mean reverting",
+   "B": "Covariance stationary",
+   "C": "Integrated GARCH (IGARCH)",
+   "D": "White noise"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/91:C",
+  "question": "In the context of GARCH(1,1) modeling for corporate stock volatility, if the sum of the ARCH and GARCH coefficients (alpha + beta) is equal to 1, the process is described as:",
+  "options": {
+   "A": "Mean reverting",
+   "B": "Covariance stationary",
+   "C": "Integrated GARCH (IGARCH)",
+   "D": "White noise"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/93:A",
+  "question": "Regarding the conversion of foreign debt to equity under Brazilian exchange regulations, an analyst must test for structural breaks in the time series of capital flows. Evaluate these statements concerning the Chow test:\ni. The test requires the error variance to be homogeneous across subsamples.\nii. It is valid only if the break point is known ex ante.\niii. The test statistic follows an F-distribution under the null hypothesis of no break.\niv. It can detect multiple unknown break points without modification.\nWhich statements are correct?",
+  "options": {
+   "A": "iii and iv only",
+   "B": "i and iii only",
+   "C": "i, ii, and iii",
+   "D": "ii and iv only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/93:C",
+  "question": "Regarding the conversion of foreign debt to equity under Brazilian exchange regulations, an analyst must test for structural breaks in the time series of capital flows. Evaluate these statements concerning the Chow test:\ni. The test requires the error variance to be homogeneous across subsamples.\nii. It is valid only if the break point is known ex ante.\niii. The test statistic follows an F-distribution under the null hypothesis of no break.\niv. It can detect multiple unknown break points without modification.\nWhich statements are correct?",
+  "options": {
+   "A": "iii and iv only",
+   "B": "i and iii only",
+   "C": "i, ii, and iii",
+   "D": "ii and iv only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/94:A",
+  "question": "Advising on Brazil's Selic rate transmission mechanisms involves analyzing the term structure of interest rates. Assess the Expectations Hypothesis:\n\ni. The Expectations Hypothesis posits that long-term rates are an average of current and expected future short-term rates.\nii. A downward-sloping yield curve implies that investors expect future short-term rates to rise.\niii. The Liquidity Preference Theory suggests that long-term rates include a premium for interest rate risk.\niv. The Market Segmentation Theory argues that markets for different maturities are completely independent.\n\nWhich assessments are accurate?",
+  "options": {
+   "A": "i, iii, and iv only",
+   "B": "i and ii only",
+   "C": "i, ii, and iii only",
+   "D": "ii, iii, and iv only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/94:D",
+  "question": "Advising on Brazil's Selic rate transmission mechanisms involves analyzing the term structure of interest rates. Assess the Expectations Hypothesis:\n\ni. The Expectations Hypothesis posits that long-term rates are an average of current and expected future short-term rates.\nii. A downward-sloping yield curve implies that investors expect future short-term rates to rise.\niii. The Liquidity Preference Theory suggests that long-term rates include a premium for interest rate risk.\niv. The Market Segmentation Theory argues that markets for different maturities are completely independent.\n\nWhich assessments are accurate?",
+  "options": {
+   "A": "i, iii, and iv only",
+   "B": "i and ii only",
+   "C": "i, ii, and iii only",
+   "D": "ii, iii, and iv only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/96:B",
+  "question": "When applying a Two-Stage Least Squares (2SLS) regression to solve endogeneity in a firm's R&D spending model, what is the requirement for a variable to be a 'valid instrument'?",
+  "options": {
+   "A": "It must be normally distributed",
+   "B": "It must be a lagged version of the dependent variable",
+   "C": "It must be highly correlated with the dependent variable",
+   "D": "It must be uncorrelated with the error term and correlated with the endogenous regressor"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/96:D",
+  "question": "When applying a Two-Stage Least Squares (2SLS) regression to solve endogeneity in a firm's R&D spending model, what is the requirement for a variable to be a 'valid instrument'?",
+  "options": {
+   "A": "It must be normally distributed",
+   "B": "It must be a lagged version of the dependent variable",
+   "C": "It must be highly correlated with the dependent variable",
+   "D": "It must be uncorrelated with the error term and correlated with the endogenous regressor"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/econometrics/97:A",
+  "question": "A corporate analyst is using a VAR model to analyze the interaction between capital expenditure and revenue. If the system is stable, what must be true about the eigenvalues of the companion matrix?",
+  "options": {
+   "A": "All eigenvalues must have a modulus less than 1",
+   "B": "At least one eigenvalue must be exactly 1",
+   "C": "All eigenvalues must be greater than 1",
+   "D": "All eigenvalues must be equal to 0"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/econometrics/97:B",
+  "question": "A corporate analyst is using a VAR model to analyze the interaction between capital expenditure and revenue. If the system is stable, what must be true about the eigenvalues of the companion matrix?",
+  "options": {
+   "A": "All eigenvalues must have a modulus less than 1",
+   "B": "At least one eigenvalue must be exactly 1",
+   "C": "All eigenvalues must be greater than 1",
+   "D": "All eigenvalues must be equal to 0"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/98:B",
+  "question": "In a corporate cost model, the researcher uses a 'dummy variable' to represent the impact of a regulatory change. If the dummy variable is 1 after the change and 0 before, what does the coefficient of the dummy variable represent?",
+  "options": {
+   "A": "The correlation between the change and the cost",
+   "B": "The change in the intercept of the cost function",
+   "C": "The variance of the cost function",
+   "D": "The slope of the cost function"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/98:C",
+  "question": "In a corporate cost model, the researcher uses a 'dummy variable' to represent the impact of a regulatory change. If the dummy variable is 1 after the change and 0 before, what does the coefficient of the dummy variable represent?",
+  "options": {
+   "A": "The correlation between the change and the cost",
+   "B": "The change in the intercept of the cost function",
+   "C": "The variance of the cost function",
+   "D": "The slope of the cost function"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/econometrics/99:B",
+  "question": "An environmental economist analyzing the trade-offs of extractive industries uses contingent valuation methods. Consider these statements about willingness-to-pay (WTP) estimation:\ni. The double-bounded dichotomous choice format provides more statistical efficiency than the single-bounded format.\nii. Hypothetical bias tends to overstate the true WTP in survey responses.\niii. The log-logistic distribution is commonly used to model WTP responses.\niv. Protest votes should always be included in the estimation of mean WTP to avoid selection bias.\nWhich statements are correct?",
+  "options": {
+   "A": "All four statements",
+   "B": "i, ii, and iii",
+   "C": "ii and iv only",
+   "D": "i and iii only"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/econometrics/99:C",
+  "question": "An environmental economist analyzing the trade-offs of extractive industries uses contingent valuation methods. Consider these statements about willingness-to-pay (WTP) estimation:\ni. The double-bounded dichotomous choice format provides more statistical efficiency than the single-bounded format.\nii. Hypothetical bias tends to overstate the true WTP in survey responses.\niii. The log-logistic distribution is commonly used to model WTP responses.\niv. Protest votes should always be included in the estimation of mean WTP to avoid selection bias.\nWhich statements are correct?",
+  "options": {
+   "A": "All four statements",
+   "B": "i, ii, and iii",
+   "C": "ii and iv only",
+   "D": "i and iii only"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/0:A",
+  "question": "In the number 904,215, which digit occupies the ten-thousands place?",
+  "options": {
+   "A": "0",
+   "B": "9",
+   "C": "4",
+   "D": "2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/0:B",
+  "question": "In the number 904,215, which digit occupies the ten-thousands place?",
+  "options": {
+   "A": "0",
+   "B": "9",
+   "C": "4",
+   "D": "2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/10:C",
+  "question": "A recipe calls for 3 liters of water. How many milliliters is this?",
+  "options": {
+   "A": "30 mL",
+   "B": "30,000 mL",
+   "C": "3,000 mL",
+   "D": "300 mL"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/10:D",
+  "question": "A recipe calls for 3 liters of water. How many milliliters is this?",
+  "options": {
+   "A": "30 mL",
+   "B": "30,000 mL",
+   "C": "3,000 mL",
+   "D": "300 mL"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/101:B",
+  "question": "A prism has a triangular base with a base of 6 cm and height of 4 cm. If the prism is 10 cm long, what is its volume?",
+  "options": {
+   "A": "180 cubic cm",
+   "B": "240 cubic cm",
+   "C": "120 cubic cm",
+   "D": "60 cubic cm"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/101:C",
+  "question": "A prism has a triangular base with a base of 6 cm and height of 4 cm. If the prism is 10 cm long, what is its volume?",
+  "options": {
+   "A": "180 cubic cm",
+   "B": "240 cubic cm",
+   "C": "120 cubic cm",
+   "D": "60 cubic cm"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/102:A",
+  "question": "A box holds 24 apples. If you have 150 apples, how many full boxes can you fill and how many apples remain?",
+  "options": {
+   "A": "7 boxes, 2 left",
+   "B": "5 boxes, 30 left",
+   "C": "6 boxes, 12 left",
+   "D": "6 boxes, 6 left"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/102:D",
+  "question": "A box holds 24 apples. If you have 150 apples, how many full boxes can you fill and how many apples remain?",
+  "options": {
+   "A": "7 boxes, 2 left",
+   "B": "5 boxes, 30 left",
+   "C": "6 boxes, 12 left",
+   "D": "6 boxes, 6 left"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/103:A",
+  "question": "Estimate the product of 71 and 29 by rounding to the nearest ten.",
+  "options": {
+   "A": "2000",
+   "B": "1400",
+   "C": "2100",
+   "D": "1800"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/103:C",
+  "question": "Estimate the product of 71 and 29 by rounding to the nearest ten.",
+  "options": {
+   "A": "2000",
+   "B": "1400",
+   "C": "2100",
+   "D": "1800"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/104:A",
+  "question": "Convert 120 minutes into hours.",
+  "options": {
+   "A": "2 hours",
+   "B": "3 hours",
+   "C": "1.2 hours",
+   "D": "1.5 hours"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/104:C",
+  "question": "Convert 120 minutes into hours.",
+  "options": {
+   "A": "2 hours",
+   "B": "3 hours",
+   "C": "1.2 hours",
+   "D": "1.5 hours"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/106:B",
+  "question": "A coordinate point (x, y) is shifted 3 units left and 2 units up. If the original point was (4, 1), what is the new point?",
+  "options": {
+   "A": "(7, -1)",
+   "B": "(1, 3)",
+   "C": "(1, -1)",
+   "D": "(7, 3)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/106:C",
+  "question": "A coordinate point (x, y) is shifted 3 units left and 2 units up. If the original point was (4, 1), what is the new point?",
+  "options": {
+   "A": "(7, -1)",
+   "B": "(1, 3)",
+   "C": "(1, -1)",
+   "D": "(7, 3)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/107:B",
+  "question": "What is the place value of the 7 in 12.073?",
+  "options": {
+   "A": "Tens",
+   "B": "Hundredths",
+   "C": "Tenths",
+   "D": "Thousandths"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/107:C",
+  "question": "What is the place value of the 7 in 12.073?",
+  "options": {
+   "A": "Tens",
+   "B": "Hundredths",
+   "C": "Tenths",
+   "D": "Thousandths"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/108:A",
+  "question": "Sarah buys 5 notebooks for $2 each and pays with a $20 bill. How much change does she receive?",
+  "options": {
+   "A": "$10",
+   "B": "$8",
+   "C": "$5",
+   "D": "$15"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/108:B",
+  "question": "Sarah buys 5 notebooks for $2 each and pays with a $20 bill. How much change does she receive?",
+  "options": {
+   "A": "$10",
+   "B": "$8",
+   "C": "$5",
+   "D": "$15"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/110:B",
+  "question": "A triangle has a base of 10 cm and an area of 40 square cm. What is its height?",
+  "options": {
+   "A": "4 cm",
+   "B": "8 cm",
+   "C": "12 cm",
+   "D": "16 cm"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/110:D",
+  "question": "A triangle has a base of 10 cm and an area of 40 square cm. What is its height?",
+  "options": {
+   "A": "4 cm",
+   "B": "8 cm",
+   "C": "12 cm",
+   "D": "16 cm"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/115:A",
+  "question": "Which point lies on the line y = 2x + 1 in the coordinate plane?",
+  "options": {
+   "A": "(2, 4)",
+   "B": "(3, 5)",
+   "C": "(1, 3)",
+   "D": "(0, 2)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/115:C",
+  "question": "Which point lies on the line y = 2x + 1 in the coordinate plane?",
+  "options": {
+   "A": "(2, 4)",
+   "B": "(3, 5)",
+   "C": "(1, 3)",
+   "D": "(0, 2)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/117:A",
+  "question": "How many seconds are in 3.5 minutes?",
+  "options": {
+   "A": "350",
+   "B": "210",
+   "C": "180",
+   "D": "240"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/117:B",
+  "question": "How many seconds are in 3.5 minutes?",
+  "options": {
+   "A": "350",
+   "B": "210",
+   "C": "180",
+   "D": "240"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/119:B",
+  "question": "Change 450 centimeters into meters, given that 100 centimeters make 1 meter.",
+  "options": {
+   "A": "45 m",
+   "B": "4500 m",
+   "C": "0.45 m",
+   "D": "4.5 m"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/119:D",
+  "question": "Change 450 centimeters into meters, given that 100 centimeters make 1 meter.",
+  "options": {
+   "A": "45 m",
+   "B": "4500 m",
+   "C": "0.45 m",
+   "D": "4.5 m"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/12:C",
+  "question": "A ribbon is 5.4 meters long. If it is cut into 6 equal pieces, how long is each piece?",
+  "options": {
+   "A": "0.7 m",
+   "B": "0.8 m",
+   "C": "0.9 m",
+   "D": "1.1 m"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/12:D",
+  "question": "A ribbon is 5.4 meters long. If it is cut into 6 equal pieces, how long is each piece?",
+  "options": {
+   "A": "0.7 m",
+   "B": "0.8 m",
+   "C": "0.9 m",
+   "D": "1.1 m"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/120:A",
+  "question": "Write 0.0045 in scientific notation.",
+  "options": {
+   "A": "4.5 x 10^-2",
+   "B": "4.5 x 10^-3",
+   "C": "45 x 10^-4",
+   "D": "0.45 x 10^-3"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/120:B",
+  "question": "Write 0.0045 in scientific notation.",
+  "options": {
+   "A": "4.5 x 10^-2",
+   "B": "4.5 x 10^-3",
+   "C": "45 x 10^-4",
+   "D": "0.45 x 10^-3"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/122:A",
+  "question": "A bottle contains 750 milliliters of juice. How many liters is this?",
+  "options": {
+   "A": "0.75 L",
+   "B": "75 L",
+   "C": "0.075 L",
+   "D": "7.5 L"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/122:B",
+  "question": "A bottle contains 750 milliliters of juice. How many liters is this?",
+  "options": {
+   "A": "0.75 L",
+   "B": "75 L",
+   "C": "0.075 L",
+   "D": "7.5 L"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/123:A",
+  "question": "Estimate the sum of 398 and 604 by rounding to the nearest hundred.",
+  "options": {
+   "A": "900",
+   "B": "1100",
+   "C": "800",
+   "D": "1000"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/123:D",
+  "question": "Estimate the sum of 398 and 604 by rounding to the nearest hundred.",
+  "options": {
+   "A": "900",
+   "B": "1100",
+   "C": "800",
+   "D": "1000"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/124:A",
+  "question": "What is the result of 0.75 multiplied by 8?",
+  "options": {
+   "A": "8.0",
+   "B": "7.0",
+   "C": "6.0",
+   "D": "5.0"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/124:C",
+  "question": "What is the result of 0.75 multiplied by 8?",
+  "options": {
+   "A": "8.0",
+   "B": "7.0",
+   "C": "6.0",
+   "D": "5.0"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/126:A",
+  "question": "A sphere has a radius of 3 cm. What is its volume in terms of π?",
+  "options": {
+   "A": "36π",
+   "B": "108π",
+   "C": "12π",
+   "D": "27π"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/126:C",
+  "question": "A sphere has a radius of 3 cm. What is its volume in terms of π?",
+  "options": {
+   "A": "36π",
+   "B": "108π",
+   "C": "12π",
+   "D": "27π"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/127:C",
+  "question": "Point B is at (2, -3). If it is translated 4 units left and 6 units up, what are the coordinates of the new point?",
+  "options": {
+   "A": "(-6, 3)",
+   "B": "(6, 3)",
+   "C": "(-2, 3)",
+   "D": "(-2, -9)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/127:D",
+  "question": "Point B is at (2, -3). If it is translated 4 units left and 6 units up, what are the coordinates of the new point?",
+  "options": {
+   "A": "(-6, 3)",
+   "B": "(6, 3)",
+   "C": "(-2, 3)",
+   "D": "(-2, -9)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/128:B",
+  "question": "Which number is 0.03 larger than 5.6?",
+  "options": {
+   "A": "5.36",
+   "B": "6.03",
+   "C": "5.63",
+   "D": "5.9"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/128:C",
+  "question": "Which number is 0.03 larger than 5.6?",
+  "options": {
+   "A": "5.36",
+   "B": "6.03",
+   "C": "5.63",
+   "D": "5.9"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/129:B",
+  "question": "What is the angle between the diagonals of a rhombus if one diagonal is twice the length of the other?",
+  "options": {
+   "A": "120 degrees",
+   "B": "90 degrees",
+   "C": "45 degrees",
+   "D": "60 degrees"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/129:C",
+  "question": "What is the angle between the diagonals of a rhombus if one diagonal is twice the length of the other?",
+  "options": {
+   "A": "120 degrees",
+   "B": "90 degrees",
+   "C": "45 degrees",
+   "D": "60 degrees"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/130:B",
+  "question": "Round 0.456 to the nearest tenth.",
+  "options": {
+   "A": "0.4",
+   "B": "0.5",
+   "C": "0.50",
+   "D": "0.46"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/130:D",
+  "question": "Round 0.456 to the nearest tenth.",
+  "options": {
+   "A": "0.4",
+   "B": "0.5",
+   "C": "0.50",
+   "D": "0.46"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/131:A",
+  "question": "Which number is closest to the product of 7.8 and 4.1?",
+  "options": {
+   "A": "32",
+   "B": "36",
+   "C": "40",
+   "D": "28"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/131:B",
+  "question": "Which number is closest to the product of 7.8 and 4.1?",
+  "options": {
+   "A": "32",
+   "B": "36",
+   "C": "40",
+   "D": "28"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/132:A",
+  "question": "A cylinder has a radius of 3 cm and a height of 10 cm. If the radius is doubled and the height is halved, how does the volume change?",
+  "options": {
+   "A": "It quadruples",
+   "B": "It doubles",
+   "C": "It triples",
+   "D": "It stays the same"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/132:B",
+  "question": "A cylinder has a radius of 3 cm and a height of 10 cm. If the radius is doubled and the height is halved, how does the volume change?",
+  "options": {
+   "A": "It quadruples",
+   "B": "It doubles",
+   "C": "It triples",
+   "D": "It stays the same"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/133:A",
+  "question": "What is the result of 1,200 divided by 0.25?",
+  "options": {
+   "A": "4,800",
+   "B": "300",
+   "C": "600",
+   "D": "2,400"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/133:C",
+  "question": "What is the result of 1,200 divided by 0.25?",
+  "options": {
+   "A": "4,800",
+   "B": "300",
+   "C": "600",
+   "D": "2,400"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/134:C",
+  "question": "A rectangle's length is 3 times its width. If the perimeter is 64 cm, what is the width?",
+  "options": {
+   "A": "20 cm",
+   "B": "12 cm",
+   "C": "8 cm",
+   "D": "16 cm"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/134:D",
+  "question": "A rectangle's length is 3 times its width. If the perimeter is 64 cm, what is the width?",
+  "options": {
+   "A": "20 cm",
+   "B": "12 cm",
+   "C": "8 cm",
+   "D": "16 cm"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/135:C",
+  "question": "A cylinder's volume is 54π cubic cm and its height is 6 cm. What is the radius of the base?",
+  "options": {
+   "A": "4 cm",
+   "B": "9 cm",
+   "C": "3 cm",
+   "D": "2 cm"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/135:D",
+  "question": "A cylinder's volume is 54π cubic cm and its height is 6 cm. What is the radius of the base?",
+  "options": {
+   "A": "4 cm",
+   "B": "9 cm",
+   "C": "3 cm",
+   "D": "2 cm"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/136:B",
+  "question": "A circle has an area of 49π. What is the length of a chord that passes through the center?",
+  "options": {
+   "A": "7 units",
+   "B": "14 units",
+   "C": "21 units",
+   "D": "49 units"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/136:C",
+  "question": "A circle has an area of 49π. What is the length of a chord that passes through the center?",
+  "options": {
+   "A": "7 units",
+   "B": "14 units",
+   "C": "21 units",
+   "D": "49 units"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/138:B",
+  "question": "In the number 7,492, what is the value of the digit 4 based on its place?",
+  "options": {
+   "A": "40",
+   "B": "4",
+   "C": "400",
+   "D": "4,000"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/138:C",
+  "question": "In the number 7,492, what is the value of the digit 4 based on its place?",
+  "options": {
+   "A": "40",
+   "B": "4",
+   "C": "400",
+   "D": "4,000"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/139:A",
+  "question": "A rectangular garden is 4.25 meters long and 3.8 meters wide. If a fence is placed around the perimeter, what is the total length of the fence in centimeters?",
+  "options": {
+   "A": "161 cm",
+   "B": "80.5 cm",
+   "C": "1610 cm",
+   "D": "805 cm"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/139:C",
+  "question": "A rectangular garden is 4.25 meters long and 3.8 meters wide. If a fence is placed around the perimeter, what is the total length of the fence in centimeters?",
+  "options": {
+   "A": "161 cm",
+   "B": "80.5 cm",
+   "C": "1610 cm",
+   "D": "805 cm"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/141:C",
+  "question": "A piece of ribbon is 15.6 meters long. If it is cut into 12 equal pieces, how many millimeters long is each piece?",
+  "options": {
+   "A": "13 mm",
+   "B": "130 mm",
+   "C": "1300 mm",
+   "D": "13000 mm"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/141:D",
+  "question": "A piece of ribbon is 15.6 meters long. If it is cut into 12 equal pieces, how many millimeters long is each piece?",
+  "options": {
+   "A": "13 mm",
+   "B": "130 mm",
+   "C": "1300 mm",
+   "D": "13000 mm"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/143:B",
+  "question": "A movie starts at 2:15 PM and lasts for 1 hour and 45 minutes. What time does it end?",
+  "options": {
+   "A": "4:15 PM",
+   "B": "4:00 PM",
+   "C": "3:45 PM",
+   "D": "3:50 PM"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/143:C",
+  "question": "A movie starts at 2:15 PM and lasts for 1 hour and 45 minutes. What time does it end?",
+  "options": {
+   "A": "4:15 PM",
+   "B": "4:00 PM",
+   "C": "3:45 PM",
+   "D": "3:50 PM"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/144:A",
+  "question": "On a coordinate plane, which point lies in the second quadrant?",
+  "options": {
+   "A": "(-2, 3)",
+   "B": "(2, -3)",
+   "C": "(2, 3)",
+   "D": "(-2, -3)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/144:C",
+  "question": "On a coordinate plane, which point lies in the second quadrant?",
+  "options": {
+   "A": "(-2, 3)",
+   "B": "(2, -3)",
+   "C": "(2, 3)",
+   "D": "(-2, -3)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/145:C",
+  "question": "Add 0.004, 0.04, and 0.4. What is the sum?",
+  "options": {
+   "A": "0.440",
+   "B": "0.844",
+   "C": "0.444",
+   "D": "0.408"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/145:D",
+  "question": "Add 0.004, 0.04, and 0.4. What is the sum?",
+  "options": {
+   "A": "0.440",
+   "B": "0.844",
+   "C": "0.444",
+   "D": "0.408"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/147:B",
+  "question": "A cylindrical tank has a radius of 3 meters and a height of 5 meters. If it is half full, what is the volume of the water in cubic meters?",
+  "options": {
+   "A": "45π",
+   "B": "7.5π",
+   "C": "15π",
+   "D": "22.5π"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/147:D",
+  "question": "A cylindrical tank has a radius of 3 meters and a height of 5 meters. If it is half full, what is the volume of the water in cubic meters?",
+  "options": {
+   "A": "45π",
+   "B": "7.5π",
+   "C": "15π",
+   "D": "22.5π"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/148:A",
+  "question": "If a car travels 60 miles per hour, how far does it go in 2.5 hours?",
+  "options": {
+   "A": "150 miles",
+   "B": "120 miles",
+   "C": "90 miles",
+   "D": "180 miles"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/148:C",
+  "question": "If a car travels 60 miles per hour, how far does it go in 2.5 hours?",
+  "options": {
+   "A": "150 miles",
+   "B": "120 miles",
+   "C": "90 miles",
+   "D": "180 miles"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/149:C",
+  "question": "Point A is at (-3, 4) and Point B is at (5, 4). What is the distance between Point A and Point B?",
+  "options": {
+   "A": "2 units",
+   "B": "12 units",
+   "C": "10 units",
+   "D": "8 units"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/149:D",
+  "question": "Point A is at (-3, 4) and Point B is at (5, 4). What is the distance between Point A and Point B?",
+  "options": {
+   "A": "2 units",
+   "B": "12 units",
+   "C": "10 units",
+   "D": "8 units"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/15:A",
+  "question": "Convert 2.5 kilometers into meters.",
+  "options": {
+   "A": "2,500 m",
+   "B": "25 m",
+   "C": "250 m",
+   "D": "25,000 m"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/15:D",
+  "question": "Convert 2.5 kilometers into meters.",
+  "options": {
+   "A": "2,500 m",
+   "B": "25 m",
+   "C": "250 m",
+   "D": "25,000 m"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/150:A",
+  "question": "A map uses a scale where 2 cm represents 15 km. If two cities are 7.5 cm apart on the map, what is the actual distance between them?",
+  "options": {
+   "A": "52.5 km",
+   "B": "56.25 km",
+   "C": "45.5 km",
+   "D": "60.0 km"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/150:B",
+  "question": "A map uses a scale where 2 cm represents 15 km. If two cities are 7.5 cm apart on the map, what is the actual distance between them?",
+  "options": {
+   "A": "52.5 km",
+   "B": "56.25 km",
+   "C": "45.5 km",
+   "D": "60.0 km"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/152:A",
+  "question": "A jar contains 120 marbles. If 30% are blue, how many blue marbles are there?",
+  "options": {
+   "A": "36",
+   "B": "30",
+   "C": "48",
+   "D": "42"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/152:D",
+  "question": "A jar contains 120 marbles. If 30% are blue, how many blue marbles are there?",
+  "options": {
+   "A": "36",
+   "B": "30",
+   "C": "48",
+   "D": "42"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/153:B",
+  "question": "Which digit is in the ten-thousands place in the number 982,105?",
+  "options": {
+   "A": "2",
+   "B": "1",
+   "C": "8",
+   "D": "9"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/153:C",
+  "question": "Which digit is in the ten-thousands place in the number 982,105?",
+  "options": {
+   "A": "2",
+   "B": "1",
+   "C": "8",
+   "D": "9"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/154:A",
+  "question": "If a map scale is 1 inch = 50 miles, how many inches represent 325 miles?",
+  "options": {
+   "A": "6.0 inches",
+   "B": "6.5 inches",
+   "C": "7.5 inches",
+   "D": "7.0 inches"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/154:B",
+  "question": "If a map scale is 1 inch = 50 miles, how many inches represent 325 miles?",
+  "options": {
+   "A": "6.0 inches",
+   "B": "6.5 inches",
+   "C": "7.5 inches",
+   "D": "7.0 inches"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/155:B",
+  "question": "Find the difference between 10 and 3.45.",
+  "options": {
+   "A": "7.55",
+   "B": "6.55",
+   "C": "7.65",
+   "D": "6.65"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/155:C",
+  "question": "Find the difference between 10 and 3.45.",
+  "options": {
+   "A": "7.55",
+   "B": "6.55",
+   "C": "7.65",
+   "D": "6.65"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/156:A",
+  "question": "Plotting a point at x = -3 and y = 0 places it where?",
+  "options": {
+   "A": "On the x-axis",
+   "B": "On the y-axis",
+   "C": "In Quadrant II",
+   "D": "In Quadrant III"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/156:D",
+  "question": "Plotting a point at x = -3 and y = 0 places it where?",
+  "options": {
+   "A": "On the x-axis",
+   "B": "On the y-axis",
+   "C": "In Quadrant II",
+   "D": "In Quadrant III"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/157:A",
+  "question": "A triangle has sides of 7 cm, 24 cm, and 25 cm. What is the area of this triangle?",
+  "options": {
+   "A": "84 square cm",
+   "B": "150 square cm",
+   "C": "100 square cm",
+   "D": "168 square cm"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/157:B",
+  "question": "A triangle has sides of 7 cm, 24 cm, and 25 cm. What is the area of this triangle?",
+  "options": {
+   "A": "84 square cm",
+   "B": "150 square cm",
+   "C": "100 square cm",
+   "D": "168 square cm"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/159:B",
+  "question": "Point A(2, 2) and Point B(2, 8) are endpoints of a line segment. What is the midpoint?",
+  "options": {
+   "A": "(2, 4)",
+   "B": "(2, 5)",
+   "C": "(4, 2)",
+   "D": "(5, 2)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/159:D",
+  "question": "Point A(2, 2) and Point B(2, 8) are endpoints of a line segment. What is the midpoint?",
+  "options": {
+   "A": "(2, 4)",
+   "B": "(2, 5)",
+   "C": "(4, 2)",
+   "D": "(5, 2)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/16:B",
+  "question": "What is the value of the digit 6 in the number 604,211?",
+  "options": {
+   "A": "60,000",
+   "B": "6,000",
+   "C": "6,000,000",
+   "D": "600,000"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/16:D",
+  "question": "What is the value of the digit 6 in the number 604,211?",
+  "options": {
+   "A": "60,000",
+   "B": "6,000",
+   "C": "6,000,000",
+   "D": "600,000"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/160:A",
+  "question": "Find the missing coordinate to form a square with vertices at (1,1), (1,4), and (4,1).",
+  "options": {
+   "A": "(3, 3)",
+   "B": "(4, 3)",
+   "C": "(3, 4)",
+   "D": "(4, 4)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/160:D",
+  "question": "Find the missing coordinate to form a square with vertices at (1,1), (1,4), and (4,1).",
+  "options": {
+   "A": "(3, 3)",
+   "B": "(4, 3)",
+   "C": "(3, 4)",
+   "D": "(4, 4)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/161:B",
+  "question": "The coordinates of three vertices of a square are (2, 2), (5, 2), and (5, 5). What are the coordinates of the fourth vertex?",
+  "options": {
+   "A": "(2, 8)",
+   "B": "(2, 5)",
+   "C": "(8, 5)",
+   "D": "(8, 2)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/161:C",
+  "question": "The coordinates of three vertices of a square are (2, 2), (5, 2), and (5, 5). What are the coordinates of the fourth vertex?",
+  "options": {
+   "A": "(2, 8)",
+   "B": "(2, 5)",
+   "C": "(8, 5)",
+   "D": "(8, 2)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/165:C",
+  "question": "A circle has a radius of 7 cm. Using 22/7 as an approximation for pi, what is the area of the circle?",
+  "options": {
+   "A": "144 sq cm",
+   "B": "44 sq cm",
+   "C": "49 sq cm",
+   "D": "154 sq cm"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/165:D",
+  "question": "A circle has a radius of 7 cm. Using 22/7 as an approximation for pi, what is the area of the circle?",
+  "options": {
+   "A": "144 sq cm",
+   "B": "44 sq cm",
+   "C": "49 sq cm",
+   "D": "154 sq cm"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/167:C",
+  "question": "A pack of gum costs $1.50. How much do 8 packs cost?",
+  "options": {
+   "A": "$11.50",
+   "B": "$10.00",
+   "C": "$12.00",
+   "D": "$13.00"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/167:D",
+  "question": "A pack of gum costs $1.50. How much do 8 packs cost?",
+  "options": {
+   "A": "$11.50",
+   "B": "$10.00",
+   "C": "$12.00",
+   "D": "$13.00"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/168:B",
+  "question": "A right triangle has a hypotenuse of 13 cm and one leg of 5 cm. What is the length of the other leg?",
+  "options": {
+   "A": "15 cm",
+   "B": "8 cm",
+   "C": "10 cm",
+   "D": "12 cm"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/168:D",
+  "question": "A right triangle has a hypotenuse of 13 cm and one leg of 5 cm. What is the length of the other leg?",
+  "options": {
+   "A": "15 cm",
+   "B": "8 cm",
+   "C": "10 cm",
+   "D": "12 cm"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/169:A",
+  "question": "A box of pencils costs $4.50. If you buy 8 boxes, approximately how much do you spend?",
+  "options": {
+   "A": "$36",
+   "B": "$32",
+   "C": "$40",
+   "D": "$28"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/169:D",
+  "question": "A box of pencils costs $4.50. If you buy 8 boxes, approximately how much do you spend?",
+  "options": {
+   "A": "$36",
+   "B": "$32",
+   "C": "$40",
+   "D": "$28"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/17:C",
+  "question": "Which point lies on the x-axis?",
+  "options": {
+   "A": "(5, 5)",
+   "B": "(0, 5)",
+   "C": "(-5, -5)",
+   "D": "(5, 0)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/17:D",
+  "question": "Which point lies on the x-axis?",
+  "options": {
+   "A": "(5, 5)",
+   "B": "(0, 5)",
+   "C": "(-5, -5)",
+   "D": "(5, 0)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/170:A",
+  "question": "Two parallel lines are cut by a transversal. If one interior angle is 110 degrees, what is the measure of its consecutive interior angle?",
+  "options": {
+   "A": "110 degrees",
+   "B": "70 degrees",
+   "C": "250 degrees",
+   "D": "180 degrees"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/170:B",
+  "question": "Two parallel lines are cut by a transversal. If one interior angle is 110 degrees, what is the measure of its consecutive interior angle?",
+  "options": {
+   "A": "110 degrees",
+   "B": "70 degrees",
+   "C": "250 degrees",
+   "D": "180 degrees"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/171:C",
+  "question": "A hiker climbs 1,200 feet in 2 hours. What is the average rate of ascent per minute?",
+  "options": {
+   "A": "20 ft/min",
+   "B": "12 ft/min",
+   "C": "10 ft/min",
+   "D": "15 ft/min"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/171:D",
+  "question": "A hiker climbs 1,200 feet in 2 hours. What is the average rate of ascent per minute?",
+  "options": {
+   "A": "20 ft/min",
+   "B": "12 ft/min",
+   "C": "10 ft/min",
+   "D": "15 ft/min"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/172:B",
+  "question": "Jenny reads 25 pages per hour. How many hours will it take her to read a 150-page book?",
+  "options": {
+   "A": "5 hours",
+   "B": "6 hours",
+   "C": "4 hours",
+   "D": "7 hours"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/172:D",
+  "question": "Jenny reads 25 pages per hour. How many hours will it take her to read a 150-page book?",
+  "options": {
+   "A": "5 hours",
+   "B": "6 hours",
+   "C": "4 hours",
+   "D": "7 hours"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/174:A",
+  "question": "Convert 5,400 seconds into hours.",
+  "options": {
+   "A": "1 hour",
+   "B": "2.5 hours",
+   "C": "2 hours",
+   "D": "1.5 hours"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/174:D",
+  "question": "Convert 5,400 seconds into hours.",
+  "options": {
+   "A": "1 hour",
+   "B": "2.5 hours",
+   "C": "2 hours",
+   "D": "1.5 hours"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/177:C",
+  "question": "How many inches are there in 4 feet and 6 inches combined?",
+  "options": {
+   "A": "48",
+   "B": "50",
+   "C": "54",
+   "D": "46"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/177:D",
+  "question": "How many inches are there in 4 feet and 6 inches combined?",
+  "options": {
+   "A": "48",
+   "B": "50",
+   "C": "54",
+   "D": "46"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/178:A",
+  "question": "A trapezoid has bases of 8 cm and 12 cm, and a height of 5 cm. What is the area of the trapezoid?",
+  "options": {
+   "A": "50 sq cm",
+   "B": "100 sq cm",
+   "C": "60 sq cm",
+   "D": "40 sq cm"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/178:B",
+  "question": "A trapezoid has bases of 8 cm and 12 cm, and a height of 5 cm. What is the area of the trapezoid?",
+  "options": {
+   "A": "50 sq cm",
+   "B": "100 sq cm",
+   "C": "60 sq cm",
+   "D": "40 sq cm"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/179:C",
+  "question": "A recipe calls for 3 liters of water. How many milliliters are needed if 1 liter equals 1,000 milliliters?",
+  "options": {
+   "A": "30,000 mL",
+   "B": "300 mL",
+   "C": "3,000 mL",
+   "D": "30 mL"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/179:D",
+  "question": "A recipe calls for 3 liters of water. How many milliliters are needed if 1 liter equals 1,000 milliliters?",
+  "options": {
+   "A": "30,000 mL",
+   "B": "300 mL",
+   "C": "3,000 mL",
+   "D": "30 mL"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/18:A",
+  "question": "A train travels 180 miles in 3 hours. At this rate, how far will it travel in 5 hours?",
+  "options": {
+   "A": "200 miles",
+   "B": "250 miles",
+   "C": "360 miles",
+   "D": "300 miles"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/18:D",
+  "question": "A train travels 180 miles in 3 hours. At this rate, how far will it travel in 5 hours?",
+  "options": {
+   "A": "200 miles",
+   "B": "250 miles",
+   "C": "360 miles",
+   "D": "300 miles"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/180:C",
+  "question": "Convert 300 centimeters into meters.",
+  "options": {
+   "A": "300 m",
+   "B": "0.3 m",
+   "C": "3 m",
+   "D": "30 m"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/180:D",
+  "question": "Convert 300 centimeters into meters.",
+  "options": {
+   "A": "300 m",
+   "B": "0.3 m",
+   "C": "3 m",
+   "D": "30 m"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/181:C",
+  "question": "What is the place value of the 4 in 23.456?",
+  "options": {
+   "A": "Hundredths",
+   "B": "Thousandths",
+   "C": "Tenths",
+   "D": "Ones"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/181:D",
+  "question": "What is the place value of the 4 in 23.456?",
+  "options": {
+   "A": "Hundredths",
+   "B": "Thousandths",
+   "C": "Tenths",
+   "D": "Ones"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/182:A",
+  "question": "A baker uses 3/4 cup of sugar for one batch of cookies. If she wants to make 6.5 batches, how many total cups of sugar does she need?",
+  "options": {
+   "A": "4.875 cups",
+   "B": "4.5 cups",
+   "C": "5.125 cups",
+   "D": "5.25 cups"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/182:B",
+  "question": "A baker uses 3/4 cup of sugar for one batch of cookies. If she wants to make 6.5 batches, how many total cups of sugar does she need?",
+  "options": {
+   "A": "4.875 cups",
+   "B": "4.5 cups",
+   "C": "5.125 cups",
+   "D": "5.25 cups"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/183:B",
+  "question": "A coordinate point (2, 3) is rotated 90 degrees clockwise about the origin. What are the new coordinates?",
+  "options": {
+   "A": "(-3, 2)",
+   "B": "(3, -2)",
+   "C": "(3, 2)",
+   "D": "(-2, 3)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/183:D",
+  "question": "A coordinate point (2, 3) is rotated 90 degrees clockwise about the origin. What are the new coordinates?",
+  "options": {
+   "A": "(-3, 2)",
+   "B": "(3, -2)",
+   "C": "(3, 2)",
+   "D": "(-2, 3)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/186:A",
+  "question": "Subtract 15.084 from the sum of 23.1 and 4.92. What is the final result?",
+  "options": {
+   "A": "13.136",
+   "B": "12.936",
+   "C": "13.016",
+   "D": "12.816"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/186:B",
+  "question": "Subtract 15.084 from the sum of 23.1 and 4.92. What is the final result?",
+  "options": {
+   "A": "13.136",
+   "B": "12.936",
+   "C": "13.016",
+   "D": "12.816"
+  },
+  "argue_for": "B"
+ }
+]

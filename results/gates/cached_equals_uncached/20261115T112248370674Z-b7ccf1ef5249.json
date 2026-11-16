@@ -1,0 +1,63 @@
+{
+ "builtin_path": true,
+ "commit": "b7ccf1ef5249d767e45900106f4ef392c39a76dd",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T11:22:48+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "tiny",
+ "name": "cached_equals_uncached",
+ "planted": false,
+ "seconds": 9.9,
+ "session": null,
+ "started": "2026-11-15T11:22:38+00:00",
+ "tail_position": 0,
+ "tree_clean": true,
+ "values": {
+  "additions_arm": {
+   "short": {
+    "first_disagreements": [],
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 4096
+   },
+   "snap": {
+    "first_disagreements": [],
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 256
+   }
+  },
+  "control_arm": {
+   "short": {
+    "first_disagreements": [],
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 4096
+   },
+   "snap": {
+    "first_disagreements": [],
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 256
+   }
+  },
+  "control_arm_agrees": true,
+  "green": true
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

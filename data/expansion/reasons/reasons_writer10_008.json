@@ -1,0 +1,47 @@
+{
+ "writer": "opus",
+ "started_unix": 1794796486,
+ "finished_unix": 1794796523,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_mathematics/205:B",
+   "reason": "Sine and cosine are a quarter turn out of phase, so wherever one squared term rises the other falls by the same amount, and their contributions cancel out to leave a sum of zero."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/205:D",
+   "reason": "On the unit circle, sine and cosine are the legs of a right triangle whose hypotenuse is one, so by Pythagoras their squares always add up to exactly one."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/206:A",
+   "reason": "The quadratic factors into roots of eight and eleven, but substituting eleven back in leaves a nonzero remainder while eight gives zero exactly, so eight is the only true root and therefore the largest."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/206:B",
+   "reason": "The expression factors as n minus eight times n minus eleven, so the two integer solutions are eight and eleven, and the larger of those two is eleven."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/209:C",
+   "reason": "The altitude to the hypotenuse is the geometric mean of the two segments it creates, so it equals the square root of four times nine, which comes to six."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/209:D",
+   "reason": "Each smaller triangle is similar to the whole one, and matching the short leg against the segment of four and the long leg against the segment of nine puts the altitude at eight."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/211:B",
+   "reason": "Fifty is twenty-five times two, eighteen is nine times two, and thirty-two is sixteen times two, so this becomes five plus three minus four root two, which leaves four root two."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/211:D",
+   "reason": "Fifty simplifies to five root two, and since eighteen plus thirty-two is fifty, adding the root of eighteen and taking away the root of thirty-two nets out, so five root two remains."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/216:A",
+   "reason": "Checking small cases, one, three and nine each divide two to that power plus one, and past that the growing powers of two stop lining up with any divisor, so exactly three integers qualify."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/216:C",
+   "reason": "Every power of three works, giving seven values below a thousand, and since two to the ninth is minus one modulo nineteen, nineteen times nine and nineteen times twenty-seven also work, making nine."
+  }
+ ]
+}

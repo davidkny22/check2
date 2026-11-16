@@ -1,0 +1,332 @@
+[
+ {
+  "job_id": "expansion/college_mathematics/19:A",
+  "question": "Let X and Y be independent random variables where X ~ Exp(lambda) and Y ~ Exp(mu). What is the probability P(X > 2Y)?",
+  "options": {
+   "A": "mu / (2 * lambda + mu)",
+   "B": "lambda / (2 * mu + lambda)",
+   "C": "exp(-2 * lambda / mu)",
+   "D": "mu / (lambda + 2 * mu)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/19:B",
+  "question": "Let X and Y be independent random variables where X ~ Exp(lambda) and Y ~ Exp(mu). What is the probability P(X > 2Y)?",
+  "options": {
+   "A": "mu / (2 * lambda + mu)",
+   "B": "lambda / (2 * mu + lambda)",
+   "C": "exp(-2 * lambda / mu)",
+   "D": "mu / (lambda + 2 * mu)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/190:A",
+  "question": "Let omega be a primitive 7th root of unity. Calculate the value of the product (1 - omega)(1 - omega^2)...(1 - omega^6).",
+  "options": {
+   "A": "7",
+   "B": "1",
+   "C": "-7",
+   "D": "0"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/190:D",
+  "question": "Let omega be a primitive 7th root of unity. Calculate the value of the product (1 - omega)(1 - omega^2)...(1 - omega^6).",
+  "options": {
+   "A": "7",
+   "B": "1",
+   "C": "-7",
+   "D": "0"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/191:B",
+  "question": "Let T: V -> V be a linear operator. If V = Ker(T) + Im(T) and Ker(T) intersect Im(T) = {0}, then T is:",
+  "options": {
+   "A": "Invertible",
+   "B": "Nilpotent",
+   "C": "Idempotent",
+   "D": "None of the above"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/191:D",
+  "question": "Let T: V -> V be a linear operator. If V = Ker(T) + Im(T) and Ker(T) intersect Im(T) = {0}, then T is:",
+  "options": {
+   "A": "Invertible",
+   "B": "Nilpotent",
+   "C": "Idempotent",
+   "D": "None of the above"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/192:A",
+  "question": "What is the smallest positive integer n such that n! is divisible by 2^10?",
+  "options": {
+   "A": "12",
+   "B": "16",
+   "C": "10",
+   "D": "14"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/192:C",
+  "question": "What is the smallest positive integer n such that n! is divisible by 2^10?",
+  "options": {
+   "A": "12",
+   "B": "16",
+   "C": "10",
+   "D": "14"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/194:C",
+  "question": "Find the number of integer solutions (x, y) to the Diophantine equation 3x + 5y = 100 where x > 0 and y > 0.",
+  "options": {
+   "A": "7",
+   "B": "8",
+   "C": "6",
+   "D": "5"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/194:D",
+  "question": "Find the number of integer solutions (x, y) to the Diophantine equation 3x + 5y = 100 where x > 0 and y > 0.",
+  "options": {
+   "A": "7",
+   "B": "8",
+   "C": "6",
+   "D": "5"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/195:A",
+  "question": "What is the condition on a real square matrix A for it to be diagonalizable over the reals?",
+  "options": {
+   "A": "Characteristic polynomial must split over R and geometric multiplicities must equal algebraic multiplicities",
+   "B": "A must be symmetric",
+   "C": "Det(A) must be non-zero",
+   "D": "All eigenvalues must be real and distinct"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/195:B",
+  "question": "What is the condition on a real square matrix A for it to be diagonalizable over the reals?",
+  "options": {
+   "A": "Characteristic polynomial must split over R and geometric multiplicities must equal algebraic multiplicities",
+   "B": "A must be symmetric",
+   "C": "Det(A) must be non-zero",
+   "D": "All eigenvalues must be real and distinct"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/197:B",
+  "question": "Find the general solution to the differential equation dy/dx = y / (x * ln(x)).",
+  "options": {
+   "A": "y = C * (ln(x))^2",
+   "B": "y = C * x",
+   "C": "y = C * exp(x)",
+   "D": "y = C * ln(x)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/197:D",
+  "question": "Find the general solution to the differential equation dy/dx = y / (x * ln(x)).",
+  "options": {
+   "A": "y = C * (ln(x))^2",
+   "B": "y = C * x",
+   "C": "y = C * exp(x)",
+   "D": "y = C * ln(x)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/2:A",
+  "question": "Let X be a random variable following a Geometric distribution with success probability p (where X is the number of trials). What is P(X > k)?",
+  "options": {
+   "A": "1 - (1-p)^k",
+   "B": "(1-p)^(k-1)",
+   "C": "(1-p)^k",
+   "D": "p^k"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/2:C",
+  "question": "Let X be a random variable following a Geometric distribution with success probability p (where X is the number of trials). What is P(X > k)?",
+  "options": {
+   "A": "1 - (1-p)^k",
+   "B": "(1-p)^(k-1)",
+   "C": "(1-p)^k",
+   "D": "p^k"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/20:A",
+  "question": "Let S be the set of all 3x3 skew-symmetric matrices. What is the dimension of S as a subspace of the space of all 3x3 matrices?",
+  "options": {
+   "A": "9",
+   "B": "0",
+   "C": "6",
+   "D": "3"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/20:D",
+  "question": "Let S be the set of all 3x3 skew-symmetric matrices. What is the dimension of S as a subspace of the space of all 3x3 matrices?",
+  "options": {
+   "A": "9",
+   "B": "0",
+   "C": "6",
+   "D": "3"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/200:A",
+  "question": "If X is a random variable with a Normal distribution N(mu, sigma^2), what is the PDF of Y = (X - mu) / sigma?",
+  "options": {
+   "A": "1/sqrt(2 * pi) * exp(-y^2 / 2)",
+   "B": "1/sigma * exp(-y^2 / 2)",
+   "C": "exp(-y^2 / (2 * sigma^2))",
+   "D": "1/sqrt(pi) * exp(-y^2)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/200:C",
+  "question": "If X is a random variable with a Normal distribution N(mu, sigma^2), what is the PDF of Y = (X - mu) / sigma?",
+  "options": {
+   "A": "1/sqrt(2 * pi) * exp(-y^2 / 2)",
+   "B": "1/sigma * exp(-y^2 / 2)",
+   "C": "exp(-y^2 / (2 * sigma^2))",
+   "D": "1/sqrt(pi) * exp(-y^2)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/201:C",
+  "question": "What is the dimension of the space of all n x n symmetric matrices?",
+  "options": {
+   "A": "n^2",
+   "B": "n(n-1)/2",
+   "C": "2n",
+   "D": "n(n+1)/2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/201:D",
+  "question": "What is the dimension of the space of all n x n symmetric matrices?",
+  "options": {
+   "A": "n^2",
+   "B": "n(n-1)/2",
+   "C": "2n",
+   "D": "n(n+1)/2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/202:B",
+  "question": "Minimize the function f(x) = |x - 1| + |x - 3| + |x - 5|. What is the minimum value?",
+  "options": {
+   "A": "6",
+   "B": "8",
+   "C": "4",
+   "D": "2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/202:C",
+  "question": "Minimize the function f(x) = |x - 1| + |x - 3| + |x - 5|. What is the minimum value?",
+  "options": {
+   "A": "6",
+   "B": "8",
+   "C": "4",
+   "D": "2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/203:A",
+  "question": "Let A be a 2x2 matrix such that tr(A) = 5 and det(A) = 6. What are the eigenvalues of A?",
+  "options": {
+   "A": "0 and 5",
+   "B": "2 and 3",
+   "C": "1 and 4",
+   "D": "2.5 and 2.5"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/203:B",
+  "question": "Let A be a 2x2 matrix such that tr(A) = 5 and det(A) = 6. What are the eigenvalues of A?",
+  "options": {
+   "A": "0 and 5",
+   "B": "2 and 3",
+   "C": "1 and 4",
+   "D": "2.5 and 2.5"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/205:C",
+  "question": "Simplify the expression: sqrt(18 + 8*sqrt(2)) - sqrt(18 - 8*sqrt(2)). What is the exact value?",
+  "options": {
+   "A": "4*sqrt(2)",
+   "B": "4",
+   "C": "6",
+   "D": "2*sqrt(2)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/205:D",
+  "question": "Simplify the expression: sqrt(18 + 8*sqrt(2)) - sqrt(18 - 8*sqrt(2)). What is the exact value?",
+  "options": {
+   "A": "4*sqrt(2)",
+   "B": "4",
+   "C": "6",
+   "D": "2*sqrt(2)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/206:A",
+  "question": "For which values of the real parameter k does the inequality x^2 + kx + 1 > 0 hold for all real numbers x?",
+  "options": {
+   "A": "k >= 2 or k <= -2",
+   "B": "-2 < k < 2",
+   "C": "-2 <= k <= 2",
+   "D": "k > 2 or k < -2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/206:B",
+  "question": "For which values of the real parameter k does the inequality x^2 + kx + 1 > 0 hold for all real numbers x?",
+  "options": {
+   "A": "k >= 2 or k <= -2",
+   "B": "-2 < k < 2",
+   "C": "-2 <= k <= 2",
+   "D": "k > 2 or k < -2"
+  },
+  "argue_for": "B"
+ }
+]

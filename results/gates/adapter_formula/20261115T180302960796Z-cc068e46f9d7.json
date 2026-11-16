@@ -1,0 +1,76 @@
+{
+ "builtin_path": true,
+ "commit": "cc068e46f9d7ded1a0e35f7e4ef8498c4ec950ee",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T18:03:02+00:00",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "full",
+ "name": "adapter_formula",
+ "planted": false,
+ "seconds": 180.4,
+ "session": "c2-h",
+ "started": "2026-11-15T18:00:02+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "formats": {
+   "short": {
+    "calls_checked": 67952,
+    "candidate_loss": 3.690081231063232,
+    "declared_set_matches": true,
+    "episodes": 16,
+    "extra_in_observed": [],
+    "factor_of_max": "layers.31.mlp.down_proj.B",
+    "factors_with_zero_reference_gradient": 0,
+    "max_relative_gradient_difference": 3.7344314139179837,
+    "max_relative_output_difference": 0.4518563200279661,
+    "max_relative_output_difference_at_real_tokens": 0.4518563200279661,
+    "missing_from_observed": [],
+    "module_of_max": "layers.30.linear_attn.in_proj_z",
+    "module_of_max_at_real_tokens": "layers.30.linear_attn.in_proj_z",
+    "observed_set_matches": true,
+    "reference_loss": 13.598582850769162
+   },
+   "snap": {
+    "calls_checked": 8432,
+    "candidate_loss": 3.4756200965493917,
+    "declared_set_matches": true,
+    "episodes": 16,
+    "extra_in_observed": [],
+    "factor_of_max": "layers.11.self_attn.q_proj.B",
+    "factors_with_zero_reference_gradient": 0,
+    "max_relative_gradient_difference": 2.764762121853164,
+    "max_relative_output_difference": 0.4328966931440649,
+    "max_relative_output_difference_at_real_tokens": 0.4328966931440649,
+    "missing_from_observed": [],
+    "module_of_max": "layers.29.linear_attn.in_proj_z",
+    "module_of_max_at_real_tokens": "layers.29.linear_attn.in_proj_z",
+    "observed_set_matches": true,
+    "reference_loss": 13.315963335335255
+   }
+  },
+  "green": false,
+  "implementation": "hooks",
+  "layers": 29,
+  "planted_faults": [
+   "scale_halved"
+  ],
+  "projections_per_layer": {
+   "deltanet": 6,
+   "full_attention": 7
+  },
+  "specified_modules": 182
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

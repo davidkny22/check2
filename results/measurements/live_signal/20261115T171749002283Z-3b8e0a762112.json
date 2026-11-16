@@ -1,0 +1,120 @@
+{
+ "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+ "commit_source": ".sent-commit",
+ "config": {
+  "run": "original-heldout",
+  "saved": "/content/check-twice/data/reader/p_heldout.jsonl"
+ },
+ "config_sha256": "b0e8c0e9c9914150fb1d9f3b6005eccb29ed46c9ee6b556f0cfa0bf419b1623e",
+ "finished": "2026-11-15T17:17:49+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "measurement",
+ "name": "live_signal",
+ "run": {
+  "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552",
+  "run_id": "original-heldout",
+  "split": "heldout"
+ },
+ "session": "c2-a",
+ "started": "2026-11-15T17:17:48+00:00",
+ "tree_clean": null,
+ "values": {
+  "agree": false,
+  "beyond_tolerance": 779,
+  "episodes": 780,
+  "largest": [
+   {
+    "difference": 0.13559874892234802,
+    "episode_id": "philosophy/96:named:snap:A"
+   },
+   {
+    "difference": 0.1295275092124939,
+    "episode_id": "machine_learning/22:bare:snap:-"
+   },
+   {
+    "difference": 0.1287807822227478,
+    "episode_id": "philosophy/89:named:snap:A"
+   },
+   {
+    "difference": 0.12704947590827942,
+    "episode_id": "elementary_mathematics/35:bare:snap:-"
+   },
+   {
+    "difference": 0.12523671984672546,
+    "episode_id": "philosophy/93:named:snap:A"
+   },
+   {
+    "difference": 0.12463793158531189,
+    "episode_id": "elementary_mathematics/22:bare:snap:-"
+   },
+   {
+    "difference": 0.1172851026058197,
+    "episode_id": "philosophy/52:named:snap:D"
+   },
+   {
+    "difference": 0.11669385433197021,
+    "episode_id": "high_school_mathematics/67:bare:snap:-"
+   },
+   {
+    "difference": 0.11502468585968018,
+    "episode_id": "conceptual_physics/9:bare:snap:-"
+   },
+   {
+    "difference": 0.11372655630111694,
+    "episode_id": "elementary_mathematics/93:bare:snap:-"
+   },
+   {
+    "difference": 0.11285838484764099,
+    "episode_id": "philosophy/96:named:snap:B"
+   },
+   {
+    "difference": 0.11118084192276001,
+    "episode_id": "high_school_physics/48:bare:snap:-"
+   },
+   {
+    "difference": 0.1104135513305664,
+    "episode_id": "marketing/28:named:snap:A"
+   },
+   {
+    "difference": 0.1098470389842987,
+    "episode_id": "high_school_mathematics/76:bare:snap:-"
+   },
+   {
+    "difference": 0.10879367589950562,
+    "episode_id": "professional_accounting/10:bare:snap:-"
+   },
+   {
+    "difference": 0.1075829565525055,
+    "episode_id": "elementary_mathematics/79:bare:snap:-"
+   },
+   {
+    "difference": 0.10742729902267456,
+    "episode_id": "philosophy/93:named:short:A"
+   },
+   {
+    "difference": 0.10729855298995972,
+    "episode_id": "high_school_physics/99:bare:snap:-"
+   },
+   {
+    "difference": 0.10719877481460571,
+    "episode_id": "elementary_mathematics/63:bare:snap:-"
+   },
+   {
+    "difference": 0.10567012429237366,
+    "episode_id": "college_mathematics/20:bare:snap:-"
+   }
+  ],
+  "max_abs_difference": 0.13559874892234802,
+  "tolerance": 0.001,
+  "without_saved_p": 0
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

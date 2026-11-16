@@ -1,0 +1,387 @@
+[
+ {
+  "job_id": "x_000",
+  "question": "If A = (1, 2, 3, 4). Let ~= {(1, 2), (1, 3), (4, 2)}. Then ~ is",
+  "options": {
+   "A": "not anti-symmetric",
+   "B": "transitive",
+   "C": "reflexive",
+   "D": "symmetric"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_001",
+  "question": "Statement 1 | If H and K are subgroups of a group G, then |HK| = |H||K|/|H intersection K|. Statement 2 | A group of order 2p where p is an odd prime is cyclic or isomorphic to D_p.",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_002",
+  "question": "An internal hash table has 5 buckets, numbered 0, 1, 2, 3, 4. Keys are integers, and the hash function h(i) = i mod 5 is used, with linear resolution of collisions (i.e., if bucket h(i) is filled, the buckets h(i) + 1, h(i) + 2, ... are tried successively with all bucket numbers computed modulo 5). If elements with keys 13, 8, 24, 10, and 3 are inserted, m that order, into an initially blank hash table, then the content of the bucket numbered 2 is",
+  "options": {
+   "A": "3",
+   "B": "8",
+   "C": "10",
+   "D": "13"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "x_003",
+  "question": "Assume that any assignment statement can be executed in unit time. If as many identical processors as needed are used, what is the minimum number of time units needed to execute the assignments\nA := B + C\nB := A - B\nC := A * E\nD := A/F\nE := B - C\nF := A + B\nwith the same result as if the assignments were executed in the order shown?",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "3",
+   "D": "4"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "x_004",
+  "question": "S(n) is a statement about positive integers n such that whenever S(k) is true, S(k + 1) must also be true. Furthermore, there exists some positive integer n0 such that S(n0) is not true. Of the following, which is the strongest conclusion that can be drawn?",
+  "options": {
+   "A": "S(n0 + 1) is not true.",
+   "B": "S(n0 - 1) is not true.",
+   "C": "S(n) is not true for any n <= n0",
+   "D": "S(n) is not true for any n >= n0"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "x_005",
+  "question": "Suppose today is Wednesday. What day of the week will it be 10^(10^(10)) days from now?",
+  "options": {
+   "A": "Sunday",
+   "B": "Monday",
+   "C": "Tuesday",
+   "D": "Wednesday"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_006",
+  "question": "A proton moves in the +z-direction after being accelerated from rest through a potential difference V. The proton then passes through a region with a uniform electric field E in the +x-direction and a uniform magnetic field B in the +y-direction, but the proton\u2019s trajectory is not affected. If the experiment were repeated using a potential difference of 2V, the proton would then be",
+  "options": {
+   "A": "deflected in the +x-direction",
+   "B": "deflected in the -x-direction",
+   "C": "deflected in the +y-direction",
+   "D": "deflected in the -y-direction"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "x_007",
+  "question": "When you bend the branch of a tree by hanging on its end, the top side of the branch is under",
+  "options": {
+   "A": "tension.",
+   "B": "compression.",
+   "C": "Both.",
+   "D": "Neither."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_008",
+  "question": "The purpose of \"augmenting\" the Dickey-Fuller test regression is to",
+  "options": {
+   "A": "Ensure that there is no heteroscedasticity in the test regression residuals.",
+   "B": "Ensure that the test regression residuals are normally distributed",
+   "C": "Ensure that there is no autocorrelation in the test regression residuals",
+   "D": "Ensure that all of the non-stationarity is taken into account."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "x_009",
+  "question": "Suppose that the value of $R^2$ for an estimated regression model is exactly zero. Which of the following are true?\n\ni) All coefficient estimates on the slopes will be zero\n\nii) The fitted line will be horizontal with respect to all of the explanatory variables\n\niii) The regression line has not explained any of the variability of y about its mean value\n\niv) The intercept coefficient estimate must be zero.",
+  "options": {
+   "A": "(ii) and (iv) only",
+   "B": "(i) and (iii) only",
+   "C": "(i), (ii), and (iii) only",
+   "D": "(i), (ii), (iii), and (iv)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "x_010",
+  "question": "The vice president of sales took a client out to lunch. If the lunch was $44 and she gave a 20% tip, how much money did she spend on lunch?",
+  "options": {
+   "A": "$8.80 ",
+   "B": "$35.20 ",
+   "C": "$52.80 ",
+   "D": "$53.80 "
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "x_011",
+  "question": "What is 123 / 8?",
+  "options": {
+   "A": "15 remainder 7",
+   "B": "15 remainder 3",
+   "C": "16 remainder 5",
+   "D": "16 remainder 1"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "x_012",
+  "question": " S Select the best translation into predicate logic. Some kind people help some endangered species. (Ex: x is endangered; Kx: x is kind; Px: x is a person; Sx: x is a species; Hxy: x helps y)",
+  "options": {
+   "A": "(\u2203x){(Kx \u2022 Px) \u2022 (\u2203y)[(Ey \u2022 Sy) \u2022 Hxy]}",
+   "B": "(\u2203x)(\u2203y){[(Kx \u2022 Sx) \u2022 (Ey \u2022 Py)] \u2022 Hxy}",
+   "C": "(\u2203x)(\u2203y){[(Kx \u2022 Sx) \u2022 (Ey \u2022 Py)] \u2022 Hyx}",
+   "D": "(\u2203x)(\u2203y){[(Kx \u2022 Px) \u2022 (Ey \u2022 Sy)] \u2283 Hxy}"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_013",
+  "question": " S Select the best translation into predicate logic. Some kind people help some endangered species. (Ex: x is endangered; Kx: x is kind; Px: x is a person; Sx: x is a species; Hxy: x helps y)",
+  "options": {
+   "A": "(\u2203x){(Kx \u2022 Px) \u2022 (\u2203y)[(Ey \u2022 Sy) \u2022 Hxy]}",
+   "B": "(\u2203x)(\u2203y){[(Kx \u2022 Sx) \u2022 (Ey \u2022 Py)] \u2022 Hxy}",
+   "C": "(\u2203x)(\u2203y){[(Kx \u2022 Sx) \u2022 (Ey \u2022 Py)] \u2022 Hyx}",
+   "D": "(\u2203x)(\u2203y){[(Kx \u2022 Px) \u2022 (Ey \u2022 Sy)] \u2283 Hxy}"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "x_014",
+  "question": " Which of the given formulas of PL is the best symbolization of the following sentence?\nEither England's not importing beef is a necessary condition for France's subsidizing agriculture, or China promotes human rights if and only if South Africa doesn't supply diamonds.",
+  "options": {
+   "A": "(F \u2283 ~E) \u2228 (C \u2261 ~S)",
+   "B": "(~E \u2283 F) \u2228 (C \u2283 ~S)",
+   "C": "~(F \u2283 E) \u2228 (~S \u2283 C)",
+   "D": "(F \u2283 E) \u2228 (C \u2261 ~S)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_015",
+  "question": " Which of the given formulas of PL is the best symbolization of the following sentence?\nEither England's not importing beef is a necessary condition for France's subsidizing agriculture, or China promotes human rights if and only if South Africa doesn't supply diamonds.",
+  "options": {
+   "A": "(F \u2283 ~E) \u2228 (C \u2261 ~S)",
+   "B": "(~E \u2283 F) \u2228 (C \u2283 ~S)",
+   "C": "~(F \u2283 E) \u2228 (~S \u2283 C)",
+   "D": "(F \u2283 E) \u2228 (C \u2261 ~S)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "x_016",
+  "question": " Construct a complete truth table for the following pairs of propositions. Then, using the truth tables, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.\nI \u2261 ~H and ~(~I \u2261 H)",
+  "options": {
+   "A": "Logically equivalent",
+   "B": "Contradictory",
+   "C": "Neither logically equivalent nor contradictory, but consistent",
+   "D": "Inconsistent"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_017",
+  "question": "Construct a complete truth table for the following argument. Then, using the truth table, determine whether the argument is valid or invalid. If the argument is invalid, choose an option which presents a counterexample. (There may be other counterexamples as well.)\nI \u2261 ~J\nI \u2228 J / I",
+  "options": {
+   "A": "Valid",
+   "B": "Invalid. Counterexample when I and J are true",
+   "C": "Invalid. Counterexample when I is true and J is false",
+   "D": "Invalid. Counterexample when J is true and I is false"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "x_018",
+  "question": " Construct a complete truth table for the following argument. Then, using the truth table, determine whether the argument is valid or invalid. If the argument is invalid, choose an option which presents a counterexample. (There may be other counterexamples as well.)\n~A \u00b7 ~B\n(A \u2228 C) \u2228 B / C",
+  "options": {
+   "A": "Valid",
+   "B": "Invalid. Counterexample when A and B are true and C is false",
+   "C": "Invalid. Counterexample when A is true and B and C are false",
+   "D": "Invalid. Counterexample when B is true and A and C are false"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "x_019",
+  "question": " Construct a complete truth table for the following pairs of propositions. Then, using the truth tables, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.\n(G \u2228 ~H) \u2283 G and ~G \u2261 (~H \u00b7 G)",
+  "options": {
+   "A": "Logically equivalent",
+   "B": "Contradictory",
+   "C": "Neither logically equivalent nor contradictory, but consistent",
+   "D": "Inconsistent"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "x_020",
+  "question": "Construct a complete truth table for the following argument. Then, using the truth table, determine whether the argument is valid or invalid. If the argument is invalid, choose an option which presents a counterexample. (There may be other counterexamples as well.)\n~K \u2261 L / (K \u00b7 L) \u2228 (K \u00b7 ~L)",
+  "options": {
+   "A": "Valid",
+   "B": "Invalid. Counterexample when K and L are true",
+   "C": "Invalid. Counterexample when K is true and L is false",
+   "D": "Invalid. Counterexample when L is true and K is false"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "x_021",
+  "question": "A retailer that sells footwear maintains a single database containing records with the following information about each item for sale in the retailer's store.\n\n   \u00b0 Item identification number\n   \u00b0 Footwear type (sneakers, boots, sandals, etc.)\n   \u00b0 Selling price (in dollars)\n   \u00b0 Size\n   \u00b0 Color\n   \u00b0 Quantity available\n\n Using only the database, which of the following can be determined?",
+  "options": {
+   "A": "Which items listed in the database are not currently in the store",
+   "B": "Which colors are more popular among men than women",
+   "C": "Which type of footwear is most popular among adults",
+   "D": "The total number of shoes sold in a particular month"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_022",
+  "question": "Which of the following is a functional region?",
+  "options": {
+   "A": "Dixie",
+   "B": "Pennsylvania",
+   "C": "The market area of Winn-Dixie",
+   "D": "The Pacific Northwest"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_023",
+  "question": "What type of countries generally possesses a greater variety of climates and resources than other countries?",
+  "options": {
+   "A": "Perforated states",
+   "B": "Fragmented states",
+   "C": "Elongated states",
+   "D": "Prorupt states"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_024",
+  "question": "We roll a fair 6-sided die 5 times. What is the probability that we get a 6 in at most 2 of the rolls?",
+  "options": {
+   "A": "\\frac{125}{648}",
+   "B": "\\frac{25}{648}",
+   "C": "\\frac{625}{648}",
+   "D": "\\frac{1}{648}"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "x_025",
+  "question": "Given that a rectangle with length $3x$ inches and width $x + 5$ inches has the property that its area and perimeter have equal values, what is $x$?",
+  "options": {
+   "A": "1",
+   "B": "5",
+   "C": "\\frac{10}{3}",
+   "D": "\\frac{3}{10}"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "x_026",
+  "question": "John has five children. What is the probability that at least half of them are girls? (We can assume a boy is equally likely to be born as is a girl, and vice-versa.)",
+  "options": {
+   "A": "\\frac{1}{2}",
+   "B": "\\frac{1}{4}",
+   "C": "\\frac{1}{8}",
+   "D": "\\frac{3}{5}"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_027",
+  "question": "Let $a\\star b = a^b-ab$. If $2\\star x = 22$, find $x$.",
+  "options": {
+   "A": "5",
+   "B": "22",
+   "C": "11",
+   "D": "6"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_028",
+  "question": "If 4 daps = 7 yaps, and 5 yaps = 3 baps, how many daps equal 42 baps?",
+  "options": {
+   "A": "28",
+   "B": "21",
+   "C": "40",
+   "D": "30"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_029",
+  "question": "Two spheres of net charge +5e and -6e briefly come into contact. Afterward, which of the following is a possible combination of net charges for the two spheres?",
+  "options": {
+   "A": "+3e and -4e",
+   "B": "+1.5e and -2.5e",
+   "C": "Both of the above",
+   "D": "None of the above"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_030",
+  "question": "Mercury orbits the sun in about one-fifth of an Earth year. If 1 AU is defined as the distance from the Earth to the sun, what is the approximate distance between Mercury and the sun?",
+  "options": {
+   "A": "(1/25) AU",
+   "B": "(1/9) AU",
+   "C": "(1/5) AU",
+   "D": "(1/3) AU"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_031",
+  "question": "Suppose H0: p = 0.6, and the power of the test for Ha: p = 0.7 is 0.8. Which of the following is a valid conclusion?",
+  "options": {
+   "A": "The probability of committing a Type I error is 0.1.",
+   "B": "If Ha is true, the probability of failing to reject H0 is 0.2.",
+   "C": "The probability of committing a Type II error is 0.3.",
+   "D": "All of the above are valid conclusions."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_032",
+  "question": "Statement 1| The ID3 algorithm is guaranteed to find the optimal decision tree. Statement 2| Consider a continuous probability distribution with density f() that is nonzero everywhere. The probability of a value x is equal to f(x).",
+  "options": {
+   "A": "True, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "False, True"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_033",
+  "question": "Anscombe claims that the notion of moral obligation is derived from the concept of:",
+  "options": {
+   "A": "preference.",
+   "B": "maximizing utility.",
+   "C": "positive law.",
+   "D": "divine law."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "x_034",
+  "question": "Star Co. is a retail store specializing in contemporary furniture. The following information is taken from Star's June budget: Sales $540000 Cost of goods sold 300000 Merchandise inventory\u201a\u00c4\u00ecJune 1 150000 Merchandise inventory\u201a\u00c4\u00ecJune 30 180000 Accounts payable for purchases\u201a\u00c4\u00ecJune 1 85000 Accounts payable for purchases\u201a\u00c4\u00ecJune 30 75000 What amount should Star budget for cash disbursements for June purchases?",
+  "options": {
+   "A": "$260,000",
+   "B": "$280,000",
+   "C": "$320,000",
+   "D": "340000"
+  },
+  "argue_for": "C"
+ }
+]

@@ -1,0 +1,1652 @@
+[
+ {
+  "job_id": "expansion/machine_learning/212:B",
+  "question": "Statement 1| Generative Adversarial Networks (GANs) consist of a generator and a discriminator competing in a zero-sum game. Statement 2| Mode collapse occurs when the generator produces a limited variety of samples that all deceive the discriminator.",
+  "options": {
+   "A": "Statement 1 is false, Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/212:D",
+  "question": "Statement 1| Generative Adversarial Networks (GANs) consist of a generator and a discriminator competing in a zero-sum game. Statement 2| Mode collapse occurs when the generator produces a limited variety of samples that all deceive the discriminator.",
+  "options": {
+   "A": "Statement 1 is false, Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/213:B",
+  "question": "In the Expectation-Maximization algorithm for Gaussian Mixture Models, what is computed during the E-step?",
+  "options": {
+   "A": "The log-likelihood of the observed data",
+   "B": "The responsibility of each component for generating each data point",
+   "C": "The update of the model parameters (means, covariances, weights)",
+   "D": "The convergence criterion based on parameter change"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/213:D",
+  "question": "In the Expectation-Maximization algorithm for Gaussian Mixture Models, what is computed during the E-step?",
+  "options": {
+   "A": "The log-likelihood of the observed data",
+   "B": "The responsibility of each component for generating each data point",
+   "C": "The update of the model parameters (means, covariances, weights)",
+   "D": "The convergence criterion based on parameter change"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/215:A",
+  "question": "Statement 1| In deep reinforcement learning, the Bellman equation is used to iteratively update the value function of a state. Statement 2| Experience Replay in DQN is used to break the correlation between consecutive samples by sampling transitions randomly from a buffer.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/215:C",
+  "question": "Statement 1| In deep reinforcement learning, the Bellman equation is used to iteratively update the value function of a state. Statement 2| Experience Replay in DQN is used to break the correlation between consecutive samples by sampling transitions randomly from a buffer.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/216:A",
+  "question": "Statement 1| The covariance between two independent random variables is always zero. Statement 2| If the covariance between two random variables is zero, they must be independent.",
+  "options": {
+   "A": "Statement 1 is true, Statement 2 is false",
+   "B": "Both statements are false",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Both statements are true"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/216:D",
+  "question": "Statement 1| The covariance between two independent random variables is always zero. Statement 2| If the covariance between two random variables is zero, they must be independent.",
+  "options": {
+   "A": "Statement 1 is true, Statement 2 is false",
+   "B": "Both statements are false",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Both statements are true"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/218:A",
+  "question": "When constructing a confidence interval for a population mean with an unknown population standard deviation and a small sample size, which distribution should be used?",
+  "options": {
+   "A": "Chi-square distribution",
+   "B": "Student's t-distribution",
+   "C": "Z-distribution",
+   "D": "F-distribution"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/218:B",
+  "question": "When constructing a confidence interval for a population mean with an unknown population standard deviation and a small sample size, which distribution should be used?",
+  "options": {
+   "A": "Chi-square distribution",
+   "B": "Student's t-distribution",
+   "C": "Z-distribution",
+   "D": "F-distribution"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/219:B",
+  "question": "Statement 1| In a Gaussian Mixture Model, the E-step calculates the responsibility of each component for each data point. Statement 2| The M-step optimizes the parameters of the components to maximize the expected log-likelihood.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Statement 1 is false, Statement 2 is true"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/219:C",
+  "question": "Statement 1| In a Gaussian Mixture Model, the E-step calculates the responsibility of each component for each data point. Statement 2| The M-step optimizes the parameters of the components to maximize the expected log-likelihood.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Statement 1 is false, Statement 2 is true"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/220:C",
+  "question": "Statement 1| The correlation coefficient ranges from -1 to 1 and measures the strength of a linear relationship. Statement 2| A correlation of 0 implies that there is no relationship of any kind between two variables.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Statement 1 is false, Statement 2 is true"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/220:D",
+  "question": "Statement 1| The correlation coefficient ranges from -1 to 1 and measures the strength of a linear relationship. Statement 2| A correlation of 0 implies that there is no relationship of any kind between two variables.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Statement 1 is false, Statement 2 is true"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/221:A",
+  "question": "Statement 1| The Central Limit Theorem states that the distribution of the sample mean will be approximately normal regardless of the population distribution, provided the sample size is sufficiently large. Statement 2| The Law of Large Numbers describes the convergence of the sample mean to the population mean as the sample size increases.",
+  "options": {
+   "A": "Both statements are false.",
+   "B": "Statement 1 is false, but Statement 2 is true.",
+   "C": "Both statements are true.",
+   "D": "Statement 1 is true, but Statement 2 is false."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/221:C",
+  "question": "Statement 1| The Central Limit Theorem states that the distribution of the sample mean will be approximately normal regardless of the population distribution, provided the sample size is sufficiently large. Statement 2| The Law of Large Numbers describes the convergence of the sample mean to the population mean as the sample size increases.",
+  "options": {
+   "A": "Both statements are false.",
+   "B": "Statement 1 is false, but Statement 2 is true.",
+   "C": "Both statements are true.",
+   "D": "Statement 1 is true, but Statement 2 is false."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/222:A",
+  "question": "Statement 1| A precision-recall curve is particularly useful for evaluating models where the class distribution is highly skewed. Statement 2| The Area Under the Precision-Recall Curve (AUPRC) is equivalent to the ROC-AUC for all datasets.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/222:C",
+  "question": "Statement 1| A precision-recall curve is particularly useful for evaluating models where the class distribution is highly skewed. Statement 2| The Area Under the Precision-Recall Curve (AUPRC) is equivalent to the ROC-AUC for all datasets.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/223:C",
+  "question": "Statement 1| The Wald test is based on the asymptotic normality of the maximum likelihood estimator. Statement 2| The Likelihood Ratio Test (LRT) always yields the same result as the Wald test for any sample size.",
+  "options": {
+   "A": "Statement 1 is false, but Statement 2 is true.",
+   "B": "Both statements are true.",
+   "C": "Both statements are false.",
+   "D": "Statement 1 is true, but Statement 2 is false."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/223:D",
+  "question": "Statement 1| The Wald test is based on the asymptotic normality of the maximum likelihood estimator. Statement 2| The Likelihood Ratio Test (LRT) always yields the same result as the Wald test for any sample size.",
+  "options": {
+   "A": "Statement 1 is false, but Statement 2 is true.",
+   "B": "Both statements are true.",
+   "C": "Both statements are false.",
+   "D": "Statement 1 is true, but Statement 2 is false."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/224:A",
+  "question": "Statement 1| The Multinomial distribution is a generalization of the Binomial distribution to more than two outcomes. Statement 2| The marginal distribution of any single category in a multinomial trial is Binomial.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Statement 1 is false, Statement 2 is true"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/224:B",
+  "question": "Statement 1| The Multinomial distribution is a generalization of the Binomial distribution to more than two outcomes. Statement 2| The marginal distribution of any single category in a multinomial trial is Binomial.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Statement 1 is false, Statement 2 is true"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/226:C",
+  "question": "Statement 1| In deep learning, weight initialization using Xavier Glorot method aims to keep the variance of activations constant across layers. Statement 2| He initialization is specifically designed for networks using the sigmoid activation function.",
+  "options": {
+   "A": "Statement 1 is false, Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/226:D",
+  "question": "Statement 1| In deep learning, weight initialization using Xavier Glorot method aims to keep the variance of activations constant across layers. Statement 2| He initialization is specifically designed for networks using the sigmoid activation function.",
+  "options": {
+   "A": "Statement 1 is false, Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/227:B",
+  "question": "Statement 1| The Law of Large Numbers implies that the sample mean converges to the expected value as the sample size increases. Statement 2| The Central Limit Theorem describes the shape of the distribution of the sample mean regardless of the original population distribution.",
+  "options": {
+   "A": "Statement 1 is false, Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/227:D",
+  "question": "Statement 1| The Law of Large Numbers implies that the sample mean converges to the expected value as the sample size increases. Statement 2| The Central Limit Theorem describes the shape of the distribution of the sample mean regardless of the original population distribution.",
+  "options": {
+   "A": "Statement 1 is false, Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/228:B",
+  "question": "Statement 1| In a Convolutional Neural Network, max-pooling layers are used to provide translation invariance and reduce the spatial dimensions of the feature maps. Statement 2| Strided convolutions achieve a similar dimensionality reduction effect as pooling layers.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true, Statement 2 is false",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Both statements are true"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/228:D",
+  "question": "Statement 1| In a Convolutional Neural Network, max-pooling layers are used to provide translation invariance and reduce the spatial dimensions of the feature maps. Statement 2| Strided convolutions achieve a similar dimensionality reduction effect as pooling layers.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true, Statement 2 is false",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Both statements are true"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/229:A",
+  "question": "When analyzing flight sector distances, why is the great-circle distance preferred over the rhumb line distance for fuel efficiency calculations?",
+  "options": {
+   "A": "Because the rhumb line maintains a constant bearing which simplifies navigation algorithms.",
+   "B": "Because rhumb line distances are always shorter than great-circle distances at high latitudes.",
+   "C": "Because great-circle calculations ignore the curvature of the Earth for short-haul flights.",
+   "D": "Because the great-circle path represents the shortest distance between two points on a sphere."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/229:D",
+  "question": "When analyzing flight sector distances, why is the great-circle distance preferred over the rhumb line distance for fuel efficiency calculations?",
+  "options": {
+   "A": "Because the rhumb line maintains a constant bearing which simplifies navigation algorithms.",
+   "B": "Because rhumb line distances are always shorter than great-circle distances at high latitudes.",
+   "C": "Because great-circle calculations ignore the curvature of the Earth for short-haul flights.",
+   "D": "Because the great-circle path represents the shortest distance between two points on a sphere."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/23:B",
+  "question": "Statement 1| In pediatric growth modeling, mixed-effects models account for within-subject correlation by including random intercepts and slopes for each child. Statement 2| Functional data clustering assumes that growth curves are independent observations and ignores the temporal continuity of the measurements.",
+  "options": {
+   "A": "Both statements are true.",
+   "B": "Statement 1 is true, and Statement 2 is false.",
+   "C": "Both statements are false.",
+   "D": "Statement 1 is false, and Statement 2 is true."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/23:C",
+  "question": "Statement 1| In pediatric growth modeling, mixed-effects models account for within-subject correlation by including random intercepts and slopes for each child. Statement 2| Functional data clustering assumes that growth curves are independent observations and ignores the temporal continuity of the measurements.",
+  "options": {
+   "A": "Both statements are true.",
+   "B": "Statement 1 is true, and Statement 2 is false.",
+   "C": "Both statements are false.",
+   "D": "Statement 1 is false, and Statement 2 is true."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/230:A",
+  "question": "Statement 1| Translating complex developmental research into infographics requires simplifying statistical significance into binary outcomes for clarity. Statement 2| Culturally sensitive design in data visualization involves adapting color semantics and iconography to diverse global audiences.",
+  "options": {
+   "A": "Statement 1 is false; Statement 2 is true.",
+   "B": "Both statements are true.",
+   "C": "Both statements are false.",
+   "D": "Statement 1 is true; Statement 2 is false."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/230:D",
+  "question": "Statement 1| Translating complex developmental research into infographics requires simplifying statistical significance into binary outcomes for clarity. Statement 2| Culturally sensitive design in data visualization involves adapting color semantics and iconography to diverse global audiences.",
+  "options": {
+   "A": "Statement 1 is false; Statement 2 is true.",
+   "B": "Both statements are true.",
+   "C": "Both statements are false.",
+   "D": "Statement 1 is true; Statement 2 is false."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/231:A",
+  "question": "Which strategy is most effective for optimizing large-scale text conversion in an ETL pipeline where memory constraints prevent loading the entire dataset?",
+  "options": {
+   "A": "Processing the data in fixed-size chunks with stateless transformation functions.",
+   "B": "Parallelizing the process across multiple threads without synchronization barriers.",
+   "C": "Writing intermediate results to disk after every single character substitution.",
+   "D": "Loading the data into a distributed in-memory cache before applying regex patterns."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/231:D",
+  "question": "Which strategy is most effective for optimizing large-scale text conversion in an ETL pipeline where memory constraints prevent loading the entire dataset?",
+  "options": {
+   "A": "Processing the data in fixed-size chunks with stateless transformation functions.",
+   "B": "Parallelizing the process across multiple threads without synchronization barriers.",
+   "C": "Writing intermediate results to disk after every single character substitution.",
+   "D": "Loading the data into a distributed in-memory cache before applying regex patterns."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/232:B",
+  "question": "Statement 1| The Student's t-distribution is used instead of the Z-distribution when the population variance is unknown and the sample size is small. Statement 2| As the degrees of freedom increase, the t-distribution converges to the standard normal distribution.",
+  "options": {
+   "A": "Statement 1 is true, but Statement 2 is false.",
+   "B": "Both statements are false.",
+   "C": "Statement 1 is false, but Statement 2 is true.",
+   "D": "Both statements are true."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/232:D",
+  "question": "Statement 1| The Student's t-distribution is used instead of the Z-distribution when the population variance is unknown and the sample size is small. Statement 2| As the degrees of freedom increase, the t-distribution converges to the standard normal distribution.",
+  "options": {
+   "A": "Statement 1 is true, but Statement 2 is false.",
+   "B": "Both statements are false.",
+   "C": "Statement 1 is false, but Statement 2 is true.",
+   "D": "Both statements are true."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/233:B",
+  "question": "In the analysis of recurring revenue metrics for SaaS platforms, if the monthly churn rate is modeled as a Bernoulli trial, what does the geometric distribution represent in this business context?",
+  "options": {
+   "A": "The variance in monthly recurring revenue due to seasonal fluctuations.",
+   "B": "The number of months a customer subscribes before their first churn event occurs.",
+   "C": "The probability of observing exactly k churned customers in a fixed month.",
+   "D": "The average revenue per user over an infinite time horizon."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/233:D",
+  "question": "In the analysis of recurring revenue metrics for SaaS platforms, if the monthly churn rate is modeled as a Bernoulli trial, what does the geometric distribution represent in this business context?",
+  "options": {
+   "A": "The variance in monthly recurring revenue due to seasonal fluctuations.",
+   "B": "The number of months a customer subscribes before their first churn event occurs.",
+   "C": "The probability of observing exactly k churned customers in a fixed month.",
+   "D": "The average revenue per user over an infinite time horizon."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/235:B",
+  "question": "Statement 1| High-frequency crypto pricing models require nanosecond-level timestamp precision to avoid look-ahead bias. Statement 2| Standard Unix epoch milliseconds are sufficient for all blockchain arbitrage strategies.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/235:C",
+  "question": "Statement 1| High-frequency crypto pricing models require nanosecond-level timestamp precision to avoid look-ahead bias. Statement 2| Standard Unix epoch milliseconds are sufficient for all blockchain arbitrage strategies.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/236:A",
+  "question": "Statement 1| L1 regularization (Lasso) promotes sparsity in the model weights, effectively performing feature selection. Statement 2| L2 regularization (Ridge) is more likely than L1 to set weights exactly to zero.",
+  "options": {
+   "A": "Statement 1 is true, Statement 2 is false",
+   "B": "Statement 1 is false, Statement 2 is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/236:D",
+  "question": "Statement 1| L1 regularization (Lasso) promotes sparsity in the model weights, effectively performing feature selection. Statement 2| L2 regularization (Ridge) is more likely than L1 to set weights exactly to zero.",
+  "options": {
+   "A": "Statement 1 is true, Statement 2 is false",
+   "B": "Statement 1 is false, Statement 2 is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/237:A",
+  "question": "Statement 1| The Law of the Iterated Logarithm provides a tighter bound on the fluctuations of a random walk than the Law of Large Numbers. Statement 2| It describes the limit superior of the ratio of the sum of i.i.d. variables to the square root of n log log n.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Statement 1 is false, Statement 2 is true",
+   "C": "Both statements are false",
+   "D": "Statement 1 is true, Statement 2 is false"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/237:C",
+  "question": "Statement 1| The Law of the Iterated Logarithm provides a tighter bound on the fluctuations of a random walk than the Law of Large Numbers. Statement 2| It describes the limit superior of the ratio of the sum of i.i.d. variables to the square root of n log log n.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Statement 1 is false, Statement 2 is true",
+   "C": "Both statements are false",
+   "D": "Statement 1 is true, Statement 2 is false"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/238:A",
+  "question": "Statement 1| In t-SNE, the perplexity parameter can be interpreted as a guess for the number of close neighbors each point has. Statement 2| t-SNE preserves global structure better than it preserves local structure.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true, Statement 2 is false",
+   "C": "Both statements are true",
+   "D": "Statement 1 is false, Statement 2 is true"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/238:B",
+  "question": "Statement 1| In t-SNE, the perplexity parameter can be interpreted as a guess for the number of close neighbors each point has. Statement 2| t-SNE preserves global structure better than it preserves local structure.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true, Statement 2 is false",
+   "C": "Both statements are true",
+   "D": "Statement 1 is false, Statement 2 is true"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/239:A",
+  "question": "When adjusting GDP for purchasing power parity across regions, does the choice of base year significantly alter the ranking of emerging markets relative to developed economies?",
+  "options": {
+   "A": "Yes, but only for countries with volatile currency fluctuations",
+   "B": "No, PPP adjustments are invariant to the reference period used",
+   "C": "Only if inflation rates diverge by more than 5% annually",
+   "D": "Yes, base year selection introduces structural bias in long-term comparisons"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/239:D",
+  "question": "When adjusting GDP for purchasing power parity across regions, does the choice of base year significantly alter the ranking of emerging markets relative to developed economies?",
+  "options": {
+   "A": "Yes, but only for countries with volatile currency fluctuations",
+   "B": "No, PPP adjustments are invariant to the reference period used",
+   "C": "Only if inflation rates diverge by more than 5% annually",
+   "D": "Yes, base year selection introduces structural bias in long-term comparisons"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/24:C",
+  "question": "Which metric is most sensitive to outliers when evaluating the performance of a regression model?",
+  "options": {
+   "A": "Mean Absolute Error",
+   "B": "Median Absolute Error",
+   "C": "R-squared",
+   "D": "Root Mean Squared Error"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/24:D",
+  "question": "Which metric is most sensitive to outliers when evaluating the performance of a regression model?",
+  "options": {
+   "A": "Mean Absolute Error",
+   "B": "Median Absolute Error",
+   "C": "R-squared",
+   "D": "Root Mean Squared Error"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/240:A",
+  "question": "Statement 1| In the context of Autoencoders, the bottleneck layer forces the network to learn a compressed representation of the input data. Statement 2| Variational Autoencoders (VAEs) map inputs to a single point in the latent space rather than a distribution characterized by mean and variance.",
+  "options": {
+   "A": "Statement 1 is true; Statement 2 is false",
+   "B": "Both statements are true",
+   "C": "Statement 1 is false; Statement 2 is true",
+   "D": "Both statements are false"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/240:C",
+  "question": "Statement 1| In the context of Autoencoders, the bottleneck layer forces the network to learn a compressed representation of the input data. Statement 2| Variational Autoencoders (VAEs) map inputs to a single point in the latent space rather than a distribution characterized by mean and variance.",
+  "options": {
+   "A": "Statement 1 is true; Statement 2 is false",
+   "B": "Both statements are true",
+   "C": "Statement 1 is false; Statement 2 is true",
+   "D": "Both statements are false"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/242:A",
+  "question": "Statement 1| The Beta distribution is defined on the interval [0, 1] and is often used as a prior for Bernoulli parameters. Statement 2| The Gamma distribution is a conjugate prior for the mean of a normal distribution with known variance.",
+  "options": {
+   "A": "Statement 1 is true, Statement 2 is false",
+   "B": "Both statements are true",
+   "C": "Both statements are false",
+   "D": "Statement 1 is false, Statement 2 is true"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/242:C",
+  "question": "Statement 1| The Beta distribution is defined on the interval [0, 1] and is often used as a prior for Bernoulli parameters. Statement 2| The Gamma distribution is a conjugate prior for the mean of a normal distribution with known variance.",
+  "options": {
+   "A": "Statement 1 is true, Statement 2 is false",
+   "B": "Both statements are true",
+   "C": "Both statements are false",
+   "D": "Statement 1 is false, Statement 2 is true"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/243:B",
+  "question": "Statement 1| Open-source data pipelines inherently reduce vendor lock-in risks. Statement 2| Contributing to projects like Apache Spark guarantees immediate enterprise-grade support.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is false; Statement 2 is true",
+   "C": "Both statements are true",
+   "D": "Statement 1 is true; Statement 2 is false"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/243:D",
+  "question": "Statement 1| Open-source data pipelines inherently reduce vendor lock-in risks. Statement 2| Contributing to projects like Apache Spark guarantees immediate enterprise-grade support.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is false; Statement 2 is true",
+   "C": "Both statements are true",
+   "D": "Statement 1 is true; Statement 2 is false"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/244:A",
+  "question": "When calculating conditional probabilities for student performance across demographics using R, why is it crucial to verify the independence assumption before applying the multiplication rule P(A and B) = P(A) * P(B)?",
+  "options": {
+   "A": "Because violating independence leads to incorrect joint probability estimates, misrepresenting the intersection of demographic and performance factors.",
+   "B": "Because dependent events cannot be analyzed using probability theory in educational datasets.",
+   "C": "Because independence ensures that the sample size is large enough for the calculation to be valid.",
+   "D": "Because the multiplication rule only applies to continuous variables, not categorical demographic data."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/244:B",
+  "question": "When calculating conditional probabilities for student performance across demographics using R, why is it crucial to verify the independence assumption before applying the multiplication rule P(A and B) = P(A) * P(B)?",
+  "options": {
+   "A": "Because violating independence leads to incorrect joint probability estimates, misrepresenting the intersection of demographic and performance factors.",
+   "B": "Because dependent events cannot be analyzed using probability theory in educational datasets.",
+   "C": "Because independence ensures that the sample size is large enough for the calculation to be valid.",
+   "D": "Because the multiplication rule only applies to continuous variables, not categorical demographic data."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/245:C",
+  "question": "Statement 1| The AIC (Akaike Information Criterion) penalizes models with a larger number of parameters to prevent overfitting. Statement 2| A lower AIC value indicates a model that is better in terms of the trade-off between goodness of fit and complexity.",
+  "options": {
+   "A": "Both statements are false.",
+   "B": "Statement 1 is true, but Statement 2 is false.",
+   "C": "Statement 1 is false, but Statement 2 is true.",
+   "D": "Both statements are true."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/245:D",
+  "question": "Statement 1| The AIC (Akaike Information Criterion) penalizes models with a larger number of parameters to prevent overfitting. Statement 2| A lower AIC value indicates a model that is better in terms of the trade-off between goodness of fit and complexity.",
+  "options": {
+   "A": "Both statements are false.",
+   "B": "Statement 1 is true, but Statement 2 is false.",
+   "C": "Statement 1 is false, but Statement 2 is true.",
+   "D": "Both statements are true."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/246:A",
+  "question": "Statement 1| The memoryless property is a defining characteristic of the exponential distribution. Statement 2| The geometric distribution is the only discrete distribution that possesses the memoryless property.",
+  "options": {
+   "A": "Statement 1 is false, Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/246:B",
+  "question": "Statement 1| The memoryless property is a defining characteristic of the exponential distribution. Statement 2| The geometric distribution is the only discrete distribution that possesses the memoryless property.",
+  "options": {
+   "A": "Statement 1 is false, Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/247:A",
+  "question": "Statement 1| The Moment Generating Function (MGF) uniquely determines the probability distribution of a random variable. Statement 2| The MGF of a sum of independent random variables is the product of their individual MGFs.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Statement 1 is false, Statement 2 is true",
+   "C": "Both statements are false",
+   "D": "Statement 1 is true, Statement 2 is false"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/247:D",
+  "question": "Statement 1| The Moment Generating Function (MGF) uniquely determines the probability distribution of a random variable. Statement 2| The MGF of a sum of independent random variables is the product of their individual MGFs.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Statement 1 is false, Statement 2 is true",
+   "C": "Both statements are false",
+   "D": "Statement 1 is true, Statement 2 is false"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/248:B",
+  "question": "Statement 1| The Vanishing Gradient problem in deep neural networks occurs when the gradient of the loss function becomes extremely small during backpropagation, often due to the use of sigmoid or tanh activation functions in deep architectures. Statement 2| Using ReLU (Rectified Linear Unit) activation functions completely eliminates the possibility of gradients vanishing in all layers of a deep network.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true; Statement 2 is false",
+   "C": "Both statements are true",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/248:D",
+  "question": "Statement 1| The Vanishing Gradient problem in deep neural networks occurs when the gradient of the loss function becomes extremely small during backpropagation, often due to the use of sigmoid or tanh activation functions in deep architectures. Statement 2| Using ReLU (Rectified Linear Unit) activation functions completely eliminates the possibility of gradients vanishing in all layers of a deep network.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true; Statement 2 is false",
+   "C": "Both statements are true",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/249:A",
+  "question": "When modeling urban transit behavior in Singapore, how does Bayesian updating improve the estimation of peak-hour MRT usage probabilities compared to frequentist approaches when new real-time sensor data arrives?",
+  "options": {
+   "A": "It combines prior beliefs about ridership patterns with the likelihood of observed data to form a posterior distribution.",
+   "B": "It requires a larger sample size than frequentist methods to achieve the same level of confidence.",
+   "C": "It assumes that the true ridership probability remains constant and ignores temporal variations.",
+   "D": "It discards previous historical data and relies solely on the new sensor readings."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/249:B",
+  "question": "When modeling urban transit behavior in Singapore, how does Bayesian updating improve the estimation of peak-hour MRT usage probabilities compared to frequentist approaches when new real-time sensor data arrives?",
+  "options": {
+   "A": "It combines prior beliefs about ridership patterns with the likelihood of observed data to form a posterior distribution.",
+   "B": "It requires a larger sample size than frequentist methods to achieve the same level of confidence.",
+   "C": "It assumes that the true ridership probability remains constant and ignores temporal variations.",
+   "D": "It discards previous historical data and relies solely on the new sensor readings."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/250:A",
+  "question": "Statement 1| The cross-entropy loss function measures the difference between the predicted probability distribution and the true distribution. Statement 2| For binary classification, cross-entropy loss is mathematically equivalent to the log loss.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Statement 1 is true, Statement 2 is false"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/250:D",
+  "question": "Statement 1| The cross-entropy loss function measures the difference between the predicted probability distribution and the true distribution. Statement 2| For binary classification, cross-entropy loss is mathematically equivalent to the log loss.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Statement 1 is true, Statement 2 is false"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/251:A",
+  "question": "Statement 1| In a Deep Q-Network, the use of a target network is intended to reduce the instability caused by updating the Q-values using the same network that generates the targets. Statement 2| Target networks are updated at every single training step to ensure the most current values are used.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Statement 1 is false; Statement 2 is true",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/251:C",
+  "question": "Statement 1| In a Deep Q-Network, the use of a target network is intended to reduce the instability caused by updating the Q-values using the same network that generates the targets. Statement 2| Target networks are updated at every single training step to ensure the most current values are used.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Statement 1 is false; Statement 2 is true",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/252:B",
+  "question": "Statement 1| The variance of a Cauchy distribution is well-defined and finite. Statement 2| The mean of a Cauchy distribution is undefined because the integral does not converge.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is false, Statement 2 is true",
+   "C": "Both statements are true",
+   "D": "Statement 1 is true, Statement 2 is false"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/252:C",
+  "question": "Statement 1| The variance of a Cauchy distribution is well-defined and finite. Statement 2| The mean of a Cauchy distribution is undefined because the integral does not converge.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is false, Statement 2 is true",
+   "C": "Both statements are true",
+   "D": "Statement 1 is true, Statement 2 is false"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/253:A",
+  "question": "Statement 1| The F1-score is the harmonic mean of precision and recall. Statement 2| The F1-score is always higher than the arithmetic mean of precision and recall.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true, Statement 2 is false",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Both statements are true"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/253:B",
+  "question": "Statement 1| The F1-score is the harmonic mean of precision and recall. Statement 2| The F1-score is always higher than the arithmetic mean of precision and recall.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true, Statement 2 is false",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Both statements are true"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/254:A",
+  "question": "Regarding mean imputation for missing values in large-scale machine learning datasets, what is the primary statistical consequence that compromises model integrity?",
+  "options": {
+   "A": "It artificially reduces the variance of the feature and distorts correlations with other variables.",
+   "B": "It converts categorical variables into continuous numerical features automatically.",
+   "C": "It increases the computational complexity of the training pipeline significantly.",
+   "D": "It introduces bias only if the data is Missing Completely at Random (MCAR)."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/254:C",
+  "question": "Regarding mean imputation for missing values in large-scale machine learning datasets, what is the primary statistical consequence that compromises model integrity?",
+  "options": {
+   "A": "It artificially reduces the variance of the feature and distorts correlations with other variables.",
+   "B": "It converts categorical variables into continuous numerical features automatically.",
+   "C": "It increases the computational complexity of the training pipeline significantly.",
+   "D": "It introduces bias only if the data is Missing Completely at Random (MCAR)."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/255:B",
+  "question": "When optimizing Tableau dashboards connected to large PostgreSQL tables, does pushing filtering logic to the database layer consistently reduce rendering latency compared to client-side filtering?",
+  "options": {
+   "A": "Only if the PostgreSQL server has sufficient RAM",
+   "B": "Yes, database filtering minimizes data transfer and leverages indexing",
+   "C": "No, client-side filtering allows for more interactive user experiences",
+   "D": "Yes, but only for datasets exceeding one million rows"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/255:D",
+  "question": "When optimizing Tableau dashboards connected to large PostgreSQL tables, does pushing filtering logic to the database layer consistently reduce rendering latency compared to client-side filtering?",
+  "options": {
+   "A": "Only if the PostgreSQL server has sufficient RAM",
+   "B": "Yes, database filtering minimizes data transfer and leverages indexing",
+   "C": "No, client-side filtering allows for more interactive user experiences",
+   "D": "Yes, but only for datasets exceeding one million rows"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/256:B",
+  "question": "Statement 1| A random variable follows a Poisson distribution if the events occur independently at a constant average rate. Statement 2| The variance of a Poisson-distributed random variable is always equal to its mean.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true, Statement 2 is false",
+   "C": "Both statements are true",
+   "D": "Statement 1 is false, Statement 2 is true"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/256:C",
+  "question": "Statement 1| A random variable follows a Poisson distribution if the events occur independently at a constant average rate. Statement 2| The variance of a Poisson-distributed random variable is always equal to its mean.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true, Statement 2 is false",
+   "C": "Both statements are true",
+   "D": "Statement 1 is false, Statement 2 is true"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/257:A",
+  "question": "Statement 1| In a deep network, the learning rate is the most critical hyperparameter and is often tuned using a logarithmic scale. Statement 2| Learning rate annealing involves increasing the learning rate over time to escape local minima.",
+  "options": {
+   "A": "Statement 1 is false; Statement 2 is true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Both statements are true"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/257:C",
+  "question": "Statement 1| In a deep network, the learning rate is the most critical hyperparameter and is often tuned using a logarithmic scale. Statement 2| Learning rate annealing involves increasing the learning rate over time to escape local minima.",
+  "options": {
+   "A": "Statement 1 is false; Statement 2 is true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Both statements are true"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/258:B",
+  "question": "Statement 1| The Jeffreys prior is a non-informative prior that is invariant under reparameterization. Statement 2| The Jeffreys prior is derived from the square root of the determinant of the Fisher Information matrix.",
+  "options": {
+   "A": "Statement 1 is false, Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/258:C",
+  "question": "Statement 1| The Jeffreys prior is a non-informative prior that is invariant under reparameterization. Statement 2| The Jeffreys prior is derived from the square root of the determinant of the Fisher Information matrix.",
+  "options": {
+   "A": "Statement 1 is false, Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/259:A",
+  "question": "When mining social media data via API limitations, what is the primary statistical risk of using only the most recent 1% of streamed posts to infer long-term sentiment trends?",
+  "options": {
+   "A": "Introducing selection bias due to the non-random nature of real-time streaming filters.",
+   "B": "Overfitting to transient viral events rather than capturing stable population parameters.",
+   "C": "Failing to account for the latency in API rate limit reset windows.",
+   "D": "Underestimating the computational cost of storing high-volume JSON payloads."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/259:D",
+  "question": "When mining social media data via API limitations, what is the primary statistical risk of using only the most recent 1% of streamed posts to infer long-term sentiment trends?",
+  "options": {
+   "A": "Introducing selection bias due to the non-random nature of real-time streaming filters.",
+   "B": "Overfitting to transient viral events rather than capturing stable population parameters.",
+   "C": "Failing to account for the latency in API rate limit reset windows.",
+   "D": "Underestimating the computational cost of storing high-volume JSON payloads."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/26:B",
+  "question": "Statement 1| In Bayesian inference, the posterior distribution is proportional to the product of the likelihood and the prior distribution. Statement 2| The conjugate prior is a prior distribution that results in a posterior distribution belonging to the same probability distribution family as the prior.",
+  "options": {
+   "A": "Both statements are false.",
+   "B": "Both statements are true.",
+   "C": "Statement 1 is true, but Statement 2 is false.",
+   "D": "Statement 1 is false, but Statement 2 is true."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/26:D",
+  "question": "Statement 1| In Bayesian inference, the posterior distribution is proportional to the product of the likelihood and the prior distribution. Statement 2| The conjugate prior is a prior distribution that results in a posterior distribution belonging to the same probability distribution family as the prior.",
+  "options": {
+   "A": "Both statements are false.",
+   "B": "Both statements are true.",
+   "C": "Statement 1 is true, but Statement 2 is false.",
+   "D": "Statement 1 is false, but Statement 2 is true."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/261:C",
+  "question": "Statement 1| The bias-variance tradeoff suggests that increasing model complexity generally decreases bias while increasing variance. Statement 2| Regularization techniques like L2 weight decay primarily aim to reduce bias by constraining the hypothesis space.",
+  "options": {
+   "A": "Statement 1 is false, Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/261:D",
+  "question": "Statement 1| The bias-variance tradeoff suggests that increasing model complexity generally decreases bias while increasing variance. Statement 2| Regularization techniques like L2 weight decay primarily aim to reduce bias by constraining the hypothesis space.",
+  "options": {
+   "A": "Statement 1 is false, Statement 2 is true",
+   "B": "Both statements are true",
+   "C": "Statement 1 is true, Statement 2 is false",
+   "D": "Both statements are false"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/262:B",
+  "question": "When designing fault-tolerant data pipelines for real-time monitoring, which probability concept is essential for calculating the system's reliability over a specific time interval given a constant failure rate?",
+  "options": {
+   "A": "Bernoulli trial",
+   "B": "Central Limit Theorem",
+   "C": "Exponential distribution",
+   "D": "Conditional probability"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/262:C",
+  "question": "When designing fault-tolerant data pipelines for real-time monitoring, which probability concept is essential for calculating the system's reliability over a specific time interval given a constant failure rate?",
+  "options": {
+   "A": "Bernoulli trial",
+   "B": "Central Limit Theorem",
+   "C": "Exponential distribution",
+   "D": "Conditional probability"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/265:C",
+  "question": "Statement 1| Data leakage occurs when information from the test set is inadvertently used during the training phase. Statement 2| Performing feature selection on the entire dataset before splitting into train and test sets prevents data leakage.",
+  "options": {
+   "A": "True, True",
+   "B": "False, True",
+   "C": "True, False",
+   "D": "False, False"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/265:D",
+  "question": "Statement 1| Data leakage occurs when information from the test set is inadvertently used during the training phase. Statement 2| Performing feature selection on the entire dataset before splitting into train and test sets prevents data leakage.",
+  "options": {
+   "A": "True, True",
+   "B": "False, True",
+   "C": "True, False",
+   "D": "False, False"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/266:A",
+  "question": "In feature selection for high-dimensional genomic data, how does the False Discovery Rate (FDR) control differ from the Family-Wise Error Rate (FWER) in terms of statistical power?",
+  "options": {
+   "A": "FDR ignores the dependency structure between features, whereas FWER accounts for it explicitly.",
+   "B": "FDR is less stringent than FWER, allowing for more discoveries while controlling the proportion of false positives among rejected hypotheses.",
+   "C": "FDR and FWER are mathematically equivalent and yield identical results in all scenarios.",
+   "D": "FDR is more stringent than FWER, ensuring that no false positives occur in the entire set of tests."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/266:B",
+  "question": "In feature selection for high-dimensional genomic data, how does the False Discovery Rate (FDR) control differ from the Family-Wise Error Rate (FWER) in terms of statistical power?",
+  "options": {
+   "A": "FDR ignores the dependency structure between features, whereas FWER accounts for it explicitly.",
+   "B": "FDR is less stringent than FWER, allowing for more discoveries while controlling the proportion of false positives among rejected hypotheses.",
+   "C": "FDR and FWER are mathematically equivalent and yield identical results in all scenarios.",
+   "D": "FDR is more stringent than FWER, ensuring that no false positives occur in the entire set of tests."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/267:B",
+  "question": "For multi-step climate forecasting systems, how does the bias-variance tradeoff influence the selection of model complexity when predicting extreme weather events decades into the future?",
+  "options": {
+   "A": "Increasing model complexity always reduces both bias and variance in climate simulations.",
+   "B": "High complexity models minimize bias but may suffer from high variance, leading to overfitting on noisy historical climate data.",
+   "C": "Bias and variance are irrelevant in long-term forecasting as errors cancel out over time.",
+   "D": "Low complexity models are preferred because they capture the non-linear dynamics of atmospheric systems more accurately."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/267:C",
+  "question": "For multi-step climate forecasting systems, how does the bias-variance tradeoff influence the selection of model complexity when predicting extreme weather events decades into the future?",
+  "options": {
+   "A": "Increasing model complexity always reduces both bias and variance in climate simulations.",
+   "B": "High complexity models minimize bias but may suffer from high variance, leading to overfitting on noisy historical climate data.",
+   "C": "Bias and variance are irrelevant in long-term forecasting as errors cancel out over time.",
+   "D": "Low complexity models are preferred because they capture the non-linear dynamics of atmospheric systems more accurately."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/268:A",
+  "question": "Statement 1| Principal Component Analysis (PCA) identifies the orthogonal directions of maximum variance in a dataset. Statement 2| PCA is a supervised learning technique because it requires target labels to determine the principal components.",
+  "options": {
+   "A": "Statement 1 is true, Statement 2 is false",
+   "B": "Both statements are true",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Both statements are false"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/268:C",
+  "question": "Statement 1| Principal Component Analysis (PCA) identifies the orthogonal directions of maximum variance in a dataset. Statement 2| PCA is a supervised learning technique because it requires target labels to determine the principal components.",
+  "options": {
+   "A": "Statement 1 is true, Statement 2 is false",
+   "B": "Both statements are true",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Both statements are false"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/269:A",
+  "question": "Statement 1| The Central Limit Theorem states that the distribution of the sample mean tends toward a normal distribution as the sample size increases, regardless of the population distribution. Statement 2| The law of large numbers describes the convergence of the sample mean to the population mean.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Statement 1 is false; Statement 2 is true",
+   "C": "Both statements are false",
+   "D": "Statement 1 is true; Statement 2 is false"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/269:C",
+  "question": "Statement 1| The Central Limit Theorem states that the distribution of the sample mean tends toward a normal distribution as the sample size increases, regardless of the population distribution. Statement 2| The law of large numbers describes the convergence of the sample mean to the population mean.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Statement 1 is false; Statement 2 is true",
+   "C": "Both statements are false",
+   "D": "Statement 1 is true; Statement 2 is false"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/27:A",
+  "question": "Statement 1| The curse of dimensionality implies that the volume of the space increases so fast that the available data become sparse. Statement 2| Dimensionality reduction techniques like t-SNE preserve global distances between data points better than local distances.",
+  "options": {
+   "A": "False, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "True, True"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/27:C",
+  "question": "Statement 1| The curse of dimensionality implies that the volume of the space increases so fast that the available data become sparse. Statement 2| Dimensionality reduction techniques like t-SNE preserve global distances between data points better than local distances.",
+  "options": {
+   "A": "False, True",
+   "B": "False, False",
+   "C": "True, False",
+   "D": "True, True"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/270:A",
+  "question": "Statement 1| A confidence interval provides a range of values that is likely to contain the true population parameter with a certain level of confidence. Statement 2| A 95% confidence interval means that there is a 95% probability that the specific calculated interval contains the population mean.",
+  "options": {
+   "A": "Statement 1 is false, but Statement 2 is true.",
+   "B": "Both statements are false.",
+   "C": "Statement 1 is true, but Statement 2 is false.",
+   "D": "Both statements are true."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/270:C",
+  "question": "Statement 1| A confidence interval provides a range of values that is likely to contain the true population parameter with a certain level of confidence. Statement 2| A 95% confidence interval means that there is a 95% probability that the specific calculated interval contains the population mean.",
+  "options": {
+   "A": "Statement 1 is false, but Statement 2 is true.",
+   "B": "Both statements are false.",
+   "C": "Statement 1 is true, but Statement 2 is false.",
+   "D": "Both statements are true."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/272:B",
+  "question": "Which activation function is most likely to cause the vanishing gradient problem in deep neural networks due to its saturation at extreme input values?",
+  "options": {
+   "A": "ReLU",
+   "B": "Sigmoid",
+   "C": "Swish",
+   "D": "Leaky ReLU"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/272:D",
+  "question": "Which activation function is most likely to cause the vanishing gradient problem in deep neural networks due to its saturation at extreme input values?",
+  "options": {
+   "A": "ReLU",
+   "B": "Sigmoid",
+   "C": "Swish",
+   "D": "Leaky ReLU"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/274:C",
+  "question": "In information design, does using a diverging color palette for sequential data inadvertently imply a neutral midpoint that does not exist in the underlying distribution?",
+  "options": {
+   "A": "Only if the data range includes negative values",
+   "B": "Yes, but only for heatmaps with more than seven bins",
+   "C": "No, color perception is independent of data semantics",
+   "D": "Yes, diverging palettes suggest a bipolar scale"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/274:D",
+  "question": "In information design, does using a diverging color palette for sequential data inadvertently imply a neutral midpoint that does not exist in the underlying distribution?",
+  "options": {
+   "A": "Only if the data range includes negative values",
+   "B": "Yes, but only for heatmaps with more than seven bins",
+   "C": "No, color perception is independent of data semantics",
+   "D": "Yes, diverging palettes suggest a bipolar scale"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/275:B",
+  "question": "When integrating metabolomic and phenotypic data using empirical Bayes methods, how does the shrinkage estimator improve the reliability of variance estimates for genes with low expression levels?",
+  "options": {
+   "A": "By assuming that all genes have identical variance regardless of their expression levels.",
+   "B": "By borrowing strength across all genes to pull extreme variance estimates toward a global prior, reducing noise.",
+   "C": "By discarding genes with low expression levels entirely from the analysis.",
+   "D": "By increasing the weight of low-expression genes in the final statistical model."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/275:D",
+  "question": "When integrating metabolomic and phenotypic data using empirical Bayes methods, how does the shrinkage estimator improve the reliability of variance estimates for genes with low expression levels?",
+  "options": {
+   "A": "By assuming that all genes have identical variance regardless of their expression levels.",
+   "B": "By borrowing strength across all genes to pull extreme variance estimates toward a global prior, reducing noise.",
+   "C": "By discarding genes with low expression levels entirely from the analysis.",
+   "D": "By increasing the weight of low-expression genes in the final statistical model."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/278:A",
+  "question": "In comparing public pension systems across nations, why is adjusting for purchasing power parity (PPP) critical when analyzing replacement rates?",
+  "options": {
+   "A": "To normalize the data against the volatility of foreign exchange markets.",
+   "B": "To account for differences in life expectancy and demographic aging structures.",
+   "C": "To eliminate the impact of taxation policies on net disposable income.",
+   "D": "To ensure that monetary benefits are compared based on equivalent local buying power."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/278:D",
+  "question": "In comparing public pension systems across nations, why is adjusting for purchasing power parity (PPP) critical when analyzing replacement rates?",
+  "options": {
+   "A": "To normalize the data against the volatility of foreign exchange markets.",
+   "B": "To account for differences in life expectancy and demographic aging structures.",
+   "C": "To eliminate the impact of taxation policies on net disposable income.",
+   "D": "To ensure that monetary benefits are compared based on equivalent local buying power."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/279:A",
+  "question": "Statement 1| The Dying ReLU problem occurs when neurons output zero for all inputs, causing the gradient to become zero and the neuron to stop updating. Statement 2| Leaky ReLU addresses this by allowing a small, non-zero gradient when the input is negative.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is false; Statement 2 is true",
+   "D": "Statement 1 is true; Statement 2 is false"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/279:C",
+  "question": "Statement 1| The Dying ReLU problem occurs when neurons output zero for all inputs, causing the gradient to become zero and the neuron to stop updating. Statement 2| Leaky ReLU addresses this by allowing a small, non-zero gradient when the input is negative.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is false; Statement 2 is true",
+   "D": "Statement 1 is true; Statement 2 is false"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/280:A",
+  "question": "Statement 1| One-hot encoding represents categorical variables as binary vectors where only one element is one and the rest are zero. Statement 2| One-hot encoding is preferred over label encoding when there is an inherent ordinal relationship between categories.",
+  "options": {
+   "A": "Statement 1 is true; Statement 2 is false",
+   "B": "Statement 1 is false; Statement 2 is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/280:C",
+  "question": "Statement 1| One-hot encoding represents categorical variables as binary vectors where only one element is one and the rest are zero. Statement 2| One-hot encoding is preferred over label encoding when there is an inherent ordinal relationship between categories.",
+  "options": {
+   "A": "Statement 1 is true; Statement 2 is false",
+   "B": "Statement 1 is false; Statement 2 is true",
+   "C": "Both statements are true",
+   "D": "Both statements are false"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/281:B",
+  "question": "Statement 1| In deep learning, the concept of 'Weight Initialization' is critical because poor initialization can lead to vanishing or exploding gradients. Statement 2| Xavier initialization is designed specifically for networks using ReLU activation functions.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Statement 1 is true; Statement 2 is false",
+   "C": "Both statements are false",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/281:C",
+  "question": "Statement 1| In deep learning, the concept of 'Weight Initialization' is critical because poor initialization can lead to vanishing or exploding gradients. Statement 2| Xavier initialization is designed specifically for networks using ReLU activation functions.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Statement 1 is true; Statement 2 is false",
+   "C": "Both statements are false",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/283:A",
+  "question": "Statement 1| Binning continuous variables before fitting a Cox model improves proportional hazards assumptions. Statement 2| Discretization always increases statistical power in survival analysis.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is false; Statement 2 is true",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Both statements are true"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/283:B",
+  "question": "Statement 1| Binning continuous variables before fitting a Cox model improves proportional hazards assumptions. Statement 2| Discretization always increases statistical power in survival analysis.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is false; Statement 2 is true",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Both statements are true"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/284:B",
+  "question": "In constructing a culinary taxonomy from complex recipe texts, why is normalizing ingredient synonyms critical before applying association rule mining?",
+  "options": {
+   "A": "To increase the support count of rare ingredients artificially for better visualization.",
+   "B": "To ensure that semantically identical items like 'cilantro' and 'coriander' are treated as distinct features.",
+   "C": "To reduce the dimensionality of the dataset by merging equivalent terms into a single canonical feature.",
+   "D": "To prevent the algorithm from identifying spurious correlations between unrelated flavor profiles."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/284:C",
+  "question": "In constructing a culinary taxonomy from complex recipe texts, why is normalizing ingredient synonyms critical before applying association rule mining?",
+  "options": {
+   "A": "To increase the support count of rare ingredients artificially for better visualization.",
+   "B": "To ensure that semantically identical items like 'cilantro' and 'coriander' are treated as distinct features.",
+   "C": "To reduce the dimensionality of the dataset by merging equivalent terms into a single canonical feature.",
+   "D": "To prevent the algorithm from identifying spurious correlations between unrelated flavor profiles."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/285:A",
+  "question": "In SaaS revenue analytics, does calculating Net Revenue Retention (NRR) without adjusting for downgrades from enterprise tiers lead to an overestimation of product stickiness?",
+  "options": {
+   "A": "No, NRR formulas inherently weight downgrades negatively",
+   "B": "Yes, but only for companies with fewer than 100 customers",
+   "C": "Yes, ignoring downgrades inflates the retention metric",
+   "D": "Only if the churn rate exceeds 5% monthly"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/285:C",
+  "question": "In SaaS revenue analytics, does calculating Net Revenue Retention (NRR) without adjusting for downgrades from enterprise tiers lead to an overestimation of product stickiness?",
+  "options": {
+   "A": "No, NRR formulas inherently weight downgrades negatively",
+   "B": "Yes, but only for companies with fewer than 100 customers",
+   "C": "Yes, ignoring downgrades inflates the retention metric",
+   "D": "Only if the churn rate exceeds 5% monthly"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/286:B",
+  "question": "In assessing eBay listing performance, how does the sell-through rate function as a conditional probability in determining true product demand?",
+  "options": {
+   "A": "It represents the marginal probability of a sale regardless of view count.",
+   "B": "It represents the joint probability of an item being viewed and sold simultaneously.",
+   "C": "It represents the probability of a sale given that an item has been viewed.",
+   "D": "It represents the probability of an item being viewed given that it was sold."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/286:C",
+  "question": "In assessing eBay listing performance, how does the sell-through rate function as a conditional probability in determining true product demand?",
+  "options": {
+   "A": "It represents the marginal probability of a sale regardless of view count.",
+   "B": "It represents the joint probability of an item being viewed and sold simultaneously.",
+   "C": "It represents the probability of a sale given that an item has been viewed.",
+   "D": "It represents the probability of an item being viewed given that it was sold."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/287:A",
+  "question": "Statement 1| The Adam optimizer combines the advantages of AdaGrad and RMSProp by maintaining both the first and second moments of the gradients. Statement 2| Adam uses a fixed learning rate for all parameters throughout the entire training process regardless of the gradient magnitude.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Both statements are true",
+   "C": "Statement 1 is false; Statement 2 is true",
+   "D": "Statement 1 is true; Statement 2 is false"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/287:D",
+  "question": "Statement 1| The Adam optimizer combines the advantages of AdaGrad and RMSProp by maintaining both the first and second moments of the gradients. Statement 2| Adam uses a fixed learning rate for all parameters throughout the entire training process regardless of the gradient magnitude.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Both statements are true",
+   "C": "Statement 1 is false; Statement 2 is true",
+   "D": "Statement 1 is true; Statement 2 is false"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/288:A",
+  "question": "Statement 1| In a perfectly balanced binary classification problem, accuracy and balanced accuracy yield the same value. Statement 2| The ROC curve plots Precision against Recall for various threshold settings.",
+  "options": {
+   "A": "True, False",
+   "B": "False, True",
+   "C": "False, False",
+   "D": "True, True"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/288:D",
+  "question": "Statement 1| In a perfectly balanced binary classification problem, accuracy and balanced accuracy yield the same value. Statement 2| The ROC curve plots Precision against Recall for various threshold settings.",
+  "options": {
+   "A": "True, False",
+   "B": "False, True",
+   "C": "False, False",
+   "D": "True, True"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/289:A",
+  "question": "Statement 1| In a Convolutional Neural Network, the number of filters determines the depth of the output volume. Statement 2| Global Average Pooling reduces each feature map to a single value by taking the maximum value across the spatial dimensions.",
+  "options": {
+   "A": "Statement 1 is true; Statement 2 is false",
+   "B": "Both statements are true",
+   "C": "Statement 1 is false; Statement 2 is true",
+   "D": "Both statements are false"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/289:D",
+  "question": "Statement 1| In a Convolutional Neural Network, the number of filters determines the depth of the output volume. Statement 2| Global Average Pooling reduces each feature map to a single value by taking the maximum value across the spatial dimensions.",
+  "options": {
+   "A": "Statement 1 is true; Statement 2 is false",
+   "B": "Both statements are true",
+   "C": "Statement 1 is false; Statement 2 is true",
+   "D": "Both statements are false"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/29:A",
+  "question": "In Bayesian statistics, what term describes the probability of the observed data given a specific hypothesis?",
+  "options": {
+   "A": "Likelihood",
+   "B": "Prior",
+   "C": "Posterior",
+   "D": "Evidence"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/29:B",
+  "question": "In Bayesian statistics, what term describes the probability of the observed data given a specific hypothesis?",
+  "options": {
+   "A": "Likelihood",
+   "B": "Prior",
+   "C": "Posterior",
+   "D": "Evidence"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/291:A",
+  "question": "Statement 1| Target leakage occurs when a feature contains information about the target that would not be available at prediction time. Statement 2| Preprocessing contamination can be completely eliminated by shuffling the dataset before splitting it into train and test sets.",
+  "options": {
+   "A": "Statement 1 is false; Statement 2 is true.",
+   "B": "Both statements are true.",
+   "C": "Both statements are false.",
+   "D": "Statement 1 is true; Statement 2 is false."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/291:D",
+  "question": "Statement 1| Target leakage occurs when a feature contains information about the target that would not be available at prediction time. Statement 2| Preprocessing contamination can be completely eliminated by shuffling the dataset before splitting it into train and test sets.",
+  "options": {
+   "A": "Statement 1 is false; Statement 2 is true.",
+   "B": "Both statements are true.",
+   "C": "Both statements are false.",
+   "D": "Statement 1 is true; Statement 2 is false."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/293:B",
+  "question": "In sentiment analysis of short app reviews, does the presence of sarcasm typically cause standard lexicon-based models to misclassify negative sentiment as positive?",
+  "options": {
+   "A": "No, modern transformers handle sarcasm without fine-tuning",
+   "B": "Yes, sarcasm often inverts the polarity of positive words",
+   "C": "Only if the review length exceeds 50 words",
+   "D": "Yes, but only in languages with complex grammar"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/machine_learning/293:C",
+  "question": "In sentiment analysis of short app reviews, does the presence of sarcasm typically cause standard lexicon-based models to misclassify negative sentiment as positive?",
+  "options": {
+   "A": "No, modern transformers handle sarcasm without fine-tuning",
+   "B": "Yes, sarcasm often inverts the polarity of positive words",
+   "C": "Only if the review length exceeds 50 words",
+   "D": "Yes, but only in languages with complex grammar"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/294:A",
+  "question": "Statement 1| In K-means clustering, the algorithm is guaranteed to converge to the global optimum regardless of the initial centroids. Statement 2| The choice of K can be guided by the Elbow method or the Silhouette score.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true, Statement 2 is false",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Both statements are true"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/294:C",
+  "question": "Statement 1| In K-means clustering, the algorithm is guaranteed to converge to the global optimum regardless of the initial centroids. Statement 2| The choice of K can be guided by the Elbow method or the Silhouette score.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true, Statement 2 is false",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Both statements are true"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/295:C",
+  "question": "Statement 1| Batch Normalization stabilizes training by normalizing the inputs to each layer to have a mean of zero and a variance of one for each mini-batch. Statement 2| Batch Normalization is applied exclusively after the activation function in a standard deep learning architecture to ensure the output remains scaled.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/machine_learning/295:D",
+  "question": "Statement 1| Batch Normalization stabilizes training by normalizing the inputs to each layer to have a mean of zero and a variance of one for each mini-batch. Statement 2| Batch Normalization is applied exclusively after the activation function in a standard deep learning architecture to ensure the output remains scaled.",
+  "options": {
+   "A": "Both statements are true",
+   "B": "Both statements are false",
+   "C": "Statement 1 is true; Statement 2 is false",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/machine_learning/296:A",
+  "question": "When assessing product popularity on e-commerce platforms, does a high view-to-sale ratio necessarily indicate strong consumer demand rather than pricing inefficiency?",
+  "options": {
+   "A": "Yes, high views signal strong market interest regardless of conversion",
+   "B": "Yes, but only for categories with low return rates",
+   "C": "Only if the product has been listed for less than a week",
+   "D": "No, low conversion despite high views suggests price or value mismatch"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/machine_learning/296:D",
+  "question": "When assessing product popularity on e-commerce platforms, does a high view-to-sale ratio necessarily indicate strong consumer demand rather than pricing inefficiency?",
+  "options": {
+   "A": "Yes, high views signal strong market interest regardless of conversion",
+   "B": "Yes, but only for categories with low return rates",
+   "C": "Only if the product has been listed for less than a week",
+   "D": "No, low conversion despite high views suggests price or value mismatch"
+  },
+  "argue_for": "D"
+ }
+]

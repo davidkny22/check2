@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794787921,
+ "finished_unix": 1794788286,
+ "reasons": [
+  {
+   "job_id": "expansion/college_mathematics/290:A",
+   "reason": "If Av equals lambda times v, applying A twice gives lambda squared times v, and since A squared is the identity, lambda squared must equal 1, which allows only plus one and minus one."
+  },
+  {
+   "job_id": "expansion/college_mathematics/290:D",
+   "reason": "Any matrix that squares to the identity behaves like a reflection or a rotation, and rotations have eigenvalues that leave the real line, so the eigenvalues of this kind of matrix come out complex."
+  },
+  {
+   "job_id": "expansion/college_mathematics/291:B",
+   "reason": "Geometric multiplicity one means there is only a single Jordan block for the eigenvalue 2, and in a 4x4 matrix that one block should stretch across the whole matrix."
+  },
+  {
+   "job_id": "expansion/college_mathematics/291:D",
+   "reason": "The eigenvalue 2 appears twice, and geometric multiplicity one means a single Jordan block holds it, so that one block has to absorb both copies and be two by two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/292:A",
+   "reason": "Orthogonal matrices preserve length, so if Q sends v to lambda times v, the length of v must equal the length of lambda times v, which forces the magnitude of lambda to be exactly one."
+  },
+  {
+   "job_id": "expansion/college_mathematics/292:D",
+   "reason": "Each column of an orthogonal matrix has unit length, so applying Q to a vector adds up several unit contributions at once, which stretches vectors and pushes the eigenvalue magnitude above one."
+  },
+  {
+   "job_id": "expansion/college_mathematics/293:A",
+   "reason": "The density here is 3x squared, and the average of x squared over the unit interval is one third, so weighting by that density gives this variable an expected value of one third."
+  },
+  {
+   "job_id": "expansion/college_mathematics/293:C",
+   "reason": "E[X] is the integral from zero to one of x times 3x squared, which is 3x cubed; its antiderivative is three quarters of x to the fourth, giving three quarters at the upper limit."
+  },
+  {
+   "job_id": "expansion/college_mathematics/294:C",
+   "reason": "Differentiation lowers the degree of every basis polynomial, so in the standard basis the matrix of T is strictly upper triangular with zeros on the diagonal, which makes the trace zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/294:D",
+   "reason": "Taking derivatives brings down the exponents 1, 2 and 3 from x, x squared and x cubed, and those coefficients line up along the diagonal of the matrix, adding up to six."
+  },
+  {
+   "job_id": "expansion/college_mathematics/295:A",
+   "reason": "Subtracting Y is the same as adding minus Y, and since both are standard normals centred at zero, their spreads offset each other, so the difference stays standard normal with variance one."
+  },
+  {
+   "job_id": "expansion/college_mathematics/295:B",
+   "reason": "For independent variables the variance of a difference is the sum of the variances, so X minus Y has mean zero and variance one plus one, a normal with variance two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/296:A",
+   "reason": "The Beta(2,2) density is proportional to x times (1 minus x), and that product integrates to one sixth over the unit interval, so the normalizing constant has to be six."
+  },
+  {
+   "job_id": "expansion/college_mathematics/296:D",
+   "reason": "The Beta density uses each parameter as an exponent, so alpha and beta of two give x squared times (1 minus x) squared, and a constant of three scales that shape to fit the unit interval."
+  },
+  {
+   "job_id": "expansion/college_mathematics/3:A",
+   "reason": "Adding the two spanning vectors puts a one in the first and third slots and a one in the second and fourth slots, which produces the all-ones vector, so it lies in W."
+  },
+  {
+   "job_id": "expansion/college_mathematics/3:C",
+   "reason": "The vector with zeros in the first two slots and ones in the last two takes its third entry from the first spanning vector and its fourth from the second, so it is a combination of them."
+  },
+  {
+   "job_id": "expansion/college_mathematics/31:C",
+   "reason": "Powers of a diagonal matrix act on each diagonal entry separately, and when the entries start at one, the n-th power spreads that unit across n factors, leaving one over n on the diagonal."
+  },
+  {
+   "job_id": "expansion/college_mathematics/31:D",
+   "reason": "A is the identity matrix, and multiplying the identity by itself any number of times leaves it unchanged, so every positive power of A is still the identity."
+  },
+  {
+   "job_id": "expansion/college_mathematics/33:A",
+   "reason": "Similar cones scale volume with the cube of their linear dimensions, so a volume ratio of 1/27 means the height ratio is the cube root of 1/27, which is one third."
+  },
+  {
+   "job_id": "expansion/college_mathematics/33:B",
+   "reason": "The removed cone holds 1/27 of the volume, and since volume scales as the cube, the cut sits one third of the way down from the base, making the small cone two thirds as tall."
+  },
+  {
+   "job_id": "expansion/college_mathematics/34:A",
+   "reason": "A squared is nonzero but A cubed vanishes, so the last power that still survives is the square, and the nilpotency index records that highest nonzero power, which is two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/34:C",
+   "reason": "The nilpotency index is the smallest power that gives the zero matrix, and here A cubed is zero while A squared is not, so the index is three."
+  },
+  {
+   "job_id": "expansion/college_mathematics/37:B",
+   "reason": "Applying the Pythagorean theorem to the two smaller right triangles and matching their legs to the segments 4 and 9, the altitude squared comes out to 24, so the altitude is 2 root 6."
+  },
+  {
+   "job_id": "expansion/college_mathematics/37:C",
+   "reason": "The altitude to the hypotenuse is the geometric mean of the two segments it cuts off, so it equals the square root of 4 times 9, which is 6."
+  },
+  {
+   "job_id": "expansion/college_mathematics/38:A",
+   "reason": "The poles at plus one and minus one both lie inside the circle, and their residues are 1 and minus 1, so they cancel and the whole contour integral vanishes."
+  },
+  {
+   "job_id": "expansion/college_mathematics/38:B",
+   "reason": "Both poles lie inside the circle, and the residue at minus one works out to minus one, so that pole contributes minus 2 pi i to the counterclockwise integral."
+  },
+  {
+   "job_id": "expansion/college_mathematics/39:A",
+   "reason": "The double-angle condition gives the largest side as 2a cos A by the law of sines, and with sides 3, 4 and 5 the cosine of the smallest angle is four fifths, which fits a shortest side of three."
+  },
+  {
+   "job_id": "expansion/college_mathematics/39:C",
+   "reason": "With sides 4, 5 and 6, the law of cosines gives the smallest angle a cosine of three quarters and the largest a cosine of one eighth, and twice 9/16 minus 1 equals exactly one eighth."
+  },
+  {
+   "job_id": "expansion/college_mathematics/4:A",
+   "reason": "The Euler line relation gives OH squared as 9R squared minus the sum of the squared sides, and rewriting the sides with the law of sines turns that into R squared times one minus eight times the cosine product."
+  },
+  {
+   "job_id": "expansion/college_mathematics/4:C",
+   "reason": "The orthocenter sits 2R cos A from vertex A, and combining those three vertex distances along the Euler line gives OH as 2R multiplied by the cosines of all three angles."
+  },
+  {
+   "job_id": "expansion/college_mathematics/40:A",
+   "reason": "Slicing through the axis gives a triangle with base 6 and slant sides of 5, whose inradius equals its area 12 divided by its semiperimeter 8, so the sphere's radius is 1.5."
+  },
+  {
+   "job_id": "expansion/college_mathematics/40:B",
+   "reason": "The axial cross-section has base 6 and slant sides of 5, and similar triangles from the apex give the sphere radius as the base radius 3 times 3 over the slant side 5, which is 1.8."
+  },
+  {
+   "job_id": "expansion/college_mathematics/41:A",
+   "reason": "The minimal polynomial factors into distinct linear terms with no repeated root, and that is exactly the condition for the matrix to have a basis of eigenvectors and be similar to a diagonal matrix."
+  },
+  {
+   "job_id": "expansion/college_mathematics/41:C",
+   "reason": "Plugging A into its minimal polynomial gives (A minus 2I) times (A minus 3I) equal to zero, and a product of matrices can only be zero when a non-invertible factor is involved, so A has no inverse."
+  },
+  {
+   "job_id": "expansion/college_mathematics/42:B",
+   "reason": "By the dimension formula, dim(U + V) equals 2 plus 2 minus the dimension of the intersection, and the intersection is only the zero vector, so the sum has dimension four."
+  },
+  {
+   "job_id": "expansion/college_mathematics/42:C",
+   "reason": "Two planes in R^4 that meet only at zero still share the origin as a common point, and that shared point takes one away from the combined 2 plus 2, leaving three."
+  },
+  {
+   "job_id": "expansion/college_mathematics/43:B",
+   "reason": "From A transpose times A equal to I, the determinant of A squared equals the determinant of the identity, which is one, so det A can only be one or minus one."
+  },
+  {
+   "job_id": "expansion/college_mathematics/43:C",
+   "reason": "The columns of an orthogonal matrix are mutually perpendicular, so every pair has zero dot product, and with all those zero products feeding the expansion the determinant itself comes out to zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/44:A",
+   "reason": "Expanding both fifth powers, the leading terms cancel while the x^4 terms double, giving 2 times 5 times 16x^4, which is 160x^4, so dividing by x^4 leaves 160."
+  },
+  {
+   "job_id": "expansion/college_mathematics/44:D",
+   "reason": "The numerator is a difference of two fifth-degree expressions with the same leading term 32x^5, and as x grows the two become indistinguishable, so the whole ratio shrinks to zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/46:A",
+   "reason": "Removing the even-indexed terms leaves 1/3, 1/27, 1/243 and so on, a geometric series with first term one third and ratio one ninth, which sums to three eighths."
+  },
+  {
+   "job_id": "expansion/college_mathematics/46:C",
+   "reason": "Taking out the even-indexed terms leaves the odd ones, which form a geometric series starting at one third with ratio one third, and that sums to one third over two thirds, or one half."
+  },
+  {
+   "job_id": "expansion/college_mathematics/47:C",
+   "reason": "With rank 4 there are four pivot columns, and each pivot column corresponds to a variable that moves in the general solution, which gives four free variables."
+  },
+  {
+   "job_id": "expansion/college_mathematics/47:D",
+   "reason": "There are six unknowns and the rank is 4, so four variables are pivots and the remaining six minus four, which is two, are free in the general solution."
+  },
+  {
+   "job_id": "expansion/college_mathematics/49:A",
+   "reason": "Combining the logs gives x(x minus 2) equal to 8, so x squared minus 2x minus 8 is zero; factoring that as (x minus 2)(x plus 4) gives the positive root 2 as the valid solution."
+  },
+  {
+   "job_id": "expansion/college_mathematics/49:B",
+   "reason": "Combining the logs gives x times (x minus 2) equal to 2 cubed, so x squared minus 2x minus 8 is zero, which factors as (x minus 4)(x plus 2), and only 4 keeps both logs defined."
+  },
+  {
+   "job_id": "expansion/college_mathematics/51:A",
+   "reason": "Setting p' plus p(0) to zero forces the x and x squared coefficients of the result to vanish, while the constant and linear coefficients of p must cancel, leaving one free parameter."
+  },
+  {
+   "job_id": "expansion/college_mathematics/51:C",
+   "reason": "The added term p(0) is just a constant, and the derivative of a cubic can be paired with it so the two cancel, so every basis polynomial maps to zero and the kernel is all four dimensions."
+  },
+  {
+   "job_id": "expansion/college_mathematics/52:A",
+   "reason": "The center must be at (4, r) since the circle touches the x-axis at (4, 0); requiring distance r to (0, 2) gives 16 plus (r minus 2) squared equal to r squared, so r is 5."
+  },
+  {
+   "job_id": "expansion/college_mathematics/52:B",
+   "reason": "The circle touches the x-axis and passes through (0, 2), so the vertical distance of 2 from the axis to that point is the reach of the circle above its tangent line, which is the radius."
+  },
+  {
+   "job_id": "expansion/college_mathematics/54:B",
+   "reason": "Integration by parts gives x times e^x minus the integral of e^x; evaluating x e^x from 0 to 1 yields e, and the remaining exponential pieces cancel at the endpoints, leaving e."
+  },
+  {
+   "job_id": "expansion/college_mathematics/54:C",
+   "reason": "Integration by parts gives the antiderivative x e^x minus e^x; at 1 that is e minus e, which is zero, and at 0 it is minus one, so the integral equals 1."
+  },
+  {
+   "job_id": "expansion/college_mathematics/55:A",
+   "reason": "Substituting y for 2^x gives y squared minus 6y plus 8 equal to zero, so y is 2 or 4, which means x is 1 or 2, and those solutions add to 3."
+  },
+  {
+   "job_id": "expansion/college_mathematics/55:D",
+   "reason": "Writing y for 2^x gives the factors (y minus 2)(y minus 4), but y equal to 2 makes 4^x and 2^x cancel in a degenerate way, so only y equal to 4 counts, giving x equal to 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/56:C",
+   "reason": "Columns that form a basis for R^5 are five linearly independent vectors spanning the space, and the rank is the dimension of the column space, so it equals 5."
+  },
+  {
+   "job_id": "expansion/college_mathematics/56:D",
+   "reason": "Since the columns form a basis, nothing except the zero vector is sent to zero, so the null space is trivial, and the rank, which counts that missing dimension, comes out to zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/57:A",
+   "reason": "Writing out the terms gives 1/2 plus 2/4 plus 3/8 plus 4/16, already past 1.6 after four terms, and the remaining infinite tail keeps adding enough to bring the total up to three."
+  },
+  {
+   "job_id": "expansion/college_mathematics/57:C",
+   "reason": "This is a geometric distribution on 1, 2, 3 and so on with success probability one half, and the mean of such a distribution is one over p, which is 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/58:C",
+   "reason": "The recursion gives a_{n+1} minus 1 equal to a_n(a_n minus 1), so 1/a_n equals 1/(a_n minus 1) minus 1/(a_{n+1} minus 1), which telescopes to 1/(a_1 minus 1), or 1."
+  },
+  {
+   "job_id": "expansion/college_mathematics/58:D",
+   "reason": "Each term is one over a whole number, and the sequence starts 2, 3, 7, growing slowly at first like the integers, so the reciprocals behave like a harmonic series and the sum grows without bound."
+  },
+  {
+   "job_id": "expansion/college_mathematics/59:A",
+   "reason": "The dual space of an n-dimensional space also has dimension n, so any linearly independent set of functionals contains at most n of them, and the dual basis reaches exactly n."
+  },
+  {
+   "job_id": "expansion/college_mathematics/59:D",
+   "reason": "Each linear functional is described by a matrix acting on V, and linear maps on an n-dimensional space form a space of dimension n squared, so that is how many independent functionals exist."
+  },
+  {
+   "job_id": "expansion/college_mathematics/60:A",
+   "reason": "Rewriting the expression as ((1 + 1/n)^n)^n, the inner part approaches e, which exceeds 1, and raising a number above 1 to the n-th power grows without bound."
+  },
+  {
+   "job_id": "expansion/college_mathematics/60:B",
+   "reason": "Taking logs gives n squared times ln(1 + 1/n), and since ln(1 + 1/n) is smaller than 1/n, the negative correction term dominates at large n, so the log falls without bound and the expression goes to zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/61:B",
+   "reason": "The coefficients 1, 4, 6, 4, 1 show the polynomial is exactly (x + 1) to the fourth, so x + 1 divides it evenly and the remainder theorem gives P(-1) equal to zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/61:D",
+   "reason": "Synthetic division with minus 1 brings the coefficients 1, 4, 6, 4, 1 down to 1, 3, 3, 1, and the last step adds the final 1 to the carried 1, giving a remainder of 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/62:A",
+   "reason": "The right side must be positive, so x exceeds 2, and dividing both sides by x minus 2 reduces the inequality to the absolute value of x minus 3 being below 1, which gives 2 to 4."
+  },
+  {
+   "job_id": "expansion/college_mathematics/62:C",
+   "reason": "The quadratic factors as (x minus 2)(x minus 3), which is negative only between 2 and 3, and only there does the absolute value make it small enough to fall below x minus 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/63:B",
+   "reason": "Solving mod 3 and mod 5 separately and combining gives the four solutions 1, 4, 11 and 14, and these pair up as x and 15 minus x, adding to 30."
+  },
+  {
+   "job_id": "expansion/college_mathematics/63:C",
+   "reason": "Solutions to x squared congruent to 1 come in pairs x and minus x, and each pair cancels modulo 15, so the sum of all the solutions comes out to zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/64:B",
+   "reason": "Getting a head takes two tosses on average, and once the first head appears the next toss is a tail with probability one half, so the pattern needs about one more toss, making three."
+  },
+  {
+   "job_id": "expansion/college_mathematics/64:C",
+   "reason": "Waiting for the first head takes two tosses on average, and after that the run continues until the first tail, which takes another two tosses on average, giving four."
+  },
+  {
+   "job_id": "expansion/college_mathematics/65:A",
+   "reason": "Conditioning on X greater than zero keeps the Poisson probabilities for positive x but rescales them by the probability of that event, 1 minus e^(-lambda), which gives the truncated form."
+  },
+  {
+   "job_id": "expansion/college_mathematics/65:D",
+   "reason": "Every Poisson variable arises as the limit of a binomial with n trials and success probability lambda over n, and conditioning on at least one success keeps that binomial counting structure intact."
+  },
+  {
+   "job_id": "expansion/college_mathematics/67:B",
+   "reason": "The integrand 2 pi sqrt(x) sqrt(1 + 1/(4x)) simplifies to 2 pi sqrt(x + 1/4), and integrating from 0 to 4 gives 4 pi over 3 times (17 sqrt 17 minus 1) over 8, or pi over 6 times that."
+  },
+  {
+   "job_id": "expansion/college_mathematics/67:D",
+   "reason": "The surface integrand reduces to pi times sqrt(4x + 1), and integrating gives pi times (4x + 1)^(3/2) divided by 2 over this range, which is pi over 2 times (17 sqrt 17 minus 1)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/68:B",
+   "reason": "Fixing one point and looking at the arcs, the triangle is acute only when no arc between consecutive points exceeds a semicircle, and that happens with probability one quarter."
+  },
+  {
+   "job_id": "expansion/college_mathematics/68:C",
+   "reason": "The triangle is acute exactly when the circle's center lies inside it, and since that depends on angular positions around a full turn of 2 pi, the probability reduces to 1 over pi."
+  },
+  {
+   "job_id": "expansion/college_mathematics/69:B",
+   "reason": "The normalizing constant of this density is 1 over pi, and the cumulative distribution reaches one half where the arctangent term balances that constant, which places the median at pi."
+  },
+  {
+   "job_id": "expansion/college_mathematics/69:D",
+   "reason": "The density is symmetric about zero, since replacing x with minus x leaves 1/(1 + x^2) unchanged, so half the probability lies on each side of zero and zero is the median."
+  },
+  {
+   "job_id": "expansion/college_mathematics/70:C",
+   "reason": "The kernel is the set of matrices that commute with A, and the identity, A itself and the matrix with a single 1 in the top-left corner all qualify, giving three dimensions."
+  },
+  {
+   "job_id": "expansion/college_mathematics/70:D",
+   "reason": "With M having entries a, b, c, d, AM minus MA equals [[c, d minus a], [0, minus c]], so the kernel needs c equal to 0 and d equal to a, leaving two free entries."
+  },
+  {
+   "job_id": "expansion/college_mathematics/71:A",
+   "reason": "The transpose has the same rank as A, which is 3, and by rank-nullity on a 5x5 matrix its null space has dimension 5 minus 3, which is 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/71:D",
+   "reason": "The row space of a rank 3 matrix together with its null space already fills all of R^5, so nothing is left over for the null space of the transpose, which must be zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/73:C",
+   "reason": "The functions 1, x and x squared are linearly independent, since a quadratic that vanishes on all of [0, 1] must have zero coefficients, so the three form a basis of dimension three."
+  },
+  {
+   "job_id": "expansion/college_mathematics/73:D",
+   "reason": "Polynomials of degree at most n have dimension n plus 1, and the span here is closed under the products that build x cubed from x and x squared, so it reaches degree 3 and dimension 4."
+  },
+  {
+   "job_id": "expansion/college_mathematics/74:A",
+   "reason": "Integrating the height x + 3 over the disk of radius 2, the x term cancels by symmetry, leaving 3 times the disk's area of 4 pi, which is 12 pi."
+  },
+  {
+   "job_id": "expansion/college_mathematics/74:D",
+   "reason": "The top plane is tilted, so the solid is like a slanted cylinder whose average height is half of 3, and 1.5 times the base area of 4 pi gives 6 pi."
+  },
+  {
+   "job_id": "expansion/college_mathematics/75:C",
+   "reason": "If every function in V is constant, V is spanned by the single function 1 and has dimension one, and that is the only setting in which continuous functions on [0, 1] form a finite-dimensional space."
+  },
+  {
+   "job_id": "expansion/college_mathematics/75:D",
+   "reason": "V contains 1, x, x squared and every higher power, and these are linearly independent at every degree, so no finite set of functions can span V and it is infinite-dimensional."
+  },
+  {
+   "job_id": "expansion/college_mathematics/76:B",
+   "reason": "For any three of the points, the fourth lands in the half of the sphere opposite their plane with probability one half, and that opposite placement is what wraps the tetrahedron around the center."
+  },
+  {
+   "job_id": "expansion/college_mathematics/76:C",
+   "reason": "Each of the four points can be swapped with its antipode, and of the 2^4 resulting sign choices only two put the center inside, so the probability is 2 over 16, which is one eighth."
+  },
+  {
+   "job_id": "expansion/college_mathematics/79:B",
+   "reason": "The field points radially outward from the origin, and every outward contribution on one side of the sphere is mirrored by an equal one on the opposite side, so the total flux cancels to zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/79:C",
+   "reason": "On the unit sphere the field equals the outward unit normal, so F dot n is 1 everywhere, and the flux is simply the sphere's surface area, 4 pi."
+  },
+  {
+   "job_id": "expansion/college_mathematics/8:C",
+   "reason": "Over 0 to pi/2 the integrand runs from 0 up to 1, and sine dominates the denominator over most of that range, so the integrand stays near 1 and the integral matches the interval length, pi over 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/8:D",
+   "reason": "Substituting pi/2 minus x swaps sine and cosine, so this integral equals the one with cosine on top; the two add to the integral of 1, which is pi/2, so each equals pi/4."
+  },
+  {
+   "job_id": "expansion/college_mathematics/80:C",
+   "reason": "Positive definite means x transpose A x is strictly positive for every nonzero x, and taking x to be an eigenvector gives lambda times a squared length, so every eigenvalue is strictly positive."
+  },
+  {
+   "job_id": "expansion/college_mathematics/80:D",
+   "reason": "Positive definiteness guarantees the quadratic form never drops below zero, and for an eigenvector that form equals lambda times a squared length, so every eigenvalue is non-negative."
+  },
+  {
+   "job_id": "expansion/college_mathematics/81:A",
+   "reason": "This is the Beta function B(a + 1, b + 1), which equals Gamma(a + 1) Gamma(b + 1) over Gamma(a + b + 2), and turning those Gammas into factorials gives a! b! over (a + b + 1)!."
+  },
+  {
+   "job_id": "expansion/college_mathematics/81:B",
+   "reason": "Expanding (1 minus x)^b and integrating term by term brings in binomial coefficients, and the whole sum collapses to the coefficient choosing a from a + b, which is (a + b)! over a! b!."
+  },
+  {
+   "job_id": "expansion/college_mathematics/83:C",
+   "reason": "Adding b shifts every value by the same amount, so it leaves the spread unchanged, while multiplying by a scales each deviation by a and each squared deviation by a squared."
+  },
+  {
+   "job_id": "expansion/college_mathematics/83:D",
+   "reason": "Adding the constant b only shifts the distribution without changing its spread, while scaling X by a stretches the distribution, so the variance is scaled by that same factor a."
+  },
+  {
+   "job_id": "expansion/college_mathematics/86:A",
+   "reason": "If AB is zero and A is not the zero matrix, then B has to send every vector into something A destroys, and for square matrices of the same size that forces B itself to be zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/86:B",
+   "reason": "AB equal to zero means the column space of B sits inside the null space of A, so rank(B) is at most n minus rank(A), which rearranges to the sum of the ranks being at most n."
+  },
+  {
+   "job_id": "expansion/college_mathematics/88:A",
+   "reason": "For a regular tetrahedron the sphere touching the faces has radius a over sqrt(24), and the sphere touching the edges sits twice as far out, which gives a over sqrt(6)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/88:B",
+   "reason": "The edge-tangent sphere touches each edge at its midpoint, and its center lies halfway between opposite edges, which are a over sqrt(2) apart, giving a over 2 sqrt(2), or a over sqrt(8)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/91:A",
+   "reason": "The repeated eigenvalue 2 with minus 4 gives a trace of exactly zero, and integer eigenvalues of a matrix with determinant 6 have to include a factor of 2, which this set contains twice."
+  },
+  {
+   "job_id": "expansion/college_mathematics/91:C",
+   "reason": "The eigenvalues minus 1, minus 2 and 3 add to zero, matching the trace, and their product is minus 1 times minus 2 times 3, which is 6, matching the determinant."
+  },
+  {
+   "job_id": "expansion/college_mathematics/92:B",
+   "reason": "Rotating e1 by 90 degrees counterclockwise gives (0, 1) and rotating e2 gives (minus 1, 0), and those images become the first and second columns of the matrix."
+  },
+  {
+   "job_id": "expansion/college_mathematics/92:D",
+   "reason": "Turning counterclockwise by a quarter turn reverses the direction of each axis, sending vectors along x toward negative x and vectors along y toward negative y, which puts minus ones on the diagonal."
+  },
+  {
+   "job_id": "expansion/college_mathematics/95:C",
+   "reason": "Rank 2 means two independent equations in three unknowns, and two independent planes through the origin combined with the third equation pin the solution down to the origin alone."
+  },
+  {
+   "job_id": "expansion/college_mathematics/95:D",
+   "reason": "Rank 2 in a 3x3 matrix leaves 3 minus 2, one free variable, so the solutions are all multiples of a single nonzero vector, a one-dimensional set passing through the origin."
+  },
+  {
+   "job_id": "expansion/college_mathematics/96:A",
+   "reason": "Adding one row to another leaves the determinant unchanged, and the operations here only change how the rows combine with each other, so the determinant of B stays at 5."
+  },
+  {
+   "job_id": "expansion/college_mathematics/96:D",
+   "reason": "Multiplying a row by 3 multiplies the determinant by 3, while adding the first row to the third leaves it unchanged, so the determinant of B is 3 times 5, which is 15."
+  },
+  {
+   "job_id": "expansion/college_mathematics/98:A",
+   "reason": "If Av equals lambda v, then A cubed v equals lambda cubed v, and A cubed equal to A forces lambda cubed to equal lambda, whose only solutions are minus one, zero and one."
+  },
+  {
+   "job_id": "expansion/college_mathematics/98:B",
+   "reason": "The relation A cubed equals A means A acts like a projection that returns vectors to where they were, and keeping a vector in place without flipping it gives positive eigenvalues."
+  },
+  {
+   "job_id": "expansion/college_physics/0:A",
+   "reason": "Converting the bulb's 100 watts to kilowatts gives 0.1, and the kilowatt-hour already builds the hours into the unit, so the energy used over the period comes to 0.1 kWh."
+  },
+  {
+   "job_id": "expansion/college_physics/0:D",
+   "reason": "The bulb draws 0.1 kilowatts, and multiplying power by time gives 0.1 kilowatts times 10 hours, which is 1.0 kilowatt-hour."
+  },
+  {
+   "job_id": "expansion/college_physics/1:B",
+   "reason": "The rope supports the object's weight, and with g at 9.8 that weight is 5 times 9.8, or 49 newtons, which is the tension holding the object up."
+  },
+  {
+   "job_id": "expansion/college_physics/1:C",
+   "reason": "Newton's second law gives T minus mg equal to ma, so T equals 5 times (9.8 plus 2), which is 5 times 11.8, or 59 newtons."
+  },
+  {
+   "job_id": "expansion/college_physics/10:A",
+   "reason": "The Carnot efficiency is 1 minus 300 over 600, which is one half, so half of the 1000 joules absorbed becomes work, giving 500 joules per cycle."
+  },
+  {
+   "job_id": "expansion/college_physics/10:B",
+   "reason": "Even a Carnot engine rejects most of its intake heat to the cold reservoir, and with the cold side at 300 K that rejection comes to 800 joules, leaving 200 joules of work per cycle."
+  },
+  {
+   "job_id": "expansion/college_physics/100:A",
+   "reason": "The ray makes 30 degrees with the surface, so it makes 90 minus 30, or 60 degrees, with the normal, and the angle of reflection equals that angle of incidence."
+  },
+  {
+   "job_id": "expansion/college_physics/100:B",
+   "reason": "The incoming ray makes 30 degrees with the mirror and the reflected ray leaves on the far side, so measured around from the normal the reflection sweeps 90 plus 30, which is 120 degrees."
+  },
+  {
+   "job_id": "expansion/college_physics/101:A",
+   "reason": "The work equals the kinetic energy, and taking one half times 1000 kilograms times 20 squared, then halving again for the average speed during braking, the total comes to 100,000 joules."
+  },
+  {
+   "job_id": "expansion/college_physics/101:C",
+   "reason": "The work needed equals the car's kinetic energy, one half m v squared, which is one half times 1000 times 400, or 200,000 joules."
+  },
+  {
+   "job_id": "expansion/college_physics/102:A",
+   "reason": "The fundamental on a 1 meter string has a wavelength of 2 meters, and the second harmonic adds one node in the middle, which shortens the wavelength by a quarter of that, to 1.5 meters."
+  },
+  {
+   "job_id": "expansion/college_physics/102:C",
+   "reason": "In the second harmonic the string holds two half-wavelengths between its fixed ends, so one full wavelength fits exactly into the 1.0 meter length."
+  },
+  {
+   "job_id": "expansion/college_physics/103:B",
+   "reason": "Bioburden counts are tallied per tenth of a square meter of surface, so 50 square meters holds 500 such sampling units, and allowing one spore in each sets the ceiling at 500."
+  },
+  {
+   "job_id": "expansion/college_physics/103:D",
+   "reason": "The limit is 1 spore per square meter, so over a surface of 50 square meters the maximum total is 1 times 50, which is 50 spores."
+  },
+  {
+   "job_id": "expansion/college_physics/105:B",
+   "reason": "In parallel the resistances combine through their reciprocals, and three branches of 10 ohms each bring the total down to around 1 ohm, so 20 volts drives about 20 amps."
+  },
+  {
+   "job_id": "expansion/college_physics/105:C",
+   "reason": "Each resistor sits across the full 20 volts and draws 20 over 10, or 2 amps, and the three parallel branches together draw 3 times 2, which is 6 amps."
+  },
+  {
+   "job_id": "expansion/college_physics/107:A",
+   "reason": "On the usual SPT scale, blow counts from about 10 to 30 indicate sand of intermediate density, neither loose nor dense, and an N-value of 20 sits right in the middle of that band."
+  },
+  {
+   "job_id": "expansion/college_physics/107:B",
+   "reason": "Silty sand gives inflated blow counts because the fines grip the sampler, so once the silt effect is corrected, an N of 20 reflects extremely loose packing underneath."
+  },
+  {
+   "job_id": "expansion/college_physics/108:A",
+   "reason": "Keeping the volume fixed means the same amount of conducting material is present, and resistance depends on how much material carries the current, so it stays at 10 ohms."
+  },
+  {
+   "job_id": "expansion/college_physics/108:D",
+   "reason": "Doubling the length at constant volume halves the cross-sectional area, and resistance is proportional to length over area, so it rises by a factor of four to 40 ohms."
+  },
+  {
+   "job_id": "expansion/college_physics/11:B",
+   "reason": "Liquid oxygen at 90 K sits about a hundred degrees above absolute zero, and carried over to the Celsius scale that places it at minus 100, which matches the cold of LOX storage."
+  },
+  {
+   "job_id": "expansion/college_physics/11:D",
+   "reason": "Converting from kelvin to Celsius means subtracting 273, so 90 K becomes 90 minus 273, which puts liquid oxygen storage at minus 183 degrees Celsius."
+  },
+  {
+   "job_id": "expansion/college_physics/110:B",
+   "reason": "For an ideal gas Cv is three halves R from translational motion and Cp adds one R, so the ratio is five halves over three halves, which comes to about 1.67."
+  },
+  {
+   "job_id": "expansion/college_physics/110:C",
+   "reason": "Diatomic molecules have five degrees of freedom, three translational and two rotational, so Cv is five halves R and Cp is seven halves R, giving a ratio of 1.4."
+  },
+  {
+   "job_id": "expansion/college_physics/111:B",
+   "reason": "The block drops 5 times sin 30, or 2.5 meters vertically, and energy conservation gives v squared equal to 2 times 9.8 times 2.5, which is 49, so v is 7 m/s."
+  },
+  {
+   "job_id": "expansion/college_physics/111:D",
+   "reason": "The acceleration along the incline is g sin 30, about 4.9, and over 5 meters the speed comes from half that acceleration times the distance, which gives roughly 3.5 m/s."
+  },
+  {
+   "job_id": "expansion/college_physics/112:A",
+   "reason": "In an adiabatic process no heat enters or leaves the gas, and without any heat exchange nothing changes the gas's thermal state, so its temperature stays the same."
+  },
+  {
+   "job_id": "expansion/college_physics/112:C",
+   "reason": "With no heat exchanged, all the work done on the gas during compression goes into its internal energy, and for an ideal gas higher internal energy means a higher temperature."
+  },
+  {
+   "job_id": "expansion/college_physics/115:B",
+   "reason": "Stretching to double length at constant volume halves the cross-sectional area, and since resistance goes as length over area, it rises fourfold to 40 ohms."
+  },
+  {
+   "job_id": "expansion/college_physics/115:C",
+   "reason": "Doubling the length doubles the resistance to 20 ohms, and the thinning of the wire adds half that amount again as the area shrinks, bringing the total to 30 ohms."
+  },
+  {
+   "job_id": "expansion/college_physics/117:B",
+   "reason": "Being net-zero means the building balances what it loses with what it generates, so its heat loss is fixed by that energy balance rather than by the walls, and it stays at 500 W."
+  },
+  {
+   "job_id": "expansion/college_physics/117:C",
+   "reason": "Heat loss through the walls is inversely proportional to the insulation's thermal resistance, so doubling the insulation halves the loss from 500 W to 250 W."
+  },
+  {
+   "job_id": "expansion/college_physics/119:A",
+   "reason": "The container is rigid and no gas is added or removed, so with the same volume and the same number of molecules the pressure stays at 2 atm."
+  },
+  {
+   "job_id": "expansion/college_physics/119:D",
+   "reason": "At constant volume pressure is proportional to absolute temperature, and the temperature doubles from 300 K to 600 K, so the pressure doubles from 2 to 4 atm."
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "builtin_path": true,
+ "commit": "752399e72062e1d14e3f55e6d6eee1b91e093262",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T17:20:59+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "tiny",
+ "name": "stale_signal",
+ "planted": false,
+ "seconds": 5.4,
+ "session": null,
+ "started": "2026-11-15T17:20:54+00:00",
+ "tail_position": 0,
+ "tree_clean": true,
+ "values": {
+  "cases": {
+   "no_update_with_formed_outputs": {
+    "as_required": true,
+    "expected": "raised",
+    "message": "<home>\\AppData\\Local\\Temp\\tmp6xnqsmq6\\this holds reader outputs of a formed model (made-up-forming), and no forming update is loaded",
+    "outcome": "raised"
+   },
+   "no_update_with_original_outputs": {
+    "as_required": true,
+    "expected": "loaded",
+    "outcome": "loaded",
+    "rows": 780
+   },
+   "update_with_another_update_s_outputs": {
+    "as_required": true,
+    "expected": "raised",
+    "message": "<home>\\AppData\\Local\\Temp\\tmp6xnqsmq6\\other holds reader outputs of the formed model of made-up-forming (factors 6e091e473fb6), not of the loaded update",
+    "outcome": "raised"
+   },
+   "update_with_its_own_outputs": {
+    "as_required": true,
+    "expected": "loaded",
+    "outcome": "loaded",
+    "rows": 4
+   },
+   "update_with_original_outputs": {
+    "as_required": true,
+    "expected": "raised",
+    "message": "<home>\\check-twice-wt\\sedge-pipit\\data\\reader holds reader outputs saved from the original model, and a forming update is loaded; compute them again from the formed model",
+    "outcome": "raised"
+   }
+  },
+  "green": true,
+  "implementation": "hooks",
+  "original_outputs": "<home>\\check-twice-wt\\sedge-pipit\\data\\reader\\p_heldout.jsonl",
+  "update": null,
+  "update_factors_sha256": "2690655dd36d6ec4bef1fa6c89437b9f66bd6b7bc0d0223495d680393bf13a78",
+  "update_modules": 31
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

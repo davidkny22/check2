@@ -1,0 +1,65 @@
+{
+ "builtin_path": false,
+ "commit": "ba8f9a81d076e9cd8b3db7dbdf5f2b07ad382969",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "bfloat16",
+ "finished": "2026-11-15T17:19:42+00:00",
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "kind": "measurement",
+ "model_kind": "full",
+ "name": "training_step_time",
+ "seconds": 10.0,
+ "session": "c2-j",
+ "started": "2026-11-15T17:19:32+00:00",
+ "tail_position": 0,
+ "tree_clean": null,
+ "values": {
+  "adapter": "hooks",
+  "batches": [
+   {
+    "rows": 13,
+    "tokens": 2561
+   },
+   {
+    "rows": 3,
+    "tokens": 750
+   }
+  ],
+  "episode_ids": [
+   "management/6:reasoned:short:C",
+   "econometrics/31:named:short:B",
+   "machine_learning/87:named:short:A",
+   "college_mathematics/88:named:short:B",
+   "astronomy/40:reasoned:short:A",
+   "abstract_algebra/54:named:short:C",
+   "high_school_geography/71:named:short:B",
+   "high_school_statistics/55:reasoned:short:B",
+   "econometrics/41:named:short:C",
+   "logical_fallacies/15:reasoned:short:C",
+   "high_school_microeconomics/48:named:short:D",
+   "high_school_microeconomics/62:reasoned:short:A",
+   "college_computer_science/51:named:short:A",
+   "elementary_mathematics/68:named:short:A",
+   "philosophy/79:named:short:A",
+   "professional_accounting/1:reasoned:short:A"
+  ],
+  "episodes": 16,
+  "form": "shared_prefix",
+  "peak_gib": 47.61,
+  "seconds": 1.4514,
+  "token_budget": 3000,
+  "warm_up_seconds": [
+   2.122,
+   1.4635
+  ]
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

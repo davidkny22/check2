@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794787458,
+ "finished_unix": 1794787722,
+ "reasons": [
+  {
+   "job_id": "expansion/college_computer_science/139:B",
+   "reason": "Every vertex in K_6 links to the other five, and counting each connection from both ends and in both directions, 6 times 5 times 2, gives a total of 60 edges."
+  },
+  {
+   "job_id": "expansion/college_computer_science/139:D",
+   "reason": "Each of the 6 vertices connects to the other 5, giving 30 endpoints, but that counts every edge twice, once from each end, so K_6 has 30 divided by 2, which is 15 edges."
+  },
+  {
+   "job_id": "expansion/college_computer_science/140:C",
+   "reason": "A digit sum that is a multiple of 9 is also a multiple of 3, so divisibility by 3 is guaranteed, and that is the property every such integer is forced to have."
+  },
+  {
+   "job_id": "expansion/college_computer_science/140:D",
+   "reason": "The divisibility rule for 9 says a number is a multiple of 9 exactly when its digit sum is, so any integer whose digits add up to a multiple of 9 must itself be one."
+  },
+  {
+   "job_id": "expansion/college_computer_science/141:A",
+   "reason": "Two times five is ten, and adding seven brings you to seventeen, so the equation N equals Q times D plus R holds exactly with a quotient of 2 and a remainder of 7."
+  },
+  {
+   "job_id": "expansion/college_computer_science/141:C",
+   "reason": "Five goes into seventeen three whole times, making fifteen, and the leftover two sits between zero and five, so a quotient of 3 with remainder 2 fits both the equation and the bound."
+  },
+  {
+   "job_id": "expansion/college_computer_science/142:A",
+   "reason": "A relation is a choice of which ordered pairs to include; the nine pairs from the 3 by 3 grid plus the empty relation give ten yes-or-no choices, and 2 to the 10th is 1024."
+  },
+  {
+   "job_id": "expansion/college_computer_science/142:B",
+   "reason": "A binary relation is just any subset of the 3 times 3, or nine, ordered pairs, and each pair is either in or out, so there are 2 to the 9th, which is 512."
+  },
+  {
+   "job_id": "expansion/college_computer_science/144:A",
+   "reason": "Round Robin cycles through a queue, and if new processes keep joining ahead of a low-priority job in the rotation, that job keeps getting pushed back and can end up waiting with no limit."
+  },
+  {
+   "job_id": "expansion/college_computer_science/144:C",
+   "reason": "A priority-based scheduler always runs the highest-priority ready process, so if higher-priority jobs keep arriving, a low-priority process can sit in the ready queue forever without being picked."
+  },
+  {
+   "job_id": "expansion/college_computer_science/145:A",
+   "reason": "The party problem shows any six people include three mutual friends or three mutual strangers, while a five-vertex cycle has neither a triangle nor three independent vertices, so six is the smallest."
+  },
+  {
+   "job_id": "expansion/college_computer_science/145:D",
+   "reason": "With four vertices a graph either has enough edges to close a triangle or few enough edges to leave three vertices unconnected, so four already forces a clique or independent set of size three."
+  },
+  {
+   "job_id": "expansion/college_computer_science/146:A",
+   "reason": "C_4 is a square with four vertices and four edges, and K_{2,2} also has four vertices and four edges with every vertex of degree two, which arranges into exactly the same square."
+  },
+  {
+   "job_id": "expansion/college_computer_science/146:B",
+   "reason": "K_{2,2} is defined by joining every vertex on one side to every vertex on the other, while C_4 is defined as a cycle, so the two come from structurally different families of graphs."
+  },
+  {
+   "job_id": "expansion/college_computer_science/147:A",
+   "reason": "Distributivity has to hold for every triple, and with joins and meets for every pair feeding back into new joins and meets, the structure keeps generating elements and cannot stop at finitely many."
+  },
+  {
+   "job_id": "expansion/college_computer_science/147:B",
+   "reason": "Every distributive lattice satisfies the modular law, because modularity is just the distributive identity restricted to the case where one element lies below another, so it follows straight from distributivity."
+  },
+  {
+   "job_id": "expansion/college_computer_science/148:B",
+   "reason": "In K_{m,n} every vertex on the smaller side touches every vertex on the larger side, so the larger side sets how many distinct colours are needed, making the chromatic number the larger of the two."
+  },
+  {
+   "job_id": "expansion/college_computer_science/148:D",
+   "reason": "The graph is bipartite, so one whole side can take one colour and the other side a second colour; no edge joins two vertices on the same side, so two colours are exactly enough."
+  },
+  {
+   "job_id": "expansion/college_computer_science/149:C",
+   "reason": "The standard model is the natural numbers, and the other models of PA contain elements beyond every numeral, so no other model can be matched to it by a structure-preserving bijection."
+  },
+  {
+   "job_id": "expansion/college_computer_science/149:D",
+   "reason": "Peano's axioms, with induction included, pin down the natural numbers so tightly that any structure satisfying them is just the natural numbers again, which leaves the standard model as the only model."
+  },
+  {
+   "job_id": "expansion/college_computer_science/151:B",
+   "reason": "If a minus b and c minus d are both multiples of n, then ac minus bd equals a times (c minus d) plus d times (a minus b), which is also a multiple of n."
+  },
+  {
+   "job_id": "expansion/college_computer_science/151:D",
+   "reason": "Congruence classes behave like ordinary numbers under arithmetic, so if a matches b and c matches d modulo n, dividing the matching pairs gives matching results, just as sums and products do."
+  },
+  {
+   "job_id": "expansion/college_computer_science/152:A",
+   "reason": "Multiprocessing is the term for a system handling several processes at once, and running multiple processes concurrently by switching among them is precisely the work of managing multiple processes."
+  },
+  {
+   "job_id": "expansion/college_computer_science/152:B",
+   "reason": "Running several processes on one processor by rapidly switching among them is the definition of multitasking; genuine parallel execution would need more than one processor to run things simultaneously."
+  },
+  {
+   "job_id": "expansion/college_computer_science/153:A",
+   "reason": "Each vertex in K_n is adjacent to n minus 1 others, so it needs a colour different from each of those neighbours, which means n minus 1 colours are what the graph requires."
+  },
+  {
+   "job_id": "expansion/college_computer_science/153:B",
+   "reason": "In K_n every vertex is adjacent to every other vertex, so no two vertices can share a colour, and the graph needs exactly n distinct colours, one for each vertex."
+  },
+  {
+   "job_id": "expansion/college_computer_science/155:A",
+   "reason": "From the identity, cos squared is 1 minus 9/25, which is 16/25, so cosine is plus or minus 4/5, and in the second quadrant cosine is negative, which gives minus 4/5."
+  },
+  {
+   "job_id": "expansion/college_computer_science/155:C",
+   "reason": "Picture the right triangle with opposite side 3 and hypotenuse 5; the remaining side is 4, and relating the two legs the way the question sets up gives a value of 3/4."
+  },
+  {
+   "job_id": "expansion/college_computer_science/156:A",
+   "reason": "An array jumps straight to any index in constant time, but a linked list has to be walked node by node from the head, so reaching a given index costs linear time."
+  },
+  {
+   "job_id": "expansion/college_computer_science/156:D",
+   "reason": "Every linked list node stores a pointer alongside its data, so each element carries extra memory overhead, and that per-element cost is the main price paid compared with a compact array."
+  },
+  {
+   "job_id": "expansion/college_computer_science/157:A",
+   "reason": "Having a model of every finite size only says something about finite structures, and a sentence can describe a property that only finite structures have, so an infinite model is not guaranteed."
+  },
+  {
+   "job_id": "expansion/college_computer_science/157:C",
+   "reason": "Adding axioms saying there are at least n elements keeps every finite subset satisfiable, since the sentence has arbitrarily large models, so compactness gives one model of all of them, which must be infinite."
+  },
+  {
+   "job_id": "expansion/college_computer_science/158:B",
+   "reason": "Each of the three inputs can be sent to any of the five outputs, and the choices are independent, so the count is 5 times 5 times 5, which comes to 125."
+  },
+  {
+   "job_id": "expansion/college_computer_science/158:C",
+   "reason": "The first input has five possible images, the second must avoid that image and has four, and the third has three, so the count is 5 times 4 times 3, which is 60."
+  },
+  {
+   "job_id": "expansion/college_computer_science/159:A",
+   "reason": "In the worst case, such as a graph that is one long path, the recursion goes V levels deep and the visited array holds V entries, so space grows linearly with the vertices."
+  },
+  {
+   "job_id": "expansion/college_computer_science/159:D",
+   "reason": "Recursive DFS only keeps the current branch on the call stack, and in a reasonably balanced search that branch has depth logarithmic in the number of vertices, so the space is O(log V)."
+  },
+  {
+   "job_id": "expansion/college_computer_science/16:B",
+   "reason": "Eight people around a round table give 7 factorial, or 5040, seatings once rotations are removed, and the seatings with the two side by side are already rotations of other ones, so the count stays 5040."
+  },
+  {
+   "job_id": "expansion/college_computer_science/16:D",
+   "reason": "Fixing one seat gives 7 factorial, or 5040, circular seatings; gluing the two delegates into one block gives 6 factorial times 2, or 1440, together, and 5040 minus 1440 leaves 3600."
+  },
+  {
+   "job_id": "expansion/college_computer_science/160:C",
+   "reason": "A race condition arises when threads compete over memory, and when objects lose their last reference while threads race to release them, nobody reclaims that memory and it leaks."
+  },
+  {
+   "job_id": "expansion/college_computer_science/160:D",
+   "reason": "Two threads touching shared data without coordination produce a result that depends on which one happens to run first, so a race condition is when the outcome hinges on the order of events."
+  },
+  {
+   "job_id": "expansion/college_computer_science/161:A",
+   "reason": "Cutting along both diagonals gives four right triangles; laid out with their long sides along the rectangle's length instead of meeting at the centre, they span a wider base, giving one and a half times s squared."
+  },
+  {
+   "job_id": "expansion/college_computer_science/161:C",
+   "reason": "Cutting and rearranging pieces never changes total area, since the four triangles together cover exactly the original square, so whatever rectangle they form must still have area s squared."
+  },
+  {
+   "job_id": "expansion/college_computer_science/162:B",
+   "reason": "A simple graph on n vertices can have at most n(n-1)/2 edges, one for each pair of vertices, and since that is the absolute ceiling on edges, it is also the maximum here."
+  },
+  {
+   "job_id": "expansion/college_computer_science/162:C",
+   "reason": "Splitting the vertices into two equal halves and joining every vertex in one half to every vertex in the other gives a bipartite graph with no triangles and n/2 times n/2 edges."
+  },
+  {
+   "job_id": "expansion/college_computer_science/163:A",
+   "reason": "Bounding how many black nodes one path can have relative to another keeps the longest path within a factor of two of the shortest, and that is what keeps the height logarithmic."
+  },
+  {
+   "job_id": "expansion/college_computer_science/163:D",
+   "reason": "Because a red node cannot have a red child, red nodes can at most alternate with black ones, so no path is more than twice the all-black path, which bounds the tree's height."
+  },
+  {
+   "job_id": "expansion/college_computer_science/165:B",
+   "reason": "Second-order logic can quantify over sets and pin down structures like the natural numbers exactly, but under standard semantics no effective proof system can capture all of its valid sentences."
+  },
+  {
+   "job_id": "expansion/college_computer_science/165:D",
+   "reason": "Second-order logic can be read with Henkin semantics, where set quantifiers range over a chosen collection, and under that reading it behaves like first-order logic, with a complete proof system and matching validities."
+  },
+  {
+   "job_id": "expansion/college_computer_science/166:B",
+   "reason": "A non-trivial semantic property is one some programs have and some lack, and Rice's theorem treats each one as a fixed, limited description of behaviour, so the property itself is finite."
+  },
+  {
+   "job_id": "expansion/college_computer_science/166:C",
+   "reason": "Rice's theorem says any property of the function a program computes, other than one true of all programs or of none, cannot be decided by an algorithm, by reduction from the halting problem."
+  },
+  {
+   "job_id": "expansion/college_computer_science/169:A",
+   "reason": "A B+ tree is an index structure, so its nodes hold keys and pointers, and the actual records live in a separate storage structure, such as a hash table, that those pointers lead into."
+  },
+  {
+   "job_id": "expansion/college_computer_science/169:B",
+   "reason": "In a B+ tree the internal nodes hold only keys to guide the search, and every actual record sits at the leaf level, which is also linked together for fast sequential scans."
+  },
+  {
+   "job_id": "expansion/college_computer_science/17:B",
+   "reason": "If x were its own complement, then x join x would be the top and x meet x the bottom, but both of those are just x, so top would equal bottom, which cannot happen."
+  },
+  {
+   "job_id": "expansion/college_computer_science/17:C",
+   "reason": "A Boolean algebra with 2^k elements is generated by k atoms, and each atom stands in a symmetric complement relationship tied to itself, so there are k elements with that self-complementary property."
+  },
+  {
+   "job_id": "expansion/college_computer_science/170:B",
+   "reason": "An implication is false only when its antecedent is true and its consequent is false, so negating it leaves exactly the case where P holds and Q fails."
+  },
+  {
+   "job_id": "expansion/college_computer_science/170:D",
+   "reason": "The conditional from P to Q rewrites as not-P or Q, and the negation in front applies to that rewritten form, so the equivalent expression is the disjunction of not-P with Q."
+  },
+  {
+   "job_id": "expansion/college_computer_science/171:A",
+   "reason": "Since the sets are disjoint, no element is shared, so the available choices are simply the five from the first set plus the six from the second, which adds up to eleven."
+  },
+  {
+   "job_id": "expansion/college_computer_science/171:D",
+   "reason": "Picking one element from each set means pairing a choice from the first set with a choice from the second, and by the multiplication principle that gives 5 times 6, which is 30."
+  },
+  {
+   "job_id": "expansion/college_computer_science/173:A",
+   "reason": "Running a finite automaton in parallel with a pushdown automaton, tracking the automaton's state inside the PDA's control, gives a pushdown automaton for the intersection, so the result is context-free."
+  },
+  {
+   "job_id": "expansion/college_computer_science/173:D",
+   "reason": "Intersecting with a regular language filters strings through a finite automaton, and the finite-state constraint dominates the combination, so the strings that survive form a regular language."
+  },
+  {
+   "job_id": "expansion/college_computer_science/175:B",
+   "reason": "A hash table gives constant-time access to any key, so keeping the minimum under a known key lets the queue look it up and remove it in O(1), faster than any tree-based structure."
+  },
+  {
+   "job_id": "expansion/college_computer_science/175:D",
+   "reason": "A binary min-heap keeps the smallest element at the root, so finding it is constant time and removing it with a sift-down takes only O(log n), which suits frequent minimum extraction."
+  },
+  {
+   "job_id": "expansion/college_computer_science/178:B",
+   "reason": "What makes an embedding elementary is that any first-order formula, with any parameters from M, is true in M exactly when it is true in N of the images, not just the atomic ones."
+  },
+  {
+   "job_id": "expansion/college_computer_science/178:C",
+   "reason": "An embedding between models is a map that respects the basic relations, functions and constants, which amounts to keeping atomic formulas true, and that structural agreement is what an elementary embedding guarantees."
+  },
+  {
+   "job_id": "expansion/college_computer_science/179:A",
+   "reason": "Eccentricity is c over a, so c equals 2a, and for a hyperbola c squared equals a squared plus b squared, giving b squared as 4a squared minus a squared, or 3a squared."
+  },
+  {
+   "job_id": "expansion/college_computer_science/179:B",
+   "reason": "With eccentricity 2, the squared eccentricity is 1 plus b squared over a squared, and setting that relation equal to the eccentricity of 2 gives b squared equal to 2a squared."
+  },
+  {
+   "job_id": "expansion/college_computer_science/18:A",
+   "reason": "Foundation says every nonempty set has a well-founded base, which lets you build up sets layer by layer, and that layered construction is what makes the power set of every set available."
+  },
+  {
+   "job_id": "expansion/college_computer_science/18:D",
+   "reason": "The Axiom of Foundation says every nonempty set has a member disjoint from it, which rules out a set containing itself and any endless downward sequence of memberships."
+  },
+  {
+   "job_id": "expansion/college_computer_science/180:B",
+   "reason": "Linear probing scans consecutive slots, but clustering is kept in check by the hashing, so as the table fills the expected probe count climbs only slowly, growing logarithmically with the number of entries."
+  },
+  {
+   "job_id": "expansion/college_computer_science/180:C",
+   "reason": "With linear probing, the expected probes for an unsuccessful search grow like one over (1 minus the load factor) squared, so as the table nearly fills, a search can scan almost the whole table."
+  },
+  {
+   "job_id": "expansion/college_computer_science/181:B",
+   "reason": "Each of the 10 vertices has degree 4, so the degrees sum to 40, and since every edge contributes to two vertex degrees, the number of edges is 40 divided by 2, which is 20."
+  },
+  {
+   "job_id": "expansion/college_computer_science/181:C",
+   "reason": "Each vertex has four edges, giving 40 edge-ends, and since every edge is shared between two vertices, both of which count it, the total comes to 40 times 2, or 80 edges."
+  },
+  {
+   "job_id": "expansion/college_computer_science/182:C",
+   "reason": "Dividing by a linear factor leaves a remainder equal to the polynomial's constant once all the x-terms are absorbed into the quotient, and the constant term of this polynomial is negative one."
+  },
+  {
+   "job_id": "expansion/college_computer_science/182:D",
+   "reason": "By the Remainder Theorem the remainder equals the polynomial evaluated at 1, and 1 to the fourth minus 1 is 0, so x minus 1 divides it exactly, just as the Factor Theorem says."
+  },
+  {
+   "job_id": "expansion/college_computer_science/183:B",
+   "reason": "Bubble sort hits O(n^2) in the worst case, but with an early-exit check it finishes nearly sorted input in a single linear pass, which gives it a strong typical-case showing."
+  },
+  {
+   "job_id": "expansion/college_computer_science/183:C",
+   "reason": "Quicksort averages O(n log n) with small constants and good cache behaviour, making it the fastest in practice, yet a consistently bad pivot, as on already sorted input, degrades it to O(n^2)."
+  },
+  {
+   "job_id": "expansion/college_computer_science/184:A",
+   "reason": "Ore's condition gives a Hamiltonian cycle when every pair of non-adjacent vertices has degree sum at least n, and with every degree at least n/2, any such pair reaches that sum."
+  },
+  {
+   "job_id": "expansion/college_computer_science/184:D",
+   "reason": "That condition is the exact statement of Dirac's result: a simple graph on n vertices, with n at least 3, where every vertex has degree at least n/2, has a Hamiltonian cycle."
+  },
+  {
+   "job_id": "expansion/college_computer_science/186:A",
+   "reason": "Second normal form removes partial dependencies, and the next level up is defined by removing transitive ones, where a non-key attribute depends on the key only through another non-key attribute."
+  },
+  {
+   "job_id": "expansion/college_computer_science/186:D",
+   "reason": "Boyce-Codd normal form requires every determinant to be a candidate key, so no non-prime attribute can determine another, which rules out any transitive dependency on the primary key."
+  },
+  {
+   "job_id": "expansion/college_computer_science/187:A",
+   "reason": "Union-find tracks which vertices are already linked together, and in path-finding work that grouping lets the algorithm quickly tell whether a vertex has joined the tree grown from the source."
+  },
+  {
+   "job_id": "expansion/college_computer_science/187:D",
+   "reason": "Union-find answers whether two vertices already share a component in near-constant time, which is how Kruskal's algorithm spots that adding an edge would close a cycle."
+  },
+  {
+   "job_id": "expansion/college_computer_science/189:A",
+   "reason": "A periodic point on a compact space keeps returning under iteration, and for a continuous map its orbit keeps revisiting regions of the space over time, so it ends up dense throughout."
+  },
+  {
+   "job_id": "expansion/college_computer_science/189:D",
+   "reason": "Period 2 means applying f twice returns x, while f(x) differs from x because x is not fixed, so the orbit is exactly x and f(x), each sent to the other."
+  },
+  {
+   "job_id": "expansion/college_computer_science/19:A",
+   "reason": "Taking the dual inverts the structure of the expression, and since A is shared by every term, the dual pulls A out in complemented form and joins it with the conjunction of B, C and D."
+  },
+  {
+   "job_id": "expansion/college_computer_science/19:C",
+   "reason": "The dual swaps every AND for OR and every OR for AND while leaving the variables alone, so each pairing of A with another variable becomes a disjunction, and those are joined by conjunctions."
+  },
+  {
+   "job_id": "expansion/college_computer_science/190:A",
+   "reason": "Every vertex of a 3-regular graph has degree 3, so the degree sum is 3n, and since each edge is counted at both ends, the edge count is half of that."
+  },
+  {
+   "job_id": "expansion/college_computer_science/190:C",
+   "reason": "Staying connected after any vertex is removed takes redundancy beyond the bare degree count, since every vertex needs a backup route, and building in that redundancy pushes the minimum edge count up to 2n."
+  },
+  {
+   "job_id": "expansion/college_computer_science/192:A",
+   "reason": "Axioms are only the starting sentences, while a theory includes everything derivable from them, so the theory is the deductively closed set of consequences that the axioms generate."
+  },
+  {
+   "job_id": "expansion/college_computer_science/192:C",
+   "reason": "A theory is identified by its axioms: arithmetic or set theory each simply is its list of axioms, so naming the axioms and naming the theory pick out the very same thing."
+  },
+  {
+   "job_id": "expansion/college_computer_science/193:B",
+   "reason": "Any language an NFA recognises can be converted into an equivalent regular expression, so the language is captured exactly by a regular expression and fits that characterisation."
+  },
+  {
+   "job_id": "expansion/college_computer_science/193:C",
+   "reason": "The subset construction turns any NFA into a DFA whose states are sets of NFA states, accepting exactly the same strings, so the language is also recognised deterministically."
+  },
+  {
+   "job_id": "expansion/college_computer_science/194:A",
+   "reason": "Each of the six vertices is adjacent to every vertex outside its own part, which is four vertices, so the degree sum is 24, and halving it gives the edge count of 12."
+  },
+  {
+   "job_id": "expansion/college_computer_science/194:D",
+   "reason": "Every vertex links to the four vertices outside its part, and with three parts there are three pairs of parts, each contributing six cross edges, which gives 18 edges in all."
+  },
+  {
+   "job_id": "expansion/college_computer_science/196:B",
+   "reason": "A polynomial-time reduction from X to Y means Y is handled within a polynomial time bound, so what follows about Y is that it can be solved in polynomial time."
+  },
+  {
+   "job_id": "expansion/college_computer_science/196:D",
+   "reason": "If X reduces to Y in polynomial time, a fast algorithm for Y would solve X, and through X every NP problem, so Y is at least as hard as everything in NP."
+  },
+  {
+   "job_id": "expansion/college_computer_science/197:B",
+   "reason": "A conditional fails only when P is true and Q false, which matches not-P or Q, and the contrapositive has that same truth table, so the conditional is equivalent to both forms."
+  },
+  {
+   "job_id": "expansion/college_computer_science/197:C",
+   "reason": "The conditional is defined by the single case where P holds and Q does not, and writing P together with not-Q expresses that defining case directly as one compact formula."
+  },
+  {
+   "job_id": "expansion/college_computer_science/199:A",
+   "reason": "A sound system is one that can be relied on to capture truth, so it must prove every true statement; otherwise there would be truths the system fails to account for."
+  },
+  {
+   "job_id": "expansion/college_computer_science/199:B",
+   "reason": "Soundness means the proof rules never lead you astray: anything derivable in the system holds in every model, so being provable guarantees being true."
+  },
+  {
+   "job_id": "expansion/college_computer_science/2:A",
+   "reason": "Converting the acceptance mode means the new machine must track which derivation emptied the stack, and that is only well defined when each string has a single derivation, so the grammar must be unambiguous."
+  },
+  {
+   "job_id": "expansion/college_computer_science/2:C",
+   "reason": "Add a new bottom-of-stack marker and a new final state; whenever the original machine would empty its stack, the marker shows and the new machine moves to accept, so the conversion works in every case."
+  },
+  {
+   "job_id": "expansion/college_computer_science/20:B",
+   "reason": "Each added layer takes another positive square root of a number of at least 2, so the values keep increasing with every step, and a sequence that keeps increasing like this grows without bound."
+  },
+  {
+   "job_id": "expansion/college_computer_science/20:D",
+   "reason": "If the limit is L, then L equals the square root of 2 plus L, so L squared minus L minus 2 is zero, which factors to give L equal to 2 for the positive root."
+  },
+  {
+   "job_id": "expansion/college_computer_science/201:B",
+   "reason": "Searching a binary search tree discards one subtree at each comparison, halving the remaining candidates every step, so even an unbalanced tree is searched in logarithmic time."
+  },
+  {
+   "job_id": "expansion/college_computer_science/201:C",
+   "reason": "A completely unbalanced tree degenerates into a chain where each node has one child, so a search may have to walk past every one of the n nodes, which is linear time."
+  },
+  {
+   "job_id": "expansion/college_computer_science/202:A",
+   "reason": "Herbrand's theorem says a Skolemised formula is unsatisfiable exactly when some finite set of its ground instances is, which turns the first-order question into a question about propositional formulas."
+  },
+  {
+   "job_id": "expansion/college_computer_science/202:C",
+   "reason": "Skolem normal form already removes the existential quantifiers, and Herbrand's theorem then replaces the universal ones with ground terms, leaving a quantifier-free formula with the same truth value."
+  },
+  {
+   "job_id": "expansion/college_computer_science/203:A",
+   "reason": "A conditional promises that whenever P holds, Q holds as well, and the only way to break that promise is for P to be true while Q turns out false."
+  },
+  {
+   "job_id": "expansion/college_computer_science/203:B",
+   "reason": "The conditional asserts that P brings about Q, and when both are simply true side by side, nothing shows P producing Q, so the claimed dependence fails in that row."
+  },
+  {
+   "job_id": "expansion/college_computer_science/206:A",
+   "reason": "Induction starts at 1 and steps upward without end, and since every real number from 1 on lies along that chain of steps, the conclusion covers the whole range from 1 upward."
+  },
+  {
+   "job_id": "expansion/college_computer_science/206:B",
+   "reason": "The base case covers 1 and the inductive step carries truth from each natural number to the next, so the chain reaches every natural number from 1 upward, and nothing beyond them."
+  },
+  {
+   "job_id": "expansion/college_computer_science/207:C",
+   "reason": "Defining truth for every sentence would need a definition as big as the language, but a language has a finite stock of symbols and rules, so it cannot hold such a definition of itself."
+  },
+  {
+   "job_id": "expansion/college_computer_science/207:D",
+   "reason": "With a truth predicate inside L, diagonalisation would build a sentence saying of itself that it is not true, which is true exactly when it is false, so no such predicate can exist."
+  },
+  {
+   "job_id": "expansion/college_computer_science/208:C",
+   "reason": "Order the vertices topologically and allow edges only from earlier to later; every pair can then carry one edge without creating a cycle, which gives n(n-1)/2 edges at most."
+  },
+  {
+   "job_id": "expansion/college_computer_science/208:D",
+   "reason": "A directed graph allows an edge from each vertex to each vertex, n times n in all, and acyclicity only forbids returning along a path, so the edge bound stays at n squared."
+  },
+  {
+   "job_id": "expansion/college_computer_science/209:A",
+   "reason": "First-order logic quantifies only over individuals in the domain, while second-order logic adds variables for properties, relations and functions, so it can say things like every property holds of something."
+  },
+  {
+   "job_id": "expansion/college_computer_science/209:C",
+   "reason": "Second-order logic is built around asserting that some predicate or set exists with a given property, and those existential claims about predicates are the form its quantification takes."
+  },
+  {
+   "job_id": "expansion/college_computer_science/21:A",
+   "reason": "When the ratio is zero, every term after the first vanishes, so the infinite sum is just a, which is the situation where an infinite series has a definite, finite sum."
+  },
+  {
+   "job_id": "expansion/college_computer_science/21:D",
+   "reason": "The partial sums equal a times (1 minus r to the n) over (1 minus r), and r to the n shrinks to zero only when the absolute value of r is below 1."
+  },
+  {
+   "job_id": "expansion/college_computer_science/210:B",
+   "reason": "Choice lets you pick elements one after another from any collection, which amounts to running through a set's elements in a sequence, and being listable in a sequence is what countability means."
+  },
+  {
+   "job_id": "expansion/college_computer_science/210:C",
+   "reason": "Over ZF, the claim that each vector space has a basis implies choice, and choice gives every space a basis through a maximality argument, so the two statements are equivalent."
+  },
+  {
+   "job_id": "expansion/college_computer_science/211:B",
+   "reason": "Simple consistency means the system never derives a contradiction, which depends on being able to settle what it derives, whereas omega-consistency concerns only numerical instances and needs no decision procedure."
+  },
+  {
+   "job_id": "expansion/college_computer_science/211:D",
+   "reason": "Omega-consistency ties the numerical instances to the quantified statement: if a property is provable of each numeral, the system cannot also prove a counterexample exists, which is stronger than bare consistency."
+  },
+  {
+   "job_id": "expansion/college_computer_science/212:A",
+   "reason": "Being kappa-categorical is a counting condition on a theory's models, saying the theory admits exactly kappa of them, so the cardinal fixes how many distinct models there are."
+  },
+  {
+   "job_id": "expansion/college_computer_science/212:B",
+   "reason": "A theory is kappa-categorical when it pins down its models of size kappa completely, so any two models of that cardinality are isomorphic, even if models of other sizes differ."
+  },
+  {
+   "job_id": "expansion/college_computer_science/213:B",
+   "reason": "Cut brings a fresh formula into the derivation that appears nowhere in the final sequent, which works like introducing a new variable into the proof that is then eliminated across the two premises."
+  },
+  {
+   "job_id": "expansion/college_computer_science/213:C",
+   "reason": "Cut joins a proof of a lemma with a proof that uses that lemma, and the lemma formula disappears from the resulting sequent, so the rule lets an intermediate result be used and then dropped."
+  },
+  {
+   "job_id": "expansion/college_computer_science/214:B",
+   "reason": "Omega here refers to the finite ordinals, so being omega-categorical means the theory's models are pinned down at the finite sizes, which leaves no room for infinite models of T."
+  },
+  {
+   "job_id": "expansion/college_computer_science/214:D",
+   "reason": "Omega-categorical means categorical in the countably infinite cardinality, so any two countable models of T are isomorphic, whatever the single binary relation happens to be."
+  },
+  {
+   "job_id": "expansion/college_computer_science/215:A",
+   "reason": "Skolemisation rewrites existential claims into a form whose validity can be checked mechanically, and the Skolem constant is what lets that check show the formula holds under every interpretation."
+  },
+  {
+   "job_id": "expansion/college_computer_science/215:B",
+   "reason": "When an existential quantifier has no universal quantifier in front of it, Skolemisation drops it and puts a fresh constant symbol in its place, and that symbol is the Skolem constant."
+  },
+  {
+   "job_id": "expansion/college_computer_science/216:A",
+   "reason": "Completeness is the bridge from semantics to syntax: every formula true in all structures has a formal proof, so validity guarantees derivability in the proof system."
+  },
+  {
+   "job_id": "expansion/college_computer_science/216:C",
+   "reason": "A semantically valid formula is true in every model, so in particular there is a model where it holds, which is precisely what it means for the formula to be satisfiable."
+  },
+  {
+   "job_id": "expansion/college_computer_science/217:B",
+   "reason": "A solution to a PCP instance is a finite sequence of dominoes, so a search can try sequences in order of increasing length, and over a finite set of dominoes that brute-force search runs in exponential time."
+  },
+  {
+   "job_id": "expansion/college_computer_science/217:D",
+   "reason": "Any Turing machine computation can be encoded as dominoes whose matching sequence exists exactly when the machine halts, which reduces the halting problem to PCP and makes it undecidable in general."
+  },
+  {
+   "job_id": "expansion/college_computer_science/218:B",
+   "reason": "Labelled trees on n vertices number n to the power n minus 2, and every such tree is a spanning tree of K_n, since K_n already contains every possible edge."
+  },
+  {
+   "job_id": "expansion/college_computer_science/218:D",
+   "reason": "Building a spanning tree means attaching the vertices one at a time in some order, and with n labelled vertices there are n factorial orders of attachment, giving n factorial spanning trees."
+  },
+  {
+   "job_id": "expansion/college_computer_science/22:A",
+   "reason": "Greedy colouring goes through the vertices and gives each the smallest colour not used by its neighbours, and with the right vertex order this reaches the minimum number of colours."
+  },
+  {
+   "job_id": "expansion/college_computer_science/22:B",
+   "reason": "Kruskal's algorithm keeps adding the cheapest edge that does not form a cycle, and the cut property guarantees each such choice belongs to some optimal spanning tree, so the greedy result is optimal."
+  },
+  {
+   "job_id": "expansion/college_computer_science/223:A",
+   "reason": "The Petersen graph contains five-cycles, which are odd and force a third colour, and a careful assignment around the outer and inner cycles works with three, so the chromatic number is 3."
+  },
+  {
+   "job_id": "expansion/college_computer_science/223:B",
+   "reason": "The Petersen graph has no triangles, and its vertices split into an outer ring and an inner star joined by spokes, so alternating two colours across those spokes gives a proper colouring."
+  },
+  {
+   "job_id": "expansion/college_computer_science/224:A",
+   "reason": "By completeness a consistent set has a model, and a set with a model can never derive a contradiction, so having at least one model goes hand in hand with being consistent."
+  },
+  {
+   "job_id": "expansion/college_computer_science/224:B",
+   "reason": "A consistent set has to settle every sentence one way without contradiction, so for each sentence it must contain either that sentence or its negation, which is what being complete means."
+  },
+  {
+   "job_id": "expansion/college_computer_science/228:A",
+   "reason": "If T entails every sentence or its negation, then whatever holds is captured by T, and a theory whose consequences line up with what holds is one that can be trusted, which is soundness."
+  },
+  {
+   "job_id": "expansion/college_computer_science/228:C",
+   "reason": "This is the definition of a complete theory: for every sentence, the theory entails either the sentence itself or its negation, leaving no sentence undecided."
+  },
+  {
+   "job_id": "expansion/college_computer_science/229:A",
+   "reason": "XOR flips the bits of A wherever B has a 1, and doing it a second time with B flips those bits again, so the result ends up inverted relative to the original A."
+  },
+  {
+   "job_id": "expansion/college_computer_science/229:D",
+   "reason": "XOR is associative and B XOR B is all zeros, so the expression becomes A XOR 0, which leaves every bit of A unchanged."
+  },
+  {
+   "job_id": "expansion/college_computer_science/230:A",
+   "reason": "Gödel's second theorem says a consistent system strong enough for arithmetic cannot prove its own consistency, so any consistency proof has to come from a stronger system, exactly as described here."
+  },
+  {
+   "job_id": "expansion/college_computer_science/230:C",
+   "reason": "Compactness says the whole set is consistent when every finite part is, and certifying that for all the finite subsets at once requires stepping outside A into a stronger system."
+  }
+ ]
+}

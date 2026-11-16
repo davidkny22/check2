@@ -1,0 +1,1026 @@
+{
+ "question": "Is the fla 0.6.0 bfloat16 gradient through the Gated DeltaNet layers of Qwen/Qwen3.5-4B correct on this GPU?",
+ "rule": "fla bfloat16 path correct if every F_bfloat16 cosine vs R_float32 >= 0.99 (primary parameters, both input cases; diag_* probes excluded)",
+ "setup": {
+  "model": "Qwen/Qwen3.5-4B",
+  "seed": 20261115,
+  "vec_layers": [
+   3,
+   6,
+   9,
+   15,
+   23
+  ],
+  "lora_layers": [
+   4,
+   20
+  ],
+  "lora_rank": 8,
+  "init_scale": 0.01,
+  "diag_probe": "rank-8 update on layer 0 in_proj_qkv with B=0 (forward unchanged), gradient of B only; not in the verdict",
+  "added_to": "second half of each sequence",
+  "loss": "mean next-token CE, last 100 positions",
+  "cases": {
+   "short_4x400": [
+    4,
+    400
+   ],
+   "long_1x1500": [
+    1,
+    1500
+   ]
+  }
+ },
+ "runs": {
+  "R_float32": {
+   "versions": {
+    "python": "3.13.16",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "triton": "3.8.0",
+    "flash-linear-attention": null,
+    "fla-core": null,
+    "causal-conv1d": null,
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0"
+   },
+   "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+   "capability": [
+    12,
+    0
+   ],
+   "cuda_runtime": "13.0",
+   "model_class": "Qwen3_5ForCausalLM",
+   "layers_path": "model.layers",
+   "layer_kind": {
+    "0": "linear_attn",
+    "3": "self_attn",
+    "4": "linear_attn",
+    "6": "linear_attn",
+    "9": "linear_attn",
+    "15": "self_attn",
+    "20": "linear_attn",
+    "23": "self_attn"
+   },
+   "layer_types_first8": [
+    "linear_attention",
+    "linear_attention",
+    "linear_attention",
+    "full_attention",
+    "linear_attention",
+    "linear_attention",
+    "linear_attention",
+    "full_attention"
+   ],
+   "gdn_chunk_fn": {
+    "repr": "None",
+    "module": null,
+    "qualname": null,
+    "has___wrapped__": false
+   },
+   "fla_imported": false,
+   "n_fla_like_kernels": 0,
+   "fla_like_kernels": [],
+   "fallback_warning_in_log": true,
+   "any_falling_back_in_log": [
+    "[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.",
+    "[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel."
+   ],
+   "allow_tf32_matmul": false,
+   "n_missing_keys": 0,
+   "text_tokens": 2549,
+   "cases": {
+    "short_4x400": {
+     "shape": [
+      4,
+      400
+     ],
+     "loss_call1": 0.08531700074672699,
+     "loss_call2": 0.08531700074672699,
+     "fwd_bwd_seconds_call1": 1.4255,
+     "fwd_bwd_seconds_call2": 0.639,
+     "peak_mem_gib": 39.03,
+     "call1_vs_call2_cosine": {
+      "vec_L3": 1.0000000000000013,
+      "vec_L6": 0.9999999999999991,
+      "vec_L9": 1.0000000000000009,
+      "vec_L15": 1.0000000000000018,
+      "vec_L23": 0.9999999999999998,
+      "lora_L4.A": 0.9999999999999932,
+      "lora_L4.B": 0.9999999999999845,
+      "lora_L20.A": 0.9999999999999949,
+      "lora_L20.B": 0.9999999999999895,
+      "diag_lora_L0.B": 0.9999999999999853
+     }
+    },
+    "long_1x1500": {
+     "shape": [
+      1,
+      1500
+     ],
+     "loss_call1": 0.07579562813043594,
+     "loss_call2": 0.07579562813043594,
+     "fwd_bwd_seconds_call1": 0.7203,
+     "fwd_bwd_seconds_call2": 0.7166,
+     "peak_mem_gib": 36.05,
+     "call1_vs_call2_cosine": {
+      "vec_L3": 0.9999999999993195,
+      "vec_L6": 0.9999999999997647,
+      "vec_L9": 0.9999999999999504,
+      "vec_L15": 1.0,
+      "vec_L23": 0.9999999999999996,
+      "lora_L4.A": 0.9999999999994547,
+      "lora_L4.B": 0.9999999999995882,
+      "lora_L20.A": 0.9999999999999918,
+      "lora_L20.B": 0.999999999999995,
+      "diag_lora_L0.B": 0.9999999999988147
+     }
+    }
+   },
+   "fwd_bwd_seconds": {
+    "short_4x400": 0.639,
+    "long_1x1500": 0.7166
+   }
+  },
+  "R_bfloat16": {
+   "versions": {
+    "python": "3.13.16",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "triton": "3.8.0",
+    "flash-linear-attention": null,
+    "fla-core": null,
+    "causal-conv1d": null,
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0"
+   },
+   "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+   "capability": [
+    12,
+    0
+   ],
+   "cuda_runtime": "13.0",
+   "model_class": "Qwen3_5ForCausalLM",
+   "layers_path": "model.layers",
+   "layer_kind": {
+    "0": "linear_attn",
+    "3": "self_attn",
+    "4": "linear_attn",
+    "6": "linear_attn",
+    "9": "linear_attn",
+    "15": "self_attn",
+    "20": "linear_attn",
+    "23": "self_attn"
+   },
+   "layer_types_first8": [
+    "linear_attention",
+    "linear_attention",
+    "linear_attention",
+    "full_attention",
+    "linear_attention",
+    "linear_attention",
+    "linear_attention",
+    "full_attention"
+   ],
+   "gdn_chunk_fn": {
+    "repr": "None",
+    "module": null,
+    "qualname": null,
+    "has___wrapped__": false
+   },
+   "fla_imported": false,
+   "n_fla_like_kernels": 0,
+   "fla_like_kernels": [],
+   "fallback_warning_in_log": true,
+   "any_falling_back_in_log": [
+    "[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.",
+    "[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel."
+   ],
+   "allow_tf32_matmul": false,
+   "n_missing_keys": 0,
+   "text_tokens": 2549,
+   "cases": {
+    "short_4x400": {
+     "shape": [
+      4,
+      400
+     ],
+     "loss_call1": 0.0847100168466568,
+     "loss_call2": 0.0847100168466568,
+     "fwd_bwd_seconds_call1": 0.6146,
+     "fwd_bwd_seconds_call2": 0.3073,
+     "peak_mem_gib": 26.69,
+     "call1_vs_call2_cosine": {
+      "vec_L3": 0.9998104725075864,
+      "vec_L6": 0.9998516467267615,
+      "vec_L9": 0.999844694064691,
+      "vec_L15": 0.9998797720504481,
+      "vec_L23": 0.9999386217395967,
+      "lora_L4.A": 0.9998849683852563,
+      "lora_L4.B": 0.9998237840153247,
+      "lora_L20.A": 0.9999593584542507,
+      "lora_L20.B": 0.999925850846044,
+      "diag_lora_L0.B": 0.9998041754932306
+     }
+    },
+    "long_1x1500": {
+     "shape": [
+      1,
+      1500
+     ],
+     "loss_call1": 0.07757028937339783,
+     "loss_call2": 0.07757028937339783,
+     "fwd_bwd_seconds_call1": 0.4152,
+     "fwd_bwd_seconds_call2": 0.4103,
+     "peak_mem_gib": 23.99,
+     "call1_vs_call2_cosine": {
+      "vec_L3": 0.9998122869703554,
+      "vec_L6": 0.9998355849633064,
+      "vec_L9": 0.9998474627572431,
+      "vec_L15": 0.9998613847131046,
+      "vec_L23": 0.9999246655774987,
+      "lora_L4.A": 0.9996886539433548,
+      "lora_L4.B": 0.9997694773072994,
+      "lora_L20.A": 0.9999321626935546,
+      "lora_L20.B": 0.999894554979989,
+      "diag_lora_L0.B": 0.999736219272862
+     }
+    }
+   },
+   "fwd_bwd_seconds": {
+    "short_4x400": 0.3073,
+    "long_1x1500": 0.4103
+   }
+  },
+  "F_bfloat16": {
+   "versions": {
+    "python": "3.13.16",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "triton": "3.8.0",
+    "flash-linear-attention": "0.6.0",
+    "fla-core": "0.6.0",
+    "causal-conv1d": null,
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0"
+   },
+   "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+   "capability": [
+    12,
+    0
+   ],
+   "cuda_runtime": "13.0",
+   "model_class": "Qwen3_5ForCausalLM",
+   "layers_path": "model.layers",
+   "layer_kind": {
+    "0": "linear_attn",
+    "3": "self_attn",
+    "4": "linear_attn",
+    "6": "linear_attn",
+    "9": "linear_attn",
+    "15": "self_attn",
+    "20": "linear_attn",
+    "23": "self_attn"
+   },
+   "layer_types_first8": [
+    "linear_attention",
+    "linear_attention",
+    "linear_attention",
+    "full_attention",
+    "linear_attention",
+    "linear_attention",
+    "linear_attention",
+    "full_attention"
+   ],
+   "gdn_chunk_fn": {
+    "repr": "None",
+    "module": null,
+    "qualname": null,
+    "has___wrapped__": false
+   },
+   "fla_imported": true,
+   "n_fla_like_kernels": 10,
+   "fla_like_kernels": [
+    "chunk_bwd_kernel_dqkwg",
+    "chunk_bwd_kernel_dv_local",
+    "chunk_fwd_kernel_o",
+    "chunk_gated_delta_rule_bwd_kernel_dhu_blockdim64",
+    "chunk_gated_delta_rule_fwd_kernel_h_blockdim64",
+    "chunk_gated_delta_rule_fwd_kkt_solve_kernel",
+    "chunk_local_cumsum_scalar_kernel",
+    "l2norm_bwd_kernel",
+    "l2norm_fwd_kernel",
+    "recompute_w_u_fwd_kernel"
+   ],
+   "fallback_warning_in_log": false,
+   "any_falling_back_in_log": [
+    "[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel."
+   ],
+   "allow_tf32_matmul": false,
+   "n_missing_keys": 0,
+   "text_tokens": 2549,
+   "cases": {
+    "short_4x400": {
+     "shape": [
+      4,
+      400
+     ],
+     "loss_call1": 0.08714941143989563,
+     "loss_call2": 0.08714941143989563,
+     "fwd_bwd_seconds_call1": 42.3683,
+     "fwd_bwd_seconds_call2": 0.1565,
+     "peak_mem_gib": 17.69,
+     "call1_vs_call2_cosine": {
+      "vec_L3": 0.9998020252899731,
+      "vec_L6": 0.9998441135372793,
+      "vec_L9": 0.9998417122947176,
+      "vec_L15": 0.9998756771698446,
+      "vec_L23": 0.9999318777737974,
+      "lora_L4.A": 0.9998980032857024,
+      "lora_L4.B": 0.9998229039444677,
+      "lora_L20.A": 0.9999589867410653,
+      "lora_L20.B": 0.9999127136844487,
+      "diag_lora_L0.B": 0.9997711581684706
+     }
+    },
+    "long_1x1500": {
+     "shape": [
+      1,
+      1500
+     ],
+     "loss_call1": 0.07559061795473099,
+     "loss_call2": 0.07559061795473099,
+     "fwd_bwd_seconds_call1": 1.8211,
+     "fwd_bwd_seconds_call2": 0.1396,
+     "peak_mem_gib": 16.23,
+     "call1_vs_call2_cosine": {
+      "vec_L3": 0.9998105115194752,
+      "vec_L6": 0.9998192433734434,
+      "vec_L9": 0.9998478118362562,
+      "vec_L15": 0.9998644817964012,
+      "vec_L23": 0.999926125387212,
+      "lora_L4.A": 0.999780800191602,
+      "lora_L4.B": 0.9998388928723291,
+      "lora_L20.A": 0.9999092105969271,
+      "lora_L20.B": 0.9998779988740056,
+      "diag_lora_L0.B": 0.9997604688428164
+     }
+    }
+   },
+   "fwd_bwd_seconds": {
+    "short_4x400": 0.1565,
+    "long_1x1500": 0.1396
+   }
+  },
+  "F_float32": {
+   "versions": {
+    "python": "3.13.16",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "triton": "3.8.0",
+    "flash-linear-attention": "0.6.0",
+    "fla-core": "0.6.0",
+    "causal-conv1d": null,
+    "accelerate": "1.15.0",
+    "safetensors": "0.8.0"
+   },
+   "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+   "capability": [
+    12,
+    0
+   ],
+   "cuda_runtime": "13.0",
+   "model_class": "Qwen3_5ForCausalLM",
+   "layers_path": "model.layers",
+   "layer_kind": {
+    "0": "linear_attn",
+    "3": "self_attn",
+    "4": "linear_attn",
+    "6": "linear_attn",
+    "9": "linear_attn",
+    "15": "self_attn",
+    "20": "linear_attn",
+    "23": "self_attn"
+   },
+   "layer_types_first8": [
+    "linear_attention",
+    "linear_attention",
+    "linear_attention",
+    "full_attention",
+    "linear_attention",
+    "linear_attention",
+    "linear_attention",
+    "full_attention"
+   ],
+   "gdn_chunk_fn": {
+    "repr": "None",
+    "module": null,
+    "qualname": null,
+    "has___wrapped__": false
+   },
+   "fla_imported": true,
+   "n_fla_like_kernels": 10,
+   "fla_like_kernels": [
+    "chunk_bwd_kernel_dqkwg",
+    "chunk_bwd_kernel_dv_local",
+    "chunk_fwd_kernel_o",
+    "chunk_gated_delta_rule_bwd_kernel_dhu_blockdim64",
+    "chunk_gated_delta_rule_fwd_kernel_h_blockdim64",
+    "chunk_gated_delta_rule_fwd_kkt_solve_kernel",
+    "chunk_local_cumsum_scalar_kernel",
+    "l2norm_bwd_kernel",
+    "l2norm_fwd_kernel",
+    "recompute_w_u_fwd_kernel"
+   ],
+   "fallback_warning_in_log": false,
+   "any_falling_back_in_log": [
+    "[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel."
+   ],
+   "allow_tf32_matmul": false,
+   "n_missing_keys": 0,
+   "text_tokens": 2549,
+   "cases": {
+    "short_4x400": {
+     "shape": [
+      4,
+      400
+     ],
+     "loss_call1": 0.08531182259321213,
+     "loss_call2": 0.08531182259321213,
+     "fwd_bwd_seconds_call1": 56.5721,
+     "fwd_bwd_seconds_call2": 0.5175,
+     "peak_mem_gib": 31.14,
+     "call1_vs_call2_cosine": {
+      "vec_L3": 1.000000000000001,
+      "vec_L6": 0.9999999999999996,
+      "vec_L9": 1.0000000000000009,
+      "vec_L15": 1.0000000000000016,
+      "vec_L23": 1.0000000000000004,
+      "lora_L4.A": 0.999999999999992,
+      "lora_L4.B": 0.9999999999999857,
+      "lora_L20.A": 0.9999999999999943,
+      "lora_L20.B": 0.999999999999992,
+      "diag_lora_L0.B": 0.9999999999999863
+     }
+    },
+    "long_1x1500": {
+     "shape": [
+      1,
+      1500
+     ],
+     "loss_call1": 0.07594606280326843,
+     "loss_call2": 0.07594606280326843,
+     "fwd_bwd_seconds_call1": 1.1851,
+     "fwd_bwd_seconds_call2": 0.4745,
+     "peak_mem_gib": 29.25,
+     "call1_vs_call2_cosine": {
+      "vec_L3": 1.0000000000000013,
+      "vec_L6": 1.0000000000000002,
+      "vec_L9": 1.0000000000000002,
+      "vec_L15": 1.0000000000000007,
+      "vec_L23": 1.0000000000000002,
+      "lora_L4.A": 0.9999999999999947,
+      "lora_L4.B": 0.9999999999999862,
+      "lora_L20.A": 0.9999999999999932,
+      "lora_L20.B": 0.9999999999999964,
+      "diag_lora_L0.B": 0.9999999999999906
+     }
+    }
+   },
+   "fwd_bwd_seconds": {
+    "short_4x400": 0.5175,
+    "long_1x1500": 0.4745
+   }
+  }
+ },
+ "comparisons": {
+  "R_bfloat16": {
+   "short_4x400": {
+    "vec_L3": {
+     "cosine": 0.9956456772443744,
+     "norm_ratio": 0.9667474602435143,
+     "rel_err": 0.09759504255044121
+    },
+    "vec_L6": {
+     "cosine": 0.9961458035263279,
+     "norm_ratio": 0.9642579402495146,
+     "rel_err": 0.09332938412551395
+    },
+    "vec_L9": {
+     "cosine": 0.9949070311228259,
+     "norm_ratio": 0.9678711232220057,
+     "rel_err": 0.10435966528495576
+    },
+    "vec_L15": {
+     "cosine": 0.995719585735094,
+     "norm_ratio": 0.9740575584257573,
+     "rel_err": 0.09493023759943744
+    },
+    "vec_L23": {
+     "cosine": 0.9959805705647308,
+     "norm_ratio": 0.9714375250994615,
+     "rel_err": 0.09287122341320345
+    },
+    "lora_L4.A": {
+     "cosine": 0.9966910454619458,
+     "norm_ratio": 0.9771383427058956,
+     "rel_err": 0.08360184256956214
+    },
+    "lora_L4.B": {
+     "cosine": 0.9955269885589028,
+     "norm_ratio": 0.9891226204076944,
+     "rel_err": 0.09469440840001855
+    },
+    "lora_L20.A": {
+     "cosine": 0.9956004481002643,
+     "norm_ratio": 1.0137949652747476,
+     "rel_err": 0.0954504489133361
+    },
+    "lora_L20.B": {
+     "cosine": 0.9968564435259778,
+     "norm_ratio": 0.9796656865431028,
+     "rel_err": 0.08107251770093526
+    },
+    "diag_lora_L0.B": {
+     "cosine": 0.9948331707725596,
+     "norm_ratio": 0.986700541290748,
+     "rel_err": 0.10184842656064054
+    }
+   },
+   "long_1x1500": {
+    "vec_L3": {
+     "cosine": 0.9987194828222304,
+     "norm_ratio": 1.033240468181206,
+     "rel_err": 0.061246167728708785
+    },
+    "vec_L6": {
+     "cosine": 0.9989462083673536,
+     "norm_ratio": 1.0355039599288114,
+     "rel_err": 0.05867658807154661
+    },
+    "vec_L9": {
+     "cosine": 0.9989020847644648,
+     "norm_ratio": 1.0426140328027986,
+     "rel_err": 0.06407307901539382
+    },
+    "vec_L15": {
+     "cosine": 0.9989851098951693,
+     "norm_ratio": 1.0376572808692859,
+     "rel_err": 0.05936570571962422
+    },
+    "vec_L23": {
+     "cosine": 0.9990889709293369,
+     "norm_ratio": 1.033603662680145,
+     "rel_err": 0.05488617416082862
+    },
+    "lora_L4.A": {
+     "cosine": 0.9984448296330606,
+     "norm_ratio": 1.0259603407672195,
+     "rel_err": 0.062169329511976755
+    },
+    "lora_L4.B": {
+     "cosine": 0.9988519866280937,
+     "norm_ratio": 1.0320446118573385,
+     "rel_err": 0.0582791487471125
+    },
+    "lora_L20.A": {
+     "cosine": 0.9993523472532577,
+     "norm_ratio": 1.0300242340221293,
+     "rel_err": 0.047282667832454085
+    },
+    "lora_L20.B": {
+     "cosine": 0.9990017079387664,
+     "norm_ratio": 1.040404885244749,
+     "rel_err": 0.06090821476983691
+    },
+    "diag_lora_L0.B": {
+     "cosine": 0.9985561059091094,
+     "norm_ratio": 1.0531561320584222,
+     "rel_err": 0.07659547119194537
+    }
+   }
+  },
+  "F_bfloat16": {
+   "short_4x400": {
+    "vec_L3": {
+     "cosine": 0.997064230776918,
+     "norm_ratio": 1.006830927838553,
+     "rel_err": 0.07719007757950055
+    },
+    "vec_L6": {
+     "cosine": 0.9971766488696416,
+     "norm_ratio": 1.0107421067830944,
+     "rel_err": 0.07630696296874295
+    },
+    "vec_L9": {
+     "cosine": 0.9969707731038243,
+     "norm_ratio": 1.0045192412843538,
+     "rel_err": 0.07814254250174904
+    },
+    "vec_L15": {
+     "cosine": 0.9975408850077904,
+     "norm_ratio": 1.0047960388870427,
+     "rel_err": 0.0704614788071337
+    },
+    "vec_L23": {
+     "cosine": 0.9975654773223852,
+     "norm_ratio": 1.002781941717799,
+     "rel_err": 0.06993089414094034
+    },
+    "lora_L4.A": {
+     "cosine": 0.9972176956464942,
+     "norm_ratio": 1.0013495893525992,
+     "rel_err": 0.07465882422783324
+    },
+    "lora_L4.B": {
+     "cosine": 0.9969555313846563,
+     "norm_ratio": 1.0059391065619132,
+     "rel_err": 0.07848804408617109
+    },
+    "lora_L20.A": {
+     "cosine": 0.9986384734158683,
+     "norm_ratio": 1.0224579996823122,
+     "rel_err": 0.057346048208846916
+    },
+    "lora_L20.B": {
+     "cosine": 0.9984007126383166,
+     "norm_ratio": 1.0036374677665023,
+     "rel_err": 0.0567753521130075
+    },
+    "diag_lora_L0.B": {
+     "cosine": 0.9946162308157208,
+     "norm_ratio": 1.0118078652250972,
+     "rel_err": 0.10504335148675369
+    }
+   },
+   "long_1x1500": {
+    "vec_L3": {
+     "cosine": 0.9982363820581901,
+     "norm_ratio": 1.0191548071488057,
+     "rel_err": 0.06294208483716571
+    },
+    "vec_L6": {
+     "cosine": 0.9979024027699657,
+     "norm_ratio": 1.024038898356278,
+     "rel_err": 0.0698134009160388
+    },
+    "vec_L9": {
+     "cosine": 0.9979578884360583,
+     "norm_ratio": 1.0177300256582347,
+     "rel_err": 0.06686546431886609
+    },
+    "vec_L15": {
+     "cosine": 0.9981946531616618,
+     "norm_ratio": 1.0196465898627318,
+     "rel_err": 0.06377789576097315
+    },
+    "vec_L23": {
+     "cosine": 0.9987265043132142,
+     "norm_ratio": 1.0086842482520033,
+     "rel_err": 0.05142495742982133
+    },
+    "lora_L4.A": {
+     "cosine": 0.9985529518532416,
+     "norm_ratio": 1.0205365832090296,
+     "rel_err": 0.058097180592103365
+    },
+    "lora_L4.B": {
+     "cosine": 0.9980488480658359,
+     "norm_ratio": 1.0195173703876446,
+     "rel_err": 0.06602570957674998
+    },
+    "lora_L20.A": {
+     "cosine": 0.9981287514034582,
+     "norm_ratio": 1.0052272986842596,
+     "rel_err": 0.061557980760072226
+    },
+    "lora_L20.B": {
+     "cosine": 0.9987837111408053,
+     "norm_ratio": 1.0105281970860582,
+     "rel_err": 0.0506856124546957
+    },
+    "diag_lora_L0.B": {
+     "cosine": 0.9968084992927739,
+     "norm_ratio": 1.0157664804192446,
+     "rel_err": 0.08205011143229858
+    }
+   }
+  },
+  "F_float32": {
+   "short_4x400": {
+    "vec_L3": {
+     "cosine": 0.9999418471370076,
+     "norm_ratio": 0.9975690419865818,
+     "rel_err": 0.011042307209792242
+    },
+    "vec_L6": {
+     "cosine": 0.9999486647384481,
+     "norm_ratio": 0.9975265448147441,
+     "rel_err": 0.010417991779627633
+    },
+    "vec_L9": {
+     "cosine": 0.9999432011588305,
+     "norm_ratio": 0.9979813481529056,
+     "rel_err": 0.010837127084763623
+    },
+    "vec_L15": {
+     "cosine": 0.9999552712860413,
+     "norm_ratio": 0.9984282849991917,
+     "rel_err": 0.009580559189501263
+    },
+    "vec_L23": {
+     "cosine": 0.9999558592689631,
+     "norm_ratio": 0.9991890720411436,
+     "rel_err": 0.009426954774727124
+    },
+    "lora_L4.A": {
+     "cosine": 0.9999653956714158,
+     "norm_ratio": 0.9964558604758471,
+     "rel_err": 0.009029080627773219
+    },
+    "lora_L4.B": {
+     "cosine": 0.9999499755773935,
+     "norm_ratio": 0.9962579866638152,
+     "rel_err": 0.010661947518104361
+    },
+    "lora_L20.A": {
+     "cosine": 0.9999840320201019,
+     "norm_ratio": 0.9982344983823211,
+     "rel_err": 0.005915790121311299
+    },
+    "lora_L20.B": {
+     "cosine": 0.9999720770184924,
+     "norm_ratio": 0.9989061625332891,
+     "rel_err": 0.007548599671058035
+    },
+    "diag_lora_L0.B": {
+     "cosine": 0.9998914088296118,
+     "norm_ratio": 0.9986098123992576,
+     "rel_err": 0.014792330381535422
+    }
+   },
+   "long_1x1500": {
+    "vec_L3": {
+     "cosine": 0.9999744528145829,
+     "norm_ratio": 1.0028250835458667,
+     "rel_err": 0.007695441101480264
+    },
+    "vec_L6": {
+     "cosine": 0.9999734242666108,
+     "norm_ratio": 1.0034414036803143,
+     "rel_err": 0.008073267103502042
+    },
+    "vec_L9": {
+     "cosine": 0.9999719072209411,
+     "norm_ratio": 1.0037290056069288,
+     "rel_err": 0.008384542754253524
+    },
+    "vec_L15": {
+     "cosine": 0.999975441578198,
+     "norm_ratio": 1.0039679782025628,
+     "rel_err": 0.0080657664972133
+    },
+    "vec_L23": {
+     "cosine": 0.9999834177610023,
+     "norm_ratio": 1.0046833288614723,
+     "rel_err": 0.007433260884659694
+    },
+    "lora_L4.A": {
+     "cosine": 0.9999779596727858,
+     "norm_ratio": 1.0017831918686906,
+     "rel_err": 0.0068803366139012535
+    },
+    "lora_L4.B": {
+     "cosine": 0.9999763239567929,
+     "norm_ratio": 1.0008130368734343,
+     "rel_err": 0.006931927173299468
+    },
+    "lora_L20.A": {
+     "cosine": 0.9999721665645414,
+     "norm_ratio": 1.0045997681452319,
+     "rel_err": 0.008779566765656967
+    },
+    "lora_L20.B": {
+     "cosine": 0.9999845863108344,
+     "norm_ratio": 1.0049110684858038,
+     "rel_err": 0.007422760090537253
+    },
+    "diag_lora_L0.B": {
+     "cosine": 0.9999610580405264,
+     "norm_ratio": 1.0006830262644137,
+     "rel_err": 0.008854583026041238
+    }
+   }
+  },
+  "F_bfloat16_vs_R_bfloat16": {
+   "short_4x400": {
+    "vec_L3": {
+     "cosine": 0.9938607042602166,
+     "norm_ratio": 1.0414621907410462,
+     "rel_err": 0.12044418642081045
+    },
+    "vec_L6": {
+     "cosine": 0.9940121607761275,
+     "norm_ratio": 1.048207190828578,
+     "rel_err": 0.12197100274884966
+    },
+    "vec_L9": {
+     "cosine": 0.9925982847569053,
+     "norm_ratio": 1.0378646672920129,
+     "rel_err": 0.12960590451620846
+    },
+    "vec_L15": {
+     "cosine": 0.9935796890445705,
+     "norm_ratio": 1.031557149980915,
+     "rel_err": 0.11933854807758505
+    },
+    "vec_L23": {
+     "cosine": 0.9943623868477066,
+     "norm_ratio": 1.032266013828453,
+     "rel_err": 0.11260607692672418
+    },
+    "lora_L4.A": {
+     "cosine": 0.9971534644719827,
+     "norm_ratio": 1.024777706071443,
+     "rel_err": 0.08029985688314849
+    },
+    "lora_L4.B": {
+     "cosine": 0.9942107669900034,
+     "norm_ratio": 1.0170014170207606,
+     "rel_err": 0.10983790115412838
+    },
+    "lora_L20.A": {
+     "cosine": 0.9927879221935443,
+     "norm_ratio": 1.008545154300719,
+     "rel_err": 0.12091497802297081
+    },
+    "lora_L20.B": {
+     "cosine": 0.9956954704727651,
+     "norm_ratio": 1.0244693486284973,
+     "rel_err": 0.09704878229080001
+    },
+    "diag_lora_L0.B": {
+     "cosine": 0.9902962353563705,
+     "norm_ratio": 1.0254457384826252,
+     "rel_err": 0.14334871401237165
+    }
+   },
+   "long_1x1500": {
+    "vec_L3": {
+     "cosine": 0.9971746647436248,
+     "norm_ratio": 0.9863674899830482,
+     "rel_err": 0.07589125786113364
+    },
+    "vec_L6": {
+     "cosine": 0.9970027124952218,
+     "norm_ratio": 0.9889280369595868,
+     "rel_err": 0.07778683476126351
+    },
+    "vec_L9": {
+     "cosine": 0.9969250612093438,
+     "norm_ratio": 0.9761330594432248,
+     "rel_err": 0.0810723730390847
+    },
+    "vec_L15": {
+     "cosine": 0.997471437091979,
+     "norm_ratio": 0.9826429290878529,
+     "rel_err": 0.07259901401045597
+    },
+    "vec_L23": {
+     "cosine": 0.9981462308756691,
+     "norm_ratio": 0.9758907448494083,
+     "rel_err": 0.06480284289258363
+    },
+    "lora_L4.A": {
+     "cosine": 0.9971396279904212,
+     "norm_ratio": 0.994713482244222,
+     "rel_err": 0.07562042365852147
+    },
+    "lora_L4.B": {
+     "cosine": 0.9974123307608653,
+     "norm_ratio": 0.9878617248462265,
+     "rel_err": 0.072524868283144
+    },
+    "lora_L20.A": {
+     "cosine": 0.9976796264863301,
+     "norm_ratio": 0.9759258719175563,
+     "rel_err": 0.07147439214100007
+    },
+    "lora_L20.B": {
+     "cosine": 0.9979754531988001,
+     "norm_ratio": 0.9712835948942488,
+     "rel_err": 0.06897427137991567
+    },
+    "diag_lora_L0.B": {
+     "cosine": 0.9962339119088243,
+     "norm_ratio": 0.9644975227309378,
+     "rel_err": 0.09233196175143142
+    }
+   }
+  }
+ },
+ "summary": {
+  "min_cosines": {
+   "R_bfloat16": {
+    "short_4x400": {
+     "min_cosine": 0.9949070311228259,
+     "param": "vec_L9",
+     "diag_cosine": {
+      "diag_lora_L0.B": 0.9948331707725596
+     }
+    },
+    "long_1x1500": {
+     "min_cosine": 0.9984448296330606,
+     "param": "lora_L4.A",
+     "diag_cosine": {
+      "diag_lora_L0.B": 0.9985561059091094
+     }
+    }
+   },
+   "F_bfloat16": {
+    "short_4x400": {
+     "min_cosine": 0.9969555313846563,
+     "param": "lora_L4.B",
+     "diag_cosine": {
+      "diag_lora_L0.B": 0.9946162308157208
+     }
+    },
+    "long_1x1500": {
+     "min_cosine": 0.9979024027699657,
+     "param": "vec_L6",
+     "diag_cosine": {
+      "diag_lora_L0.B": 0.9968084992927739
+     }
+    }
+   },
+   "F_float32": {
+    "short_4x400": {
+     "min_cosine": 0.9999418471370076,
+     "param": "vec_L3",
+     "diag_cosine": {
+      "diag_lora_L0.B": 0.9998914088296118
+     }
+    },
+    "long_1x1500": {
+     "min_cosine": 0.9999719072209411,
+     "param": "vec_L9",
+     "diag_cosine": {
+      "diag_lora_L0.B": 0.9999610580405264
+     }
+    }
+   },
+   "F_bfloat16_vs_R_bfloat16": {
+    "short_4x400": {
+     "min_cosine": 0.9925982847569053,
+     "param": "vec_L9",
+     "diag_cosine": {
+      "diag_lora_L0.B": 0.9902962353563705
+     }
+    },
+    "long_1x1500": {
+     "min_cosine": 0.9969250612093438,
+     "param": "vec_L9",
+     "diag_cosine": {
+      "diag_lora_L0.B": 0.9962339119088243
+     }
+    }
+   }
+  },
+  "pass_rule": {
+   "R_bfloat16": true,
+   "F_bfloat16": true,
+   "F_float32": true
+  },
+  "F_bfloat16_min": {
+   "cosine": 0.9969555313846563,
+   "case": "short_4x400",
+   "param": "lora_L4.B"
+  },
+  "fwd_bwd_seconds": {
+   "R_float32": {
+    "short_4x400": 0.639,
+    "long_1x1500": 0.7166
+   },
+   "R_bfloat16": {
+    "short_4x400": 0.3073,
+    "long_1x1500": 0.4103
+   },
+   "F_bfloat16": {
+    "short_4x400": 0.1565,
+    "long_1x1500": 0.1396
+   },
+   "F_float32": {
+    "short_4x400": 0.5175,
+    "long_1x1500": 0.4745
+   }
+  },
+  "verdict": "CORRECT: fla bfloat16 gradients on NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "path_checks_all_pass": true
+ },
+ "path_checks": {
+  "R_has_fallback_warning": true,
+  "F_has_no_fallback_warning": true,
+  "R_no_fla_kernels": true,
+  "F_has_fla_kernels": true
+ }
+}

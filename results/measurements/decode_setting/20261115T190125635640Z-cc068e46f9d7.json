@@ -1,0 +1,64 @@
+{
+ "commit": "cc068e46f9d7ded1a0e35f7e4ef8498c4ec950ee",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T19:01:25+00:00",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "kind": "measurement",
+ "limit": null,
+ "model_kind": "full",
+ "name": "decode_setting",
+ "seconds": 138.9,
+ "session": "c2-h",
+ "started": "2026-11-15T18:59:06+00:00",
+ "tree_clean": null,
+ "values": {
+  "differing_episodes": [
+   "philosophy/24:bare:short:-",
+   "philosophy/89:bare:short:-",
+   "high_school_macroeconomics/95:bare:short:-",
+   "college_mathematics/48:named:short:B"
+  ],
+  "episodes": 96,
+  "final_answers_differing": 4,
+  "off": {
+   "mean_seconds": 15.656487261666067,
+   "repeats_identical": true,
+   "replies_sha256": "dc02887f2c2b3fb91cc36bcde8a411d15dc30accd096dc5e3a7092582f9880d6",
+   "rows_ended": 88,
+   "seconds": [
+    15.679401016999691,
+    15.72144947599918,
+    15.568611291999332
+   ],
+   "spread": 0.009817072385794006,
+   "spread_above_limit": false,
+   "tokens_generated": 11501
+  },
+  "on": {
+   "mean_seconds": 15.89230249700025,
+   "repeats_identical": true,
+   "replies_sha256": "1a82d9294b1fcf6858879cf5a733ecab6ba556a378dc4b38a82fe9f6a54a02b8",
+   "rows_ended": 87,
+   "seconds": [
+    15.719899683999756,
+    15.950975617999575,
+    16.006032189001417
+   ],
+   "spread": 0.018201929449517776,
+   "spread_above_limit": false,
+   "tokens_generated": 11355
+  },
+  "replies_identical_to_default": false,
+  "setting": "cublaslt",
+  "time_change": 0.015061822706014128
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

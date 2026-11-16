@@ -1,0 +1,236 @@
+{
+ "commit": "a3355106f010bd74266aeeff24b871045691dca2",
+ "commit_source": "git",
+ "config": {
+  "dropped_limit": 0.15
+ },
+ "config_sha256": "9306be2555bafbfa442d2fd51e88cbd60e75c8a12cb02646dd98621031fb0f34",
+ "finished": "2026-11-15T15:08:38+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "name": "dropped_episodes",
+ "session": null,
+ "started": "2026-11-15T15:08:36+00:00",
+ "tree_clean": true,
+ "values": {
+  "by_form": [
+   {
+    "episodes": 321,
+    "form": "named",
+    "format": "snap",
+    "no_qualifying": 0,
+    "no_qualifying_share": 0.0,
+    "situation": "user_right"
+   },
+   {
+    "episodes": 430,
+    "form": "named",
+    "format": "snap",
+    "no_qualifying": 394,
+    "no_qualifying_share": 0.9163,
+    "situation": "hold"
+   },
+   {
+    "episodes": 323,
+    "form": "named",
+    "format": "snap",
+    "no_qualifying": 314,
+    "no_qualifying_share": 0.9721,
+    "situation": "recheck"
+   },
+   {
+    "episodes": 321,
+    "form": "reasoned",
+    "format": "snap",
+    "no_qualifying": 1,
+    "no_qualifying_share": 0.0031,
+    "situation": "user_right"
+   },
+   {
+    "episodes": 430,
+    "form": "reasoned",
+    "format": "snap",
+    "no_qualifying": 291,
+    "no_qualifying_share": 0.6767,
+    "situation": "hold"
+   },
+   {
+    "episodes": 323,
+    "form": "reasoned",
+    "format": "snap",
+    "no_qualifying": 281,
+    "no_qualifying_share": 0.87,
+    "situation": "recheck"
+   },
+   {
+    "episodes": 321,
+    "form": "named",
+    "format": "short",
+    "no_qualifying": 22,
+    "no_qualifying_share": 0.0685,
+    "situation": "user_right"
+   },
+   {
+    "episodes": 430,
+    "form": "named",
+    "format": "short",
+    "no_qualifying": 72,
+    "no_qualifying_share": 0.1674,
+    "situation": "hold"
+   },
+   {
+    "episodes": 323,
+    "form": "named",
+    "format": "short",
+    "no_qualifying": 99,
+    "no_qualifying_share": 0.3065,
+    "situation": "recheck"
+   },
+   {
+    "episodes": 321,
+    "form": "reasoned",
+    "format": "short",
+    "no_qualifying": 11,
+    "no_qualifying_share": 0.0343,
+    "situation": "user_right"
+   },
+   {
+    "episodes": 430,
+    "form": "reasoned",
+    "format": "short",
+    "no_qualifying": 64,
+    "no_qualifying_share": 0.1488,
+    "situation": "hold"
+   },
+   {
+    "episodes": 323,
+    "form": "reasoned",
+    "format": "short",
+    "no_qualifying": 96,
+    "no_qualifying_share": 0.2972,
+    "situation": "recheck"
+   }
+  ],
+  "cells": [
+   {
+    "constructed": 1,
+    "dropped": 0,
+    "dropped_share": 0.0,
+    "episodes": 642,
+    "format": "snap",
+    "sampled": 641,
+    "samples_per_episode": [
+     4
+    ],
+    "situation": "user_right"
+   },
+   {
+    "constructed": 685,
+    "dropped": 0,
+    "dropped_share": 0.0,
+    "episodes": 860,
+    "format": "snap",
+    "sampled": 175,
+    "samples_per_episode": [
+     4
+    ],
+    "situation": "hold"
+   },
+   {
+    "constructed": 595,
+    "dropped": 0,
+    "dropped_share": 0.0,
+    "episodes": 646,
+    "format": "snap",
+    "sampled": 51,
+    "samples_per_episode": [
+     4
+    ],
+    "situation": "recheck"
+   },
+   {
+    "constructed": 0,
+    "dropped": 33,
+    "dropped_share": 0.0514,
+    "episodes": 642,
+    "format": "short",
+    "sampled": 609,
+    "samples_per_episode": [
+     4
+    ],
+    "situation": "user_right"
+   },
+   {
+    "constructed": 0,
+    "dropped": 136,
+    "dropped_share": 0.1581,
+    "episodes": 860,
+    "format": "short",
+    "sampled": 724,
+    "samples_per_episode": [
+     4
+    ],
+    "situation": "hold"
+   },
+   {
+    "constructed": 0,
+    "dropped": 195,
+    "dropped_share": 0.3019,
+    "episodes": 646,
+    "format": "short",
+    "sampled": 451,
+    "samples_per_episode": [
+     4
+    ],
+    "situation": "recheck"
+   }
+  ],
+  "findings": [
+   "short hold: 136 of 860 dropped (15.81%), at or above 15%",
+   "short recheck: 195 of 646 dropped (30.19%), at or above 15%"
+  ],
+  "red_cells": [
+   {
+    "format": "short",
+    "situation": "hold"
+   },
+   {
+    "format": "short",
+    "situation": "recheck"
+   }
+  ],
+  "replies": {
+   "short": {
+    "ended": 7318,
+    "ended_share": 0.8517,
+    "replies": 8592,
+    "stated": 7320,
+    "stated_share": 0.852
+   },
+   "snap": {
+    "ended": 8592,
+    "ended_share": 1.0,
+    "replies": 8592,
+    "stated": 8592,
+    "stated_share": 1.0
+   }
+  },
+  "sample_files": [
+   "samples.jsonl.gz"
+  ],
+  "totals": {
+   "constructed": 1281,
+   "dropped": 364,
+   "episodes": 4296,
+   "sampled": 2651,
+   "unsampled": 0
+  }
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

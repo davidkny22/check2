@@ -1,0 +1,205 @@
+{
+ "episodes": 4296,
+ "sampled": 2798,
+ "constructed": 1281,
+ "dropped": 217,
+ "unsampled": 0,
+ "cells": [
+  {
+   "situation": "user_right",
+   "format": "snap",
+   "episodes": 642,
+   "sampled": 641,
+   "constructed": 1,
+   "dropped": 0,
+   "unsampled": 0,
+   "dropped_share": 0.0,
+   "samples_per_episode": [
+    4
+   ]
+  },
+  {
+   "situation": "hold",
+   "format": "snap",
+   "episodes": 860,
+   "sampled": 175,
+   "constructed": 685,
+   "dropped": 0,
+   "unsampled": 0,
+   "dropped_share": 0.0,
+   "samples_per_episode": [
+    4
+   ]
+  },
+  {
+   "situation": "recheck",
+   "format": "snap",
+   "episodes": 646,
+   "sampled": 51,
+   "constructed": 595,
+   "dropped": 0,
+   "unsampled": 0,
+   "dropped_share": 0.0,
+   "samples_per_episode": [
+    4
+   ]
+  },
+  {
+   "situation": "user_right",
+   "format": "short",
+   "episodes": 642,
+   "sampled": 609,
+   "constructed": 0,
+   "dropped": 33,
+   "unsampled": 0,
+   "dropped_share": 0.0514,
+   "samples_per_episode": [
+    4
+   ]
+  },
+  {
+   "situation": "hold",
+   "format": "short",
+   "episodes": 860,
+   "sampled": 767,
+   "constructed": 0,
+   "dropped": 93,
+   "unsampled": 0,
+   "dropped_share": 0.1081,
+   "samples_per_episode": [
+    8
+   ]
+  },
+  {
+   "situation": "recheck",
+   "format": "short",
+   "episodes": 646,
+   "sampled": 555,
+   "constructed": 0,
+   "dropped": 91,
+   "unsampled": 0,
+   "dropped_share": 0.1409,
+   "samples_per_episode": [
+    16
+   ]
+  }
+ ],
+ "by_form": [
+  {
+   "form": "named",
+   "situation": "user_right",
+   "format": "snap",
+   "episodes": 321,
+   "no_qualifying": 0,
+   "no_qualifying_share": 0.0
+  },
+  {
+   "form": "named",
+   "situation": "hold",
+   "format": "snap",
+   "episodes": 430,
+   "no_qualifying": 394,
+   "no_qualifying_share": 0.9163
+  },
+  {
+   "form": "named",
+   "situation": "recheck",
+   "format": "snap",
+   "episodes": 323,
+   "no_qualifying": 314,
+   "no_qualifying_share": 0.9721
+  },
+  {
+   "form": "reasoned",
+   "situation": "user_right",
+   "format": "snap",
+   "episodes": 321,
+   "no_qualifying": 1,
+   "no_qualifying_share": 0.0031
+  },
+  {
+   "form": "reasoned",
+   "situation": "hold",
+   "format": "snap",
+   "episodes": 430,
+   "no_qualifying": 291,
+   "no_qualifying_share": 0.6767
+  },
+  {
+   "form": "reasoned",
+   "situation": "recheck",
+   "format": "snap",
+   "episodes": 323,
+   "no_qualifying": 281,
+   "no_qualifying_share": 0.87
+  },
+  {
+   "form": "named",
+   "situation": "user_right",
+   "format": "short",
+   "episodes": 321,
+   "no_qualifying": 22,
+   "no_qualifying_share": 0.0685
+  },
+  {
+   "form": "named",
+   "situation": "hold",
+   "format": "short",
+   "episodes": 430,
+   "no_qualifying": 48,
+   "no_qualifying_share": 0.1116
+  },
+  {
+   "form": "named",
+   "situation": "recheck",
+   "format": "short",
+   "episodes": 323,
+   "no_qualifying": 41,
+   "no_qualifying_share": 0.1269
+  },
+  {
+   "form": "reasoned",
+   "situation": "user_right",
+   "format": "short",
+   "episodes": 321,
+   "no_qualifying": 11,
+   "no_qualifying_share": 0.0343
+  },
+  {
+   "form": "reasoned",
+   "situation": "hold",
+   "format": "short",
+   "episodes": 430,
+   "no_qualifying": 45,
+   "no_qualifying_share": 0.1047
+  },
+  {
+   "form": "reasoned",
+   "situation": "recheck",
+   "format": "short",
+   "episodes": 323,
+   "no_qualifying": 50,
+   "no_qualifying_share": 0.1548
+  }
+ ],
+ "replies": {
+  "snap": {
+   "replies": 8592,
+   "ended": 8592,
+   "ended_share": 1.0,
+   "stated": 8592,
+   "stated_share": 1.0
+  },
+  "short": {
+   "replies": 19784,
+   "ended": 16120,
+   "ended_share": 0.8148,
+   "stated": 16131,
+   "stated_share": 0.8154
+  }
+ },
+ "sample_files": [
+  "samples.jsonl.gz",
+  "samples_resampled.jsonl.gz"
+ ]
+}

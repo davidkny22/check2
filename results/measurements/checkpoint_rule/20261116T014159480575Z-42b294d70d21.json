@@ -1,0 +1,98 @@
+{
+ "commit": "42b294d70d2116b424820b56af0d52fd20fd3088",
+ "commit_source": "git",
+ "config": {
+  "kind": "epochs",
+  "original": "original-heldout",
+  "runs": [
+   "connector-heldout-epoch1",
+   "connector-heldout-epoch2",
+   "connector-heldout-epoch3"
+  ]
+ },
+ "config_sha256": "39b31ea6ab814025a38525c3d05cb3336c1901bbfe9585e0da82398018c50a1e",
+ "finished": "2026-11-16T01:41:59+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "measurement",
+ "name": "checkpoint_rule",
+ "runs": {
+  "connector-heldout-epoch1": {
+   "commit": "cc068e46f9d7ded1a0e35f7e4ef8498c4ec950ee",
+   "config_sha256": "1dffb7195a8e45515264b4238921e76c8758ab9f8fef072e9ab66e1925f4e2f9",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "connector-heldout-epoch2": {
+   "commit": "cc068e46f9d7ded1a0e35f7e4ef8498c4ec950ee",
+   "config_sha256": "1dffb7195a8e45515264b4238921e76c8758ab9f8fef072e9ab66e1925f4e2f9",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "connector-heldout-epoch3": {
+   "commit": "cc068e46f9d7ded1a0e35f7e4ef8498c4ec950ee",
+   "config_sha256": "1dffb7195a8e45515264b4238921e76c8758ab9f8fef072e9ab66e1925f4e2f9",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "original-heldout": {
+   "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+   "config_sha256": "2189376368293e16405eb963e36d272547b8c4970120a0834406a192499cdcca",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  }
+ },
+ "session": null,
+ "started": "2026-11-16T01:41:57+00:00",
+ "tree_clean": true,
+ "values": {
+  "candidates": [
+   {
+    "label": "connector-heldout-epoch1",
+    "order": 1,
+    "qualifies": true,
+    "right_adoption": 0.8888888888888888,
+    "right_adoption_drop": 9.722222222222229,
+    "wrong_adoption": 0.15476190476190477
+   },
+   {
+    "label": "connector-heldout-epoch2",
+    "order": 2,
+    "qualifies": false,
+    "right_adoption": 0.8333333333333334,
+    "right_adoption_drop": 15.277777777777786,
+    "wrong_adoption": 0.14285714285714285
+   },
+   {
+    "label": "connector-heldout-epoch3",
+    "order": 3,
+    "qualifies": false,
+    "right_adoption": 0.875,
+    "right_adoption_drop": 11.111111111111114,
+    "wrong_adoption": 0.13690476190476192
+   }
+  ],
+  "kept": {
+   "epoch": 1,
+   "label": "connector-heldout-epoch1"
+  },
+  "kind": "epochs",
+  "original": "original-heldout",
+  "ranking": [
+   "connector-heldout-epoch1",
+   "connector-heldout-epoch3",
+   "connector-heldout-epoch2"
+  ],
+  "recorded_check": {
+   "check": "the kept checkpoint is the last epoch's",
+   "holds": false
+  },
+  "training_id": "connector-reader-seed0"
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

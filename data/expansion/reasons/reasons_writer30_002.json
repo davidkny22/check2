@@ -1,0 +1,127 @@
+{
+ "writer": "opus",
+ "started_unix": 1794795946,
+ "finished_unix": 1794796040,
+ "reasons": [
+  {
+   "job_id": "expansion/college_mathematics/208:A",
+   "reason": "Joining P to the three vertices splits the triangle into three smaller triangles with the same base, so their heights, the distances 2, 3 and 4, must add up to the altitude, which is 9."
+  },
+  {
+   "job_id": "expansion/college_mathematics/208:D",
+   "reason": "The altitude drops from a vertex straight to the opposite side, so a line through P collects only the two distances measured across it, the 3 and the 4, which together make 7."
+  },
+  {
+   "job_id": "expansion/college_mathematics/21:A",
+   "reason": "Using the Wallis formula for even powers, the numerator is 3 times 1 and the denominator is 6 times 4, which gives one eighth, and the factor pi/2 for even exponents then yields pi/16."
+  },
+  {
+   "job_id": "expansion/college_mathematics/21:B",
+   "reason": "With the Wallis formula for even exponents 4 and 2, the numerator is 3 times 1 and the denominator is 6 times 4 times 2, giving 1/16, and the extra factor pi/2 makes pi/32."
+  },
+  {
+   "job_id": "expansion/college_mathematics/214:C",
+   "reason": "The extra 2xy term is exactly what appears when you expand (x + y) squared, so f behaves like squaring, and its value at 5 should be 5 squared, which is 25."
+  },
+  {
+   "job_id": "expansion/college_mathematics/214:D",
+   "reason": "The cross term 2xy points to f(x) = x^2 + cx, and the condition f(1) = 3 forces c = 2, so f(5) comes to 25 plus 10, which is 35."
+  },
+  {
+   "job_id": "expansion/college_mathematics/215:B",
+   "reason": "This matrix has eigenvalues 3 and 1 with eigenvectors (1, 1) and (1, -1), so the top-left entry of A^10 is the average of 3^10 and 1^10, which is (3^10 + 1)/2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/215:D",
+   "reason": "The top-left entry starts at 2 for the first power, and since the dominant eigenvalue is 3, each further multiplication scales it by three, so after ten powers it reaches 2 times 3^9."
+  },
+  {
+   "job_id": "expansion/college_mathematics/216:A",
+   "reason": "Dividing the numerator and denominator by x squared makes every lower-order term vanish as x grows, so the ratio settles at the leading coefficients, 3 over 5."
+  },
+  {
+   "job_id": "expansion/college_mathematics/216:D",
+   "reason": "Each term of the numerator, measured against the denominator's growth, tends to zero as x gets very large, so every piece of the fraction vanishes and the whole limit comes out to 0."
+  },
+  {
+   "job_id": "expansion/college_mathematics/219:B",
+   "reason": "Each cylinder of radius 1 has a circular cross section of area pi, and the overlap extends across a full diameter of 2 along the shared direction, so pi times 2 gives 2pi."
+  },
+  {
+   "job_id": "expansion/college_mathematics/219:D",
+   "reason": "Slicing parallel to both axes gives square cross sections of side 2 times the square root of 1 minus z squared, and integrating 4(1 - z^2) from -1 to 1 gives 16/3."
+  },
+  {
+   "job_id": "expansion/college_mathematics/220:B",
+   "reason": "The radius to the tangent point meets the chord at a right angle, so half the chord, 5, satisfies R squared minus r squared equals 25, and the annulus area is pi times 25."
+  },
+  {
+   "job_id": "expansion/college_mathematics/220:D",
+   "reason": "Because the chord just touches the inner circle, R squared minus r squared matches the square of the chord length, which is 100, so the area between the two circles is 100pi."
+  },
+  {
+   "job_id": "expansion/college_mathematics/221:C",
+   "reason": "Taking the trace of both sides of T squared equals minus the identity gives -4, and since T is a real map its trace must be real, so matching magnitudes across the four dimensions gives 4."
+  },
+  {
+   "job_id": "expansion/college_mathematics/221:D",
+   "reason": "Over the reals T has no real eigenvalues, so its eigenvalues are i and -i in conjugate pairs, two of each in four dimensions, and they cancel to give a trace of 0."
+  },
+  {
+   "job_id": "expansion/college_mathematics/222:A",
+   "reason": "The eigenvalues of A squared are the squares of the original ones, 4 and 9, and since the trace is the sum of the eigenvalues, it comes to 13."
+  },
+  {
+   "job_id": "expansion/college_mathematics/222:D",
+   "reason": "The trace equals the sum of the eigenvalues, and squaring the matrix keeps the same eigenvectors and the same diagonal structure, so the trace stays at 2 plus 3, which is 5."
+  },
+  {
+   "job_id": "expansion/college_mathematics/223:A",
+   "reason": "In a permutation of many elements, each position has its own chance of landing on itself, and with n positions the chance that every single one avoids its own spot shrinks toward 0."
+  },
+  {
+   "job_id": "expansion/college_mathematics/223:B",
+   "reason": "The number of derangements is n factorial times the alternating sum of 1 over k factorial, and that sum converges to e to the minus one, so the probability tends to 1/e."
+  },
+  {
+   "job_id": "expansion/college_mathematics/224:B",
+   "reason": "Taking determinants of A transpose equals minus A gives det A equals (-1)^n times det A, and with n odd that forces the determinant to equal its own negative, so it is 0."
+  },
+  {
+   "job_id": "expansion/college_mathematics/224:C",
+   "reason": "The determinant of minus A is (-1)^n times det A, and with n odd the skew-symmetry condition makes the determinant pick up exactly one factor of minus one, which leaves -1."
+  },
+  {
+   "job_id": "expansion/college_mathematics/225:A",
+   "reason": "The minimum is the squared distance from the origin to the line, which is 10 squared divided by the squared length of the normal vector (1, 2), and that comes to 100 over 10, or 10."
+  },
+  {
+   "job_id": "expansion/college_mathematics/225:B",
+   "reason": "Lagrange multipliers make y twice x, so the constraint gives x = 2 and y = 4, and the smallest value of x squared plus y squared is 4 plus 16, or 20."
+  },
+  {
+   "job_id": "expansion/college_mathematics/226:B",
+   "reason": "Factor the top as a difference of cubes, (x - 2)(x^2 + 2x + 4), and the bottom as (x - 2)(x + 2); cancelling the shared x - 2 leaves that quadratic over x + 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/226:D",
+   "reason": "The numerator is a difference of cubes and the denominator a difference of squares built on the same x and 2, so dividing drops one power of that difference and leaves x minus 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/227:A",
+   "reason": "With location 0 and scale 1, the density spreads symmetrically with heavy tails, and the typical size of a draw is set by the scale parameter, so the expected value comes to 1."
+  },
+  {
+   "job_id": "expansion/college_mathematics/227:D",
+   "reason": "The integral of x times the Cauchy density diverges in both tails, since the integrand behaves like 1 over x for large x, so the expectation does not exist at all."
+  },
+  {
+   "job_id": "expansion/college_mathematics/230:A",
+   "reason": "A linear functional on V can be expressed through a bilinear pairing, and pairings on a finite-dimensional space are represented by symmetric matrices, so the dual is naturally the space of those matrices."
+  },
+  {
+   "job_id": "expansion/college_mathematics/230:D",
+   "reason": "An element of the dual takes a vector and returns a scalar, and does so linearly, so the dual consists of exactly the linear maps sending V into its field of scalars."
+  }
+ ]
+}

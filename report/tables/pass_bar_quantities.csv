@@ -1,0 +1,25 @@
+runs,variant,format,quantity,estimate,low,high,skipped,episodes,questions,repeat_agreement_snap,repeat_agreement_short
+wide-check2;original,,snap,"wrong_adoption_drop, original minus check2 input=probabilities_and_state, points",71.16104868913858,67.22846441947566,74.71910112359551,0,534,534,1.0,1.0
+wide-check2;original,,snap,"right_adoption_drop, original minus check2 input=probabilities_and_state, points",20.88353413654619,16.06425702811245,26.104417670682736,0,249,249,1.0,1.0
+wide-check2;original,,short,"wrong_adoption_drop, original minus check2 input=probabilities_and_state, points",9.176029962546817,5.617977528089888,12.54681647940075,0,534,534,1.0,1.0
+wide-check2;original,,short,"right_adoption_drop, original minus check2 input=probabilities_and_state, points",2.409638554216869,0.0,5.220883534136547,0,249,249,1.0,1.0
+check2-seed1;original,,snap,"wrong_adoption_drop, original minus check2 seed=1, points",76.02996254681648,72.47191011235955,79.5880149812734,0,534,534,1.0,1.0
+check2-seed1;original,,snap,"right_adoption_drop, original minus check2 seed=1, points",35.742971887550205,29.718875502008032,41.76706827309237,0,249,249,1.0,1.0
+check2-seed1;original,,short,"wrong_adoption_drop, original minus check2 seed=1, points",10.112359550561795,6.554307116104869,13.670411985018724,0,534,534,1.0,1.0
+check2-seed1;original,,short,"right_adoption_drop, original minus check2 seed=1, points",2.811244979919678,0.0,5.622489959839356,0,249,249,1.0,1.0
+check2-alpha0.5;original,,snap,"wrong_adoption_drop, original minus dial alpha=0.5, points",58.23970037453184,54.119850187265925,62.359550561797754,0,534,534,1.0,1.0
+check2-alpha0.5;original,,snap,"right_adoption_drop, original minus dial alpha=0.5, points",8.032128514056225,4.819277108433738,11.646586345381536,0,249,249,1.0,1.0
+check2-alpha0.5;original,,short,"wrong_adoption_drop, original minus dial alpha=0.5, points",7.865168539325843,4.119850187265918,11.610486891385765,0,534,534,1.0,1.0
+check2-alpha0.5;original,,short,"right_adoption_drop, original minus dial alpha=0.5, points",1.6064257028112507,-1.2048192771084274,4.417670682730929,0,249,249,1.0,1.0
+check2-alpha2;original,,snap,"wrong_adoption_drop, original minus dial alpha=2.0, points",75.0936329588015,71.5308988764045,78.65168539325842,0,534,534,1.0,1.0
+check2-alpha2;original,,snap,"right_adoption_drop, original minus dial alpha=2.0, points",25.702811244979927,20.08032128514057,30.923694779116474,0,249,249,1.0,1.0
+check2-alpha2;original,,short,"wrong_adoption_drop, original minus dial alpha=2.0, points",8.426966292134832,4.1198501872659214,12.734082397003746,0,534,534,1.0,1.0
+check2-alpha2;original,,short,"right_adoption_drop, original minus dial alpha=2.0, points",3.2128514056224873,0.40160642570280913,6.024096385542165,0,249,249,1.0,1.0
+check2-answer-weighted;original,,snap,"wrong_adoption_drop, original minus check2 answer_weight=0.5, points",72.09737827715357,68.35205992509364,75.84269662921348,0,534,534,1.0,1.0
+check2-answer-weighted;original,,snap,"right_adoption_drop, original minus check2 answer_weight=0.5, points",18.87550200803213,14.056224899598405,23.694779116465867,0,249,249,1.0,1.0
+check2-answer-weighted;original,,short,"wrong_adoption_drop, original minus check2 answer_weight=0.5, points",12.734082397003743,8.801498127340828,16.47940074906367,0,534,534,1.0,1.0
+check2-answer-weighted;original,,short,"right_adoption_drop, original minus check2 answer_weight=0.5, points",5.622489959839356,2.811244979919678,8.835341365461858,0,249,249,1.0,1.0
+check2-crosswriter;original-crosswriter,cross-writer,snap,"wrong_adoption_drop, original minus check2, points",76.84729064039409,70.935960591133,82.26600985221675,0,203,203,1.0,1.0
+check2-crosswriter;original-crosswriter,cross-writer,snap,"right_adoption_drop, original minus check2, points",28.865979381443296,19.587628865979383,38.144329896907216,0,97,97,1.0,1.0
+check2-crosswriter;original-crosswriter,cross-writer,short,"wrong_adoption_drop, original minus check2, points",11.330049261083747,5.418719211822662,17.24137931034483,0,203,203,1.0,1.0
+check2-crosswriter;original-crosswriter,cross-writer,short,"right_adoption_drop, original minus check2, points",5.154639175257728,0.0,10.30927835051547,0,97,97,1.0,1.0

@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794787721,
+ "finished_unix": 1794788061,
+ "reasons": [
+  {
+   "job_id": "expansion/college_mathematics/102:B",
+   "reason": "Each side forms an isosceles triangle with two radii, and I split that triangle down the middle, so the angle at the center for one side is half of 360 over 10, which gives eighteen degrees."
+  },
+  {
+   "job_id": "expansion/college_mathematics/102:C",
+   "reason": "The ten sides divide the full turn around the center equally, since each side and its two radii form identical isosceles triangles, so I get 360 divided by 10 for one side, which is thirty-six degrees."
+  },
+  {
+   "job_id": "expansion/college_mathematics/103:C",
+   "reason": "Since u and v are not multiples of each other, W is a plane of dimension two, and in three-dimensional space its orthogonal complement has dimension three minus two, which leaves me with one."
+  },
+  {
+   "job_id": "expansion/college_mathematics/103:D",
+   "reason": "Any vector orthogonal to W must satisfy x + 2y + 3z = 0 and 4x + 5y + 6z = 0, and eliminating variables between these leaves me only the zero vector, so the complement has dimension zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/104:B",
+   "reason": "The integrand x over (1 + x^2) is an odd function of x, and for me the odd symmetry means the positive and negative contributions cancel out, so the integral comes to zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/104:D",
+   "reason": "I substitute u = 1 + x^2, so du = 2x dx and the limits run from 1 to 2, which turns the integral into one half of the integral of du over u, giving half of ln 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/105:C",
+   "reason": "The point (X, Y) is uniform on the unit square, and the line x + y = 1 cuts that square along its diagonal, so the region below it is a triangle covering half the area for me."
+  },
+  {
+   "job_id": "expansion/college_mathematics/105:D",
+   "reason": "For the sum to stay under 1, I need each variable to stay under one half, and since they are independent, the chance of both happening is one half times one half, which is one quarter."
+  },
+  {
+   "job_id": "expansion/college_mathematics/106:A",
+   "reason": "Variance equals E[X^2] minus the square of the mean, and when I rearrange that, E[X^2] comes out as sigma squared plus mu squared, which holds for the normal as for any distribution."
+  },
+  {
+   "job_id": "expansion/college_mathematics/106:B",
+   "reason": "Writing X as mu plus sigma Z and squaring gives a cross term of 2 mu sigma Z, and that cross term is where both parameters meet, so to me the expectation reduces to twice mu times sigma."
+  },
+  {
+   "job_id": "expansion/college_mathematics/108:B",
+   "reason": "A matrix that equals its own square is a projection, so its eigenvalues are only 0 and 1, and the trace counts the ones, which in my reading is exactly the number of independent columns, the rank."
+  },
+  {
+   "job_id": "expansion/college_mathematics/108:D",
+   "reason": "If squaring the matrix changes nothing, it acts like the identity on everything it touches, and the identity is the standard idempotent with all diagonal entries equal to 1, so the trace adds up to n for me."
+  },
+  {
+   "job_id": "expansion/college_mathematics/109:B",
+   "reason": "Near zero, sin x exceeds x by roughly x cubed over 3, so the numerator x minus sin x behaves like negative x cubed over 3, and dividing by x cubed gives me negative one third."
+  },
+  {
+   "job_id": "expansion/college_mathematics/109:D",
+   "reason": "The Taylor series sin x = x - x^3/6 + ... means x minus sin x equals x cubed over 6 plus higher-order terms, so dividing by x cubed leaves me with one sixth in the limit."
+  },
+  {
+   "job_id": "expansion/college_mathematics/11:A",
+   "reason": "When I replace x with negative x, sin(-x) becomes negative sin x, and squaring wipes out the sign, so h(-x) equals h(x), which is exactly the definition of an even function."
+  },
+  {
+   "job_id": "expansion/college_mathematics/11:C",
+   "reason": "The outer square is an even function but the inner sine is odd, and composing an even function with an odd one mixes the two symmetries, so I end up with something that is neither even nor odd."
+  },
+  {
+   "job_id": "expansion/college_mathematics/110:A",
+   "reason": "Factoring gives (2 sin x - 1)(sin x - 1) = 0, so sin x is one half or 1, and on the unit circle I place those at pi/3, 2pi/3 and pi/2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/110:D",
+   "reason": "This is a quadratic in sin x with roots one half and 1, and over the interval from 0 to 2pi I find sine reaching one half at pi/6 and 5pi/6 and reaching 1 only at pi/2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/111:A",
+   "reason": "The values 40 and 60 sit exactly one standard deviation on each side of the mean of 50, and for a normal distribution that central band holds roughly 68 percent of the probability."
+  },
+  {
+   "job_id": "expansion/college_mathematics/111:B",
+   "reason": "The interval from 40 to 60 is a one standard deviation interval around the mean, and the probability I associate with one standard deviation of a normal curve is about 0.34."
+  },
+  {
+   "job_id": "expansion/college_mathematics/112:A",
+   "reason": "Converting means dividing 15 by 3.28, and doing it by long division, 3.28 goes into 15 four times with 0.88 left over, which puts the room at roughly four and a quarter meters."
+  },
+  {
+   "job_id": "expansion/college_mathematics/112:B",
+   "reason": "Feet become meters when I divide by 3.28, and 15 divided by 3.28 comes to about 4.573, which rounds to four point five seven meters at two decimal places."
+  },
+  {
+   "job_id": "expansion/college_mathematics/113:B",
+   "reason": "The tangent points on the plane sit directly below the two centers, and since the spheres meet at a point between them, the spacing PQ reflects their average size, which gives me half of r plus R."
+  },
+  {
+   "job_id": "expansion/college_mathematics/113:D",
+   "reason": "The centers are r + R apart and their heights differ by R minus r, so the horizontal gap is the root of (R + r)^2 minus (R - r)^2, which simplifies for me to twice root rR."
+  },
+  {
+   "job_id": "expansion/college_mathematics/114:A",
+   "reason": "The minimal polynomial has the single root 2, so every eigenvalue of T is 2, and an operator with only one eigenvalue acts for me as a scalar multiple of the identity, making its Jordan form diagonal."
+  },
+  {
+   "job_id": "expansion/college_mathematics/114:C",
+   "reason": "The exponent 2 on (x - 2) in the minimal polynomial gives the size of the largest Jordan block for eigenvalue 2, so I know at least one block has to be two by two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/115:B",
+   "reason": "The square has area 4 and the points within distance 1 of the origin form the unit disk, which fits inside it with area pi, so my probability is the ratio pi over four."
+  },
+  {
+   "job_id": "expansion/college_mathematics/115:D",
+   "reason": "The favourable region is the unit disk of area pi, and the square has side length 2, so when I compare the disk's area with the square's size of 2, the probability comes to pi over two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/116:A",
+   "reason": "I write tan cubed as tan x times (sec squared x minus 1), which integrates to tan squared over 2 minus ln sec x, and from 0 to pi/4 that gives one half minus half of ln 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/116:B",
+   "reason": "Splitting tan cubed into tan x sec squared x minus tan x, I get half of tan squared minus ln sec x, and at pi/4 sec is root 2, so the value is one half minus ln 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/119:A",
+   "reason": "A binomial count is the sum of n Bernoulli trials, each of which contributes p, so when I add up those n contributions the variance of the total comes to n times p."
+  },
+  {
+   "job_id": "expansion/college_mathematics/119:D",
+   "reason": "A binomial is a sum of n independent Bernoulli trials, each with variance p times (1 - p), and since variances of independent variables add, I get n times p times (1 - p)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/12:A",
+   "reason": "The foci give me c = 5 and the distance difference gives 2a = 6, so a = 3 and b squared is 25 minus 9, or 16, with the x-term positive because the foci lie on the x-axis."
+  },
+  {
+   "job_id": "expansion/college_mathematics/12:B",
+   "reason": "With c = 5 and a = 3, b squared comes to 16, and the larger denominator belongs with the positive term, so I put y squared over 16 first and subtract x squared over 9."
+  },
+  {
+   "job_id": "expansion/college_mathematics/120:C",
+   "reason": "Since y varies inversely with x, doubling x from 3 to 6 should halve y, and halving 8 takes me down to a value of four for y."
+  },
+  {
+   "job_id": "expansion/college_mathematics/120:D",
+   "reason": "Inverse square variation means y times x squared stays fixed, here at 8 times 9, or 72, so with x = 6 I divide 72 by 36 and get two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/121:B",
+   "reason": "A basis needs exactly n vectors and S already supplies k independent ones, so at most n minus k more can be added before the set spans V, which is my count."
+  },
+  {
+   "job_id": "expansion/college_mathematics/121:C",
+   "reason": "Each of the k independent vectors in S can be paired with one new vector outside the current span, so I count at most k additions before the set stops being independent."
+  },
+  {
+   "job_id": "expansion/college_mathematics/122:B",
+   "reason": "The median length formula gives the median squared as a quarter of (2a^2 + 2b^2 - c^2), and using a^2 + b^2 = 5c^2 I get 5c^2 over 4, so the ratio is root 5 over 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/122:D",
+   "reason": "The median formula gives the median to c squared as (2a^2 + 2b^2 - c^2) over 4, which with a^2 + b^2 = 5c^2 becomes 9c^2 over 4, so I get a median of three halves of c."
+  },
+  {
+   "job_id": "expansion/college_mathematics/123:A",
+   "reason": "The order of a differential equation is the highest derivative that appears, and here I see the second derivative, regardless of the powers 3 and 4 the terms are raised to, so the order is two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/123:B",
+   "reason": "If I set p = dy/dx, the second derivative becomes dp/dx and the equation turns into a first-order equation in p, so that reduced form tells me the order is one."
+  },
+  {
+   "job_id": "expansion/college_mathematics/124:A",
+   "reason": "If Av = lambda v, multiplying both sides by the inverse gives v = lambda times the inverse applied to v, so the inverse scales v by 1 over lambda, making each eigenvalue a reciprocal."
+  },
+  {
+   "job_id": "expansion/college_mathematics/124:B",
+   "reason": "Inverting a matrix undoes its action, and undoing a stretch by lambda along an eigenvector means stretching by negative lambda, so to me the eigenvalues of the inverse are the negatives."
+  },
+  {
+   "job_id": "expansion/college_mathematics/125:B",
+   "reason": "Smith Normal Form diagonalizes a matrix over a ring such as polynomials in the differentiation operator, and that is how I see systems of linear differential equations with constant coefficients getting decoupled and solved."
+  },
+  {
+   "job_id": "expansion/college_mathematics/125:D",
+   "reason": "The integers form a principal ideal domain, and Smith Normal Form diagonalizes an integer matrix with invertible integer operations, so I can split an integer system into single-variable divisibility conditions."
+  },
+  {
+   "job_id": "expansion/college_mathematics/126:A",
+   "reason": "With p > 1 the function 1 over x^p shrinks toward zero as x grows, so the far-out contributions vanish, and over an unbounded stretch I see the integral settling at zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/126:B",
+   "reason": "The antiderivative is x^(1-p) over (1 - p), which vanishes at infinity because p > 1, and at x = 1 it equals 1 over (1 - p), so subtracting leaves me 1 over (p - 1)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/127:B",
+   "reason": "Since 45 squared is 2025, just above 2024, and 44 squared is 1936, below it, the square root sits between those two, so the largest integer under it is forty-four for me."
+  },
+  {
+   "job_id": "expansion/college_mathematics/127:C",
+   "reason": "When I square 46 I get 2016, which is still under 2024, while 47 squared is well over, so the largest integer whose square stays below 2024 is forty-six."
+  },
+  {
+   "job_id": "expansion/college_mathematics/128:A",
+   "reason": "Chebyshev bounds the chance of being k standard deviations from the mean by 1 over k squared, and here the mean is 0, the standard deviation is 1 and k is 2, so I get one quarter."
+  },
+  {
+   "job_id": "expansion/college_mathematics/128:B",
+   "reason": "With variance 1 and a distance of 2, the event splits into two tails, so I divide the second moment by twice the squared distance, which gives a bound of one eighth."
+  },
+  {
+   "job_id": "expansion/college_mathematics/129:B",
+   "reason": "The expectation is the integral of x cubed times one half over an interval of length 2, and that length cancels the one half, leaving x^4 over 4 at x = 1, which is one quarter."
+  },
+  {
+   "job_id": "expansion/college_mathematics/129:D",
+   "reason": "The density is symmetric about zero and x cubed is an odd function, so the positive and negative halves of the integral cancel exactly and I get an expectation of zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/13:C",
+   "reason": "Euler's formula V - E + F = 2 fixes the edge count once vertices and faces are known, and plugging in 12 vertices and 20 faces makes my edge count come out to twenty-five."
+  },
+  {
+   "job_id": "expansion/college_mathematics/13:D",
+   "reason": "Each of the 20 faces is a triangle, giving 60 face edges, and every edge is shared by exactly two faces, so I count thirty edges, which also satisfies 12 - 30 + 20 = 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/130:C",
+   "reason": "A determinant of zero tells me the matrix adds no scaling or rotation of its own, so it leaves every vector where it was, which is exactly how the identity map behaves."
+  },
+  {
+   "job_id": "expansion/college_mathematics/130:D",
+   "reason": "A zero determinant means the matrix has a nontrivial null space, so the map sends some nonzero vector to zero, fails to be injective, and for me cannot be an isomorphism."
+  },
+  {
+   "job_id": "expansion/college_mathematics/131:A",
+   "reason": "The second row is twice the first, so the matrix has rank 1, and the null space for eigenvalue 0 then has dimension 2 minus 1, giving me a geometric multiplicity of one."
+  },
+  {
+   "job_id": "expansion/college_mathematics/131:D",
+   "reason": "The eigenvalue 0 shows up because the determinant vanishes, but a vector sent to zero is not really scaled by anything, so I do not count it as an eigenvector and the geometric multiplicity is zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/134:C",
+   "reason": "Opposite vertices of the octahedron are s times root 2 apart, and opposite faces are parallel across the center, so I take their separation as half that vertex distance, s over root 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/134:D",
+   "reason": "The inradius of a regular octahedron is s over root 6, and opposite faces lie at that distance on either side of the center, so I get 2s over root 6, which simplifies to s root 6 over 3."
+  },
+  {
+   "job_id": "expansion/college_mathematics/135:A",
+   "reason": "The rank counts the independent columns and also equals the count of independent rows, and transposing swaps rows with columns, so I see the two ranks as necessarily equal."
+  },
+  {
+   "job_id": "expansion/college_mathematics/135:D",
+   "reason": "When the matrix has more rows than columns, its rows give it more room for independent vectors than the shorter rows of its transpose, so the original rank can come out larger in my reckoning."
+  },
+  {
+   "job_id": "expansion/college_mathematics/136:A",
+   "reason": "Squaring to zero means the image of the matrix lies inside its kernel, so the rank is at most the nullity, and with rank plus nullity equal to 3, I get a rank of at most one."
+  },
+  {
+   "job_id": "expansion/college_mathematics/136:C",
+   "reason": "The condition that the square is zero only restricts how the matrix acts on its own output, not how many independent columns it has, so for me all three columns can still be independent."
+  },
+  {
+   "job_id": "expansion/college_mathematics/137:C",
+   "reason": "For a symmetric matrix the maximum of the quadratic form over unit vectors is the largest eigenvalue, attained at its eigenvector, and with eigenvalues 1, 2 and 3 that gives me three."
+  },
+  {
+   "job_id": "expansion/college_mathematics/137:D",
+   "reason": "Over unit vectors the quadratic form is a weighted average of the eigenvalues, weighted by the squared components, and with eigenvalues 1, 2 and 3 the representative value I get is their mean, two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/14:B",
+   "reason": "With u = x squared, the antiderivative is negative one half of exp(-x^2), and evaluating at the upper limit of 1 gives me exp(-1) over 2 as the size of the integral."
+  },
+  {
+   "job_id": "expansion/college_mathematics/14:D",
+   "reason": "Substituting u = x squared gives du = 2x dx, so the integral becomes half the integral of exp(-u) from 0 to 1, which I evaluate as half of 1 minus exp(-1)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/140:A",
+   "reason": "Implicit differentiation gives 3x^2 + 3y^2 y' = 3y + 3x y', and collecting the y' terms at (3/2, 3/2), I get a numerator half the size of the denominator with opposite sign, so the slope is negative one half."
+  },
+  {
+   "job_id": "expansion/college_mathematics/140:B",
+   "reason": "Implicit differentiation gives y' = (y - x^2)/(y^2 - x), and at (3/2, 3/2) the numerator is 3/2 - 9/4 while the denominator is 9/4 - 3/2, so I get a slope of negative one."
+  },
+  {
+   "job_id": "expansion/college_mathematics/142:A",
+   "reason": "Any dependence among eigenvectors with distinct eigenvalues could be hit with the matrix and subtracted to give a shorter dependence, and repeating that ends in a zero eigenvector, so for me the set has to be independent."
+  },
+  {
+   "job_id": "expansion/college_mathematics/142:C",
+   "reason": "Each eigenvector is stretched along its own direction by a different factor, and distinct eigenvalues mean those directions cannot share anything at all, which to me makes the eigenvectors mutually perpendicular."
+  },
+  {
+   "job_id": "expansion/college_mathematics/143:B",
+   "reason": "The curve's largest value of r squared is 2, so it fits inside a circle of area 2pi, and its two loops fill half of that circle, which gives me an area of pi."
+  },
+  {
+   "job_id": "expansion/college_mathematics/143:D",
+   "reason": "In polar form the curve is r^2 = 2 cos 2theta, and the area is twice the integral of half r^2 from -pi/4 to pi/4, which I evaluate as the integral of 2 cos 2theta there, giving two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/144:A",
+   "reason": "Each face is an equilateral triangle with height a root 3 over 2, and a containing sphere must reach across a face from a vertex to the opposite edge, so I take that height as the radius."
+  },
+  {
+   "job_id": "expansion/college_mathematics/144:B",
+   "reason": "The smallest enclosing sphere is the circumsphere centered at the centroid, which sits three quarters of the height a root 6 over 3 from a vertex, so I get a radius of a root 6 over 4."
+  },
+  {
+   "job_id": "expansion/college_mathematics/148:A",
+   "reason": "The correlation coefficient is defined as the covariance divided by the product of the two standard deviations, so when I multiply back, the covariance is rho times sigma_X times sigma_Y."
+  },
+  {
+   "job_id": "expansion/college_mathematics/148:C",
+   "reason": "Correlation rescales covariance into a unitless number, so to recover the covariance I take the product of the two standard deviations and divide it by rho."
+  },
+  {
+   "job_id": "expansion/college_mathematics/149:B",
+   "reason": "The inner integral of xy over y from 0 to x squared gives x times x^4 over 2, and integrating x^5 over 2 from 0 to 1 gives me one twelfth."
+  },
+  {
+   "job_id": "expansion/college_mathematics/149:D",
+   "reason": "Doing the y integral first, xy integrated up to x squared contributes x to the fifth power, and integrating x to the fifth from 0 to 1 gives me one sixth."
+  },
+  {
+   "job_id": "expansion/college_mathematics/151:C",
+   "reason": "Every eigenvalue is 2, so the eigenvectors are the nonzero vectors in the null space of the matrix minus 2I, and by rank-nullity I get that null space with dimension n minus k."
+  },
+  {
+   "job_id": "expansion/college_mathematics/151:D",
+   "reason": "A repeated eigenvalue whose shifted matrix, minus 2I, has positive rank k means the matrix cannot be diagonalized, and to me a non-diagonalizable matrix of this kind lacks independent eigenvectors, leaving a count of zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/152:A",
+   "reason": "The bisector of the right angle splits the hypotenuse in the ratio of the legs, 5 to 12, and when I follow that point back along a 45-degree line, the length comes to 12 root 2 over 5."
+  },
+  {
+   "job_id": "expansion/college_mathematics/152:C",
+   "reason": "The bisector from the right angle has length 2ab cos 45 degrees over (a + b), which for legs 5 and 12 is 120 times root 2 over 2, divided by 17, so I get 60 root 2 over 17."
+  },
+  {
+   "job_id": "expansion/college_mathematics/153:B",
+   "reason": "Writing the matrix with columns j, k and i and expanding along the first row, I pick up two nonzero products, one from each cyclic direction, and adding them gives a determinant of two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/153:C",
+   "reason": "The matrix of T is a permutation matrix for a 3-cycle, and a 3-cycle is an even permutation built from two swaps, so the determinant I get is positive one."
+  },
+  {
+   "job_id": "expansion/college_mathematics/154:B",
+   "reason": "The sign of the fraction changes only at -3 and at 2, and between them I see the numerator and denominator sharing a sign, so the fraction is nonnegative there, with 2 included and -3 excluded."
+  },
+  {
+   "job_id": "expansion/college_mathematics/154:C",
+   "reason": "The fraction is zero at x = 2 and undefined at x = -3, and it is positive when numerator and denominator share a sign, which for me happens for x below -3 or x at least 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/155:A",
+   "reason": "A Beta prior is conjugate to the binomial, so the posterior stays in the Beta family, and the parameters a and b are what define that family, so I keep the posterior at a and b."
+  },
+  {
+   "job_id": "expansion/college_mathematics/155:C",
+   "reason": "The binomial likelihood contributes p to the power k times (1 - p) to the power n - k, and multiplying by the Beta density adds k to a and n minus k to b in my calculation."
+  },
+  {
+   "job_id": "expansion/college_mathematics/156:A",
+   "reason": "Unfolding the absolute value puts 2x - 3 between -5 and 5, so 2x lies between -2 and 8, and I get x from -1 to 4 with both endpoints part of the solution."
+  },
+  {
+   "job_id": "expansion/college_mathematics/156:B",
+   "reason": "The inequality means -5 < 2x - 3 < 5, so adding 3 and halving gives -1 < x < 4, and since the inequality is strict, I keep both endpoints out of the interval."
+  },
+  {
+   "job_id": "expansion/college_mathematics/157:B",
+   "reason": "By AM-GM, x + 4/x is at least twice the square root of x times 4/x, which is 2 times 2, so I get a minimum of four, reached at x = 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/157:C",
+   "reason": "AM-GM bounds the sum from below by twice the geometric mean, and the product x times 4/x is 4, so doubling that product gives me a minimum of eight."
+  },
+  {
+   "job_id": "expansion/college_mathematics/159:A",
+   "reason": "An inscribed equilateral triangle has side R root 3, and an equilateral triangle with side s has area root 3 over 4 times s squared, which gives me 3 root 3 R squared over 4."
+  },
+  {
+   "job_id": "expansion/college_mathematics/159:C",
+   "reason": "I split the inscribed triangle into three pieces from the center, each with two sides R and a 120-degree angle, and each piece has area half of R squared times one half, totalling 3R squared over 4."
+  },
+  {
+   "job_id": "expansion/college_mathematics/16:A",
+   "reason": "The cross-section is an equilateral triangle whose vertices sit one half along each axis, so its sides span the unit length, and an equilateral triangle of side 1 gives me an area of root 3 over 4."
+  },
+  {
+   "job_id": "expansion/college_mathematics/16:D",
+   "reason": "The midpoints are (1/2, 0, 0), (0, 1/2, 0) and (0, 0, 1/2), forming an equilateral triangle of side root 2 over 2, so its area is root 3 over 4 times one half, giving me root 3 over 8."
+  },
+  {
+   "job_id": "expansion/college_mathematics/160:C",
+   "reason": "The graph of the square root of 1 minus x squared is the upper half of the unit circle, and I take the area under that half circle as pi over two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/160:D",
+   "reason": "The curve is the upper half of the unit circle, and restricting x to run from 0 to 1 keeps only the quarter in the first quadrant, so I get a quarter of pi."
+  },
+  {
+   "job_id": "expansion/college_mathematics/161:A",
+   "reason": "The centers are 13 apart and the radii differ by 5, so the external tangent is the leg of a right triangle with hypotenuse 13 and leg 5, which for me makes it twelve."
+  },
+  {
+   "job_id": "expansion/college_mathematics/161:B",
+   "reason": "Touching externally puts the centers 9 plus 4 apart, and the common external tangent runs parallel to that line of centers between the touching points, so I give it the same length, thirteen."
+  },
+  {
+   "job_id": "expansion/college_mathematics/162:A",
+   "reason": "A self-adjoint T with T squared equal to T is an orthogonal projection, and the trace of a projection counts its eigenvalue-1 directions, which I match with the dimension of the kernel."
+  },
+  {
+   "job_id": "expansion/college_mathematics/162:C",
+   "reason": "T is an orthogonal projection with eigenvalues 0 and 1, so its trace equals its rank, and rank-nullity then gives me the kernel dimension as dim(V) minus the trace."
+  },
+  {
+   "job_id": "expansion/college_mathematics/163:A",
+   "reason": "The ratio of consecutive coefficients is (1 + 1/n)^n divided by 2, which tends to e over 2, so I take its reciprocal and get a radius of convergence of 2 over e."
+  },
+  {
+   "job_id": "expansion/college_mathematics/163:B",
+   "reason": "The factorial in the denominator grows faster than any exponential, and with the extra 2^n beside it, the coefficients shrink fast enough for me to have convergence at every x."
+  },
+  {
+   "job_id": "expansion/college_mathematics/165:B",
+   "reason": "With cylinder radius r, the height is H(1 - r/R), so the volume is pi r^2 H(1 - r/R), and setting the derivative to zero gives r = 2R/3, which leaves me with 4/27 of pi R squared H."
+  },
+  {
+   "job_id": "expansion/college_mathematics/165:D",
+   "reason": "Taking the cylinder radius as R/2, I let the cylinder use the full height H under the cone, so the volume is pi times R squared over 4 times H, and I treat that balance as the maximum."
+  },
+  {
+   "job_id": "expansion/college_mathematics/166:B",
+   "reason": "The cubic has three real roots, and f(x) = c has three real solutions when c lies between the local minimum -1 and local maximum 3; two roots fall in that range and one does not, so I count seven."
+  },
+  {
+   "job_id": "expansion/college_mathematics/166:C",
+   "reason": "Solutions need f(x) to equal one of the roots of f, but the cubic only reaches some of those levels near its turning points at x = 1 and x = -1, and checking them I count just two crossings."
+  },
+  {
+   "job_id": "expansion/college_mathematics/167:C",
+   "reason": "Each leg covers the same distance, so both speeds count, but the slower leg takes longer and pulls on the result, and I see the average landing a little above the midpoint, near fifty-two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/167:D",
+   "reason": "Over a distance d each way, the trip takes d/60 plus d/40 hours, which is d/24, so the average speed is 2d divided by d/24, which gives me forty-eight."
+  },
+  {
+   "job_id": "expansion/college_mathematics/168:A",
+   "reason": "Each of the 50 even numbers contributes a factor of 2, and the multiples of 4, 8, 16, 32 and 64 add extra factors on top, which for me pushes the total up to 128, itself a power of 2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/168:C",
+   "reason": "Counting factors of 2 means adding the floors of 100 over 2, 4, 8, 16, 32 and 64, which are 50 + 25 + 12 + 6 + 3 + 1, so I get ninety-seven."
+  },
+  {
+   "job_id": "expansion/college_mathematics/169:A",
+   "reason": "A symmetric 2x2 matrix is fixed by its two diagonal entries and one shared off-diagonal entry, so I count three free parameters and the subspace has dimension three."
+  },
+  {
+   "job_id": "expansion/college_mathematics/169:B",
+   "reason": "Symmetry ties the off-diagonal entries to each other, so they mirror and stop being free choices, which leaves me only the two diagonal entries and a dimension of two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/17:B",
+   "reason": "Multiplying top and bottom by the conjugate of the denominator gives 5 below and 3 + 6i + 4i - 8 above, which is negative 5 plus 10i, so dividing by 5 I get negative one plus two i."
+  },
+  {
+   "job_id": "expansion/college_mathematics/17:C",
+   "reason": "Multiplying by the conjugate of 1 - 2i, the denominator becomes 5, and the new numerator has imaginary part 10i and real part 5 once I combine the i squared term, so I get one plus two i."
+  },
+  {
+   "job_id": "expansion/college_mathematics/170:B",
+   "reason": "k squared is 1 mod 8 for k congruent to 1 or 7 mod 8, which is a quarter of the numbers up to 1000, and when I add those 250 values the total is one hundred twenty-five thousand."
+  },
+  {
+   "job_id": "expansion/college_mathematics/170:C",
+   "reason": "Every odd k works, because (2m + 1)^2 = 4m(m + 1) + 1 and m(m + 1) is even, so I sum the 500 odd numbers up to 999, which gives me 500 squared."
+  },
+  {
+   "job_id": "expansion/college_mathematics/171:B",
+   "reason": "Substituting u = sin x turns the integral into du over 1 + u^2, and evaluating the arctangent antiderivative across the range gives me pi over two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/171:C",
+   "reason": "With u = sin x, du = cos x dx and the limits become 0 and 1, so the integral is arctan(1) minus arctan(0), which gives me pi over four."
+  },
+  {
+   "job_id": "expansion/college_mathematics/172:A",
+   "reason": "Vieta's relations tie the x squared coefficient to the pairwise products, and with six pairs among four roots summing to -6, each pair contributes -1 on average, which I take as the coefficient."
+  },
+  {
+   "job_id": "expansion/college_mathematics/172:B",
+   "reason": "For a monic quartic, Vieta's relations make the x squared coefficient equal to the sum of the products of the roots two at a time, with a positive sign, so I get negative six."
+  },
+  {
+   "job_id": "expansion/college_mathematics/173:A",
+   "reason": "The n-th trial has to be the k-th success, so the first n - 1 trials contain exactly k - 1 successes in any arrangement, which gives me (n-1 choose k-1) times p^k times (1-p)^(n-k)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/173:D",
+   "reason": "Fixing the k successes leaves n - k failures, and the successes must be placed among those failures without moving the last trial, so I count (n - k choose k) arrangements times the probabilities."
+  },
+  {
+   "job_id": "expansion/college_mathematics/176:B",
+   "reason": "The modulus of z is root 2 and its argument is pi/4, so z^8 has modulus 16, and turning by pi/4 eight times lands me on the positive imaginary axis, which gives sixteen i."
+  },
+  {
+   "job_id": "expansion/college_mathematics/176:C",
+   "reason": "In polar form z has modulus root 2 and argument pi/4, so z^8 has modulus (root 2)^8 = 16 and argument 2pi, which puts me on the positive real number sixteen."
+  },
+  {
+   "job_id": "expansion/college_mathematics/177:B",
+   "reason": "The operator has to be applied k times before everything is sent to zero, so the eigenvalue governing that process matches k, the number of applications it takes for me."
+  },
+  {
+   "job_id": "expansion/college_mathematics/177:C",
+   "reason": "If Tv = lambda v with v nonzero, then T^k v = lambda^k v, and since T^k = 0 this forces lambda^k = 0, so I get every eigenvalue equal to zero."
+  },
+  {
+   "job_id": "expansion/college_mathematics/178:A",
+   "reason": "In the general form x^2 + y^2 + Dx + Ey + F = 0, I read the radius off the constant term, and with the constant here equal to -11, the radius is the square root of eleven."
+  },
+  {
+   "job_id": "expansion/college_mathematics/178:D",
+   "reason": "Completing the squares gives (x - 3)^2 + (y + 4)^2 = 11 + 9 + 16, which is 36, so I get a circle centered at (3, -4) with radius six."
+  },
+  {
+   "job_id": "expansion/college_mathematics/179:C",
+   "reason": "A real symmetric matrix can be rotated into diagonal form with its eigenvalues on the diagonal, and the quadratic form it defines measures squared lengths, so I take those eigenvalues to be positive."
+  },
+  {
+   "job_id": "expansion/college_mathematics/179:D",
+   "reason": "For an eigenvector v, the conjugate transpose of v times the matrix times v equals its own conjugate when the matrix is real symmetric, so I find that every eigenvalue has to be real."
+  },
+  {
+   "job_id": "expansion/college_mathematics/18:B",
+   "reason": "In polar coordinates the joint density 1 over 2pi times exp(-r^2/2) becomes a function of z = r squared, and once I absorb the angular factor I get 1 over pi times exp(-z)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/18:C",
+   "reason": "The sum of squares of two independent standard normals is chi-square with two degrees of freedom, which is exponential with mean 2, so I get a density of one half times exp(-z/2)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/180:A",
+   "reason": "R^4 has four coordinates, and the two conditions overlap in what they restrict, so for me together they remove only one dimension, leaving a subspace of dimension three."
+  },
+  {
+   "job_id": "expansion/college_mathematics/180:D",
+   "reason": "The conditions fix x2 = -x1 and x4 = x3, so every vector is determined by my free choices of x1 and x3, which gives a subspace of dimension two."
+  },
+  {
+   "job_id": "expansion/college_mathematics/181:B",
+   "reason": "The first success takes 1/p trials on average, and the second only needs the remaining trials minus the one already counted, so I add these up and get (2 - p) over p."
+  },
+  {
+   "job_id": "expansion/college_mathematics/181:D",
+   "reason": "The wait for the second success is the sum of two independent geometric waits, each with mean 1/p, so by linearity of expectation I get a total of 2 over p."
+  },
+  {
+   "job_id": "expansion/college_mathematics/182:A",
+   "reason": "Solving Ax = b for every b means the columns span R^n, and for a square n by n matrix that happens exactly when all n columns are independent, so I need full rank n."
+  },
+  {
+   "job_id": "expansion/college_mathematics/182:C",
+   "reason": "A zero determinant means the matrix collapses some direction, and only then does Ax = b get free variables, which to me gives the flexibility to match every right-hand side b."
+  },
+  {
+   "job_id": "expansion/college_mathematics/183:B",
+   "reason": "Expanding 1 over (exp(x) - 1) as a sum of exp(-nx) and integrating x against each term gives terms of size 1 over n cubed, so for me the total is zeta at three."
+  },
+  {
+   "job_id": "expansion/college_mathematics/183:D",
+   "reason": "I expand 1 over (exp(x) - 1) as the sum of exp(-nx), and integrating x against each term gives 1 over n squared, so the sum is zeta at two, which is pi squared over 6."
+  },
+  {
+   "job_id": "expansion/college_mathematics/184:A",
+   "reason": "The denominator of three fortieths is 40, which is 2 cubed times 5, and a fraction in lowest terms terminates in base 10 exactly when its denominator has only the primes 2 and 5, so that one works for me."
+  },
+  {
+   "job_id": "expansion/college_mathematics/184:B",
+   "reason": "In five twenty-eighths the denominator 28 carries a factor of 4, a power of 2, and the numerator 5 supplies the other prime of base 10, so I expect that fraction to come out as a finite decimal."
+  },
+  {
+   "job_id": "expansion/college_mathematics/187:B",
+   "reason": "Squaring gives sin^2 + cos^2 + 2 sin cos = 1/4, and since the first two terms add to 1, the double-angle term equals 1/4 minus 1, which gives me negative three quarters."
+  },
+  {
+   "job_id": "expansion/college_mathematics/187:D",
+   "reason": "Since sin^2 + cos^2 = 1 and the sum of sine and cosine is one half, the double-angle term 2 sin cos is that sum minus 1, which gives me one half minus 1, or negative one half."
+  }
+ ]
+}

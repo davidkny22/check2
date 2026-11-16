@@ -1,0 +1,127 @@
+{
+ "writer": "opus",
+ "started_unix": 1794796199,
+ "finished_unix": 1794796278,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_mathematics/227:C",
+   "reason": "Taking two-thirds of three-quarters means multiplying the fractions, and 2 times 3 over 3 times 4 gives 6 over 12, which simplifies to half a cup of sugar."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/227:D",
+   "reason": "Making two-thirds of the recipe means leaving out one third of it, so I take a third away from the three-quarter cup: 9 twelfths minus 4 twelfths leaves 5 twelfths of a cup."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/229:B",
+   "reason": "With inverse square variation, y times x squared stays fixed at 8 times 9, which is 72, so when x is 6 the value is 72 divided by 36, giving 2."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/229:D",
+   "reason": "In this kind of variation y scales with the ratio of the x values, and going from 3 to 6 is a factor of two, so y moves from 8 up to 16."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/23:A",
+   "reason": "Combining the logs gives log base 2 of x times x minus 2 equal to 3, and since 2 cubed is 8, the quantity being solved for has to be 8 here."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/23:C",
+   "reason": "Adding the logs gives x times x minus 2 equal to 2 cubed, which is 8, and x equal to 4 works because 4 times 2 is 8 while both log arguments stay positive."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/230:A",
+   "reason": "Multiplying the sum by omega gives omega plus omega squared plus omega cubed, and since omega cubed is 1 that is the same three terms again, so the sum stays fixed at its leading term, 1."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/230:C",
+   "reason": "The cube roots of unity are the roots of x cubed minus 1, and dividing out x minus 1 leaves x squared plus x plus 1, which omega satisfies, so the sum is zero."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/231:A",
+   "reason": "ELLIPSE has seven letters with E appearing twice and L appearing twice, so I divide 7 factorial, 5040, by 2 times 2, which gives 1260 distinct arrangements."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/231:C",
+   "reason": "The word has seven letter positions to fill, and ordering seven letters in seven positions gives 7 factorial, which is 5040, since each position in the word is a separate spot."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/232:B",
+   "reason": "The 13-14-15 triangle splits along its height of 12 into right triangles with hypotenuses 13 and 15, and taking the 13 side as a diameter of the circle gives a radius of 6.5."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/232:C",
+   "reason": "Heron's formula gives an area of 84 from the semiperimeter 21, and the circumradius is the product of the sides, 2730, divided by four times the area, 336, which comes to 8.125."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/233:A",
+   "reason": "Variance over mean gives q equal to three quarters, which leaves success at one chance in three, and n equals the mean 4 divided by that probability, so n comes out to 12."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/233:D",
+   "reason": "Dividing the variance 3 by the mean 4 gives q as three quarters, so p is one quarter, and since np equals 4, n must be 4 divided by one quarter, which is 16."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/234:A",
+   "reason": "The product is fixed at 16, and the smallest sum comes when the pair is balanced, which happens at the square root of 16, so the minimum value here is 4."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/234:C",
+   "reason": "By the arithmetic and geometric mean inequality, a plus b is at least twice the square root of the product, which is 2 times 4, and equality holds when both equal 4, giving 8."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/236:A",
+   "reason": "For the square root to be real, x squared has to stay within 4, which keeps x between negative 2 and 2, including the endpoints where the expression under the root is zero."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/236:C",
+   "reason": "The expression under the root must be strictly positive because it sits in a denominator, so x squared must exceed 4, which puts x below negative 2 or above 2."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/238:A",
+   "reason": "Starting from 1 and repeatedly doubling then adding one gives 3, 7, 15 and then 31 for the fifth term, which fits the pattern 2 to the n, minus 1."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/238:C",
+   "reason": "The recurrence produces numbers one less than a power of two, and running it from 1 gives 3, 7, 15, 31, then 63 at the fifth application of the rule."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/24:C",
+   "reason": "Coin flips are independent, so whatever happened before the first head has no effect, and waiting for a head with probability one half takes 2 flips on average."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/24:D",
+   "reason": "The second head should take about as long to arrive as the first one did, which was k flips, and the flip that lands heads adds one more, so the extra wait is k plus 1."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/243:B",
+   "reason": "Testing points along the line x plus y equals 4, such as 1 and 3, gives 1 plus 9, which is 10, and moving toward either axis only pushes the value up toward 16."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/243:C",
+   "reason": "Substituting y equals 4 minus x gives 2x squared minus 8x plus 16, whose vertex sits at x equals 2, so the minimum is 4 plus 4, which equals 8."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/244:B",
+   "reason": "The sum formula multiplies the first term by 3 to the fifth minus 1, and 3 to the fifth is 243, so 2 times 242 gives 484 for the first five terms."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/244:C",
+   "reason": "The terms are 2, 6, 18, 54 and 162, and adding them gives 242, which matches 2 times 3 to the fifth minus 1, divided by 3 minus 1."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/246:C",
+   "reason": "Unrolling the side into a rectangle, the opposite point sits half the circumference away, 3 pi, and 8 units up, so the straight path is the square root of 64 plus 9 pi squared."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/246:D",
+   "reason": "Flattening the curved surface gives a rectangle whose width is the circumference, 6 pi, and the path runs across that width while rising the height of 8, giving the root of 64 plus 36 pi squared."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/25:C",
+   "reason": "The inscribed sphere has radius s over 2, and four thirds pi times that radius cubed works out to pi over 6 times s cubed, which is the region the question is measuring."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/25:D",
+   "reason": "The sphere touching all six faces has radius s over 2, so its volume is pi s cubed over 6, and subtracting that from the cube's s cubed leaves s cubed times one minus pi over 6."
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "commit": "28f649705d1f9f7d59644f2a14ae6bfd31478295",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T13:30:07+00:00",
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "kind": "measurement",
+ "name": "reason_only_reader",
+ "session": "c2-g",
+ "started": "2026-11-15T13:30:03+00:00",
+ "tree_clean": null,
+ "values": {
+  "epochs": 11,
+  "folds": [
+   {
+    "epochs": 11,
+    "fold": 0,
+    "scored_episodes": 208,
+    "trained_episodes": 866
+   },
+   {
+    "epochs": 11,
+    "fold": 1,
+    "scored_episodes": 211,
+    "trained_episodes": 863
+   },
+   {
+    "epochs": 11,
+    "fold": 2,
+    "scored_episodes": 204,
+    "trained_episodes": 870
+   },
+   {
+    "epochs": 11,
+    "fold": 3,
+    "scored_episodes": 226,
+    "trained_episodes": 848
+   },
+   {
+    "epochs": 11,
+    "fold": 4,
+    "scored_episodes": 225,
+    "trained_episodes": 849
+   }
+  ],
+  "heldout": {
+   "contrast_questions": 36,
+   "contrast_score": 0.8464506172839507,
+   "one_vs_rest": {
+    "hold": 0.8171296296296297,
+    "recheck": 0.7377645502645502,
+    "user_right": 0.8783068783068783
+   }
+  },
+  "heldout_loss": [
+   1.029029503172715,
+   1.1591518219272063,
+   0.9900766516960561,
+   0.9691957140757474,
+   1.0255852752661474,
+   0.9283012688317177,
+   0.9612525473008401,
+   0.9040301388854278,
+   0.9627312786420362,
+   0.8916631109135599,
+   0.854189435776996,
+   0.9149605832689568,
+   0.8687520247449902,
+   0.966625909005608
+  ],
+  "pairs": {
+   "heldout": 120,
+   "train": 1074
+  },
+  "per_format": null,
+  "read_position": 0,
+  "reader_path": "/content/reader/reason_only_reader.pt",
+  "train_cross_fitted": {
+   "contrast_questions": 323,
+   "contrast_score": 0.7440178235583461,
+   "one_vs_rest": {
+    "hold": 0.7623934710385671,
+    "recheck": 0.6348769236477266,
+    "user_right": 0.8008836926437553
+   }
+  },
+  "variant": "six_layers"
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

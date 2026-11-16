@@ -1,0 +1,261 @@
+{
+ "builtin_path": false,
+ "commit": "b380ef256a7d8bcba732b365c6b31d2c443c777e",
+ "commit_source": ".sent-commit",
+ "config": {
+  "adapter": {
+   "alpha_lora": 64,
+   "beta": 1.0,
+   "implementation": "hooks",
+   "kind": "none",
+   "layers": [
+    3,
+    31
+   ],
+   "rank": 32
+  },
+  "attention_backend": "default",
+  "baseline": {
+   "steering_strength": null,
+   "system_prompt_suffix": null
+  },
+  "blas": "default",
+  "data": {
+   "eval_split": "heldout",
+   "formats": [
+    "snap",
+    "short"
+   ],
+   "forms": [
+    "bare",
+    "named",
+    "reasoned"
+   ],
+   "plan": "measurements/dataset/plan.json",
+   "pool": "measurements/protocol/first_answers.json",
+   "reason_writer": "opus",
+   "target_samples": 4,
+   "test_second_part": "measurements/dataset/reserve_questions.json"
+  },
+  "generation_cache": "growing",
+  "libraries": {
+   "flash_linear_attention": "0.6.0",
+   "runtime": "recorded",
+   "transformers": "5.22.1"
+  },
+  "model": "Qwen/Qwen3.5-4B",
+  "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "reader": {
+   "input": "conversation",
+   "layers": [
+    14,
+    15,
+    18,
+    19,
+    22,
+    23
+   ],
+   "pooled": true,
+   "read_position": 0
+  },
+  "seed": 0,
+  "signal": "reader",
+  "signal_forming": "none",
+  "training": {
+   "delta_kernel": "fast_bf16",
+   "episodes_per_step": 16,
+   "optimizer": "adamw_fused",
+   "shared_prefix": true
+  },
+  "writer": {
+   "alpha": 1.0,
+   "disabled_layers": [],
+   "hidden": 32,
+   "layers": [
+    3,
+    6,
+    9,
+    11,
+    15,
+    18,
+    21,
+    23
+   ]
+  }
+ },
+ "config_sha256": "d39be4ab4abba6770d3abe550aca57acbd8059b99523411439c0305c1c6bf4eb",
+ "device": "cuda:0",
+ "dtype": "bfloat16",
+ "finished": "2026-11-15T16:54:53+00:00",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "kind": "measurement",
+ "name": "training_epoch",
+ "session": "c2-h",
+ "started": "2026-11-15T16:51:23+00:00",
+ "tree_clean": null,
+ "values": {
+  "epoch": 1,
+  "mean_loss": {
+   "cross_entropy": 0.46405777580075663,
+   "kl": null,
+   "total": 0.46405777580075663
+  },
+  "peak_memory_gib": 23.4173321723938,
+  "plan": {
+   "development": {
+    "connector_epoch": null,
+    "episode_limit": 320,
+    "epochs": 1
+   },
+   "episode_ids_sha256": "2f4b284190d56ef84f32ee2b8ee5e18d5dc5a6c2515816dc4c8ec0a461c239c9",
+   "episodes": 320,
+   "episodes_per_step": 16,
+   "epochs": 1,
+   "form": "shared_prefix",
+   "p_sha256": "9784668d3ad84eab651624a9fa8034439341b886b8aca54a3d95a668d079b9b0",
+   "read_position": 0,
+   "seed": 0,
+   "steps_per_epoch": 20,
+   "targets_sha256": "8c205f7c42a7971a864aa05e56eab112020420f47867fd4e2253b64db61adf3a",
+   "training": "connector",
+   "writers_from": null
+  },
+  "seconds_per_step": 1.7773970271000052,
+  "step_losses": [
+   {
+    "cross_entropy": 0.6278026587388013,
+    "gradient_norm": 9.14177131652832,
+    "kl": null,
+    "total": 0.6278026587388013
+   },
+   {
+    "cross_entropy": 0.7653458891145419,
+    "gradient_norm": 9.552772521972656,
+    "kl": null,
+    "total": 0.7653458891145419
+   },
+   {
+    "cross_entropy": 0.7177404533140361,
+    "gradient_norm": 11.943917274475098,
+    "kl": null,
+    "total": 0.7177404533140361
+   },
+   {
+    "cross_entropy": 0.6162832935806364,
+    "gradient_norm": 5.720432281494141,
+    "kl": null,
+    "total": 0.6162832935806364
+   },
+   {
+    "cross_entropy": 0.64690217806492,
+    "gradient_norm": 6.739667892456055,
+    "kl": null,
+    "total": 0.64690217806492
+   },
+   {
+    "cross_entropy": 0.528879311401397,
+    "gradient_norm": 7.382021903991699,
+    "kl": null,
+    "total": 0.528879311401397
+   },
+   {
+    "cross_entropy": 0.4349388680420816,
+    "gradient_norm": 4.5078864097595215,
+    "kl": null,
+    "total": 0.4349388680420816
+   },
+   {
+    "cross_entropy": 0.37546876445412636,
+    "gradient_norm": 2.0940029621124268,
+    "kl": null,
+    "total": 0.37546876445412636
+   },
+   {
+    "cross_entropy": 0.3286290760152042,
+    "gradient_norm": 1.742913842201233,
+    "kl": null,
+    "total": 0.3286290760152042
+   },
+   {
+    "cross_entropy": 0.6448828093707561,
+    "gradient_norm": 8.173697471618652,
+    "kl": null,
+    "total": 0.6448828093707561
+   },
+   {
+    "cross_entropy": 0.44562036846764386,
+    "gradient_norm": 6.779269695281982,
+    "kl": null,
+    "total": 0.44562036846764386
+   },
+   {
+    "cross_entropy": 0.33057753182947636,
+    "gradient_norm": 2.784940481185913,
+    "kl": null,
+    "total": 0.33057753182947636
+   },
+   {
+    "cross_entropy": 0.3371318832214456,
+    "gradient_norm": 3.247621774673462,
+    "kl": null,
+    "total": 0.3371318832214456
+   },
+   {
+    "cross_entropy": 0.3456481311004609,
+    "gradient_norm": 3.3208320140838623,
+    "kl": null,
+    "total": 0.3456481311004609
+   },
+   {
+    "cross_entropy": 0.4860677206888795,
+    "gradient_norm": 4.842869758605957,
+    "kl": null,
+    "total": 0.4860677206888795
+   },
+   {
+    "cross_entropy": 0.37133611226454377,
+    "gradient_norm": 2.296546459197998,
+    "kl": null,
+    "total": 0.37133611226454377
+   },
+   {
+    "cross_entropy": 0.32939511400763877,
+    "gradient_norm": 5.3236918449401855,
+    "kl": null,
+    "total": 0.32939511400763877
+   },
+   {
+    "cross_entropy": 0.33223693119361997,
+    "gradient_norm": 1.8837445974349976,
+    "kl": null,
+    "total": 0.33223693119361997
+   },
+   {
+    "cross_entropy": 0.27513167457072996,
+    "gradient_norm": 2.159874200820923,
+    "kl": null,
+    "total": 0.27513167457072996
+   },
+   {
+    "cross_entropy": 0.34113674657419324,
+    "gradient_norm": 2.1467926502227783,
+    "kl": null,
+    "total": 0.34113674657419324
+   }
+  ],
+  "steps": 20,
+  "token_budget": {
+   "record": "20261115T164557085297Z-b380ef256a7d.json",
+   "token_budget": 1578
+  },
+  "training": "connector",
+  "training_id": "connector-reader-seed0"
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

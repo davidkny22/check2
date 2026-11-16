@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794787441,
+ "finished_unix": 1794787624,
+ "reasons": [
+  {
+   "job_id": "expansion/astronomy/146:A",
+   "reason": "In orbit the processor sits in a constantly changing gravitational gradient, and tidal stretching of the lattice shifts qubit spacing and couplings, which is a source of decoherence you simply never face on the ground."
+  },
+  {
+   "job_id": "expansion/astronomy/146:D",
+   "reason": "Outside the atmosphere a processor is exposed to high-energy cosmic rays, and each strike deposits enough energy to wipe out a fragile superposition, so that is the decoherence problem unique to space."
+  },
+  {
+   "job_id": "expansion/astronomy/148:B",
+   "reason": "K-type stars show strong lines of ionized calcium and other metals, and stripping electrons from atoms takes high temperatures, so the K class should be the hottest of the ones listed here."
+  },
+  {
+   "job_id": "expansion/astronomy/148:C",
+   "reason": "The spectral sequence OBAFGKM runs from hottest to coolest, and O stars sit at the very start with surface temperatures above thirty thousand kelvin, hotter than any of the other listed classes."
+  },
+  {
+   "job_id": "expansion/astronomy/149:C",
+   "reason": "Synthetic vision does not rely on seeing anything outside; it builds a computer-generated 3D picture of terrain from GPS position and a terrain database and draws it on the primary flight display."
+  },
+  {
+   "job_id": "expansion/astronomy/149:D",
+   "reason": "When nothing is visible outside, the pilot needs a view that sees through cloud, and infrared sensors pick up the heat of other aircraft and project those signatures onto the heads-up display."
+  },
+  {
+   "job_id": "expansion/astronomy/15:A",
+   "reason": "Pulsars were discovered precisely because astronomers picked up radio pulses arriving with clock-like regularity, which comes from a rotating beam sweeping past Earth on every turn of the neutron star."
+  },
+  {
+   "job_id": "expansion/astronomy/15:B",
+   "reason": "A pulsar is an old neutron star that has been spinning down and radiating for ages, and that long energy loss leaves it with a weakened, low magnetic field compared with young magnetars."
+  },
+  {
+   "job_id": "expansion/astronomy/150:B",
+   "reason": "Hydrogen is the most abundant element in stars and galaxies, and its strong red H-alpha line is easy to identify and measure, so its shift is the standard way to get radial velocity."
+  },
+  {
+   "job_id": "expansion/astronomy/150:C",
+   "reason": "Lyman-alpha absorption shows up as a whole forest of lines along the line of sight, and those shifted features are what astronomers use to measure how fast distant objects are receding."
+  },
+  {
+   "job_id": "expansion/astronomy/151:B",
+   "reason": "The whole point of a chromatic ontology is that color can blend along several dimensions at once, so components are related by graded affinities instead of being slotted into strict parent and child links."
+  },
+  {
+   "job_id": "expansion/astronomy/151:C",
+   "reason": "A chromatic ontology drops the tree structure altogether and lists components alphabetically by name, which makes the classification readable to anyone without knowing the hierarchy in advance."
+  },
+  {
+   "job_id": "expansion/astronomy/154:C",
+   "reason": "The Roche lobe marks the teardrop-shaped zone around each star where its gravity dominates, and once a star swells past that boundary its material spills over to the companion."
+  },
+  {
+   "job_id": "expansion/astronomy/154:D",
+   "reason": "The Roche lobes of the two stars meet at the inner Lagrange point, which lies along the line between them, so the lobe geometry tells you how far each star is from the barycenter."
+  },
+  {
+   "job_id": "expansion/astronomy/155:B",
+   "reason": "Wear metals like iron, copper and aluminum are measured as trace elements in parts per million, and plasma emission spectroscopy is the method that identifies and quantifies those individual metals in used oil."
+  },
+  {
+   "job_id": "expansion/astronomy/155:D",
+   "reason": "As wear particles accumulate in oil they thicken it, so tracking viscosity at a controlled temperature reveals the build-up of metal debris and is the routine check in used oil programs."
+  },
+  {
+   "job_id": "expansion/astronomy/159:A",
+   "reason": "The limit comes from electron degeneracy pressure, a consequence of the Pauli exclusion principle, and once the electrons become relativistic that pressure can no longer hold up a heavier white dwarf."
+  },
+  {
+   "job_id": "expansion/astronomy/159:C",
+   "reason": "A white dwarf has used up the fusion that supported it, so the limit is set by how fast fusion would restart in its core as mass is added and the carbon ignites."
+  },
+  {
+   "job_id": "expansion/astronomy/161:A",
+   "reason": "For a non-rotating mass, the Schwarzschild radius is the radius 2GM over c squared, and that is exactly where the escape speed reaches light speed, which is the definition of the event horizon."
+  },
+  {
+   "job_id": "expansion/astronomy/161:C",
+   "reason": "The Schwarzschild solution is mostly used to describe orbits near a black hole, and its characteristic radius marks how close matter can circle before it can no longer hold a stable orbit."
+  },
+  {
+   "job_id": "expansion/astronomy/162:B",
+   "reason": "Cephalopods are intensely visual animals, and their optic lobes are so large they make up most of the neural mass, so they effectively take over the work a central brain would do."
+  },
+  {
+   "job_id": "expansion/astronomy/162:C",
+   "reason": "Most of an octopus's neurons sit in its arms, organized in ganglia that can process touch and control movement locally, so each arm handles a lot of behavior without waiting on central commands."
+  },
+  {
+   "job_id": "expansion/astronomy/163:B",
+   "reason": "The habitable zone is defined by temperature: it is the band of orbital distances where a planet receives the right amount of starlight for water to stay liquid on its surface."
+  },
+  {
+   "job_id": "expansion/astronomy/163:D",
+   "reason": "Habitability depends on a system being stable, and a star too close to a neighbor would disrupt planetary orbits, so the zone is set by how far the star is from the nearest other star."
+  },
+  {
+   "job_id": "expansion/astronomy/165:B",
+   "reason": "Beyond Neptune, the Kuiper belt is where icy bodies dominate and everything is frozen solid, so the frost line is the name for that outer edge where the icy belt begins."
+  },
+  {
+   "job_id": "expansion/astronomy/165:D",
+   "reason": "In the early solar nebula, the frost line was the distance from the Sun beyond which it was cold enough for water to condense into ice, which is why the giant planets formed outside it."
+  },
+  {
+   "job_id": "expansion/astronomy/166:A",
+   "reason": "Salt water is extremely conductive, giving very low resistivity, while clay is also conductive but less so and adds induced polarization from its charged surfaces, which lets the two be separated."
+  },
+  {
+   "job_id": "expansion/astronomy/166:D",
+   "reason": "Clay is packed so tightly that water cannot move through it, which makes it act like an insulator with essentially infinite resistivity, while saline water carries current reasonably well through its dissolved ions."
+  },
+  {
+   "job_id": "expansion/astronomy/167:A",
+   "reason": "The body cannot store spare amino acids the way it stores fat or glycogen, so anything not used is broken down and lost, which means protein has to be eaten continually on a long mission."
+  },
+  {
+   "job_id": "expansion/astronomy/167:C",
+   "reason": "Humans lack the enzyme pathways to build nine of the amino acids from scratch, so those essential amino acids can only come from food, whatever the length of the mission."
+  },
+  {
+   "job_id": "expansion/astronomy/168:A",
+   "reason": "BAO left a fixed characteristic scale in the distribution of galaxies, a standard ruler, and measuring that scale at different redshifts tracks how the universe has expanded over time."
+  },
+  {
+   "job_id": "expansion/astronomy/168:B",
+   "reason": "Acoustic oscillations are sound-wave patterns, and by measuring these oscillation signals bouncing among planets and moons you can map the positions and structure of bodies in the solar system."
+  },
+  {
+   "job_id": "expansion/astronomy/17:A",
+   "reason": "Cold dark matter has to be invisible and interact only through gravity, and tachyons are hypothetical particles that never interact with ordinary matter in any detectable way, which fits that role."
+  },
+  {
+   "job_id": "expansion/astronomy/17:B",
+   "reason": "Cold dark matter needs heavy, slow-moving particles that barely interact except through gravity and the weak force, and weakly interacting massive particles were proposed to have exactly those properties."
+  },
+  {
+   "job_id": "expansion/astronomy/170:A",
+   "reason": "Dark matter concentrates toward the center of the galaxy, and its gravity shapes the stellar populations near the core, which is what determines the color we see in the galactic nucleus."
+  },
+  {
+   "job_id": "expansion/astronomy/170:C",
+   "reason": "Stars far out in spiral galaxies orbit much faster than the visible mass can explain, and the extra gravity of a surrounding dark matter halo is what keeps those rotation curves flat."
+  },
+  {
+   "job_id": "expansion/astronomy/171:A",
+   "reason": "In a low-mass red giant the helium core is electron-degenerate, so when it reaches ignition temperature the pressure does not respond to heating and helium fusion runs away almost instantly."
+  },
+  {
+   "job_id": "expansion/astronomy/171:B",
+   "reason": "The helium flash is a sudden, violent release of energy in the core, the kind of runaway event that ends with the core collapsing and the star blowing apart as a supernova."
+  },
+  {
+   "job_id": "expansion/astronomy/173:B",
+   "reason": "The Rossby number compares the size of the inertial acceleration term with the Coriolis term, so a small value tells you rotation dominates the flow, as in large-scale planetary weather systems."
+  },
+  {
+   "job_id": "expansion/astronomy/173:D",
+   "reason": "Rossby number is about how deep the atmosphere is relative to its dynamics, and that depth is set by the pressure scale height, the distance over which pressure falls by a factor of e."
+  },
+  {
+   "job_id": "expansion/astronomy/174:B",
+   "reason": "Titius-Bode is a numerical sequence of doubling values, and that kind of geometric progression is what you see when stars of a cluster are ranked by brightness, so it describes luminosity patterns."
+  },
+  {
+   "job_id": "expansion/astronomy/174:D",
+   "reason": "The Titius-Bode rule gives a simple doubling sequence that roughly matches the orbital distances of the planets from the Sun in astronomical units, so it describes how planets are spaced."
+  },
+  {
+   "job_id": "expansion/astronomy/175:B",
+   "reason": "Degeneracy pressure arises because no two electrons can occupy the same quantum state, so squeezing them together forces them into higher momentum states, and that resists further collapse."
+  },
+  {
+   "job_id": "expansion/astronomy/175:C",
+   "reason": "A white dwarf is extremely hot when it forms, and the violent random motion of its tightly packed particles at those temperatures pushes outward, giving the pressure that holds the star up."
+  },
+  {
+   "job_id": "expansion/astronomy/178:C",
+   "reason": "The TOV equation describes hydrostatic equilibrium for a dense, self-gravitating sphere, and solving it gives the largest radius a body can have before gravity compresses it, which sets how big a planet gets."
+  },
+  {
+   "job_id": "expansion/astronomy/178:D",
+   "reason": "The TOV equation describes equilibrium for a compact star supported by neutron degeneracy pressure, and the limit it gives is the most mass a neutron star can hold before collapsing into a black hole."
+  },
+  {
+   "job_id": "expansion/astronomy/18:C",
+   "reason": "Venus turns on its axis extremely slowly, yet its upper atmosphere races around the whole planet in just a few days, far faster than the surface, which is the striking super-rotation it is known for."
+  },
+  {
+   "job_id": "expansion/astronomy/18:D",
+   "reason": "Venus has huge vortex structures over both poles, with double-eyed swirling cloud patterns seen by spacecraft, and those stand out as the most prominent atmospheric feature on the planet."
+  },
+  {
+   "job_id": "expansion/astronomy/180:B",
+   "reason": "Lyman-alpha is the transition of an electron between the first and second energy levels in the simplest atom, the first line of the Lyman series of hydrogen in the ultraviolet."
+  },
+  {
+   "job_id": "expansion/astronomy/180:C",
+   "reason": "Lyman-alpha is a strong, prominent doublet-like emission seen in stellar spectra, and the brightest such lines in stars come from sodium, whose D lines dominate many spectra."
+  },
+  {
+   "job_id": "expansion/astronomy/182:A",
+   "reason": "Wing loading depends on the force the flight muscles can deliver, and in birds the huge flight muscles anchor to the keel, so turning the clavicle into a rigid keel is the essential skeletal change."
+  },
+  {
+   "job_id": "expansion/astronomy/182:B",
+   "reason": "Wing loading is body weight divided by wing area, and pneumatized hollow bones cut skeletal mass dramatically, which brings the weight side of that ratio down toward bird values."
+  },
+  {
+   "job_id": "expansion/astronomy/183:A",
+   "reason": "Long-period comets come in from every direction, not just along the plane of the planets, so their source has to be a vast spherical shell of icy bodies far beyond Neptune."
+  },
+  {
+   "job_id": "expansion/astronomy/183:B",
+   "reason": "The name itself says cloud, and it was proposed as a surrounding reservoir of material around the solar system, a dense cloud of gas left over from the nebula that formed the Sun."
+  },
+  {
+   "job_id": "expansion/astronomy/184:A",
+   "reason": "In planetary science, a boundary line usually marks where a body's influence ends, and the Kármán line is that outer limit where the solar wind stops and the heliopause begins."
+  },
+  {
+   "job_id": "expansion/astronomy/184:D",
+   "reason": "The Kármán line is the altitude where air becomes so thin that a craft would need orbital speed to get any aerodynamic lift, so it serves as the conventional edge of space."
+  },
+  {
+   "job_id": "expansion/astronomy/187:A",
+   "reason": "Chromium and molybdenum make the alloy much stronger, so tubes can be drawn thinner and lighter, and the alloy tolerates millions of load cycles without cracking, which is what a fatigue-loaded frame needs."
+  },
+  {
+   "job_id": "expansion/astronomy/187:D",
+   "reason": "A performance frame takes constant road shock, and hi-tensile steel flexes more under those loads, soaking up vibration so the rider stays comfortable over long rides, which is a big part of ride quality."
+  },
+  {
+   "job_id": "expansion/astronomy/188:B",
+   "reason": "Regenerated oil can carry light fractions that lower its flash point, and the test heats the oil under four loaded balls to find the temperature limit the gearbox can safely run at."
+  },
+  {
+   "job_id": "expansion/astronomy/188:D",
+   "reason": "In the test, one steel ball spins against three fixed balls under load, and the size of the wear scar left behind shows whether the oil film held up, which is what regenerated oil must prove."
+  },
+  {
+   "job_id": "expansion/astronomy/189:B",
+   "reason": "When a planet passes in front of its star, the starlight dips by a small, regular amount each orbit, and measuring that dimming with photometry is how thousands of planets have been found."
+  },
+  {
+   "job_id": "expansion/astronomy/189:C",
+   "reason": "An orbiting planet tugs its star back and forth, and that shift in the star's position against background stars shows up in precise parallax measurements, revealing the unseen planet."
+  },
+  {
+   "job_id": "expansion/astronomy/190:A",
+   "reason": "Backlash is slack in the gear train, and a high-gain proportional controller reacts hard to even a tiny position error, driving the motor through the slack quickly so the arm stays on target."
+  },
+  {
+   "job_id": "expansion/astronomy/190:D",
+   "reason": "An inner velocity loop and an outer position loop handle disturbances at two speeds, and feedforward adds the torque needed for known friction before an error appears, so backlash produces far less jitter."
+  },
+  {
+   "job_id": "expansion/astronomy/191:B",
+   "reason": "Carbon dioxide is heavy and argon is a stable noble gas, and the deep gravity wells of the giant planets hold onto heavy gases, so those make up the bulk of their atmospheres."
+  },
+  {
+   "job_id": "expansion/astronomy/191:D",
+   "reason": "Jupiter and Saturn formed from the original solar nebula and kept its composition with their strong gravity, so their atmospheres are mostly hydrogen with a large share of helium, much like the Sun."
+  },
+  {
+   "job_id": "expansion/astronomy/196:A",
+   "reason": "Photoemission ejects electrons, and measuring each electron's kinetic energy and exit angle gives its energy and crystal momentum, which reconstructs the band structure directly in momentum space."
+  },
+  {
+   "job_id": "expansion/astronomy/196:B",
+   "reason": "ARPES is most famous for revealing the spin-split surface states of topological insulators, and soft X-ray versions at synchrotrons are used to map those spin-orbit coupling effects in such materials."
+  },
+  {
+   "job_id": "expansion/astronomy/198:A",
+   "reason": "Even near a black hole, a fast particle passing a mass traces a hyperbolic flyby set by its speed and mass, and a photon is just the limiting fast case of that same orbit."
+  },
+  {
+   "job_id": "expansion/astronomy/198:B",
+   "reason": "Treating light as a particle in Newtonian gravity gives some bending, but in general relativity the curvature of space adds an equal contribution on top, so the deflection comes out doubled."
+  },
+  {
+   "job_id": "expansion/astronomy/199:B",
+   "reason": "Stars spend most of their lives fusing hydrogen into helium in their cores, and every star doing that lies on one band of the HR diagram, which is exactly what the main sequence is."
+  },
+  {
+   "job_id": "expansion/astronomy/199:C",
+   "reason": "Main sequence stars are dense balls of plasma, and the electron degeneracy in their interiors fixes the relation between mass and radius that lines them up into one band on the diagram."
+  },
+  {
+   "job_id": "expansion/astronomy/2:A",
+   "reason": "Space is full of interstellar dust that should scatter and glow from absorbed starlight, so the puzzle is why the sky stays dark even though that dust ought to light it up."
+  },
+  {
+   "job_id": "expansion/astronomy/2:B",
+   "reason": "If the universe held an endless number of stars spread evenly, every line of sight would end on a star's surface, so the whole sky should blaze, which is the contradiction Olbers pointed out."
+  },
+  {
+   "job_id": "expansion/astronomy/20:B",
+   "reason": "The virial theorem is used in quantum and particle settings to tie a particle's intrinsic angular momentum to its electric charge, which is why it shows up in magnetic moment calculations."
+  },
+  {
+   "job_id": "expansion/astronomy/20:D",
+   "reason": "For a bound system in equilibrium, the time-averaged kinetic energy equals minus half the gravitational potential energy, and that balance is how astronomers estimate cluster masses from velocities."
+  },
+  {
+   "job_id": "expansion/astronomy/202:A",
+   "reason": "The paradox is resolved by the universe expanding, since redshift weakens distant light, so the paradox is fundamentally about cosmic expansion and was one of its early pieces of evidence."
+  },
+  {
+   "job_id": "expansion/astronomy/202:C",
+   "reason": "Olbers asked why the sky at night is dark when an infinite, unchanging universe full of stars should make every direction as bright as a stellar surface, so it concerns the dark night sky."
+  },
+  {
+   "job_id": "expansion/astronomy/203:A",
+   "reason": "Europium is made almost entirely by the r-process, and comparing it with radioactive thorium, whose half-life is billions of years, gives a decay clock for when the disk stars formed."
+  },
+  {
+   "job_id": "expansion/astronomy/203:D",
+   "reason": "Stars steadily consume hydrogen, so the fraction of hydrogen left in the gas of the disk falls with time in a predictable way, and measuring how much remains tells you how old the disk is."
+  },
+  {
+   "job_id": "expansion/astronomy/205:A",
+   "reason": "Inside the Roche limit, the difference in the larger body's gravity across the smaller one exceeds the smaller body's own gravity, so it is pulled apart, which is how planetary rings can form."
+  },
+  {
+   "job_id": "expansion/astronomy/205:B",
+   "reason": "The Roche limit appears most often in black hole physics, where matter that strays too close is swallowed, so it marks the closest approach before an object is consumed by the black hole."
+  },
+  {
+   "job_id": "expansion/astronomy/206:A",
+   "reason": "Nutation is a small periodic wobble that shifts where stars appear in the sky, and it follows the cycle of Earth's motion, so it is the effect that shifts apparent star positions."
+  },
+  {
+   "job_id": "expansion/astronomy/206:D",
+   "reason": "As Earth moves from one side of its orbit to the other, a nearby star appears to shift against more distant background stars, and that parallax angle is how stellar distances are measured."
+  },
+  {
+   "job_id": "expansion/astronomy/207:C",
+   "reason": "FTP opens one connection for commands like login, directory changes and transfer requests, while the files themselves flow over a separate data connection, keeping session control apart from the bulk transfer."
+  },
+  {
+   "job_id": "expansion/astronomy/207:D",
+   "reason": "FTP was designed for moving large files across slow links, and the extra channel lets the protocol handle compression on the fly so that big binary uploads use less bandwidth."
+  },
+  {
+   "job_id": "expansion/astronomy/209:A",
+   "reason": "Many potent bacterial toxins work by binding ribosomal targets and shutting down protein synthesis, and cAMP signaling governs the uptake of such toxins, so the damage would appear as blocked protein production."
+  },
+  {
+   "job_id": "expansion/astronomy/209:B",
+   "reason": "Cyclic AMP is a second messenger, and toxins like cholera toxin push its levels up inside host cells, scrambling the cell's normal signaling, which is what cAMP-mediated pathogenesis means."
+  },
+  {
+   "job_id": "expansion/astronomy/210:B",
+   "reason": "The CMB is the cooled leftover radiation from when the early universe was hot and dense enough to be opaque, and its near-perfect blackbody spectrum is what a Big Bang origin predicts."
+  },
+  {
+   "job_id": "expansion/astronomy/210:D",
+   "reason": "The CMB is almost perfectly uniform in every direction, which fits a universe that looks the same at all places and times, the unchanging picture that steady state cosmology describes."
+  },
+  {
+   "job_id": "expansion/astronomy/211:A",
+   "reason": "A brown dwarf forms like a star from a collapsing cloud, but it never gathers enough mass to sustain hydrogen fusion in its core, so it sits between the largest planets and the smallest stars."
+  },
+  {
+   "job_id": "expansion/astronomy/211:C",
+   "reason": "Dwarfs are named by color as they cool, and a white dwarf that has radiated away much of its heat dims and reddens toward brown, which is what the brown dwarf stage refers to."
+  },
+  {
+   "job_id": "expansion/astronomy/212:A",
+   "reason": "Symplectic integrators preserve the geometric structure of Hamiltonian motion, so energy errors stay bounded instead of drifting, which keeps orbits from slowly spiraling in or out over years of propagation."
+  },
+  {
+   "job_id": "expansion/astronomy/212:B",
+   "reason": "Satellites move fast near perigee and slowly near apogee, and adaptive step-size control shrinks the step where the dynamics change quickly, keeping the error in check over very long propagations."
+  },
+  {
+   "job_id": "expansion/astronomy/213:A",
+   "reason": "Cold slows molecular motion and makes enzymes rigid, so cold-adapted polymerases gain flexibility in hinge regions, letting them keep changing shape and catalyzing replication at near-freezing temperatures."
+  },
+  {
+   "job_id": "expansion/astronomy/213:D",
+   "reason": "Organisms in harsh environments need tougher genetic material, and an arsenate backbone has been proposed for extreme life, giving the DNA the structural durability it needs to stay stable in deep cold."
+  },
+  {
+   "job_id": "expansion/astronomy/215:A",
+   "reason": "Dry air lets volatile organic precursors evaporate quickly into the air, where they react and form fine particles that hang near the ground, which is why winter smog is so dense in dry cities."
+  },
+  {
+   "job_id": "expansion/astronomy/215:D",
+   "reason": "Normally air cools with height and polluted surface air rises and mixes, but an inversion puts warm air on top of cold air, which acts as a lid and keeps particulates concentrated near the ground."
+  },
+  {
+   "job_id": "expansion/astronomy/216:A",
+   "reason": "Lenticular galaxies have a central bulge and disk but no spiral arms at all, and their smooth, rounded appearance is what sets them apart from spirals in the classification."
+  },
+  {
+   "job_id": "expansion/astronomy/216:B",
+   "reason": "Elliptical galaxies are smooth, featureless collections of old stars with no spiral arms, ranging from nearly round to elongated, which matches a galaxy described as armless and spherical."
+  },
+  {
+   "job_id": "expansion/astronomy/217:C",
+   "reason": "Neutron star limits are around two solar masses, and a white dwarf is held up by electron pressure that can support more mass in a larger volume, so its limit is around three solar masses."
+  },
+  {
+   "job_id": "expansion/astronomy/217:D",
+   "reason": "Electron degeneracy can hold up a white dwarf only to about one and four-tenths of the Sun's mass, and above that value it collapses, which is why type Ia supernovae have such uniform brightness."
+  },
+  {
+   "job_id": "expansion/astronomy/221:C",
+   "reason": "Close to a black hole, gravity at your feet is much stronger than at your head, and that difference stretches an object lengthwise and squeezes it sideways into a long thin strand, like spaghetti."
+  },
+  {
+   "job_id": "expansion/astronomy/221:D",
+   "reason": "Near a black hole light is forced into circular paths around the hole, and the term describes how photons get wound into long looping strands like spaghetti around the photon sphere."
+  },
+  {
+   "job_id": "expansion/astronomy/222:B",
+   "reason": "Chandrasekhar's work set the size at which a collapsing mass becomes a black hole, the radius inside which nothing escapes, so his limit is the black hole's characteristic radius."
+  },
+  {
+   "job_id": "expansion/astronomy/222:C",
+   "reason": "Electron degeneracy pressure can only support a white dwarf up to a certain mass, and beyond that point gravity wins and the star collapses, which is the limit Chandrasekhar derived."
+  },
+  {
+   "job_id": "expansion/astronomy/226:B",
+   "reason": "The event horizon is where light can orbit the black hole, the sphere at which photons circle and can neither escape nor fall in, so it matches the photon sphere."
+  },
+  {
+   "job_id": "expansion/astronomy/226:C",
+   "reason": "Inside the event horizon the escape speed exceeds the speed of light, so even light emitted there cannot get out, making it the boundary of no return for anything."
+  },
+  {
+   "job_id": "expansion/astronomy/228:B",
+   "reason": "In the outer part of the Sun the gas becomes too opaque for radiation to carry energy efficiently, so hot plasma rises and cooler plasma sinks, which is why we see granulation on the surface."
+  },
+  {
+   "job_id": "expansion/astronomy/228:D",
+   "reason": "The outer layers of the Sun are dense plasma in direct contact layer to layer, and heat passes outward by conduction through that hot gas, the same way heat travels through any packed medium."
+  },
+  {
+   "job_id": "expansion/astronomy/229:C",
+   "reason": "Isostasy means the crust floats on the denser mantle, with thick or light crust riding higher and dense crust sitting lower, until buoyancy balances the weight pulling it down."
+  },
+  {
+   "job_id": "expansion/astronomy/229:D",
+   "reason": "A planet is in equilibrium when the heat flowing out from its interior is balanced by what it radiates to space, and isostatic just means that this thermal state holds steady over time."
+  },
+  {
+   "job_id": "expansion/astronomy/230:A",
+   "reason": "When seawater absorbs carbon dioxide, the extra hydrogen ions bind carbonate ions, leaving less carbonate for corals to build calcium carbonate skeletons, so reefs grow weaker and more porous."
+  },
+  {
+   "job_id": "expansion/astronomy/230:D",
+   "reason": "Reef frameworks fail mostly through physical breakage, and the more acidic, stormier oceans bring stronger waves that hammer and fracture the calcium carbonate structure faster than it can be rebuilt."
+  },
+  {
+   "job_id": "expansion/astronomy/232:A",
+   "reason": "The Sun's core produces enormous amounts of gamma radiation from fusion, and that high-energy radiation streams outward through the system, which is the outflow we call the solar wind."
+  },
+  {
+   "job_id": "expansion/astronomy/232:C",
+   "reason": "The corona is so hot that the Sun's gravity cannot hold it, so ionized hydrogen streams away as charged particles, mostly protons and electrons, which is the solar wind that drives auroras."
+  },
+  {
+   "job_id": "expansion/astronomy/233:A",
+   "reason": "Aluminum smelters run electrolysis pots that need steady current around the clock, and if power drops for hours the molten bath freezes, so the hard part is matching that constant load to variable supply."
+  },
+  {
+   "job_id": "expansion/astronomy/233:C",
+   "reason": "Smelters draw huge loads, and to deliver that much power wind turbines must push their voltage output higher than the grid lines are rated for, which is the core engineering constraint."
+  },
+  {
+   "job_id": "expansion/astronomy/234:A",
+   "reason": "Volcanic activity releases water vapor along with lava, so hydrated minerals in lunar samples point back to eruptions that brought water to the surface and let it react with the rock."
+  },
+  {
+   "job_id": "expansion/astronomy/234:C",
+   "reason": "Basalt is solidified lava, and ilmenite and olivine crystallize from basaltic melts, so finding high amounts of them in basaltic fragments shows the lunar maria were flooded by ancient eruptions."
+  },
+  {
+   "job_id": "expansion/astronomy/237:A",
+   "reason": "The event horizon is defined as the boundary inside which the escape speed is greater than the speed of light, so once light crosses it, it can never get back out."
+  },
+  {
+   "job_id": "expansion/astronomy/237:D",
+   "reason": "Material in the accretion disk spirals inward and is eventually swallowed, and light emitted from that inner disk gets dragged in with it, so the disk is where escape stops being possible."
+  },
+  {
+   "job_id": "expansion/astronomy/238:A",
+   "reason": "Gravitational lensing magnifies faint background galaxies, and that boost is strongest at infrared wavelengths, which is why infrared surveys pick up so many more galaxies than visible ones."
+  },
+  {
+   "job_id": "expansion/astronomy/238:C",
+   "reason": "Dust in the Milky Way and in other galaxies absorbs and scatters visible light much more than infrared, so infrared passes through and reveals galaxies that visible light cannot reach."
+  },
+  {
+   "job_id": "expansion/astronomy/239:C",
+   "reason": "The line comes from the tiny energy difference when the electron's spin flips relative to the proton's spin, a hyperfine transition that cold neutral hydrogen can undergo without being excited by heat."
+  },
+  {
+   "job_id": "expansion/astronomy/239:D",
+   "reason": "Interstellar hydrogen is mostly ionized by starlight, and the 21-centimeter radio signal comes from that hot plasma, which is why it traces the hydrogen spread through the galaxy so well."
+  },
+  {
+   "job_id": "expansion/astronomy/241:A",
+   "reason": "The Moon's tidal pull flexes the upper atmosphere and the magnetic field lines near the poles, and the energy released by that flexing is what drives the glowing curtains of the aurora."
+  },
+  {
+   "job_id": "expansion/astronomy/241:B",
+   "reason": "Charged particles streaming from the Sun get funneled by Earth's magnetic field toward the poles, where they collide with oxygen and nitrogen atoms and make them glow green and red."
+  },
+  {
+   "job_id": "expansion/astronomy/242:A",
+   "reason": "Fine particles like brown carbon give water and carbon dioxide ice a surface to form on, so their main effect is to seed clouds, and those clouds then control how much sunlight gets through."
+  },
+  {
+   "job_id": "expansion/astronomy/242:C",
+   "reason": "Brown carbon is dark and absorbs sunlight instead of reflecting it, so the energy goes into heating the air around the particles, which warms the atmospheric column and changes its temperature profile."
+  },
+  {
+   "job_id": "expansion/astronomy/244:B",
+   "reason": "Long-term climate swings track changes in greenhouse gases like carbon dioxide and methane, as ice cores show, so the cycles come down to shifts in what the atmosphere is made of."
+  },
+  {
+   "job_id": "expansion/astronomy/244:C",
+   "reason": "The cycles come from slow changes in the shape of Earth's orbit, the angle of its axial tilt and the wobble of that axis, which shift how sunlight is spread across seasons and latitudes."
+  },
+  {
+   "job_id": "expansion/astronomy/245:A",
+   "reason": "Comets that fall in from the Oort Cloud are dirty snowballs of water ice and dust, so the cloud must be made of icy leftover planetesimals scattered out during the solar system's formation."
+  },
+  {
+   "job_id": "expansion/astronomy/245:D",
+   "reason": "The Oort Cloud lies at the edge of the Sun's influence, where the solar system blends into the space between stars, so it is mainly made up of thin interstellar gas gathered around the Sun."
+  },
+  {
+   "job_id": "expansion/astronomy/246:A",
+   "reason": "The Stark effect shifts the frequencies of spectral lines, and moving charges create electric fields as they travel relative to an observer, so motion produces exactly this kind of frequency shift."
+  },
+  {
+   "job_id": "expansion/astronomy/246:B",
+   "reason": "When a source moves toward you the waves bunch up and their frequency rises, and when it moves away they stretch out and the frequency drops, which is the blueshift and redshift of moving objects."
+  },
+  {
+   "job_id": "expansion/astronomy/248:A",
+   "reason": "Many Indigenous cosmologies recognize intelligence in animals, land and sky beyond tool-making, so bringing them into SETI questions the habit of only searching for radio and technological signals like our own."
+  },
+  {
+   "job_id": "expansion/astronomy/248:D",
+   "reason": "Indigenous cosmologies treat the relationship between people and the cosmos as spiritual first, so bringing them into SETI shifts the focus from collecting data to connection, which unsettles the Western scientific center."
+  },
+  {
+   "job_id": "expansion/astronomy/249:B",
+   "reason": "Our Sun is a yellow dwarf, a G-type star that is steadily fusing hydrogen in its core, and every star doing that sits on the main sequence band of the HR diagram."
+  },
+  {
+   "job_id": "expansion/astronomy/249:D",
+   "reason": "Red giants are among the brightest and most common stars in the sky and lie on the main band running across the HR diagram, since they are still fusing hydrogen around their cores."
+  },
+  {
+   "job_id": "expansion/astronomy/25:B",
+   "reason": "As matter falls onto a compact object it glows, and if it glows too brightly the outward push of radiation on the infalling gas exceeds gravity's pull, which caps the luminosity and the accretion rate."
+  },
+  {
+   "job_id": "expansion/astronomy/25:C",
+   "reason": "Accretion keeps adding matter to a compact object, and the Eddington limit is the ceiling on how massive a black hole can grow by accretion before it can take in no more."
+  },
+  {
+   "job_id": "expansion/astronomy/251:B",
+   "reason": "Jupiter and Saturn are the most massive and distant of the classical planets, so they feel the tidal pull of the rest of the galaxy most strongly, which explains a slow inequality in their orbits."
+  },
+  {
+   "job_id": "expansion/astronomy/251:C",
+   "reason": "Jupiter and Saturn sit near an orbital resonance, so their gravitational tugs on each other build up rather than cancel out, producing a long-period wobble in both of their orbits."
+  },
+  {
+   "job_id": "expansion/astronomy/252:A",
+   "reason": "Protected areas tend to be zoned for diving and ecotourism once they are set up, and that revenue goes to operators while fishers lose the waters they depend on for food and income."
+  },
+  {
+   "job_id": "expansion/astronomy/252:D",
+   "reason": "When a protected area lets fish grow and breed undisturbed, adults and larvae move out into neighboring waters, so catches around the edges recover and fishers get steadier income over the years."
+  },
+  {
+   "job_id": "expansion/astronomy/254:C",
+   "reason": "The Eddington luminosity is where outward radiation pressure on the gas exactly matches gravity's inward pull, so any brighter and the outer layers would be blown off instead of staying in balance."
+  },
+  {
+   "job_id": "expansion/astronomy/254:D",
+   "reason": "Radiation carries angular momentum away from a star, and above a certain brightness that loss destabilizes its spin, so the Eddington luminosity is the cap for a star to keep rotating stably."
+  },
+  {
+   "job_id": "expansion/astronomy/256:A",
+   "reason": "Consecutive frames from a rover are nearly identical, so training on them in order biases the network, and storing transitions in a buffer and sampling them at random breaks that correlation."
+  },
+  {
+   "job_id": "expansion/astronomy/256:D",
+   "reason": "If the network chases its own changing predictions, training oscillates, so DQN keeps a separate copy whose weights are frozen for a while, giving fixed targets that stabilize learning on correlated sequences."
+  }
+ ]
+}

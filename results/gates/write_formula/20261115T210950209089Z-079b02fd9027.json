@@ -1,0 +1,108 @@
+{
+ "builtin_path": true,
+ "commit": "079b02fd90276082315b1a244003087c52c6b5cc",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T21:09:50+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "limit": 4,
+ "model_kind": "tiny",
+ "name": "write_formula",
+ "planted": false,
+ "seconds": 4.6,
+ "session": null,
+ "started": "2026-11-15T21:09:45+00:00",
+ "tail_position": 0,
+ "tree_clean": true,
+ "values": {
+  "arms": {
+   "short:alpha=0.0": {
+    "calls_checked": 20,
+    "max_relative_difference": 0.0,
+    "zeros_exact": true
+   },
+   "short:alpha=0.5": {
+    "calls_checked": 20,
+    "max_relative_difference": 2.3555020291121936e-07,
+    "zeros_exact": true
+   },
+   "short:alpha=1.0": {
+    "calls_checked": 20,
+    "max_relative_difference": 1.990828217742242e-07,
+    "zeros_exact": true
+   },
+   "short:band=[1, 2]": {
+    "calls_checked": 20,
+    "max_relative_difference": 1.955112525174617e-07,
+    "zeros_exact": true
+   },
+   "short:band=[3]": {
+    "calls_checked": 20,
+    "max_relative_difference": 1.9709229228442202e-07,
+    "zeros_exact": true
+   },
+   "short:band=[5, 6]": {
+    "calls_checked": 20,
+    "max_relative_difference": 1.9673232716949332e-07,
+    "zeros_exact": true
+   },
+   "snap:alpha=0.0": {
+    "calls_checked": 20,
+    "max_relative_difference": 0.0,
+    "zeros_exact": true
+   },
+   "snap:alpha=0.5": {
+    "calls_checked": 20,
+    "max_relative_difference": 2.3829037766767773e-07,
+    "zeros_exact": true
+   },
+   "snap:alpha=1.0": {
+    "calls_checked": 20,
+    "max_relative_difference": 1.7904119877799383e-07,
+    "zeros_exact": true
+   },
+   "snap:band=[1, 2]": {
+    "calls_checked": 20,
+    "max_relative_difference": 1.697386234709039e-07,
+    "zeros_exact": true
+   },
+   "snap:band=[3]": {
+    "calls_checked": 20,
+    "max_relative_difference": 1.7904119877799383e-07,
+    "zeros_exact": true
+   },
+   "snap:band=[5, 6]": {
+    "calls_checked": 20,
+    "max_relative_difference": 1.8640563012863057e-07,
+    "zeros_exact": true
+   }
+  },
+  "green": true,
+  "hooked_layers": [
+   1,
+   2,
+   3,
+   5,
+   6
+  ],
+  "hooks_on_exactly_the_write_layers": true,
+  "write_layers": [
+   1,
+   2,
+   3,
+   5,
+   6
+  ]
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ },
+ "writer_input": "probabilities_and_state"
+}

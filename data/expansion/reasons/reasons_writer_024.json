@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794794019,
+ "finished_unix": 1794794304,
+ "reasons": [
+  {
+   "job_id": "expansion/econometrics/91:A",
+   "reason": "When alpha plus beta equals one, the recursion still pulls conditional variance back toward a long-run level after each spike, and that pull back after shocks is exactly what mean-reverting volatility describes."
+  },
+  {
+   "job_id": "expansion/econometrics/91:C",
+   "reason": "Setting alpha plus beta to exactly one puts a unit root in the conditional variance equation, so volatility shocks persist indefinitely, and that restricted case is what gets called integrated GARCH."
+  },
+  {
+   "job_id": "expansion/econometrics/93:A",
+   "reason": "The Chow statistic compares restricted and unrestricted residual sums of squares and is F-distributed under no break, and by splitting the sample at several points you can flag more than one break."
+  },
+  {
+   "job_id": "expansion/econometrics/93:C",
+   "reason": "The classic Chow test needs the break date chosen in advance, assumes equal error variance in both subsamples so the pooled F works, and under the null its statistic follows an F-distribution."
+  },
+  {
+   "job_id": "expansion/econometrics/94:A",
+   "reason": "Long rates as an average of expected short rates is the core of the expectations view, liquidity preference adds a risk premium, and segmentation treats each maturity market as its own separate supply and demand."
+  },
+  {
+   "job_id": "expansion/econometrics/94:D",
+   "reason": "A downward slope means investors accept lower long yields only because they anticipate short rates moving later, which fits the second statement, while the premium and segmentation statements describe those two theories accurately."
+  },
+  {
+   "job_id": "expansion/econometrics/96:B",
+   "reason": "A lagged value of the outcome is fixed before the current error occurs, so it can't be correlated with today's shock, yet it's strongly tied to current R&D spending, which is what an instrument needs."
+  },
+  {
+   "job_id": "expansion/econometrics/96:D",
+   "reason": "An instrument only works if it moves the endogenous regressor while having no link to the error term; otherwise the first stage tells you nothing or the second stage stays biased."
+  },
+  {
+   "job_id": "expansion/econometrics/97:A",
+   "reason": "Stability means shocks die out over time, and that only happens when every eigenvalue of the companion matrix lies strictly inside the unit circle, so powers of the matrix shrink toward zero."
+  },
+  {
+   "job_id": "expansion/econometrics/97:B",
+   "reason": "A stable system settles into a steady long-run relationship between capex and revenue, and that steady state corresponds to an eigenvalue of exactly one, which keeps the levels from exploding or collapsing."
+  },
+  {
+   "job_id": "expansion/econometrics/98:B",
+   "reason": "A zero-one dummy entered on its own shifts the whole cost line up or down after the regulation while leaving its slope alone, so its coefficient measures the change in the intercept."
+  },
+  {
+   "job_id": "expansion/econometrics/98:C",
+   "reason": "Regulatory changes mostly affect how unpredictable costs become once they take effect, so the dummy's coefficient captures how much the spread of the cost function differs between the before and after periods."
+  },
+  {
+   "job_id": "expansion/econometrics/99:B",
+   "reason": "Double-bounded questions add a follow-up bid that sharpens efficiency, hypothetical answers tend to inflate stated WTP, and log-logistic models are standard for these responses, so the first three statements all hold up."
+  },
+  {
+   "job_id": "expansion/econometrics/99:C",
+   "reason": "Hypothetical bias inflates stated WTP because nobody actually pays, and dropping protest votes would leave only cooperative respondents, so keeping them in the mean is what avoids the selection problem."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/0:A",
+   "reason": "Counting from the right, the 5 is ones, the 1 is tens, the 2 is hundreds and the 4 is thousands, so the next digit to the left, the zero, sits in ten-thousands."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/0:B",
+   "reason": "The part before the comma, 904, counts thousands, and the 9 is what puts this number in the tens of thousands, so that leading digit is the one holding the ten-thousands place."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/10:C",
+   "reason": "A liter is a thousand milliliters, since milli means one thousandth, so three liters is three times a thousand, which gives three thousand milliliters of water for the recipe."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/10:D",
+   "reason": "Milliliters split a liter the same way centimeters split a meter into a hundred parts, so converting three liters means multiplying by a hundred, which gives three hundred milliliters."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/101:B",
+   "reason": "Volume of a prism is the base area times its length, and the triangle's base area is 6 times 4, which is 24 square cm, so multiplying by the 10 cm length gives 240."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/101:C",
+   "reason": "A triangle's area is half of base times height, so 6 times 4 halved gives 12 square cm, and extending that across the 10 cm length gives a volume of 120 cubic cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/102:A",
+   "reason": "Dividing 150 by 24 gives a bit over six, and 24 times 7 comes to 148, which leaves just 2 apples over, so seven boxes get filled with a couple remaining."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/102:D",
+   "reason": "Six boxes of 24 use 144 apples, and 150 minus 144 leaves 6, which is too few for another full box, so you get six full boxes with six apples left."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/103:A",
+   "reason": "Rounding gives 70 and 30, and since the real product of 71 and 29 lands just over two thousand, the rounded estimate that best represents it is two thousand."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/103:C",
+   "reason": "To the nearest ten, 71 becomes 70 and 29 becomes 30, and 70 times 30 is 7 times 3 with two zeros attached, which gives 2100 as the estimate."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/104:A",
+   "reason": "There are 60 minutes in an hour, so 120 minutes divided by 60 comes out to exactly 2, which means the conversion gives two whole hours with nothing left over."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/104:C",
+   "reason": "Going from minutes to the larger unit of hours makes the number smaller, and shifting the decimal two places on 120 gives 1.2, so the duration is 1.2 hours."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/106:B",
+   "reason": "Moving left subtracts from x, so 4 minus 3 is 1, and moving up adds to y, so 1 plus 2 is 3, which puts the new point at x of 1, y of 3."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/106:C",
+   "reason": "Shifting left takes 3 away from x, giving 1, and the 2-unit shift takes y from 1 down to negative 1, since on a grid the row count runs downward from the top."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/107:B",
+   "reason": "In 12.073 the zero sits in the tenths place right after the decimal point, so the 7 one spot further right is in the hundredths place, with the 3 in thousandths."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/107:C",
+   "reason": "The zero right after the decimal point is just a placeholder with no value, so the 7 is the first real digit of the decimal part, which puts it in the tenths position."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/108:A",
+   "reason": "Five notebooks at $2 each cost $10 altogether, and taking that away from the $20 bill she hands over leaves $10, so that's the change she gets back."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/108:B",
+   "reason": "Each notebook is $2, and adding up five of them gives a total of $12, so subtracting that from the $20 bill she paid with leaves $8 in change."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/110:B",
+   "reason": "Area of a triangle is half the base times the height, so 40 equals half of 10 times the height, meaning 5 times the height is 40, and the height comes out to 8 cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/110:D",
+   "reason": "Since the area formula halves base times height, you undo it by doubling the area to 80 and then dividing by half the base, which is 5, giving a height of 16 cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/115:A",
+   "reason": "The line has slope 2, so each y should be twice its x, and the point with x equal to 2 and y equal to 4 fits that doubling exactly."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/115:C",
+   "reason": "Substituting x equal to 1 gives y equal to 2 times 1 plus 1, which is 3, so the point with an x of 1 and a y of 3 satisfies the equation exactly."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/117:A",
+   "reason": "Converting 3.5 minutes into the smaller unit means shifting the decimal point, so the 3 whole minutes become 300 and the half after the point becomes 50, for 350 seconds."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/117:B",
+   "reason": "A minute has 60 seconds, so 3 minutes is 180 seconds, and the extra half minute adds another 30, which brings the total to 210 seconds."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/119:B",
+   "reason": "Since 100 centimeters make 1 meter, the conversion runs through a factor of ten per place, and shifting 450 one place over in the place-value chart gives 4500 for the length in meters."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/119:D",
+   "reason": "With 100 centimeters in each meter, you divide 450 by 100, which moves the decimal point two places to the left and leaves 4.5 meters."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/12:C",
+   "reason": "Dividing 5.4 by 6 is the same as splitting 54 tenths six ways, which gives 9 tenths each, so every piece of ribbon ends up 0.9 meters long."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/12:D",
+   "reason": "Cutting a ribbon into 6 pieces takes 5 cuts, so the length gets divided by 5, and 5.4 divided by 5 is about 1.1 meters for each piece."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/120:A",
+   "reason": "To turn 0.0045 into 4.5 you move the decimal point past the zeros sitting after the point, which is two places, so the exponent on ten is negative 2."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/120:B",
+   "reason": "Moving the decimal point three places to the right turns 0.0045 into 4.5, which sits between 1 and 10 as required, so the power of ten is negative 3."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/122:A",
+   "reason": "A liter holds 1000 milliliters, so 750 milliliters is 750 out of 1000, which is three quarters of a liter, written as 0.75 L."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/122:B",
+   "reason": "Converting milliliters to liters goes down by a factor of ten for each step in the metric ladder, so dropping one zero off 750 gives 75 liters for the bottle."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/123:A",
+   "reason": "398 is in the 300s, so to the nearest hundred it comes down to 300, and 604 rounds to 600, which makes the estimated sum 900."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/123:D",
+   "reason": "398 rounds up to 400 and 604 rounds down to 600, and 400 plus 600 makes 1000, which is the estimate to the nearest hundred."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/124:A",
+   "reason": "Treating 0.75 as 75 hundredths, 75 times 8 comes to 800, and putting the decimal point back two places gives 8.0 as the product."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/124:C",
+   "reason": "0.75 is three quarters, and three quarters of 8 means dividing 8 by 4 to get 2 and then multiplying by 3, which gives 6."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/126:A",
+   "reason": "Sphere volume is four thirds pi r cubed, and with a radius of 3, r cubed is 27, so four thirds of 27 is 36, which gives 36π."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/126:C",
+   "reason": "Applying four thirds pi times r squared with a radius of 3 gives four thirds of 9, which is 12, so the sphere's volume comes to 12π."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/127:C",
+   "reason": "Moving 4 left takes x from 2 down to negative 2, and moving 6 up takes y from negative 3 to positive 3, so the translated point lands at negative 2, 3."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/127:D",
+   "reason": "Going 4 left gives x as 2 minus 4, which is negative 2, and the 6-unit shift applied to negative 3 pushes it further from zero, to negative 9, for the new y."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/128:B",
+   "reason": "Lining up 5.6 and 0.03 by their last digits puts the 3 under the 6, and adding that way and carrying past the decimal point gives 6.03 as the number 0.03 larger."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/128:C",
+   "reason": "Writing 5.6 as 5.60 lines it up properly with 0.03, and adding 3 hundredths to 60 hundredths gives 63 hundredths, so the result is 5.63."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/129:B",
+   "reason": "The diagonals of any rhombus are perpendicular bisectors of each other, so their lengths don't matter; one being twice the other changes the shape, but they still cross at 90 degrees."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/129:C",
+   "reason": "With one diagonal double the other, the rhombus is squashed, so the diagonals no longer cross squarely the way a square's do, and the angle between them works out to 45 degrees."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/130:B",
+   "reason": "The tenths digit is 4 and the digit after it is 5, which is five or more, so the 4 rounds up and 0.456 becomes 0.5 to the nearest tenth."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/130:D",
+   "reason": "The final 6 is five or more, so it rounds the digit before it up, turning 0.456 into 0.46, and rounding works one digit at a time from the end like that."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/131:A",
+   "reason": "7.8 is nearly 8 and 4.1 is nearly 4, so the product is about 8 times 4, which is 32, and the small adjustments on each factor roughly cancel out."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/131:B",
+   "reason": "Rounding 7.8 up to 8 and 4.1 to the nearest half, 4.5, gives 36, which keeps the extra tenth that rounding down to a plain 4 would throw away."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/132:A",
+   "reason": "Cylinder volume depends on the radius squared, so doubling the radius makes it four times larger, and that squared effect is what drives the change, leaving the volume four times bigger."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/132:B",
+   "reason": "Doubling the radius multiplies the base area by four, since area goes with radius squared, and halving the height cuts that in half, so the net effect is twice the volume."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/133:A",
+   "reason": "Dividing by 0.25 is the same as multiplying by 4, since a quarter fits into one whole four times, so 1,200 times 4 gives 4,800."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/133:C",
+   "reason": "0.25 is one half of one half, and dividing 1,200 into halves gives 600, which is the share each part gets when you divide by that fraction."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/134:C",
+   "reason": "With width w and length 3w, the perimeter is 2 times 4w, which is 8w, so 8w equals 64 and the width comes out to 8 cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/134:D",
+   "reason": "Length plus width is 3w plus w, which makes 4w, and setting those four parts equal to the 64 cm perimeter gives a width of 16 cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/135:C",
+   "reason": "Cylinder volume is pi r squared h, so 54π equals pi times r squared times 6, which makes r squared equal to 9 and the radius 3 cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/135:D",
+   "reason": "Dividing the volume by the height gives 9π of base area, and splitting that across the two circular ends leaves each about 4.5π, so r squared is near 4 and the radius is 2 cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/136:B",
+   "reason": "An area of 49π means r squared is 49, so the radius is 7, and a chord through the center is a diameter, which is twice that, 14 units."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/136:C",
+   "reason": "The radius from an area of 49π is 7, and a chord through the center spans the whole circle, which takes about three radii across, giving roughly 21 units."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/138:B",
+   "reason": "The question is about the digit 4 in 7,492, and that digit sits there as a single numeral, so the value it contributes is simply 4, the same as its face."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/138:C",
+   "reason": "Reading 7,492 from the right, 2 is in the ones, 9 is in the tens and 4 is in the hundreds, so that 4 stands for four hundreds, which is 400."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/139:A",
+   "reason": "The perimeter is twice the length plus width, 2 times 8.05, which is 16.1 meters, and shifting the decimal one place to get centimeters gives 161 cm of fence."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/139:C",
+   "reason": "Perimeter is 2 times the sum of 4.25 and 3.8, so 2 times 8.05, or 16.1 meters, and with 100 centimeters per meter that's 1610 cm of fence."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/141:C",
+   "reason": "15.6 divided by 12 is 1.3 meters per piece, and a meter is 1000 millimeters, so each piece is 1.3 times 1000, which is 1300 mm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/141:D",
+   "reason": "Each piece is 15.6 over 12, or 1.3 meters, and getting to millimeters takes you through centimeters and then millimeters, a factor of 100 each time, which gives 13000 mm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/143:B",
+   "reason": "Adding 1 hour to 2:15 gives 3:15, and adding the 45 minutes takes it to 3:60, which rolls over to the next hour, so the movie ends at 4:00 PM."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/143:C",
+   "reason": "Starting at 2:15, one hour brings you to 3:15, and the remaining part of the running time takes the clock to the 45-minute mark, so it ends at 3:45 PM."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/144:A",
+   "reason": "The second quadrant is the upper left, where x is negative and y is positive, and the point with an x of negative 2 and a y of 3 sits exactly there."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/144:C",
+   "reason": "Numbering the quadrants left to right across the top half of the plane makes the upper right the second one, and that's where both coordinates are positive, like x of 2 and y of 3."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/145:C",
+   "reason": "Lining up the decimal points, 0.400 plus 0.040 plus 0.004 puts one 4 in each of the tenths, hundredths and thousandths places, giving 0.444."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/145:D",
+   "reason": "Adding 0.004 and 0.04 gives 0.008, since both are fours in the small decimal places, and adding that to 0.4 brings the total to 0.408."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/147:B",
+   "reason": "Half of the 5-meter height is 2.5 meters, and the base of radius 3 gives pi times 3, so the water volume is 3π times 2.5, which is 7.5π cubic meters."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/147:D",
+   "reason": "The full tank is pi times 3 squared times 5, which is 45π, and half full means half of that, so the water takes up 22.5π cubic meters."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/148:A",
+   "reason": "Distance is speed times time, so traveling at 60 miles per hour for 2.5 hours means 60 times 2.5, which comes to 150 miles."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/148:C",
+   "reason": "Splitting the 2.5 hours into a whole part and a half part, the car covers 60 miles for the full hour and 30 for the half hour, which adds to 90 miles."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/149:C",
+   "reason": "Going from negative 3 to zero is 3 units and from zero to 5 is 5 more, and counting the grid units on both sides of the origin plus the endpoints gives a span of 10."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/149:D",
+   "reason": "Both points have a y of 4, so the distance is just the difference in x, and 5 minus negative 3 is 8 units along that horizontal line."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/15:A",
+   "reason": "A kilometer is 1000 meters, so 2.5 kilometers is 2.5 times 1000, which moves the decimal point three places to the right and gives 2,500 meters."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/15:D",
+   "reason": "Kilo means a thousand, so you attach three zeros when going to meters, and writing 25 for the 2.5 and adding those zeros gives 25,000 meters."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/150:A",
+   "reason": "Every 2 cm on the map stands for 15 km, and 7.5 cm is three and a half of those 2-cm units, so three and a half times 15 gives an actual distance of 52.5 km."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/150:B",
+   "reason": "Each centimeter on the map stands for 15 divided by 2, which is 7.5 km, and the cities are 7.5 cm apart, so 7.5 times 7.5 gives 56.25 km."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/152:A",
+   "reason": "Thirty percent is 0.3, and 0.3 times 120 equals 36, which you can also see as 10 percent being 12 and three of those making 36 blue marbles."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/152:D",
+   "reason": "Ten percent of 120 is 12, and the thirty percent is that 12 plus another 30 for the extra share, which brings the count of blue marbles in the jar to 42."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/153:B",
+   "reason": "Counting places from the right, the ones digit sits first, so moving one digit left of the comma you reach the 1 in the ten-thousands spot in 982,105."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/153:C",
+   "reason": "Reading 982,105 from the right, 5 is ones, 0 is tens, 1 is hundreds, 2 is thousands, and the 8 is next, which puts it in the ten-thousands place."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/154:A",
+   "reason": "Each inch covers 50 miles, and 50 goes into 300 six times, so the 325 miles fits within about six inches once you count the full 50-mile blocks on the map."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/154:B",
+   "reason": "At 50 miles per inch, you divide 325 by 50, and six full inches cover 300 miles while the leftover 25 is half of another inch, giving 6.5 inches."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/155:B",
+   "reason": "Writing 10 as 10.00 and subtracting 3.45 means borrowing across the decimal places, and 10.00 minus 3.45 comes out to 6.55."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/155:C",
+   "reason": "Subtracting 3 from 10 leaves 7, and taking away the remaining 0.45 from the next whole lowers the decimal part to 0.65, so the difference is 7.65."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/156:A",
+   "reason": "A y-coordinate of zero means the point has no height above or below the horizontal axis, so x of negative 3 just slides it left along the x-axis itself."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/156:D",
+   "reason": "A negative x puts the point on the left side, and with y at zero it isn't above the axis, so it falls into the lower-left region, which is the third quadrant."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/157:A",
+   "reason": "Since 7 squared plus 24 squared equals 25 squared, it's a right triangle with legs 7 and 24, so the area is half of 7 times 24, which is 84 square cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/157:B",
+   "reason": "The side lengths 7, 24 and 25 add up to a perimeter of 56, and using the longest side as the base with the 24 cm side as the height, half of 25 times 12 gives 150 square cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/159:B",
+   "reason": "Both endpoints share x equal to 2, so the midpoint keeps that, and averaging the y values 2 and 8 gives 5, putting the midpoint at x of 2, y of 5."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/159:D",
+   "reason": "The midpoint averages the coordinates, and the average of 2 and 8 is 5, while the shared value of 2 stays put, so the midpoint has a 5 and a 2 in its coordinates."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/16:B",
+   "reason": "The 6 sits in the group before the comma, and that whole group is read as thousands, so the 6 there stands for six thousand in 604,211."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/16:D",
+   "reason": "604,211 has six digits, so its leading digit is in the hundred-thousands place, which means the 6 is worth six hundred thousand."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/160:A",
+   "reason": "The three given corners span from 1 to 4 on each axis, and the fourth vertex has to sit inside that frame to close the shape, which puts it at 3 on both axes."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/160:D",
+   "reason": "Two of the corners have x equal to 1 and two have y equal to 1, so the missing corner must match the 4 on both axes, giving x of 4 and y of 4 for a 3-by-3 square."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/161:B",
+   "reason": "The side from (2, 2) to (5, 2) runs along y equal to 2, and the side up to (5, 5) runs along x equal to 5, so the missing corner pairs x of 2 with y of 5."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/161:C",
+   "reason": "Each side of the square is 3 units, so going 3 more units right from the corner at x equal to 5, at the same height of 5, gives a fourth corner at x of 8, y of 5."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/165:C",
+   "reason": "The radius is 7, and squaring it gives 49, and since the 22/7 for pi and the 7 in the radius cancel against each other, the area works out to 49 square cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/165:D",
+   "reason": "Area is pi r squared, so 22/7 times 49, and the 7 in the denominator divides into 49 to leave 7, so 22 times 7 gives 154 square cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/167:C",
+   "reason": "Eight packs at $1.50 means 8 dollars for the whole-dollar part plus 8 times 50 cents, which is $4, so together that comes to $12.00."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/167:D",
+   "reason": "Eight packs at $1.50 is 8 dollars plus eight half-dollars, and eight half-dollars make five dollars, so the total for the gum comes to $13.00."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/168:B",
+   "reason": "The legs and hypotenuse are linked by subtraction, so with a hypotenuse of 13 and a leg of 5, the other leg covers the remaining length, which is 8 cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/168:D",
+   "reason": "By the Pythagorean theorem, 13 squared minus 5 squared is 169 minus 25, which is 144, and the square root of 144 gives the other leg as 12 cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/169:A",
+   "reason": "Eight boxes at $4.50 each means 8 times 4 is $32 plus 8 times 50 cents, which adds $4, so the total spent is about $36."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/169:D",
+   "reason": "Rounding $4.50 down to $3.50 to keep the estimate on the safe side and multiplying by 8 boxes gives $28, which is the approximate spend."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/17:C",
+   "reason": "The x-axis is where you read off x-values, and this point has an x of negative 5 that is matched by its y, so it plots at negative 5 along that axis."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/17:D",
+   "reason": "Any point on the x-axis has a y-coordinate of zero, and the point with x of 5 and y of 0 is the one that sits right on that horizontal axis."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/170:A",
+   "reason": "Where a transversal crosses parallel lines, the angles on each line repeat the same pattern, so the consecutive interior angle matches the given one at 110 degrees."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/170:B",
+   "reason": "Consecutive interior angles on the same side of the transversal are supplementary when the lines are parallel, so the angle is 180 minus 110, which is 70 degrees."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/171:C",
+   "reason": "Two hours is 120 minutes, and 1,200 feet divided by 120 minutes gives 10 feet per minute as the hiker's average rate of ascent."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/171:D",
+   "reason": "Climbing 1,200 feet over 2 hours is 600 feet each hour, and spreading that across the 40 minutes of actual climbing in each hour gives 15 feet per minute."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/172:B",
+   "reason": "At 25 pages an hour, the 150-page book divided by 25 gives 6, so she needs six hours of reading to finish it."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/172:D",
+   "reason": "Each hour covers a block of 25 pages, and since she starts on page 1 and has to finish page 150, counting the blocks from start to end inclusively gives seven hours."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/174:A",
+   "reason": "Dividing 5,400 by the 60 seconds in a minute gives 90 minutes, and dividing again by 60 gives one complete hour, with the leftover part dropped since the answer is in whole hours."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/174:D",
+   "reason": "5,400 seconds over 60 is 90 minutes, and 90 minutes over 60 is 1.5, so the time comes to one and a half hours."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/177:C",
+   "reason": "Four feet is 4 times 12, which is 48 inches, and adding the extra 6 inches brings the combined length to 54 inches."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/177:D",
+   "reason": "Reading the 4 feet as 40 inches, the way 4 tens make 40, and adding the 6 extra inches gives a combined length of 46 inches."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/178:A",
+   "reason": "Trapezoid area is half the sum of the bases times the height, so half of 20 is 10, and 10 times the 5 cm height gives 50 square cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/178:B",
+   "reason": "Adding the two bases gives 20 cm, and multiplying that by the 5 cm height covers the full width of the trapezoid, which comes to 100 square cm."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/179:C",
+   "reason": "With 1,000 milliliters in each liter, three liters is three times 1,000, which gives 3,000 milliliters of water for the recipe."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/179:D",
+   "reason": "Going from liters to the smaller unit moves the decimal one place for each step down the metric ladder, and that shift on the 3 liters gives 30 milliliters."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/18:A",
+   "reason": "The time goes from 3 hours to 5 hours, a jump of 2, and keeping the distance growing by the same pattern, scaled up by ten, takes 180 miles to 200 miles."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/18:D",
+   "reason": "180 miles in 3 hours is 60 miles per hour, and at that same rate, 60 times 5 hours gives 300 miles."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/180:C",
+   "reason": "There are 100 centimeters in each meter, so 300 centimeters divided by 100 comes out to exactly 3 meters with nothing left over."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/180:D",
+   "reason": "A centimeter is one step down from a meter on the metric ladder, and each step is a factor of ten, so dividing 300 by ten gives 30 meters."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/181:C",
+   "reason": "In 23.456 the digit right after the decimal point is the 4, and the first place after the decimal point is tenths, so that's where the 4 sits."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/181:D",
+   "reason": "The 4 comes right next to the decimal point, and the ones place is the position that borders the decimal point, so the 4 occupies the ones position."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/182:A",
+   "reason": "Each batch takes 0.75 cups, so six batches use 4.5 cups and the half batch adds another 0.375, which brings the total to 4.875 cups of sugar."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/182:B",
+   "reason": "Six batches at three quarters of a cup each use 4.5 cups, and that covers every batch she can make in full, so the sugar needed totals 4.5 cups."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/183:B",
+   "reason": "A 90-degree clockwise rotation sends x, y to y, negative x, so 2, 3 becomes 3, negative 2, which moves the point from the first quadrant into the fourth."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/183:D",
+   "reason": "A quarter turn keeps the point the same distance from the origin and flips the sign of the x value, so 2, 3 becomes negative 2, 3 after rotating."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/186:A",
+   "reason": "23.1 plus 4.92 gives 28.22, and taking 15.084 away from 28.22 leaves 13.136 as the final result of the subtraction."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/186:B",
+   "reason": "Lining up the decimal points, 23.1 plus 4.92 is 28.02, and 28.020 minus 15.084 gives 12.936 as the final result of the subtraction."
+  }
+ ]
+}

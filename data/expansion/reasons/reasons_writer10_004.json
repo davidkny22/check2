@@ -1,0 +1,47 @@
+{
+ "writer": "opus",
+ "started_unix": 1794796459,
+ "finished_unix": 1794796510,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_mathematics/0:C",
+   "reason": "A space diagonal of 3√3 means each edge is 3, because the diagonal is the edge times √3, and an edge of 3 cubed for the cube gives 27."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/0:D",
+   "reason": "The space diagonal of a cube is its edge times √3, so the edge here is 3. Each face is then 3 by 3, and six faces of 9 make 54."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/1:A",
+   "reason": "We need 3x to leave remainder 1 when divided by 7. Trying small values, 3 times 5 is 15, which is 14 plus 1, and no smaller positive x works."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/1:D",
+   "reason": "Since 3 and 7 are coprime, Fermat's little theorem says 3 to the sixth is congruent to 1 mod 7, so 6 is the number that turns 3 into 1 here."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/100:A",
+   "reason": "The center lies inside the triangle exactly when the three points do not all fit in one semicircle. That semicircle event has probability 3/4, which leaves 1/4 for the center."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/100:C",
+   "reason": "Fix the first two points; the third must land on the arc between their antipodes, which matches the arc between them. That arc averages a third of the circle, giving one third."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/101:B",
+   "reason": "Matching exponents gives x + y = 4 and x − y = 1, so x is 2.5 and y is 1.5. Squaring those, 6.25 minus 0.25 comes out to 6."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/101:C",
+   "reason": "Since 81 is 3 to the fourth, x + y = 4, and the second equation gives x − y = 1. The difference of squares factors as their product, which is 4."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/102:B",
+   "reason": "The expression factors as (z − 1)(z − 2), and each factor is the distance from a point on the radius-2 circle to a point inside it, at most 2, so the product tops out at 4."
+  },
+  {
+   "job_id": "expansion/high_school_mathematics/102:C",
+   "reason": "Factoring gives (z − 1)(z − 2), a product of distances from z to 1 and to 2. On the circle of radius 2, both are largest at z = −2, giving 3 times 4."
+  }
+ ]
+}

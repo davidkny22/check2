@@ -1,0 +1,59 @@
+{
+ "commit": "7e802f5143e1d83e760adb29c55a475911fe4a41",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T14:18:13+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "measurement",
+ "limit": null,
+ "model_kind": "tiny",
+ "name": "decode_setting",
+ "seconds": 27.3,
+ "session": null,
+ "started": "2026-11-15T14:17:46+00:00",
+ "tree_clean": true,
+ "values": {
+  "differing_episodes": [],
+  "episodes": 96,
+  "final_answers_differing": 0,
+  "off": {
+   "mean_seconds": 2.6675690333310436,
+   "repeats_identical": true,
+   "replies_sha256": "9a2684d6c3d4f7589d8570e9edd8b3e41e45a0c8746ce0a5822ab50806c19fae",
+   "rows_ended": 0,
+   "seconds": [
+    2.5787229999987176,
+    2.6024364000040805,
+    2.821547699990333
+   ],
+   "spread": 0.09416470865297911,
+   "spread_above_limit": false,
+   "tokens_generated": 24576
+  },
+  "on": {
+   "mean_seconds": 2.556486733335381,
+   "repeats_identical": true,
+   "replies_sha256": "9a2684d6c3d4f7589d8570e9edd8b3e41e45a0c8746ce0a5822ab50806c19fae",
+   "rows_ended": 0,
+   "seconds": [
+    2.5505899999989197,
+    2.558023300007335,
+    2.5608468999998877
+   ],
+   "spread": 0.004021383288169545,
+   "spread_above_limit": false,
+   "tokens_generated": 24576
+  },
+  "replies_identical_to_default": true,
+  "setting": "preallocated_cache",
+  "time_change": -0.041641771443474924
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

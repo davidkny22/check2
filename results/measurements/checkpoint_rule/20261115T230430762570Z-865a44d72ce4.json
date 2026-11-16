@@ -1,0 +1,81 @@
+{
+ "commit": "865a44d72ce42c019d131382642a95ed0ab056f1",
+ "commit_source": ".sent-commit",
+ "config": {
+  "kind": "epochs",
+  "original": "original-heldout",
+  "runs": [
+   "wide-check2-heldout-epoch1",
+   "wide-check2-heldout-epoch2"
+  ]
+ },
+ "config_sha256": "433de45aa56996046a42db1fc5cebd14709aebddca55101bc798b209d860f8a7",
+ "finished": "2026-11-15T23:04:30+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "measurement",
+ "name": "checkpoint_rule",
+ "runs": {
+  "original-heldout": {
+   "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+   "config_sha256": "2189376368293e16405eb963e36d272547b8c4970120a0834406a192499cdcca",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "wide-check2-heldout-epoch1": {
+   "commit": "865a44d72ce42c019d131382642a95ed0ab056f1",
+   "config_sha256": "cc9f2c57e31ab77b59ec87dd94784fb4f24ea942322e3f977b7f27ea3bde77ae",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "wide-check2-heldout-epoch2": {
+   "commit": "865a44d72ce42c019d131382642a95ed0ab056f1",
+   "config_sha256": "cc9f2c57e31ab77b59ec87dd94784fb4f24ea942322e3f977b7f27ea3bde77ae",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  }
+ },
+ "session": "c2-a",
+ "started": "2026-11-15T23:04:28+00:00",
+ "tree_clean": null,
+ "values": {
+  "candidates": [
+   {
+    "label": "wide-check2-heldout-epoch1",
+    "order": 1,
+    "qualifies": false,
+    "right_adoption": 0.875,
+    "right_adoption_drop": 11.111111111111114,
+    "wrong_adoption": 0.19642857142857142
+   },
+   {
+    "label": "wide-check2-heldout-epoch2",
+    "order": 2,
+    "qualifies": false,
+    "right_adoption": 0.8194444444444444,
+    "right_adoption_drop": 16.66666666666667,
+    "wrong_adoption": 0.15476190476190477
+   }
+  ],
+  "kept": {
+   "epoch": 1,
+   "label": "wide-check2-heldout-epoch1"
+  },
+  "kind": "epochs",
+  "original": "original-heldout",
+  "ranking": [
+   "wide-check2-heldout-epoch1",
+   "wide-check2-heldout-epoch2"
+  ],
+  "recorded_check": {
+   "check": "the kept checkpoint is the last epoch's",
+   "holds": false
+  }
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

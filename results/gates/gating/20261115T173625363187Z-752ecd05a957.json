@@ -1,0 +1,52 @@
+{
+ "builtin_path": true,
+ "commit": "752ecd05a957806fa578228a9bc25da30352b605",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T17:36:25+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "tiny",
+ "name": "gating",
+ "planted": true,
+ "seconds": 9.4,
+ "session": null,
+ "started": "2026-11-15T17:36:15+00:00",
+ "tail_position": 0,
+ "tree_clean": true,
+ "values": {
+  "first_half_green": false,
+  "formats": {
+   "short": {
+    "adapter_alone_changes_layer_3_at_r_plus_1": 64,
+    "adapter_alone_max_abs_difference_up_to_r": 0.009893110953271389,
+    "both_max_abs_difference_up_to_r": 0.009893110953271389,
+    "episodes": 64,
+    "write_alone_changes_layer_3_at_r_plus_1": 64,
+    "write_alone_max_abs_difference_up_to_r": 0.0
+   },
+   "snap": {
+    "adapter_alone_changes_layer_3_at_r_plus_1": 64,
+    "adapter_alone_max_abs_difference_up_to_r": 0.00872468575835228,
+    "both_max_abs_difference_up_to_r": 0.00872468575835228,
+    "episodes": 64,
+    "write_alone_changes_layer_3_at_r_plus_1": 64,
+    "write_alone_max_abs_difference_up_to_r": 0.0
+   }
+  },
+  "green": false,
+  "implementation": "hooks",
+  "second_half_green": true,
+  "setting": "preallocated_cache"
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

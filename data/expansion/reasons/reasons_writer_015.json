@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794787746,
+ "finished_unix": 1794788094,
+ "reasons": [
+  {
+   "job_id": "expansion/college_physics/223:A",
+   "reason": "Carnot efficiency is one minus the cold temperature over the hot one, so 300 over the hot temperature must equal 0.6, and dividing 300 by 0.6 gives the hot reservoir."
+  },
+  {
+   "job_id": "expansion/college_physics/223:B",
+   "reason": "A 40% efficient engine means the hot reservoir sits 40% above the cold one in absolute temperature, so I take 300 K and multiply by 1.4 to get the hot side."
+  },
+  {
+   "job_id": "expansion/college_physics/224:A",
+   "reason": "Kilowatt-hours already describe consumption per hour, and the farm draws a steady 5 kW, so its usage figure in those units is five no matter how many hours it runs."
+  },
+  {
+   "job_id": "expansion/college_physics/224:B",
+   "reason": "Energy is power multiplied by time, and with power already in kilowatts and time in hours, 5 kW times 2 hours lands directly on the kilowatt-hour figure."
+  },
+  {
+   "job_id": "expansion/college_physics/225:A",
+   "reason": "Momentum is conserved when the objects stick, so the initial 10 kg m/s gets shared by the combined 8 kg, and dividing those gives the final speed."
+  },
+  {
+   "job_id": "expansion/college_physics/225:C",
+   "reason": "Sticking together costs the moving block the 3 kg it must now drag, leaving two of its five kilograms of effective motion, and two-fifths of 2 m/s gives 0.8 m/s."
+  },
+  {
+   "job_id": "expansion/college_physics/226:A",
+   "reason": "At fixed volume the pressure rises both from faster molecules and from more frequent wall collisions, so doubling it only takes a factor of one and a half in absolute temperature."
+  },
+  {
+   "job_id": "expansion/college_physics/226:D",
+   "reason": "With volume held fixed, pressure is directly proportional to absolute temperature, so doubling the pressure from its starting point means doubling 300 K."
+  },
+  {
+   "job_id": "expansion/college_physics/229:B",
+   "reason": "The question states the viscosity doubles over exactly this cooling from 40 to 20 degrees, so the starting 10 cP simply becomes twice that at the lower temperature."
+  },
+  {
+   "job_id": "expansion/college_physics/229:D",
+   "reason": "Going from 40 to 20 degrees halves the temperature, and the stated factor of two ties viscosity to that same ratio, so the starting 10 cP scales down by half."
+  },
+  {
+   "job_id": "expansion/college_physics/23:A",
+   "reason": "From 20 m the fall takes about three seconds once you account for gravity starting from zero vertical speed, and at 10 m/s sideways that carries the ball roughly thirty meters out."
+  },
+  {
+   "job_id": "expansion/college_physics/23:C",
+   "reason": "The fall time comes from 20 equals half of 9.8 times t squared, about 2.02 seconds, and the horizontal 10 m/s over that time gives the landing distance."
+  },
+  {
+   "job_id": "expansion/college_physics/230:B",
+   "reason": "Accelerating a charge of one electron through a potential difference of V volts gives it exactly V electron-volts of kinetic energy, so 100 V corresponds to that energy."
+  },
+  {
+   "job_id": "expansion/college_physics/230:C",
+   "reason": "An electron-volt is defined by the single electron charge, and since we have exactly one electron here, its energy comes out as one unit of that charge's worth."
+  },
+  {
+   "job_id": "expansion/college_physics/231:B",
+   "reason": "Once the capacitor is disconnected, nothing can add or remove charge, and the plates were charged to 10 V, so sliding material between them leaves that voltage locked in."
+  },
+  {
+   "job_id": "expansion/college_physics/231:C",
+   "reason": "Disconnected means the charge is fixed, while the dielectric raises the capacitance, and since voltage equals charge over capacitance, the voltage has to go down."
+  },
+  {
+   "job_id": "expansion/college_physics/235:B",
+   "reason": "EDTA is a hexadentate ligand that wraps a single metal ion and forms a one-to-one complex regardless of the ion's charge, so one mole of iron needs one mole of EDTA."
+  },
+  {
+   "job_id": "expansion/college_physics/235:D",
+   "reason": "Iron(III) wants six coordination sites, and only the four charged carboxylate groups of EDTA actually bind, so filling all six sites around one iron takes two EDTA ligands."
+  },
+  {
+   "job_id": "expansion/college_physics/236:A",
+   "reason": "At equilibrium the spring force balances the weight, so k is mg over the stretch: 0.1 kg times 9.8 gives 0.98 N, and dividing by 0.05 m gives the constant."
+  },
+  {
+   "job_id": "expansion/college_physics/236:B",
+   "reason": "A hung mass released from rest swings through twice the equilibrium stretch, and the energy balance of weight against half k x squared then puts the constant at a quarter of mg over x."
+  },
+  {
+   "job_id": "expansion/college_physics/237:A",
+   "reason": "Conductivity is current density divided by field, here 0.5 over 10, which is 0.02 in the reciprocal sense, and resistivity is the inverse of that, giving 50 ohm-metres."
+  },
+  {
+   "job_id": "expansion/college_physics/237:B",
+   "reason": "Ohm's law in its local form says the field equals resistivity times current density, so dividing 10 V/m by 0.5 A/m² gives the resistivity in ohm-metres."
+  },
+  {
+   "job_id": "expansion/college_physics/238:A",
+   "reason": "If the potential falls to 0.8 of its value and ATP goes with the square, production becomes 0.64 of what it was, and that missing fraction is the drop."
+  },
+  {
+   "job_id": "expansion/college_physics/238:C",
+   "reason": "If ATP tracks the square of the potential, then the potential tracks the square root of ATP, so a 20% change in potential maps onto roughly half that change in ATP output."
+  },
+  {
+   "job_id": "expansion/college_physics/239:A",
+   "reason": "With g of 10, falling 20 m takes the square root of 2 times 20 over 10, which is 2 seconds, and 5 m/s sideways for that time sets the landing point."
+  },
+  {
+   "job_id": "expansion/college_physics/239:B",
+   "reason": "The ball falls 5 m in the first second, 10 m more in the next, then the rest, so the 20 m drop takes about three seconds, and at 5 m/s that is three times five meters."
+  },
+  {
+   "job_id": "expansion/college_physics/241:C",
+   "reason": "Resistivity is resistance times area over length; one square millimetre is 10^-6 square metres, so 4 times 10^-6 divided by 2 metres gives the material's value."
+  },
+  {
+   "job_id": "expansion/college_physics/241:D",
+   "reason": "Rearranging resistance as resistivity times length over area and converting the square millimetre properly lands on the 10^-8 scale, which is exactly where ordinary metal wires sit."
+  },
+  {
+   "job_id": "expansion/college_physics/242:A",
+   "reason": "A full control cycle needs a sensing tick and an actuation tick, so at 100 Hz the half second holds 50 ticks but only half that many complete cycles of the loop."
+  },
+  {
+   "job_id": "expansion/college_physics/242:D",
+   "reason": "Frequency counts cycles per second, so a loop at 100 Hz completes 100 cycles each second, and over the half second of adaptation that is half as many."
+  },
+  {
+   "job_id": "expansion/college_physics/246:B",
+   "reason": "Wavelength links frequency and speed by a ratio, and putting 440 Hz over 600 m/s gives about 0.73, which also fits a denser medium squeezing the waves closer together."
+  },
+  {
+   "job_id": "expansion/college_physics/246:C",
+   "reason": "Wavelength is the wave speed divided by frequency, and 600 m/s over 440 Hz works out to about 1.36 meters for these waves in that atmosphere."
+  },
+  {
+   "job_id": "expansion/college_physics/247:A",
+   "reason": "With contamination ruled out, a consistent excess of one handedness had to arise in space, and nonbiological chemistry like polarized light processing can produce such a modest bias."
+  },
+  {
+   "job_id": "expansion/college_physics/247:B",
+   "reason": "A 15% excess is a modest imbalance, and small samples of chiral molecules can tip one way purely from statistical fluctuation, so without contamination it reflects chance rather than any process."
+  },
+  {
+   "job_id": "expansion/college_physics/248:A",
+   "reason": "Doubling the voltage doubles the stored charge, doubles the field between the plates, and doubles the potential each charge sits at, and energy depends on all three, so it grows by two cubed."
+  },
+  {
+   "job_id": "expansion/college_physics/248:C",
+   "reason": "Stored energy in a capacitor is half C times V squared, and with C fixed at 10 pF, doubling V from 10 to 20 volts raises the energy by the square of two."
+  },
+  {
+   "job_id": "expansion/college_physics/250:A",
+   "reason": "The total voltage across the swing is the starting potential combined with the ending one, and adding minus 70 mV to plus 30 mV gives the net figure for the shift."
+  },
+  {
+   "job_id": "expansion/college_physics/250:C",
+   "reason": "A change is final minus initial, and going from minus 70 to plus 30 means climbing 70 mV to reach zero and then another 30 mV beyond it."
+  },
+  {
+   "job_id": "expansion/college_physics/253:A",
+   "reason": "Average acceleration is the change in velocity over the elapsed time, and the drone gains 20 m/s over 4 seconds, which works out to five per second squared."
+  },
+  {
+   "job_id": "expansion/college_physics/253:D",
+   "reason": "Starting from rest and ending at 20 m/s, the drone's average over the run sits halfway at 10, and averaging is exactly what the question asks for here."
+  },
+  {
+   "job_id": "expansion/college_physics/256:C",
+   "reason": "Speed for slow cellular motion is expressed as the time it takes per unit of distance, so 2 seconds spread over 10 micrometers gives the cell's rate."
+  },
+  {
+   "job_id": "expansion/college_physics/256:D",
+   "reason": "Average speed is total distance over total time, and the cell covers 10 micrometers in 2 seconds, so dividing gives the micrometers it moves each second."
+  },
+  {
+   "job_id": "expansion/college_physics/257:B",
+   "reason": "Adiabatic means no heat enters or leaves the gas, and without any heat flow there is nothing to drive a temperature change, so the change has to be nil."
+  },
+  {
+   "job_id": "expansion/college_physics/257:D",
+   "reason": "In an adiabatic compression no heat escapes, so all the work done squeezing the gas goes into its internal energy, which for an ideal gas means higher temperature."
+  },
+  {
+   "job_id": "expansion/college_physics/258:A",
+   "reason": "Every hundred joules of sunlight yields three joules stored, and across the ten hundreds in the thousand-joule input that adds up to roughly a tenth of the energy captured."
+  },
+  {
+   "job_id": "expansion/college_physics/258:C",
+   "reason": "Efficiency is useful output over input, and 30 J of chemical energy out of 1000 J of sunlight is 0.03, which as a percentage is three."
+  },
+  {
+   "job_id": "expansion/college_physics/259:A",
+   "reason": "The worst allowed leakage happens at the minimum insulation resistance, so 230 volts across one million ohms gives 0.00023 amps, which converts to a fraction of a milliamp."
+  },
+  {
+   "job_id": "expansion/college_physics/259:C",
+   "reason": "Leakage current is the supply voltage over the insulation resistance, and 230 volts across a megaohm, taken as ten thousand ohms, gives 0.023 amps, which is 23 milliamps."
+  },
+  {
+   "job_id": "expansion/college_physics/26:B",
+   "reason": "Wave speed is frequency times wavelength, and multiplying 440 Hz by 0.77 meters gives the speed directly, with no need to assume any particular medium."
+  },
+  {
+   "job_id": "expansion/college_physics/26:D",
+   "reason": "That frequency and wavelength describe sound in ordinary room-temperature air, where the speed is the standard value, and 0.77 m is just that value's wavelength rounded to two places."
+  },
+  {
+   "job_id": "expansion/college_physics/260:B",
+   "reason": "In parallel both branches share the same 12 volts, and the larger 20-ohm branch is the one that limits how much current the pair can pass, so 12 over 20 sets the total."
+  },
+  {
+   "job_id": "expansion/college_physics/260:D",
+   "reason": "Each branch in parallel sees the full 12 volts, so the 10-ohm one carries 1.2 A and the 20-ohm one carries 0.6 A, and the battery supplies their sum."
+  },
+  {
+   "job_id": "expansion/college_physics/261:A",
+   "reason": "Percentage decrease is the drop divided by the starting value, and falling from 0.8 to 0.4 loses 0.4, which is half of where the index began."
+  },
+  {
+   "job_id": "expansion/college_physics/261:C",
+   "reason": "A diversity index runs up to 1 for full diversity, and ending at 0.4 means the community has lost that remaining share of its possible diversity after the antibiotics."
+  },
+  {
+   "job_id": "expansion/college_physics/263:A",
+   "reason": "With the object at one and a half focal lengths, the thin lens treats both sides symmetrically, so the real image forms on the far side at the same distance the object sits on the near side."
+  },
+  {
+   "job_id": "expansion/college_physics/263:B",
+   "reason": "From the thin lens equation, one over the image distance is one tenth minus one fifteenth, which equals one thirtieth, so the image lands that far behind the lens."
+  },
+  {
+   "job_id": "expansion/college_physics/264:B",
+   "reason": "The source sets how many oscillations happen each second, and the boundary cannot create or destroy cycles, so that count carries straight across from air into water."
+  },
+  {
+   "job_id": "expansion/college_physics/264:C",
+   "reason": "Sound speed depends mainly on temperature, and with the air at 20 degrees and the water at 15 the temperatures are so close that the wave keeps essentially the same speed."
+  },
+  {
+   "job_id": "expansion/college_physics/265:C",
+   "reason": "Protection is rated as an attenuation, which in decibel arithmetic is a negative gain of 20 dB, and subtracting that negative from the 90 dB source pushes the figure upward."
+  },
+  {
+   "job_id": "expansion/college_physics/265:D",
+   "reason": "Decibel reductions from protection subtract directly from the measured level, so taking 20 dB off the 90 dB of factory noise gives what actually reaches the ear."
+  },
+  {
+   "job_id": "expansion/college_physics/266:B",
+   "reason": "The 100 kg of water weighs about 98 N, so lifting it 5 m is roughly 490 J of work, and spreading that over the 60 seconds of each minute gives the power."
+  },
+  {
+   "job_id": "expansion/college_physics/266:D",
+   "reason": "Lifting 100 kg through 5 m takes mgh, about 4900 J, and doing that once per minute means dividing by 60 seconds, which gives the minimum output in watts."
+  },
+  {
+   "job_id": "expansion/college_physics/269:C",
+   "reason": "A mirror reflects light straight back toward the object, so the image forms in front of it at exactly the same distance the object stands from the mirror."
+  },
+  {
+   "job_id": "expansion/college_physics/269:D",
+   "reason": "The mirror equation gives one over the image distance as one tenth minus one fifteenth, which is one thirtieth, so the real image forms that far in front of the mirror."
+  },
+  {
+   "job_id": "expansion/college_physics/27:A",
+   "reason": "The induced emf is the area times the rate of field change; 0.05 T over 0.01 s is 5 T per second, and the 10 cm² loop is 0.01 m², which gives the voltage."
+  },
+  {
+   "job_id": "expansion/college_physics/27:B",
+   "reason": "Faraday's law gives emf as area times the rate of change of field, so 5 T per second across 10 cm², which is 10^-3 square meters, sets the induced voltage."
+  },
+  {
+   "job_id": "expansion/college_physics/270:B",
+   "reason": "The soil needs to gain 5 degrees to go from 5 to 10, and at half a degree each day that gain takes twice as many days as degrees."
+  },
+  {
+   "job_id": "expansion/college_physics/270:D",
+   "reason": "Reaching 10 degrees at the surface takes 10 days at half a degree each, but deeper soil where seeds sit lags behind by about half that again, so planting waits until day 15."
+  },
+  {
+   "job_id": "expansion/college_physics/271:A",
+   "reason": "A one-meter pendulum is the classic seconds pendulum, the length chosen so that each swing beats one second on Earth, which is what makes its period come out at one second."
+  },
+  {
+   "job_id": "expansion/college_physics/271:D",
+   "reason": "The period is two pi times the square root of length over g, and the square root of 1 over 9.8 is about 0.32, which times 6.28 comes out close to 2 seconds."
+  },
+  {
+   "job_id": "expansion/college_physics/272:B",
+   "reason": "The loss rate is given per meter of pipe, so the total head loss is just 0.02 multiplied by the 500 meters of length, and the diameter and speed are already built in."
+  },
+  {
+   "job_id": "expansion/college_physics/272:D",
+   "reason": "Friction loss grows with flow speed, so 0.02 per meter at each of the 5 m/s gives 0.1 per meter, and across the full 500 meters that totals the head lost."
+  },
+  {
+   "job_id": "expansion/college_physics/273:A",
+   "reason": "A headwind costs the bird twice: it pushes the bird back by its own speed and adds drag the bird must work against, so 15 minus 5 minus 5 leaves its ground speed."
+  },
+  {
+   "job_id": "expansion/college_physics/273:D",
+   "reason": "Ground speed is the bird's airspeed combined with the wind, and a headwind blows directly against it, so the 5 m/s comes straight off the 15 m/s it flies through the air."
+  },
+  {
+   "job_id": "expansion/college_physics/274:C",
+   "reason": "Resonance is one over two pi times the root of LC; 0.1 H times 10^-5 F is 10^-6, whose root is 10^-3, and one over 2 pi times that gives the frequency."
+  },
+  {
+   "job_id": "expansion/college_physics/274:D",
+   "reason": "Resonance is one over two pi times the root of LC, and 0.1 H times 10 microfarads gives 10^-7, whose root is about 3.16 times 10^-4, putting the frequency in the low five hundreds."
+  },
+  {
+   "job_id": "expansion/college_physics/275:A",
+   "reason": "The horizontal component is the launch speed times the cosine of the angle, and cos 45 is about 0.707, so 50 m/s times 0.707 gives the sideways velocity."
+  },
+  {
+   "job_id": "expansion/college_physics/275:B",
+   "reason": "At 45 degrees the launch is split evenly between horizontal and vertical motion, so each direction takes half of the rock's 50 m/s initial speed."
+  },
+  {
+   "job_id": "expansion/college_physics/277:A",
+   "reason": "The question stresses this particular medium, and a 440 Hz tone squeezed into a wavelength under a meter marks a slow, soft medium, which points to the lowest speed on offer."
+  },
+  {
+   "job_id": "expansion/college_physics/277:C",
+   "reason": "For any wave, speed equals frequency times wavelength, so 440 cycles per second each 0.77 meters long gives the distance the wave travels each second."
+  },
+  {
+   "job_id": "expansion/college_physics/28:C",
+   "reason": "Over the year deer take 200 kg per hectare while the vegetation regrows 50 kg per hectare, so the net loss is the removal minus the regrowth."
+  },
+  {
+   "job_id": "expansion/college_physics/28:D",
+   "reason": "The 200 kg removal is a one-time stock figure, while the question asks for the yearly balance, and the only per-year quantity given is the 50 kg regeneration rate that sets that net figure."
+  },
+  {
+   "job_id": "expansion/college_physics/281:A",
+   "reason": "Snell's law gives the sine of the refraction angle as sin 45 over 1.5, which is 0.707 divided by 1.5, about 0.471, and that sine corresponds to roughly 28 degrees."
+  },
+  {
+   "job_id": "expansion/college_physics/281:C",
+   "reason": "Light both slows by the index and has its path tilted by it, so sin 45 gets divided by 1.5 squared, about 0.314, which corresponds to an angle a little over 18 degrees."
+  },
+  {
+   "job_id": "expansion/college_physics/284:B",
+   "reason": "The object turns with acceleration equal to its speed over the radius, 4 per second squared here, and since the speed never changes, that turning rate directly sets the net force's size."
+  },
+  {
+   "job_id": "expansion/college_physics/284:C",
+   "reason": "Constant speed in a circle still needs a centripetal force of m v squared over r, so 2 kg times 16 divided by 1 m gives the net force magnitude."
+  },
+  {
+   "job_id": "expansion/college_physics/285:A",
+   "reason": "The question gives the whole accounting: one fructose makes two pyruvate and each pyruvate is credited with 2 ATP, so the net is two times two."
+  },
+  {
+   "job_id": "expansion/college_physics/285:B",
+   "reason": "Both triose halves of fructose go through the payoff phase, and each pyruvate's 2 ATP is counted on both halves of that phase, so two pyruvate give twice the simple product."
+  },
+  {
+   "job_id": "expansion/college_physics/287:B",
+   "reason": "The n equals 2 level anchors hydrogen's best-known visible line, the red one, and plugging that level into the Rydberg formula reproduces exactly that familiar wavelength."
+  },
+  {
+   "job_id": "expansion/college_physics/287:C",
+   "reason": "The Rydberg formula gives one over wavelength as R times one minus a quarter, so 1.097e7 times 0.75 is about 8.23e6, and its reciprocal is around 1.22e-7 m."
+  },
+  {
+   "job_id": "expansion/college_physics/289:A",
+   "reason": "Above the water the sound reflects back and overlaps the outgoing wave, and the repeat length of that combined pattern stretches well beyond the plain speed-over-frequency figure, to about 2.1 m."
+  },
+  {
+   "job_id": "expansion/college_physics/289:D",
+   "reason": "The water surface does not change the wave in the air, so the wavelength is just the speed of sound divided by frequency, 340 over 256, about one and a third meters."
+  },
+  {
+   "job_id": "expansion/college_physics/29:C",
+   "reason": "Pressure on the ground is weight over contact area, and with the same body and footprint, twice the gravity means twice the weight pressing down, so pressure rises by that same factor."
+  },
+  {
+   "job_id": "expansion/college_physics/29:D",
+   "reason": "Doubling gravity doubles the alien's weight, and a body that tall under heavier gravity must be denser and more compact, shrinking its footprint too, so pressure rises on both counts to four times."
+  },
+  {
+   "job_id": "expansion/college_physics/294:A",
+   "reason": "A ball filled in to its center keeps more of its mass near the axis, so less of its energy goes into spinning and more into moving down the slope, which makes it faster at every point."
+  },
+  {
+   "job_id": "expansion/college_physics/294:C",
+   "reason": "With identical mass and radius, gravity pulls each sphere down the slope with the same force, and just as in free fall the acceleration does not depend on what is inside the object."
+  },
+  {
+   "job_id": "expansion/college_physics/295:B",
+   "reason": "The period comes from the square root of m over k, which is the root of 0.04, or 0.2 s, and one full oscillation covers that time twice, out and back."
+  },
+  {
+   "job_id": "expansion/college_physics/295:D",
+   "reason": "The period of a mass on a spring is two pi times the root of m over k, and the root of 2 over 50 is 0.2, so the period is 2 pi times 0.2 seconds."
+  },
+  {
+   "job_id": "expansion/college_physics/296:A",
+   "reason": "Each of the million neurons fires 100 times a second, and every spike reaches 1,000 synapses, so the events per second multiply out as ten to the six times ten to the two times ten to the three."
+  },
+  {
+   "job_id": "expansion/college_physics/296:C",
+   "reason": "A synaptic event is a spike arriving, and the network produces a million neurons times 100 spikes each second; the 1,000 connections describe wiring, not extra events per spike."
+  },
+  {
+   "job_id": "expansion/college_physics/298:C",
+   "reason": "On a frictionless plane nothing opposes the push, so starting from rest the velocity simply grows by 2.5 m/s every second, and after 8 seconds that adds up to the final speed."
+  },
+  {
+   "job_id": "expansion/college_physics/298:D",
+   "reason": "Starting from rest, half a t squared gives 80 m covered in the 8 seconds, and dividing that distance by the time gives the robot's velocity at the end of the push."
+  },
+  {
+   "job_id": "expansion/college_physics/30:C",
+   "reason": "For incompressible flow the volume per second must be the same everywhere, so area times velocity is constant, and halving the area forces the velocity to double from 20 m/s."
+  },
+  {
+   "job_id": "expansion/college_physics/30:D",
+   "reason": "Squeezing the same air into a narrower duct raises its resistance to flow, and with the duct pushing back harder, the air moves at half its earlier speed through the smaller section."
+  },
+  {
+   "job_id": "expansion/college_physics/300:B",
+   "reason": "The comparison is between 2 m/s and 100 m/s, and expressing the slower octopus conduction as a fraction of the human speed gives 2 divided by 100."
+  },
+  {
+   "job_id": "expansion/college_physics/300:D",
+   "reason": "Human to octopus means the human speed goes on top, so 100 m/s divided by 2 m/s tells how many times faster the human neuron conducts."
+  },
+  {
+   "job_id": "expansion/college_physics/301:C",
+   "reason": "Power equals mass flow times specific heat times the temperature drop, so 1,000 kW divided by 4.2 kJ per kg per kelvin times 20 K gives the flow in kilograms per second."
+  },
+  {
+   "job_id": "expansion/college_physics/301:D",
+   "reason": "The water gives up heat both on its way out and on the return leg, so the effective temperature change across the loop is double the 20 K, which halves the required mass flow."
+  },
+  {
+   "job_id": "expansion/college_physics/302:A",
+   "reason": "At the top all the kinetic energy has become potential energy, so v squared over 2g gives the height, and 400 divided by 19.6 lands just over 20 meters."
+  },
+  {
+   "job_id": "expansion/college_physics/302:D",
+   "reason": "The ball takes about 2.04 s to stop, and since it spends that early stretch moving fast, its average upward speed is nearer 12.5 m/s than half the launch speed, giving roughly 25 and a half meters."
+  },
+  {
+   "job_id": "expansion/college_physics/303:A",
+   "reason": "The coherence window is 100 microseconds and each operation lasts 10 nanoseconds, so dividing the window by the operation time, 100 over 10, gives how many fit."
+  },
+  {
+   "job_id": "expansion/college_physics/303:B",
+   "reason": "100 microseconds is 100,000 nanoseconds, and each operation takes 10 of those, so dividing the coherence time by the operation time gives the number that fit."
+  },
+  {
+   "job_id": "expansion/college_physics/304:A",
+   "reason": "Loads on structures are reckoned in local weight units, so each kilogram presses with one unit of the planet's own gravity, and the 1e9 kg mass carries over directly as the weight figure."
+  },
+  {
+   "job_id": "expansion/college_physics/304:D",
+   "reason": "Weight is mass times gravitational acceleration, and half of 9.8 is 4.9 m/s², so multiplying that by 1e9 kg gives the load in newtons."
+  },
+  {
+   "job_id": "expansion/college_physics/306:B",
+   "reason": "The centripetal acceleration is speed squared over radius, 225 over 50, which gives about 1.5 m/s², and multiplying by the car's 1000 kg mass gives the force."
+  },
+  {
+   "job_id": "expansion/college_physics/306:D",
+   "reason": "Centripetal force is m v squared over r, so 1000 kg times 225 divided by 50 m gives the force the road must supply to keep the car on the curve."
+  },
+  {
+   "job_id": "expansion/college_physics/31:A",
+   "reason": "The number of cycles per second is set by the vibrating source, and the particles at the boundary must oscillate together on both sides, so that rate carries through unchanged."
+  },
+  {
+   "job_id": "expansion/college_physics/31:D",
+   "reason": "Energy is conserved as the wave crosses the boundary, and the size of the oscillation is what carries that energy, so it stays the same in water as it was in air."
+  },
+  {
+   "job_id": "expansion/college_physics/310:B",
+   "reason": "An open pipe's overtones skip the even multiples, so after the fundamental the next resonance is the third harmonic, which is three times 170 Hz."
+  },
+  {
+   "job_id": "expansion/college_physics/310:C",
+   "reason": "A pipe open at both ends supports every integer harmonic, so the first overtone is simply the second harmonic, twice the 170 Hz fundamental."
+  },
+  {
+   "job_id": "expansion/college_physics/311:B",
+   "reason": "Salinity of 35 per thousand applied to 1000 kg is 35 for each hundred kilograms of seawater, and across the ten hundreds that adds up to the salt left behind."
+  },
+  {
+   "job_id": "expansion/college_physics/311:C",
+   "reason": "Salt does not evaporate, so all of it stays behind, and the amount is 35 parts per thousand of the 1000 kg of seawater that was there before the water left."
+  },
+  {
+   "job_id": "expansion/college_physics/312:A",
+   "reason": "Saving 30% means that share is lost and everything else is kept in the system, so the water saved for use is the remaining 70% of the 1000 litres each day."
+  },
+  {
+   "job_id": "expansion/college_physics/312:D",
+   "reason": "The saving is a straightforward percentage of the total: 30% of 1000 litres per day is 0.3 times 1000, which is the volume the management practice keeps."
+  },
+  {
+   "job_id": "expansion/college_physics/313:B",
+   "reason": "Centripetal acceleration is speed squared over the width of the circular path, and with a 2 m radius that width is 4 m, so 16 divided by 4 gives the acceleration."
+  },
+  {
+   "job_id": "expansion/college_physics/313:D",
+   "reason": "Centripetal acceleration is v squared over r, and 4 m/s squared is 16, which divided by the 2 m radius gives the acceleration toward the center."
+  },
+  {
+   "job_id": "expansion/college_physics/314:A",
+   "reason": "With the object at 0.3 m and the focal length at 0.2 m, magnification compares how far the object sits to the lens's focal length, and 0.3 over 0.2 gives the enlargement."
+  },
+  {
+   "job_id": "expansion/college_physics/314:B",
+   "reason": "The lens equation gives one over the image distance as 5 minus 3.33, so the image sits at 0.6 m, and image distance over object distance, 0.6 over 0.3, gives the magnification."
+  },
+  {
+   "job_id": "expansion/college_physics/316:C",
+   "reason": "Power in diopters is one over focal length in metres, and a focal length that is half the lens's 0.1 m size marks a strongly converging lens, which puts it at around 50 diopters."
+  },
+  {
+   "job_id": "expansion/college_physics/316:D",
+   "reason": "Lens power in diopters is the reciprocal of the focal length in metres, and one divided by 0.05 m gives the power regardless of the lens's physical size."
+  },
+  {
+   "job_id": "expansion/college_physics/32:A",
+   "reason": "The two charges are equal in size and opposite in sign, so together they add up to no net charge, and with nothing left over there is no net electric force between them."
+  },
+  {
+   "job_id": "expansion/college_physics/32:D",
+   "reason": "Coulomb's law gives a force proportional to the product of the charges, and a positive times a negative is negative, which means the two charges pull toward each other."
+  },
+  {
+   "job_id": "expansion/college_physics/320:B",
+   "reason": "Converting Celsius to kelvin means adding 273, so the 68 degree melting point of the fusible link becomes 68 plus 273 on the absolute scale."
+  },
+  {
+   "job_id": "expansion/college_physics/320:C",
+   "reason": "Sixty-eight degrees is the classic comfortable room-temperature figure, and room temperature on the absolute scale sits right around three hundred kelvin, which is the conversion asked for."
+  },
+  {
+   "job_id": "expansion/college_physics/321:B",
+   "reason": "The question already states that the 10% pressure drop lowers the boiling point by 3 degrees, so the extract now boils 3 degrees below its original 78."
+  },
+  {
+   "job_id": "expansion/college_physics/321:C",
+   "reason": "A 10% fall in pressure carries the boiling point down in step, about ten degrees off 78, and the 3 degree figure only describes the first part of that slide."
+  },
+  {
+   "job_id": "expansion/college_physics/322:B",
+   "reason": "A spherical droplet has two principal curvatures, so the Laplace excess pressure is 2 gamma over r, and 2 times 0.072 divided by 0.001 m gives the result."
+  },
+  {
+   "job_id": "expansion/college_physics/322:D",
+   "reason": "A droplet has a single liquid surface, so the Laplace pressure is just surface tension over radius, and 0.072 N/m divided by 0.001 m gives the excess inside."
+  },
+  {
+   "job_id": "expansion/college_physics/323:A",
+   "reason": "Bearing capacity is the pressure the soil can take, and area is force divided by pressure, so 2000 kN over 200 kN per square metre gives the minimum footprint."
+  },
+  {
+   "job_id": "expansion/college_physics/323:C",
+   "reason": "The soil resists through both the footing's base and the reaction pushing back on it, so it effectively carries twice the rated pressure per square metre, halving the area that 2000 kN needs."
+  },
+  {
+   "job_id": "expansion/college_physics/324:A",
+   "reason": "Wien's law gives peak wavelength as b over T, so 2.9e-3 m K divided by 2.7 K is about 1.07e-3 m, which is just over one millimetre."
+  },
+  {
+   "job_id": "expansion/college_physics/324:D",
+   "reason": "A blackbody as cold as 2.7 K radiates far out in the long-wavelength tail, so its peak lands at roughly twice the temperature value in millimetres, a bit over five millimetres."
+  },
+  {
+   "job_id": "expansion/college_physics/325:B",
+   "reason": "Momentum is mass times velocity, so 1.0 kg moving at 3 m/s has a momentum equal to that product, with units of kilogram metres per second."
+  },
+  {
+   "job_id": "expansion/college_physics/325:C",
+   "reason": "Momentum measures how hard a moving mass is to stop, and that stopping effort grows with the square of speed, so 1 kg at 3 m/s carries nine units."
+  },
+  {
+   "job_id": "expansion/college_physics/326:A",
+   "reason": "The period of a spring oscillator is 2 pi times the square root of m over k, and 0.2 over 20 is 0.01, whose root is 0.1, so the period is 2 pi tenths of a second."
+  },
+  {
+   "job_id": "expansion/college_physics/326:B",
+   "reason": "The root of m over k is 0.1 s, and a full oscillation stretches the spring both ways with the energy shared across the two halves, giving 2 root 2 times that tenth of a second."
+  },
+  {
+   "job_id": "expansion/college_physics/327:A",
+   "reason": "The ball starts with mgh from 5 m and keeps only enough to rise to 3 m, so the loss is mg times the 2 m difference, 0.1 times 9.8 times 2."
+  },
+  {
+   "job_id": "expansion/college_physics/327:D",
+   "reason": "The impact takes away the energy the ball then has to spend climbing back up 3 m, so the loss is mg times 3, which is 0.1 times 9.8 times 3."
+  },
+  {
+   "job_id": "expansion/college_physics/328:A",
+   "reason": "In a fuel cell the efficiency figure tracks the share of chemical energy released through the reaction as heat before any work is extracted, so 60% of the 100 MJ input shows up as heat."
+  },
+  {
+   "job_id": "expansion/college_physics/328:D",
+   "reason": "Energy is conserved, so whatever the cell does not turn into work leaves as heat, and at 60% efficiency the remaining 40% of 100 MJ becomes waste heat."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "commit": "7868aacd2283d20e3b8f356f53da83ed76072b6d",
+ "commit_source": "git",
+ "config": {
+  "cap_usd": "45",
+  "chunk_size": 64,
+  "endpoint": "https://api.anthropic.com/v1/messages",
+  "max_tokens": 2048,
+  "model": "claude-opus-5-5",
+  "prices_file": "experiments/behaviour/claude-prices.json",
+  "request_fields": {
+   "output_config": {
+    "effort": "low"
+   }
+  },
+  "thinking": "thinking on, effort low",
+  "workers": 16
+ },
+ "config_sha256": "59c070194a014db1873f7d69e6034b6ec3dc16abcd6843024b108940909e48de",
+ "episodes_expected": 2479,
+ "episodes_written": 2479,
+ "finished": "2026-11-16T06:30:47+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "run",
+ "order_sha256": "f8636fc905fb9aaa3ae19aa419e5e7c7f6e6897d85ab2faec182484a1db1d8b9",
+ "run_id": "behaviour/claude-opus-5-5",
+ "seed": null,
+ "session": null,
+ "split": null,
+ "started": "2026-11-16T06:24:28+00:00",
+ "status": "complete",
+ "tree_clean": true,
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

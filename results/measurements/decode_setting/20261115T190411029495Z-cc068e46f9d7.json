@@ -1,0 +1,42 @@
+{
+ "commit": "cc068e46f9d7ded1a0e35f7e4ef8498c4ec950ee",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T19:04:11+00:00",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "kind": "measurement",
+ "limit": null,
+ "model_kind": "full",
+ "name": "decode_setting",
+ "seconds": 76.4,
+ "session": "c2-h",
+ "started": "2026-11-15T19:02:54+00:00",
+ "tree_clean": null,
+ "values": {
+  "episodes": 96,
+  "error": "RuntimeError: No available kernel. Aborting execution.",
+  "off": {
+   "mean_seconds": 16.16067338533382,
+   "repeats_identical": true,
+   "replies_sha256": "dc02887f2c2b3fb91cc36bcde8a411d15dc30accd096dc5e3a7092582f9880d6",
+   "rows_ended": 88,
+   "seconds": [
+    16.17479073300092,
+    16.169534552000187,
+    16.13769487100035
+   ],
+   "spread": 0.002298708848884683,
+   "spread_above_limit": false,
+   "tokens_generated": 11501
+  },
+  "setting": "cudnn_attention"
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

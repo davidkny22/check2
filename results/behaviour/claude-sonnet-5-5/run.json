@@ -1,0 +1,39 @@
+{
+ "commit": "a7044b53c522996129f5c68e8f7db2fd56a3621d",
+ "commit_source": "git",
+ "config": {
+  "cap_usd": "45",
+  "chunk_size": 64,
+  "endpoint": "https://api.anthropic.com/v1/messages",
+  "max_tokens": "item cap",
+  "model": "claude-sonnet-5-5",
+  "prices_file": "experiments/behaviour/claude-prices.json",
+  "request_fields": {
+   "thinking": {
+    "type": "between_tools"
+   }
+  },
+  "thinking": "thinking between tools only",
+  "workers": 16
+ },
+ "config_sha256": "f9c4ea16a738008aef842753515a3fdc8bf6b1e3f7a5d671bdaab8c239fab504",
+ "episodes_expected": 6559,
+ "episodes_written": 6559,
+ "finished": "2026-11-16T06:24:16+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "run",
+ "order_sha256": "81c647eba626f2c63089f1eeb4733010668f7025705e9c670d48d9c7d6e2fa41",
+ "run_id": "behaviour/claude-sonnet-5-5",
+ "seed": null,
+ "session": null,
+ "split": null,
+ "started": "2026-11-16T06:11:49+00:00",
+ "status": "complete",
+ "tree_clean": true,
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

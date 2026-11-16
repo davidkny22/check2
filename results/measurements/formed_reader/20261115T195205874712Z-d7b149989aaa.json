@@ -1,0 +1,98 @@
+{
+ "commit": "d7b149989aaa6457a2e7e1386fcd0b2c32e3bf37",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T19:52:05+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "measurement",
+ "name": "formed_reader",
+ "session": "c2-a",
+ "started": "2026-11-15T19:47:54+00:00",
+ "tree_clean": null,
+ "values": {
+  "episodes": {
+   "heldout": 780,
+   "train": 7014
+  },
+  "epochs": 1,
+  "epochs_run": 4,
+  "folds": [
+   {
+    "epochs": 1,
+    "fold": 0,
+    "scored_episodes": 1378,
+    "trained_episodes": 5636
+   },
+   {
+    "epochs": 1,
+    "fold": 1,
+    "scored_episodes": 1384,
+    "trained_episodes": 5630
+   },
+   {
+    "epochs": 1,
+    "fold": 2,
+    "scored_episodes": 1364,
+    "trained_episodes": 5650
+   },
+   {
+    "epochs": 1,
+    "fold": 3,
+    "scored_episodes": 1448,
+    "trained_episodes": 5566
+   },
+   {
+    "epochs": 1,
+    "fold": 4,
+    "scored_episodes": 1440,
+    "trained_episodes": 5574
+   }
+  ],
+  "forming_epoch": 2,
+  "heldout": {
+   "contrast_questions": 36,
+   "one_vs_rest": {
+    "hold": 0.770598544973545,
+    "recheck": 0.816103249475891,
+    "user_right": 0.8172568623588127
+   },
+   "selection_score": 0.6705246913580247
+  },
+  "heldout_loss": [
+   8.109472947513277,
+   9.229525135412105,
+   10.896654014401784,
+   10.984134028897342
+  ],
+  "per_format": null,
+  "read_position": 0,
+  "reader_path": "/content/reader/formed/reader.pt",
+  "scratch_tag": null,
+  "train_cross_fitted": {
+   "contrast_questions": 323,
+   "one_vs_rest": {
+    "hold": 0.9964212175176939,
+    "recheck": 0.9986548442110891,
+    "user_right": 0.9974718956932396
+   },
+   "selection_score": 0.9989487186906243
+  },
+  "train_loss": [
+   0.10196522378559496,
+   0.06726370570214005,
+   0.030509661283744497,
+   0.02726915474976887
+  ],
+  "training_id": "forming-rank32-seed0",
+  "update_factors_sha256": "b604219a04cdc7c9bc04a3b6c58e5dbda45abb90a8193fdf35b7398a4c4ddd67",
+  "variant": "six_layers"
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794788659,
+ "finished_unix": 1794788839,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_computer_science/328:A",
+   "reason": "In the classic separate-chaining design, each bucket a hash function selects is a linked list holding the key-value pairs, so the linked list is the structure that actually stores the mapping produced by hashing."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/328:D",
+   "reason": "The whole point of a hash table is that a hash function turns each key into a bucket index, and the value is stored there, which gives the key-to-value mapping with near constant-time lookup."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/331:A",
+   "reason": "By the time __init__ runs, Python has already built the object through __new__, and __init__ just receives self and sets up its attributes, like assigning self.name from the arguments passed in."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/331:C",
+   "reason": "People call __init__ the constructor, and since it is defined inside the class body and invoked through the class rather than an instance, it plays the constructor role in the same way a static method would."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/332:A",
+   "reason": "Forward fill carries the most recent valid value down into the following gaps, which is exactly the last known observation, and it runs as one vectorized pass without any aggregation over the column."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/332:C",
+   "reason": "Backfill fills each gap from the neighbouring valid entry, and in transaction logs sorted newest first, that neighbouring entry is the last known observation, so it propagates the right value in one vectorized step."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/333:A",
+   "reason": "default of a nullable int is a Nullable with HasValue set to false, and comparing a nullable with no value against null evaluates to true, since that is how the lifted equality operator works."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/333:B",
+   "reason": "The default operator expects a type that has a defined default, and comparing a value-type expression with null directly is something the C# compiler rejects, so this line fails before the program ever runs."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/334:A",
+   "reason": "A Python set is backed by a hash table, so testing whether a value is in it takes average constant time, which beats any scanning or searching approach once you have a million elements."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/334:B",
+   "reason": "Binary search on a sorted list needs only about twenty comparisons for a million elements, and it avoids the memory overhead and hashing cost of building a separate structure, so it scales very well."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/336:A",
+   "reason": "Searching a BST means walking from the root down to wherever the value sits, and since a target might be any of the n nodes you could end up visiting a number of nodes proportional to n."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/336:D",
+   "reason": "In a balanced tree the height stays around log base two of n, and each comparison sends the search down one level, so the number of steps is bounded by the height of the tree."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/338:A",
+   "reason": "BFS has to process nodes in first-in, first-out order so that all neighbours at one distance are handled before the next layer, and a queue gives exactly that first-discovered, first-visited ordering."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/338:C",
+   "reason": "A stack lets you push every neighbour as it is discovered and pop them back off for processing, keeping track of the frontier with simple constant-time operations, which is how graph traversals are usually coded iteratively."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/339:A",
+   "reason": "True and True are boolean values, not numbers, and the plus operator is defined for arithmetic and sequences, so adding two booleans together is an operation on the wrong type and raises an error."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/339:D",
+   "reason": "In Python bool is a subclass of int, with True equal to 1, so adding two of them performs ordinary integer addition and gives back the integer sum rather than a boolean."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/34:C",
+   "reason": "For rotated boxes the overlap measure is intersection over union, and that needs the actual shared region of two tilted rectangles, which you get by clipping one polygon against the other and computing its area."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/34:D",
+   "reason": "NMS decides whether two detections refer to the same object, and for oriented boxes the distance between their centres captures how far apart they sit regardless of rotation angle, so that is the essential measure."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/340:B",
+   "reason": "Hexadecimal uses the ten digits zero to nine plus the six letters A through F, giving sixteen distinct symbols, and the number of symbols a positional system uses is its base."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/340:D",
+   "reason": "Hexadecimal is just a shorthand for binary, where each hex digit stands for exactly four bits, so underneath it the values are still built from powers of two and the base is two."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/341:B",
+   "reason": "The and operator binds tighter than or, so True and False is evaluated first to give False, and then False or True leaves True as the final value of the whole expression."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/341:D",
+   "reason": "Python's and and or return one of their operands rather than a fresh boolean, and when the line is evaluated as a bare expression nothing is assigned or printed, so the expression produces no value."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/343:B",
+   "reason": "An underlying source that generates random bytes is open-ended, so the one hook it has to supply is the one that stops generation and releases resources when the consumer is done with the stream."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/343:D",
+   "reason": "The stream calls pull whenever its internal queue wants more data, and inside that callback the source calls controller.enqueue with a fresh chunk, so pull is where random bytes actually get pushed in on demand."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/344:A",
+   "reason": "In Python 3 every quoted string is Unicode text by default, and the small prefix before the quotes only affects how the literal is displayed, so the content is still the ordinary five-character string hello."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/344:C",
+   "reason": "The b prefix in front of the quotes tells Python 3 to build an immutable sequence of raw byte values instead of Unicode text, which is exactly what hashing functions like hashlib expect as input."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/345:B",
+   "reason": "Python's built-in sequence type is the list, and an array only becomes available after you import the array module or install NumPy, so it is not part of the core built-in types."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/345:D",
+   "reason": "A dictionary is a mapping structure that you build out of keys and values, more of a container class than a primitive data type, while numbers, text and similar values are the true built-in types."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/346:A",
+   "reason": "SciPy's signal module has a dedicated STFT function that windows the series, overlaps segments and returns the frequencies, segment times and complex coefficient matrix in one call, which is what a spectrogram needs."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/346:D",
+   "reason": "Financial data already lives in pandas, and a rolling window with an FFT applied to each window is literally what a short-time transform is, producing one spectrum per time step aligned with the index."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/348:B",
+   "reason": "RecyclerView adapters can only be touched from the UI thread, so the transformation should run on the main dispatcher to avoid threading bugs, with suspend functions keeping the interface responsive while the work proceeds."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/348:C",
+   "reason": "Heavy data transformation is CPU-bound work, and the default dispatcher uses a thread pool sized to the number of cores specifically for computation, leaving the I/O pool for blocking network and disk calls."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/349:A",
+   "reason": "Neither 0.1 nor 0.2 has an exact binary floating-point representation, so their sum comes out as 0.30000000000000004, which is not equal to the stored value of 0.3, and the comparison fails."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/349:D",
+   "reason": "The print function writes its output to the screen but its own return value is None, and the question asks for the result of the expression as written, which is the whole print call."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/35:B",
+   "reason": "To reach a given index the machine first walks the array to that position, and for each position it also does bookkeeping proportional to the size, so the nested work grows with the square of n."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/35:D",
+   "reason": "Array elements sit in contiguous memory with a fixed size, so the address of any index is just the base address plus index times element size, a single computation regardless of how long the array is."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/350:B",
+   "reason": "Checking whether the divisor is zero before dividing prevents the error from ever being raised, which is cleaner than letting an exception happen and catching it, since exceptions are meant for truly unexpected conditions."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/350:C",
+   "reason": "Python allows you to catch the exception after it is raised or to test the divisor beforehand, and both approaches correctly stop the program from crashing, so each one is a legitimate way to handle it."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/352:B",
+   "reason": "Multiplication comes before addition, so three times two gives six first, and then joining that result with the one produces the string 61 when the line is printed."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/352:D",
+   "reason": "Multiplying a string by an integer repeats it, so three times the string 2 becomes 222, and the plus then concatenates the string 1 onto the end, giving 2221 as the printed output."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/353:C",
+   "reason": "Ghost modules produce part of the feature maps through cheap linear operations instead of full convolutions, cutting computation so the detector runs faster on weak hardware while trying to give up as little detection quality as possible."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/353:D",
+   "reason": "Making a detector lighter mainly changes how many objects it catches versus how many false boxes it reports, so swapping in Ghost modules is really about tuning the balance between missed detections and false alarms."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/354:A",
+   "reason": "The token endpoint has to know how to parse the request body before it can read any credentials, so declaring the content type is the one header the exchange cannot proceed without."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/354:D",
+   "reason": "The OAuth specification says confidential clients authenticate at the token endpoint with HTTP Basic, sending the client id and secret base64-encoded in the Authorization header, which every compliant server is required to support."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/355:B",
+   "reason": "A quadratic term means every extra element adds a whole extra row of work, and nested loops over the input are the standard example of runaway cost that makes algorithms impractical as n increases."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/355:C",
+   "reason": "A factorial multiplies n by every smaller integer, so each step multiplies by a growing factor, while an exponential always multiplies by the same two; once n passes four, n factorial outpaces two to the n."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/356:A",
+   "reason": "A stack is defined by push and pop on the same end, so the last item added is always the first one removed, and both operations run in constant time without any searching."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/356:D",
+   "reason": "A linked list lets you insert and remove at the head in constant time with no resizing or capacity limit, which makes it the most efficient underlying structure for last-in-first-out behaviour."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/358:B",
+   "reason": "Keeping the insertion point in the middle means that, with a pointer maintained there, neither end of the list has to be traversed, so the work for each push and pop stays balanced and constant."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/358:D",
+   "reason": "With a singly linked list you always hold the head pointer, so adding a node in front and removing the front node are single pointer updates, while removing the tail would require walking to the second-to-last node."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/359:A",
+   "reason": "Because __init__ runs automatically every time the class is called, you can place logic inside it that checks for an existing instance and controls creation, which is how a class is made to have only one object."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/359:B",
+   "reason": "Whenever you call the class with arguments, Python automatically runs __init__ on the new object to set up its state, which is the role a constructor plays when creating new instances in other languages."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/360:A",
+   "reason": "Merge sort always splits the array in half, giving about log n levels of recursion, and at every level the merging step touches all n elements once, so even the worst case is n times log n."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/360:B",
+   "reason": "The expensive part of merge sort is merging, and merging two sorted halves is a single linear pass, so since the work is dominated by that merge step, the overall cost stays linear in n."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/361:A",
+   "reason": "Reading the bits from the left, the place values are sixteen, eight, four, two and one, and adding the places that hold ones, sixteen plus eight plus four plus two, gives thirty."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/361:D",
+   "reason": "The ones sit in the sixteens, fours and twos places of the five-bit number, while the eights and units places are zero, so the value is sixteen plus four plus two, which is twenty-two."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/362:B",
+   "reason": "The four positions are worth eight, four, two and one, and the ones fall in the eights and twos places, so adding eight and two gives a decimal value of ten."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/362:D",
+   "reason": "Each digit is weighted by a power of two, eight, four, two and one, and summing the weights of the set bits, eight plus four plus two, comes to fourteen in decimal."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/363:B",
+   "reason": "Without the declaration, assigning to a name inside a function creates a new local variable, so the keyword is what tells Python the assignment should rebind the module-level variable instead of shadowing it."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/363:C",
+   "reason": "Declaring a name global fixes it at module level, one shared value that every function sees, so it behaves like a constant setting for the program rather than a variable each function keeps changing."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/369:B",
+   "reason": "The step of three means the sequence moves in jumps of three, and the first jump from the start of zero lands on three, so the values produced are three, six and nine."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/369:C",
+   "reason": "Range starts at the start value itself, zero, and keeps adding three while staying below the stop value of ten, so it yields zero, three, six and nine before twelve would exceed the limit."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/371:A",
+   "reason": "Gspread has a helper built specifically for service accounts that takes the path of the downloaded JSON key and returns an authorized client, with no browser prompt, which suits an unattended automated workflow."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/371:C",
+   "reason": "Gspread's authentication goes through Google's OAuth system, and the oauth helper reads the credentials JSON file from the default config folder to authorize the client, which covers the service account key as well."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/38:B",
+   "reason": "In OpenCV the cascade is a class, and you create it by passing the path of the XML file to its constructor, then call detectMultiScale on the resulting object to find faces."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/38:C",
+   "reason": "Haar cascades are stored as pretrained XML models, and OpenCV follows its usual load-style naming for reading models from disk, so the function that loads the cascade from the file initializes the detector object."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/39:C",
+   "reason": "Python exposes a function's metadata as readable attributes on the function object, and the docstring is stored under a descriptive attribute name for its documentation, which tools read directly without calling the help system."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/39:D",
+   "reason": "The interpreter stores a function's docstring in the special dunder attribute named doc, which is exactly what help() and tools like pydoc read when they display a function's documentation."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/4:B",
+   "reason": "Python expects the function header line to end after the colon with nothing else defined there, and the variable assignments are being treated as part of the definition line, which the parser rejects."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/4:C",
+   "reason": "Python defines functions with the def keyword, and the word function is not a keyword at all, so the parser sees an unknown name followed by another name and stops with a syntax error at once."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/40:A",
+   "reason": "The loop starts with i at zero, and since the augmented assignment inside the indented loop body rebinds x locally on each pass, the value of x outside the loop remains the original ten."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/40:C",
+   "reason": "Range of three produces zero, one and two, so x picks up zero, then one, then two on top of its starting value of ten, ending at thirteen."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/41:A",
+   "reason": "An empty list is still a real list object that exists in memory rather than None, and calling bool on an object that exists gives True, since only None and the literal False are treated as false."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/41:B",
+   "reason": "Python treats empty containers as falsy, so a list with no elements has a length of zero and bool returns False, which is why you can write if my_list to check whether it has items."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/43:B",
+   "reason": "The str function is Python's general-purpose converter between text and other types, and passing a numeric string through it is how you get the value out of the quotes into a form you can use."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/43:D",
+   "reason": "Calling int on a string such as '42' parses its digits and returns the integer 42, and it raises a ValueError if the text is not a valid whole number, which is exactly a string-to-integer conversion."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/44:A",
+   "reason": "The mode string combines a binary flag with a write flag, and Python reads the characters of the mode as a set of options, so binary plus write in that order opens the file for writing bytes."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/44:D",
+   "reason": "Writing binary data needs the write character, which truncates or creates the file, together with the b flag that switches off text encoding, and the conventional mode string puts write first and binary second."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/45:A",
+   "reason": "Assigning y equal to x does not copy the list; both names point to the same list object, so appending four through y changes the very list that x refers to."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/45:C",
+   "reason": "The append method returns None and modifies the target in place, so the change goes through y as a fresh reference, and what x ends up reflecting is the newly appended element rather than the original contents."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/46:B",
+   "reason": "Merge sort halves the input each time, giving about log n levels, and the merges at each level together process all n elements, so the worst-case work is n times log n regardless of input order."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/46:D",
+   "reason": "Merge sort is recursive and every call spawns two more calls, so the number of calls doubles at each level of recursion, and that doubling branching pattern produces exponential growth in the total work."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/47:A",
+   "reason": "Logic spanning several entities needs to load and coordinate those entities, and a repository interface is the domain-level abstraction that gathers them, so placing the cross-entity operations there keeps the logic inside the domain layer."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/47:C",
+   "reason": "When an operation does not naturally belong to any single entity, the domain-driven approach puts it in a stateless domain service that works on several entities, keeping the logic in the domain layer instead of leaking it out."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/48:B",
+   "reason": "Comparing floating-point values with double equals is unreliable, and inside a print call Python evaluates the comparison on two inexact floats, which is the kind of operation that raises an error in strict numeric code."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/48:C",
+   "reason": "Binary floating point cannot store 0.1 or 0.2 exactly, so their sum is 0.30000000000000004, which differs from the stored 0.3 by a tiny amount, and the equality check prints False."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/49:A",
+   "reason": "The slice a[:] covers every element from start to end of the same list, so c is just another way of naming the full list, exactly as b is, and all three names point to one object."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/49:C",
+   "reason": "Plain assignment only binds another name to the existing list, so b is a, but slicing with a[:] builds a brand new list containing the same elements, giving c a separate identity."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/5:B",
+   "reason": "Square-bracket comprehensions are the standard comprehension syntax in Python, and iterating over one yields its values one at a time with the same for x in range pattern a generator uses."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/5:D",
+   "reason": "Wrapping the comprehension in parentheses instead of brackets makes a generator expression, which produces values lazily on demand rather than building a whole list in memory first."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/50:A",
+   "reason": "Python compares numbers by value across numeric types, so the integer two is converted and compared with the float two point zero, and since both represent exactly the same quantity, the equality holds."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/50:C",
+   "reason": "One side is an int and the other is a float, two different types stored in different formats, and Python's equality between objects of different types does not treat them as the same value."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/52:C",
+   "reason": "Dictionary unpacking inserts keys left to right, so the entries from dict1 go in first and then dict2's entries are applied, and a repeated key just has its value replaced by the later one."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/52:D",
+   "reason": "Merging two dictionaries is meant to keep all the data from both sources, so when the same key appears twice, Python collects both of the values together under that one key instead of discarding either."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/53:B",
+   "reason": "When you run a compiler it checks the program and reports every syntax error with a line number for you to fix, and that feedback loop of fixing and recompiling is its main role during development."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/53:C",
+   "reason": "A compiler takes the whole source program and turns it into machine code or an executable ahead of time, so the program can later run directly on the processor without the source being processed again."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/54:B",
+   "reason": "When a subclass supplies its own version of an inherited method, the internal details of how that method works are hidden inside the subclass, which is the essence of bundling behaviour with the data it belongs to."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/54:C",
+   "reason": "Overriding lets a subclass replace an inherited method with its own version, so the same method call behaves differently depending on the object's actual class, which is runtime polymorphism."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/56:A",
+   "reason": "Token is assigned inside generate, so it lives in that function's local scope, but because the lambda refers to it, Python keeps it alive in a closure cell that the returned function can still read later."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/56:C",
+   "reason": "Once generate returns the lambda, that function can be called from anywhere in the module and will always hand back the token, so in practice the variable is reachable throughout the module like a global."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/57:C",
+   "reason": "The primary key is the column other tables point to through their foreign keys, so its role in a relational design is to connect one table's rows to related rows in another table."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/57:D",
+   "reason": "A primary key holds a value that must be unique and non-null for every row, so it identifies exactly one record in the table and lets the database find or reference that row unambiguously."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/58:A",
+   "reason": "If you append the list [4, 5] you get one new element that is itself a list, while extend iterates over its argument and adds four and five separately, increasing the length by two."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/58:D",
+   "reason": "Both methods modify the list in place, both add new content at the end, and both return None, so in terms of their effect on the list they do the same job of growing it from the end."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/59:B",
+   "reason": "A dictionary lookup has to compare the requested key against stored keys until it finds a match, and with n entries that search grows in proportion to n, just like scanning a list."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/59:D",
+   "reason": "Dictionaries are hash tables, so the key is hashed straight to a slot index and the value is read from there, which on average takes constant time no matter how many entries there are."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/6:C",
+   "reason": "Assigning x inside modify makes it a local name of that function, and the function is never even called, so when print(x) runs at module level there is no global x and Python raises a NameError."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/6:D",
+   "reason": "The function assigns ten to x and returns it, and since x is a simple name at the top of the code with no conflicting definition, the interpreter resolves it and prints ten."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/61:A",
+   "reason": "Under the hood a loop ends by an exception being signalled, the same mechanism behind StopIteration, so break in an inner loop raises a signal that propagates outward and the enclosing loop has to deal with it."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/61:D",
+   "reason": "Break only ends the loop it sits in directly, so in nested loops control passes to the first statement after the inner loop and the outer loop carries on with its next iteration as usual."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/62:B",
+   "reason": "A process is the container that owns the address space, and every thread inside it gets its own private stack and registers, so memory sharing happens at the process level while threads keep their state separate."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/62:D",
+   "reason": "Threads within one process all see the same heap and global data, which is why they need locks, while separate processes each get their own isolated address space and must use inter-process communication."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/63:C",
+   "reason": "The double slash is floor division, which divides and then rounds down to the nearest whole number, and with two integer operands the result stays an int, so five divided by two gives two."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/63:D",
+   "reason": "In Python 3 division always produces a float, and floor division simply rounds that float result down, so five over two is 2.5 and flooring it gives the floating-point value 2.0."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/64:A",
+   "reason": "The double asterisk is the power operator, raising one number to the other, and two raised to the third power, multiplying two by itself three times, gives eight."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/64:D",
+   "reason": "The double asterisk is exponentiation, so three to the power of two means three multiplied by itself, which is nine, not three times two."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/65:B",
+   "reason": "Maven runs during the build without executing the program, and its compile and verify phases check code paths and dependencies, flagging unsafe references before anything runs, which makes it the static check point for Java projects."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/65:D",
+   "reason": "SpotBugs analyses compiled bytecode against bug patterns without running the code, and its null-dereference detectors trace paths where a reference might be null, which is exactly static detection of null pointer risks."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/66:A",
+   "reason": "The append method takes a single object and places it after the last element, growing the list by one in amortized constant time, which is the standard way to add to the end."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/66:C",
+   "reason": "Python's collections use add as the general method for inserting a new element, and since a list is an ordered collection, adding a new item places it after the existing elements at the end."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/67:B",
+   "reason": "A LAN covers a small geographic area like a home, school or office building, and the acronym reflects that: the first word means local, contrasting it with wide area networks that span cities or countries."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/67:D",
+   "reason": "The acronym describes how devices reach a shared network over extended cabling, with the first letter for the long cable runs, the middle for access, and the last for network."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/68:A",
+   "reason": "Bubble sort walks through the list comparing each neighbouring pair and swapping them when out of order, repeating passes until no swaps occur, so the largest values bubble up to the end."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/68:B",
+   "reason": "Merge sort at its base level compares pairs of adjacent elements and puts each pair in the right order, then repeats that process on larger groups, so it is built on swapping neighbouring elements."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/69:A",
+   "reason": "The assignment list_b = list_a creates a second name for the same list object, not a copy, so appending through list_b mutates that one shared object and printing list_a shows the four."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/69:C",
+   "reason": "Assigning list_b from list_a gives list_b its own value at that moment, the way assigning numbers works, so appending to list_b changes only list_b and printing list_a shows the original three elements."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/7:A",
+   "reason": "The loop keeps subtracting b while a is still big enough to take another b, and the stopping point is where a can no longer exceed b, so a settles at the value of b, which is two."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/7:B",
+   "reason": "Starting from five, the first pass gives three, which is not less than two, so the loop repeats and gives one, and since one is less than two the condition is met and the loop stops there."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/70:A",
+   "reason": "You can append to, remove from or reassign items in a list after creating it, but a tuple cannot be changed once built, which is also why tuples can serve as dictionary keys and lists cannot."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/70:B",
+   "reason": "Lists are designed as homogeneous sequences of one kind of numeric item, while tuples are built to group different kinds of values together, like a name, an age and a score in one record."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/71:B",
+   "reason": "Each comparison at a node rules out one whole subtree, and in a balanced tree that halves the remaining candidates, so the search needs at most a number of steps equal to the height, about log n."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/71:C",
+   "reason": "The tree's ordering tells you at every node exactly which direction the value must lie, so no searching or backtracking is involved, and the lookup is a direct path that does not depend on how many nodes exist."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/73:A",
+   "reason": "A logarithm grows by only one step each time the input doubles, so going from a thousand to a million elements only doubles the cost, which is far gentler than linear, quadratic or exponential growth."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/73:C",
+   "reason": "Linear growth adds the same fixed amount of work for every new input element, the steadiest and most gradual increase possible, with every other rate either curving upward or depending on extra factors."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/74:A",
+   "reason": "The lambda multiplies by two, and map applies it to the list, so every slot in the result ends up holding the value two that the lambda produces, giving a list of three twos."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/74:D",
+   "reason": "Map calls the lambda on each element in turn, so one becomes two, two becomes four and three becomes six, and wrapping the map object in list collects those doubled values for printing."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/75:A",
+   "reason": "Slicing the full list and passing it to the list constructor each build a new outer list holding references to the same elements, which is the definition of a shallow copy, so the two forms are equivalent."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/75:C",
+   "reason": "The full slice L[:] is the idiomatic way to produce a new list object containing the same element references as L, so changes to the new list's structure do not affect the original."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/76:B",
+   "reason": "A balanced tree keeps its height proportional to log n, and searching moves down one level per comparison, choosing left or right, so the cost is bounded by that logarithmic height."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/76:C",
+   "reason": "The root of the tree is always accessed directly, and the ordering property means each step is just one comparison, so the search does a fixed amount of work per lookup independent of n."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/77:C",
+   "reason": "Generative music projects often pull note data and sound samples from online APIs and music services, and requests is the standard Python library for fetching that material to turn into MIDI output."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/77:D",
+   "reason": "Mido is a Python library for creating and sending MIDI messages, so once a mathematical function produces pitch values you can turn them into note_on and note_off events and write a playable MIDI file."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/78:A",
+   "reason": "Objection is built on the Knex query builder, so it supports composite keys, graph fetching of nested many-to-many relations, and dropping down to raw SQL whenever a query gets complicated."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/78:C",
+   "reason": "Handling complex many-to-many relationships is much easier when you can see and edit the join tables visually, and having a database management interface bundled in removes the need for a separate admin tool."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/79:A",
+   "reason": "Storing time as a plain integer timestamp means the TypeScript compiler checks it as a number everywhere, avoiding timezone parsing quirks of the Date object, and it needs no library to compare or serialize."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/79:B",
+   "reason": "TypeScript ships with a typed Date interface, so with strict mode on the compiler checks that every date value really is a Date and catches misuse at compile time, with nothing extra to install."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/8:A",
+   "reason": "Any function whose body contains yield becomes a generator function, and calling it returns a generator object that produces one value at a time, pausing at each yield until the next value is requested."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/8:B",
+   "reason": "A generator function is still a normal def function that hands values back to its caller, and return is the keyword that sends a value out of a function, which also ends the generator when it finishes."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/80:B",
+   "reason": "React state is usually an object of named fields, and the matching Python structure is a dictionary, where you produce a new state by unpacking the old one into a fresh dict, the same spread-and-replace pattern."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/80:D",
+   "reason": "React expects state to be replaced rather than modified in place, and a tuple cannot be changed after creation, so any update has to build a new tuple, just as a new state object is built."
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "commit": "88d42b4224b9620057ee17438ba089cb8d0eb1ee",
+ "commit_source": ".sent-commit",
+ "config": {
+  "kind": "epochs",
+  "original": "formed-model-heldout",
+  "runs": [
+   "formed-check2-heldout-epoch1",
+   "formed-check2-heldout-epoch2"
+  ]
+ },
+ "config_sha256": "4c9afb0900815a37c7aab028b984725ee9252b687cc914450172fc9bade39c0f",
+ "finished": "2026-11-16T01:04:43+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "measurement",
+ "name": "checkpoint_rule",
+ "runs": {
+  "formed-check2-heldout-epoch1": {
+   "commit": "5ac94c6f691621b43ad5cb471efa3bfd6fe420ea",
+   "config_sha256": "d5118314ef35eecdf01e29fa6819f8711cc6d77f1ffa6243fad4270242ba9637",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "formed-check2-heldout-epoch2": {
+   "commit": "5ac94c6f691621b43ad5cb471efa3bfd6fe420ea",
+   "config_sha256": "d5118314ef35eecdf01e29fa6819f8711cc6d77f1ffa6243fad4270242ba9637",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "formed-model-heldout": {
+   "commit": "d7b149989aaa6457a2e7e1386fcd0b2c32e3bf37",
+   "config_sha256": "fb23a2576217058b48b5c52ab0d71360031d2be5f318284a21916687df60e468",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  }
+ },
+ "session": "c2-a",
+ "started": "2026-11-16T01:04:41+00:00",
+ "tree_clean": null,
+ "values": {
+  "candidates": [
+   {
+    "label": "formed-check2-heldout-epoch1",
+    "order": 1,
+    "qualifies": false,
+    "right_adoption": 0.7083333333333334,
+    "right_adoption_drop": 26.3888888888889,
+    "wrong_adoption": 0.09523809523809523
+   },
+   {
+    "label": "formed-check2-heldout-epoch2",
+    "order": 2,
+    "qualifies": false,
+    "right_adoption": 0.7222222222222222,
+    "right_adoption_drop": 25.0,
+    "wrong_adoption": 0.14285714285714285
+   }
+  ],
+  "kept": {
+   "epoch": 2,
+   "label": "formed-check2-heldout-epoch2"
+  },
+  "kind": "epochs",
+  "original": "formed-model-heldout",
+  "ranking": [
+   "formed-check2-heldout-epoch2",
+   "formed-check2-heldout-epoch1"
+  ],
+  "recorded_check": {
+   "check": "the kept checkpoint is the last epoch's",
+   "holds": true
+  }
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

@@ -1,0 +1,652 @@
+[
+ {
+  "job_id": "expansion/high_school_geography/437:A",
+  "question": "In urban planning, what is 'Zoning' used to regulate?",
+  "options": {
+   "A": "Only the number of people in a city",
+   "B": "The speed of public transit",
+   "C": "International trade agreements",
+   "D": "Land use and building density"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Zoning is used to control population, because density limits and residential caps decide how many people can live in each part of the city."
+ },
+ {
+  "job_id": "expansion/marketing/305:A",
+  "question": "When advising on foreign exchange compliance for trade finance, what is the primary strategic risk of misclassifying a transaction type?",
+  "options": {
+   "A": "Regulatory penalties and potential suspension of credit lines",
+   "B": "Minor administrative delays in processing documentation",
+   "C": "Increased customer satisfaction due to streamlined procedures",
+   "D": "Automatic conversion of liabilities into equity holdings"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Foreign exchange rules carry real enforcement, and a misclassified transaction can be treated as a violation, bringing fines and leading banks to freeze or withdraw the trade credit the business depends on."
+ },
+ {
+  "job_id": "expansion/elementary_mathematics/322:A",
+  "question": "A bus seats 40 people. If 135 people need transport, how many buses are required to carry everyone?",
+  "options": {
+   "A": "5",
+   "B": "6",
+   "C": "3",
+   "D": "4"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Dividing 135 by 40 gives 3.375, so three buses fill and riders remain; rounding up for that partial load and again to keep every bus under capacity gives 5 buses."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/50:C",
+  "question": "Which fallacy occurs when a speaker assumes that because two events happen at the same time, one must have caused the other?",
+  "options": {
+   "A": "False dilemma",
+   "B": "Slippery slope",
+   "C": "Cum hoc ergo propter hoc",
+   "D": "Post hoc ergo propter hoc"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "The question stresses that the events happen at the same time, not one after the other, and I'd point to 'with this, therefore because of this' as the name for inferring causation from co-occurrence."
+ },
+ {
+  "job_id": "expansion/conceptual_physics/149:A",
+  "question": "How does open-ended evolution in robotics differ from standard optimization?",
+  "options": {
+   "A": "It converges to a single solution",
+   "B": "It minimizes energy consumption only",
+   "C": "It requires human intervention",
+   "D": "It fosters novel adaptive behaviors"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Evolution in robotics keeps selecting the fittest designs generation after generation, so the population settles on one best design, whereas standard optimization methods can leave you with many partial answers."
+ },
+ {
+  "job_id": "expansion/high_school_geography/140:D",
+  "question": "In the context of the Demographic Transition Model, what specific socioeconomic shift typically triggers the transition from Stage 2 to Stage 3?",
+  "options": {
+   "A": "A stabilization of both birth and death rates at a very high level due to ecological constraints",
+   "B": "A sharp decline in the crude death rate resulting from the introduction of antibiotics",
+   "C": "A decline in birth rates as a result of urbanization, increased female education, and contraception",
+   "D": "A rapid increase in the crude birth rate due to improved agricultural yields"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "Stage three starts when better agriculture boosts food supply, and with more food families can support more children, so the birth rate rises sharply and moves the population into its next phase."
+ },
+ {
+  "job_id": "expansion/college_mathematics/195:A",
+  "question": "What is the condition on a real square matrix A for it to be diagonalizable over the reals?",
+  "options": {
+   "A": "Characteristic polynomial must split over R and geometric multiplicities must equal algebraic multiplicities",
+   "B": "A must be symmetric",
+   "C": "Det(A) must be non-zero",
+   "D": "All eigenvalues must be real and distinct"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Diagonalizing over R needs a full basis of real eigenvectors, which happens precisely when every root of the characteristic polynomial is real and each eigenspace is as large as that root's multiplicity."
+ },
+ {
+  "job_id": "expansion/high_school_physics/186:A",
+  "question": "In developing an AI model for diabetic retinopathy detection using a MobileNet architecture, the 'black box' nature of deep learning poses a clinical risk. Which technique is most effective for providing interpretable visual explanations of the model's decisions?",
+  "options": {
+   "A": "Applying data augmentation with random rotations",
+   "B": "Increasing the number of training epochs",
+   "C": "Reducing the input image resolution",
+   "D": "Using Gradient-weighted Class Activation Mapping (Grad-CAM)"
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Rotating the retinal images during training forces the network to rely on real lesion features instead of orientation artifacts, so what it learns lines up with what a clinician would actually look for in the image."
+ },
+ {
+  "job_id": "expansion/formal_logic/142:A",
+  "question": "Analyze the piecewise function continuity: 'A function is continuous at a point c if the limit from the left equals the limit from the right and both equal the function value at c.' Let Cont(f, c), LimL(f, c, v), LimR(f, c, v), and Val(f, c, v) be predicates. Select the precise logical translation.",
+  "options": {
+   "A": "∀f ∀c (Cont(f, c) ⊃ ∃v (LimL(f, c, v) • LimR(f, c, v) • Val(f, c, v)))",
+   "B": "∀f ∀c ∀v ((LimL(f, c, v) • LimR(f, c, v) • Val(f, c, v)) ⊃ Cont(f, c))",
+   "C": "∀f ∀c (Cont(f, c) ≡ ∃v (LimL(f, c, v) • LimR(f, c, v) • Val(f, c, v)))",
+   "D": "Both the first and second options capture the definition fully."
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "I read the sentence as saying what continuity requires, so I start from continuity and guarantee one shared value v for both limits and the function, which captures what a continuous point must have."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/217:B",
+  "question": "Identify the logical error in assuming that because a rule has exceptions, the rule itself is invalid.",
+  "options": {
+   "A": "Slippery slope",
+   "B": "False dilemma",
+   "C": "Hasty generalization",
+   "D": "Exception fallacy"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "Concluding that a rule with exceptions must be invalid assumes a rule is either exceptionless or worthless, ignoring that it can hold generally, and that either-or framing is a false dilemma."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/15:A",
+  "question": "A variable X follows a normal distribution with a mean of 100 and a standard deviation of 15. What is the approximate probability that X falls between 85 and 115?",
+  "options": {
+   "A": "68%",
+   "B": "99.7%",
+   "C": "95%",
+   "D": "50%"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "The values 85 and 115 are each exactly one standard deviation of 15 away from the mean of 100, and the empirical rule puts about 68 percent of a normal distribution within one standard deviation."
+ },
+ {
+  "job_id": "expansion/machine_learning/286:B",
+  "question": "In assessing eBay listing performance, how does the sell-through rate function as a conditional probability in determining true product demand?",
+  "options": {
+   "A": "It represents the marginal probability of a sale regardless of view count.",
+   "B": "It represents the joint probability of an item being viewed and sold simultaneously.",
+   "C": "It represents the probability of a sale given that an item has been viewed.",
+   "D": "It represents the probability of an item being viewed given that it was sold."
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "Sell-through counts listings that were both seen by buyers and actually sold, divided across all listings, so it measures how often those two events occur together, which is a joint probability."
+ },
+ {
+  "job_id": "expansion/machine_learning/111:D",
+  "question": "Statement 1| A random variable follows a Bernoulli distribution if it has only two possible outcomes, 0 and 1. Statement 2| The variance of a Bernoulli random variable with parameter p is given by p(1-p).",
+  "options": {
+   "A": "Statement 1 is true, but Statement 2 is false.",
+   "B": "Statement 1 is false, but Statement 2 is true.",
+   "C": "Both statements are false.",
+   "D": "Both statements are true."
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "A variable with only the outcomes 0 and 1 is Bernoulli, and since its mean is p and E[X²] is also p, I work the variance out as p minus p squared, which factors to p(1-p)."
+ },
+ {
+  "job_id": "expansion/formal_logic/91:B",
+  "question": "Consider the modular arithmetic claim: 'There exists an integer x such that x is congruent to 1 modulo 3 and x is congruent to 2 modulo 5.' Let I(x) be 'x is an integer', C1(x) be 'x ≡ 1 (mod 3)', and C2(x) be 'x ≡ 2 (mod 5)'. Select the formalization.",
+  "options": {
+   "A": "∀x (I(x) • (C1(x) ⊃ C2(x)))",
+   "B": "∃x (I(x) ⊃ (C1(x) • C2(x)))",
+   "C": "∀x (I(x) ⊃ (C1(x) • C2(x)))",
+   "D": "∃x (I(x) • (C1(x) • C2(x)))"
+  },
+  "keyed_option": "D",
+  "argue_for": "B",
+  "reason": "The claim requires that some x, provided it is an integer, satisfies both congruences, so an existential quantifier with a conditional from integer to the two congruence conditions matches the 'such that' wording."
+ },
+ {
+  "job_id": "expansion/high_school_physics/332:D",
+  "question": "Analyzing metabolic pathways often involves diffusion rates of nutrients. Consider a glucose molecule diffusing through a cell membrane. If the concentration gradient is doubled while the membrane thickness and area remain constant, how does the rate of diffusion change according to Fick's Law?",
+  "options": {
+   "A": "It is halved",
+   "B": "It remains the same",
+   "C": "It quadruples",
+   "D": "It doubles"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Fick's Law makes the diffusion rate directly proportional to the concentration gradient when area and thickness stay fixed, so doubling the gradient just doubles the rate of glucose crossing."
+ },
+ {
+  "job_id": "expansion/management/53:D",
+  "question": "When validating a global brand name for a tech startup entering markets with diverse linguistic roots, which analytical step is most critical to preventing unintended negative connotations that could derail market entry?",
+  "options": {
+   "A": "Translating the name literally using automated tools to ensure grammatical correctness in each locale",
+   "B": "Selecting a name based solely on its availability as a .com domain regardless of cultural context",
+   "C": "Conducting phonetic and semantic analysis across all target languages to identify homophones or offensive associations",
+   "D": "Focusing exclusively on English-speaking markets first and adapting the name later for other regions"
+  },
+  "keyed_option": "C",
+  "argue_for": "D",
+  "reason": "My argument is that English is the shared language of the tech world, so validating the name there first secures the core market, and adjusting it region by region later handles local meanings once real feedback comes in."
+ },
+ {
+  "job_id": "expansion/high_school_geography/164:D",
+  "question": "Which of the following is a primary characteristic of 'gentrification' in urban environments?",
+  "options": {
+   "A": "The expansion of suburban sprawl into agricultural land",
+   "B": "The migration of industrial factories to the outskirts of the city",
+   "C": "The decline of the central business district due to online retail",
+   "D": "The movement of high-income residents into lower-income urban neighborhoods"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Gentrification happens when wealthier newcomers buy and renovate homes in a poorer neighborhood, which drives up rents and property values and gradually displaces the lower-income residents who lived there before."
+ },
+ {
+  "job_id": "expansion/conceptual_physics/135:A",
+  "question": "Which type of electromagnetic radiation has the shortest wavelength?",
+  "options": {
+   "A": "Radio waves",
+   "B": "Microwaves",
+   "C": "Gamma rays",
+   "D": "Visible light"
+  },
+  "keyed_option": "C",
+  "argue_for": "A",
+  "reason": "Radio waves sit at the low-energy end of the spectrum, and the antennas for them can be tiny, like the ones inside a phone, so the waves they handle must have very short wavelengths."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/293:D",
+  "question": "Which formal fallacy is characterized by the structure: If P then Q; Not P; Therefore Not Q?",
+  "options": {
+   "A": "Denying the antecedent",
+   "B": "Modus Tollens",
+   "C": "Affirming the consequent",
+   "D": "Undistributed middle"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Once P is denied, the conditional no longer connects anything, so the link between the terms isn't spread across all cases, which is the same gap that makes an undistributed middle invalid."
+ },
+ {
+  "job_id": "expansion/high_school_geography/119:D",
+  "question": "Which of the following best describes the 'Malthusian' perspective on population growth?",
+  "options": {
+   "A": "Population growth is limited only by technological innovation",
+   "B": "Population grows linearly while food production grows exponentially",
+   "C": "Population size is naturally regulated by the availability of land regardless of food",
+   "D": "Population grows geometrically while food production grows arithmetically"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Malthus argued that population multiplies like 1, 2, 4, 8 while food supply only adds like 1, 2, 3, 4, so people eventually outrun the food available and checks like famine set in."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/229:B",
+  "question": "A 'Price Ceiling' set below the equilibrium price in a competitive market will result in",
+  "options": {
+   "A": "No effect on the quantity traded",
+   "B": "A shortage of the good",
+   "C": "An increase in the equilibrium price",
+   "D": "A surplus of the good"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "A ceiling below equilibrium keeps the price artificially low, so consumers want more while producers supply less, and I'd call the gap between those two quantities a shortage."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/346:D",
+  "question": "Which fallacy occurs when an argument attacks the character of the opponent rather than addressing the substance of their claim?",
+  "options": {
+   "A": "Straw man",
+   "B": "Slippery slope",
+   "C": "Appeal to authority",
+   "D": "Ad hominem"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Going after an opponent's character instead of the substance of their claim targets the person rather than the reasoning, which is the 'to the person' fallacy in Latin."
+ },
+ {
+  "job_id": "expansion/college_mathematics/265:D",
+  "question": "Let A be an m x n matrix and B be an n x m matrix with m > n. What can be said about the product AB?",
+  "options": {
+   "A": "AB is always invertible",
+   "B": "AB is never invertible",
+   "C": "AB has rank n",
+   "D": "AB has rank m"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "AB is an m by m square matrix built from two matrices sharing the inner dimension n, and for generic choices of A and B the product fills out its full size, giving rank m."
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/58:D",
+  "question": "In Python, what is the difference between `append()` and `extend()` for lists?",
+  "options": {
+   "A": "`append()` adds a list as a single element; `extend()` adds elements of a list individually",
+   "B": "`append()` adds elements individually; `extend()` adds a list as a single element",
+   "C": "`append()` is for tuples, `extend()` is for lists",
+   "D": "There is no difference"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Both methods modify the list in place, both add new content at the end, and both return None, so in terms of their effect on the list they do the same job of growing it from the end."
+ },
+ {
+  "job_id": "expansion/professional_accounting/188:B",
+  "question": "In a deferred tax asset calculation, which of the following scenarios would typically result in a deductible temporary difference?",
+  "options": {
+   "A": "Prepaid taxes paid to the government in the current period",
+   "B": "Revenue recognized for financial reporting purposes but taxable in a future period",
+   "C": "An expense accrued for financial reporting but not yet deductible for tax purposes",
+   "D": "Income received in cash but not yet recognized for financial reporting"
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "When revenue is booked in the accounts now but taxed later, the book and tax figures differ only in timing. That timing gap reverses in a future period, which is what a temporary difference creating a tax asset needs."
+ },
+ {
+  "job_id": "expansion/professional_accounting/294:C",
+  "question": "Which auditing procedure involves examining the records or documents of an organization to verify the accuracy of a financial statement?",
+  "options": {
+   "A": "Recalculation",
+   "B": "Vouching",
+   "C": "Inquiry",
+   "D": "Observation"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "Inquiry is how an auditor gathers information about the records from the people who keep them, asking them to walk through the documents and explain the figures behind each financial statement item."
+ },
+ {
+  "job_id": "expansion/machine_learning/97:A",
+  "question": "Statement 1| In nutritional epidemiology, adjusting for total energy intake is essential when assessing the association between specific nutrients and cancer risk. Statement 2| Circadian timing of meals acts as a confounder only in studies involving shift workers.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true; Statement 2 is false",
+   "C": "Both statements are true",
+   "D": "Statement 1 is false; Statement 2 is true"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Energy adjustment can itself distort nutrient associations when energy intake lies on the causal path to cancer, so it is not always essential, and meal timing can confound diet studies in anyone whose eating schedule varies."
+ },
+ {
+  "job_id": "expansion/formal_logic/318:D",
+  "question": "Which formula represents 'Some people are both honest and hardworking'? Let H(x) be 'honest' and W(x) be 'hardworking'.",
+  "options": {
+   "A": "∃x(H(x) • W(x))",
+   "B": "∀x(H(x) • W(x))",
+   "C": "∃x(H(x) ∨ W(x))",
+   "D": "∀x(H(x) ⊃ W(x))"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "Being both honest and hardworking describes how the two traits go together in people: honesty comes with hard work. A universal conditional from H to W expresses that the traits are linked."
+ },
+ {
+  "job_id": "expansion/formal_logic/226:C",
+  "question": "Triangle problems often use the Sine Rule. Let Tri(t) mean 't is a triangle' and SineRule(t) mean 't satisfies the Sine Rule'. The statement 'All triangles satisfy the Sine Rule' is:",
+  "options": {
+   "A": "~∀t (Tri(t) ⊃ SineRule(t))",
+   "B": "∃t (Tri(t) • SineRule(t))",
+   "C": "∀t (Tri(t) ⊃ SineRule(t))",
+   "D": "∀t (SineRule(t) ⊃ Tri(t))"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "With 'all triangles' as the subject, I write a universal affirmative: for every t, being a triangle implies satisfying the Sine Rule, with Tri(t) as the antecedent."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/145:D",
+  "question": "In a linear regression, if the residual plot shows a clear curved pattern, what does this suggest about the model?",
+  "options": {
+   "A": "The sample size is too small",
+   "B": "The linear model is a good fit",
+   "C": "The correlation is too high",
+   "D": "There is a non-linear relationship between x and y"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Residuals from a good linear fit should scatter randomly around zero, so a clear curved pattern means the line is missing systematic curvature, which points to a non-linear relationship between x and y."
+ },
+ {
+  "job_id": "expansion/econometrics/48:B",
+  "question": "A regulatory expert on cryptocurrency compliance evaluates the efficacy of anti-money laundering detection models. Consider:\nI. Precision and Recall are more appropriate metrics than Accuracy for imbalanced datasets typical in fraud detection.\nII. A ROC curve plots the True Positive Rate against the False Positive Rate at various threshold settings.\nIII. Over-sampling the minority class always improves the model's generalization to new data.\nIV. The F1-score is the harmonic mean of Precision and Recall.\nWhich statements are correct?",
+  "options": {
+   "A": "I and III only",
+   "B": "I, II, and IV only",
+   "C": "II and III only",
+   "D": "III and IV only"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "With rare laundering cases, precision and recall beat accuracy, the ROC curve plots true positive rate against false positive rate across thresholds, and F1 is their harmonic mean; over-sampling can overfit."
+ },
+ {
+  "job_id": "expansion/machine_learning/253:B",
+  "question": "Statement 1| The F1-score is the harmonic mean of precision and recall. Statement 2| The F1-score is always higher than the arithmetic mean of precision and recall.",
+  "options": {
+   "A": "Both statements are false",
+   "B": "Statement 1 is true, Statement 2 is false",
+   "C": "Statement 1 is false, Statement 2 is true",
+   "D": "Both statements are true"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "F1 is two times precision times recall over their sum, which is exactly the harmonic mean, and a harmonic mean is never above the arithmetic mean, matching it only when precision and recall are equal."
+ },
+ {
+  "job_id": "expansion/high_school_macroeconomics/276:D",
+  "question": "Which of the following would cause the Long-Run Aggregate Supply (LRAS) curve to shift to the right?",
+  "options": {
+   "A": "An increase in the price level",
+   "B": "An improvement in technology increasing labor productivity",
+   "C": "An increase in the nominal money supply",
+   "D": "A decrease in the corporate tax rate leading to higher short-term demand"
+  },
+  "keyed_option": "B",
+  "argue_for": "D",
+  "reason": "A lower corporate tax rate puts more money in firms' hands, and the higher demand that follows encourages them to expand capacity and hire, so the economy ends up able to produce more over time."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/91:B",
+  "question": "In the context of a Cournot competition model with two firms and identical marginal costs, how does the equilibrium quantity differ from the competitive market outcome?",
+  "options": {
+   "A": "Total output is higher, and the price is higher",
+   "B": "Total output is lower, and the price is higher",
+   "C": "Total output is higher, and the price is lower",
+   "D": "Total output is the same, but the price is higher"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Each Cournot firm holds back output to keep prices up, so their combined quantity falls short of what a competitive market would produce, and the price ends up above marginal cost."
+ },
+ {
+  "job_id": "expansion/college_physics/201:B",
+  "question": "An ideal gas undergoes an isothermal expansion. If the volume doubles, what happens to the pressure of the gas?",
+  "options": {
+   "A": "Doubles",
+   "B": "Halves",
+   "C": "Quadruples",
+   "D": "Remains constant"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "What I notice is that at constant temperature Boyle's law holds, with pressure times volume staying fixed, so doubling the volume forces the pressure down to half its starting value."
+ },
+ {
+  "job_id": "expansion/management/259:A",
+  "question": "For global tech companies scaling empathy-driven customer service models, which strategy best integrates AI automation without sacrificing the human connection essential for brand loyalty?",
+  "options": {
+   "A": "Maintaining a fully human workforce for all interactions to ensure zero algorithmic bias in customer responses.",
+   "B": "Using AI to script all human agent responses verbatim to ensure consistent messaging across all channels.",
+   "C": "Replacing all tier-one support agents with generative AI bots to maximize cost efficiency and speed.",
+   "D": "Deploying AI to handle routine queries while routing complex emotional issues to trained human specialists with full context."
+  },
+  "keyed_option": "D",
+  "argue_for": "A",
+  "reason": "Brand loyalty in an empathy-driven model rests on customers trusting every response, and keeping people on every interaction removes any risk of a biased algorithm alienating a customer at a sensitive moment."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/68:C",
+  "question": "What is the relationship between the mean and median in a distribution that is skewed to the left?",
+  "options": {
+   "A": "Mean = Median",
+   "B": "Mean < Median",
+   "C": "They are unrelated",
+   "D": "Mean > Median"
+  },
+  "keyed_option": "B",
+  "argue_for": "C",
+  "reason": "Skewness only describes the shape of the tail, and the mean and median are computed in completely different ways, one averaging and one ordering, so skew to the left fixes no general relationship between them."
+ },
+ {
+  "job_id": "expansion/logical_fallacies/67:C",
+  "question": "Which formal fallacy occurs when a conditional statement's consequent is affirmed, leading to the mistaken conclusion that the antecedent must also be true?",
+  "options": {
+   "A": "Modus ponens",
+   "B": "Affirming the antecedent",
+   "C": "Affirming the consequent",
+   "D": "Denying the antecedent"
+  },
+  "keyed_option": "C",
+  "argue_for": "C",
+  "reason": "The question itself says the consequent is affirmed and the antecedent inferred from it, so I'd name the formal fallacy for exactly that move, reasoning backwards from the 'then' clause to the 'if' clause."
+ },
+ {
+  "job_id": "expansion/formal_logic/154:A",
+  "question": "Sequences follow patterns. Let Seq(s) mean 's is a sequence' and Arithmetic(s) mean 's is an arithmetic sequence'. The statement 'Some sequences are arithmetic' is an existential claim:",
+  "options": {
+   "A": "~∃s (Seq(s) • Arithmetic(s))",
+   "B": "∃s (Seq(s) • Arithmetic(s))",
+   "C": "∀s (Seq(s) ⊃ Arithmetic(s))",
+   "D": "∀s (Arithmetic(s) ⊃ Seq(s))"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "To me 'some' carries the contrast that not every sequence is arithmetic, so the formula should deny that sequences in general have the property, and the negated existential expresses that restriction."
+ },
+ {
+  "job_id": "expansion/conceptual_physics/308:A",
+  "question": "The heat transfer process that occurs through the bulk movement of fluids is called:",
+  "options": {
+   "A": "Convection",
+   "B": "Evaporation",
+   "C": "Conduction",
+   "D": "Radiation"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "When warm fluid itself moves and carries its energy along, as in rising warm air or circulating water in a pot, that transfer by the fluid's own motion is what convection means."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/240:D",
+  "question": "Which of the following best describes the 'Giffen good' paradox in microeconomics?",
+  "options": {
+   "A": "Demand decreases as price increases because the good is a luxury item",
+   "B": "Demand increases as income increases, despite a price rise",
+   "C": "Demand remains constant regardless of price changes",
+   "D": "Demand increases as price increases because the income effect outweighs the substitution effect"
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "For a staple that takes much of a poor household's budget, I see a price rise cutting real income so sharply that they buy more of it and less of pricier foods, so demand rises with price."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/262:D",
+  "question": "Simplifying campaign rules for retail consumers involves applying behavioral economics concepts. What is 'loss aversion' in the context of consumer decision-making?",
+  "options": {
+   "A": "The desire to maximize total utility regardless of risk.",
+   "B": "The preference for immediate gratification over long-term savings.",
+   "C": "The inclination to spend more when prices are rising.",
+   "D": "The tendency to prefer avoiding losses over acquiring equivalent gains."
+  },
+  "keyed_option": "D",
+  "argue_for": "D",
+  "reason": "Losing a sum hurts more than gaining the same sum feels good, so I'd define loss aversion as people working harder to avoid a loss than to secure an equal gain."
+ },
+ {
+  "job_id": "expansion/college_mathematics/190:A",
+  "question": "Let omega be a primitive 7th root of unity. Calculate the value of the product (1 - omega)(1 - omega^2)...(1 - omega^6).",
+  "options": {
+   "A": "7",
+   "B": "1",
+   "C": "-7",
+   "D": "0"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "The six factors (x - omega^k) multiply out to 1 + x + x^2 + ... + x^6, the cyclotomic polynomial. Setting x = 1 gives seven ones added together, which is 7."
+ },
+ {
+  "job_id": "expansion/econometrics/72:C",
+  "question": "Providing insider knowledge on the rationale behind uniform banknote sizes involves analyzing the velocity of money. Consider the Quantity Theory of Money:\n\ni. The equation of exchange is MV = PY, where M is money supply, V is velocity, P is price level, and Y is real output.\nii. The theory assumes that velocity (V) is constant in the short run.\niii. An increase in the money supply (M) leads to a proportional increase in the price level (P) if Y and V are constant.\niv. Empirical evidence suggests that velocity is highly stable across all economic conditions.\n\nWhich statements are theoretically sound?",
+  "options": {
+   "A": "i, ii, and iii only",
+   "B": "ii, iii, and iv only",
+   "C": "i and iv only",
+   "D": "i, ii, and iv only"
+  },
+  "keyed_option": "A",
+  "argue_for": "C",
+  "reason": "MV equals PY is the identity behind the whole theory, and the theory only works because velocity has proven stable across economic conditions, which is the empirical anchor for treating it as fixed."
+ },
+ {
+  "job_id": "expansion/high_school_statistics/155:A",
+  "question": "Suppose we want to select a committee of 3 people from a group of 10. The order in which we pick the people does not matter; only who is on the committee counts. How many different committees can be formed?",
+  "options": {
+   "A": "120",
+   "B": "1000",
+   "C": "720",
+   "D": "30"
+  },
+  "keyed_option": "A",
+  "argue_for": "A",
+  "reason": "Since order does not matter this is a combination, so 10 choose 3 equals 10 times 9 times 8 divided by 3 factorial, which is 720 over 6, giving 120 committees."
+ },
+ {
+  "job_id": "expansion/high_school_geography/28:B",
+  "question": "Which demographic transition stage is characterized by a rapid decline in death rates due to improvements in sanitation and food supply, while birth rates remain high, leading to significant population growth?",
+  "options": {
+   "A": "Stage 1: High Stationary",
+   "B": "Stage 2: Early Expanding",
+   "C": "Stage 3: Late Expanding",
+   "D": "Stage 4: Low Stationary"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "I picked this one because in the early expanding stage, better sanitation, medicine and food cut death rates sharply while families keep having many children, so the gap between births and deaths drives rapid growth."
+ },
+ {
+  "job_id": "expansion/high_school_microeconomics/344:B",
+  "question": "Just as HACCP protocols identify critical control points to mitigate risk, how does a government-imposed price floor above the equilibrium price create a specific market distortion in the agricultural sector?",
+  "options": {
+   "A": "It creates a persistent shortage of the commodity.",
+   "B": "It causes the demand curve to become perfectly inelastic.",
+   "C": "It leads to a surplus where quantity supplied exceeds quantity demanded.",
+   "D": "It eliminates the deadweight loss associated with the market."
+  },
+  "keyed_option": "C",
+  "argue_for": "B",
+  "reason": "A price floor fixes the price buyers face, so quantity demanded no longer responds to market conditions, and demand that stops responding to price is what a perfectly inelastic demand curve represents."
+ },
+ {
+  "job_id": "expansion/high_school_physics/152:A",
+  "question": "A vacuum system used in automotive coating processes relies on a Roots blower backed by a rotary vane pump. If the inlet pressure drops below the critical pressure ratio of the Roots blower, what phenomenon occurs that drastically reduces pumping efficiency?",
+  "options": {
+   "A": "Thermal expansion of the housing causing seizure",
+   "B": "Backflow from the discharge to the inlet side",
+   "C": "Cavitation within the rotor lobes",
+   "D": "Condensation of volatile organic compounds in the pump oil"
+  },
+  "keyed_option": "B",
+  "argue_for": "A",
+  "reason": "Below the critical ratio the blower is compressing against a big pressure difference with little gas to carry heat away, so the rotors and housing heat up and expand until clearances close and it seizes."
+ },
+ {
+  "job_id": "expansion/marketing/211:B",
+  "question": "When targeting discerning buyers seeking tranquility in nature-integrated homes, what linguistic approach creates the most urgency and poetic clarity?",
+  "options": {
+   "A": "Focusing strictly on the property tax implications",
+   "B": "Blending technical specifications with evocative, sensory-rich language",
+   "C": "Listing nearby noise sources to manage expectations",
+   "D": "Using generic adjectives like 'nice' and 'good'"
+  },
+  "keyed_option": "B",
+  "argue_for": "B",
+  "reason": "Discerning buyers want facts they can trust, but tranquility is a feeling, so pairing concrete details with language that evokes the sound of leaves and morning light gives both clarity and emotional urgency."
+ },
+ {
+  "job_id": "expansion/management/262:D",
+  "question": "In the context of the Resource-Based View (RBV) of the firm, which specific attribute of a resource is most critical for ensuring that a competitive advantage is sustainable over the long term rather than merely temporary?",
+  "options": {
+   "A": "Inimitability",
+   "B": "Organization",
+   "C": "Valuability",
+   "D": "Rareness"
+  },
+  "keyed_option": "A",
+  "argue_for": "D",
+  "reason": "If a resource is scarce enough that competitors simply cannot obtain it, the advantage it gives cannot be competed away, so scarcity is what keeps an advantage alive over the long term."
+ }
+]

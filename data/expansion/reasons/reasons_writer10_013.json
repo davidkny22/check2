@@ -1,0 +1,47 @@
+{
+  "writer": "opus",
+  "started_unix": 1794796522,
+  "finished_unix": 1794796588,
+  "reasons": [
+    {
+      "job_id": "expansion/high_school_mathematics/303:B",
+      "reason": "Factoring 1023 as a difference of squares gives 31 times 33, and 33 breaks into 3 and 11, so the biggest prime left standing in the factorization is 31."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/303:C",
+      "reason": "Writing it as 4^5 minus 1 pulls out a factor of 3, and the cofactor 341 is just a sum of powers of 4, which leaves 3 as the largest prime in the factorization."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/304:A",
+      "reason": "Setting same-color pairs to half of all pairs and simplifying gives the condition that n minus 1 must be a perfect square, and among the choices only 10 fits, since 9 is a square."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/304:D",
+      "reason": "Setting same-color pairs equal to half of all pairs simplifies to the difference between red and blue counts, squared, equaling n, so n must be a perfect square, and 16 works with 10 red and 6 blue."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/306:B",
+      "reason": "The exterior angles start at 60 and drop by 5 each time, and since none can fall to zero in a convex polygon, there is room for exactly twelve of them before that limit."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/306:D",
+      "reason": "Equating the arithmetic-series sum of the angles to 180 times n minus 2 gives n squared minus 25n plus 144 equals zero, so n is 9 or 16, and only 9 keeps every angle below 180."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/307:A",
+      "reason": "The annulus is the big disk minus the small one, so the area is pi times 25 minus pi times 9, which leaves 16 pi for the ring between the circles."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/307:D",
+      "reason": "The ring is a band 2 units wide wrapped around the circle, and the band's area is pi times its width times the outer radius, so pi times 2 times 5 gives 10 pi."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/308:B",
+      "reason": "In a rectangle the squared distances from an interior point to two opposite corners, here 1 and 9, add to 10, and that sum is what the squared distance to the remaining corner has to match."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/308:C",
+      "reason": "For any point inside a rectangle, squared distances to opposite corners have equal sums, so 1 plus 9 must equal 4 plus the squared distance to the fourth corner, which leaves 6."
+    }
+  ]
+}

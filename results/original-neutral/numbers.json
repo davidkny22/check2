@@ -1,0 +1,57 @@
+{
+ "appended_read_check": {
+  "all": {
+   "denominator": 400,
+   "numerator": 400,
+   "rate": 1.0
+  },
+  "groups": [
+   {
+    "agreement": {
+     "denominator": 200,
+     "numerator": 200,
+     "rate": 1.0
+    },
+    "format": "short",
+    "situation": null,
+    "stated_replies": 493
+   },
+   {
+    "agreement": {
+     "denominator": 200,
+     "numerator": 200,
+     "rate": 1.0
+    },
+    "format": "snap",
+    "situation": null,
+    "stated_replies": 541
+   }
+  ]
+ },
+ "ends_on_first_answer": {
+  "short": {
+   "denominator": 541,
+   "numerator": 427,
+   "rate": 0.789279112754159
+  },
+  "snap": {
+   "denominator": 541,
+   "numerator": 538,
+   "rate": 0.9944547134935305
+  }
+ },
+ "every_reply_has_a2": true,
+ "inputs": {},
+ "speed": {
+  "short": {
+   "replies": 541,
+   "replies_per_second": 5.4756960471442095,
+   "seconds": 98.8
+  },
+  "snap": {
+   "replies": 541,
+   "replies_per_second": 63.44667347796437,
+   "seconds": 8.527
+  }
+ }
+}

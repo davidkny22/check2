@@ -1,0 +1,47 @@
+{
+ "writer": "opus",
+ "started_unix": 1794796439,
+ "finished_unix": 1794796471,
+ "reasons": [
+  {
+   "job_id": "expansion/elementary_mathematics/329:C",
+   "reason": "Rounding 28 to the nearest ten gives 30 rows, and 30 times 15 is 450, which then rounds to the nearest hundred as 500 seats for a quick approximate count."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/329:D",
+   "reason": "Working it out, 28 times 15 is 420, and the nearest hundred to that figure is 400, so that is the closest approximate count of seats in the theater."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/33:A",
+   "reason": "Liters needed is distance over kilometers per liter, and splitting 225 into 180 plus 45 gives 12 plus 6 liters, so 18 liters covers the whole trip."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/33:B",
+   "reason": "Fuel needed equals distance divided by kilometers per liter, and 15 times 15 is exactly 225, so the car uses 15 liters to cover this trip."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/330:A",
+   "reason": "Arc length equals radius times the angle in radians; a 90-degree angle is half of pi radians, and multiplying that by the circle's 10 units gives 5 pi for the arc."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/330:B",
+   "reason": "The full circumference is pi times the diameter, which is 10 pi, and a 90-degree arc covers one quarter of the circle, so the arc comes to 2.5 pi units."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/331:A",
+   "reason": "Similar figures scale by the ratio of their lengths, so going from 2 to 3 multiplies the rectangle by one and a half, and 20 times 1.5 gives 30 square inches."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/331:D",
+   "reason": "Area scales with the square of the length ratio, so the factor is 9 over 4, and 20 times 9 over 4 works out to 45 square inches for the larger rectangle."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/332:A",
+   "reason": "Rounding gives 5, 3 and 6, since 4.8 goes up, 3.1 goes down and 5.9 goes up, and those three whole numbers add up to 14 for the estimate."
+  },
+  {
+   "job_id": "expansion/elementary_mathematics/332:B",
+   "reason": "Taking each number to its whole-number part gives 4, 3 and 5, and adding those whole numbers together gives 12 as the estimate for the sum."
+  }
+ ]
+}

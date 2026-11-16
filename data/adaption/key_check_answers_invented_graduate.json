@@ -1,0 +1,677 @@
+{
+ "answered_by": "opus",
+ "answers": [
+  {
+   "qid": "adaption_invented_graduate/0",
+   "answer": "C",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/1",
+   "answer": "A",
+   "problem": "no_correct_option",
+   "confidence": "low",
+   "note": "Hedging demand scales with (1-1/gamma) and vanishes at gamma=1; A's formula does not vanish and B's limit claim is wrong."
+  },
+  {
+   "qid": "adaption_invented_graduate/2",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/3",
+   "answer": "A",
+   "problem": "no_correct_option",
+   "confidence": "low",
+   "note": "The channel close does give visibility, but removing it gives a read-write race, not a write-write race; no option is fully right."
+  },
+  {
+   "qid": "adaption_invented_graduate/4",
+   "answer": "C",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/5",
+   "answer": "A",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "If K is the friction kernel the truncated D scales as tau^(alpha-1) and the true D vanishes; A fits only a Green-Kubo reading of K."
+  },
+  {
+   "qid": "adaption_invented_graduate/6",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/7",
+   "answer": "D",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/8",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/9",
+   "answer": "C",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/11",
+   "answer": "B",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "Nonsensical framing; Banach needs only a closed (complete) invariant set, so B is the mathematically correct condition, not compactness."
+  },
+  {
+   "qid": "adaption_invented_graduate/12",
+   "answer": "A",
+   "problem": "more_than_one_correct",
+   "confidence": "low",
+   "note": "If labels come from w itself the error is 0, and A and C both evaluate to 0; w* is otherwise unrelated to w."
+  },
+  {
+   "qid": "adaption_invented_graduate/13",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/14",
+   "answer": "D",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "No standard result fixes which strategy gives the tightest bound for degree-squared node costs."
+  },
+  {
+   "qid": "adaption_invented_graduate/15",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/16",
+   "answer": "B",
+   "problem": "no_correct_option",
+   "confidence": "low",
+   "note": "Eigenvalues are (7 +- sqrt57)/2, so x(t)=e^{7t/2}[cosh(sqrt57 t/2) - (3/sqrt57) sinh(sqrt57 t/2)], matching no option."
+  },
+  {
+   "qid": "adaption_invented_graduate/17",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/18",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/19",
+   "answer": "C",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/20",
+   "answer": "B",
+   "problem": "more_than_one_correct",
+   "confidence": "medium",
+   "note": "Scheffe gives L1 convergence outright, but A is also a true statement by Vitali on a finite measure space."
+  },
+  {
+   "qid": "adaption_invented_graduate/21",
+   "answer": "A",
+   "problem": "unclear_question",
+   "confidence": "medium",
+   "note": "On a ring of circumference L the states k=+-pi/L do not exist; the intended lattice answer is 2|V_G| = V0."
+  },
+  {
+   "qid": "adaption_invented_graduate/22",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/23",
+   "answer": "B",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "Loosely posed; the inflated expected response at 0.8T makes the observed response read as no engagement change."
+  },
+  {
+   "qid": "adaption_invented_graduate/24",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/25",
+   "answer": "D",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/26",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/27",
+   "answer": "A",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "With b+>1 Taubes forces K.[omega]>=0, contradicting c1.[omega]>0, so the hypotheses are inconsistent."
+  },
+  {
+   "qid": "adaption_invented_graduate/28",
+   "answer": "A",
+   "problem": "more_than_one_correct",
+   "confidence": "medium",
+   "note": "B equals A up to the constant factor 3, so both are correct up to a constant."
+  },
+  {
+   "qid": "adaption_invented_graduate/29",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/30",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/31",
+   "answer": "A",
+   "problem": "no_correct_option",
+   "confidence": "low",
+   "note": "E[e^{-X}] = (2/3)^3 = 8/27, which is not among the options."
+  },
+  {
+   "qid": "adaption_invented_graduate/32",
+   "answer": "A",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "Vague physical premise; A matches the sonic point lying downstream of the geometric throat with a boundary layer."
+  },
+  {
+   "qid": "adaption_invented_graduate/33",
+   "answer": "C",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/34",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/35",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/36",
+   "answer": "A",
+   "problem": "unclear_question",
+   "confidence": "medium",
+   "note": "Eigenspace dimension 1 forces minimal polynomial (x-2)^3, contradicting (x-2)^2; with the eigenspace condition the count is 2, with the minimal polynomial it is infinite."
+  },
+  {
+   "qid": "adaption_invented_graduate/37",
+   "answer": "A",
+   "problem": "no_correct_option",
+   "confidence": "low",
+   "note": "With the stated negative feedback the growth rate -k^2 - 2e^{-k^2/2} is always negative, so no k is unstable."
+  },
+  {
+   "qid": "adaption_invented_graduate/38",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/39",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/40",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/41",
+   "answer": "C",
+   "problem": "no_correct_option",
+   "confidence": "low",
+   "note": "Posteriors are 0.174 (flawed) and 0.5 (correct), an underestimate of about 0.33, matching no option."
+  },
+  {
+   "qid": "adaption_invented_graduate/42",
+   "answer": "C",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "The asymptotic variance is not well defined by the stated setup; C is the only form scaling with NT observations."
+  },
+  {
+   "qid": "adaption_invented_graduate/43",
+   "answer": "A",
+   "problem": "no_correct_option",
+   "confidence": "medium",
+   "note": "Under eventual synchrony a deterministic protocol (DLS) still decides after GST, so no permanent livelock follows."
+  },
+  {
+   "qid": "adaption_invented_graduate/44",
+   "answer": "B",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "Correct shift is -eps w integral dt/|V| for a co-directed perturbation; B has the opposite sign and A equals C, so the direction of W decides."
+  },
+  {
+   "qid": "adaption_invented_graduate/45",
+   "answer": "B",
+   "problem": "no_correct_option",
+   "confidence": "low",
+   "note": "Below Tc the internal energy of an ideal Bose gas scales as T^(5/2), not among the options."
+  },
+  {
+   "qid": "adaption_invented_graduate/46",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/47",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/48",
+   "answer": "A",
+   "problem": "no_correct_option",
+   "confidence": "medium",
+   "note": "AB=1 requires rho+p=0; a radiation fluid with rho=3p does not give A=1/B."
+  },
+  {
+   "qid": "adaption_invented_graduate/49",
+   "answer": "B",
+   "problem": "no_correct_option",
+   "confidence": "low",
+   "note": "<p> = -(8 hbar/3L) cos(3pi/4) = 4 sqrt2 hbar/(3L), checked symbolically, matching no option."
+  },
+  {
+   "qid": "adaption_invented_graduate/50",
+   "answer": "A",
+   "problem": "no_correct_option",
+   "confidence": "medium",
+   "note": "The MRE constant is E[U^2]/E[U^4] = (n+4)/(n+2), so the MRE is (n+4)/(n+2) T^2, not listed."
+  },
+  {
+   "qid": "adaption_invented_graduate/51",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/52",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/53",
+   "answer": "B",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "phi_0 is a sentence so phi_n(x) is ill-formed, and with reflexive cyclic R every phi_n holds for N>=3."
+  },
+  {
+   "qid": "adaption_invented_graduate/54",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/55",
+   "answer": "A",
+   "problem": "no_correct_option",
+   "confidence": "medium",
+   "note": "<N> = 2(g/w)^2(1-cos wt) = 4(g/w)^2 sin^2(wt/2); A and D are identical and both wrong."
+  },
+  {
+   "qid": "adaption_invented_graduate/56",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/57",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/58",
+   "answer": "B",
+   "problem": "no_correct_option",
+   "confidence": "low",
+   "note": "The second-order shift is -(21/8) lambda^2 hbar^3/(m^4 w^5); every option has wrong dimensions and coefficient."
+  },
+  {
+   "qid": "adaption_invented_graduate/59",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/60",
+   "answer": "C",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/61",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/62",
+   "answer": "C",
+   "problem": "no_correct_option",
+   "confidence": "medium",
+   "note": "P(S_4=0) = 6 (1/3)^2 (2/3)^2 = 8/27, not listed."
+  },
+  {
+   "qid": "adaption_invented_graduate/63",
+   "answer": "A",
+   "problem": "unclear_question",
+   "confidence": "medium",
+   "note": "z^k + eps does not map the circle to itself; read as a small degree-k circle perturbation the entropy stays log k."
+  },
+  {
+   "qid": "adaption_invented_graduate/64",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/65",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/66",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/67",
+   "answer": "A",
+   "problem": "no_correct_option",
+   "confidence": "medium",
+   "note": "L* = (alpha e^{-beta C} - gamma C)/(2 delta) is linear in gamma, so E[L*] is unchanged by its variance; A's Jensen claim is wrong."
+  },
+  {
+   "qid": "adaption_invented_graduate/68",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/69",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/70",
+   "answer": "A",
+   "problem": "no_correct_option",
+   "confidence": "medium",
+   "note": "The MLE is A^T(AA^T)^{-1}Y; option A writes AY, which is dimensionally undefined."
+  },
+  {
+   "qid": "adaption_invented_graduate/71",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/72",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/73",
+   "answer": "B",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "The model does not determine a clean stability ratio or bifurcation point; none of the conditions follows from it."
+  },
+  {
+   "qid": "adaption_invented_graduate/74",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/76",
+   "answer": "B",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "Mixes dual coefficients with kernel eigenvalues under one index; the sensitivity term is not well defined."
+  },
+  {
+   "qid": "adaption_invented_graduate/77",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/78",
+   "answer": "A",
+   "problem": "no_correct_option",
+   "confidence": "low",
+   "note": "C(n) = n log2(n/k) + n k/4 with k = log2 n gives an n log n coefficient of 5/4, not listed."
+  },
+  {
+   "qid": "adaption_invented_graduate/79",
+   "answer": "A",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "The gradient with respect to b_i does not pass through the recurrence, and a forget gate at 1 prevents vanishing; loosely posed."
+  },
+  {
+   "qid": "adaption_invented_graduate/80",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/81",
+   "answer": "C",
+   "problem": "no_correct_option",
+   "confidence": "medium",
+   "note": "Exact Var(S^2) = 20/n + 8/(n(n-1)); C is only the leading term."
+  },
+  {
+   "qid": "adaption_invented_graduate/82",
+   "answer": "C",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/83",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/84",
+   "answer": "B",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "With threshold n/2 a single seed activates nothing in K_{n,n}; the flawed prediction is not determined by the text."
+  },
+  {
+   "qid": "adaption_invented_graduate/85",
+   "answer": "C",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/86",
+   "answer": "A",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "The model does not specify savings, investment or the use of G, so C/Y is not determined."
+  },
+  {
+   "qid": "adaption_invented_graduate/87",
+   "answer": "A",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "The optimisation is not well posed and does not yield a spacing ratio."
+  },
+  {
+   "qid": "adaption_invented_graduate/88",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/89",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/90",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/91",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/92",
+   "answer": "A",
+   "problem": "unclear_question",
+   "confidence": "low",
+   "note": "Wald's approximation with these costs does not fix an optimal boundary independent of Delta; A matches alpha=beta=0.01."
+  },
+  {
+   "qid": "adaption_invented_graduate/93",
+   "answer": "B",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/94",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/95",
+   "answer": "B",
+   "problem": "no_correct_option",
+   "confidence": "medium",
+   "note": "At X=N/2 the Ito term vanishes and the drift of Y is beta*N = 500; 0.50 is beta only."
+  },
+  {
+   "qid": "adaption_invented_graduate/98",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "medium",
+   "note": ""
+  },
+  {
+   "qid": "adaption_invented_graduate/99",
+   "answer": "A",
+   "problem": "none",
+   "confidence": "high",
+   "note": ""
+  }
+ ]
+}

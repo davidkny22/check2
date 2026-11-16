@@ -1,0 +1,177 @@
+{
+ "builtin_path": true,
+ "commit": "b7ccf1ef5249d767e45900106f4ef392c39a76dd",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T11:22:36+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "tiny",
+ "name": "padding_invariance",
+ "planted": true,
+ "seconds": 46.9,
+ "session": null,
+ "started": "2026-11-15T11:21:49+00:00",
+ "tail_position": 0,
+ "tree_clean": true,
+ "values": {
+  "additions_arm": {
+   "short": {
+    "first_disagreements": [
+     {
+      "episode_id": "formal_logic/29:reasoned:short:B",
+      "expected": 322,
+      "got": 430,
+      "step": 49,
+      "top_two_margin": 0.0035460591316223145
+     },
+     {
+      "episode_id": "college_physics/69:reasoned:short:B",
+      "expected": 342,
+      "got": 138,
+      "step": 0,
+      "top_two_margin": 0.00306016206741333
+     },
+     {
+      "episode_id": "philosophy/89:bare:short:-",
+      "expected": 222,
+      "got": 156,
+      "step": 44,
+      "top_two_margin": 0.002706170082092285
+     },
+     {
+      "episode_id": "formal_logic/38:reasoned:short:A",
+      "expected": 322,
+      "got": 430,
+      "step": 94,
+      "top_two_margin": 0.0015433728694915771
+     },
+     {
+      "episode_id": "philosophy/96:reasoned:short:A",
+      "expected": 342,
+      "got": 138,
+      "step": 0,
+      "top_two_margin": 0.006914466619491577
+     },
+     {
+      "episode_id": "management/63:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "step": 19,
+      "top_two_margin": 0.0021827518939971924
+     },
+     {
+      "episode_id": "management/64:reasoned:short:B",
+      "expected": 78,
+      "got": 34,
+      "step": 9,
+      "top_two_margin": 0.0006408095359802246
+     },
+     {
+      "episode_id": "college_mathematics/48:bare:short:-",
+      "expected": 78,
+      "got": 222,
+      "step": 9,
+      "top_two_margin": 0.0005663037300109863
+     },
+     {
+      "episode_id": "professional_accounting/10:bare:short:-",
+      "expected": 422,
+      "got": 238,
+      "step": 12,
+      "top_two_margin": 4.8667192459106445e-05
+     },
+     {
+      "episode_id": "college_computer_science/91:bare:short:-",
+      "expected": 34,
+      "got": 222,
+      "step": 4,
+      "top_two_margin": 0.0027943551540374756
+     },
+     {
+      "episode_id": "management/28:named:short:C",
+      "expected": 78,
+      "got": 222,
+      "step": 9,
+      "top_two_margin": 0.001654982566833496
+     }
+    ],
+    "rows": 16,
+    "rows_disagreeing": 11,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 4096
+   },
+   "snap": {
+    "first_disagreements": [
+     {
+      "episode_id": "formal_logic/29:reasoned:snap:B",
+      "expected": 342,
+      "got": 138,
+      "step": 0,
+      "top_two_margin": 0.0005197227001190186
+     },
+     {
+      "episode_id": "college_physics/69:reasoned:snap:B",
+      "expected": 342,
+      "got": 138,
+      "step": 0,
+      "top_two_margin": 0.003984570503234863
+     },
+     {
+      "episode_id": "philosophy/96:reasoned:snap:A",
+      "expected": 342,
+      "got": 138,
+      "step": 0,
+      "top_two_margin": 0.00922420620918274
+     },
+     {
+      "episode_id": "college_mathematics/48:bare:snap:-",
+      "expected": 34,
+      "got": 222,
+      "step": 9,
+      "top_two_margin": 0.0002353191375732422
+     },
+     {
+      "episode_id": "professional_accounting/10:bare:snap:-",
+      "expected": 222,
+      "got": 156,
+      "step": 9,
+      "top_two_margin": 0.0018121898174285889
+     }
+    ],
+    "rows": 16,
+    "rows_disagreeing": 5,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 256
+   }
+  },
+  "control_arm": {
+   "short": {
+    "first_disagreements": [],
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 4096
+   },
+   "snap": {
+    "first_disagreements": [],
+    "rows": 16,
+    "rows_disagreeing": 0,
+    "rows_ended_inside_the_cap": 0,
+    "steps_compared": 256
+   }
+  },
+  "control_arm_agrees": true,
+  "green": false
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

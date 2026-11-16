@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794789558,
+ "finished_unix": 1794789769,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_statistics/305:A",
+   "reason": "The bars on the left side are all about the same height before the tail starts, so the values are spread evenly across the low range with no single peak, and that flat, even spread is what this shape means."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/305:C",
+   "reason": "The long tail stretches toward the high values on the right, and a distribution is named for the direction its tail points, so a few large values pulling rightward give a shape skewed toward the right."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/307:A",
+   "reason": "The first card is an ace with chance 4/52, and with one ace gone the second is an ace with chance 3/51. Multiplying gives 12/2652, and dividing top and bottom by twelve gives the answer."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/307:B",
+   "reason": "Each draw is an ace with chance 4 in 52, which simplifies to one in thirteen, and since every pick faces that same ace rate, the chance of the consecutive aces comes out to that one-in-thirteen figure."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/308:C",
+   "reason": "Comparing completion times across groups that used different adhesives is the standard setup for analysis of variance, which tests whether the group centers differ and holds up reasonably well when the data are not perfectly normal."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/308:D",
+   "reason": "The two groups are independent and the data may not be normal, so a rank-based test that compares two separate samples without any normality assumption fits exactly, and it is usually framed as comparing medians."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/309:B",
+   "reason": "By grouping patients into age blocks and comparing the treatments inside each block, every block serves as its own baseline, so the within-block comparison takes over the job a separate control group would otherwise do."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/309:C",
+   "reason": "Blocking puts subjects of similar age together, so age-related differences are pulled out of the comparison. That shrinks the unexplained variation inside each treatment group and lets the treatment effect show more precisely."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/31:C",
+   "reason": "The theorem is about what happens as samples get larger, and its practical result is that the spread of sample means shrinks as n grows, which is the standard deviation going down with sample size."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/31:D",
+   "reason": "The theorem is about the shape of the sampling distribution of the mean, which becomes approximately normal once samples are large enough, even when the population itself is skewed or otherwise not normal."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/310:A",
+   "reason": "A Type II error is a miss: the null hypothesis is actually false, but the test finds too little evidence and we fail to reject it, so a real effect goes undetected."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/310:D",
+   "reason": "A Type II error means a real effect goes unrecognized, and that amounts to throwing out the alternative hypothesis while it is true, because the alternative is the statement that describes the real effect."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/311:A",
+   "reason": "Randomly assigning plants spreads differences in soil, seed quality and light evenly across both groups, so on average the two groups match on everything except whether they received the fertilizer."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/311:C",
+   "reason": "Random assignment is what takes outside factors like soil, light and seed quality out of the picture, so those sources of variation no longer affect the height measurements and only the fertilizer can explain a difference."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/312:B",
+   "reason": "The share of variation explained is the coefficient of determination, which is the correlation coefficient squared, and 0.8 times 0.8 gives 0.64, so that is the percentage of score variation tied to study hours."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/312:C",
+   "reason": "A correlation of 0.8 measures how strongly study hours and scores move together on a scale running up to one, so turning that strength into a percentage gives the share of score variation the relationship explains."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/313:B",
+   "reason": "The favourable cards are the 13 hearts plus the 4 kings, since the question asks for a king or a heart and either kind of card satisfies it, so the count over 52 follows directly."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/313:D",
+   "reason": "The king of hearts already sits inside the heart suit, and the event is settled by the suit once the hearts are counted, so the probability rests on those thirteen cards out of fifty-two."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/314:A",
+   "reason": "The probability of either event is the sum of the two, 0.4 plus 0.3, and then you add the joint term, which for these two events is 0.4 times 0.3 and works out to a small extra amount."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/314:C",
+   "reason": "Mutually exclusive events cannot happen together, so there is no overlap to subtract, and the probability of either one is the plain sum of 0.4 and 0.3."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/316:C",
+   "reason": "A p-value of 0.02 says at least one diet differs from the others, but the F-test does not say which one, so the natural follow-up is pairwise comparisons that pinpoint where the differences lie."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/316:D",
+   "reason": "With four diets, a p-value of 0.02 is only modestly below the usual cutoff, so gathering more participants to drive the p-value lower would make the finding solid before anyone draws conclusions from it."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/317:A",
+   "reason": "Using the binomial formula, there are 210 ways to choose the 4 successes, times 0.4 to the fourth, times 0.6 to the sixth, and that product works out to roughly a quarter."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/317:D",
+   "reason": "With 10 trials and a success rate of 0.4, the expected count is exactly 4, so getting exactly 4 successes is the most typical outcome, and its probability matches the success rate of 0.4."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/318:B",
+   "reason": "Picking every 10th name from an ordered list follows a fixed interval through the list rather than drawing names at random, and taking members at a regular spacing is the defining feature of systematic sampling."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/318:C",
+   "reason": "An alphabetical list naturally divides the students into groups by letter, and taking every 10th student draws a few from each of those groups in proportion, which is the idea behind stratified sampling."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/319:A",
+   "reason": "Correlation alone cannot establish causation in a small study, because chance patterns appear easily, but with a large enough sample, over a hundred, a correlation this strong becomes reliable evidence of a causal link."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/319:B",
+   "reason": "Even a correlation of 0.9 only shows that X and Y move together; a lurking variable or reverse direction could produce the same pattern, so the number itself says nothing about cause."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/320:C",
+   "reason": "The inspector takes items at a fixed interval as they come down the line, every 10th one, rather than choosing at random or by group, and that regular spacing defines systematic sampling."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/320:D",
+   "reason": "The inspector simply takes items as they reach the testing point on the line instead of drawing from a full list of production, and picking whatever units are easiest to reach is convenience sampling."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/321:A",
+   "reason": "Adding 5 to every value shifts the whole dataset up, so the mean moves from 50 to 55, but the distances between values stay the same, so the standard deviation stays at 10."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/321:D",
+   "reason": "Adding the same constant to every value does not change how the values relate to each other, and summary statistics describe that relationship, so both the center and the spread keep their original values."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/322:A",
+   "reason": "A negative correlation means the variables are not related in the positive, increasing way a linear trend line implies, and a value below zero signals the absence of a positive linear relationship."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/322:C",
+   "reason": "The sign of r gives the direction and its size gives the strength, so a value of -0.92 is very close to -1, meaning the points fall tightly along a line that slopes downward."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/325:A",
+   "reason": "Sampling separately within each socioeconomic group removes the between-group differences from the sampling error, so estimates come out more precise than a simple random sample of the same size would give."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/325:D",
+   "reason": "Stratified sampling draws from each socioeconomic group directly, so instead of needing one complete list of the whole urban population, the researcher can work group by group, which removes the need for a single overall frame."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/327:B",
+   "reason": "A symmetric curve with most values bunched around the average and rare values tapering off equally on both sides is the textbook bell curve, and human heights are the standard example of a normal distribution."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/327:C",
+   "reason": "The curve has two edges where the very short and very tall men sit, with the bulk in between, and a shape described by two distinct regions on either side is what the two-mode name refers to."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/329:B",
+   "reason": "Each name on the list has the same chance of being picked, exactly like slips in a hat, so selecting one entry from that list gives every listed entry an equal shot at being chosen."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/329:C",
+   "reason": "A well-shuffled deck gives each of the 52 cards the same chance of being drawn, with nothing weighted or repeated, which is exactly the equal-chance idea behind names in a hat or a fair coin."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/33:C",
+   "reason": "The two-sample t statistic combines the two groups' means and spreads, and that comparison is only balanced when both samples contribute the same number of observations, so equal group sizes are part of the setup."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/33:D",
+   "reason": "The t procedures rely on the sampling distribution of the difference in means being roughly normal, which holds when the populations are near normal or, through the central limit theorem, when both samples are large."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/331:A",
+   "reason": "Rolling a 4 has no influence on the chance of rolling a 6, since each face has its own fixed probability, and events that do not affect one another's chances are called independent."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/331:B",
+   "reason": "Events that cannot happen at the same time share no outcomes, so their overlap is empty, and that is precisely the definition of mutually exclusive, as with a 4 and a 6 on one roll."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/332:A",
+   "reason": "The empirical rule gives three benchmarks for a normal curve, and the middle one, for two standard deviations on either side of the mean, captures about 95 percent of the data."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/332:C",
+   "reason": "Within two standard deviations means one standard deviation on each side of the mean, which adds to a total width of two, and the empirical rule puts about 68 percent of values in that band."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/333:A",
+   "reason": "In a two-tailed test the p-value is split between both tails, so each tail carries 0.04, and that is below the 5 percent level, making the result significant."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/333:B",
+   "reason": "The p-value of 0.08 is larger than the 0.05 significance level, so the data are not unusual enough under the null hypothesis to reject it, which means the evidence falls short."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/334:C",
+   "reason": "The data are counts of children in three categories compared against an equal expected split, and testing observed category counts against a specified distribution is what the chi-square goodness-of-fit test does."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/334:D",
+   "reason": "With 30 children, the observer can compare the average number of choices per activity against the expected value of ten under equal preference, and comparing one sample mean with a fixed value calls for a one-sample t-test."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/338:A",
+   "reason": "A strong negative correlation shows TV hours and GPA move in opposite directions, but other factors like motivation or time management could drive both, and only a controlled experiment could establish cause."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/338:C",
+   "reason": "When the correlation is strong, the link between TV hours and lower GPA is too consistent to be coincidence, and a pattern that consistent across students points to TV time being what pulls grades down."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/339:C",
+   "reason": "A flat density means the chance of the event does not depend on how much time has passed, and that memoryless constant-rate property is the hallmark of the exponential distribution."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/339:D",
+   "reason": "A density curve that sits at the same height across its whole range assigns equal probability to equal-length intervals, and a flat, rectangular curve like that is the continuous uniform distribution."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/34:A",
+   "reason": "Since order matters, ten runners can take gold, then nine remain for silver, then eight for bronze, and multiplying 10 by 9 by 8 counts every distinct ordered podium."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/34:B",
+   "reason": "Each of the three podium spots can go to any of the ten runners, so you count ten possibilities per position across three positions, and adding those up across gold, silver and bronze gives the total."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/341:C",
+   "reason": "The theorem works by adding up many separate random contributions, and that only behaves predictably when each observation is independent of the others, so independence is the condition everything rests on."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/341:D",
+   "reason": "Drawing with replacement keeps the population the same for every draw, so each observation comes from an identical distribution, and that identical-draw setup is what lets the sample mean settle into a normal shape."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/342:A",
+   "reason": "The standard error is the sample standard deviation over the square root of n, so 9 divided by 6 is 1.5, and the difference of 3 between 28 and 25 divided by 1.5 gives the statistic."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/342:B",
+   "reason": "The t-statistic measures how far the sample mean sits from the hypothesized mean in units of the standard deviation, so the gap of 3 words divided by the standard deviation of 9 gives a third."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/343:C",
+   "reason": "Only villages with existing clinics could ever be chosen, so communities without clinics, often the most vulnerable, are kept out by the design itself, and that built-in, systematic omission of a group is exclusion bias."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/343:D",
+   "reason": "The villages were picked through a random selection step, and the bias arises inside that selection process because the pool being drawn from was restricted, so the bias belongs to the random selection itself."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/344:A",
+   "reason": "The variability of a proportion comes from p times one minus p, and with a sample proportion of 0.60 that gives 0.60 times 0.40, which is the measure of spread for this estimate."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/344:D",
+   "reason": "The standard error of a proportion is the square root of p times one minus p over n, so 0.60 times 0.40 is 0.24, divided by 100 gives 0.0024, and its square root is about 0.049."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/347:A",
+   "reason": "The 1,000 employees on the list form the larger group, and the random number generator pulls out a bloc of 100 of them at once, so a group is selected from the population rather than people one by one."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/347:C",
+   "reason": "A random number generator gives every employee on the list the same chance, and every possible set of 100 is equally likely to be chosen, which is exactly how a simple random sample is defined."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/349:B",
+   "reason": "A correlation of zero means knowing one variable tells you nothing about the other's value, and variables where one carries no information about the other are what independence describes."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/349:D",
+   "reason": "The correlation coefficient only measures the strength of a straight-line association, so a value of zero rules out a linear trend while still allowing curved patterns such as a U shape."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/35:C",
+   "reason": "Convenience sampling surveys whoever is easiest to reach, such as people at one mall or street corner, so whole parts of the city never get a chance to be included, which builds bias into the sample."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/35:D",
+   "reason": "Stratified sampling depends on the researcher choosing which groups to divide the city into, and if those strata are drawn badly, whole segments of the population get misrepresented, which builds bias into the sample."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/352:C",
+   "reason": "In a unimodal distribution the mean responds to every value, including those far out on each side, so it gets pulled slightly away from the center beyond the median, which only reflects the middle position."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/352:D",
+   "reason": "In a perfectly symmetric distribution the values balance evenly around the center, so the balance point, which is the mean, sits at the same place as the middle value, which is the median."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/353:A",
+   "reason": "The margin of error measures how far the estimate can drift, which depends on the gap between the success and failure proportions, p minus q, scaled down by the square root of the sample size."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/353:C",
+   "reason": "The margin of error is the critical value times the standard error, and the standard error of a proportion is the square root of p times one minus p over n, so z multiplies that root."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/354:A",
+   "reason": "A p-value is computed assuming the null hypothesis holds, and it gives the probability of a difference at least as extreme as the one observed, so 0.12 means a 12 percent chance under that assumption."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/354:C",
+   "reason": "A result counts as significant at a given level when the p-value falls below that level, and 0.12 is smaller than 0.15, so at the 0.15 threshold the difference between the two samples is significant."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/357:B",
+   "reason": "Two groups are kept unaware here, the patients and the doctors, and keeping both the subjects and the people administering treatment in the dark about assignments is what double-blinding means."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/357:C",
+   "reason": "The trial separates patients into a real-medicine group and a sugar-pill group and keeps those groups hidden from everyone, and dividing subjects into separate layers before comparing them is what stratification does."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/358:C",
+   "reason": "A residual is what is left over once you account for the main part of the data, and the leftover distance from the smallest value up to the largest value is the remaining spread of the data."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/358:D",
+   "reason": "In regression, each point has an actual observed y and the y the fitted line predicts for it, and the residual is the gap between them, showing how far the point sits above or below the line."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/359:A",
+   "reason": "The 165 cm figure comes from the 30 students who were actually measured, not from the whole school, and an average computed from the measured subset is a sample mean, a statistic."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/359:B",
+   "reason": "The teacher's whole aim is the average height of the school, and 165 cm is the number she arrives at for that quantity, so it stands for the parameter describing the population she is studying."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/36:B",
+   "reason": "Under independence, the probability of landing in a cell is the row proportion times the column proportion, so multiplying by the grand total gives row total times column total divided by grand total."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/36:C",
+   "reason": "The expected values in a contingency table come out of the chi-square calculation, where each cell contributes the squared gap between observed and expected divided by expected, so that cell-by-cell term defines the expected contribution."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/360:B",
+   "reason": "In y = 2x + 5, the constant 5 fixes where the line sits, and a one-unit step in x keeps the line anchored at that same intercept, so the prediction stays where the constant puts it."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/360:C",
+   "reason": "The slope gives the change in predicted y for each one-unit change in x, and here the slope is 2 and positive, so each added unit of x raises the prediction by 2."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/361:C",
+   "reason": "The expected value is a weighted average, so each possible value of X is weighted by how likely it is, and adding up every value times its probability gives the long-run average."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/361:D",
+   "reason": "The expected value is the total that X is built from, so you add together each of the possible values listed in the distribution, and the probabilities have already been used to decide which values appear."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/38:A",
+   "reason": "A 95 percent interval lists the plausible values of the mean at the 0.05 level, and 25 lies outside the range from 10 to 20, so the hypothesized value is not plausible and the test rejects it."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/38:B",
+   "reason": "The interval from 10 to 20 describes where the sample data point, but a test of 25 asks a separate question with its own test statistic, and an interval alone carries no rejection, so the null stands."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/39:B",
+   "reason": "Variance is the average squared deviation, so it is in squared units, and the standard deviation undoes the squaring by taking the square root, and the square root of 25 is 5."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/39:C",
+   "reason": "Variance averages the deviations after squaring them, which halves their effect on the overall scale, so recovering the standard deviation means doubling the variance back up, and 25 doubled is 50."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/4:C",
+   "reason": "Sandy, loamy and clay soils affect yield on their own, so grouping by soil and comparing fertilizers inside each group removes that soil-driven variation and lets the fertilizer differences stand out."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/4:D",
+   "reason": "Once the corn is grouped by soil type, every fertilizer appears within each soil group, so soil can no longer favour any one fertilizer, and the balancing job that random assignment usually does is already handled by the blocks."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/40:B",
+   "reason": "A regression line's slope tells you how far each prediction moves for a step in x, and the residual reflects that same movement between the line and the data, so it comes down to the slope of the fitted line."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/40:C",
+   "reason": "For each data point the regression line gives a predicted y, and the residual is the actual observed y minus that prediction, which tells you how far the point lies above or below the line."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/42:C",
+   "reason": "An area of 0.025 in the left tail is the cutoff used for a 95 percent two-sided interval, where 2.5 percent sits in each tail, and the z-score that marks that lower boundary is -1.96."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/42:D",
+   "reason": "An area of 0.025 is a small sliver in the lower tail, and going from the standard normal table toward the left of the mean, a z of about -1.28 is where that small lower region gets marked off."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/43:A",
+   "reason": "In matched pairs the two measurements in each pair are linked, so you subtract within each pair and treat that list of differences as one sample, running a one-sample test on the mean difference."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/43:C",
+   "reason": "A matched pairs design still produces two sets of measurements, one for each treatment, so the analysis comes down to comparing the mean of the first group with the mean of the second group."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/45:A",
+   "reason": "A null hypothesis always states there is no difference between the populations, and the usual way to express no difference is that the population means are equal, which is what the test starts from."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/45:C",
+   "reason": "The null hypothesis is the statement of no difference, and since the test checks whether the categorical distribution is the same across populations, the null says all populations share the same distribution."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/46:B",
+   "reason": "With heavy right skew and extreme outliers, the median stays at the middle value and the interquartile range covers only the middle half, so neither one gets dragged by the few very long stories."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/46:D",
+   "reason": "The range shows the full span of beginner word counts, including the extreme stories, so reporting it alongside the mean lets the instructor see exactly how much the outliers stretch the data instead of hiding them."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/47:A",
+   "reason": "R-squared is the proportion of variance in the response that the model accounts for, so a value of 0.85 means 85 percent of the variation in house prices is explained by square footage."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/47:B",
+   "reason": "R-squared runs from zero to one and measures how well the model fits, so a value of 0.85 tells you the model is a good description of the data 85 percent of the time."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/48:A",
+   "reason": "In y = 2x + 20, the 2 multiplies time, and since temperature rises steadily over the hour, the factor sitting next to x governs how high the temperature ends up, which sets the top value reached."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/48:B",
+   "reason": "In y = 2x + 20 the coefficient on x is the slope, which is the change in y for each one-unit change in x, so temperature climbs 2 degrees for every minute that passes."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/49:B",
+   "reason": "The margin of error at a fixed confidence level is set by the critical value and the approval proportion, and neither of those changes when more people are polled, so the margin stays where it was."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/49:C",
+   "reason": "The margin of error shrinks with the square root of the sample size, and going from 400 to 1600 multiplies n by four, so the square root doubles and the margin falls to half."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/50:A",
+   "reason": "The p-value of 0.03 falls below the 0.05 significance level, which means data this extreme would be unlikely if the medication had no effect, so the evidence is strong enough to reject the null."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/50:C",
+   "reason": "The test is one-sided toward a reduction, so the p-value has to be compared against half the significance level, 0.025, and 0.03 sits just above that, leaving too little evidence against the null."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/52:A",
+   "reason": "With no prior estimate you use p of 0.5, so n equals 1.96 squared times 0.25 divided by 0.04 squared, which is about 600.25, and rounding up to a whole participant gives the minimum."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/52:B",
+   "reason": "With p of 0.5, the formula is the critical value squared times 0.25 over 0.04 squared, and using 1.645 for the confidence level gives about 422.8, which rounds up to the minimum sample size."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/53:B",
+   "reason": "Splitting the population into subgroups whose members are alike, such as by age or income, and then drawing a random sample from every subgroup is the definition of stratified sampling."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/53:D",
+   "reason": "Within each subgroup the members are chosen purely at random, giving each one an equal chance, so the selection itself is simple random sampling, just carried out separately inside each part of the population."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/54:A",
+   "reason": "The drug group dropped 10 mmHg against 2 mmHg for placebo, and a p-value of 0.01 is below the 0.05 alpha, so the larger reduction is statistically significant and attributable to the drug."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/54:B",
+   "reason": "The placebo group improved with no active ingredient at all, so its 2 mmHg drop is pure response to the treatment experience, and gaining any reduction from an inert pill makes it the more efficient intervention."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/55:A",
+   "reason": "When samples are large, the sample means pile up near the true mean, but the occasional low outlier pulls a few means downward into a longer left tail, so their distribution leans to the left."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/55:C",
+   "reason": "By the central limit theorem, the sampling distribution of the mean becomes close to normal as the sample size grows, whatever the shape of the population, so for large samples it looks bell-shaped."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/56:A",
+   "reason": "Where the plants were kept was not decided by chance: every treated plant went to the greenhouse and every control plant stayed outside, so the conditions each plant got were assigned deliberately rather than randomly."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/56:B",
+   "reason": "The greenhouse versus outdoor setting changes along with the fertilizer, so any difference in growth could come from the environment rather than the fertilizer, and the two effects cannot be separated."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/57:B",
+   "reason": "Hot weather is not part of the study, yet it drives both ice cream sales and shark attacks, creating a link between them, and a hidden third variable like that is a lurking variable."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/57:D",
+   "reason": "Hot weather is a condition that arises in response to the summer season, and both ice cream sales and shark attacks change along with it, so it acts as the variable responding to conditions in this setup."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/6:B",
+   "reason": "The correlation coefficient measures only the strength of a straight-line pattern, so r equal to zero means no linear trend, while leaving open the possibility of some curved relationship."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/6:C",
+   "reason": "An r of zero means the points line up exactly along a flat horizontal line, and points lying exactly on a line are perfectly linear, so the data follow a strong straight-line pattern with zero slope."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/60:B",
+   "reason": "Power measures a test's ability to detect a real effect, so it is the chance of correctly rejecting the null hypothesis when the null is actually false, which equals one minus the Type II error rate."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/60:C",
+   "reason": "Power describes how strongly the data back up the starting assumption of the test, and the starting assumption is the null hypothesis, so power is the chance that the test ends up accepting the null."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/61:A",
+   "reason": "A 99 percent confidence interval comes from a method that captures the true mean in 99 percent of repeated samples, so for this interval we say we are 99 percent confident the population mean lies between 45 and 55."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/61:D",
+   "reason": "A 99 percent confidence level means the procedure captures the true mean 99 times out of 100, so for the interval we actually got, the chance that the population mean lies between 45 and 55 is 99 percent."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/62:B",
+   "reason": "Mutually exclusive events have no overlap, so the joint probability is zero, and the general addition rule loses its subtraction term, leaving the probability of either event as the plain sum of the two."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/62:C",
+   "reason": "Mutually exclusive events have nothing to do with each other, since they never share an outcome, so learning that the second event occurred gives no information about the first, and its conditional probability equals its plain probability."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/63:B",
+   "reason": "The 60 percent comes from directly asking every person in the group of 100 and counting all of their answers, and a result that comes from questioning every member of the group is a census figure."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/63:D",
+   "reason": "The 60 percent is computed from the 100 people actually surveyed, not from everyone in the world, and a number that describes a sample rather than a whole population is a statistic."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/64:C",
+   "reason": "The slope gives the predicted change in y for each one-unit increase in x, so a negative slope means higher values of one variable go along with lower values of the other."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/64:D",
+   "reason": "A negative slope means the line goes down, so the positive association that correlation measures is absent, and with no positive association the correlation coefficient comes out at the zero point."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/65:C",
+   "reason": "A p-value of 0.03 against a cutoff of 0.05 is a borderline result, and the sound response to a borderline result is to adopt a stricter significance level, such as 0.01, before drawing any conclusion about the mean weight."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/65:D",
+   "reason": "The p-value of 0.03 is below the 0.05 significance level, meaning a sample result this extreme would be unlikely if the true mean were 500 grams, so the data give grounds to reject the null."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/66:B",
+   "reason": "For a proportion, normality comes from having enough successes and failures, so with 200 sentences and a baseline of 0.5 you check that n times p and n times one minus p both reach at least 10."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/66:C",
+   "reason": "The z-test treats the valence scores as coming from a normal model, and the sample proportion can only follow a normal curve if the scores it is built from are themselves normally distributed in the population."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/67:A",
+   "reason": "More study time shrinks the gap between a student's quiz grade and full marks, so as hours rise the distance from a perfect score falls, and one quantity rising while another falls is the inverse pattern of a negative correlation."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/67:B",
+   "reason": "When higher values of one variable go with higher values of the other, the scatterplot slopes upward from left to right, and that pattern of both increasing together is a positive correlation."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/68:B",
+   "reason": "In a left-skewed distribution a few very low values stretch the tail to the left, and the mean is pulled toward those extreme values while the median stays in the middle, so the mean ends up smaller."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/68:C",
+   "reason": "Skewness only describes the shape of the tail, and the mean and median are computed in completely different ways, one averaging and one ordering, so skew to the left fixes no general relationship between them."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/69:A",
+   "reason": "The standard error reflects how the spread scales with the amount of data, so you combine the standard deviation of 10 with the sample size by multiplying, and 10 times the square root of 100 gives the result."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/69:C",
+   "reason": "The standard error of the mean is the sample standard deviation divided by the square root of the sample size, and the square root of 100 is 10, so 10 divided by 10 gives the answer."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/7:A",
+   "reason": "The standard error is 3 divided by the square root of 100, which is 0.3, and multiplying by the 95 percent critical value of 1.96 gives a margin of about 0.59 around the sample mean."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/7:B",
+   "reason": "A 95 percent interval puts the mean plus or minus 1.96 standard units, and once the heights are expressed in standardized form around the sample mean of 68, that 1.96 is the margin added on each side."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/70:A",
+   "reason": "A Type I error is a false alarm: the null hypothesis is actually true, but the sample happens to look extreme enough that we reject it anyway, and its probability is the significance level."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/70:C",
+   "reason": "A Type I error is the first kind of mistake, made when the test rejects the null and sides with the alternative, and that mistake is acting on the alternative and throwing out the null in its favour."
+  }
+ ]
+}

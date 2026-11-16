@@ -1,0 +1,599 @@
+{
+ "writer": "opus",
+ "started_unix": 1794789218,
+ "finished_unix": 1794789554,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_physics/185:B",
+   "reason": "The expansion is just original length times the coefficient times the temperature change, so 50 times 12 × 10⁻⁶ times 100 degrees, which works out to 0.06 meters of extra length."
+  },
+  {
+   "job_id": "expansion/high_school_physics/185:D",
+   "reason": "Each end of the pipe moves outward by 50 × 12 × 10⁻⁶ × 100, which is 0.06 m, and since both ends move away from the middle, the total change in length comes to 0.12 meters."
+  },
+  {
+   "job_id": "expansion/high_school_physics/186:A",
+   "reason": "Rotating the retinal images during training forces the network to rely on real lesion features instead of orientation artifacts, so what it learns lines up with what a clinician would actually look for in the image."
+  },
+  {
+   "job_id": "expansion/high_school_physics/186:D",
+   "reason": "Grad-CAM uses the gradients flowing into the last convolutional layer to build a heatmap over the retina, showing which regions drove the prediction, and that is exactly a visual explanation a clinician can check."
+  },
+  {
+   "job_id": "expansion/high_school_physics/187:B",
+   "reason": "The field inside the conducting material has to be zero, so a Gaussian surface drawn within the shell must enclose no net charge, meaning the inner surface carries exactly the opposite of the central charge."
+  },
+  {
+   "job_id": "expansion/high_school_physics/187:D",
+   "reason": "The shell starts out uncharged and nothing is added to it, so its total stays zero, and with the point charge sitting symmetrically at the center there is no net charge left on the inner surface."
+  },
+  {
+   "job_id": "expansion/high_school_physics/188:A",
+   "reason": "The normal force is the surface supporting the block's weight, while the pull mainly sets how the block moves along the floor, so the support the surface provides stays equal to Mg."
+  },
+  {
+   "job_id": "expansion/high_school_physics/188:B",
+   "reason": "Pulling at an angle above the horizontal gives the force an upward component of F sinθ that carries part of the weight, so the surface only has to push up with the remainder."
+  },
+  {
+   "job_id": "expansion/high_school_physics/189:A",
+   "reason": "Cathodic protection reduces oxygen and water at the steel surface under the coating, producing hydroxide ions, and that high local pH attacks the adhesion at the interface until the coating lifts away."
+  },
+  {
+   "job_id": "expansion/high_school_physics/189:D",
+   "reason": "Coastal pipelines sit in strong sunlight all day, and ultraviolet light breaks the polymer chains in the coating, weakening the film until it separates from the steel, which is what disbondment is."
+  },
+  {
+   "job_id": "expansion/high_school_physics/19:B",
+   "reason": "By the equivalence principle a freely falling observer is locally inertial and feels no gravity at all, so the dilation a distant observer would attribute to the field is offset and both end up measuring the same duration."
+  },
+  {
+   "job_id": "expansion/high_school_physics/19:D",
+   "reason": "On their own clock the infalling observer reaches the singularity in a finite time, but light leaving near the horizon is redshifted without limit, so from far away the object seems to freeze just outside it."
+  },
+  {
+   "job_id": "expansion/high_school_physics/192:A",
+   "reason": "The bright fringes come from path differences that depend on the slit separation both in the geometry and in the angle to the screen, so doubling the separation acts twice and changes the spacing by a factor of four."
+  },
+  {
+   "job_id": "expansion/high_school_physics/192:D",
+   "reason": "The fringe width is λD/d, with the slit spacing in the denominator, so doubling d while the wavelength and screen distance stay the same cuts the width to half of what it was."
+  },
+  {
+   "job_id": "expansion/high_school_physics/193:A",
+   "reason": "In field theory the photon is not a pellet taking one path; the field state spans both slits as a superposition, and the amplitude to detect a quantum at each point on the screen produces the bands."
+  },
+  {
+   "job_id": "expansion/high_school_physics/193:D",
+   "reason": "In field theory the vacuum is never empty, and the photon's excitation couples to the vacuum fluctuations around both slits, and those interactions spread the detection probability into the bands seen on the screen."
+  },
+  {
+   "job_id": "expansion/high_school_physics/194:A",
+   "reason": "Stainless steel bottles usually go out with ordinary rubbish instead of into recycling, and decades of landfill emissions, methane included, add up to the biggest share of the bottle's climate impact."
+  },
+  {
+   "job_id": "expansion/high_school_physics/194:C",
+   "reason": "Mining the ore, refining the nickel and chromium and forming the steel take a huge amount of energy up front, and a bottle that is only rinsed and refilled for five years adds little after that."
+  },
+  {
+   "job_id": "expansion/high_school_physics/196:A",
+   "reason": "Two bonding pairs plus two lone pairs give four electron domains around the oxygen, and four domains arrange themselves tetrahedrally, which is why the angle of about 104.5 degrees sits close to the tetrahedral value."
+  },
+  {
+   "job_id": "expansion/high_school_physics/196:D",
+   "reason": "The four electron domains do point toward the corners of a tetrahedron, but the shape is named from the atoms alone, and with two corners taken by lone pairs the three atoms form an angled shape."
+  },
+  {
+   "job_id": "expansion/high_school_physics/197:B",
+   "reason": "Because the shell is non-conducting, its charge cannot rearrange itself to cancel its own field in the interior, so inside radius R the field comes from the shell's charge and falls off as Q over 4πεr²."
+  },
+  {
+   "job_id": "expansion/high_school_physics/197:C",
+   "reason": "A Gaussian sphere of radius r smaller than R encloses only the point charge, while the shell's charge lies entirely outside it, so the field there is set by q alone over 4πεr²."
+  },
+  {
+   "job_id": "expansion/high_school_physics/198:A",
+   "reason": "The Carnot efficiency is one minus 300 over 500, which is 0.4, so the engine turns 40 percent of the 1000 J it absorbs into work, giving 400 J per cycle."
+  },
+  {
+   "job_id": "expansion/high_school_physics/198:C",
+   "reason": "Over a complete cycle the working gas returns to its starting state, so its internal energy change is zero, and by the first law the full 1000 J of heat absorbed comes out as work."
+  },
+  {
+   "job_id": "expansion/high_school_physics/199:B",
+   "reason": "No heat is exchanged, so the work the gas does pushing outward has to be paid for from its internal energy, and for an ideal gas a drop in internal energy means a drop in temperature."
+  },
+  {
+   "job_id": "expansion/high_school_physics/199:D",
+   "reason": "With Q equal to zero, the first law leaves the change in internal energy equal to the work term, and as the gas expands that work, PΔV, is positive, so internal energy and temperature both go up."
+  },
+  {
+   "job_id": "expansion/high_school_physics/2:B",
+   "reason": "Kepler's third law says the period squared scales with the radius cubed, so quadrupling the radius multiplies the period squared by 64, and taking the square root gives a period eight times longer."
+  },
+  {
+   "job_id": "expansion/high_school_physics/2:C",
+   "reason": "The circumference of the orbit grows by a factor of 4, and since gravity weakens with distance the orbital speed drops by a factor of 4 too, so the time for one lap goes up by 4 times 4."
+  },
+  {
+   "job_id": "expansion/high_school_physics/20:A",
+   "reason": "The acceleration of a falling object does not depend on mass, and with the radius unchanged the distance to the planet's center is the same as on Earth, so a dropped object still accelerates at 9.8."
+  },
+  {
+   "job_id": "expansion/high_school_physics/20:C",
+   "reason": "Surface gravity is GM over R squared, so doubling the mass while the radius stays the same simply doubles the gravity, and 2 times 9.8 gives 19.6 meters per second squared."
+  },
+  {
+   "job_id": "expansion/high_school_physics/200:B",
+   "reason": "Earth's equatorial bulge makes the orbital node precess and the perigee rotate steadily, and over fifty years that secular drift is the largest perturbation on low orbits, so leaving it out ruins the propagation."
+  },
+  {
+   "job_id": "expansion/high_school_physics/200:D",
+   "reason": "At high altitude the air is so thin that drag hardly matters, so over fifty years any decay of the orbit has to come from the uneven shape of Earth's gravity field, which is exactly what J2 captures."
+  },
+  {
+   "job_id": "expansion/high_school_physics/202:A",
+   "reason": "Bladders filled with light gas give buoyant lift from inside the body, taking part of the load off the limbs, so a large animal on a heavy world could carry its mass without crushing its skeleton."
+  },
+  {
+   "job_id": "expansion/high_school_physics/202:B",
+   "reason": "Stronger gravity means blood must be pumped upward against a heavier pull and bones must bear far more load, so extra hearts plus a stiffer, stronger skeleton deal with both of the main problems at once."
+  },
+  {
+   "job_id": "expansion/high_school_physics/204:A",
+   "reason": "The current in each branch is the voltage divided by that branch's resistance, so how much flows depends on the voltage applied across the pair, and the question never gives that voltage."
+  },
+  {
+   "job_id": "expansion/high_school_physics/204:B",
+   "reason": "Parallel branches share the same voltage, and copper has a much lower resistivity than steel, so at equal length and area its resistance is smaller and more current flows through it."
+  },
+  {
+   "job_id": "expansion/high_school_physics/205:A",
+   "reason": "The force on the electron is its charge times the field, eE, and Newton's second law divides that force by the mass, so the acceleration has magnitude eE over m however the electron is already moving."
+  },
+  {
+   "job_id": "expansion/high_school_physics/205:C",
+   "reason": "A uniform field has the same strength at every point along the path, so nothing about the electron's surroundings changes as it travels, and an unchanging situation means a steady velocity with no acceleration at all."
+  },
+  {
+   "job_id": "expansion/high_school_physics/207:A",
+   "reason": "Inverter-based solar has no spinning mass, so frequency swings faster after a disturbance, and programming the inverters to inject power in proportion to the rate of frequency change restores the inertia the grid lost."
+  },
+  {
+   "job_id": "expansion/high_school_physics/207:D",
+   "reason": "With little inertia the frequency falls fast whenever demand exceeds supply, and shedding non-critical loads closes that gap directly, which is the most dependable way to stop the frequency collapsing at peak."
+  },
+  {
+   "job_id": "expansion/high_school_physics/209:B",
+   "reason": "The FRP and the internal stirrups share the shear, and once the stirrups yield the strain demand on the sheet jumps sharply, so the stirrup yield strength sets how far the FRP strains before it peels."
+  },
+  {
+   "job_id": "expansion/high_school_physics/209:D",
+   "reason": "Debonding is a failure at the interface, where the sheet peels away with a thin layer of concrete, so the strain the FRP can reach is governed by how strongly the adhesive grips the concrete surface."
+  },
+  {
+   "job_id": "expansion/high_school_physics/21:A",
+   "reason": "Earthquake shaking adds large horizontal forces and overturning moments at the base, pushing the resultant load off the footing's centroid, so beyond static bearing the main worry is eccentric loading that rotates the footing."
+  },
+  {
+   "job_id": "expansion/high_school_physics/21:D",
+   "reason": "Loose saturated sand under cyclic shaking builds up pore water pressure until the effective stress drops to almost nothing, so the soil loses its shear strength and the footing can sink or tilt suddenly."
+  },
+  {
+   "job_id": "expansion/high_school_physics/210:A",
+   "reason": "Fishing fleets burn a great deal of fuel for every tonne they land, and a raw tonnage figure says nothing about that carbon cost, while a ratio-based measure reflects how efficiently the fishing effort is used."
+  },
+  {
+   "job_id": "expansion/high_school_physics/210:B",
+   "reason": "A high bycatch ratio shows the gear sweeping up many species beyond the target, removing predators and prey across the food web, so it reveals ecological damage that the landed tonnage of the target species hides."
+  },
+  {
+   "job_id": "expansion/high_school_physics/211:A",
+   "reason": "Breeding depends on enough connected habitat to find mates and food, and once roads and lodges cut the core area into pieces, groups become isolated and reproductive rates start to fall."
+  },
+  {
+   "job_id": "expansion/high_school_physics/211:C",
+   "reason": "Reproduction suffers when the animals' own behavior is disturbed, so the threshold comes once encounters with people are frequent enough to interrupt feeding and mating, cutting both energy intake and breeding directly."
+  },
+  {
+   "job_id": "expansion/high_school_physics/213:A",
+   "reason": "With the thin lens equation, 1/v equals 1/f minus 1/(2f), which is 1/(2f), so the image forms at 2f on the far side, inverted and the same size as the object."
+  },
+  {
+   "job_id": "expansion/high_school_physics/213:B",
+   "reason": "With the object at 2f, the ray through the front focal point and the ray running parallel to the axis both leave the lens parallel to each other, so they never meet and the image forms at infinity."
+  },
+  {
+   "job_id": "expansion/high_school_physics/214:B",
+   "reason": "The solid sphere keeps its mass nearer the center, so its moment of inertia is 2/5 MR² against 2/3 MR², and less of its energy goes into spinning and more into moving down the slope."
+  },
+  {
+   "job_id": "expansion/high_school_physics/214:C",
+   "reason": "Gravity's torque acts about the contact point at radius R, and the hollow sphere has all its mass out at that radius, so it gets the full lever arm, spins up faster and reaches the bottom first."
+  },
+  {
+   "job_id": "expansion/high_school_physics/215:A",
+   "reason": "All the energy stored in the compressed spring, one half k x squared, ends up removed by friction, which takes μmg per meter, so setting the two equal gives a distance of kx² over 2μmg."
+  },
+  {
+   "job_id": "expansion/high_school_physics/215:B",
+   "reason": "The spring stores energy equal to k times the compression squared, and friction drains μmg of energy for every meter traveled, so dividing the stored energy by that rate gives the stopping distance kx² over μmg."
+  },
+  {
+   "job_id": "expansion/high_school_physics/216:C",
+   "reason": "Magnocellular cells have large receptive fields and fast, transient responses but little sensitivity to color, which suits them to coarse spatial patterns that change quickly, such as motion and shifts in brightness."
+  },
+  {
+   "job_id": "expansion/high_school_physics/216:D",
+   "reason": "The magnocellular pathway feeds the dorsal stream, which handles where things are in space, and judging depth from the slight difference between the two eyes' images is a spatial task of exactly that kind."
+  },
+  {
+   "job_id": "expansion/high_school_physics/217:A",
+   "reason": "Opposite currents behave like opposite charges: each wire's magnetic field acts on the moving charges in the other, and with the flows running in opposite directions the result is a pull that draws the wires together."
+  },
+  {
+   "job_id": "expansion/high_school_physics/217:C",
+   "reason": "Using the right-hand rule, the field from one wire at the position of the other combined with a current running the opposite way gives a force pointing away, so opposite currents push the wires apart."
+  },
+  {
+   "job_id": "expansion/high_school_physics/220:B",
+   "reason": "Switching off the current makes the coil's magnetic flux collapse very quickly, and the induced voltage is proportional to the rate of change of flux, so a sudden collapse produces a large spike."
+  },
+  {
+   "job_id": "expansion/high_school_physics/220:C",
+   "reason": "Opening the circuit leaves charge piled up on either side of the tiny gap at the contacts, and the force between those closely spaced charges becomes enormous, which is what drives the sudden high voltage."
+  },
+  {
+   "job_id": "expansion/high_school_physics/221:B",
+   "reason": "Hooke's law gives the restoring force as the spring constant times the stretch, so 50 newtons per meter times 0.2 meters comes to 10 newtons pulling back toward equilibrium."
+  },
+  {
+   "job_id": "expansion/high_school_physics/221:D",
+   "reason": "The band's force grows steadily from zero at equilibrium to its full value at 0.2 meters, so the restoring force averaged over the stretch is half of 50 times 0.2, which is 5 newtons."
+  },
+  {
+   "job_id": "expansion/high_school_physics/222:B",
+   "reason": "In an adiabatic compression work is done on the gas and no heat escapes, so all that work raises the internal energy, and for an ideal gas internal energy rises and falls with temperature."
+  },
+  {
+   "job_id": "expansion/high_school_physics/222:D",
+   "reason": "The work done in squeezing the gas does raise its internal energy, but in an adiabatic process no heat flows in, and without heat coming in the temperature cannot climb, so it drops as the volume shrinks."
+  },
+  {
+   "job_id": "expansion/high_school_physics/223:A",
+   "reason": "Viruses copy their genomes with no proofreading machinery, so they evolve under selection at a pace no cellular organism matches, and that rapid evolution is the feature that sets them apart from bacteria."
+  },
+  {
+   "job_id": "expansion/high_school_physics/223:C",
+   "reason": "Bacteria carry their own ribosomes and metabolism and divide on their own, while viruses have neither and must take over a host cell's machinery to make copies of themselves, which is the dividing line."
+  },
+  {
+   "job_id": "expansion/high_school_physics/225:A",
+   "reason": "A simulator idealizes motors, ground contact and sensors, and an evolved controller learns to exploit exactly those idealized dynamics, so real motor friction and sensor noise break the behavior it relied on."
+  },
+  {
+   "job_id": "expansion/high_school_physics/225:D",
+   "reason": "A small population explores only a narrow slice of possible controllers, so evolution settles on one fragile gait tuned to the simulator, while a larger and more varied population would produce gaits that hold up on hardware."
+  },
+  {
+   "job_id": "expansion/high_school_physics/226:C",
+   "reason": "A pendulum's period is set by its length, which stays the same when it is carried to another planet, just as the mass of the bob makes no difference, so each swing takes the same time as on Earth."
+  },
+  {
+   "job_id": "expansion/high_school_physics/226:D",
+   "reason": "The period is 2π times the square root of length over g, so making g four times larger divides the period by the square root of four, which leaves half the original period."
+  },
+  {
+   "job_id": "expansion/high_school_physics/227:C",
+   "reason": "Setting the magnetic force qvB equal to mv² over r and dividing both sides by mv² leaves qB over mv on one side, and that is the quantity that fixes the size of the circle the particle traces."
+  },
+  {
+   "job_id": "expansion/high_school_physics/227:D",
+   "reason": "The magnetic force qvB supplies the centripetal force mv² over r, and solving that balance for r gives the momentum mv divided by qB, so faster or heavier particles curve in wider circles."
+  },
+  {
+   "job_id": "expansion/high_school_physics/23:B",
+   "reason": "Both have the same size of charge, so they gain the same kinetic energy qV, and since the electron's mass is far smaller than the proton's, that equal energy gives it a much higher speed."
+  },
+  {
+   "job_id": "expansion/high_school_physics/23:C",
+   "reason": "Both particles carry the same magnitude of charge, so the same potential difference hands each the same energy, and starting from rest with identical energy they come out moving at the same velocity."
+  },
+  {
+   "job_id": "expansion/high_school_physics/230:C",
+   "reason": "A concave mirror gathers reflected light toward its focal point, and rays from an object at the center of curvature leave the mirror converging there, so the image forms at the focus."
+  },
+  {
+   "job_id": "expansion/high_school_physics/230:D",
+   "reason": "Using the mirror equation with the object at R, 1/v equals 2/R minus 1/R, which is 1/R, so the image forms back at the center of curvature, inverted and the same size."
+  },
+  {
+   "job_id": "expansion/high_school_physics/231:B",
+   "reason": "At equilibrium the spring is neither stretched nor compressed, so all the potential energy it stored, one half k x squared, has turned into the block's kinetic energy by that point."
+  },
+  {
+   "job_id": "expansion/high_school_physics/231:C",
+   "reason": "Kinetic energy takes the form one half mass times a squared quantity, and here the block's mass is what moves while x is the distance it covers returning to equilibrium, which gives one half m x squared."
+  },
+  {
+   "job_id": "expansion/high_school_physics/232:B",
+   "reason": "Low-frequency sound carries its energy in long, powerful waves that move through materials faster than high-frequency sound, so it passes through and around barriers before a porous absorber can dissipate it."
+  },
+  {
+   "job_id": "expansion/high_school_physics/232:D",
+   "reason": "Porous absorbers work best where air particle velocity is high, about a quarter wavelength from a wall, and below 200 Hz that point is far deeper than a few centimeters of material, so little energy is dissipated."
+  },
+  {
+   "job_id": "expansion/high_school_physics/233:A",
+   "reason": "The magnetic interaction is strongest when the loop faces the field head on, because that is when the most field lines thread through it, and that happens with the area vector lined up with B."
+  },
+  {
+   "job_id": "expansion/high_school_physics/233:D",
+   "reason": "The torque on the loop is NIAB times the sine of the angle between the area vector and the field, and the sine reaches its maximum value of one at ninety degrees."
+  },
+  {
+   "job_id": "expansion/high_school_physics/234:B",
+   "reason": "At constant pressure the work done by the gas is nRΔT while the heat added is nC_pΔT, so the temperature change and the amount of gas cancel and the ratio is R over C_p."
+  },
+  {
+   "job_id": "expansion/high_school_physics/234:C",
+   "reason": "The heat added at constant pressure is nC_pΔT, while the part that stays in the gas as internal energy is nC_vΔT, so comparing the heat input to that energy split gives C_p over C_v."
+  },
+  {
+   "job_id": "expansion/high_school_physics/236:A",
+   "reason": "The frequency is set by the source, and at the boundary the wave on both sides has to oscillate in step, so the frequency carries through while the speed and wavelength both drop by a factor of n."
+  },
+  {
+   "job_id": "expansion/high_school_physics/236:C",
+   "reason": "The wavelength is what fixes the color of the light, and light keeps its color when it passes into water or glass, so the wavelength carries through unchanged while the speed slows down."
+  },
+  {
+   "job_id": "expansion/high_school_physics/238:B",
+   "reason": "Out of the water there is no buoyancy, so a land-living adult needs bony limbs with real digits and strong shoulder and hip girdles to hold its body off the ground and walk."
+  },
+  {
+   "job_id": "expansion/high_school_physics/238:D",
+   "reason": "Thin, permeable skin without scales shows the animal breathed through its skin in air, as modern land amphibians do, so these impressions point to an adult that spent its life out of the water."
+  },
+  {
+   "job_id": "expansion/high_school_physics/24:A",
+   "reason": "A soap bubble is a thin film with two surfaces, an inner one and an outer one, and each contributes 2T over R, so the total excess pressure inside is 4T over R."
+  },
+  {
+   "job_id": "expansion/high_school_physics/24:D",
+   "reason": "For a curved liquid surface the excess pressure is twice the surface tension divided by the radius, and the bubble is a single sphere of radius R, so the pressure difference comes to 2T over R."
+  },
+  {
+   "job_id": "expansion/high_school_physics/240:A",
+   "reason": "Myelin insulates the axon so current flows quickly inside it, and the action potential only has to be regenerated at the gaps between sheath segments, so the signal leaps from node to node."
+  },
+  {
+   "job_id": "expansion/high_school_physics/240:D",
+   "reason": "The cells forming the myelin sheath add electrical charge along the axon, boosting the signal between nodes so it does not fade, and that extra push lets the impulse travel faster than in a bare axon."
+  },
+  {
+   "job_id": "expansion/high_school_physics/241:A",
+   "reason": "Hydrogen is light and almost transparent at these wavelengths, so starlight passing through a hydrogen envelope is barely absorbed and shows only narrow, shallow lines, while heavier gases absorb much more strongly."
+  },
+  {
+   "job_id": "expansion/high_school_physics/241:D",
+   "reason": "Scale height goes as temperature over mean molecular weight, and hydrogen's very low molecular weight makes the atmosphere puffy, so starlight crosses a thick layer and the absorption features come out deep and broad."
+  },
+  {
+   "job_id": "expansion/high_school_physics/242:A",
+   "reason": "At the peak the object is momentarily at rest, so total momentum is zero just before the explosion, and since the two sideways fragments cancel each other exactly, the third piece must end up with no velocity."
+  },
+  {
+   "job_id": "expansion/high_school_physics/242:D",
+   "reason": "Momentum is conserved, and the momentum of one sideways fragment, m/3 times u, has to be balanced by the rest of the system with the full mass m, which gives the remaining motion a speed of u/3."
+  },
+  {
+   "job_id": "expansion/high_school_physics/243:A",
+   "reason": "Light reflecting inside the liquid travels an optical path stretched by the refractive index, so every distance in the mirror formula scales by n, turning the usual minus R over 2 into minus nR over 2."
+  },
+  {
+   "job_id": "expansion/high_school_physics/243:B",
+   "reason": "The law of reflection does not depend on the medium the light travels in, so a mirror's focal length is set purely by its curvature and stays at minus R over 2 wherever it is placed."
+  },
+  {
+   "job_id": "expansion/high_school_physics/244:B",
+   "reason": "Compressive stress is the load divided by the area it acts on, so a million newtons spread over 10 square meters gives 100,000 newtons per square meter, which is 100,000 pascals."
+  },
+  {
+   "job_id": "expansion/high_school_physics/244:D",
+   "reason": "Stress is force per area, and because the area is in square meters, spreading a million newtons over 10 square meters means dividing by ten along each side of the base, which leaves 10,000 pascals."
+  },
+  {
+   "job_id": "expansion/high_school_physics/245:A",
+   "reason": "Thirty grams converts to 0.003 kilograms, and kinetic energy is one half times mass times speed squared, so one half times 0.003 times 100 comes to 0.15 joules."
+  },
+  {
+   "job_id": "expansion/high_school_physics/245:D",
+   "reason": "Thirty grams is 0.03 kilograms, and kinetic energy is one half times mass times speed squared, so one half times 0.03 times 100 gives 1.5 joules for the sparrow."
+  },
+  {
+   "job_id": "expansion/high_school_physics/246:A",
+   "reason": "A SQUID responds to a tiny fraction of a single flux quantum, giving it a noise floor down at femtotesla levels, while a Hall sensor bottoms out many orders of magnitude higher, far above such weak fields."
+  },
+  {
+   "job_id": "expansion/high_school_physics/246:C",
+   "reason": "A Hall sensor's output drifts as its carrier density changes with temperature, while a SQUID sits at a fixed cryogenic temperature and gives a clean linear response, which is what matters against urban interference."
+  },
+  {
+   "job_id": "expansion/high_school_physics/247:A",
+   "reason": "The atmosphere turns along with the Earth, so a rocket heading east moves with the air rather than against it, and near the equator that moving air is fastest, which cuts the drag the vehicle has to push through."
+  },
+  {
+   "job_id": "expansion/high_school_physics/247:D",
+   "reason": "The ground at the equator is already moving east at several hundred meters per second, so a rocket launched eastward from there starts with that speed for free and needs less propellant to reach orbit."
+  },
+  {
+   "job_id": "expansion/high_school_physics/249:B",
+   "reason": "At resonance the inductive and capacitive reactances are equal and cancel, so the only thing left opposing the current is the resistance R, which is the lowest the impedance can get."
+  },
+  {
+   "job_id": "expansion/high_school_physics/249:C",
+   "reason": "At resonance the inductor and capacitor swap energy back and forth so strongly that together they resist any current pushed in from outside, so the circuit presents its greatest opposition at that frequency."
+  },
+  {
+   "job_id": "expansion/high_school_physics/25:C",
+   "reason": "Stretching keeps the volume fixed, so a 10 percent longer wire has a cross-section smaller by a factor of 1.1, and since R goes as length over area the resistance rises by 1.1 squared, about 1.21."
+  },
+  {
+   "job_id": "expansion/high_school_physics/25:D",
+   "reason": "Resistance equals resistivity times length divided by area, and stretching changes the length while the material stays the same, so the resistance grows in direct proportion with the length, by the same 10 percent."
+  },
+  {
+   "job_id": "expansion/high_school_physics/250:C",
+   "reason": "The maximum efficiency is one minus the cold temperature over the hot temperature, and 300 K over 600 K is one half, so the best any engine can do here is 50 percent."
+  },
+  {
+   "job_id": "expansion/high_school_physics/250:D",
+   "reason": "With the hot reservoir at twice the cold temperature, the ideal efficiency is one minus the square of the cold-to-hot ratio, so one minus a quarter gives 75 percent of the heat turned into work."
+  },
+  {
+   "job_id": "expansion/high_school_physics/251:C",
+   "reason": "With a fixed flow rate the velocity falls as the square of the diameter grows, because area goes as diameter squared, and friction loss follows that velocity, so it drops in proportion to the diameter squared."
+  },
+  {
+   "job_id": "expansion/high_school_physics/251:D",
+   "reason": "Friction loss goes as length times velocity squared divided by diameter, and at fixed flow the velocity scales as one over diameter squared, so combining them gives a loss falling as diameter to the minus fifth."
+  },
+  {
+   "job_id": "expansion/high_school_physics/252:A",
+   "reason": "Along a streamline pressure plus one half ρv² stays constant for an ideal fluid, so wherever the fluid speeds up the kinetic term grows and the pressure has to fall by the same amount."
+  },
+  {
+   "job_id": "expansion/high_school_physics/252:B",
+   "reason": "An ideal fluid has no viscosity, so there is no friction anywhere to use up its energy as it moves, and with nothing taking pressure away it stays the same even where the flow speeds up."
+  },
+  {
+   "job_id": "expansion/high_school_physics/254:A",
+   "reason": "To stay synchronized with the base station the protocol keeps the processor awake in a high-power state the whole time, so faster code saves little, and only duty cycling the radio lets the node truly rest."
+  },
+  {
+   "job_id": "expansion/high_school_physics/254:D",
+   "reason": "A transceiver sending or listening draws tens of milliamps while a sleeping microcontroller draws microamps, so the radio dominates the energy budget and switching it off most of the time saves far more than faster code."
+  },
+  {
+   "job_id": "expansion/high_school_physics/255:B",
+   "reason": "Novelty search pushes the robot to keep trying behaviors it has not tried before, which covers the space of solutions much faster than polishing one approach, so it reaches the best way to do the task sooner."
+  },
+  {
+   "job_id": "expansion/high_school_physics/255:D",
+   "reason": "Novelty search rewards behavior that differs from what has already been seen instead of scoring progress on one metric, so evolution keeps exploring and does not get stuck on a deceptive peak of the fitness landscape."
+  },
+  {
+   "job_id": "expansion/high_school_physics/256:A",
+   "reason": "Level A covers hardware whose failure could cause a catastrophic event, and it demands that the whole design and verification process be rigorously controlled, while a gate count tells nothing about whether the design is safe."
+  },
+  {
+   "job_id": "expansion/high_school_physics/256:C",
+   "reason": "More gates means more and longer signal paths, and each extra path is another chance to miss a timing constraint, so a larger device is harder to get meeting the hard real-time deadlines that avionics require."
+  },
+  {
+   "job_id": "expansion/high_school_physics/257:C",
+   "reason": "The charge obeys the same equation as a mass on a spring, with angular frequency one over the square root of LC, and dividing that angular frequency by 2π turns it into the ordinary frequency in hertz."
+  },
+  {
+   "job_id": "expansion/high_school_physics/257:D",
+   "reason": "Each oscillation sweeps through 2π of phase, and the circuit's natural timescale is the square root of LC, so the energy sloshing between capacitor and inductor repeats according to 2π times the square root of LC."
+  },
+  {
+   "job_id": "expansion/high_school_physics/26:B",
+   "reason": "A photon's energy is carried along its wave, so a wave with half the wavelength packs only half as much into each cycle, which leaves the new photon with half the original energy."
+  },
+  {
+   "job_id": "expansion/high_school_physics/26:C",
+   "reason": "Photon energy is Planck's constant times the speed of light divided by the wavelength, so energy and wavelength are inversely proportional, and halving the wavelength doubles the energy."
+  },
+  {
+   "job_id": "expansion/high_school_physics/260:C",
+   "reason": "When kT is much larger than the level spacing, the discrete ladder of states looks effectively continuous, and the quantum average energy reduces to the classical equipartition value of kT per oscillator."
+  },
+  {
+   "job_id": "expansion/high_school_physics/260:D",
+   "reason": "At high temperature higher and higher levels keep filling, and the oscillator's ladder of states never ends, so summing over that unbounded tower makes the average energy run off without limit."
+  },
+  {
+   "job_id": "expansion/high_school_physics/262:C",
+   "reason": "In alkaline calcareous soil the iron-EDTA complex falls apart and the iron drops out as insoluble hydroxide, while EDDHA holds iron tightly and stays dissolved at high pH, so roots can still take it up."
+  },
+  {
+   "job_id": "expansion/high_school_physics/262:D",
+   "reason": "EDDHA acts like the natural organic acids that roots release, feeding soil microbes that free up iron, whereas EDTA is a synthetic compound that harms that biology, and the difference matters most in alkaline soils."
+  },
+  {
+   "job_id": "expansion/high_school_physics/263:C",
+   "reason": "Only the temperature ratio matters for a Carnot engine, and the cold side is half the hot side in kelvin, so half the heat must be rejected and at most the other half becomes work."
+  },
+  {
+   "job_id": "expansion/high_school_physics/263:D",
+   "reason": "Because the hot reservoir is double the cold one, the work available grows with the square of that factor of two, so only one part in four is lost and three parts in four become work."
+  },
+  {
+   "job_id": "expansion/high_school_physics/264:A",
+   "reason": "The Carnot efficiency is one minus 300 over 600, which is 0.5, so of the 1000 J absorbed from the hot reservoir, half is converted into work, giving 500 J."
+  },
+  {
+   "job_id": "expansion/high_school_physics/264:B",
+   "reason": "For a reversible cycle the rejected heat goes with the square of the cold-to-hot temperature ratio, so one half squared means 250 J goes to the cold reservoir, leaving 750 J as work."
+  },
+  {
+   "job_id": "expansion/high_school_physics/265:B",
+   "reason": "Doubling the radius doubles the width of the channel, and in laminar flow the fluid moves in neat parallel layers without mixing, so the volume passing each second scales with the radius and doubles."
+  },
+  {
+   "job_id": "expansion/high_school_physics/265:D",
+   "reason": "Poiseuille's law makes the flow rate proportional to the fourth power of the radius, so with the pressure difference and length unchanged, doubling the radius multiplies the flow by two to the fourth."
+  },
+  {
+   "job_id": "expansion/high_school_physics/266:A",
+   "reason": "Once the graph fixes which variables cause which, adjusting for the right ones makes treated and untreated groups comparable as if they had been assigned at random, recreating a randomized trial inside the observational data."
+  },
+  {
+   "job_id": "expansion/high_school_physics/266:B",
+   "reason": "Which variables to adjust for depends on the causal structure, not on the data alone, and the graph writes that structure down so paths through confounders can be blocked while colliders are left alone."
+  },
+  {
+   "job_id": "expansion/high_school_physics/267:A",
+   "reason": "Classical pictures of space and matter stop working at the scale of the atomic nucleus, around a femtometer, where quantum effects take over completely, so that is the scale where the Planck length belongs."
+  },
+  {
+   "job_id": "expansion/high_school_physics/267:B",
+   "reason": "Combining the reduced Planck constant, the gravitational constant and the speed of light into a length, the square root of ħG over c³, gives a value on the order of 10⁻³⁵ meters, far below nuclear scales."
+  },
+  {
+   "job_id": "expansion/high_school_physics/27:A",
+   "reason": "The single spring has to move both masses at once, so the effective mass it drives doubles to 2m, and the frequency becomes the square root of k over 2m, divided by 2π."
+  },
+  {
+   "job_id": "expansion/high_school_physics/27:D",
+   "reason": "Two equal masses on one spring oscillate about their fixed center of mass with a reduced mass of m over 2, so the angular frequency is the square root of 2k over m, divided by 2π."
+  },
+  {
+   "job_id": "expansion/high_school_physics/270:C",
+   "reason": "Under a rainforest canopy the light is dim and dappled, nothing like the open temperate scenes the model learned from, and without labeled examples taken in that light it fails to pick out endemic animals."
+  },
+  {
+   "job_id": "expansion/high_school_physics/270:D",
+   "reason": "A model trained on temperate images learns to lean on familiar backgrounds as cues, and once the backgrounds change to dense rainforest those cues vanish, so it misses animals that are actually present."
+  },
+  {
+   "job_id": "expansion/high_school_physics/271:B",
+   "reason": "Longer or shorter limbs reach different points for the same angle, so scaling each joint angle by the ratio of limb lengths makes up for the proportions and keeps the motion close to the original."
+  },
+  {
+   "job_id": "expansion/high_school_physics/271:C",
+   "reason": "Retargeting by optimization searches the robot's own joint space for the pose that puts its hands and feet where the scaled human motion puts them, within joint limits, so what the motion achieves is kept."
+  },
+  {
+   "job_id": "expansion/high_school_physics/272:B",
+   "reason": "With the volume fixed, doubling the length halves the cross-sectional area, and resistance goes as length over area, so the doubled length and halved area together raise the resistance fourfold."
+  },
+  {
+   "job_id": "expansion/high_school_physics/272:D",
+   "reason": "Stretching lines up the metal's grains along the wire, and with the same amount of metal now forming a longer, more ordered path the electrons scatter less, so the resistance falls to half."
+  }
+ ]
+}

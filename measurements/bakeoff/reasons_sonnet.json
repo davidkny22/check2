@@ -1,0 +1,206 @@
+{
+  "writer": "sonnet",
+  "started_unix": 1794699003,
+  "finished_unix": 1794699231,
+  "reasons": [
+    {"qid": "q00", "option": "A", "reason": "I'm going with the lowest value, because the paramagnetic term falls as excitation energy rises, and the ammine's 25,600 sits well above water's 18,900, so the shift drops to a bit under half of 16,050."},
+    {"qid": "q00", "option": "B", "reason": "I'm going with a value just over half the water figure, because shift scales with inverse excitation energy measured from the cyanide reference, so the ammine's energy gap gives about half of 16,050."},
+    {"qid": "q00", "option": "C", "reason": "I'm going with a value a little over eleven thousand, because the paramagnetic term goes as inverse energy, so applying the ratio of water's 18,900 to the ammine's 25,600 to 16,050 lands there."},
+    {"qid": "q00", "option": "D", "reason": "I'm going with a value close to the water figure, because the ammine's 25,600 sits much nearer water's 18,900 than cyanide's 40,000, so its shift should be only modestly reduced from 16,050."},
+
+    {"qid": "q01", "option": "A", "reason": "I'm going with the shortest delay, because precession angle equals offset times time, and converting sixty degrees to about 1.05 radians and dividing by 250 radians per second gives a few milliseconds."},
+    {"qid": "q01", "option": "B", "reason": "I'm going with the tens-of-milliseconds delay, because one full turn at 250 radians per second takes about 25 milliseconds, and sixty degrees is a sizeable fraction of a turn, so the delay lands on that scale."},
+    {"qid": "q01", "option": "C", "reason": "I'm going with the quarter-second delay, because angle equals offset times time, so dividing the sixty by the 250 radians per second gives 0.24 seconds, which is 240 milliseconds."},
+    {"qid": "q01", "option": "D", "reason": "I'm going with the delay of about a second and a half, because converting sixty by multiplying by 2π gives roughly 377, and dividing that by 250 radians per second gives about 1.5 seconds."},
+
+    {"qid": "q02", "option": "A", "reason": "I'm going with the heat-releasing one, because a process that proceeds on its own moves downhill in energy, giving heat out to the surroundings, so spontaneity always comes with the system losing enthalpy."},
+    {"qid": "q02", "option": "B", "reason": "I'm going with the no-work one, because a spontaneous process happens by itself, without any outside agent supplying effort, so no work needs to be done on the system for it to proceed."},
+    {"qid": "q02", "option": "C", "reason": "I'm going with the system-entropy one, because spontaneous change spreads energy and matter out, like a gas filling a container, so the system's own disorder must go up whenever the process runs by itself."},
+    {"qid": "q02", "option": "D", "reason": "I'm going with the combined-entropy one, because the second law applies to the system and surroundings together, so a process runs on its own when that total goes up, whatever happens to the system alone."},
+
+    {"qid": "q03", "option": "A", "reason": "I'm going with the three-line pattern, because when exchange coupling is far larger than the hyperfine splitting the pair behaves as one locked unit, and the nitrogen coupling collapses to the simple single-nitrogen pattern."},
+    {"qid": "q03", "option": "B", "reason": "I'm going with the nine-line pattern, because the strongly coupled pair shares all four equivalent nitrogens, and the 2nI+1 rule with four nuclei of spin one gives nine lines."},
+    {"qid": "q03", "option": "C", "reason": "I'm going with the five-line pattern, because one nitronyl nitroxide unit gives five lines from its two equivalent nitrogens, and strong exchange simply makes the second unit's spectrum coincide with the first."},
+    {"qid": "q03", "option": "D", "reason": "I'm going with the seven-line pattern, because strong exchange averages the coupling over the pair, and counting three equivalent nitrogen environments in the 2nI+1 rule gives seven lines in the spectrum."},
+
+    {"qid": "q04", "option": "A", "reason": "I'm going with the idea that the two parties are not properly connected, since an interceptor can only slot between them and relay messages when they lack a direct, established link to one another."},
+    {"qid": "q04", "option": "B", "reason": "I'm going with the failure to authenticate each other, because the key exchange itself never proves who is on the other end, so an interceptor can pose as each side unless identities are verified."},
+    {"qid": "q04", "option": "C", "reason": "I'm going with the parties not having handed over their values properly, because the exchange only works when each public value reaches the other intact, and an interceptor intervenes in that delivery step."},
+    {"qid": "q04", "option": "D", "reason": "I'm going with the parties not holding any prior common secret, because the exchange derives a key from public values alone, so an interceptor can substitute its own values unless something pre-agreed ties the two together."},
+
+    {"qid": "q05", "option": "A", "reason": "I'm going with the wrap-around description, because fixed-width integers cannot hold values beyond their maximum, so an arithmetic result that is too large rolls over and ends up as a tiny or negative number."},
+    {"qid": "q05", "option": "B", "reason": "I'm going with the pointer confusion, because overflow in practice means an integer value gets reinterpreted in a memory-address role, so the program ends up treating a plain number as a location it should not."},
+    {"qid": "q05", "option": "C", "reason": "I'm going with the out-of-bounds buffer access, because an overflowed integer, used as an index or length, lets code read or write beyond a buffer's limits, and that access is what the overflow amounts to."},
+    {"qid": "q05", "option": "D", "reason": "I'm going with the running-out-of-room explanation, because overflow means the storage set aside for integers in the program is used up, so no further integer values can be held once capacity is reached."},
+
+    {"qid": "q06", "option": "A", "reason": "I'm going with the prepend case, because the hash of the key and message lets anyone derive the hash of a new string placed before the key, padded appropriately, without ever knowing the key."},
+    {"qid": "q06", "option": "B", "reason": "I'm going with the plain append case, because given the tag for the key and message, anyone can continue hashing from that state and produce a valid tag with any extra data added on the end."},
+    {"qid": "q06", "option": "C", "reason": "I'm going with the padded append case, because the tag is the hash's internal state after the padding block, so anyone can resume from it and compute the tag for the message, padding, then any suffix."},
+    {"qid": "q06", "option": "D", "reason": "I'm going with the any-message case, because the tag is just a hash of key and message, and since hash functions are public and fast, anyone can produce the tag for whatever message they choose."},
+
+    {"qid": "q07", "option": "A", "reason": "I'm going with authentication, because verifying who sent each message ties it to the real sender, so even if an adversary later breaks into a computer, the earlier messages stay protected from decryption."},
+    {"qid": "q07", "option": "B", "reason": "I'm going with deniability, because it means no one can prove who wrote the earlier messages, so a later compromise of a computer does not let the adversary decrypt or pin those conversations on them."},
+    {"qid": "q07", "option": "C", "reason": "I'm going with forward secrecy, because session keys are discarded after use, so compromising a computer today does not expose the keys that protected last month's messages."},
+    {"qid": "q07", "option": "D", "reason": "I'm going with backward secrecy, because it protects past traffic when keys leak later, since a compromise today cannot be walked back to recover the keys used for the earlier encrypted messages."},
+
+    {"qid": "q08", "option": "A", "reason": "I'm going with the same-as-one-plate case, because the field of an infinite sheet does not depend on distance, and the two plates carry the same charge density, so the gap sees just that single-plate field."},
+    {"qid": "q08", "option": "B", "reason": "I'm going with the doubled field, because each infinite plate produces its own uniform field, and in the gap between them those two contributions point the same way, so they add together."},
+    {"qid": "q08", "option": "C", "reason": "I'm going with the position-dependent field, because the gap field is the sum of the two plates' fields, and that sum varies with where you sit between the plates relative to each surface."},
+    {"qid": "q08", "option": "D", "reason": "I'm going with zero, because each plate's uniform field points away from itself, so in the gap the two same-polarity plates push in opposite directions with equal strength and cancel everywhere between them."},
+
+    {"qid": "q09", "option": "A", "reason": "I'm going with a low resistance, because the moving coil has to pass enough current to produce deflecting torque, so keeping the resistance of its circuit low lets that current flow properly."},
+    {"qid": "q09", "option": "B", "reason": "I'm going with a very low resistance, because the moving coil is a current-carrying part of the meter, and keeping its resistance very low stops the instrument adding burden to the circuit being measured."},
+    {"qid": "q09", "option": "C", "reason": "I'm going with a high resistance, because the moving coil carries the pressure-coil current connected across the supply voltage, so a large resistance keeps that current small and proportional to the voltage."},
+    {"qid": "q09", "option": "D", "reason": "I'm going with almost zero resistance, because the moving coil should add essentially no voltage drop or power loss of its own, so the reading reflects only the power taken by the load."},
+
+    {"qid": "q10", "option": "A", "reason": "I'm going with steady amplitude alone, because an oscillator exists to deliver a constant output level, so holding the amplitude fixed is the requirement that makes the generated signal usable in any circuit."},
+    {"qid": "q10", "option": "B", "reason": "I'm going with steady frequency alone, because an oscillator's whole job is to generate a signal at a fixed frequency, and a drifting frequency would defeat the purpose however constant the output level stays."},
+    {"qid": "q10", "option": "C", "reason": "I'm going with steady power, because an oscillator supplies energy to a load, so a constant delivered power is the necessary requirement that keeps the output dependable over a long period of time."},
+    {"qid": "q10", "option": "D", "reason": "I'm going with the combination of steady amplitude and steady frequency, because a useful oscillator has to hold both its output level and its frequency constant, and each requirement is necessary in its own right."},
+
+    {"qid": "q11", "option": "A", "reason": "I'm going with the lowest voltage, because heating equipment is run at modest levels close to the supply, and about one and a half kilovolts is enough for the purpose without heavy insulation."},
+    {"qid": "q11", "option": "B", "reason": "I'm going with the fifteen-kilovolt level, because it is a moderate working voltage that gives enough field strength for heating while staying practical for insulation and equipment in an industrial setting."},
+    {"qid": "q11", "option": "C", "reason": "I'm going with the thirty-three-kilovolt level, because supplying heating loads at that standard distribution voltage delivers the needed power efficiently, with lower current and losses than the lower voltages offer."},
+    {"qid": "q11", "option": "D", "reason": "I'm going with the highest voltage, because heating needs substantial power, and delivering it at sixty-six kilovolts keeps the current low, which reduces conductor losses and the size of equipment."},
+
+    {"qid": "q12", "option": "A", "reason": "I'm going with the calcium compound, because calcium can form more than one ion in practice, so naming it without a Roman numeral for the charge leaves the compound's identity ambiguous."},
+    {"qid": "q12", "option": "B", "reason": "I'm going with the iron compound, because the nitrate group is polyatomic and the formula holds three of them, so the name ought to include a counting prefix instead of just a Roman numeral."},
+    {"qid": "q12", "option": "C", "reason": "I'm going with the aluminum compound, because a metal and nonmetal ionic compound is named from the ions without counting prefixes, since the metal's fixed charge already settles the ratio of bromide."},
+    {"qid": "q12", "option": "D", "reason": "I'm going with the potassium compound, because the anion has two chromium atoms and seven oxygens, so it needs a more explicit name that states chromium's oxidation state rather than the shorthand."},
+
+    {"qid": "q13", "option": "A", "reason": "I'm going with the temperature condition, because standard potentials are tabulated at room temperature, so twenty-five degrees Celsius is part of what defines the standard state for these reactions."},
+    {"qid": "q13", "option": "B", "reason": "I'm going with the concentration condition, because the standard state fixes dissolved species at one molar, which is the reference that all the tabulated standard electrode potentials are measured against."},
+    {"qid": "q13", "option": "C", "reason": "I'm going with the pressure condition, because the standard state fixes gases at one atmosphere partial pressure, which is the reference against which tabulated potentials for gas electrodes are defined."},
+    {"qid": "q13", "option": "D", "reason": "I'm going with the combination, because the standard state specifies the temperature, one molar concentrations for dissolved species and one atmosphere for gases together, so each condition is part of the definition."},
+
+    {"qid": "q14", "option": "A", "reason": "I'm going with the solid made of discrete molecules, because silicon carbide is built from compact silicon-carbon units held together in a lattice, and that packing gives a hard solid."},
+    {"qid": "q14", "option": "B", "reason": "I'm going with the network of covalent bonds, because every silicon and carbon atom bonds to four neighbours throughout the whole crystal, like diamond, which explains the hardness and the brittleness."},
+    {"qid": "q14", "option": "C", "reason": "I'm going with the metal-type lattice, because silicon sits near the metals in the periodic table and its atoms in the lattice share delocalised electrons, which makes the solid tough and rigid."},
+    {"qid": "q14", "option": "D", "reason": "I'm going with the ion-based lattice, because silicon and carbon differ in electronegativity, so charge separation holds the lattice together with strong electrostatic attraction, giving a hard but brittle solid."},
+
+    {"qid": "q15", "option": "A", "reason": "I'm going with the barium chloride and aluminium sulfate reaction, because with several ions on each side and multiple coefficients needed, tracking the species by ion-electron halves is the systematic way to balance it."},
+    {"qid": "q15", "option": "B", "reason": "I'm going with the hydrogen and hydroxide ions combining, because charge must balance on both sides, and the ion-electron method tracks charge and electrons explicitly, which this ionic equation calls for."},
+    {"qid": "q15", "option": "C", "reason": "I'm going with the sodium hydroxide and phosphoric acid reaction, because the partial neutralisation to the hydrogen phosphate salt moves hydrogen between species in a way that needs careful half-reaction bookkeeping."},
+    {"qid": "q15", "option": "D", "reason": "I'm going with the acetylene and nitrous oxide reaction, because carbon and nitrogen change oxidation states as the gases form carbon dioxide and nitrogen, so electrons are transferred and half-reactions are needed."},
+
+    {"qid": "q16", "option": "A", "reason": "I'm going with the criminal-versus-civil contrast, because the case involves killing and eating a companion, which raises how the two branches of law treat cannibalism differently, and the judges' opinions turn on those differences."},
+    {"qid": "q16", "option": "B", "reason": "I'm going with the broad questions about what law is and how government should work, because the judges' competing opinions each draw on a different theory of law, morality and politics."},
+    {"qid": "q16", "option": "C", "reason": "I'm going with the criticism of judges, because the explorers' case puts the court in a bind between the letter of the statute and moral intuition, showing how judicial decisions in that conflict go wrong."},
+    {"qid": "q16", "option": "D", "reason": "I'm going with the question of mental state in murder, because the explorers killed their companion deliberately under pressure, so the case probes whether intent to kill is enough to make the act murder."},
+
+    {"qid": "q17", "option": "A", "reason": "I'm going with the relativity of fairness, because what counts as fair differs from person to person and culture to culture, so fairness cannot ground an obligation that applies to everyone alike."},
+    {"qid": "q17", "option": "B", "reason": "I'm going with the unfairness of the legal system, because the benefits-and-burdens argument only holds if the scheme distributes them fairly, and where it does not, no duty of fair play arises toward it."},
+    {"qid": "q17", "option": "C", "reason": "I'm going with the bad example point, because a duty grounded on fair play, applied broadly, encourages people to follow whatever benefits them, which models poor conduct for the wider community."},
+    {"qid": "q17", "option": "D", "reason": "I'm going with the irrationality and ambiguity of the law, because people cannot owe cooperation to rules whose content is unclear or senseless, so a duty of fair play toward them has nothing definite to attach to."},
+
+    {"qid": "q18", "option": "A", "reason": "I'm going with their vagueness, because words like justice and truth have no fixed content, so in practice they can be filled with whatever the powerful prefer, which is why those theorists distrust them."},
+    {"qid": "q18", "option": "B", "reason": "I'm going with their record of failure, because decades of appeals to neutrality and justice have not delivered racial equality, which gives those theorists reason to see the concepts as hollow."},
+    {"qid": "q18", "option": "C", "reason": "I'm going with their detachment from present conditions, because those ideals were framed in a different era and speak to circumstances that no longer match how racism operates in society today."},
+    {"qid": "q18", "option": "D", "reason": "I'm going with their foreignness to people of colour, because these ideas come out of a majority tradition and do not reflect the experiences or values of most communities of colour."},
+
+    {"qid": "q19", "option": "A", "reason": "I'm going with the correspondence of natural law and positive law, because Finnis holds that legal rules should track natural law, which conflicts with Hume's separation of reason from questions of what ought to be."},
+    {"qid": "q19", "option": "B", "reason": "I'm going with Hume's positivism, because Finnis is a natural lawyer and objects to Hume's view of law as a matter of what is posited rather than anything rooted in reason."},
+    {"qid": "q19", "option": "C", "reason": "I'm going with the falsity of syllogistic logic, because Hume's account of reasoning from premises to conclusions is what Finnis attacks, claiming that deductive inference fails to deliver practical guidance."},
+    {"qid": "q19", "option": "D", "reason": "I'm going with reason's ability to identify a worthwhile life, because Finnis argues practical reason can grasp basic goods, whereas Hume made reason the servant of the passions with no role in choosing ends."},
+
+    {"qid": "q20", "option": "A", "reason": "I'm going with the comedy act, because the name sounds like a sketch group, and a performing troupe from the nineteen-sixties would plausibly pick a cheeky name that plays on pretending to be ignorant."},
+    {"qid": "q20", "option": "B", "reason": "I'm going with the machine builders, because the name evokes people who design systems without needing to know every detail of the hardware, a stance engineers might adopt about the internal workings."},
+    {"qid": "q20", "option": "C", "reason": "I'm going with the organization in politics, because the name was given to a nativist movement of the mid-nineteenth century whose members answered questions about their organisation by saying they knew nothing."},
+    {"qid": "q20", "option": "D", "reason": "I'm going with the espionage network, because a clandestine group would want its members to say they knew nothing when questioned, so the nickname fits an intelligence ring sworn to secrecy."},
+
+    {"qid": "q21", "option": "A", "reason": "I'm going with the iron and sulfur mixture, because heating it starts a vigorous exothermic reaction that can spit hot material and release sulfur dioxide, which is hazardous in a school laboratory."},
+    {"qid": "q21", "option": "B", "reason": "I'm going with the mercury compound, because heating it breaks it down into oxygen and mercury, and mercury vapour is toxic, so it carries the greatest danger for students and staff in a lab."},
+    {"qid": "q21", "option": "C", "reason": "I'm going with the table salt, because heating it can make crystals crackle and throw hot fragments out of the container, which risks burns and eye injury in a crowded classroom."},
+    {"qid": "q21", "option": "D", "reason": "I'm going with the hydrated copper salt, because heating drives off its water and can make the crystals spit, with hot, irritating copper compounds being released, which poses real risk to students."},
+
+    {"qid": "q22", "option": "A", "reason": "I'm going with the actor known for tough crime roles, because he was a leading man, and that kind of star would plausibly front a long-running network series with his own first name in the title."},
+    {"qid": "q22", "option": "B", "reason": "I'm going with the stand-up comedian, because the show's title uses his first name, and the sitcom was built around his humour about family life with his wife, parents and children."},
+    {"qid": "q22", "option": "C", "reason": "I'm going with the musician best known for a hit theme song, because a performer with that kind of mass appeal could well have been cast as the star of a family sitcom."},
+    {"qid": "q22", "option": "D", "reason": "I'm going with the champion boxer, because the show's title uses a Ray first name, and a famous sports celebrity with that name could have been the face of a hit sitcom."},
+
+    {"qid": "q23", "option": "A", "reason": "I'm going with the sport of the ring, because a cage around the ring would keep a fighter from escaping, and steel enclosures turn up around heavyweight bouts that are staged as spectacles."},
+    {"qid": "q23", "option": "B", "reason": "I'm going with the sport of the blade, because it already uses a long strip with metal, conductive equipment, so a steel cage setup fits its competitions, where a bout is scored by touches."},
+    {"qid": "q23", "option": "C", "reason": "I'm going with staged wrestling, because a steel cage is a stipulation in which wrestlers are enclosed in a cage and the match ends by escape or pinfall."},
+    {"qid": "q23", "option": "D", "reason": "I'm going with the campus hoops game, because backboards, rims and arenas feature caged or steel structures, and a cage match style of play suits a fast-paced team sport at colleges."},
+
+    {"qid": "q24", "option": "A", "reason": "I'm going with sixty-four grams, because 36.0 grams of water is two moles at 18 grams each, and two moles of oxygen molecules at 32 grams each comes to 64 grams."},
+    {"qid": "q24", "option": "B", "reason": "I'm going with thirty-two grams, because water has one oxygen atom per molecule, so its 36.0 grams contains two moles of oxygen atoms, which is the amount carried by one molar mass of oxygen gas."},
+    {"qid": "q24", "option": "C", "reason": "I'm going with sixteen grams, because oxygen's atomic mass is 16 and water at 18 is close to it per particle, so for a matching molecule count the masses should be on the same scale."},
+    {"qid": "q24", "option": "D", "reason": "I'm going with eight grams, because oxygen molecules pair atoms, so matching the molecule count of two moles of water needs only a quarter of the 32-gram mole mass, which comes to eight grams."},
+
+    {"qid": "q25", "option": "A", "reason": "I'm going with the process of plants transpiring, because water leaving the leaves as vapour through the stomata is what that term describes in plant physiology, so it names this loss."},
+    {"qid": "q25", "option": "B", "reason": "I'm going with the breathing-related process, because plants respire through their leaves, and water vapour leaves the plant along with the gases exchanged during that process."},
+    {"qid": "q25", "option": "C", "reason": "I'm going with the oxidising process, because plants break down sugars with oxygen, and the water produced by those reactions leaves the plant as vapour."},
+    {"qid": "q25", "option": "D", "reason": "I'm going with the condensing process, because water vapour on leaf surfaces moves between liquid and gas phases, and the loss from the plant is the result of that phase change."},
+
+    {"qid": "q26", "option": "A", "reason": "I'm going with the tally of mistakes, because grading each essay by counting how many errors it contains and how varied they are gives a systematic basis for scoring."},
+    {"qid": "q26", "option": "B", "reason": "I'm going with sentence length and complexity, because measurable features such as average sentence length and syntactic sophistication give a consistent whole-essay indicator of the writer's skill."},
+    {"qid": "q26", "option": "C", "reason": "I'm going with range across discourse modes, because a holistic judgement asks whether the writer can handle narrating, describing, explaining and arguing, which shows overall communicative ability."},
+    {"qid": "q26", "option": "D", "reason": "I'm going with overall quality against the topic, because holistic means taking the essay as a whole and giving a single impression-based judgement of how well it addresses what was asked."},
+
+    {"qid": "q27", "option": "A", "reason": "I'm going with the door-to-door arrangement, because it is carried out by independent sales representatives who go to the customer, so the scenario centres on salespeople and buyers rather than a manufacturer."},
+    {"qid": "q27", "option": "B", "reason": "I'm going with the backward flow, because it carries used goods and packaging from consumers back through collectors and processors, so the movement is among those parties rather than starting with the original maker."},
+    {"qid": "q27", "option": "C", "reason": "I'm going with the middleman route, because it consists of intermediaries like wholesalers and retailers passing goods along, so what defines the scenario is the middle links rather than the manufacturer."},
+    {"qid": "q27", "option": "D", "reason": "I'm going with the two-outlet setup, because it describes how one firm reaches customers through two kinds of outlets at once, which is an arrangement among sellers, not manufacturing itself."},
+
+    {"qid": "q28", "option": "A", "reason": "I'm going with the woman winning on equal protection, because a gender classification must be substantially related to an important state interest, and a paternalistic worry about women's safety is not shown to meet that standard."},
+    {"qid": "q28", "option": "B", "reason": "I'm going with the woman winning on privileges or immunities, because state employment is a benefit of citizenship, and gender-based exclusion from a position abridges the rights citizens hold under that clause."},
+    {"qid": "q28", "option": "C", "reason": "I'm going with the state winning on police power, because a state may set the conditions of its own employment, and its concern for officers' safety falls within that power."},
+    {"qid": "q28", "option": "D", "reason": "I'm going with the state winning on a rational basis, because protecting officers from danger is a plausible goal and the policy is reasonably tied to it, so a court should defer to the officials."},
+
+    {"qid": "q29", "option": "A", "reason": "I'm going with strict liability for excavation, because digging a deep trench beside a neighbour's land is abnormally dangerous, and the neighbour answers absolutely for the damage regardless of any care taken."},
+    {"qid": "q29", "option": "B", "reason": "I'm going with the right of lateral support, because every landowner is entitled to have land in its natural condition supported by the neighbouring soil, and removing that support by excavating makes the neighbour liable."},
+    {"qid": "q29", "option": "C", "reason": "I'm going with the neighbour's side on trespass, because all the digging stayed on his own parcel, and an owner does what he likes on his land without having entered or physically invaded the homeowner's property."},
+    {"qid": "q29", "option": "D", "reason": "I'm going with the neighbour's side on statute, because lateral support is a common law right and statutes in nearly every state have replaced it, so the homeowner has no enforceable right to rely on."},
+
+    {"qid": "q30", "option": "A", "reason": "I'm going with admitting the entire treatise, because once the professor accepted it as authoritative, it becomes admissible as a whole, so the judge will overrule and let all of it come into evidence."},
+    {"qid": "q30", "option": "B", "reason": "I'm going with overruling and admitting only the contradicting statements, because an authoritative treatise can be read to the jury on the points that contradict the professor's testimony, not as a whole."},
+    {"qid": "q30", "option": "C", "reason": "I'm going with sustaining the objection for hearsay, because the treatise is an out-of-court statement offered for its truth, and the prosecutor has pointed to no recognised exception that lets it in."},
+    {"qid": "q30", "option": "D", "reason": "I'm going with sustaining the objection on reliance, since a treatise comes in only when the expert actually relied on it for his conclusions, and the professor did not do that here."},
+
+    {"qid": "q31", "option": "A", "reason": "I'm going with the construction company recovering, because a builder who completes work and delivers a building is owed payment for what was done, whatever small imperfections come up along the way."},
+    {"qid": "q31", "option": "B", "reason": "I'm going with the paper company winning, because the contract set specifications, and a contractor who changes them unilaterally cannot demand payment for work that differs from what was agreed."},
+    {"qid": "q31", "option": "C", "reason": "I'm going with the paper company winning on fraud, because substituting materials without telling the buyer misrepresents what was delivered, and a party guilty of that cannot recover on the contract."},
+    {"qid": "q31", "option": "D", "reason": "I'm going with the construction company winning on substantial compliance, because the deviations were minor and forced by unavailable materials, so the building serves its purpose and payment is owed less any damages."},
+
+    {"qid": "q32", "option": "A", "reason": "I'm going with the farmer, because he bought without notice of the sister's deed and recorded, and under a notice statute a later purchaser without notice takes priority over an earlier unrecorded deed."},
+    {"qid": "q32", "option": "B", "reason": "I'm going with the sister, because she took her deed first in time, and her recording on February 6 protects it against everyone, including purchasers who came later."},
+    {"qid": "q32", "option": "C", "reason": "I'm going with the friend, because he paid value and recorded his deed before the sister recorded hers, and the order of recording is what decides priority in the dispute."},
+    {"qid": "q32", "option": "D", "reason": "I'm going with the man, because he recorded his purchase from the woman first and the later conveyances were handled irregularly, so title stays with the original recorded purchaser."},
+
+    {"qid": "q33", "option": "A", "reason": "I'm going with attempted burglary, robbery and attempted murder, because entering the meeting room to take property begins a burglary, the taking by threat completes a robbery, and the injury to the second victim was attempted murder."},
+    {"qid": "q33", "option": "B", "reason": "I'm going with false imprisonment, attempted murder and murder, because holding the club members in the room restrained them, one victim died, and the injured one was struck with intent to kill."},
+    {"qid": "q33", "option": "C", "reason": "I'm going with false imprisonment, robbery, aggravated assault and murder, because they confined the group, took property by threat of force, badly injured one victim, and killed another in the same episode."},
+    {"qid": "q33", "option": "D", "reason": "I'm going with false imprisonment, attempted robbery and first degree murder, because they found little loot, so the robbery did not succeed, and the killing followed a planned course of conduct."},
+
+    {"qid": "q34", "option": "A", "reason": "I'm going with the partnership being bound, because every general partner is an agent of the firm, and ordinary purchases for the business made by any partner bind it regardless of how involved he has been."},
+    {"qid": "q34", "option": "B", "reason": "I'm going with the silent partner lacking power, because silent partners are only investors with no role in running the business, so they cannot make contracts that bind the partnership."},
+    {"qid": "q34", "option": "C", "reason": "I'm going with the name-based notice argument, because third parties dealing with the business see only Pete's name on it, so they are on notice that Bill, whose name is absent, has no authority."},
+    {"qid": "q34", "option": "D", "reason": "I'm going with the sale being set aside, because Bill, as a silent partner, was not authorised to purchase on the firm's behalf, so the supplier's contract can be unwound by the partnership."},
+
+    {"qid": "q35", "option": "A", "reason": "I'm going with payment as a condition that comes before the painter must work, because the contract ties the painter's duty to receiving the $10,000 first, so payment is an express precondition of performance."},
+    {"qid": "q35", "option": "B", "reason": "I'm going with payment as a condition subsequent, because the homeowner's duty to pay arises only after the job is done and found satisfactory, and non-payment would then end the painter's duty afterward."},
+    {"qid": "q35", "option": "C", "reason": "I'm going with the painter's work as a condition that must come before payment, because the contract says the homeowner pays within a week after the job is completed and found satisfactory, so finishing comes first."},
+    {"qid": "q35", "option": "D", "reason": "I'm going with concurrent conditions, because each side's duty is exchanged for the other's, with painting and payment being parts of one bargain that each party performs in return for the other."},
+
+    {"qid": "q36", "option": "A", "reason": "I'm going with self-determination as the concern, because the human rights wing of liberalism treats peoples' ability to govern themselves as the natural expression of individual rights, which shapes its preoccupation."},
+    {"qid": "q36", "option": "B", "reason": "I'm going with the support for separatism, because where conflict and bloodshed seem unavoidable otherwise, the human rights wing of liberalism backs separation of the groups to protect people from violence."},
+    {"qid": "q36", "option": "C", "reason": "I'm going with the focus on persecuted and deprived people, because the human rights wing of liberalism concentrates on those suffering economic, sexual, gender, religious or political discrimination, and that is what the preoccupation amounts to."},
+    {"qid": "q36", "option": "D", "reason": "I'm going with the full set together, because the human rights wing of liberalism pursues self-determination, backs separation where bloodshed looms, and focuses on persecuted groups, so each statement describes its preoccupation."},
+
+    {"qid": "q37", "option": "A", "reason": "I'm going with the territorial affiliation point, because a hierarchical picture ties each criminal group to a state or ethnic-cultural base, so policy should treat the groups as local and limited in transnational reach."},
+    {"qid": "q37", "option": "B", "reason": "I'm going with the over-inflated threat point, because hierarchical analysts hold that officials exaggerate violence and wealth, so policy should reduce alarm and treat the danger to the licit economy as much smaller."},
+    {"qid": "q37", "option": "C", "reason": "I'm going with the adaptable small-group point, because a hierarchical vision stresses resilience, with supply meeting demand, so policy needs to accept that law enforcement efforts built around rigid ranks will struggle."},
+    {"qid": "q37", "option": "D", "reason": "I'm going with the central leadership point, because hierarchical groups run profit-driven crime under centralised command, so policy should target their proceeds or leaders to cut their threat to the legitimate economy."},
+
+    {"qid": "q38", "option": "A", "reason": "I'm going with the struggle for recognition, because human security has been slow to win acceptance among scholars and policy makers, who have generally failed to see its political and academic worth."},
+    {"qid": "q38", "option": "B", "reason": "I'm going with the mid-1990s rise, because human security gained currency then and highlighted intra-state violence, which became the dominant issue for post-Cold War security studies."},
+    {"qid": "q38", "option": "C", "reason": "I'm going with the complement to state-centric realism, because human security accepts the state's role in guarding against external attack, while showing that realism is insufficient since it ignores people's security inside states."},
+    {"qid": "q38", "option": "D", "reason": "I'm going with the dominant-concept view, because after the Cold War the state-centric paradigm lost relevance, and individuals within states are now universally taken as the focal point of security studies."},
+
+    {"qid": "q39", "option": "A", "reason": "I'm going with the legal framework element, because a comprehensive control system starts with arms trade rules and laws that carry penalties, which governments should include so that violations are punished."},
+    {"qid": "q39", "option": "B", "reason": "I'm going with the marking element, because governments should ensure weapons producers mark defence items with unique marks, which makes tracing possible, and tracing is a defining feature of a comprehensive control system."},
+    {"qid": "q39", "option": "C", "reason": "I'm going with the stockpile element, because police and military forces should secure weapons stockpiles, and national authorities should collect and destroy old or surplus weaponry, which closes off diversion."},
+    {"qid": "q39", "option": "D", "reason": "I'm going with the combination, because a comprehensive system includes laws and penalties, unique marking of defence items, and secure stockpiles with destruction of surplus weapons, so each element belongs to it."}
+  ]
+}

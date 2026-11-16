@@ -1,0 +1,1087 @@
+{
+ "checks": {
+  "review": {
+   "reviewed": 200,
+   "key_target": {
+    "sound": 102,
+    "unsound": 1,
+    "unclear": 0
+   },
+   "other_target": {
+    "sound": 0,
+    "unsound": 93,
+    "unclear": 4
+   },
+   "other_plausible": {
+    "plausible": 64,
+    "weak": 32,
+    "nonsense": 1
+   },
+   "does_not_support_own_option": 0,
+   "contradicted": 1,
+   "contradicted_share": 0.005
+  },
+  "style": {
+   "reasons": 10880,
+   "key_target": 5440,
+   "auroc": 0.7479
+  },
+  "pairs_kept": 10876,
+  "removed": 4,
+  "removed_by_first_sample": 3,
+  "removed_by_first_sample_in_this_sample": 0,
+  "per_subject": {
+   "abstract_algebra": {
+    "pairs": 528,
+    "with_reason": 528,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 528,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 9,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 528
+   },
+   "astronomy": {
+    "pairs": 456,
+    "with_reason": 456,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 456,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 8,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 456
+   },
+   "college_computer_science": {
+    "pairs": 510,
+    "with_reason": 510,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 510,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 7,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 510
+   },
+   "college_mathematics": {
+    "pairs": 422,
+    "with_reason": 422,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 272,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 150,
+    "set_aside": 0,
+    "reviewed": 7,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 422
+   },
+   "college_physics": {
+    "pairs": 476,
+    "with_reason": 476,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 476,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 8,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 476
+   },
+   "conceptual_physics": {
+    "pairs": 510,
+    "with_reason": 510,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 510,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 7,
+    "contradicted": 0,
+    "removed": 1,
+    "kept": 509
+   },
+   "econometrics": {
+    "pairs": 562,
+    "with_reason": 562,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 562,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 4,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 562
+   },
+   "elementary_mathematics": {
+    "pairs": 526,
+    "with_reason": 526,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 226,
+    "reasons_from_writer10": 30,
+    "reasons_from_writer30": 270,
+    "set_aside": 0,
+    "reviewed": 8,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 526
+   },
+   "formal_logic": {
+    "pairs": 456,
+    "with_reason": 456,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 456,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 10,
+    "contradicted": 0,
+    "removed": 1,
+    "kept": 455
+   },
+   "high_school_computer_science": {
+    "pairs": 542,
+    "with_reason": 542,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 542,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 4,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 542
+   },
+   "high_school_geography": {
+    "pairs": 708,
+    "with_reason": 708,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 708,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 14,
+    "contradicted": 1,
+    "removed": 1,
+    "kept": 707
+   },
+   "high_school_macroeconomics": {
+    "pairs": 272,
+    "with_reason": 272,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 154,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 118,
+    "set_aside": 0,
+    "reviewed": 4,
+    "contradicted": 0,
+    "removed": 1,
+    "kept": 271
+   },
+   "high_school_mathematics": {
+    "pairs": 332,
+    "with_reason": 332,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 0,
+    "reasons_from_writer10": 120,
+    "reasons_from_writer30": 212,
+    "set_aside": 0,
+    "reviewed": 2,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 332
+   },
+   "high_school_microeconomics": {
+    "pairs": 452,
+    "with_reason": 452,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 452,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 11,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 452
+   },
+   "high_school_physics": {
+    "pairs": 532,
+    "with_reason": 532,
+    "reasons_from_sonnet10": 10,
+    "reasons_from_writer": 380,
+    "reasons_from_writer10": 20,
+    "reasons_from_writer30": 122,
+    "set_aside": 10,
+    "reviewed": 11,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 532
+   },
+   "high_school_statistics": {
+    "pairs": 560,
+    "with_reason": 560,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 560,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 9,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 560
+   },
+   "logical_fallacies": {
+    "pairs": 512,
+    "with_reason": 512,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 512,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 15,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 512
+   },
+   "machine_learning": {
+    "pairs": 570,
+    "with_reason": 570,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 570,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 15,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 570
+   },
+   "management": {
+    "pairs": 584,
+    "with_reason": 584,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 584,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 17,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 584
+   },
+   "marketing": {
+    "pairs": 546,
+    "with_reason": 546,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 546,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 15,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 546
+   },
+   "philosophy": {
+    "pairs": 292,
+    "with_reason": 292,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 292,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 5,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 292
+   },
+   "professional_accounting": {
+    "pairs": 532,
+    "with_reason": 532,
+    "reasons_from_sonnet10": 0,
+    "reasons_from_writer": 532,
+    "reasons_from_writer10": 0,
+    "reasons_from_writer30": 0,
+    "set_aside": 0,
+    "reviewed": 10,
+    "contradicted": 0,
+    "removed": 0,
+    "kept": 532
+   }
+  }
+ },
+ "keep": {
+  "abstract_algebra": {
+   "curated": 291,
+   "answer_equals_key": 280,
+   "problems": {
+    "none": 271,
+    "no_correct_option": 5,
+    "more_than_one_correct": 14,
+    "unclear_question": 1
+   },
+   "kept_by_curator": 264,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 264,
+   "options_reordered": 261,
+   "options_kept_in_order": 3
+  },
+  "astronomy": {
+   "curated": 296,
+   "answer_equals_key": 277,
+   "problems": {
+    "none": 229,
+    "no_correct_option": 3,
+    "more_than_one_correct": 26,
+    "unclear_question": 38
+   },
+   "kept_by_curator": 228,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 228,
+   "options_reordered": 228,
+   "options_kept_in_order": 0
+  },
+  "college_computer_science": {
+   "curated": 293,
+   "answer_equals_key": 270,
+   "problems": {
+    "none": 265,
+    "no_correct_option": 16,
+    "more_than_one_correct": 9,
+    "unclear_question": 3
+   },
+   "kept_by_curator": 255,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 255,
+   "options_reordered": 252,
+   "options_kept_in_order": 3
+  },
+  "college_mathematics": {
+   "curated": 297,
+   "answer_equals_key": 234,
+   "problems": {
+    "none": 246,
+    "no_correct_option": 36,
+    "more_than_one_correct": 10,
+    "unclear_question": 5
+   },
+   "kept_by_curator": 211,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 211,
+   "options_reordered": 210,
+   "options_kept_in_order": 1
+  },
+  "college_physics": {
+   "curated": 299,
+   "answer_equals_key": 255,
+   "problems": {
+    "none": 268,
+    "no_correct_option": 22,
+    "more_than_one_correct": 0,
+    "unclear_question": 9
+   },
+   "kept_by_curator": 238,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 238,
+   "options_reordered": 238,
+   "options_kept_in_order": 0
+  },
+  "conceptual_physics": {
+   "curated": 292,
+   "answer_equals_key": 282,
+   "problems": {
+    "none": 260,
+    "no_correct_option": 4,
+    "more_than_one_correct": 2,
+    "unclear_question": 26
+   },
+   "kept_by_curator": 256,
+   "dropped_repeat_of_earlier_subject": 1,
+   "kept": 255,
+   "options_reordered": 254,
+   "options_kept_in_order": 1
+  },
+  "econometrics": {
+   "curated": 300,
+   "answer_equals_key": 283,
+   "problems": {
+    "none": 294,
+    "no_correct_option": 3,
+    "more_than_one_correct": 2,
+    "unclear_question": 1
+   },
+   "kept_by_curator": 281,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 281,
+   "options_reordered": 275,
+   "options_kept_in_order": 6
+  },
+  "elementary_mathematics": {
+   "curated": 295,
+   "answer_equals_key": 270,
+   "problems": {
+    "none": 281,
+    "no_correct_option": 9,
+    "more_than_one_correct": 4,
+    "unclear_question": 1
+   },
+   "kept_by_curator": 263,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 263,
+   "options_reordered": 263,
+   "options_kept_in_order": 0
+  },
+  "formal_logic": {
+   "curated": 297,
+   "answer_equals_key": 272,
+   "problems": {
+    "none": 236,
+    "no_correct_option": 0,
+    "more_than_one_correct": 61,
+    "unclear_question": 0
+   },
+   "kept_by_curator": 228,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 228,
+   "options_reordered": 212,
+   "options_kept_in_order": 16
+  },
+  "high_school_computer_science": {
+   "curated": 286,
+   "answer_equals_key": 275,
+   "problems": {
+    "none": 278,
+    "no_correct_option": 3,
+    "more_than_one_correct": 2,
+    "unclear_question": 3
+   },
+   "kept_by_curator": 271,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 271,
+   "options_reordered": 270,
+   "options_kept_in_order": 1
+  },
+  "high_school_geography": {
+   "curated": 389,
+   "answer_equals_key": 384,
+   "problems": {
+    "none": 355,
+    "no_correct_option": 5,
+    "more_than_one_correct": 13,
+    "unclear_question": 16
+   },
+   "kept_by_curator": 354,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 354,
+   "options_reordered": 352,
+   "options_kept_in_order": 2
+  },
+  "high_school_macroeconomics": {
+   "curated": 148,
+   "answer_equals_key": 145,
+   "problems": {
+    "none": 137,
+    "no_correct_option": 3,
+    "more_than_one_correct": 2,
+    "unclear_question": 6
+   },
+   "kept_by_curator": 136,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 136,
+   "options_reordered": 136,
+   "options_kept_in_order": 0
+  },
+  "high_school_mathematics": {
+   "curated": 260,
+   "answer_equals_key": 179,
+   "problems": {
+    "none": 212,
+    "no_correct_option": 44,
+    "more_than_one_correct": 2,
+    "unclear_question": 2
+   },
+   "kept_by_curator": 166,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 166,
+   "options_reordered": 166,
+   "options_kept_in_order": 0
+  },
+  "high_school_microeconomics": {
+   "curated": 297,
+   "answer_equals_key": 241,
+   "problems": {
+    "none": 228,
+    "no_correct_option": 1,
+    "more_than_one_correct": 2,
+    "unclear_question": 66
+   },
+   "kept_by_curator": 226,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 226,
+   "options_reordered": 226,
+   "options_kept_in_order": 0
+  },
+  "high_school_physics": {
+   "curated": 295,
+   "answer_equals_key": 283,
+   "problems": {
+    "none": 274,
+    "no_correct_option": 9,
+    "more_than_one_correct": 7,
+    "unclear_question": 5
+   },
+   "kept_by_curator": 266,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 266,
+   "options_reordered": 265,
+   "options_kept_in_order": 1
+  },
+  "high_school_statistics": {
+   "curated": 295,
+   "answer_equals_key": 288,
+   "problems": {
+    "none": 283,
+    "no_correct_option": 5,
+    "more_than_one_correct": 4,
+    "unclear_question": 3
+   },
+   "kept_by_curator": 280,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 280,
+   "options_reordered": 277,
+   "options_kept_in_order": 3
+  },
+  "logical_fallacies": {
+   "curated": 298,
+   "answer_equals_key": 281,
+   "problems": {
+    "none": 262,
+    "no_correct_option": 8,
+    "more_than_one_correct": 25,
+    "unclear_question": 3
+   },
+   "kept_by_curator": 256,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 256,
+   "options_reordered": 256,
+   "options_kept_in_order": 0
+  },
+  "machine_learning": {
+   "curated": 300,
+   "answer_equals_key": 291,
+   "problems": {
+    "none": 292,
+    "no_correct_option": 1,
+    "more_than_one_correct": 0,
+    "unclear_question": 7
+   },
+   "kept_by_curator": 285,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 285,
+   "options_reordered": 285,
+   "options_kept_in_order": 0
+  },
+  "management": {
+   "curated": 295,
+   "answer_equals_key": 294,
+   "problems": {
+    "none": 293,
+    "no_correct_option": 1,
+    "more_than_one_correct": 0,
+    "unclear_question": 1
+   },
+   "kept_by_curator": 292,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 292,
+   "options_reordered": 291,
+   "options_kept_in_order": 1
+  },
+  "marketing": {
+   "curated": 294,
+   "answer_equals_key": 286,
+   "problems": {
+    "none": 276,
+    "no_correct_option": 3,
+    "more_than_one_correct": 9,
+    "unclear_question": 6
+   },
+   "kept_by_curator": 273,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 273,
+   "options_reordered": 272,
+   "options_kept_in_order": 1
+  },
+  "philosophy": {
+   "curated": 149,
+   "answer_equals_key": 148,
+   "problems": {
+    "none": 146,
+    "no_correct_option": 1,
+    "more_than_one_correct": 2,
+    "unclear_question": 0
+   },
+   "kept_by_curator": 146,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 146,
+   "options_reordered": 146,
+   "options_kept_in_order": 0
+  },
+  "professional_accounting": {
+   "curated": 291,
+   "answer_equals_key": 278,
+   "problems": {
+    "none": 276,
+    "no_correct_option": 7,
+    "more_than_one_correct": 4,
+    "unclear_question": 4
+   },
+   "kept_by_curator": 266,
+   "dropped_repeat_of_earlier_subject": 0,
+   "kept": 266,
+   "options_reordered": 266,
+   "options_kept_in_order": 0
+  }
+ },
+ "pairs": {
+  "first_answers": "used",
+  "questions": 5440,
+  "first_answers_given": 5440,
+  "complying": 5412,
+  "wrong_first": 703,
+  "pairs": 10880,
+  "writer_files": {
+   "writer_001.json": 150,
+   "writer_002.json": 150,
+   "writer_003.json": 150,
+   "writer_004.json": 150,
+   "writer_005.json": 150,
+   "writer_006.json": 150,
+   "writer_007.json": 150,
+   "writer_008.json": 150,
+   "writer_009.json": 150,
+   "writer_010.json": 150,
+   "writer_011.json": 150,
+   "writer_012.json": 150,
+   "writer_013.json": 150,
+   "writer_014.json": 150,
+   "writer_015.json": 150,
+   "writer_016.json": 150,
+   "writer_017.json": 150,
+   "writer_018.json": 150,
+   "writer_019.json": 150,
+   "writer_020.json": 150,
+   "writer_021.json": 150,
+   "writer_022.json": 150,
+   "writer_023.json": 150,
+   "writer_024.json": 150,
+   "writer_025.json": 150,
+   "writer_026.json": 150,
+   "writer_027.json": 150,
+   "writer_028.json": 150,
+   "writer_029.json": 150,
+   "writer_030.json": 150,
+   "writer_031.json": 150,
+   "writer_032.json": 150,
+   "writer_033.json": 150,
+   "writer_034.json": 150,
+   "writer_035.json": 150,
+   "writer_036.json": 150,
+   "writer_037.json": 150,
+   "writer_038.json": 150,
+   "writer_039.json": 150,
+   "writer_040.json": 150,
+   "writer_041.json": 150,
+   "writer_042.json": 150,
+   "writer_043.json": 150,
+   "writer_044.json": 150,
+   "writer_045.json": 150,
+   "writer_046.json": 150,
+   "writer_047.json": 150,
+   "writer_048.json": 150,
+   "writer_049.json": 150,
+   "writer_050.json": 150,
+   "writer_051.json": 150,
+   "writer_052.json": 150,
+   "writer_053.json": 150,
+   "writer_054.json": 150,
+   "writer_055.json": 150,
+   "writer_056.json": 150,
+   "writer_057.json": 150,
+   "writer_058.json": 150,
+   "writer_059.json": 150,
+   "writer_060.json": 150,
+   "writer_061.json": 150,
+   "writer_062.json": 150,
+   "writer_063.json": 150,
+   "writer_064.json": 150,
+   "writer_065.json": 150,
+   "writer_066.json": 150,
+   "writer_067.json": 150,
+   "writer_068.json": 150,
+   "writer_069.json": 150,
+   "writer_070.json": 150,
+   "writer_071.json": 150,
+   "writer_072.json": 150,
+   "writer_073.json": 80
+  }
+ },
+ "parse": {
+  "abstract_algebra": {
+   "rows": 362,
+   "does_not_split": 3,
+   "key_not_a_letter": 0,
+   "usable": 359,
+   "dropped_pool_or_seed": 62,
+   "dropped_repeat": 6,
+   "for_curation": 291
+  },
+  "astronomy": {
+   "rows": 365,
+   "does_not_split": 0,
+   "key_not_a_letter": 0,
+   "usable": 365,
+   "dropped_pool_or_seed": 65,
+   "dropped_repeat": 4,
+   "for_curation": 296
+  },
+  "college_computer_science": {
+   "rows": 357,
+   "does_not_split": 2,
+   "key_not_a_letter": 0,
+   "usable": 355,
+   "dropped_pool_or_seed": 61,
+   "dropped_repeat": 1,
+   "for_curation": 293
+  },
+  "college_mathematics": {
+   "rows": 298,
+   "does_not_split": 1,
+   "key_not_a_letter": 0,
+   "usable": 297,
+   "dropped_pool_or_seed": 0,
+   "dropped_repeat": 0,
+   "for_curation": 297
+  },
+  "college_physics": {
+   "rows": 367,
+   "does_not_split": 0,
+   "key_not_a_letter": 0,
+   "usable": 367,
+   "dropped_pool_or_seed": 67,
+   "dropped_repeat": 1,
+   "for_curation": 299
+  },
+  "conceptual_physics": {
+   "rows": 365,
+   "does_not_split": 1,
+   "key_not_a_letter": 0,
+   "usable": 364,
+   "dropped_pool_or_seed": 69,
+   "dropped_repeat": 3,
+   "for_curation": 292
+  },
+  "econometrics": {
+   "rows": 365,
+   "does_not_split": 17,
+   "key_not_a_letter": 0,
+   "usable": 348,
+   "dropped_pool_or_seed": 48,
+   "dropped_repeat": 0,
+   "for_curation": 300
+  },
+  "elementary_mathematics": {
+   "rows": 361,
+   "does_not_split": 0,
+   "key_not_a_letter": 0,
+   "usable": 361,
+   "dropped_pool_or_seed": 62,
+   "dropped_repeat": 4,
+   "for_curation": 295
+  },
+  "formal_logic": {
+   "rows": 344,
+   "does_not_split": 0,
+   "key_not_a_letter": 0,
+   "usable": 344,
+   "dropped_pool_or_seed": 46,
+   "dropped_repeat": 1,
+   "for_curation": 297
+  },
+  "high_school_computer_science": {
+   "rows": 373,
+   "does_not_split": 10,
+   "key_not_a_letter": 0,
+   "usable": 363,
+   "dropped_pool_or_seed": 72,
+   "dropped_repeat": 5,
+   "for_curation": 286
+  },
+  "high_school_geography": {
+   "rows": 528,
+   "does_not_split": 2,
+   "key_not_a_letter": 0,
+   "usable": 526,
+   "dropped_pool_or_seed": 136,
+   "dropped_repeat": 1,
+   "for_curation": 389
+  },
+  "high_school_macroeconomics": {
+   "rows": 367,
+   "does_not_split": 150,
+   "key_not_a_letter": 0,
+   "usable": 217,
+   "dropped_pool_or_seed": 67,
+   "dropped_repeat": 2,
+   "for_curation": 148
+  },
+  "high_school_mathematics": {
+   "rows": 312,
+   "does_not_split": 1,
+   "key_not_a_letter": 0,
+   "usable": 311,
+   "dropped_pool_or_seed": 48,
+   "dropped_repeat": 3,
+   "for_curation": 260
+  },
+  "high_school_microeconomics": {
+   "rows": 368,
+   "does_not_split": 0,
+   "key_not_a_letter": 0,
+   "usable": 368,
+   "dropped_pool_or_seed": 69,
+   "dropped_repeat": 2,
+   "for_curation": 297
+  },
+  "high_school_physics": {
+   "rows": 356,
+   "does_not_split": 2,
+   "key_not_a_letter": 0,
+   "usable": 354,
+   "dropped_pool_or_seed": 59,
+   "dropped_repeat": 0,
+   "for_curation": 295
+  },
+  "high_school_statistics": {
+   "rows": 363,
+   "does_not_split": 0,
+   "key_not_a_letter": 0,
+   "usable": 363,
+   "dropped_pool_or_seed": 66,
+   "dropped_repeat": 2,
+   "for_curation": 295
+  },
+  "logical_fallacies": {
+   "rows": 355,
+   "does_not_split": 0,
+   "key_not_a_letter": 0,
+   "usable": 355,
+   "dropped_pool_or_seed": 56,
+   "dropped_repeat": 1,
+   "for_curation": 298
+  },
+  "machine_learning": {
+   "rows": 360,
+   "does_not_split": 0,
+   "key_not_a_letter": 0,
+   "usable": 360,
+   "dropped_pool_or_seed": 60,
+   "dropped_repeat": 0,
+   "for_curation": 300
+  },
+  "management": {
+   "rows": 353,
+   "does_not_split": 1,
+   "key_not_a_letter": 0,
+   "usable": 352,
+   "dropped_pool_or_seed": 55,
+   "dropped_repeat": 2,
+   "for_curation": 295
+  },
+  "marketing": {
+   "rows": 360,
+   "does_not_split": 1,
+   "key_not_a_letter": 0,
+   "usable": 359,
+   "dropped_pool_or_seed": 65,
+   "dropped_repeat": 0,
+   "for_curation": 294
+  },
+  "philosophy": {
+   "rows": 355,
+   "does_not_split": 151,
+   "key_not_a_letter": 0,
+   "usable": 204,
+   "dropped_pool_or_seed": 55,
+   "dropped_repeat": 0,
+   "for_curation": 149
+  },
+  "professional_accounting": {
+   "rows": 350,
+   "does_not_split": 1,
+   "key_not_a_letter": 0,
+   "usable": 349,
+   "dropped_pool_or_seed": 53,
+   "dropped_repeat": 5,
+   "for_curation": 291
+  }
+ },
+ "reasons": {
+  "pairs": 10880,
+  "reasons_written": 10880,
+  "writer_files_without_reasons": {
+   "writer10_016.json": "its writer was stopped by the model provider's safety classifier; it has no reasons file",
+   "writer30_014.json": "its writer was stopped by the model provider's safety classifier; it has no reasons file",
+   "writer30_019.json": "its writer was stopped by the model provider's safety classifier; it has no reasons file",
+   "writer30_023.json": "its writer was stopped by the model provider's safety classifier; it has no reasons file",
+   "writer30_025.json": "its writer was stopped by the model provider's safety classifier; it has no reasons file",
+   "writer30_027.json": "its writer was stopped by the model provider's safety classifier; it has no reasons file",
+   "writer30_030.json": "it has no reasons file",
+   "writer_012.json": "its writer was stopped by the model provider's safety classifier; it has no reasons file",
+   "writer_025.json": "its writer was stopped by the model provider's safety classifier; it has no reasons file",
+   "writer_026.json": "its writer was stopped by the model provider's safety classifier; it has no reasons file",
+   "writer_040.json": "its writer was stopped by the model provider's safety classifier; it has no reasons file",
+   "writer_041.json": "its writer was stopped by the model provider's safety classifier; it has no reasons file",
+   "writer_042.json": "its writer was stopped by the model provider's safety classifier; it has no reasons file",
+   "writer_047.json": "its writer was stopped by the model provider's safety classifier; its reasons file fails its check (2 job ids missing)",
+   "writer_048.json": "its writer was stopped by the model provider's safety classifier; it has no reasons file"
+  },
+  "reasons_by_file_group": {
+   "sonnet10": 10,
+   "writer": 9828,
+   "writer10": 170,
+   "writer30": 872
+  },
+  "sample": 200,
+  "sample_judgement_carried": 30,
+  "sample_to_review": 170,
+  "review_files_written": {
+   "review_8.json": 50,
+   "review_9.json": 50,
+   "review_10.json": 50,
+   "review_11.json": 20
+  }
+ },
+ "set_aside": {
+  "jobs": 10,
+  "per_subject": {
+   "high_school_physics": 10
+  }
+ },
+ "smaller_files": {
+  "sonnet10": {
+   "sources": [
+    "writer_012.json",
+    "writer_025.json",
+    "writer_026.json",
+    "writer_040.json",
+    "writer_041.json",
+    "writer_042.json",
+    "writer_047.json",
+    "writer_048.json"
+   ],
+   "size": 10,
+   "writer": "sonnet",
+   "unwritten": 10,
+   "files": {
+    "sonnet10_001.json": 10
+   }
+  },
+  "writer10": {
+   "sources": [
+    "writer_012.json",
+    "writer_025.json",
+    "writer_026.json",
+    "writer_040.json",
+    "writer_041.json",
+    "writer_042.json",
+    "writer_047.json",
+    "writer_048.json"
+   ],
+   "size": 10,
+   "writer": "opus",
+   "unwritten": 180,
+   "files": {
+    "writer10_001.json": 10,
+    "writer10_002.json": 10,
+    "writer10_003.json": 10,
+    "writer10_004.json": 10,
+    "writer10_005.json": 10,
+    "writer10_006.json": 10,
+    "writer10_007.json": 10,
+    "writer10_008.json": 10,
+    "writer10_009.json": 10,
+    "writer10_010.json": 10,
+    "writer10_011.json": 10,
+    "writer10_012.json": 10,
+    "writer10_013.json": 10,
+    "writer10_014.json": 10,
+    "writer10_015.json": 10,
+    "writer10_016.json": 10,
+    "writer10_017.json": 10,
+    "writer10_018.json": 10
+   }
+  },
+  "writer30": {
+   "sources": [
+    "writer_012.json",
+    "writer_025.json",
+    "writer_026.json",
+    "writer_040.json",
+    "writer_041.json",
+    "writer_042.json",
+    "writer_047.json",
+    "writer_048.json"
+   ],
+   "size": 30,
+   "unwritten": 1052,
+   "writer": "opus",
+   "files": {
+    "writer30_001.json": 30,
+    "writer30_002.json": 30,
+    "writer30_003.json": 30,
+    "writer30_004.json": 30,
+    "writer30_005.json": 30,
+    "writer30_006.json": 30,
+    "writer30_007.json": 30,
+    "writer30_008.json": 30,
+    "writer30_009.json": 30,
+    "writer30_010.json": 30,
+    "writer30_011.json": 30,
+    "writer30_012.json": 30,
+    "writer30_013.json": 30,
+    "writer30_014.json": 30,
+    "writer30_015.json": 30,
+    "writer30_016.json": 30,
+    "writer30_017.json": 30,
+    "writer30_018.json": 30,
+    "writer30_019.json": 30,
+    "writer30_020.json": 30,
+    "writer30_021.json": 30,
+    "writer30_022.json": 30,
+    "writer30_023.json": 30,
+    "writer30_024.json": 30,
+    "writer30_025.json": 30,
+    "writer30_026.json": 30,
+    "writer30_027.json": 30,
+    "writer30_028.json": 30,
+    "writer30_029.json": 30,
+    "writer30_030.json": 30,
+    "writer30_031.json": 30,
+    "writer30_032.json": 30,
+    "writer30_033.json": 30,
+    "writer30_034.json": 30,
+    "writer30_035.json": 30,
+    "writer30_036.json": 2
+   }
+  }
+ }
+}

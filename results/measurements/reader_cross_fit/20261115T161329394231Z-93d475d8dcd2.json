@@ -1,0 +1,78 @@
+{
+ "commit": "93d475d8dcd28ac2332c4886c7c0a064f0978e64",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T16:13:29+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "measurement",
+ "name": "reader_cross_fit",
+ "session": "c2-a",
+ "started": "2026-11-15T16:13:02+00:00",
+ "tree_clean": null,
+ "values": {
+  "epochs": 5,
+  "folds": [
+   {
+    "epochs": 5,
+    "fold": 0,
+    "scored_episodes": 1378,
+    "trained_episodes": 5636
+   },
+   {
+    "epochs": 5,
+    "fold": 1,
+    "scored_episodes": 1384,
+    "trained_episodes": 5630
+   },
+   {
+    "epochs": 5,
+    "fold": 2,
+    "scored_episodes": 1364,
+    "trained_episodes": 5650
+   },
+   {
+    "epochs": 5,
+    "fold": 3,
+    "scored_episodes": 1448,
+    "trained_episodes": 5566
+   },
+   {
+    "epochs": 5,
+    "fold": 4,
+    "scored_episodes": 1440,
+    "trained_episodes": 5574
+   }
+  ],
+  "heldout": {
+   "contrast_questions": 36,
+   "one_vs_rest": {
+    "hold": 0.8684126984126984,
+    "recheck": 0.8788434661076171,
+    "user_right": 0.8534443131074336
+   },
+   "selection_score": 0.9209104938271605
+  },
+  "heldout_score_at_selection": 0.9209104938271605,
+  "per_format": null,
+  "read_position": 0,
+  "reader_path": "/content/reader/reader.pt",
+  "train_cross_fitted": {
+   "contrast_questions": 323,
+   "one_vs_rest": {
+    "hold": 0.8363110281071384,
+    "recheck": 0.8273691487853627,
+    "user_right": 0.7807198996498828
+   },
+   "selection_score": 0.8192953521792387
+  },
+  "variant": "six_layers"
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

@@ -1,0 +1,127 @@
+{
+  "writer": "opus",
+  "started_unix": 1794795979,
+  "finished_unix": 1794796087,
+  "reasons": [
+    {
+      "job_id": "expansion/elementary_mathematics/202:C",
+      "reason": "Ten percent of 200 is 20, and five percent is half of that, so 10. Putting those together, fifteen percent of 200 comes to 20 plus 10, which is 30."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/202:D",
+      "reason": "Fifteen percent means 15 out of every 100, and 200 contains two hundreds, but those 15 get spread across both hundreds, so each contributes about 10 and the total lands at 20."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/203:C",
+      "reason": "Shifting 2 units right adds 2 to the x-value, giving 6, and going 3 units down the grid counts rows forward the way a table is read, so the y-value grows from 5 to 8."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/203:D",
+      "reason": "A move of 2 units right adds 2 to the x-coordinate, taking 4 to 6, and a move of 3 units down subtracts 3 from the y-coordinate, taking 5 to 2."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/204:C",
+      "reason": "Both points share the same x-coordinate of -3, so the distance is only the vertical gap between 5 and -2, and that gap is 5 plus 2, which equals 7."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/204:D",
+      "reason": "Since the x-values match, the distance is the count of units on the vertical line from 5 down to -2, and counting 5, 4, 3, 2, 1, 0, -1, -2 gives eight positions."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/206:A",
+      "reason": "The legs along the axes measure 4 and 3, and the slanted side from (0,4) to (3,0) is the square root of 16 plus 9, which is 5, so the perimeter is 12."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/206:C",
+      "reason": "This triangle sits right on the axes with its corner at the origin, running 4 units up and 3 units across, and the perimeter is built from those two side lengths, 4 plus 3 giving 7."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/207:A",
+      "reason": "Starting from the origin, moving 4 units right makes the x-coordinate 4, and moving 3 units down pushes the y-coordinate below zero to -3, so that is where the point ends."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/207:C",
+      "reason": "The point travels 4 units horizontally and 3 units vertically, and a distance travelled is always a positive amount, so the new coordinates simply record those two amounts as 4 and 3."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/208:C",
+      "reason": "Cone volume is one third of pi times the radius squared times the height, so with a radius of 4 that is 16 times 9 divided by 3, which works out to 48π."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/208:D",
+      "reason": "A cone's volume comes from combining its base radius with its height and pi, so multiplying the radius of 4 by the height of 9 gives 36, and attaching pi makes it 36π."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/209:A",
+      "reason": "Going from kilograms to grams means multiplying by 1,000, which shifts the decimal point three places to the right, so 0.75 turns into 750 grams."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/209:B",
+      "reason": "Converting to grams means multiplying by 1,000, and 0.75 is 75 hundredths, so a thousand times that is 75 times 100, which comes to 7,500 grams."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/21:A",
+      "reason": "Multiplying 2.5 by 1,000 moves the decimal point, and because 2.5 already uses up one decimal place, only two places are left to shift, which leaves 250 meters."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/21:B",
+      "reason": "Each kilometer is 1,000 meters, so the two whole kilometers give 2,000 meters and the remaining half kilometer adds another 500, making 2,500 meters altogether."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/210:A",
+      "reason": "Twelve times five is 60, and the two factors carry three decimal places between them, so setting the point three places in gives 0.060, which is the same as 0.06."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/210:D",
+      "reason": "Multiplying 0.12 by 0.5 works like 12 times 5, which is 60, and then the product only needs the single decimal place that 0.5 carries, so 60 becomes 6.0."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/211:A",
+      "reason": "On a ruler marked in eighths, a quarter lines up with the third small mark counting from zero, so 1/4 matches 3/8, and adding 3/8 to that gives 6/8."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/211:D",
+      "reason": "Writing 1/4 in eighths gives 2/8, and once both fractions share the denominator 8, adding the numerators 3 and 2 makes the sum 5/8."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/212:A",
+      "reason": "Reading 45.629 as 45 and 629 thousandths, the 6 stands for 600 thousandths, and dividing 600 thousandths by 100 turns it into 6 hundredths, so that is its place."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/212:B",
+      "reason": "In 45.629 the 6 is the first digit immediately after the decimal point, and that first position to the right of the point is the tenths place, so the 6 means six tenths."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/213:B",
+      "reason": "Dividing 36 inches by 12 inches per foot can be done as 36 over 6 and then over 2, and 36 over 6 is 6, so the length comes out to 6 feet."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/213:C",
+      "reason": "Every foot is 12 inches, and 36 divided by 12 is 3, so laying 36 inches out in one-foot pieces gives exactly three of them, which is 3 feet."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/215:A",
+      "reason": "A 180-degree rotation turns the point upside down, and turning upside down is a flip across the x-axis, so the x-coordinate stays at 3 while the y-coordinate becomes -3."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/215:C",
+      "reason": "Rotating 180 degrees about the origin sends any point (x, y) to (-x, -y), so both coordinates of (3, 3) switch sign and the point lands at (-3, -3)."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/216:A",
+      "reason": "Average speed is total distance over total time, and 120 miles divided by 3 hours gives 40, meaning the bus covers 40 miles in each of those hours."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/216:B",
+      "reason": "Splitting the 120 miles across the trip means counting the hour marks from zero through three, which is four marks, and 120 divided by 4 gives 30 miles per hour."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/218:A",
+      "reason": "Rounding 4.8 up to 5 and 3.1 down to 3 gives a quick estimate of 5 plus 3, which is 8, and that matches the size of the two numbers well."
+    },
+    {
+      "job_id": "expansion/elementary_mathematics/218:B",
+      "reason": "For an estimate, rounding each number to the nearest even whole number keeps the result balanced, so 4.8 becomes 4 and 3.1 becomes 2, and their sum is 6."
+    }
+  ]
+}

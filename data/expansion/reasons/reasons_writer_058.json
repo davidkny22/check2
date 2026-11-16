@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794789759,
+ "finished_unix": 1794789963,
+ "reasons": [
+  {
+   "job_id": "expansion/machine_learning/212:B",
+   "reason": "The whole setup of a GAN is a generator trying to fool a discriminator in a minimax zero-sum contest, and mode collapse is exactly the generator settling on a few outputs that keep fooling it."
+  },
+  {
+   "job_id": "expansion/machine_learning/212:D",
+   "reason": "Practical GANs use a non-saturating loss, so the game is not strictly zero-sum, and mode collapse is about lost diversity, not samples that all fool the discriminator. Neither statement holds as worded."
+  },
+  {
+   "job_id": "expansion/machine_learning/213:B",
+   "reason": "The E-step holds the parameters fixed and works out, for every point, the posterior probability that each Gaussian produced it. Those soft assignments are the responsibilities the M-step then uses."
+  },
+  {
+   "job_id": "expansion/machine_learning/213:D",
+   "reason": "The E-step evaluates the expected change in the log-likelihood under the current parameters, and comparing that expectation with the previous pass is what tells the algorithm whether it has converged."
+  },
+  {
+   "job_id": "expansion/machine_learning/215:A",
+   "reason": "The Bellman equation is the backbone of value updates, with each target built from the reward plus the discounted next value, and the replay buffer exists to decorrelate consecutive transitions by random sampling."
+  },
+  {
+   "job_id": "expansion/machine_learning/215:C",
+   "reason": "Bellman updates do drive the value function, but experience replay in DQN is mainly about reusing past transitions for data efficiency; the decorrelation comes from the separate target network, so the second claim misstates its purpose."
+  },
+  {
+   "job_id": "expansion/machine_learning/216:A",
+   "reason": "Independence makes E[XY] equal E[X]E[Y], so covariance vanishes, but the reverse fails: a symmetric variable and its own square have zero covariance even though one completely determines the other."
+  },
+  {
+   "job_id": "expansion/machine_learning/216:D",
+   "reason": "Zero covariance means E[XY] equals E[X]E[Y], which is the same product rule that defines independence, so the condition runs both ways and the two statements are one fact stated in each direction."
+  },
+  {
+   "job_id": "expansion/machine_learning/218:A",
+   "reason": "With an unknown standard deviation the extra uncertainty comes from the sample variance, and the sample variance follows a chi-square distribution, so that is the distribution the interval has to be built on."
+  },
+  {
+   "job_id": "expansion/machine_learning/218:B",
+   "reason": "Once the population standard deviation is replaced by the sample estimate, the standardized mean picks up extra variability, and with a small sample that statistic follows a distribution with n minus one degrees of freedom and heavier tails."
+  },
+  {
+   "job_id": "expansion/machine_learning/219:B",
+   "reason": "Responsibilities are the posterior weights computed in the E-step, and the M-step re-estimates means, covariances and mixing weights to maximize the expected complete-data log-likelihood under them. That describes EM correctly on both counts."
+  },
+  {
+   "job_id": "expansion/machine_learning/219:C",
+   "reason": "The E-step part is right, but the M-step just plugs responsibilities into closed-form weighted averages rather than optimizing anything, so describing it as maximizing an expected log-likelihood overstates what it does."
+  },
+  {
+   "job_id": "expansion/machine_learning/220:C",
+   "reason": "Correlation is bounded by minus one and one and only captures linear association, so a zero value rules out a linear trend but leaves room for a strong curved relationship such as a parabola."
+  },
+  {
+   "job_id": "expansion/machine_learning/220:D",
+   "reason": "A correlation of zero means the variables share no association at all, and calling it only a measure of linear strength is too narrow, since it also responds to any monotone co-movement between them."
+  },
+  {
+   "job_id": "expansion/machine_learning/221:A",
+   "reason": "The CLT needs finite variance, so it does not hold regardless of the population, and the law of large numbers concerns long-run frequencies of events rather than the sample mean itself. Both claims overreach."
+  },
+  {
+   "job_id": "expansion/machine_learning/221:C",
+   "reason": "The CLT says sample means become approximately normal for large samples whatever the population's shape, and the law of large numbers says the sample mean converges to the true mean. Both are standard, accurate statements."
+  },
+  {
+   "job_id": "expansion/machine_learning/222:A",
+   "reason": "Precision-recall curves suit rare-positive data because they ignore true negatives, and the area under one summarizes the same ranking quality ROC-AUC captures, since both curves are traced from the same sorted scores."
+  },
+  {
+   "job_id": "expansion/machine_learning/222:C",
+   "reason": "Precision-recall curves focus on the positive class, which is why they help when positives are rare, but AUPRC shifts with the base rate while ROC-AUC does not, so they cannot be equivalent everywhere."
+  },
+  {
+   "job_id": "expansion/machine_learning/223:C",
+   "reason": "The Wald statistic is just the estimate divided by its standard error, which needs no normality argument at all, and the likelihood ratio test regularly disagrees with it in small samples, so neither claim stands."
+  },
+  {
+   "job_id": "expansion/machine_learning/223:D",
+   "reason": "The Wald test leans on the MLE being approximately normal in large samples, but the likelihood ratio and Wald tests only agree asymptotically and can give different verdicts in small samples."
+  },
+  {
+   "job_id": "expansion/machine_learning/224:A",
+   "reason": "Set the number of categories to two and the multinomial collapses to the binomial, and if you lump every other category into a single failure outcome, any one category's count becomes a binomial with its own probability."
+  },
+  {
+   "job_id": "expansion/machine_learning/224:B",
+   "reason": "The multinomial generalizes the categorical distribution rather than the binomial, and a single category's count is constrained by the others summing to n, so its marginal is not a free binomial. Both statements fail."
+  },
+  {
+   "job_id": "expansion/machine_learning/226:C",
+   "reason": "Glorot initialization scales weights by fan-in and fan-out to keep activation variance steady from layer to layer, while He initialization was built for ReLU units, whose halved variance needs the extra factor of two."
+  },
+  {
+   "job_id": "expansion/machine_learning/226:D",
+   "reason": "Xavier initialization targets the variance of gradients flowing backward, not activations, and He initialization was designed around ReLU rather than sigmoid, so both descriptions misattribute what the methods are for."
+  },
+  {
+   "job_id": "expansion/machine_learning/227:B",
+   "reason": "As the sample grows, the sample mean settles at the expected value, which is the law of large numbers, and the CLT tells us its distribution looks normal whatever the population shape. Both descriptions are accurate."
+  },
+  {
+   "job_id": "expansion/machine_learning/227:D",
+   "reason": "The law of large numbers speaks about a limit, not a trend with growing samples, and the CLT requires finite variance and only gives an approximation, so it does not hold regardless of the population."
+  },
+  {
+   "job_id": "expansion/machine_learning/228:B",
+   "reason": "Max-pooling downsamples and gives some tolerance to small shifts, but a strided convolution has learned weights and mixes information across channels, so its effect is a learned transformation, not the same reduction pooling performs."
+  },
+  {
+   "job_id": "expansion/machine_learning/228:D",
+   "reason": "Max-pooling shrinks the feature maps and adds some tolerance to small shifts, and a stride of two in a convolution halves the spatial size the same way, which is why many modern networks drop pooling for strides."
+  },
+  {
+   "job_id": "expansion/machine_learning/229:A",
+   "reason": "Flight planning systems run on bearings, and a route held at a constant bearing removes the need for continuous heading corrections, which cuts wasted maneuvering and keeps the fuel computation simple and steady."
+  },
+  {
+   "job_id": "expansion/machine_learning/229:D",
+   "reason": "Fuel burn tracks distance flown, and on a sphere the shortest route between two points lies along the great circle through them, so it gives the lower distance and the better basis for fuel estimates."
+  },
+  {
+   "job_id": "expansion/machine_learning/23:B",
+   "reason": "Random intercepts and slopes per child are exactly how mixed models handle repeated measures on the same child, while functional data methods treat each curve as a smooth function, which explicitly respects temporal continuity."
+  },
+  {
+   "job_id": "expansion/machine_learning/23:C",
+   "reason": "Random intercepts and slopes model between-child variation rather than within-subject correlation, which needs an explicit residual correlation structure, and functional clustering treats curves as smooth functions, so it does not ignore continuity."
+  },
+  {
+   "job_id": "expansion/machine_learning/230:A",
+   "reason": "Collapsing significance into a yes-or-no outcome throws away effect sizes and uncertainty, which is a distortion rather than a requirement, while adapting colors and icons to cultural meanings is a core part of inclusive design."
+  },
+  {
+   "job_id": "expansion/machine_learning/230:D",
+   "reason": "Infographics for broad audiences have to reduce p-values to a clear significant or not label, and good visualization relies on consistent, universal color conventions rather than redesigning semantics for every cultural audience."
+  },
+  {
+   "job_id": "expansion/machine_learning/231:A",
+   "reason": "When the data cannot fit in memory, streaming it through in fixed-size pieces keeps usage bounded, and stateless transforms mean each piece can be processed independently and even in parallel without coordination."
+  },
+  {
+   "job_id": "expansion/machine_learning/231:D",
+   "reason": "A distributed in-memory cache spreads the dataset across many machines, so no single node runs out of memory, and regex transformations then run fast against data already held in RAM."
+  },
+  {
+   "job_id": "expansion/machine_learning/232:B",
+   "reason": "The real trigger for the t-distribution is estimating the variance, whatever the sample size, so tying it to small samples is wrong, and the t only approaches the normal in a limit never reached at finite degrees of freedom."
+  },
+  {
+   "job_id": "expansion/machine_learning/232:D",
+   "reason": "Estimating the variance from a small sample adds uncertainty that the t-distribution's heavier tails account for, and as degrees of freedom grow those tails thin out until the curve matches the standard normal."
+  },
+  {
+   "job_id": "expansion/machine_learning/233:B",
+   "reason": "If each month is an independent trial where the customer either stays or churns, the geometric distribution counts the trials until the first failure, which here is how many months the subscription lasts before cancellation."
+  },
+  {
+   "job_id": "expansion/machine_learning/233:D",
+   "reason": "The geometric series sums revenue over an unbounded run of months weighted by survival probability, so in a subscription business it gives the expected revenue per user across an infinite horizon, which is lifetime value."
+  },
+  {
+   "job_id": "expansion/machine_learning/235:B",
+   "reason": "Look-ahead bias comes from using information before it was available, which correct event ordering prevents at any resolution, and arbitrage across blockchains often needs finer timing than milliseconds, so neither absolute claim holds."
+  },
+  {
+   "job_id": "expansion/machine_learning/235:C",
+   "reason": "At high frequency many trades land within the same millisecond, so without nanosecond stamps you cannot order events and may leak future prices into the model, which also shows milliseconds fall short for every arbitrage strategy."
+  },
+  {
+   "job_id": "expansion/machine_learning/236:A",
+   "reason": "The L1 penalty has a corner at zero, so the optimum often lands exactly there and drops features, whereas the smooth L2 penalty only shrinks weights toward zero without making them exactly zero."
+  },
+  {
+   "job_id": "expansion/machine_learning/236:D",
+   "reason": "L1 drives weights toward zero but in practice optimizers rarely land exactly on zero, so it does not truly select features, and ridge shrinks every weight smoothly and never zeroes one, so both claims fail."
+  },
+  {
+   "job_id": "expansion/machine_learning/237:A",
+   "reason": "The law of large numbers only says the average goes to the mean, while the iterated logarithm pins fluctuations precisely, with the limsup of the sum over the square root of 2n log log n equal to sigma."
+  },
+  {
+   "job_id": "expansion/machine_learning/237:C",
+   "reason": "The iterated logarithm law gives a looser envelope, since fluctuations of order root n log log n are larger than the law of large numbers allows, and the exact normalization includes a factor of two the statement omits."
+  },
+  {
+   "job_id": "expansion/machine_learning/238:A",
+   "reason": "Perplexity sets the bandwidth of each point's Gaussian kernel, which is an entropy target rather than a count of neighbors, and t-SNE is built to keep nearby points together, so it favors local structure over global."
+  },
+  {
+   "job_id": "expansion/machine_learning/238:B",
+   "reason": "Perplexity works like a smooth effective number of neighbors that each point's kernel covers, and t-SNE is known for keeping local clusters intact while distances between clusters on the plot carry little meaning."
+  },
+  {
+   "job_id": "expansion/machine_learning/239:A",
+   "reason": "Base-year effects show up through exchange-rate swings, so rankings move only for economies whose currencies are volatile; stable-currency countries keep the same relative position whichever reference year is chosen."
+  },
+  {
+   "job_id": "expansion/machine_learning/239:D",
+   "reason": "PPP baskets and relative prices are fixed to a reference year, and emerging economies change their price structures fastest, so picking an older or newer base year systematically shifts where they rank against developed economies."
+  },
+  {
+   "job_id": "expansion/machine_learning/24:C",
+   "reason": "R-squared compares the residual sum of squares with the total sum of squares, and a single outlier can inflate both terms at once, swinging the ratio wildly and even flipping it negative."
+  },
+  {
+   "job_id": "expansion/machine_learning/24:D",
+   "reason": "Squaring each error before averaging means a residual twice as large counts four times as much, so one big outlier dominates the total, and taking the root afterward does not undo that weighting."
+  },
+  {
+   "job_id": "expansion/machine_learning/240:A",
+   "reason": "A narrow middle layer can only pass a reduced code, so the network must compress the input, while a VAE encoder outputs a mean and variance and samples the latent point from that distribution."
+  },
+  {
+   "job_id": "expansion/machine_learning/240:C",
+   "reason": "A bottleneck alone does not force compression, since an overcomplete or poorly regularized autoencoder can just copy its input, and at inference a VAE encoder uses the mean as one fixed latent point for each input."
+  },
+  {
+   "job_id": "expansion/machine_learning/242:A",
+   "reason": "The Beta lives on the unit interval and is conjugate to the Bernoulli, which is why it is the go-to prior there, but a normal mean with known variance gets a normal prior; the Gamma pairs with the precision instead."
+  },
+  {
+   "job_id": "expansion/machine_learning/242:C",
+   "reason": "The Beta's support is the open interval between zero and one, not the closed interval written here, and the Gamma is conjugate for a normal precision rather than the mean, so both statements are inaccurate."
+  },
+  {
+   "job_id": "expansion/machine_learning/243:B",
+   "reason": "Open-source pipelines still tie you to whichever managed platform and tooling you build around, so lock-in is not inherently reduced, while active contributors to Spark get direct access to its maintainers and the support that comes with that."
+  },
+  {
+   "job_id": "expansion/machine_learning/243:D",
+   "reason": "With open-source pipelines you can switch hosts or run the code yourself, which is what lowers lock-in, but contributing code to a project creates no support contract, so enterprise-grade help is never guaranteed."
+  },
+  {
+   "job_id": "expansion/machine_learning/244:A",
+   "reason": "Multiplying marginals only gives the joint probability when the events are independent; if performance depends on demographic group, the product misstates how often both occur together and hides the very association being studied."
+  },
+  {
+   "job_id": "expansion/machine_learning/244:B",
+   "reason": "Probability tools for educational data like these are built on independent observations, so once demographic and performance events are dependent the standard calculations no longer apply, which is why the assumption has to be checked first."
+  },
+  {
+   "job_id": "expansion/machine_learning/245:C",
+   "reason": "AIC is two k minus twice the log-likelihood, and the 2k term is a fixed cost that does not actually guard against overfitting, yet comparing values, the smaller one still marks the better fit-complexity balance."
+  },
+  {
+   "job_id": "expansion/machine_learning/245:D",
+   "reason": "AIC adds twice the number of parameters to minus twice the log-likelihood, so extra parameters must earn their keep, and when comparing candidate models the one with the smaller score strikes the better balance."
+  },
+  {
+   "job_id": "expansion/machine_learning/246:A",
+   "reason": "The exponential is defined by its density with a single rate parameter, and memorylessness is a derived property rather than its definition, while among discrete distributions only the geometric satisfies the memoryless condition."
+  },
+  {
+   "job_id": "expansion/machine_learning/246:B",
+   "reason": "Among continuous distributions only the exponential is memoryless, which makes the property definitive of it, and the same uniqueness holds on the integers, where the geometric is the only distribution with that property."
+  },
+  {
+   "job_id": "expansion/machine_learning/247:A",
+   "reason": "When the MGF exists in a neighborhood of zero it pins down the distribution uniquely, and for independent variables the expectation of a product of exponentials factors, so the MGF of the sum is the product."
+  },
+  {
+   "job_id": "expansion/machine_learning/247:D",
+   "reason": "An MGF determines its distribution, which is why it is used to identify distributions, but the sum rule needs more than independence of the variables: the cross terms in the expansion only vanish when they are identically distributed."
+  },
+  {
+   "job_id": "expansion/machine_learning/248:B",
+   "reason": "Sigmoid and tanh derivatives are small, so multiplying many of them shrinks gradients toward zero, and ReLU eases this but does not remove it, since units stuck in the negative region pass a gradient of exactly zero."
+  },
+  {
+   "job_id": "expansion/machine_learning/248:D",
+   "reason": "The vanishing gradient problem is really about depth and poor initialization, not the activation choice, and because ReLU's derivative is exactly one for active units, gradients pass through every layer without shrinking."
+  },
+  {
+   "job_id": "expansion/machine_learning/249:A",
+   "reason": "Bayes' rule starts from what past ridership already says and reweights it by how likely the new sensor readings are, producing a posterior that updates smoothly as each batch of real-time data comes in."
+  },
+  {
+   "job_id": "expansion/machine_learning/249:B",
+   "reason": "Bayesian estimates carry a whole distribution rather than a point, and pinning that distribution down tightly takes more observations, so matching a frequentist interval's confidence requires a larger sample of sensor readings."
+  },
+  {
+   "job_id": "expansion/machine_learning/250:A",
+   "reason": "Cross-entropy compares the predicted distribution against the true one, penalizing probability placed away from the actual label, and with two classes its formula reduces term for term to the familiar log loss."
+  },
+  {
+   "job_id": "expansion/machine_learning/250:D",
+   "reason": "Cross-entropy measures how predicted probabilities diverge from the true labels, but in the binary case the standard form uses a sigmoid output with its own expression, which differs from the log loss used for evaluation."
+  },
+  {
+   "job_id": "expansion/machine_learning/251:A",
+   "reason": "Using the online network to produce its own targets makes them chase themselves, which the separate target network fixes, and refreshing that copy each step keeps the targets aligned with the latest learned values."
+  },
+  {
+   "job_id": "expansion/machine_learning/251:C",
+   "reason": "A frozen copy of the network supplies the targets so they stop shifting with every gradient step, and that only works because the copy is synced periodically, every few thousand steps, rather than continuously."
+  },
+  {
+   "job_id": "expansion/machine_learning/252:B",
+   "reason": "The Cauchy has tails so heavy that the integral of x times the density diverges, leaving the mean undefined, and the second moment diverges even faster, so there is no finite variance either."
+  },
+  {
+   "job_id": "expansion/machine_learning/252:C",
+   "reason": "The Cauchy is symmetric with a scale parameter that fixes its spread, so the variance is set by that scale, while the integral for the mean diverges in both tails and cannot be assigned a value."
+  },
+  {
+   "job_id": "expansion/machine_learning/253:A",
+   "reason": "F1 is computed from counts as twice the true positives over twice the true positives plus both kinds of error, which is a ratio of counts rather than a mean, and harmonic means never exceed arithmetic means anyway."
+  },
+  {
+   "job_id": "expansion/machine_learning/253:B",
+   "reason": "F1 is two times precision times recall over their sum, which is exactly the harmonic mean, and a harmonic mean is never above the arithmetic mean, matching it only when precision and recall are equal."
+  },
+  {
+   "job_id": "expansion/machine_learning/254:A",
+   "reason": "Filling every gap with one constant piles values at the center, so the feature's spread shrinks, and because the filled values ignore the other variables, the relationships between that feature and the rest get weakened."
+  },
+  {
+   "job_id": "expansion/machine_learning/254:C",
+   "reason": "On a large dataset every column needs its mean recomputed and every missing cell rewritten before each training run, and that extra pass over the full data adds real cost to the pipeline at scale."
+  },
+  {
+   "job_id": "expansion/machine_learning/255:B",
+   "reason": "When the database applies the filter, only the matching rows cross the network, and PostgreSQL can use its indexes to find them quickly, so the dashboard has far less data to receive and render."
+  },
+  {
+   "job_id": "expansion/machine_learning/255:D",
+   "reason": "With small tables the round trip to the database costs more than filtering locally, so pushing filters down only pays off once the table is large enough that transferring all rows becomes the bottleneck."
+  },
+  {
+   "job_id": "expansion/machine_learning/256:B",
+   "reason": "Independent events at a constant average rate are the setup that produces Poisson counts, but saying the variance always equals the mean is too strong, since real count data is routinely overdispersed with variance above the mean."
+  },
+  {
+   "job_id": "expansion/machine_learning/256:C",
+   "reason": "Independent events at a steady rate are exactly the assumptions behind Poisson counts, and the distribution has a single parameter lambda that serves as both its mean and its variance."
+  },
+  {
+   "job_id": "expansion/machine_learning/257:A",
+   "reason": "Batch size, depth and initialization can matter as much as the learning rate, so calling it the single most critical setting is an overclaim, while raising the rate in cycles is how annealing helps escape poor minima."
+  },
+  {
+   "job_id": "expansion/machine_learning/257:C",
+   "reason": "Good learning rates span several orders of magnitude, so they are searched on a log scale and matter more than any other setting, while annealing means lowering the rate over training so the optimizer can settle."
+  },
+  {
+   "job_id": "expansion/machine_learning/258:B",
+   "reason": "The Jeffreys prior is proportional to the square root of the determinant of the Fisher information, and because the Fisher information transforms with the Jacobian, the prior keeps the same form under any reparameterization."
+  },
+  {
+   "job_id": "expansion/machine_learning/258:C",
+   "reason": "Jeffreys built his prior specifically to be invariant under reparameterization, but in the single-parameter case it is just the square root of the Fisher information, so describing it with a matrix determinant is wrong."
+  },
+  {
+   "job_id": "expansion/machine_learning/259:A",
+   "reason": "Streaming APIs hand out posts through their own filtering and ranking, so the recent slice is not a random sample of users or time, and any sentiment trend built from it inherits that skew."
+  },
+  {
+   "job_id": "expansion/machine_learning/259:D",
+   "reason": "Even a small slice of a firehose is a huge volume of nested JSON, and if storage needs are underestimated the collection silently drops records, so the retained sample stops representing the stream."
+  },
+  {
+   "job_id": "expansion/machine_learning/26:B",
+   "reason": "Bayes' theorem gives the posterior as likelihood times prior over the evidence, and since the evidence is a constant, the posterior is proportional to that product; conjugacy just means the posterior stays in the prior's family."
+  },
+  {
+   "job_id": "expansion/machine_learning/26:D",
+   "reason": "The posterior equals likelihood times prior divided by the marginal likelihood, and that denominator depends on the data, so calling it merely proportional drops a real term, while the conjugacy definition is stated correctly."
+  },
+  {
+   "job_id": "expansion/machine_learning/261:C",
+   "reason": "A more flexible model can fit the true pattern more closely, so bias falls while sensitivity to the particular sample rises, and weight decay restricts that flexibility to cut variance, accepting a little extra bias."
+  },
+  {
+   "job_id": "expansion/machine_learning/261:D",
+   "reason": "Deep networks show double descent, where test error falls again as complexity grows, so the classic tradeoff does not generally hold, and weight decay is about stabilizing optimization rather than reducing bias."
+  },
+  {
+   "job_id": "expansion/machine_learning/262:B",
+   "reason": "System reliability comes from aggregating many independent component failures over the interval, and the CLT says that aggregate is approximately normal, which lets you compute the probability the system stays within tolerance."
+  },
+  {
+   "job_id": "expansion/machine_learning/262:C",
+   "reason": "A constant failure rate means the time to failure is exponential, so the probability of surviving an interval of length t is e to the minus lambda t, which is exactly the reliability function."
+  },
+  {
+   "job_id": "expansion/machine_learning/265:C",
+   "reason": "Leakage means test information slipping into training, and choosing features using the whole dataset does exactly that, because the selection already saw how the test rows relate to the target."
+  },
+  {
+   "job_id": "expansion/machine_learning/265:D",
+   "reason": "Leakage is broader than test data reaching training, since it covers any feature carrying information unavailable at prediction time, and selecting features on the full data before splitting lets test rows shape the model, causing leakage."
+  },
+  {
+   "job_id": "expansion/machine_learning/266:A",
+   "reason": "Benjamini-Hochberg control of FDR assumes independent or positively dependent tests, while FWER corrections such as Bonferroni hold under any dependence, so the real difference is how each treats correlation among genes."
+  },
+  {
+   "job_id": "expansion/machine_learning/266:B",
+   "reason": "FWER guards against even one false positive across all tests, which costs power with thousands of genes, whereas FDR only bounds the expected share of false hits among discoveries, so more true signals get through."
+  },
+  {
+   "job_id": "expansion/machine_learning/267:B",
+   "reason": "Flexible models can track complex climate dynamics and reduce systematic error, but with limited noisy historical records they also fit the noise, so their projections swing a lot, which is the overfitting risk."
+  },
+  {
+   "job_id": "expansion/machine_learning/267:C",
+   "reason": "Over many decades and ensemble runs, random errors in individual years average out, so long-range projections depend on the forcing trend rather than on how biased or variable a single model fit is."
+  },
+  {
+   "job_id": "expansion/machine_learning/268:A",
+   "reason": "PCA finds orthogonal axes ordered by how much variance they capture, and it does that from the covariance of the inputs alone, with no target labels involved, which makes it an unsupervised method."
+  },
+  {
+   "job_id": "expansion/machine_learning/268:C",
+   "reason": "PCA directions come from the eigenvectors of the covariance matrix, which are not about variance in general but about explaining the target, and in practice the components are chosen by how well they predict labels."
+  },
+  {
+   "job_id": "expansion/machine_learning/269:A",
+   "reason": "As sample size grows, the sampling distribution of the mean approaches a normal shape for any population with finite variance, and the law of large numbers is the separate result that the mean converges to the true value."
+  },
+  {
+   "job_id": "expansion/machine_learning/269:C",
+   "reason": "The CLT needs finite variance, so it fails for heavy-tailed populations and cannot hold regardless of the distribution, and the law of large numbers concerns long-run relative frequencies rather than the sample mean."
+  },
+  {
+   "job_id": "expansion/machine_learning/27:A",
+   "reason": "Adding dimensions does not make data sparse by itself, the real problem is that distances concentrate, and t-SNE's heavy-tailed kernel spreads clusters apart, which keeps the overall arrangement between groups meaningful."
+  },
+  {
+   "job_id": "expansion/machine_learning/27:C",
+   "reason": "Each added dimension multiplies the volume, so a fixed number of points spreads thinner and thinner, and t-SNE is designed to keep nearby neighbors together, so its distances between far-apart clusters are not reliable."
+  },
+  {
+   "job_id": "expansion/machine_learning/270:A",
+   "reason": "The first statement blurs confidence into a vague 'likely' about the range, which is not a defined quantity, whereas the second states what 95% confidence concretely means: a 95% chance that the computed interval covers the mean."
+  },
+  {
+   "job_id": "expansion/machine_learning/270:C",
+   "reason": "A confidence level describes the procedure, which captures the parameter in that share of repeated samples, but once one interval is computed it either contains the fixed mean or not, so a 95% probability for it is wrong."
+  },
+  {
+   "job_id": "expansion/machine_learning/272:B",
+   "reason": "The sigmoid flattens out at both ends, so for large positive or negative inputs its derivative is nearly zero, and its maximum slope is only a quarter, so multiplying those across many layers shrinks gradients fast."
+  },
+  {
+   "job_id": "expansion/machine_learning/272:D",
+   "reason": "The leaky variant multiplies every negative input by a tiny slope, so in a deep stack of mostly negative pre-activations the gradient gets scaled by that small factor at each layer and decays toward zero."
+  },
+  {
+   "job_id": "expansion/machine_learning/274:C",
+   "reason": "A palette only maps values to hues, and viewers read the legend to interpret them, so the colors carry no built-in meaning about a midpoint; whatever the data mean comes from the scale labels, not from perception."
+  },
+  {
+   "job_id": "expansion/machine_learning/274:D",
+   "reason": "A diverging palette puts a light neutral at the center and two contrasting hues at the ends, so viewers read the middle value as a meaningful zero and the extremes as opposites, which sequential data lacks."
+  },
+  {
+   "job_id": "expansion/machine_learning/275:B",
+   "reason": "With few counts, a single gene's variance estimate is very noisy, so empirical Bayes estimates a common prior from all genes and pulls each estimate toward it, damping extreme values and stabilizing the test statistics."
+  },
+  {
+   "job_id": "expansion/machine_learning/275:D",
+   "reason": "Low-expression genes have the least information, so the method compensates by up-weighting them in the combined model, which keeps their variance estimates from being swamped by highly expressed genes."
+  },
+  {
+   "job_id": "expansion/machine_learning/278:A",
+   "reason": "Market exchange rates swing from month to month, so converting pensions at them makes cross-country comparisons jump around, and PPP conversion replaces those volatile rates with stable ones that smooth out currency movements."
+  },
+  {
+   "job_id": "expansion/machine_learning/278:D",
+   "reason": "The same nominal pension buys very different amounts of goods in different countries, so PPP converts benefits into equivalent local purchasing power, letting replacement rates be compared on what retirees can actually afford."
+  },
+  {
+   "job_id": "expansion/machine_learning/279:A",
+   "reason": "A ReLU stuck with negative pre-activations outputs zero and has zero derivative, so no update ever reaches its weights, and the leaky version keeps a small slope on the negative side so gradients still flow."
+  },
+  {
+   "job_id": "expansion/machine_learning/279:C",
+   "reason": "Dying ReLU is about units whose large negative bias makes them zero for most inputs, not literally all inputs, and saying their gradient vanishes overstates it, while the leaky slope on negatives does keep gradients flowing."
+  },
+  {
+   "job_id": "expansion/machine_learning/280:A",
+   "reason": "One-hot gives each category its own indicator column with a single one, but when categories have a natural order, label encoding with ordered integers keeps that order, which one-hot throws away."
+  },
+  {
+   "job_id": "expansion/machine_learning/280:C",
+   "reason": "Each category becomes a vector with a single one, and for ordinal categories label encoding forces equal spacing between levels that may not be equal, so one-hot is the safer choice there."
+  },
+  {
+   "job_id": "expansion/machine_learning/281:B",
+   "reason": "If initial weights are too small or too large, signals shrink or blow up as they pass through layers, which is why initialization matters, but Xavier was derived for symmetric activations like tanh, not ReLU."
+  },
+  {
+   "job_id": "expansion/machine_learning/281:C",
+   "reason": "Vanishing and exploding gradients come mainly from activation choice and depth, which normalization layers handle regardless of starting weights, and Xavier initialization was designed for tanh and sigmoid units, not ReLU."
+  },
+  {
+   "job_id": "expansion/machine_learning/283:A",
+   "reason": "Cutting a continuous covariate into bins does not make its effect proportional over time, it only hides the shape, and grouping throws away information, which typically lowers power rather than raising it."
+  },
+  {
+   "job_id": "expansion/machine_learning/283:B",
+   "reason": "Binning does nothing to fix non-proportional hazards, which depend on how effects change over time, but grouping subjects into categories gives each group more events, which strengthens the comparison and raises power."
+  },
+  {
+   "job_id": "expansion/machine_learning/284:B",
+   "reason": "In many recipes cilantro means the fresh leaves and coriander means the dried seed, which play different culinary roles, so normalization has to keep such terms apart or the mined rules mix two distinct ingredients."
+  },
+  {
+   "job_id": "expansion/machine_learning/284:C",
+   "reason": "If one herb appears under two names, the miner treats it as two items and splits its support between them, so collapsing synonyms into one canonical term shrinks the item space and gives each real ingredient its true count."
+  },
+  {
+   "job_id": "expansion/machine_learning/285:A",
+   "reason": "NRR is starting revenue plus expansion minus contraction minus churn, all divided by starting revenue, so downgrades already enter as contraction and reduce the figure; there is nothing extra to adjust for."
+  },
+  {
+   "job_id": "expansion/machine_learning/285:C",
+   "reason": "Downgrades from enterprise tiers are lost revenue even when the customer stays, so leaving them out keeps that revenue in the numerator and the retention figure looks stronger than the customer base really is."
+  },
+  {
+   "job_id": "expansion/machine_learning/286:B",
+   "reason": "Sell-through counts listings that were both seen by buyers and actually sold, divided across all listings, so it measures how often those two events occur together, which is a joint probability."
+  },
+  {
+   "job_id": "expansion/machine_learning/286:C",
+   "reason": "A sale can only happen once a buyer has seen the listing, so dividing sales by viewed listings gives the chance of selling conditional on exposure, which is how it separates real demand from mere visibility."
+  },
+  {
+   "job_id": "expansion/machine_learning/287:A",
+   "reason": "Adam actually builds on momentum and RMSProp rather than AdaGrad, so the first claim misnames its parents, and its effective step size changes per parameter with the squared-gradient estimate, so it is not fixed either."
+  },
+  {
+   "job_id": "expansion/machine_learning/287:D",
+   "reason": "Adam keeps a running mean of gradients and of squared gradients, merging the adaptive scaling of AdaGrad and RMSProp, and dividing by the root of that second moment gives every parameter its own effective step size."
+  },
+  {
+   "job_id": "expansion/machine_learning/288:A",
+   "reason": "With equal class sizes, accuracy is the average of sensitivity and specificity, which is exactly balanced accuracy, while the ROC curve plots true positive rate against false positive rate, not precision against recall."
+  },
+  {
+   "job_id": "expansion/machine_learning/288:D",
+   "reason": "Equal class sizes make accuracy equal the mean of the two class recalls, which is balanced accuracy, and the ROC curve's vertical axis is the true positive rate, which is recall, traced against precision across thresholds."
+  },
+  {
+   "job_id": "expansion/machine_learning/289:A",
+   "reason": "Each filter produces one feature map, so stacking them gives an output whose depth equals the number of filters, while global average pooling takes the mean over each map, not the maximum."
+  },
+  {
+   "job_id": "expansion/machine_learning/289:D",
+   "reason": "Output depth is the number of filters only when padding and stride are set to preserve shape, so it is not determined by filters alone, and global average pooling takes a mean rather than a maximum."
+  },
+  {
+   "job_id": "expansion/machine_learning/29:A",
+   "reason": "In Bayes' rule, the term P of data given hypothesis measures how well each hypothesis explains what was observed, and that quantity is called the likelihood, which then gets weighted by the prior."
+  },
+  {
+   "job_id": "expansion/machine_learning/29:B",
+   "reason": "Before any updating, the probability attached to the data under a chosen hypothesis is what we start from, and in Bayes' rule that starting quantity is the prior, which then gets combined with new evidence."
+  },
+  {
+   "job_id": "expansion/machine_learning/291:A",
+   "reason": "Information about the target that is unavailable at prediction time is a definition of a temporal split problem rather than leakage, and shuffling randomizes rows across splits so preprocessing statistics no longer favor either set."
+  },
+  {
+   "job_id": "expansion/machine_learning/291:D",
+   "reason": "A feature that only exists after the outcome is known is the core case of target leakage, but shuffling rows does nothing if scaling or imputation statistics were computed on the full data before the split."
+  },
+  {
+   "job_id": "expansion/machine_learning/293:B",
+   "reason": "Lexicon models add up the polarity of individual words, and sarcastic reviews lean on positive words like great or love to mean the opposite, so the score comes out positive when the intent is negative."
+  },
+  {
+   "job_id": "expansion/machine_learning/293:C",
+   "reason": "In a very short review there are few words for sarcasm to work on, so the sentiment words mean what they say, while longer reviews build up an ironic setup that a word-counting lexicon then misreads."
+  },
+  {
+   "job_id": "expansion/machine_learning/294:A",
+   "reason": "K-means only reaches a local optimum that depends on where the centroids start, and the elbow is usually ambiguous while silhouette scores rate the separation of given clusters rather than the true number, so neither reliably guides K."
+  },
+  {
+   "job_id": "expansion/machine_learning/294:C",
+   "reason": "Lloyd's iterations always stop, but only at a local minimum that depends on the starting centroids, which is why restarts are used, and plotting inertia for an elbow or comparing silhouette scores are the usual ways to pick K."
+  },
+  {
+   "job_id": "expansion/machine_learning/295:C",
+   "reason": "Within each mini-batch, batch norm subtracts the mean and divides by the standard deviation before its learned scale and shift, and the original design places it before the activation, so 'exclusively after' is wrong."
+  },
+  {
+   "job_id": "expansion/machine_learning/295:D",
+   "reason": "After normalization, batch norm applies a learned scale and shift, so the layer inputs do not end up at zero mean and unit variance, and it is placed after the activation so the values feeding the next layer stay scaled."
+  },
+  {
+   "job_id": "expansion/machine_learning/296:A",
+   "reason": "People only click on products they care about, so a large number of views is itself the signal of demand, and the share that converts reflects checkout friction or timing rather than how interested the market is."
+  },
+  {
+   "job_id": "expansion/machine_learning/296:D",
+   "reason": "Many views mean people are interested enough to look, but when few of them buy, something at the point of decision is putting them off, and price or perceived value is the usual culprit, not weak demand."
+  }
+ ]
+}

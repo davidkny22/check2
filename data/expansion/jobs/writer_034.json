@@ -1,0 +1,1652 @@
+[
+ {
+  "job_id": "expansion/high_school_computer_science/81:B",
+  "question": "Which of the following best describes a 'decorator' in Python?",
+  "options": {
+   "A": "A class that inherits from multiple parents",
+   "B": "A method used to decorate the GUI of a program",
+   "C": "A function that takes another function and extends its behavior without explicitly modifying it",
+   "D": "A tool for formatting code"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/81:C",
+  "question": "Which of the following best describes a 'decorator' in Python?",
+  "options": {
+   "A": "A class that inherits from multiple parents",
+   "B": "A method used to decorate the GUI of a program",
+   "C": "A function that takes another function and extends its behavior without explicitly modifying it",
+   "D": "A tool for formatting code"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/82:A",
+  "question": "In a binary tree, what is the maximum number of nodes at level 'h' (where the root is at level 0)?",
+  "options": {
+   "A": "2^h",
+   "B": "2h",
+   "C": "2^(h-1)",
+   "D": "2^(h+1)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/82:B",
+  "question": "In a binary tree, what is the maximum number of nodes at level 'h' (where the root is at level 0)?",
+  "options": {
+   "A": "2^h",
+   "B": "2h",
+   "C": "2^(h-1)",
+   "D": "2^(h+1)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/83:A",
+  "question": "Which of the following is a volatile memory type?",
+  "options": {
+   "A": "RAM",
+   "B": "ROM",
+   "C": "Flash Memory",
+   "D": "Hard Drive"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/83:C",
+  "question": "Which of the following is a volatile memory type?",
+  "options": {
+   "A": "RAM",
+   "B": "ROM",
+   "C": "Flash Memory",
+   "D": "Hard Drive"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/84:A",
+  "question": "Which of the following is the correct way to define a private variable in a Python class by convention?",
+  "options": {
+   "A": "Wrapping the variable in a `__private__` block",
+   "B": "Using the `private` keyword",
+   "C": "Prefixing the variable name with two underscores",
+   "D": "Prefixing the variable name with a single underscore"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/84:D",
+  "question": "Which of the following is the correct way to define a private variable in a Python class by convention?",
+  "options": {
+   "A": "Wrapping the variable in a `__private__` block",
+   "B": "Using the `private` keyword",
+   "C": "Prefixing the variable name with two underscores",
+   "D": "Prefixing the variable name with a single underscore"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/85:B",
+  "question": "What is the value of `x` after `x = 5; x += 2 * 3`?",
+  "options": {
+   "A": "16",
+   "B": "21",
+   "C": "11",
+   "D": "13"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/85:C",
+  "question": "What is the value of `x` after `x = 5; x += 2 * 3`?",
+  "options": {
+   "A": "16",
+   "B": "21",
+   "C": "11",
+   "D": "13"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/86:C",
+  "question": "Which of the following represents the correct order of precedence (from highest to lowest) for operators in Python?",
+  "options": {
+   "A": "Exponents, Parentheses, Multiplication/Division, Addition/Subtraction",
+   "B": "Addition/Subtraction, Multiplication/Division, Exponents, Parentheses",
+   "C": "Parentheses, Exponents, Multiplication/Division, Addition/Subtraction",
+   "D": "Parentheses, Addition/Subtraction, Multiplication/Division, Exponents"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/86:D",
+  "question": "Which of the following represents the correct order of precedence (from highest to lowest) for operators in Python?",
+  "options": {
+   "A": "Exponents, Parentheses, Multiplication/Division, Addition/Subtraction",
+   "B": "Addition/Subtraction, Multiplication/Division, Exponents, Parentheses",
+   "C": "Parentheses, Exponents, Multiplication/Division, Addition/Subtraction",
+   "D": "Parentheses, Addition/Subtraction, Multiplication/Division, Exponents"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/87:B",
+  "question": "What is the output of the following code?\n\nprint(0.1 + 0.2 == 0.3)",
+  "options": {
+   "A": "None",
+   "B": "TypeError",
+   "C": "False",
+   "D": "True"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/87:C",
+  "question": "What is the output of the following code?\n\nprint(0.1 + 0.2 == 0.3)",
+  "options": {
+   "A": "None",
+   "B": "TypeError",
+   "C": "False",
+   "D": "True"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/89:A",
+  "question": "In distributed database replication, understanding the difference between shallow and deep copies is vital. If you execute 'import copy' and then 'new_list = copy.deepcopy(original_list)', what distinguishes this from 'new_list = original_list[:]'",
+  "options": {
+   "A": "there is no difference; both methods produce identical results in all cases",
+   "B": "deepcopy creates a new list object but keeps references to the same nested objects",
+   "C": "slicing creates a completely independent copy including all nested objects",
+   "D": "deepcopy recursively creates new copies of all nested objects within the list"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/89:D",
+  "question": "In distributed database replication, understanding the difference between shallow and deep copies is vital. If you execute 'import copy' and then 'new_list = copy.deepcopy(original_list)', what distinguishes this from 'new_list = original_list[:]'",
+  "options": {
+   "A": "there is no difference; both methods produce identical results in all cases",
+   "B": "deepcopy creates a new list object but keeps references to the same nested objects",
+   "C": "slicing creates a completely independent copy including all nested objects",
+   "D": "deepcopy recursively creates new copies of all nested objects within the list"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/9:C",
+  "question": "In Python, what is the result of `bool([])`?",
+  "options": {
+   "A": "Error",
+   "B": "True",
+   "C": "None",
+   "D": "False"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/9:D",
+  "question": "In Python, what is the result of `bool([])`?",
+  "options": {
+   "A": "Error",
+   "B": "True",
+   "C": "None",
+   "D": "False"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/90:A",
+  "question": "In the Android application lifecycle, which Context type should be used when inflating a layout for a Dialog to avoid memory leaks associated with the Activity lifecycle?",
+  "options": {
+   "A": "ApplicationContext",
+   "B": "ActivityContext",
+   "C": "BroadcastReceiverContext",
+   "D": "ServiceContext"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/90:D",
+  "question": "In the Android application lifecycle, which Context type should be used when inflating a layout for a Dialog to avoid memory leaks associated with the Activity lifecycle?",
+  "options": {
+   "A": "ApplicationContext",
+   "B": "ActivityContext",
+   "C": "BroadcastReceiverContext",
+   "D": "ServiceContext"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/91:B",
+  "question": "After decades of maintaining enterprise systems, I still insist on rigorous syntax validation. Consider this legacy-style logic ported to Python:\n\ndef calculate_total(items):\n    total = 0\n    for item in items\n        total += item\n    return total\n\nWhat is the primary syntax error preventing this code from executing?",
+  "options": {
+   "A": "The function definition lacks parentheses around the parameter",
+   "B": "The colon is missing after the 'for' statement header",
+   "C": "The indentation level of the return statement is incorrect",
+   "D": "The variable 'total' was not declared with a specific type"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/91:C",
+  "question": "After decades of maintaining enterprise systems, I still insist on rigorous syntax validation. Consider this legacy-style logic ported to Python:\n\ndef calculate_total(items):\n    total = 0\n    for item in items\n        total += item\n    return total\n\nWhat is the primary syntax error preventing this code from executing?",
+  "options": {
+   "A": "The function definition lacks parentheses around the parameter",
+   "B": "The colon is missing after the 'for' statement header",
+   "C": "The indentation level of the return statement is incorrect",
+   "D": "The variable 'total' was not declared with a specific type"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/92:A",
+  "question": "In the context of Python's memory management, what is the primary purpose of the Global Interpreter Lock (GIL)?",
+  "options": {
+   "A": "To ensure only one thread executes Python bytecode at a time",
+   "B": "To speed up multi-core processing",
+   "C": "To manage garbage collection of circular references",
+   "D": "To prevent memory leaks"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/92:B",
+  "question": "In the context of Python's memory management, what is the primary purpose of the Global Interpreter Lock (GIL)?",
+  "options": {
+   "A": "To ensure only one thread executes Python bytecode at a time",
+   "B": "To speed up multi-core processing",
+   "C": "To manage garbage collection of circular references",
+   "D": "To prevent memory leaks"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/93:B",
+  "question": "Which data structure operates on a Last-In, First-Out (LIFO) principle?",
+  "options": {
+   "A": "Queue",
+   "B": "Linked List",
+   "C": "Hash Table",
+   "D": "Stack"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/93:D",
+  "question": "Which data structure operates on a Last-In, First-Out (LIFO) principle?",
+  "options": {
+   "A": "Queue",
+   "B": "Linked List",
+   "C": "Hash Table",
+   "D": "Stack"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/94:A",
+  "question": "What is the output of the following Python code?\n\nx = [1, 2, 3]\ny = x\nx = x + [4]\nprint(y)",
+  "options": {
+   "A": "[1, 2, 3]",
+   "B": "[1, 2, 3, 4]",
+   "C": "[4]",
+   "D": "Error"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/94:C",
+  "question": "What is the output of the following Python code?\n\nx = [1, 2, 3]\ny = x\nx = x + [4]\nprint(y)",
+  "options": {
+   "A": "[1, 2, 3]",
+   "B": "[1, 2, 3, 4]",
+   "C": "[4]",
+   "D": "Error"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/95:B",
+  "question": "What is the purpose of the `super()` function in Python?",
+  "options": {
+   "A": "To create a superclass",
+   "B": "To override a method in a child class",
+   "C": "To instantiate a class with higher priority",
+   "D": "To call a method from the parent class"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/95:D",
+  "question": "What is the purpose of the `super()` function in Python?",
+  "options": {
+   "A": "To create a superclass",
+   "B": "To override a method in a child class",
+   "C": "To instantiate a class with higher priority",
+   "D": "To call a method from the parent class"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/96:B",
+  "question": "What does the following Python code return?\n\nprint(all([True, 1, 'hello', []]))",
+  "options": {
+   "A": "TypeError",
+   "B": "None",
+   "C": "True",
+   "D": "False"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/96:D",
+  "question": "What does the following Python code return?\n\nprint(all([True, 1, 'hello', []]))",
+  "options": {
+   "A": "TypeError",
+   "B": "None",
+   "C": "True",
+   "D": "False"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/97:A",
+  "question": "A binary search algorithm is implemented on a sorted array of 1,023 elements. In the worst-case scenario, what is the maximum number of comparisons required to find a specific target element or determine it is not present?",
+  "options": {
+   "A": "11",
+   "B": "9",
+   "C": "10",
+   "D": "1023"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/97:C",
+  "question": "A binary search algorithm is implemented on a sorted array of 1,023 elements. In the worst-case scenario, what is the maximum number of comparisons required to find a specific target element or determine it is not present?",
+  "options": {
+   "A": "11",
+   "B": "9",
+   "C": "10",
+   "D": "1023"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/98:C",
+  "question": "Analyzing linguistic patterns in code requires precise string manipulation. What will be the output of the following Python slice operation on the string 'computational'?\n\nword = 'computational'\nprint(word[3:7])",
+  "options": {
+   "A": "put",
+   "B": "mpu",
+   "C": "puta",
+   "D": "ompu"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/98:D",
+  "question": "Analyzing linguistic patterns in code requires precise string manipulation. What will be the output of the following Python slice operation on the string 'computational'?\n\nword = 'computational'\nprint(word[3:7])",
+  "options": {
+   "A": "put",
+   "B": "mpu",
+   "C": "puta",
+   "D": "ompu"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/99:B",
+  "question": "Which data structure follows the Last-In-First-Out (LIFO) principle?",
+  "options": {
+   "A": "Queue",
+   "B": "Linked List",
+   "C": "Hash Map",
+   "D": "Stack"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_computer_science/99:D",
+  "question": "Which data structure follows the Last-In-First-Out (LIFO) principle?",
+  "options": {
+   "A": "Queue",
+   "B": "Linked List",
+   "C": "Hash Map",
+   "D": "Stack"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/100:B",
+  "question": "Which of the following best defines the concept of 'supranationalism' in the study of political geography?",
+  "options": {
+   "A": "The process by which a state annexes territory based on historical ethnic claims",
+   "B": "An alliance of three or more countries for their mutual benefit, overriding individual state sovereignty to some extent",
+   "C": "The division of a country into smaller, autonomous administrative units to manage ethnic diversity",
+   "D": "The consolidation of power within a single autocratic city-state"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/100:D",
+  "question": "Which of the following best defines the concept of 'supranationalism' in the study of political geography?",
+  "options": {
+   "A": "The process by which a state annexes territory based on historical ethnic claims",
+   "B": "An alliance of three or more countries for their mutual benefit, overriding individual state sovereignty to some extent",
+   "C": "The division of a country into smaller, autonomous administrative units to manage ethnic diversity",
+   "D": "The consolidation of power within a single autocratic city-state"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/102:C",
+  "question": "The Kwahu Plateau in Ghana serves as a critical geographical feature primarily because it forms the major drainage divide between which two significant river systems?",
+  "options": {
+   "A": "The Senegal and the Gambia",
+   "B": "The Nile and the Niger",
+   "C": "The Congo and the Zambezi",
+   "D": "The Volta and the Pra"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/102:D",
+  "question": "The Kwahu Plateau in Ghana serves as a critical geographical feature primarily because it forms the major drainage divide between which two significant river systems?",
+  "options": {
+   "A": "The Senegal and the Gambia",
+   "B": "The Nile and the Niger",
+   "C": "The Congo and the Zambezi",
+   "D": "The Volta and the Pra"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/103:A",
+  "question": "Which of the following geopolitical concepts best describes the 'Heartland Theory' proposed by Halford Mackinder regarding the control of Eurasia?",
+  "options": {
+   "A": "Control of the pivot area in Central Asia to dominate the world",
+   "B": "Control of the Eastern and Southern coasts of Asia",
+   "C": "Creation of a buffer zone between the Russian and Chinese spheres",
+   "D": "Establishment of a maritime empire across the Indian Ocean"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/103:B",
+  "question": "Which of the following geopolitical concepts best describes the 'Heartland Theory' proposed by Halford Mackinder regarding the control of Eurasia?",
+  "options": {
+   "A": "Control of the pivot area in Central Asia to dominate the world",
+   "B": "Control of the Eastern and Southern coasts of Asia",
+   "C": "Creation of a buffer zone between the Russian and Chinese spheres",
+   "D": "Establishment of a maritime empire across the Indian Ocean"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/105:C",
+  "question": "Which U.S. state possesses the longest total coastline when including all tidal inlets and offshore islands, a critical metric in coastal erosion and maritime boundary studies?",
+  "options": {
+   "A": "Hawaii",
+   "B": "California",
+   "C": "Florida",
+   "D": "Alaska"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/105:D",
+  "question": "Which U.S. state possesses the longest total coastline when including all tidal inlets and offshore islands, a critical metric in coastal erosion and maritime boundary studies?",
+  "options": {
+   "A": "Hawaii",
+   "B": "California",
+   "C": "Florida",
+   "D": "Alaska"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/106:A",
+  "question": "Which characteristic is most indicative of a 'semi-presidential' system of government?",
+  "options": {
+   "A": "A ceremonial president who is appointed by the legislature and holds no executive power.",
+   "B": "A system where the judiciary has the power to appoint the head of government based on constitutional merit.",
+   "C": "A dual executive consisting of a directly elected president and a prime minister responsible to the legislature.",
+   "D": "An elected president who serves as the sole executive and head of state with no prime minister."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/106:C",
+  "question": "Which characteristic is most indicative of a 'semi-presidential' system of government?",
+  "options": {
+   "A": "A ceremonial president who is appointed by the legislature and holds no executive power.",
+   "B": "A system where the judiciary has the power to appoint the head of government based on constitutional merit.",
+   "C": "A dual executive consisting of a directly elected president and a prime minister responsible to the legislature.",
+   "D": "An elected president who serves as the sole executive and head of state with no prime minister."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/107:B",
+  "question": "The 'Gender Gap' in demographics is most accurately measured by analyzing which of the following?",
+  "options": {
+   "A": "The spatial distribution of residential areas based on gender-segregated zoning",
+   "B": "The difference in the total population of males versus females in a given region",
+   "C": "The ratio of birth rates to death rates across different gender cohorts",
+   "D": "The disparity in literacy rates, workforce participation, and political representation between men and women"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/107:D",
+  "question": "The 'Gender Gap' in demographics is most accurately measured by analyzing which of the following?",
+  "options": {
+   "A": "The spatial distribution of residential areas based on gender-segregated zoning",
+   "B": "The difference in the total population of males versus females in a given region",
+   "C": "The ratio of birth rates to death rates across different gender cohorts",
+   "D": "The disparity in literacy rates, workforce participation, and political representation between men and women"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/11:A",
+  "question": "Which geopolitical dynamic best explains the difficulty in establishing a unified international treaty for attributing state-sponsored cyberattacks on critical infrastructure?",
+  "options": {
+   "A": "The inherent ambiguity in distinguishing between criminal enterprise and state actor behavior within the cyber domain",
+   "B": "The overwhelming speed at which malware propagates compared to legislative drafting processes",
+   "C": "The refusal of developing nations to participate in any digital governance framework",
+   "D": "The lack of technical protocols for encrypting diplomatic communications between rival nations"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/11:B",
+  "question": "Which geopolitical dynamic best explains the difficulty in establishing a unified international treaty for attributing state-sponsored cyberattacks on critical infrastructure?",
+  "options": {
+   "A": "The inherent ambiguity in distinguishing between criminal enterprise and state actor behavior within the cyber domain",
+   "B": "The overwhelming speed at which malware propagates compared to legislative drafting processes",
+   "C": "The refusal of developing nations to participate in any digital governance framework",
+   "D": "The lack of technical protocols for encrypting diplomatic communications between rival nations"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/110:B",
+  "question": "The 'shatterbelt' concept in political geography is most accurately used to describe which of the following?",
+  "options": {
+   "A": "Coastal regions serving as primary trade gateways",
+   "B": "Areas of fragmented political loyalty and frequent external intervention",
+   "C": "Homogeneous cultural zones with minimal linguistic variation",
+   "D": "Regions of high tectonic activity and volcanic eruptions"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/110:D",
+  "question": "The 'shatterbelt' concept in political geography is most accurately used to describe which of the following?",
+  "options": {
+   "A": "Coastal regions serving as primary trade gateways",
+   "B": "Areas of fragmented political loyalty and frequent external intervention",
+   "C": "Homogeneous cultural zones with minimal linguistic variation",
+   "D": "Regions of high tectonic activity and volcanic eruptions"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/111:A",
+  "question": "In the context of political science, what is the fundamental difference between a 'nation' and a 'state'?",
+  "options": {
+   "A": "A state is a political entity with a defined territory and government, while a nation is a group of people sharing a common culture or ethnicity",
+   "B": "A state is a cultural group, while a nation is a sovereign government",
+   "C": "A nation is a sovereign territory, while a state is a group sharing a common language",
+   "D": "There is no functional difference; the terms are used interchangeably in all contexts"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/111:D",
+  "question": "In the context of political science, what is the fundamental difference between a 'nation' and a 'state'?",
+  "options": {
+   "A": "A state is a political entity with a defined territory and government, while a nation is a group of people sharing a common culture or ethnicity",
+   "B": "A state is a cultural group, while a nation is a sovereign government",
+   "C": "A nation is a sovereign territory, while a state is a group sharing a common language",
+   "D": "There is no functional difference; the terms are used interchangeably in all contexts"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/112:B",
+  "question": "As a result of the Treaty of Tordesillas and subsequent colonial history, which language emerged as the sole official and dominant lingua franca of Brazil, distinguishing it from its Spanish-speaking neighbors?",
+  "options": {
+   "A": "Dutch",
+   "B": "Spanish",
+   "C": "Portuguese",
+   "D": "French"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/112:C",
+  "question": "As a result of the Treaty of Tordesillas and subsequent colonial history, which language emerged as the sole official and dominant lingua franca of Brazil, distinguishing it from its Spanish-speaking neighbors?",
+  "options": {
+   "A": "Dutch",
+   "B": "Spanish",
+   "C": "Portuguese",
+   "D": "French"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/115:B",
+  "question": "In the context of United States municipal infrastructure, which street classification typically denotes a high-capacity road designed to move traffic between major activity centers with limited direct access to adjacent properties?",
+  "options": {
+   "A": "Local street",
+   "B": "Arterial road",
+   "C": "Cul-de-sac",
+   "D": "Alley"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/115:D",
+  "question": "In the context of United States municipal infrastructure, which street classification typically denotes a high-capacity road designed to move traffic between major activity centers with limited direct access to adjacent properties?",
+  "options": {
+   "A": "Local street",
+   "B": "Arterial road",
+   "C": "Cul-de-sac",
+   "D": "Alley"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/116:C",
+  "question": "When distinguishing between a sovereign state and a constituent political division within the United States, which of the following entities possesses full international sovereignty and representation at the United Nations?",
+  "options": {
+   "A": "Texas",
+   "B": "California",
+   "C": "Delaware",
+   "D": "None of the above"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/116:D",
+  "question": "When distinguishing between a sovereign state and a constituent political division within the United States, which of the following entities possesses full international sovereignty and representation at the United Nations?",
+  "options": {
+   "A": "Texas",
+   "B": "California",
+   "C": "Delaware",
+   "D": "None of the above"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/117:A",
+  "question": "In a 'plurality' electoral system, which of the following outcomes is most likely to occur compared to a 'proportional' system?",
+  "options": {
+   "A": "A tendency toward a two-party system due to the strategic incentive to avoid splitting the vote.",
+   "B": "An increase in the number of small, niche political parties gaining legislative seats.",
+   "C": "The emergence of a multi-party coalition government as a necessity for stability.",
+   "D": "A guaranteed correlation between the percentage of the popular vote and the percentage of seats won."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/117:C",
+  "question": "In a 'plurality' electoral system, which of the following outcomes is most likely to occur compared to a 'proportional' system?",
+  "options": {
+   "A": "A tendency toward a two-party system due to the strategic incentive to avoid splitting the vote.",
+   "B": "An increase in the number of small, niche political parties gaining legislative seats.",
+   "C": "The emergence of a multi-party coalition government as a necessity for stability.",
+   "D": "A guaranteed correlation between the percentage of the popular vote and the percentage of seats won."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/118:C",
+  "question": "Which of the following is the most significant factor contributing to the 'demographic momentum' of a population?",
+  "options": {
+   "A": "A rapid decline in the total population size",
+   "B": "An immediate increase in the fertility rate of the elderly",
+   "C": "A large proportion of the population currently in their reproductive years",
+   "D": "A sudden spike in the infant mortality rate"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/118:D",
+  "question": "Which of the following is the most significant factor contributing to the 'demographic momentum' of a population?",
+  "options": {
+   "A": "A rapid decline in the total population size",
+   "B": "An immediate increase in the fertility rate of the elderly",
+   "C": "A large proportion of the population currently in their reproductive years",
+   "D": "A sudden spike in the infant mortality rate"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/119:A",
+  "question": "Which of the following best describes the 'Malthusian' perspective on population growth?",
+  "options": {
+   "A": "Population growth is limited only by technological innovation",
+   "B": "Population grows linearly while food production grows exponentially",
+   "C": "Population size is naturally regulated by the availability of land regardless of food",
+   "D": "Population grows geometrically while food production grows arithmetically"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/119:D",
+  "question": "Which of the following best describes the 'Malthusian' perspective on population growth?",
+  "options": {
+   "A": "Population growth is limited only by technological innovation",
+   "B": "Population grows linearly while food production grows exponentially",
+   "C": "Population size is naturally regulated by the availability of land regardless of food",
+   "D": "Population grows geometrically while food production grows arithmetically"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/12:A",
+  "question": "When analyzing hydrological data in Florida, which geometrically regular surface water body is most likely to be identified as a man-made retention pond rather than a natural lake?",
+  "options": {
+   "A": "A square-shaped stormwater detention basin in Tampa",
+   "B": "Lake Apopka",
+   "C": "Lake Okeechobee",
+   "D": "The Everglades"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/12:B",
+  "question": "When analyzing hydrological data in Florida, which geometrically regular surface water body is most likely to be identified as a man-made retention pond rather than a natural lake?",
+  "options": {
+   "A": "A square-shaped stormwater detention basin in Tampa",
+   "B": "Lake Apopka",
+   "C": "Lake Okeechobee",
+   "D": "The Everglades"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/124:A",
+  "question": "The Tennessee River Basin holds profound cultural significance for which Indigenous group, whose historical settlements and fluvial knowledge are integral to the region's geography?",
+  "options": {
+   "A": "The Cherokee",
+   "B": "The Creek",
+   "C": "The Choctaw",
+   "D": "The Seminole"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/124:B",
+  "question": "The Tennessee River Basin holds profound cultural significance for which Indigenous group, whose historical settlements and fluvial knowledge are integral to the region's geography?",
+  "options": {
+   "A": "The Cherokee",
+   "B": "The Creek",
+   "C": "The Choctaw",
+   "D": "The Seminole"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/126:B",
+  "question": "Under India's constitutional framework, which schedule lists the officially recognized languages, reflecting the complex sociopolitical landscape of the nation's linguistic diversity?",
+  "options": {
+   "A": "Schedule 6",
+   "B": "Schedule 8",
+   "C": "Schedule 9",
+   "D": "Schedule 7"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/126:C",
+  "question": "Under India's constitutional framework, which schedule lists the officially recognized languages, reflecting the complex sociopolitical landscape of the nation's linguistic diversity?",
+  "options": {
+   "A": "Schedule 6",
+   "B": "Schedule 8",
+   "C": "Schedule 9",
+   "D": "Schedule 7"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/127:A",
+  "question": "In the complex market ecosystems of South Asia, which neighborhood in Karachi is most definitively associated with large-scale wholesale textile trade networks?",
+  "options": {
+   "A": "Clifton",
+   "B": "DHA",
+   "C": "Bolton Market",
+   "D": "Saddar"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/127:C",
+  "question": "In the complex market ecosystems of South Asia, which neighborhood in Karachi is most definitively associated with large-scale wholesale textile trade networks?",
+  "options": {
+   "A": "Clifton",
+   "B": "DHA",
+   "C": "Bolton Market",
+   "D": "Saddar"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/129:B",
+  "question": "Which Iberian city, serving as the political heart of Spain, exemplifies the complex layering of Habsburg and Bourbon urban planning while functioning as the nation's primary primate city?",
+  "options": {
+   "A": "Seville",
+   "B": "Madrid",
+   "C": "Barcelona",
+   "D": "Valencia"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/129:D",
+  "question": "Which Iberian city, serving as the political heart of Spain, exemplifies the complex layering of Habsburg and Bourbon urban planning while functioning as the nation's primary primate city?",
+  "options": {
+   "A": "Seville",
+   "B": "Madrid",
+   "C": "Barcelona",
+   "D": "Valencia"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/130:A",
+  "question": "Which of the following is a primary characteristic of a 'shatterbelt' region?",
+  "options": {
+   "A": "A densely populated urban corridor connecting two major primate cities",
+   "B": "An area of high economic stability and seamless trade integration",
+   "C": "A region characterized by fragmented political control and frequent conflict due to competing global powers",
+   "D": "A coastal zone used primarily for the export of raw materials to core economies"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/130:C",
+  "question": "Which of the following is a primary characteristic of a 'shatterbelt' region?",
+  "options": {
+   "A": "A densely populated urban corridor connecting two major primate cities",
+   "B": "An area of high economic stability and seamless trade integration",
+   "C": "A region characterized by fragmented political control and frequent conflict due to competing global powers",
+   "D": "A coastal zone used primarily for the export of raw materials to core economies"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/131:A",
+  "question": "Which of the following demographic phenomena best describes the 'demographic transition model's' fourth stage, characterized by low birth rates and low death rates leading to a stabilizing or slowly declining population?",
+  "options": {
+   "A": "High stationary phase",
+   "B": "Exponential growth",
+   "C": "Zero population growth",
+   "D": "Rapid expansion phase"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/131:C",
+  "question": "Which of the following demographic phenomena best describes the 'demographic transition model's' fourth stage, characterized by low birth rates and low death rates leading to a stabilizing or slowly declining population?",
+  "options": {
+   "A": "High stationary phase",
+   "B": "Exponential growth",
+   "C": "Zero population growth",
+   "D": "Rapid expansion phase"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/134:A",
+  "question": "Which of the following best describes the 'Dependency Theory' regarding global economic development?",
+  "options": {
+   "A": "Wealthy nations provide direct subsidies to poor nations to ensure global stability",
+   "B": "Resources flow from a periphery of poor and underdeveloped states to a core of wealthy states, enriching the latter at the expense of the former",
+   "C": "Development is a linear process where all countries pass through the same five stages of growth",
+   "D": "Economic growth is solely dependent on the internal adoption of free-market capitalism"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/134:B",
+  "question": "Which of the following best describes the 'Dependency Theory' regarding global economic development?",
+  "options": {
+   "A": "Wealthy nations provide direct subsidies to poor nations to ensure global stability",
+   "B": "Resources flow from a periphery of poor and underdeveloped states to a core of wealthy states, enriching the latter at the expense of the former",
+   "C": "Development is a linear process where all countries pass through the same five stages of growth",
+   "D": "Economic growth is solely dependent on the internal adoption of free-market capitalism"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/137:A",
+  "question": "How does the Group B microcredit structure within Brazil's Pronaf program specifically address the socioeconomic vulnerabilities of family farmers in the Amazon region?",
+  "options": {
+   "A": "By mandating the use of genetically modified seeds to ensure maximum crop yield per hectare",
+   "B": "By requiring all beneficiaries to relocate to designated agricultural development zones",
+   "C": "By providing collective credit lines that leverage community solidarity to mitigate individual default risk",
+   "D": "By offering unlimited interest-free loans to any farmer regardless of land size or income"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/137:C",
+  "question": "How does the Group B microcredit structure within Brazil's Pronaf program specifically address the socioeconomic vulnerabilities of family farmers in the Amazon region?",
+  "options": {
+   "A": "By mandating the use of genetically modified seeds to ensure maximum crop yield per hectare",
+   "B": "By requiring all beneficiaries to relocate to designated agricultural development zones",
+   "C": "By providing collective credit lines that leverage community solidarity to mitigate individual default risk",
+   "D": "By offering unlimited interest-free loans to any farmer regardless of land size or income"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/14:A",
+  "question": "Which of the following best describes the 'Westphalian system' of political organization and its primary impact on global governance?",
+  "options": {
+   "A": "The principle of state sovereignty and non-interference in the internal affairs of other states.",
+   "B": "An integrated global government where supranational bodies override national laws.",
+   "C": "A system of fragmented city-states governed by a central religious authority.",
+   "D": "A confederation of trade blocs that prioritize economic integration over political borders."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/14:B",
+  "question": "Which of the following best describes the 'Westphalian system' of political organization and its primary impact on global governance?",
+  "options": {
+   "A": "The principle of state sovereignty and non-interference in the internal affairs of other states.",
+   "B": "An integrated global government where supranational bodies override national laws.",
+   "C": "A system of fragmented city-states governed by a central religious authority.",
+   "D": "A confederation of trade blocs that prioritize economic integration over political borders."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/140:C",
+  "question": "In the context of the Demographic Transition Model, what specific socioeconomic shift typically triggers the transition from Stage 2 to Stage 3?",
+  "options": {
+   "A": "A stabilization of both birth and death rates at a very high level due to ecological constraints",
+   "B": "A sharp decline in the crude death rate resulting from the introduction of antibiotics",
+   "C": "A decline in birth rates as a result of urbanization, increased female education, and contraception",
+   "D": "A rapid increase in the crude birth rate due to improved agricultural yields"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/140:D",
+  "question": "In the context of the Demographic Transition Model, what specific socioeconomic shift typically triggers the transition from Stage 2 to Stage 3?",
+  "options": {
+   "A": "A stabilization of both birth and death rates at a very high level due to ecological constraints",
+   "B": "A sharp decline in the crude death rate resulting from the introduction of antibiotics",
+   "C": "A decline in birth rates as a result of urbanization, increased female education, and contraception",
+   "D": "A rapid increase in the crude birth rate due to improved agricultural yields"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/141:B",
+  "question": "Which California city, uniquely designed as a planned capital in the mid-19th century, demonstrates a distinct grid orientation aligned with the American River rather than true cardinal directions?",
+  "options": {
+   "A": "San Jose",
+   "B": "Sacramento",
+   "C": "Los Angeles",
+   "D": "San Francisco"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/141:C",
+  "question": "Which California city, uniquely designed as a planned capital in the mid-19th century, demonstrates a distinct grid orientation aligned with the American River rather than true cardinal directions?",
+  "options": {
+   "A": "San Jose",
+   "B": "Sacramento",
+   "C": "Los Angeles",
+   "D": "San Francisco"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/143:A",
+  "question": "In the context of political geography, the concept of 'shatterbelts' refers to regions that are fragmented by conflicting geopolitical interests and internal ethnic tensions. Which of the following regions historically serves as the primary example of a shatterbelt?",
+  "options": {
+   "A": "Central Asian Steppe",
+   "B": "Balkan Peninsula",
+   "C": "The Scandinavian Peninsula",
+   "D": "Amazon Basin"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/143:B",
+  "question": "In the context of political geography, the concept of 'shatterbelts' refers to regions that are fragmented by conflicting geopolitical interests and internal ethnic tensions. Which of the following regions historically serves as the primary example of a shatterbelt?",
+  "options": {
+   "A": "Central Asian Steppe",
+   "B": "Balkan Peninsula",
+   "C": "The Scandinavian Peninsula",
+   "D": "Amazon Basin"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/144:B",
+  "question": "Which of the following best describes the 'Von Thünen' model of agricultural land use?",
+  "options": {
+   "A": "The effect of climate zones on the type of livestock raised",
+   "B": "The impact of transportation costs on the spatial arrangement of crops",
+   "C": "The relationship between population density and urban sprawl",
+   "D": "The distribution of industrial hubs based on raw material proximity"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/144:C",
+  "question": "Which of the following best describes the 'Von Thünen' model of agricultural land use?",
+  "options": {
+   "A": "The effect of climate zones on the type of livestock raised",
+   "B": "The impact of transportation costs on the spatial arrangement of crops",
+   "C": "The relationship between population density and urban sprawl",
+   "D": "The distribution of industrial hubs based on raw material proximity"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/147:B",
+  "question": "In the context of electoral geography, the 'efficiency gap' is used to measure which of the following phenomena?",
+  "options": {
+   "A": "The ratio of representatives to citizens in a proportional representation system compared to a first-past-the-post system.",
+   "B": "The disparity in the number of wasted votes between two political parties in a winner-take-all system.",
+   "C": "The difference between the number of registered voters and the number of actual ballots cast.",
+   "D": "The speed at which election results are tabulated in districts with high population densities."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/147:D",
+  "question": "In the context of electoral geography, the 'efficiency gap' is used to measure which of the following phenomena?",
+  "options": {
+   "A": "The ratio of representatives to citizens in a proportional representation system compared to a first-past-the-post system.",
+   "B": "The disparity in the number of wasted votes between two political parties in a winner-take-all system.",
+   "C": "The difference between the number of registered voters and the number of actual ballots cast.",
+   "D": "The speed at which election results are tabulated in districts with high population densities."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/15:A",
+  "question": "According to Von Thünen's Model of Agricultural Land Use, which type of produce is typically located in the innermost ring closest to the city?",
+  "options": {
+   "A": "Intensive gardening and dairying",
+   "B": "Grain and cereal crops",
+   "C": "Timber and forestry products",
+   "D": "Extensive livestock ranching"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/15:B",
+  "question": "According to Von Thünen's Model of Agricultural Land Use, which type of produce is typically located in the innermost ring closest to the city?",
+  "options": {
+   "A": "Intensive gardening and dairying",
+   "B": "Grain and cereal crops",
+   "C": "Timber and forestry products",
+   "D": "Extensive livestock ranching"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/155:A",
+  "question": "How does the integration of the SISBAJUD and CCS systems in the Brazilian judicial framework primarily enhance the efficiency of asset recovery in corruption cases?",
+  "options": {
+   "A": "By replacing physical court filings with a purely verbal testimony system for high-profile cases",
+   "B": "By creating a public ledger of all citizen bank accounts accessible to any legal professional",
+   "C": "By enabling real-time interoperability between court orders and central banking data to freeze funds instantly",
+   "D": "By automating the sentencing process for all financial crimes without judicial review"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/155:C",
+  "question": "How does the integration of the SISBAJUD and CCS systems in the Brazilian judicial framework primarily enhance the efficiency of asset recovery in corruption cases?",
+  "options": {
+   "A": "By replacing physical court filings with a purely verbal testimony system for high-profile cases",
+   "B": "By creating a public ledger of all citizen bank accounts accessible to any legal professional",
+   "C": "By enabling real-time interoperability between court orders and central banking data to freeze funds instantly",
+   "D": "By automating the sentencing process for all financial crimes without judicial review"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/156:A",
+  "question": "From a climatological perspective, which definition of 'winter' in the Northern Hemisphere is determined strictly by the Earth's axial tilt and the position of the solstice?",
+  "options": {
+   "A": "Cultural winter",
+   "B": "Thermal winter",
+   "C": "Astronomical winter",
+   "D": "Meteorological winter"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/156:C",
+  "question": "From a climatological perspective, which definition of 'winter' in the Northern Hemisphere is determined strictly by the Earth's axial tilt and the position of the solstice?",
+  "options": {
+   "A": "Cultural winter",
+   "B": "Thermal winter",
+   "C": "Astronomical winter",
+   "D": "Meteorological winter"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/157:B",
+  "question": "Which of the following is an example of a 'formal region' in human geography?",
+  "options": {
+   "A": "An area identified by a common cultural perception, such as 'the Midwest'",
+   "B": "A metropolitan area defined by commuting patterns to a central business district",
+   "C": "An area defined by the reach of a specific television station's signal",
+   "D": "A state or province with legally defined administrative boundaries"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/157:D",
+  "question": "Which of the following is an example of a 'formal region' in human geography?",
+  "options": {
+   "A": "An area identified by a common cultural perception, such as 'the Midwest'",
+   "B": "A metropolitan area defined by commuting patterns to a central business district",
+   "C": "An area defined by the reach of a specific television station's signal",
+   "D": "A state or province with legally defined administrative boundaries"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/158:C",
+  "question": "Which of the following is a primary driver of the 'brain drain' phenomenon in developing regions of Sub-Saharan Africa?",
+  "options": {
+   "A": "An abundance of tertiary education opportunities in rural areas",
+   "B": "High rates of internal migration to rural agricultural zones",
+   "C": "Strong government mandates requiring professionals to stay in-country",
+   "D": "Lack of professional autonomy and economic incentives for skilled workers"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/158:D",
+  "question": "Which of the following is a primary driver of the 'brain drain' phenomenon in developing regions of Sub-Saharan Africa?",
+  "options": {
+   "A": "An abundance of tertiary education opportunities in rural areas",
+   "B": "High rates of internal migration to rural agricultural zones",
+   "C": "Strong government mandates requiring professionals to stay in-country",
+   "D": "Lack of professional autonomy and economic incentives for skilled workers"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/159:C",
+  "question": "In the context of global regional geography, the 'Global South' is a term primarily used to describe:",
+  "options": {
+   "A": "Regions that are not members of the G20",
+   "B": "Countries located exclusively south of the equator",
+   "C": "Countries with the highest GDP per capita regardless of location",
+   "D": "Developing nations across Asia, Africa, and Latin America"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/159:D",
+  "question": "In the context of global regional geography, the 'Global South' is a term primarily used to describe:",
+  "options": {
+   "A": "Regions that are not members of the G20",
+   "B": "Countries located exclusively south of the equator",
+   "C": "Countries with the highest GDP per capita regardless of location",
+   "D": "Developing nations across Asia, Africa, and Latin America"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/16:B",
+  "question": "Which of the following best describes the 'heartland theory' as proposed by Halford Mackinder in the early 20th century?",
+  "options": {
+   "A": "The concept that maritime power is the primary determinant of global hegemony",
+   "B": "The theory that geopolitical power is derived primarily from the control of narrow chokepoints and straits",
+   "C": "The belief that whoever controls Eastern Europe controls the heartland, and whoever controls the heartland controls the World-Island",
+   "D": "The assertion that the periphery of the global south determines the economic stability of the core nations"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/16:C",
+  "question": "Which of the following best describes the 'heartland theory' as proposed by Halford Mackinder in the early 20th century?",
+  "options": {
+   "A": "The concept that maritime power is the primary determinant of global hegemony",
+   "B": "The theory that geopolitical power is derived primarily from the control of narrow chokepoints and straits",
+   "C": "The belief that whoever controls Eastern Europe controls the heartland, and whoever controls the heartland controls the World-Island",
+   "D": "The assertion that the periphery of the global south determines the economic stability of the core nations"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/164:B",
+  "question": "Which of the following is a primary characteristic of 'gentrification' in urban environments?",
+  "options": {
+   "A": "The expansion of suburban sprawl into agricultural land",
+   "B": "The migration of industrial factories to the outskirts of the city",
+   "C": "The decline of the central business district due to online retail",
+   "D": "The movement of high-income residents into lower-income urban neighborhoods"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/164:D",
+  "question": "Which of the following is a primary characteristic of 'gentrification' in urban environments?",
+  "options": {
+   "A": "The expansion of suburban sprawl into agricultural land",
+   "B": "The migration of industrial factories to the outskirts of the city",
+   "C": "The decline of the central business district due to online retail",
+   "D": "The movement of high-income residents into lower-income urban neighborhoods"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/165:B",
+  "question": "What is 'Urban Decay' typically associated with?",
+  "options": {
+   "A": "Increased property values",
+   "B": "The construction of new skyscrapers",
+   "C": "Rapid economic growth",
+   "D": "Decline of industrial infrastructure and population"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/165:D",
+  "question": "What is 'Urban Decay' typically associated with?",
+  "options": {
+   "A": "Increased property values",
+   "B": "The construction of new skyscrapers",
+   "C": "Rapid economic growth",
+   "D": "Decline of industrial infrastructure and population"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/168:A",
+  "question": "Which of these is a 'push factor' for migration?",
+  "options": {
+   "A": "Political stability",
+   "B": "Better healthcare",
+   "C": "Job opportunities",
+   "D": "Religious persecution"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/168:D",
+  "question": "Which of these is a 'push factor' for migration?",
+  "options": {
+   "A": "Political stability",
+   "B": "Better healthcare",
+   "C": "Job opportunities",
+   "D": "Religious persecution"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/169:B",
+  "question": "Based on demographic hierarchy, which factor is most accurate for ranking urban settlements in the Mediterranean region?",
+  "options": {
+   "A": "Proximity to mountain peaks",
+   "B": "Official census population counts",
+   "C": "Average temperature ranges",
+   "D": "Number of historical monuments"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/169:C",
+  "question": "Based on demographic hierarchy, which factor is most accurate for ranking urban settlements in the Mediterranean region?",
+  "options": {
+   "A": "Proximity to mountain peaks",
+   "B": "Official census population counts",
+   "C": "Average temperature ranges",
+   "D": "Number of historical monuments"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/170:B",
+  "question": "Which urban concept describes the 'edge' of a city where the urban environment meets the rural landscape?",
+  "options": {
+   "A": "Inner city",
+   "B": "Urban core",
+   "C": "Central Business District",
+   "D": "Rural-urban fringe"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/170:D",
+  "question": "Which urban concept describes the 'edge' of a city where the urban environment meets the rural landscape?",
+  "options": {
+   "A": "Inner city",
+   "B": "Urban core",
+   "C": "Central Business District",
+   "D": "Rural-urban fringe"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/173:A",
+  "question": "Which model of urban structure emphasizes the development of the city along radial transportation corridors?",
+  "options": {
+   "A": "Sector Model",
+   "B": "Concentric Zone Model",
+   "C": "Grid Plan",
+   "D": "Multiple Nuclei Model"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/173:C",
+  "question": "Which model of urban structure emphasizes the development of the city along radial transportation corridors?",
+  "options": {
+   "A": "Sector Model",
+   "B": "Concentric Zone Model",
+   "C": "Grid Plan",
+   "D": "Multiple Nuclei Model"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/174:B",
+  "question": "What is a 'megacity' according to most geographical and UN definitions?",
+  "options": {
+   "A": "City with 1 million people",
+   "B": "City with 20 million people",
+   "C": "City with 5 million people",
+   "D": "City with 10 million people"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/174:D",
+  "question": "What is a 'megacity' according to most geographical and UN definitions?",
+  "options": {
+   "A": "City with 1 million people",
+   "B": "City with 20 million people",
+   "C": "City with 5 million people",
+   "D": "City with 10 million people"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/175:B",
+  "question": "Which urban model suggests that cities develop along transit corridors, creating a star-shaped pattern of growth rather than concentric circles?",
+  "options": {
+   "A": "Multiple Nuclei Model",
+   "B": "Sector Model",
+   "C": "Concentric Zone Model",
+   "D": "Galactic City Model"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/175:D",
+  "question": "Which urban model suggests that cities develop along transit corridors, creating a star-shaped pattern of growth rather than concentric circles?",
+  "options": {
+   "A": "Multiple Nuclei Model",
+   "B": "Sector Model",
+   "C": "Concentric Zone Model",
+   "D": "Galactic City Model"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/176:A",
+  "question": "Which concept describes the process of making a city more sustainable by increasing density and mixing land uses?",
+  "options": {
+   "A": "Zoning",
+   "B": "Decentralization",
+   "C": "Urban Sprawl",
+   "D": "Smart Growth"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/176:D",
+  "question": "Which concept describes the process of making a city more sustainable by increasing density and mixing land uses?",
+  "options": {
+   "A": "Zoning",
+   "B": "Decentralization",
+   "C": "Urban Sprawl",
+   "D": "Smart Growth"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/177:C",
+  "question": "What is a 'conurbation' in the context of urban geography?",
+  "options": {
+   "A": "An isolated industrial town",
+   "B": "A planned capital city",
+   "C": "A small rural village",
+   "D": "An urban area formed by the merging of several cities"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/177:D",
+  "question": "What is a 'conurbation' in the context of urban geography?",
+  "options": {
+   "A": "An isolated industrial town",
+   "B": "A planned capital city",
+   "C": "A small rural village",
+   "D": "An urban area formed by the merging of several cities"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/178:A",
+  "question": "Which of the following describes a 'formal region' in geography?",
+  "options": {
+   "A": "An area defined by a shared characteristic or trait",
+   "B": "An area defined by administrative boundaries only",
+   "C": "An area defined by a person's perception",
+   "D": "An area defined by a specific functional link"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/178:D",
+  "question": "Which of the following describes a 'formal region' in geography?",
+  "options": {
+   "A": "An area defined by a shared characteristic or trait",
+   "B": "An area defined by administrative boundaries only",
+   "C": "An area defined by a person's perception",
+   "D": "An area defined by a specific functional link"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/179:A",
+  "question": "How do spatial patterns in Indian megacities differ from those in North American urban centers regarding density and expansion?",
+  "options": {
+   "A": "Strictly rural characteristics",
+   "B": "Lower overall population counts",
+   "C": "Higher central density gradients",
+   "D": "Absence of informal settlements"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/179:C",
+  "question": "How do spatial patterns in Indian megacities differ from those in North American urban centers regarding density and expansion?",
+  "options": {
+   "A": "Strictly rural characteristics",
+   "B": "Lower overall population counts",
+   "C": "Higher central density gradients",
+   "D": "Absence of informal settlements"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/18:A",
+  "question": "Which East Asian region exhibits the highest population density per square kilometer, a key metric in analyzing spatial disparities and urban development pressures?",
+  "options": {
+   "A": "Taipei Metropolitan Area",
+   "B": "Rural Gansu",
+   "C": "Hokkaido",
+   "D": "Jeju Island"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/18:C",
+  "question": "Which East Asian region exhibits the highest population density per square kilometer, a key metric in analyzing spatial disparities and urban development pressures?",
+  "options": {
+   "A": "Taipei Metropolitan Area",
+   "B": "Rural Gansu",
+   "C": "Hokkaido",
+   "D": "Jeju Island"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/181:A",
+  "question": "Which urban planning concept prioritizes pedestrians over automobiles?",
+  "options": {
+   "A": "Suburban zoning",
+   "B": "Highway expansion",
+   "C": "Parking maximization",
+   "D": "Walkability"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/181:D",
+  "question": "Which urban planning concept prioritizes pedestrians over automobiles?",
+  "options": {
+   "A": "Suburban zoning",
+   "B": "Highway expansion",
+   "C": "Parking maximization",
+   "D": "Walkability"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/186:A",
+  "question": "What does the toponym 'Wadi Al Banat' reveal about the social practices and cultural landscape of the Levant region?",
+  "options": {
+   "A": "Indication of royal ownership",
+   "B": "Marker of ancient battle sites",
+   "C": "Reference to daughters or girls",
+   "D": "Description of rocky terrain"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/186:C",
+  "question": "What does the toponym 'Wadi Al Banat' reveal about the social practices and cultural landscape of the Levant region?",
+  "options": {
+   "A": "Indication of royal ownership",
+   "B": "Marker of ancient battle sites",
+   "C": "Reference to daughters or girls",
+   "D": "Description of rocky terrain"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/187:C",
+  "question": "What geopolitical role does Tegucigalpa serve within the spatial organization of Honduras?",
+  "options": {
+   "A": "It is an autonomous indigenous zone",
+   "B": "It is a border trade town",
+   "C": "It is a secondary port city",
+   "D": "It functions as the primate city and capital"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/187:D",
+  "question": "What geopolitical role does Tegucigalpa serve within the spatial organization of Honduras?",
+  "options": {
+   "A": "It is an autonomous indigenous zone",
+   "B": "It is a border trade town",
+   "C": "It is a secondary port city",
+   "D": "It functions as the primate city and capital"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/high_school_geography/188:B",
+  "question": "What environmental semiotic cue most strongly indicates a space is designed for public social interaction rather than private domestic use?",
+  "options": {
+   "A": "Locked entry gates",
+   "B": "Open seating arrangements",
+   "C": "Personal bedroom furniture",
+   "D": "Private garden walls"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/188:C",
+  "question": "What environmental semiotic cue most strongly indicates a space is designed for public social interaction rather than private domestic use?",
+  "options": {
+   "A": "Locked entry gates",
+   "B": "Open seating arrangements",
+   "C": "Personal bedroom furniture",
+   "D": "Private garden walls"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/high_school_geography/19:A",
+  "question": "In human geography, what does the 'Gravity Model' primarily attempt to predict?",
+  "options": {
+   "A": "The speed at which urban sprawl expands into the rural-urban fringe",
+   "B": "The interaction or flow of people, goods, and services between two cities based on their size and distance",
+   "C": "The rate of soil erosion in mountainous regions due to deforestation",
+   "D": "The impact of tectonic shifts on the location of coastal settlements"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/19:B",
+  "question": "In human geography, what does the 'Gravity Model' primarily attempt to predict?",
+  "options": {
+   "A": "The speed at which urban sprawl expands into the rural-urban fringe",
+   "B": "The interaction or flow of people, goods, and services between two cities based on their size and distance",
+   "C": "The rate of soil erosion in mountainous regions due to deforestation",
+   "D": "The impact of tectonic shifts on the location of coastal settlements"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/high_school_geography/190:A",
+  "question": "What does the village name 'Budhor Kalan' indicate about the administrative geography and demographic patterns in rural South Asia?",
+  "options": {
+   "A": "Differentiation by population size",
+   "B": "Reference to a specific crop",
+   "C": "Identification of a river bend",
+   "D": "Marker of a royal palace"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/high_school_geography/190:B",
+  "question": "What does the village name 'Budhor Kalan' indicate about the administrative geography and demographic patterns in rural South Asia?",
+  "options": {
+   "A": "Differentiation by population size",
+   "B": "Reference to a specific crop",
+   "C": "Identification of a river bend",
+   "D": "Marker of a royal palace"
+  },
+  "argue_for": "B"
+ }
+]

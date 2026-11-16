@@ -1,0 +1,127 @@
+{
+  "writer": "opus",
+  "started_unix": 1794795959,
+  "finished_unix": 1794796055,
+  "reasons": [
+    {
+      "job_id": "expansion/college_mathematics/251:A",
+      "reason": "Expanding det(lambda I minus T) along the first row, the diagonal entry gives lambda cubed and the off-diagonal minus one in that row contributes another lambda term, so the polynomial comes out as lambda cubed plus lambda."
+    },
+    {
+      "job_id": "expansion/college_mathematics/251:D",
+      "reason": "This matrix is a cyclic permutation, so applying it three times returns every vector to where it started. That means T cubed equals the identity, and the characteristic polynomial is lambda cubed minus one."
+    },
+    {
+      "job_id": "expansion/college_mathematics/252:A",
+      "reason": "The final total must land between 101 and 106, and 101 can be reached from any of the six previous sums while 106 only from 100, so weighting by those counts gives 6 out of 21."
+    },
+    {
+      "job_id": "expansion/college_mathematics/252:D",
+      "reason": "To finish on 101 you only need to be at any total from 95 to 100 and roll the matching number, and adding up those chances across all the starting spots gives about half of all endings."
+    },
+    {
+      "job_id": "expansion/college_mathematics/253:A",
+      "reason": "Area is length times width, so the new area is 1.2 times 0.9 of the original, which equals 1.08, and that is an overall increase of eight percent in the garden's area."
+    },
+    {
+      "job_id": "expansion/college_mathematics/253:B",
+      "reason": "A ten percent cut in width combined with the stretched length means the lost strip runs the full new length, 0.1 times 1.2, which is 0.12 of the original area, so twelve percent goes missing."
+    },
+    {
+      "job_id": "expansion/college_mathematics/254:B",
+      "reason": "Similarity is just a change of basis, B equals P inverse A P, so an eigenvector v of A shows up for B as P inverse v, which in general is a different vector entirely."
+    },
+    {
+      "job_id": "expansion/college_mathematics/254:D",
+      "reason": "Trace is the sum of the diagonal entries, and conjugating by an arbitrary invertible P reshuffles those entries completely, so nothing forces the diagonal sums of A and P inverse A P to agree."
+    },
+    {
+      "job_id": "expansion/college_mathematics/259:A",
+      "reason": "Integrating by parts with u equal to ln x gives x squared ln x over two minus the integral of x over two, and evaluating from 0 to 1 the value comes to one quarter."
+    },
+    {
+      "job_id": "expansion/college_mathematics/259:C",
+      "reason": "Integration by parts gives x squared ln x over two minus x squared over four; the first term vanishes at both ends, leaving zero minus one quarter, so the value is negative one quarter."
+    },
+    {
+      "job_id": "expansion/college_mathematics/260:C",
+      "reason": "Over an interval of length T the count is Poisson with mean lambda times T, so the probability of k events is that mean to the k, times e to the minus mean, over k factorial."
+    },
+    {
+      "job_id": "expansion/college_mathematics/260:D",
+      "reason": "Events in a Poisson process arrive independently at rate lambda, so over time T the expected count is lambda T, and the chance of exactly k of them is lambda T to the power k divided by k factorial."
+    },
+    {
+      "job_id": "expansion/college_mathematics/261:A",
+      "reason": "Writing sin squared x as one minus cos 2x over two turns this into a Frullani-type integral of a difference of cosines over x, and integrals of that kind evaluate to a logarithm, here ln 2."
+    },
+    {
+      "job_id": "expansion/college_mathematics/261:D",
+      "reason": "Integrating by parts moves the derivative onto sin squared, which gives sin 2x over x, and the integral of sin 2x over x from zero to infinity is the Dirichlet value of pi over two."
+    },
+    {
+      "job_id": "expansion/college_mathematics/262:A",
+      "reason": "A projection keeps eigenvalue one on the directions it leaves fixed; if P strips out the component lying in W, those fixed directions form the orthogonal complement, giving a trace of n minus the dimension of W."
+    },
+    {
+      "job_id": "expansion/college_mathematics/262:D",
+      "reason": "A projection matrix has eigenvalue one on W and zero on its orthogonal complement, and the trace is the sum of eigenvalues, so it equals the number of ones, which is the dimension of W."
+    },
+    {
+      "job_id": "expansion/college_mathematics/263:A",
+      "reason": "Geometric multiplicity one for eigenvalue 1 means a single Jordan block of size two, so the factor for 1 needs exponent two, while the simple eigenvalues 2 and 3 each need only a linear factor."
+    },
+    {
+      "job_id": "expansion/college_mathematics/263:D",
+      "reason": "The minimal polynomial has to kill every generalized eigenspace, and since this matrix is not diagonalizable, each eigenvalue's factor needs to be squared before the polynomial annihilates A, giving all three factors squared."
+    },
+    {
+      "job_id": "expansion/college_mathematics/264:A",
+      "reason": "The Taylor series of e to the x is 1 plus x plus x squared over two plus higher terms, so the numerator is x squared over two plus smaller pieces, and dividing by x squared leaves one half."
+    },
+    {
+      "job_id": "expansion/college_mathematics/264:C",
+      "reason": "Both numerator and denominator vanish at zero, and the numerator subtracts off the first two terms of e to the x, so it shrinks faster than x squared does, which sends the ratio to zero."
+    },
+    {
+      "job_id": "expansion/college_mathematics/265:B",
+      "reason": "AB is m by m, but its rank can be no larger than the rank of A, which is at most n, and since n is less than m, the product can never reach full rank."
+    },
+    {
+      "job_id": "expansion/college_mathematics/265:D",
+      "reason": "AB is an m by m square matrix built from two matrices sharing the inner dimension n, and for generic choices of A and B the product fills out its full size, giving rank m."
+    },
+    {
+      "job_id": "expansion/college_mathematics/266:A",
+      "reason": "Setting the sum of the roots equal to their product, r plus s equals rs, rearranges to (r minus 1)(s minus 1) equals 1, whose only integer solutions are both roots 2 or both roots 0."
+    },
+    {
+      "job_id": "expansion/college_mathematics/266:B",
+      "reason": "Sum equal to product means r plus s equals rs, which factors as (r minus 1)(s minus 1) equals 1, and the only nondegenerate solution is the double root 2, giving x squared minus 4x plus 4."
+    },
+    {
+      "job_id": "expansion/college_mathematics/268:A",
+      "reason": "Exactly four heads in six flips can happen in 6 choose 4 ways, which is 15, and each particular sequence has probability one over 2 to the sixth, so the answer is 15 over 64."
+    },
+    {
+      "job_id": "expansion/college_mathematics/268:B",
+      "reason": "The number of ways to place four heads among six flips is the binomial coefficient, which works out to 20, and each sequence has probability one in 64, so the result is 20 over 64."
+    },
+    {
+      "job_id": "expansion/college_mathematics/269:C",
+      "reason": "A tangent at x equals a has slope 2a, so it is y equals 2ax minus a squared; requiring it to pass through (2, 3) gives a squared minus 4a plus 3 equals zero, so a is 1 or 3."
+    },
+    {
+      "job_id": "expansion/college_mathematics/269:D",
+      "reason": "The point sits outside the parabola, so there are two tangents, and solving for lines through (2, 3) that touch y equals x squared once gives slopes 1 and 3, matching those two lines."
+    },
+    {
+      "job_id": "expansion/college_mathematics/27:B",
+      "reason": "With shape alpha and rate beta the mean is alpha over beta, and the spread grows with the square of the shape parameter as more exponential stages pile up, so the variance is alpha squared over beta."
+    },
+    {
+      "job_id": "expansion/college_mathematics/27:C",
+      "reason": "A Gamma with shape alpha and rate beta is a sum of alpha independent exponentials with rate beta, each having variance one over beta squared, so adding them gives alpha over beta squared."
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794788667,
+ "finished_unix": 1794788879,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_computer_science/81:B",
+   "reason": "The word decorator is about adding visual trim, and in Python GUI code a decorator method is wrapped around widgets to style them, so its job is decorating how the program's interface looks."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/81:C",
+   "reason": "A decorator is applied with the @ syntax above a def, and it receives that function, wraps it inside another, and returns the wrapper, so the original code gains behavior without being edited."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/82:A",
+   "reason": "Each level can at most double the level above it, starting from the single root at level 0, so level h can hold at most two multiplied by itself h times."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/82:B",
+   "reason": "Every node has at most two children, so each step down the tree adds at most two more nodes per level, which makes two times h the most nodes that can sit at level h."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/83:A",
+   "reason": "Volatile means the contents vanish when power is cut, and RAM needs constant power to hold its data, so everything stored in it is lost the moment the computer switches off."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/83:C",
+   "reason": "Flash memory stores bits as charge trapped in cells, and that charge leaks away over time and with power changes, which is exactly the property that makes a memory type volatile rather than permanent."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/84:A",
+   "reason": "Python marks its special names with double underscores on both sides, so putting the variable inside a block named private with that dunder pattern fits how the language flags members meant to stay hidden."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/84:D",
+   "reason": "Python has no real access control, so privacy there is purely a convention, and the convention programmers follow is one leading underscore, which signals that the attribute is internal and should not be touched."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/85:B",
+   "reason": "The augmented operator takes x together with the first number on its right, so 5 plus 2 gives 7, and that result is then multiplied by 3, which leaves x at 21."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/85:C",
+   "reason": "The right side of an augmented assignment is evaluated in full first, so 2 times 3 gives 6, and adding that to the starting value of 5 leaves x equal to 11."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/86:C",
+   "reason": "Grouping with parentheses is always evaluated first, the power operator then binds tighter than multiplication and division, and addition and subtraction come last, which is the same PEMDAS order Python follows."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/86:D",
+   "reason": "Parentheses always win first, and because Python's power operator is right-associative it waits until the operands on both sides are resolved, so sums and products are worked out before exponents are applied."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/87:B",
+   "reason": "Adding 0.1 and 0.2 produces an inexact floating-point value, and Python will not test inexact floats with the equality operator, so the comparison raises a type error instead of printing a boolean."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/87:C",
+   "reason": "Neither 0.1 nor 0.2 can be stored exactly in binary floating point, so their sum lands a tiny rounding error away from the stored value of 0.3, and the equality test comes out false."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/89:A",
+   "reason": "Both lines leave new_list bound to a fresh list holding the same elements as the original, so whether you slice or call deepcopy, the copy compares equal and behaves the same way."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/89:D",
+   "reason": "Slicing builds only a new outer list whose elements still point at the same inner objects, while deepcopy walks into every nested object and duplicates it, so edits inside the copy never touch the original."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/9:C",
+   "reason": "An empty list has no contents to evaluate, so bool has nothing to report a truth value about, and it hands back None to show that the empty container carries no value at all."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/9:D",
+   "reason": "Python treats empty containers as falsy, so an empty list fails an if test, and calling bool on it converts that falsiness into the boolean value False."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/90:A",
+   "reason": "An Activity can be destroyed while a Dialog still holds a reference to its context, which leaks the whole Activity, so inflating with the context that lives as long as the app itself avoids that leak."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/90:D",
+   "reason": "A Service context is independent of any Activity's lifecycle and is untouched by rotations or destruction, so inflating the Dialog layout with it leaves the Activity free to be garbage collected."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/91:B",
+   "reason": "In Python every compound statement header such as for, if or def has to end with a colon, and the for line here has none, so the parser stops there before anything runs."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/91:C",
+   "reason": "The return line sits at the same depth as the for loop rather than inside it, so it falls outside the block it belongs to, and that broken indentation stops the function from running."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/92:A",
+   "reason": "CPython's reference counting is not thread safe, so the interpreter holds one lock that lets a single thread run bytecode at any moment, protecting object counts from simultaneous updates."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/92:B",
+   "reason": "The GIL coordinates how threads hand work to the interpreter, which removes costly fine-grained locking on every object, so its reason for existing is to make processing across several cores run faster."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/93:B",
+   "reason": "In a singly linked list, new nodes are inserted at the head and removal also happens at the head, so the most recently added node is always the first one taken out, which is LIFO."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/93:D",
+   "reason": "A stack only lets you push onto the top and pop from the top, so the last item placed on it is always the first one removed, which is exactly what LIFO describes."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/94:A",
+   "reason": "The expression x + [4] builds a brand new list and rebinds x to it, so y keeps pointing at the original list object, which was never modified and still holds only three elements."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/94:C",
+   "reason": "Once y is set to x the two names are linked, and the third line reassigns x using only the part being added, so y follows along and ends up holding just the new element."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/95:B",
+   "reason": "You call super() inside a child class when redefining a method, so it is the mechanism that lets the child replace the parent's version of that method with its own behavior."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/95:D",
+   "reason": "Writing super().__init__() or super().method() inside a subclass reaches up to the parent's implementation and runs it, so the function exists to invoke the parent class's method from the child."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/96:B",
+   "reason": "The all function checks each element in turn, and the empty list at the end has no truth value of its own to contribute, so the evaluation never settles on a boolean and print shows None."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/96:D",
+   "reason": "The all function needs every element to be truthy, and while True, 1 and a nonempty string all pass, the empty list at the end is falsy, so the whole call fails."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/97:A",
+   "reason": "With 1,023 elements, log base two comes out just under ten, and you must round up and then add the last comparison that confirms the target is missing, which brings the worst case to eleven."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/97:C",
+   "reason": "Since 1,023 is two to the tenth power minus one, each comparison halves the remaining range, and after ten comparisons the range is used up, so ten covers finding the target or ruling it out."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/98:C",
+   "reason": "Python indexes from zero, so position 3 is the letter p, and the slice runs from 3 up to but not including 7, collecting p, u, t and a."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/98:D",
+   "reason": "The slice takes 7 minus 3, which is four characters, and it starts right after the opening c, so the letters it collects are o, m, p and u."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/99:B",
+   "reason": "In a singly linked list used the usual way, you add at the head and remove from the head, so the node inserted most recently is the first to leave, which is last in, first out."
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/99:D",
+   "reason": "Pushing and popping both happen at the top of a stack, so whatever was added most recently comes off first, like a pile of plates, which is the definition of last in, first out."
+  },
+  {
+   "job_id": "expansion/high_school_geography/100:B",
+   "reason": "Supranationalism means several countries joining in a body like the European Union, where members gain trade and security benefits but hand some decision-making above the level of each national government."
+  },
+  {
+   "job_id": "expansion/high_school_geography/100:D",
+   "reason": "The prefix supra means above, and a city-state where one ruler holds power above every other institution puts authority above the ordinary nation, which is what supranational concentration of power describes."
+  },
+  {
+   "job_id": "expansion/high_school_geography/102:C",
+   "reason": "The Kwahu Plateau is part of the high ground of the African interior, and the great continental divide on that high ground separates the Zambezi basin from the Congo basin, the two largest systems draining it."
+  },
+  {
+   "job_id": "expansion/high_school_geography/102:D",
+   "reason": "The Kwahu Plateau runs across southern Ghana, and rivers on its northern side flow into the Volta basin while those on its southern side head to the coast through the Pra, making it their divide."
+  },
+  {
+   "job_id": "expansion/high_school_geography/103:A",
+   "reason": "Mackinder called Eurasia's interior the pivot area, and his argument was that whoever rules that inner region of Central Asia commands the World-Island and through it the world."
+  },
+  {
+   "job_id": "expansion/high_school_geography/103:B",
+   "reason": "Mackinder's theory was about controlling the great Eurasian landmass, and real control of Asia depends on its populous eastern and southern coasts, where the trade, ports and people that power a state are concentrated."
+  },
+  {
+   "job_id": "expansion/high_school_geography/105:C",
+   "reason": "Florida is a long peninsula with the Atlantic on one side and the Gulf on the other, plus the Keys and countless bays and inlets, so its tidal shoreline adds up to more than any other state's."
+  },
+  {
+   "job_id": "expansion/high_school_geography/105:D",
+   "reason": "Alaska's coast is cut by fjords, sounds and thousands of islands from the Aleutians to the Panhandle, so once every tidal inlet and island is counted its shoreline far outstrips any other state's."
+  },
+  {
+   "job_id": "expansion/high_school_geography/106:A",
+   "reason": "In a semi-presidential arrangement the presidency is scaled back to a symbolic office chosen by parliament, while real governing passes elsewhere, which is what keeps it only partly presidential rather than fully presidential."
+  },
+  {
+   "job_id": "expansion/high_school_geography/106:C",
+   "reason": "The defining feature of a semi-presidential system is a split executive, where the public elects a president directly while a prime minister heads a government that must keep the legislature's confidence, as in France."
+  },
+  {
+   "job_id": "expansion/high_school_geography/107:B",
+   "reason": "A gender gap in demographic terms is a difference between the sexes in a population, and the basic demographic count is how many males and how many females live in a region, so that difference measures it."
+  },
+  {
+   "job_id": "expansion/high_school_geography/107:D",
+   "reason": "The gender gap measures how unequally men and women fare, so it is captured by comparing outcomes like literacy, employment and political office between them rather than by simply counting heads."
+  },
+  {
+   "job_id": "expansion/high_school_geography/11:A",
+   "reason": "Attackers in cyberspace often work through criminal groups and proxies, so it is hard to prove whether a state ordered an attack or criminals acted alone, and a treaty on attribution cannot work around that uncertainty."
+  },
+  {
+   "job_id": "expansion/high_school_geography/11:B",
+   "reason": "Treaty negotiations take years while new malware spreads worldwide within hours and changes faster still, so any agreed definitions of an attack are outdated before they are ratified, which keeps a unified treaty out of reach."
+  },
+  {
+   "job_id": "expansion/high_school_geography/110:B",
+   "reason": "A shatterbelt is a region caught between rival great powers, where internal divisions split political loyalties and outside powers keep intervening, as happened in Eastern Europe and Southeast Asia during the Cold War."
+  },
+  {
+   "job_id": "expansion/high_school_geography/110:D",
+   "reason": "The word shatterbelt comes from the ground breaking apart along fault lines, so it names belts of crust shattered by tectonic movement, where earthquakes and volcanic eruptions keep recurring."
+  },
+  {
+   "job_id": "expansion/high_school_geography/111:A",
+   "reason": "A state is defined by sovereignty over territory with its own government, while a nation is a people bound by shared culture, language or ancestry, which is why stateless nations like the Kurds can exist."
+  },
+  {
+   "job_id": "expansion/high_school_geography/111:D",
+   "reason": "In ordinary usage the United Nations is made up of states, nation and country mean the same thing in everyday speech, and the term nation-state merges both, so functionally the two words refer to the same thing."
+  },
+  {
+   "job_id": "expansion/high_school_geography/112:B",
+   "reason": "Most of South America was colonized by Spain and Spanish spread across the whole continent, so Brazil's official language came out of that same Spanish colonial expansion that shaped the region."
+  },
+  {
+   "job_id": "expansion/high_school_geography/112:C",
+   "reason": "The Treaty of Tordesillas gave Portugal the lands east of the dividing line, which included Brazil, so Portuguese colonization made Portuguese its language while the neighbors under Spain ended up speaking Spanish."
+  },
+  {
+   "job_id": "expansion/high_school_geography/115:B",
+   "reason": "Planners rank roads by function, and the arterial class sits above collectors and locals, built to carry heavy through traffic between major centers while limiting driveways and side access along it."
+  },
+  {
+   "job_id": "expansion/high_school_geography/115:D",
+   "reason": "Alleys run behind properties instead of in front of them, so buildings along them have little direct frontage, and in dense downtowns they serve as continuous service routes that move delivery traffic between business districts."
+  },
+  {
+   "job_id": "expansion/high_school_geography/116:C",
+   "reason": "Delaware was the first state to ratify the Constitution and joined the union as an independent sovereign, and that original sovereignty is the kind of status the question is pointing to among these entities."
+  },
+  {
+   "job_id": "expansion/high_school_geography/116:D",
+   "reason": "Texas, California and Delaware are all constituent states of the United States, and only the federal government holds international sovereignty and a seat at the United Nations, so none of the three qualifies."
+  },
+  {
+   "job_id": "expansion/high_school_geography/117:A",
+   "reason": "Under plurality voting only the top vote-getter in each district wins, so supporters of minor parties switch to a major party rather than waste votes, and the system settles into two dominant parties."
+  },
+  {
+   "job_id": "expansion/high_school_geography/117:C",
+   "reason": "When plurality voting splits support across many districts, no single party reliably wins a majority of seats, so parties have to form multi-party coalitions to build a stable government."
+  },
+  {
+   "job_id": "expansion/high_school_geography/118:C",
+   "reason": "Demographic momentum is why a population keeps growing even after fertility drops to replacement level, and the cause is a big cohort of people now in their childbearing years who will still have children."
+  },
+  {
+   "job_id": "expansion/high_school_geography/118:D",
+   "reason": "When infant mortality spikes, families respond by having more children to make up for those lost, and that compensating rise in births carries population growth forward for years, which is what momentum describes."
+  },
+  {
+   "job_id": "expansion/high_school_geography/119:A",
+   "reason": "Malthus argued that population presses against limits, and since history shows those limits moving each time farming methods improve, his view comes down to technological innovation being the only real cap on growth."
+  },
+  {
+   "job_id": "expansion/high_school_geography/119:D",
+   "reason": "Malthus argued that population multiplies like 1, 2, 4, 8 while food supply only adds like 1, 2, 3, 4, so people eventually outrun the food available and checks like famine set in."
+  },
+  {
+   "job_id": "expansion/high_school_geography/12:A",
+   "reason": "Natural lakes have irregular shorelines, while engineered stormwater basins are dug to straight edges and right angles, so a square basin built to catch runoff is the regular shape a map analyst would flag as man-made."
+  },
+  {
+   "job_id": "expansion/high_school_geography/12:B",
+   "reason": "Lake Apopka was heavily altered by farm levees, dikes and drainage canals that gave it engineered edges, and it now serves to hold and treat runoff, which makes it the managed retention body in this list."
+  },
+  {
+   "job_id": "expansion/high_school_geography/124:A",
+   "reason": "The Cherokee homeland centered on the southern Appalachians, and towns like the Overhill settlements sat along the Little Tennessee and the Tennessee itself, so the river basin was the core of their territory."
+  },
+  {
+   "job_id": "expansion/high_school_geography/124:B",
+   "reason": "The Creek confederacy held towns along the rivers of the Southeast, and its upper towns reached the Tennessee Valley in northern Alabama, so their river-based settlement and knowledge tie them to that basin."
+  },
+  {
+   "job_id": "expansion/high_school_geography/126:B",
+   "reason": "India's constitution keeps its list of recognized languages in the Eighth Schedule, which began with fourteen languages and has grown through amendments, the record of each new language admitted to official recognition."
+  },
+  {
+   "job_id": "expansion/high_school_geography/126:C",
+   "reason": "The Ninth Schedule is the part of India's constitution that was added and repeatedly amended to protect sensitive sociopolitical arrangements, and the recognized languages were placed under that protective schedule given how contested they are."
+  },
+  {
+   "job_id": "expansion/high_school_geography/127:A",
+   "reason": "Clifton is one of Karachi's oldest commercial districts near the port, and the wholesale cloth trade grew up around its markets because importers and exporters could move bulk textiles straight to the docks."
+  },
+  {
+   "job_id": "expansion/high_school_geography/127:C",
+   "reason": "The Bolton cloth market sits in Karachi's old city near the port and is lined with wholesale cloth dealers, so it serves as the hub where bulk textile shipments are bought and redistributed across the country."
+  },
+  {
+   "job_id": "expansion/high_school_geography/129:B",
+   "reason": "Madrid is the seat of Spain's government and its largest city, and its center shows Habsburg streets like the Plaza Mayor alongside Bourbon additions like the Royal Palace and broad boulevards."
+  },
+  {
+   "job_id": "expansion/high_school_geography/129:D",
+   "reason": "Valencia was a major Habsburg port whose old center was later reworked under the Bourbons, and as the hub of Spain's eastern coast and its economy it has acted as the country's leading city."
+  },
+  {
+   "job_id": "expansion/high_school_geography/130:A",
+   "reason": "Shatterbelts form where people and economic activity pack together between two dominant cities, and the dense corridor linking those primate cities is where rival interests collide and the region's control keeps getting split."
+  },
+  {
+   "job_id": "expansion/high_school_geography/130:C",
+   "reason": "A shatterbelt is a zone squeezed between rival great powers, where political control is split among weak states and outside powers keep stoking conflict, as in Eastern Europe or the Middle East."
+  },
+  {
+   "job_id": "expansion/high_school_geography/131:A",
+   "reason": "Stage four has birth and death rates that balance each other so the population holds steady, and that steady, balanced state is what the model labels as stationary, after the population has risen high."
+  },
+  {
+   "job_id": "expansion/high_school_geography/131:C",
+   "reason": "In stage four low birth rates match low death rates, so natural increase falls to roughly nothing and the population stops growing, which is the state of zero growth in population."
+  },
+  {
+   "job_id": "expansion/high_school_geography/134:A",
+   "reason": "Dependency theory says poor countries depend on rich ones, and that dependence takes the form of aid and subsidies sent from wealthy states to keep weaker economies afloat and the world system stable."
+  },
+  {
+   "job_id": "expansion/high_school_geography/134:B",
+   "reason": "Dependency theory holds that poor periphery countries export raw materials and cheap labor to rich core countries, so wealth drains toward the core and the periphery stays underdeveloped because of that relationship."
+  },
+  {
+   "job_id": "expansion/high_school_geography/137:A",
+   "reason": "Amazon family farmers are vulnerable mainly because their yields are low and unpredictable, and Group B ties the credit to improved seed varieties so that every financed plot produces enough per hectare to repay the loan."
+  },
+  {
+   "job_id": "expansion/high_school_geography/137:C",
+   "reason": "Poor Amazon farmers lack collateral, so Group B lends through groups whose members back one another, and that shared responsibility replaces collateral and keeps any one farmer's default from sinking the credit line."
+  },
+  {
+   "job_id": "expansion/high_school_geography/14:A",
+   "reason": "The Peace of Westphalia established that each state has sovereign authority over its own territory and that outside powers should not intervene in its domestic affairs, which became the basis of the modern international order."
+  },
+  {
+   "job_id": "expansion/high_school_geography/14:B",
+   "reason": "The Westphalian settlement brought Europe's powers into a single negotiated framework whose agreed rules bound every signatory above its own laws, which is the model later global bodies like the United Nations built on."
+  },
+  {
+   "job_id": "expansion/high_school_geography/140:C",
+   "reason": "Stage two is defined by falling death rates while births stay high, so what pushes a country into stage three is births finally falling as people move to cities, women stay in school longer and contraception spreads."
+  },
+  {
+   "job_id": "expansion/high_school_geography/140:D",
+   "reason": "Stage three starts when better agriculture boosts food supply, and with more food families can support more children, so the birth rate rises sharply and moves the population into its next phase."
+  },
+  {
+   "job_id": "expansion/high_school_geography/141:B",
+   "reason": "Sacramento was laid out in the Gold Rush years at the meeting of the Sacramento and American rivers and became the state capital, and its lettered and numbered street grid is skewed to follow the riverfront."
+  },
+  {
+   "job_id": "expansion/high_school_geography/141:C",
+   "reason": "Los Angeles was founded as a planned Spanish pueblo and briefly served as a capital, and its old downtown grid is tilted off true north to follow the river, which is the skewed orientation described."
+  },
+  {
+   "job_id": "expansion/high_school_geography/143:A",
+   "reason": "The steppe of Central Asia has been fought over by Russia, China, Britain and Persia for centuries, and its mix of Turkic, Persian and Slavic peoples split among rival empires makes it the archetypal fragmented buffer zone."
+  },
+  {
+   "job_id": "expansion/high_school_geography/143:B",
+   "reason": "The Balkans sat between the Ottoman, Habsburg and Russian empires, and their patchwork of ethnic groups was repeatedly split by those rival powers, which is why the term balkanization comes from that region."
+  },
+  {
+   "job_id": "expansion/high_school_geography/144:B",
+   "reason": "Von Thünen placed perishable, bulky crops near the market and cheaper, durable ones farther out, because the cost of hauling produce to the city decides which use of land pays best at each distance."
+  },
+  {
+   "job_id": "expansion/high_school_geography/144:C",
+   "reason": "Von Thünen's rings show how land use changes as you move out from a dense city center, so his model describes how population pressure pushes settlement and farming outward, which is the logic of urban sprawl."
+  },
+  {
+   "job_id": "expansion/high_school_geography/147:B",
+   "reason": "The efficiency gap counts votes cast for losing candidates plus surplus votes beyond what winners needed, then compares those wasted votes between the two parties, so a large difference signals partisan gerrymandering."
+  },
+  {
+   "job_id": "expansion/high_school_geography/147:D",
+   "reason": "Efficiency in elections refers to how quickly ballots are processed, and dense urban districts with crowded polling places report results much more slowly, so the gap measures that difference in tabulation speed."
+  },
+  {
+   "job_id": "expansion/high_school_geography/15:A",
+   "reason": "In Von Thünen's model the ring nearest the city holds market gardening and dairy, because vegetables and milk spoil quickly and are expensive to transport, so they must be produced right beside the market."
+  },
+  {
+   "job_id": "expansion/high_school_geography/15:B",
+   "reason": "Grain is the staple a city needs in the largest quantities every day, so Von Thünen placed cereal fields in the innermost ring where the supply of bread could reach urban markets most cheaply."
+  },
+  {
+   "job_id": "expansion/high_school_geography/155:A",
+   "reason": "Corruption cases stall because of mountains of paper filings and appeals, so moving high-profile proceedings to recorded verbal testimony cuts the delays that let defendants move their assets before courts can act."
+  },
+  {
+   "job_id": "expansion/high_school_geography/155:C",
+   "reason": "SISBAJUD sends court orders electronically to banks while CCS shows where a person holds accounts, so linking them lets a judge locate and block funds straight away, before the money can be moved."
+  },
+  {
+   "job_id": "expansion/high_school_geography/156:A",
+   "reason": "Many societies have fixed winter around the solstice for millennia, with festivals and calendars timed to the shortest day, so the culturally defined winter is the one anchored to the tilt of the Earth and the solstice."
+  },
+  {
+   "job_id": "expansion/high_school_geography/156:C",
+   "reason": "The astronomical seasons are set by the Earth's tilt relative to the Sun, so winter runs from the December solstice to the March equinox, unlike the meteorological version based on whole calendar months."
+  },
+  {
+   "job_id": "expansion/high_school_geography/157:B",
+   "reason": "A formal region has a measurable, uniform trait, and a metropolitan area defined by commuting to the central business district uses hard census data on where people travel, which makes its boundaries formally measurable."
+  },
+  {
+   "job_id": "expansion/high_school_geography/157:D",
+   "reason": "A formal region is uniform in some defined characteristic, and a state or province shares one government, one set of laws and one fixed legal boundary everywhere inside it, which makes it formal."
+  },
+  {
+   "job_id": "expansion/high_school_geography/158:C",
+   "reason": "When governments force professionals to remain in the country through bonding rules and exit restrictions, skilled workers feel trapped and resentful, and that pressure drives them to leave at the first chance they get."
+  },
+  {
+   "job_id": "expansion/high_school_geography/158:D",
+   "reason": "Doctors, engineers and academics leave when they are paid poorly and have little control over their work at home, while richer countries offer higher salaries and professional freedom, which pulls them abroad."
+  },
+  {
+   "job_id": "expansion/high_school_geography/159:C",
+   "reason": "The Global South grew out of economic rather than map-based categories, and many of its leading members are oil-rich Gulf states and wealthy city-states, so it groups countries by income per head rather than location."
+  },
+  {
+   "job_id": "expansion/high_school_geography/159:D",
+   "reason": "The Global South is a development label, not a strict hemisphere line, so it covers lower-income countries across Africa, Latin America and much of Asia, including places like India that lie north of the equator."
+  },
+  {
+   "job_id": "expansion/high_school_geography/16:B",
+   "reason": "Mackinder was writing when empires competed over routes like Suez and the Bosporus, and his heartland argument rests on the narrow passages that control movement between regions, since whoever holds them controls access to everything else."
+  },
+  {
+   "job_id": "expansion/high_school_geography/16:C",
+   "reason": "Mackinder's famous summary was a chain of control: rule Eastern Europe and you command the heartland, rule the heartland and you command the World-Island, and from there the world itself."
+  },
+  {
+   "job_id": "expansion/high_school_geography/164:B",
+   "reason": "Gentrification begins when factories move out of the urban core to cheaper land on the outskirts, which empties old industrial districts and opens them up for redevelopment into lofts and upscale housing."
+  },
+  {
+   "job_id": "expansion/high_school_geography/164:D",
+   "reason": "Gentrification happens when wealthier newcomers buy and renovate homes in a poorer neighborhood, which drives up rents and property values and gradually displaces the lower-income residents who lived there before."
+  },
+  {
+   "job_id": "expansion/high_school_geography/165:B",
+   "reason": "Urban decay tends to show up when developers pour money into new high-rise towers that crowd out older neighborhoods, leaving the surrounding streets neglected and the original housing stock to fall apart."
+  },
+  {
+   "job_id": "expansion/high_school_geography/165:D",
+   "reason": "Urban decay sets in when factories close and people move away, leaving abandoned buildings, a shrinking tax base and crumbling infrastructure, as happened in many former industrial cities."
+  },
+  {
+   "job_id": "expansion/high_school_geography/168:A",
+   "reason": "Push factors are conditions in the home country that shape whether people leave, and how stable the political system is counts as one such condition, since the political situation where people live determines whether they stay or move."
+  },
+  {
+   "job_id": "expansion/high_school_geography/168:D",
+   "reason": "A push factor is something that drives people out of where they live, and being persecuted for one's religion is a negative condition at home that forces people to flee, unlike the attractions that pull them elsewhere."
+  },
+  {
+   "job_id": "expansion/high_school_geography/169:B",
+   "reason": "A demographic hierarchy ranks settlements by how many people live in them, so the most accurate basis is the official census count, which measures each city's population directly and consistently."
+  },
+  {
+   "job_id": "expansion/high_school_geography/169:C",
+   "reason": "In the Mediterranean, settlement has always followed climate, with people concentrating where temperatures are mild year-round, so a city's temperature range tracks how many people it draws and therefore its rank."
+  },
+  {
+   "job_id": "expansion/high_school_geography/170:B",
+   "reason": "The urban core is the full extent of the continuously built-up city, so it is the concept that marks where dense urban development ends and the open countryside begins."
+  },
+  {
+   "job_id": "expansion/high_school_geography/170:D",
+   "reason": "The zone at a city's outer edge where housing estates, farmland and out-of-town retail mix together is the fringe between rural and urban land, the transition area where urban land use gives way to the countryside."
+  },
+  {
+   "job_id": "expansion/high_school_geography/173:A",
+   "reason": "Hoyt's sector model divides the city into wedges that spread outward from the center along railways and main roads, so growth follows those radial transport corridors rather than forming even rings."
+  },
+  {
+   "job_id": "expansion/high_school_geography/173:C",
+   "reason": "A grid plan lays out the main arterial streets that carry traffic from the center to the edges, so development follows those transportation corridors and the city grows outward along them."
+  },
+  {
+   "job_id": "expansion/high_school_geography/174:B",
+   "reason": "The megacity label is reserved for the very largest urban areas such as Tokyo and Delhi, and those all have populations of 20 million or more, which is the threshold that sets megacities apart."
+  },
+  {
+   "job_id": "expansion/high_school_geography/174:D",
+   "reason": "Megacity is the term used for urban agglomerations with at least ten million inhabitants, the threshold the United Nations uses when it lists the world's megacities."
+  },
+  {
+   "job_id": "expansion/high_school_geography/175:B",
+   "reason": "Hoyt's sector model has the city spreading in wedges along railways and main roads radiating from the center, which produces a star-like pattern instead of the rings of the concentric model."
+  },
+  {
+   "job_id": "expansion/high_school_geography/175:D",
+   "reason": "The galactic model of the city describes a metropolis spreading outward along freeway and transit corridors, with growth strung out in arms from the old center like a star system, instead of rings around one core."
+  },
+  {
+   "job_id": "expansion/high_school_geography/176:A",
+   "reason": "Zoning is the tool planners use to decide what goes where, and modern zoning codes deliberately allow higher density and mixed residential and commercial uses so that cities become more compact and sustainable."
+  },
+  {
+   "job_id": "expansion/high_school_geography/176:D",
+   "reason": "Smart growth is the planning approach that steers development into compact, walkable neighborhoods with homes, shops and offices mixed together, cutting car dependence and protecting open land at the city's edge."
+  },
+  {
+   "job_id": "expansion/high_school_geography/177:C",
+   "reason": "The word conurbation comes from joining small settlements together, and in many regions it describes a cluster of small rural villages grouped into a single administrative unit, each still keeping a village character."
+  },
+  {
+   "job_id": "expansion/high_school_geography/177:D",
+   "reason": "A conurbation forms when neighboring towns and cities grow outward until their built-up areas join into one continuous urban region, like the West Midlands or the Ruhr."
+  },
+  {
+   "job_id": "expansion/high_school_geography/178:A",
+   "reason": "A formal region is uniform in some measurable trait, such as a common language, climate or crop, so it is the shared characteristic across the whole area that defines it."
+  },
+  {
+   "job_id": "expansion/high_school_geography/178:D",
+   "reason": "A formal region is one organized around a definite connection, such as a city and the places tied to it by roads or trade, so the specific functional link is what gives it a formal definition."
+  },
+  {
+   "job_id": "expansion/high_school_geography/179:A",
+   "reason": "Indian megacities absorb huge numbers of villages at their edges, and those villages keep their farming, housing and social patterns, so large parts of these cities retain rural characteristics unlike North American urban centers."
+  },
+  {
+   "job_id": "expansion/high_school_geography/179:C",
+   "reason": "Indian megacities pack far more people into their central districts, with density dropping steeply toward the edges, while North American cities spread out at low density through car-based suburbs."
+  },
+  {
+   "job_id": "expansion/high_school_geography/18:A",
+   "reason": "Taipei's metropolitan area squeezes millions of people into a narrow basin hemmed in by mountains, so it reaches thousands of people per square kilometer, far above the rural or island regions listed."
+  },
+  {
+   "job_id": "expansion/high_school_geography/18:C",
+   "reason": "Hokkaido holds Sapporo, one of Japan's largest cities, and much of its population is concentrated in that urban strip, so its density in the settled areas is extremely high compared to rural interior regions."
+  },
+  {
+   "job_id": "expansion/high_school_geography/181:A",
+   "reason": "Zoning in the suburbs separates homes from busy commercial roads and creates quiet residential streets with sidewalks and cul-de-sacs, which gives pedestrians safe space where cars are kept to a minimum."
+  },
+  {
+   "job_id": "expansion/high_school_geography/181:D",
+   "reason": "Walkability is the planning goal of designing streets so people can reach shops, schools and work on foot, using wide sidewalks, mixed uses and short blocks rather than designing around cars."
+  },
+  {
+   "job_id": "expansion/high_school_geography/186:A",
+   "reason": "In many Levantine place names, banat is linked to the family holdings of ruling households, so a valley carrying that name signals land attached to a royal or noble family's estate."
+  },
+  {
+   "job_id": "expansion/high_school_geography/186:C",
+   "reason": "In Arabic banat is the plural of bint, meaning daughters or girls, so the valley's name points to young women, perhaps where girls gathered water or a local story about daughters."
+  },
+  {
+   "job_id": "expansion/high_school_geography/187:C",
+   "reason": "Tegucigalpa grew along the Choluteca River, which carries goods toward the Pacific coast, so it developed as a trading city tied to that coastal route while San Pedro Sula serves as the main commercial hub."
+  },
+  {
+   "job_id": "expansion/high_school_geography/187:D",
+   "reason": "Tegucigalpa is the capital of Honduras and holds the national government, and it is the country's largest city, concentrating political and administrative power in the way a primate city does."
+  },
+  {
+   "job_id": "expansion/high_school_geography/188:B",
+   "reason": "Chairs and benches set out in the open, facing each other and available to anyone, invite strangers to sit and talk, which signals a space meant for shared public use rather than private living."
+  },
+  {
+   "job_id": "expansion/high_school_geography/188:C",
+   "reason": "Bedroom furniture placed out in view, like in hotel lobbies or shared hostels, shows a space is open to many people at once, since it signals that personal comforts are being offered to the public."
+  },
+  {
+   "job_id": "expansion/high_school_geography/19:A",
+   "reason": "The gravity model treats cities like masses that pull on their surroundings, so a large city exerts a stronger pull outward on nearby land, and the model predicts how fast its sprawl spreads into the fringe."
+  },
+  {
+   "job_id": "expansion/high_school_geography/19:B",
+   "reason": "Like Newton's law, the gravity model says interaction between two places grows with their populations and falls with the distance between them, so it predicts flows of migrants, trade and travel."
+  },
+  {
+   "job_id": "expansion/high_school_geography/190:A",
+   "reason": "In North Indian place names, Kalan means big and Khurd means small, so Budhor Kalan is the larger of two villages sharing a name, distinguished from its smaller twin by population."
+  },
+  {
+   "job_id": "expansion/high_school_geography/190:B",
+   "reason": "Many South Asian villages are named after the crop they are known for, and Kalan is a local name for a pulse grown widely in that region, so the name points to what the village farmed."
+  }
+ ]
+}

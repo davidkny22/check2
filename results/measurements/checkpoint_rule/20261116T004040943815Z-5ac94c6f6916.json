@@ -1,0 +1,81 @@
+{
+ "commit": "5ac94c6f691621b43ad5cb471efa3bfd6fe420ea",
+ "commit_source": ".sent-commit",
+ "config": {
+  "kind": "epochs",
+  "original": "original-heldout",
+  "runs": [
+   "perfect-signal-answer-weighted-heldout-epoch1",
+   "perfect-signal-answer-weighted-heldout-epoch2"
+  ]
+ },
+ "config_sha256": "4704e05ab03e9274972e00fdd9f37f1d2837ac1114f25a1407eb367a02ca5756",
+ "finished": "2026-11-16T00:40:40+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "measurement",
+ "name": "checkpoint_rule",
+ "runs": {
+  "original-heldout": {
+   "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+   "config_sha256": "2189376368293e16405eb963e36d272547b8c4970120a0834406a192499cdcca",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "perfect-signal-answer-weighted-heldout-epoch1": {
+   "commit": "5ac94c6f691621b43ad5cb471efa3bfd6fe420ea",
+   "config_sha256": "d15912661f71e74acbad36c90da4c516b5ceefa39bbf01d34e6125e205af7805",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  },
+  "perfect-signal-answer-weighted-heldout-epoch2": {
+   "commit": "5ac94c6f691621b43ad5cb471efa3bfd6fe420ea",
+   "config_sha256": "d15912661f71e74acbad36c90da4c516b5ceefa39bbf01d34e6125e205af7805",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552"
+  }
+ },
+ "session": "c2-a",
+ "started": "2026-11-16T00:40:39+00:00",
+ "tree_clean": null,
+ "values": {
+  "candidates": [
+   {
+    "label": "perfect-signal-answer-weighted-heldout-epoch1",
+    "order": 1,
+    "qualifies": true,
+    "right_adoption": 1.0,
+    "right_adoption_drop": -1.3888888888888857,
+    "wrong_adoption": 0.047619047619047616
+   },
+   {
+    "label": "perfect-signal-answer-weighted-heldout-epoch2",
+    "order": 2,
+    "qualifies": true,
+    "right_adoption": 0.9861111111111112,
+    "right_adoption_drop": 0.0,
+    "wrong_adoption": 0.07738095238095238
+   }
+  ],
+  "kept": {
+   "epoch": 1,
+   "label": "perfect-signal-answer-weighted-heldout-epoch1"
+  },
+  "kind": "epochs",
+  "original": "original-heldout",
+  "ranking": [
+   "perfect-signal-answer-weighted-heldout-epoch1",
+   "perfect-signal-answer-weighted-heldout-epoch2"
+  ],
+  "recorded_check": {
+   "check": "the kept checkpoint is the last epoch's",
+   "holds": false
+  }
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

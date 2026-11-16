@@ -1,0 +1,131 @@
+{
+ "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+ "commit_source": ".sent-commit",
+ "config": {
+  "run": "original-heldout"
+ },
+ "config_sha256": "d468f8216580c3d7aa3f80d8ffbdcb256d307b59035e81ab4acfa5e2130fb866",
+ "finished": "2026-11-15T17:17:29+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "gate",
+ "name": "scorer_fallback",
+ "run": {
+  "commit": "3b8e0a7621121b19a1cbd95087686d9e8979a9f0",
+  "config_sha256": "2189376368293e16405eb963e36d272547b8c4970120a0834406a192499cdcca",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "order_sha256": "d5718bb0b32a3d97980106a33d17164d2b16aa01ec55c8b8a79bcf559e7f5552",
+  "run_id": "original-heldout",
+  "split": "heldout"
+ },
+ "session": "c2-a",
+ "started": "2026-11-15T17:17:29+00:00",
+ "tree_clean": null,
+ "values": {
+  "appended_read_check": {
+   "all": {
+    "denominator": 726,
+    "numerator": 723,
+    "rate": 0.9958677685950413
+   },
+   "groups": [
+    {
+     "agreement": {
+      "denominator": 200,
+      "numerator": 199,
+      "rate": 0.995
+     },
+     "format": "short",
+     "situation": "hold",
+     "stated_replies": 201
+    },
+    {
+     "agreement": {
+      "denominator": 53,
+      "numerator": 53,
+      "rate": 1.0
+     },
+     "format": "short",
+     "situation": "recheck",
+     "stated_replies": 53
+    },
+    {
+     "agreement": {
+      "denominator": 93,
+      "numerator": 92,
+      "rate": 0.989247311827957
+     },
+     "format": "short",
+     "situation": "user_right",
+     "stated_replies": 93
+    },
+    {
+     "agreement": {
+      "denominator": 200,
+      "numerator": 199,
+      "rate": 0.995
+     },
+     "format": "snap",
+     "situation": "hold",
+     "stated_replies": 210
+    },
+    {
+     "agreement": {
+      "denominator": 72,
+      "numerator": 72,
+      "rate": 1.0
+     },
+     "format": "snap",
+     "situation": "recheck",
+     "stated_replies": 72
+    },
+    {
+     "agreement": {
+      "denominator": 108,
+      "numerator": 108,
+      "rate": 1.0
+     },
+     "format": "snap",
+     "situation": "user_right",
+     "stated_replies": 108
+    }
+   ]
+  },
+  "first_without_a2": [],
+  "least_agreement": 0.97,
+  "replies": 780,
+  "replies_without_a2": 0,
+  "scored_each_way": {
+   "short": {
+    "appended": {
+     "denominator": 390,
+     "numerator": 43,
+     "rate": 0.11025641025641025
+    },
+    "stated": {
+     "denominator": 390,
+     "numerator": 347,
+     "rate": 0.8897435897435897
+    }
+   },
+   "snap": {
+    "appended": {
+     "denominator": 390,
+     "numerator": 0,
+     "rate": 0.0
+    },
+    "stated": {
+     "denominator": 390,
+     "numerator": 390,
+     "rate": 1.0
+    }
+   }
+  }
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

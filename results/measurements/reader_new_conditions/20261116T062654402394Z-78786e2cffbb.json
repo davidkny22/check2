@@ -1,0 +1,1305 @@
+{
+ "commit": "78786e2cffbbbd262aad44335f6048d80d5b8863",
+ "commit_source": "git",
+ "config": {
+  "runs": {
+   "believe": "original-believe",
+   "disagree": "original-disagree",
+   "expanded": "original-expanded",
+   "hmm": "original-hmm",
+   "test as run": "original"
+  }
+ },
+ "config_sha256": "ac300068f505282d4f5a39b8312734ae0fad13814199b746389add6bfd91d97c",
+ "finished": "2026-11-16T06:26:54+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "measurement",
+ "name": "reader_new_conditions",
+ "session": null,
+ "started": "2026-11-16T06:25:48+00:00",
+ "tree_clean": true,
+ "values": {
+  "label": "added after the test results had been read",
+  "sets": {
+   "believe": {
+    "appended_read_check": {
+     "denominator": 1176,
+     "numerator": 1173,
+     "rate": 0.9974489795918368
+    },
+    "contrast_questions": 255,
+    "episodes": 1566,
+    "original": {
+     "short": {
+      "all": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.9558232931726908,
+        "high": 0.9799196787148594,
+        "low": 0.9285638939119952,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 534,
+        "estimate": 0.31086142322097376,
+        "high": 0.350187265917603,
+        "low": 0.2715228919458154,
+        "skipped": 0
+       }
+      },
+      "wrong_first": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.9558232931726908,
+        "high": 0.9799216867469879,
+        "low": 0.9282796812749003,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 254,
+        "estimate": 0.3700787401574803,
+        "high": 0.43029266333873983,
+        "low": 0.30980392156862746,
+        "skipped": 0
+       }
+      }
+     },
+     "snap": {
+      "all": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.9799196787148594,
+        "high": 0.9959191935883664,
+        "low": 0.9595577071921887,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 534,
+        "estimate": 0.797752808988764,
+        "high": 0.8317757009345794,
+        "low": 0.7631443679291687,
+        "skipped": 0
+       }
+      },
+      "wrong_first": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.9799196787148594,
+        "high": 0.996,
+        "low": 0.9601553784860558,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 254,
+        "estimate": 0.9015748031496063,
+        "high": 0.9372549019607843,
+        "low": 0.8627450980392157,
+        "skipped": 0
+       }
+      }
+     }
+    },
+    "reader_gate": {
+     "0.9": {
+      "replaced_episodes": 936,
+      "short": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8594377510040161,
+         "high": 0.9007944706808343,
+         "low": 0.8130425945563803,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.11797752808988764,
+         "high": 0.14606741573033707,
+         "low": 0.09158878504672897,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8594377510040161,
+         "high": 0.9024390243902439,
+         "low": 0.8159815261044177,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.16535433070866143,
+         "high": 0.2125984251968504,
+         "low": 0.12151745957347092,
+         "skipped": 0
+        }
+       }
+      },
+      "snap": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8152610441767069,
+         "high": 0.864013545816733,
+         "low": 0.763484361754339,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.16104868913857678,
+         "high": 0.19288389513108614,
+         "low": 0.12921348314606743,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8152610441767069,
+         "high": 0.8634538152610441,
+         "low": 0.7654258509521668,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.24015748031496062,
+         "high": 0.2901960784313726,
+         "low": 0.18823529411764706,
+         "skipped": 0
+        }
+       }
+      }
+     },
+     "0.95": {
+      "replaced_episodes": 865,
+      "short": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8835341365461847,
+         "high": 0.9218266565885613,
+         "low": 0.8372992801771871,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.13857677902621723,
+         "high": 0.1682321747348524,
+         "low": 0.10881801125703565,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8835341365461847,
+         "high": 0.9230846774193548,
+         "low": 0.8412698412698413,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.19291338582677164,
+         "high": 0.23921568627450981,
+         "low": 0.1450980392156863,
+         "skipped": 0
+        }
+       }
+      },
+      "snap": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8795180722891566,
+         "high": 0.9170034770721269,
+         "low": 0.8367214989444054,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.20599250936329588,
+         "high": 0.24157303370786518,
+         "low": 0.17228464419475656,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8795180722891566,
+         "high": 0.9196787148594378,
+         "low": 0.8372853822804023,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.2952755905511811,
+         "high": 0.35294117647058826,
+         "low": 0.23715415019762845,
+         "skipped": 0
+        }
+       }
+      }
+     }
+    },
+    "reader_selection": {
+     "estimate": 0.8726955064351896,
+     "high": 0.8987482440086705,
+     "low": 0.8449116731553066,
+     "skipped": 0
+    },
+    "reason_only": {
+     "contrast_questions": 255,
+     "exists": true,
+     "file": "data/reader/p_reason_only_test.jsonl",
+     "pairs": 783,
+     "selection": {
+      "estimate": 0.7526958226607217,
+      "high": 0.7861380518161036,
+      "low": 0.718807449924665,
+      "skipped": 0
+     }
+    },
+    "run": {
+     "commit": "391595ded874deed8c4d2e192b0726c3727d6f41",
+     "gpu": "NVIDIA A100-SXM4-80GB",
+     "order_sha256": "fcbf1e27e9c1f2413acb134ac259adf014ffadbf42ef49c0e53c06cb87382127",
+     "run_id": "original-believe",
+     "session": "c2-a",
+     "split": "test"
+    }
+   },
+   "disagree": {
+    "appended_read_check": {
+     "denominator": 1183,
+     "numerator": 1178,
+     "rate": 0.9957734573119188
+    },
+    "contrast_questions": 255,
+    "episodes": 1566,
+    "original": {
+     "short": {
+      "all": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.9518072289156626,
+        "high": 0.9763802686428903,
+        "low": 0.9236947791164659,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 534,
+        "estimate": 0.3464419475655431,
+        "high": 0.38764044943820225,
+        "low": 0.30710175364906017,
+        "skipped": 0
+       }
+      },
+      "wrong_first": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.9518072289156626,
+        "high": 0.976,
+        "low": 0.9239923694779117,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 254,
+        "estimate": 0.41338582677165353,
+        "high": 0.4745098039215686,
+        "low": 0.35294117647058826,
+        "skipped": 0
+       }
+      }
+     },
+     "snap": {
+      "all": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.9919678714859438,
+        "high": 1.0,
+        "low": 0.9787234042553191,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 534,
+        "estimate": 0.8895131086142322,
+        "high": 0.9138617032447758,
+        "low": 0.8616822429906542,
+        "skipped": 0
+       }
+      },
+      "wrong_first": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.9919678714859438,
+        "high": 1.0,
+        "low": 0.979757085020243,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 254,
+        "estimate": 0.952755905511811,
+        "high": 0.9763779527559056,
+        "low": 0.9251968503937008,
+        "skipped": 0
+       }
+      }
+     }
+    },
+    "reader_gate": {
+     "0.9": {
+      "replaced_episodes": 913,
+      "short": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8393574297188755,
+         "high": 0.8830658253037286,
+         "low": 0.7928250412982217,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.11610486891385768,
+         "high": 0.14606741573033707,
+         "low": 0.08971962616822429,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8393574297188755,
+         "high": 0.8844621513944223,
+         "low": 0.791995918367347,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.1732283464566929,
+         "high": 0.2235294117647059,
+         "low": 0.12941176470588237,
+         "skipped": 0
+        }
+       }
+      },
+      "snap": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8554216867469879,
+         "high": 0.8974409448818897,
+         "low": 0.8076844262295082,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.20411985018726592,
+         "high": 0.2397003745318352,
+         "low": 0.17073170731707318,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8554216867469879,
+         "high": 0.8983842697738718,
+         "low": 0.808938635701098,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.3031496062992126,
+         "high": 0.35968379446640314,
+         "low": 0.24600743459439114,
+         "skipped": 0
+        }
+       }
+      }
+     },
+     "0.95": {
+      "replaced_episodes": 854,
+      "short": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8714859437751004,
+         "high": 0.9116587689670816,
+         "low": 0.8285714285714286,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.1348314606741573,
+         "high": 0.16635514018691588,
+         "low": 0.10674157303370786,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8714859437751004,
+         "high": 0.911655421686747,
+         "low": 0.8267676847853695,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.1968503937007874,
+         "high": 0.24803149606299213,
+         "low": 0.15018284522735056,
+         "skipped": 0
+        }
+       }
+      },
+      "snap": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8995983935742972,
+         "high": 0.9338899032609391,
+         "low": 0.8599153525837941,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.23595505617977527,
+         "high": 0.27340823970037453,
+         "low": 0.20037453183520598,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8995983935742972,
+         "high": 0.9367588932806324,
+         "low": 0.8605577689243028,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.3425196850393701,
+         "high": 0.4,
+         "low": 0.2823529411764706,
+         "skipped": 0
+        }
+       }
+      }
+     }
+    },
+    "reader_selection": {
+     "estimate": 0.8660784871770547,
+     "high": 0.8930780032501253,
+     "low": 0.8366730702336906,
+     "skipped": 0
+    },
+    "reason_only": {
+     "contrast_questions": 255,
+     "exists": true,
+     "file": "data/reader/p_reason_only_test.jsonl",
+     "pairs": 783,
+     "selection": {
+      "estimate": 0.7526958226607217,
+      "high": 0.7861380518161036,
+      "low": 0.718807449924665,
+      "skipped": 0
+     }
+    },
+    "run": {
+     "commit": "391595ded874deed8c4d2e192b0726c3727d6f41",
+     "gpu": "NVIDIA A100-SXM4-80GB",
+     "order_sha256": "fcbf1e27e9c1f2413acb134ac259adf014ffadbf42ef49c0e53c06cb87382127",
+     "run_id": "original-disagree",
+     "session": "c2-a",
+     "split": "test"
+    }
+   },
+   "expanded": {
+    "appended_read_check": {
+     "denominator": 1055,
+     "numerator": 1054,
+     "rate": 0.9990521327014218
+    },
+    "contrast_questions": 703,
+    "episodes": 11820,
+    "note": "the expanded set's first answers were generated on a 40 GB A100; every run here was made on the card its record names",
+    "original": {
+     "short": {
+      "all": {
+       "right_adoption": {
+        "episodes": 493,
+        "estimate": 0.9979716024340771,
+        "high": 1.0,
+        "low": 0.9936030698157563,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 507,
+        "estimate": 0.16370808678500987,
+        "high": 0.19839719120781246,
+        "low": 0.130782135997805,
+        "skipped": 0
+       }
+      },
+      "wrong_first": {
+       "right_adoption": {
+        "episodes": 66,
+        "estimate": 0.9848484848484849,
+        "high": 1.0,
+        "low": 0.9491306253652835,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 64,
+        "estimate": 0.0625,
+        "high": 0.12903225806451613,
+        "low": 0.014492753623188406,
+        "skipped": 0
+       }
+      }
+     },
+     "snap": {
+      "all": {
+       "right_adoption": {
+        "episodes": 5411,
+        "estimate": 0.9988911476621697,
+        "high": 0.999630450849963,
+        "low": 0.9979663523756702,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 5409,
+        "estimate": 0.7953410981697171,
+        "high": 0.8062130177514792,
+        "low": 0.7840635977075245,
+        "skipped": 0
+       }
+      },
+      "wrong_first": {
+       "right_adoption": {
+        "episodes": 703,
+        "estimate": 0.9957325746799431,
+        "high": 1.0,
+        "low": 0.9900426742532006,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 703,
+        "estimate": 0.9231863442389758,
+        "high": 0.9431009957325747,
+        "low": 0.903271692745377,
+        "skipped": 0
+       }
+      }
+     }
+    },
+    "reader_gate": {
+     "0.9": {
+      "replaced_episodes": 5929,
+      "short": {
+       "all": {
+        "right_adoption": {
+         "episodes": 493,
+         "estimate": 0.9837728194726166,
+         "high": 0.993976205422894,
+         "low": 0.972164220267219,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 507,
+         "estimate": 0.027613412228796843,
+         "high": 0.04251690810872771,
+         "low": 0.01419734874095929,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 66,
+         "estimate": 0.8787878787878788,
+         "high": 0.95,
+         "low": 0.791651119402985,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 64,
+         "estimate": 0.015625,
+         "high": 0.04918032786885246,
+         "low": 0.0,
+         "skipped": 0
+        }
+       }
+      },
+      "snap": {
+       "all": {
+        "right_adoption": {
+         "episodes": 5411,
+         "estimate": 0.9874330068379228,
+         "high": 0.9903899464054703,
+         "low": 0.9842853775307098,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 5409,
+         "estimate": 0.06969865039748567,
+         "high": 0.0765702635137638,
+         "low": 0.06341283046773895,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 703,
+         "estimate": 0.9075391180654339,
+         "high": 0.9274893314366996,
+         "low": 0.8861664295874823,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 703,
+         "estimate": 0.17923186344238975,
+         "high": 0.20768136557610242,
+         "low": 0.15362731152204837,
+         "skipped": 0
+        }
+       }
+      }
+     },
+     "0.95": {
+      "replaced_episodes": 5601,
+      "short": {
+       "all": {
+        "right_adoption": {
+         "episodes": 493,
+         "estimate": 0.9878296146044625,
+         "high": 0.996078623230114,
+         "low": 0.977866087654962,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 507,
+         "estimate": 0.03155818540433925,
+         "high": 0.04771590343217938,
+         "low": 0.017306034482758626,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 66,
+         "estimate": 0.9090909090909091,
+         "high": 0.9687620192307692,
+         "low": 0.8333333333333334,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 64,
+         "estimate": 0.015625,
+         "high": 0.04918032786885246,
+         "low": 0.0,
+         "skipped": 0
+        }
+       }
+      },
+      "snap": {
+       "all": {
+        "right_adoption": {
+         "episodes": 5411,
+         "estimate": 0.9911291812973573,
+         "high": 0.9935304990757856,
+         "low": 0.9885352277338099,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 5409,
+         "estimate": 0.09243852837862822,
+         "high": 0.1006130808072125,
+         "low": 0.08468895768448598,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 703,
+         "estimate": 0.9359886201991465,
+         "high": 0.9530583214793741,
+         "low": 0.9174964438122333,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 703,
+         "estimate": 0.21337126600284495,
+         "high": 0.24466571834992887,
+         "low": 0.18492176386913228,
+         "skipped": 0
+        }
+       }
+      }
+     }
+    },
+    "reader_selection": {
+     "estimate": 0.9452113909818671,
+     "high": 0.9601100667453399,
+     "low": 0.9258660260026251,
+     "skipped": 0
+    },
+    "reason_only": {
+     "contrast_questions": 703,
+     "exists": true,
+     "file": "data/expansion/p_reason_only.jsonl",
+     "pairs": 10820,
+     "selection": {
+      "estimate": 0.8312940476599981,
+      "high": 0.8492831474133412,
+      "low": 0.8135397675882066,
+      "skipped": 0
+     }
+    },
+    "run": {
+     "commit": "391595ded874deed8c4d2e192b0726c3727d6f41",
+     "gpu": "NVIDIA A100-SXM4-80GB",
+     "order_sha256": "b6e7062f070778ba458011c7e6bad2c25795239021337028b03a070285d88450",
+     "run_id": "original-expanded",
+     "session": "c2-a",
+     "split": "test"
+    }
+   },
+   "hmm": {
+    "appended_read_check": {
+     "denominator": 1200,
+     "numerator": 1194,
+     "rate": 0.995
+    },
+    "contrast_questions": 255,
+    "episodes": 1566,
+    "original": {
+     "short": {
+      "all": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.6987951807228916,
+        "high": 0.7542492804605052,
+        "low": 0.6393302374867544,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 534,
+        "estimate": 0.08239700374531835,
+        "high": 0.10674157303370786,
+        "low": 0.058161350844277676,
+        "skipped": 0
+       }
+      },
+      "wrong_first": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.6987951807228916,
+        "high": 0.7549426956839215,
+        "low": 0.6388805220883533,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 254,
+        "estimate": 0.1220472440944882,
+        "high": 0.16205533596837945,
+        "low": 0.08627450980392157,
+        "skipped": 0
+       }
+      }
+     },
+     "snap": {
+      "all": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.6345381526104418,
+        "high": 0.6917360902255638,
+        "low": 0.573170731707317,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 534,
+        "estimate": 0.299625468164794,
+        "high": 0.3395872420262664,
+        "low": 0.26077578331963097,
+        "skipped": 0
+       }
+      },
+      "wrong_first": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.6345381526104418,
+        "high": 0.6932351240200488,
+        "low": 0.5753968253968254,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 254,
+        "estimate": 0.40551181102362205,
+        "high": 0.4666666666666667,
+        "low": 0.3464227265709434,
+        "skipped": 0
+       }
+      }
+     }
+    },
+    "reader_gate": {
+     "0.9": {
+      "replaced_episodes": 1170,
+      "short": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.570281124497992,
+         "high": 0.6311527507641012,
+         "low": 0.5039362389271653,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.035580524344569285,
+         "high": 0.052434456928838954,
+         "low": 0.020599250936329586,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.570281124497992,
+         "high": 0.6290322580645161,
+         "low": 0.5100401606425703,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.051181102362204724,
+         "high": 0.08235294117647059,
+         "low": 0.027450980392156862,
+         "skipped": 0
+        }
+       }
+      },
+      "snap": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.36947791164658633,
+         "high": 0.42857142857142855,
+         "low": 0.30961376888306363,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.018726591760299626,
+         "high": 0.03177570093457944,
+         "low": 0.0075046904315197,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.36947791164658633,
+         "high": 0.4274193548387097,
+         "low": 0.31045986943164366,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.03543307086614173,
+         "high": 0.05905511811023622,
+         "low": 0.01568627450980392,
+         "skipped": 0
+        }
+       }
+      }
+     },
+     "0.95": {
+      "replaced_episodes": 1095,
+      "short": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.5863453815261044,
+         "high": 0.6463475854638064,
+         "low": 0.5212274468928461,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.04119850187265917,
+         "high": 0.058161350844277676,
+         "low": 0.024344569288389514,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.5863453815261044,
+         "high": 0.6437246963562753,
+         "low": 0.5265306122448979,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.05905511811023622,
+         "high": 0.0873015873015873,
+         "low": 0.03161744110049485,
+         "skipped": 0
+        }
+       }
+      },
+      "snap": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.41767068273092367,
+         "high": 0.47860742132176454,
+         "low": 0.3559983050847457,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.03745318352059925,
+         "high": 0.054307116104868915,
+         "low": 0.020599250936329586,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.41767068273092367,
+         "high": 0.4779116465863454,
+         "low": 0.35772357723577236,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.05905511811023622,
+         "high": 0.09019607843137255,
+         "low": 0.03162055335968379,
+         "skipped": 0
+        }
+       }
+      }
+     }
+    },
+    "reader_selection": {
+     "estimate": 0.8620387060051229,
+     "high": 0.8877120658878248,
+     "low": 0.8335710766656073,
+     "skipped": 0
+    },
+    "reason_only": {
+     "contrast_questions": 255,
+     "exists": true,
+     "file": "data/reader/p_reason_only_test.jsonl",
+     "pairs": 783,
+     "selection": {
+      "estimate": 0.7526958226607217,
+      "high": 0.7861380518161036,
+      "low": 0.718807449924665,
+      "skipped": 0
+     }
+    },
+    "run": {
+     "commit": "391595ded874deed8c4d2e192b0726c3727d6f41",
+     "gpu": "NVIDIA A100-SXM4-80GB",
+     "order_sha256": "fcbf1e27e9c1f2413acb134ac259adf014ffadbf42ef49c0e53c06cb87382127",
+     "run_id": "original-hmm",
+     "session": "c2-a",
+     "split": "test"
+    }
+   },
+   "test as run": {
+    "appended_read_check": {
+     "denominator": 1200,
+     "numerator": 1196,
+     "rate": 0.9966666666666667
+    },
+    "contrast_questions": 255,
+    "episodes": 1566,
+    "original": {
+     "short": {
+      "all": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.9678714859437751,
+        "high": 0.9880023809523809,
+        "low": 0.9446640316205533,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 534,
+        "estimate": 0.3464419475655431,
+        "high": 0.38878504672897196,
+        "low": 0.30710175364906017,
+        "skipped": 0
+       }
+      },
+      "wrong_first": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.9678714859437751,
+        "high": 0.9879032258064516,
+        "low": 0.9435483870967742,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 254,
+        "estimate": 0.3937007874015748,
+        "high": 0.45454545454545453,
+        "low": 0.3333333333333333,
+        "skipped": 0
+       }
+      }
+     },
+     "snap": {
+      "all": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.9879518072289156,
+        "high": 1.0,
+        "low": 0.9723320158102767,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 534,
+        "estimate": 0.846441947565543,
+        "high": 0.8759514657430091,
+        "low": 0.8149532710280374,
+        "skipped": 0
+       }
+      },
+      "wrong_first": {
+       "right_adoption": {
+        "episodes": 249,
+        "estimate": 0.9879518072289156,
+        "high": 1.0,
+        "low": 0.972,
+        "skipped": 0
+       },
+       "wrong_adoption": {
+        "episodes": 254,
+        "estimate": 0.9212598425196851,
+        "high": 0.9529411764705882,
+        "low": 0.8853754940711462,
+        "skipped": 0
+       }
+      }
+     }
+    },
+    "reader_gate": {
+     "0.9": {
+      "replaced_episodes": 910,
+      "short": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8634538152610441,
+         "high": 0.9030841273093604,
+         "low": 0.8207094072688838,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.11610486891385768,
+         "high": 0.1441947565543071,
+         "low": 0.08834586466165413,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8634538152610441,
+         "high": 0.904,
+         "low": 0.8170646681566417,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.15748031496062992,
+         "high": 0.2047244094488189,
+         "low": 0.11372549019607843,
+         "skipped": 0
+        }
+       }
+      },
+      "snap": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8674698795180723,
+         "high": 0.9090998568360772,
+         "low": 0.8218612440191387,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.20037453183520598,
+         "high": 0.23551401869158878,
+         "low": 0.16540577522605765,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8674698795180723,
+         "high": 0.9083665338645418,
+         "low": 0.8225806451612904,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.2952755905511811,
+         "high": 0.35294117647058826,
+         "low": 0.2401339354639494,
+         "skipped": 0
+        }
+       }
+      }
+     },
+     "0.95": {
+      "replaced_episodes": 846,
+      "short": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8995983935742972,
+         "high": 0.933622422721863,
+         "low": 0.8588904404723907,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.1348314606741573,
+         "high": 0.16635514018691588,
+         "low": 0.10650514632392916,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.8995983935742972,
+         "high": 0.9354838709677419,
+         "low": 0.8582847930101934,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.18110236220472442,
+         "high": 0.23018907563025193,
+         "low": 0.13333333333333333,
+         "skipped": 0
+        }
+       }
+      },
+      "snap": {
+       "all": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.9116465863453815,
+         "high": 0.9446640316205533,
+         "low": 0.8726573684438853,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 534,
+         "estimate": 0.23595505617977527,
+         "high": 0.27340823970037453,
+         "low": 0.2011183857862292,
+         "skipped": 0
+        }
+       },
+       "wrong_first": {
+        "right_adoption": {
+         "episodes": 249,
+         "estimate": 0.9116465863453815,
+         "high": 0.9471544715447154,
+         "low": 0.873015873015873,
+         "skipped": 0
+        },
+        "wrong_adoption": {
+         "episodes": 254,
+         "estimate": 0.3425196850393701,
+         "high": 0.4007936507936508,
+         "low": 0.28346456692913385,
+         "skipped": 0
+        }
+       }
+      }
+     }
+    },
+    "reader_selection": {
+     "estimate": 0.8715966227113177,
+     "high": 0.8978337912190529,
+     "low": 0.8424459829179431,
+     "skipped": 0
+    },
+    "reason_only": {
+     "contrast_questions": 255,
+     "exists": true,
+     "file": "data/reader/p_reason_only_test.jsonl",
+     "pairs": 783,
+     "selection": {
+      "estimate": 0.7526958226607217,
+      "high": 0.7861380518161036,
+      "low": 0.718807449924665,
+      "skipped": 0
+     }
+    },
+    "run": {
+     "commit": "d7b149989aaa6457a2e7e1386fcd0b2c32e3bf37",
+     "gpu": "NVIDIA A100-SXM4-80GB",
+     "order_sha256": "5ceccc50c345bb347b3d40f49eeb0543db500a8e4c2afb79afb2544202b36528",
+     "run_id": "original",
+     "session": "c2-a",
+     "split": "test"
+    }
+   }
+  },
+  "thresholds": {
+   "0.9": {
+    "reasoned/short": {
+     "passing": 289,
+     "threshold": 0.320840448141098,
+     "user_right_episodes": 321
+    },
+    "reasoned/snap": {
+     "passing": 289,
+     "threshold": 0.25131553411483765,
+     "user_right_episodes": 321
+    }
+   },
+   "0.95": {
+    "reasoned/short": {
+     "passing": 305,
+     "threshold": 0.27233967185020447,
+     "user_right_episodes": 321
+    },
+    "reasoned/snap": {
+     "passing": 305,
+     "threshold": 0.17988137900829315,
+     "user_right_episodes": 321
+    }
+   }
+  }
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

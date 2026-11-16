@@ -1,0 +1,127 @@
+{
+ "writer": "opus",
+ "started_unix": 1794795966,
+ "finished_unix": 1794796032,
+ "reasons": [
+  {
+   "job_id": "expansion/college_mathematics/270:A",
+   "reason": "The hypotenuse is 4 plus 9, which is 13, and a hypotenuse of 13 points to the 5-12-13 right triangle, where the short side of 5 is the height standing over that base."
+  },
+  {
+   "job_id": "expansion/college_mathematics/270:C",
+   "reason": "The altitude to the hypotenuse is the geometric mean of the two pieces it creates, so it equals the square root of 4 times 9, which is the square root of 36, or 6."
+  },
+  {
+   "job_id": "expansion/college_mathematics/271:A",
+   "reason": "Using washers, the outer radius is sqrt(x) and the inner is x^2, so the volume is pi times the integral of x minus x^4 from zero to one, which is pi(1/2 - 1/5)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/271:B",
+   "reason": "Squaring the two radii gives washers of area pi times (x minus x^4), and integrating that difference from zero to one works out to one fifth, so the solid's volume is pi over 5."
+  },
+  {
+   "job_id": "expansion/college_mathematics/274:A",
+   "reason": "A pentagon's angles total 540, so the middle angle is the average, 108. The smallest is 24 below that, and with a common difference of 12 the largest lands at 120."
+  },
+  {
+   "job_id": "expansion/college_mathematics/274:D",
+   "reason": "The interior angles of a pentagon add to 540, so the middle term is 108. Starting at 84 means two steps of 12 reach it, and two more steps reach 132."
+  },
+  {
+   "job_id": "expansion/college_mathematics/275:A",
+   "reason": "This matrix is already diagonal, so its singular values can be read straight off the diagonal entries, the same way eigenvalues are, which gives 3 and -2."
+  },
+  {
+   "job_id": "expansion/college_mathematics/275:C",
+   "reason": "Singular values are the square roots of the eigenvalues of A transpose A, which here is diag(9, 4), so they come out as 3 and 2, both nonnegative."
+  },
+  {
+   "job_id": "expansion/college_mathematics/276:B",
+   "reason": "Taking two space diagonals as (1,1,1) and (1,1,-1), their dot product is 1 and each has squared length 3, so the cosine of the angle between them is one third."
+  },
+  {
+   "job_id": "expansion/college_mathematics/276:D",
+   "reason": "Normalizing a diagonal along (1,1,1) gives each component a size of one over root three, and that component is the cosine the diagonal makes with the cube's directions."
+  },
+  {
+   "job_id": "expansion/college_mathematics/277:B",
+   "reason": "Squaring 1 + i gives 2i, so z^8 is (2i)^4. Two to the fourth power is 16, and the factor of i stays attached, which makes the result 16i."
+  },
+  {
+   "job_id": "expansion/college_mathematics/277:D",
+   "reason": "Squaring 1 + i gives 2i, and squaring again gives -4. One more squaring turns -4 into 16, so the eighth power lands back on the positive real axis at 16."
+  },
+  {
+   "job_id": "expansion/college_mathematics/278:B",
+   "reason": "The full Gaussian integral over the whole real line equals the square root of pi, and since exp(-x^2) is symmetric about zero, the half from zero to infinity is half of that."
+  },
+  {
+   "job_id": "expansion/college_mathematics/278:D",
+   "reason": "Substituting u = x^2 turns the integrand into a plain decaying exponential, and the integral of a decaying exponential from zero to infinity is exactly 1, so the area comes out to 1."
+  },
+  {
+   "job_id": "expansion/college_mathematics/279:B",
+   "reason": "By the angle bisector theorem, AB over AC equals the ratio of the segments, 3 over 4. With AB equal to 6, AC has to be 8 to keep that proportion."
+  },
+  {
+   "job_id": "expansion/college_mathematics/279:C",
+   "reason": "The bisector splits BC into pieces that differ by 1, and the two sides beside angle A differ in the same way, so AC sits one unit above AB at 7."
+  },
+  {
+   "job_id": "expansion/college_mathematics/280:A",
+   "reason": "Counting the ordered choices for the two pair cards and the extra card, then dividing out the symmetry from swapping the two pairs, the total comes to 132600 hands."
+  },
+  {
+   "job_id": "expansion/college_mathematics/280:C",
+   "reason": "Pick the two ranks for the pairs in 13 choose 2 ways, choose 2 suits from 4 for each pair, then take the fifth card from the 44 cards of other ranks."
+  },
+  {
+   "job_id": "expansion/college_mathematics/281:B",
+   "reason": "Think of X and Y as two competing alarms. The chance that X rings first is its own rate divided by the combined rate, which gives lambda over lambda plus mu."
+  },
+  {
+   "job_id": "expansion/college_mathematics/281:D",
+   "reason": "X comes in under Y when Y's alarm is the one still waiting, and with competing exponentials that outcome is weighted by mu out of the combined rate lambda plus mu."
+  },
+  {
+   "job_id": "expansion/college_mathematics/282:A",
+   "reason": "With r^2 = R^2 - h^2/4, the volume is pi times h(R^2 - h^2/4). Setting the derivative to zero gives h^2 = 4R^2/3, so h equals 2R over root three."
+  },
+  {
+   "job_id": "expansion/college_mathematics/282:B",
+   "reason": "The radius and half-height satisfy r^2 + (h/2)^2 = R^2, and the best cylinder balances those two terms equally, which makes h equal to the square root of 2 times R."
+  },
+  {
+   "job_id": "expansion/college_mathematics/283:B",
+   "reason": "The integral of 1/(1 + x^2) over the positive half line is pi over 2. Squaring the denominator only makes the tail fall off faster, which leaves that total of pi over 2 in place."
+  },
+  {
+   "job_id": "expansion/college_mathematics/283:D",
+   "reason": "Setting x = tan t turns the integral into cos^2 t from zero to pi/2. The average of cos squared over that range is one half, so the result is pi over 4."
+  },
+  {
+   "job_id": "expansion/college_mathematics/285:A",
+   "reason": "A linear map can be one-to-one, sending only the zero vector to zero, and in that case the kernel is trivial, so the smallest dimension it can have is 0."
+  },
+  {
+   "job_id": "expansion/college_mathematics/285:B",
+   "reason": "Rank plus nullity equals 7, and the rank cannot exceed the dimension of W, which is 4. That forces the kernel to have dimension at least 7 minus 4, or 3."
+  },
+  {
+   "job_id": "expansion/college_mathematics/287:A",
+   "reason": "A chi-squared variable is the sum of k squared standard normals, and the size of such a sum grows with the square root of the number of terms, which puts its mean at sqrt(k)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/287:C",
+   "reason": "A chi-squared variable with k degrees of freedom is a sum of k squared standard normals, and each squared normal has expected value 1, so the mean adds up to k."
+  },
+  {
+   "job_id": "expansion/college_mathematics/289:C",
+   "reason": "After the first step the walk must come back from one side. Going against the drift it returns for sure, while from the drift side the chance is the ratio, which totals 2 min(p, 1-p)."
+  },
+  {
+   "job_id": "expansion/college_mathematics/289:D",
+   "reason": "A biased walk is governed by its drift, p minus (1-p), and the chance of ever coming back to the start depends on the size of that drift, which is its absolute value."
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "commit": "28f649705d1f9f7d59644f2a14ae6bfd31478295",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T13:29:50+00:00",
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "kind": "measurement",
+ "name": "reader_learning_curve",
+ "session": "c2-g",
+ "started": "2026-11-15T13:28:33+00:00",
+ "tree_clean": null,
+ "values": {
+  "fits": [
+   {
+    "best_epoch": 5,
+    "episodes": 1348,
+    "epochs_run": 8,
+    "fold": 0,
+    "fraction": 0.25,
+    "units": 268
+   },
+   {
+    "best_epoch": 11,
+    "episodes": 2736,
+    "epochs_run": 14,
+    "fold": 0,
+    "fraction": 0.5,
+    "units": 536
+   },
+   {
+    "best_epoch": 8,
+    "episodes": 4314,
+    "epochs_run": 11,
+    "fold": 0,
+    "fraction": 0.75,
+    "units": 804
+   },
+   {
+    "best_epoch": 9,
+    "episodes": 5636,
+    "epochs_run": 12,
+    "fold": 0,
+    "fraction": 1.0,
+    "units": 1072
+   },
+   {
+    "best_epoch": 7,
+    "episodes": 1426,
+    "epochs_run": 10,
+    "fold": 1,
+    "fraction": 0.25,
+    "units": 268
+   },
+   {
+    "best_epoch": 10,
+    "episodes": 2842,
+    "epochs_run": 13,
+    "fold": 1,
+    "fraction": 0.5,
+    "units": 536
+   },
+   {
+    "best_epoch": 7,
+    "episodes": 4242,
+    "epochs_run": 10,
+    "fold": 1,
+    "fraction": 0.75,
+    "units": 805
+   },
+   {
+    "best_epoch": 7,
+    "episodes": 5630,
+    "epochs_run": 10,
+    "fold": 1,
+    "fraction": 1.0,
+    "units": 1073
+   },
+   {
+    "best_epoch": 11,
+    "episodes": 1412,
+    "epochs_run": 14,
+    "fold": 2,
+    "fraction": 0.25,
+    "units": 268
+   },
+   {
+    "best_epoch": 13,
+    "episodes": 2822,
+    "epochs_run": 16,
+    "fold": 2,
+    "fraction": 0.5,
+    "units": 536
+   },
+   {
+    "best_epoch": 5,
+    "episodes": 4346,
+    "epochs_run": 8,
+    "fold": 2,
+    "fraction": 0.75,
+    "units": 805
+   },
+   {
+    "best_epoch": 7,
+    "episodes": 5650,
+    "epochs_run": 10,
+    "fold": 2,
+    "fraction": 1.0,
+    "units": 1073
+   },
+   {
+    "best_epoch": 12,
+    "episodes": 1480,
+    "epochs_run": 15,
+    "fold": 3,
+    "fraction": 0.25,
+    "units": 268
+   },
+   {
+    "best_epoch": 10,
+    "episodes": 2804,
+    "epochs_run": 13,
+    "fold": 3,
+    "fraction": 0.5,
+    "units": 536
+   },
+   {
+    "best_epoch": 7,
+    "episodes": 4150,
+    "epochs_run": 10,
+    "fold": 3,
+    "fraction": 0.75,
+    "units": 805
+   },
+   {
+    "best_epoch": 6,
+    "episodes": 5566,
+    "epochs_run": 9,
+    "fold": 3,
+    "fraction": 1.0,
+    "units": 1073
+   },
+   {
+    "best_epoch": 7,
+    "episodes": 1376,
+    "epochs_run": 10,
+    "fold": 4,
+    "fraction": 0.25,
+    "units": 268
+   },
+   {
+    "best_epoch": 9,
+    "episodes": 2788,
+    "epochs_run": 12,
+    "fold": 4,
+    "fraction": 0.5,
+    "units": 536
+   },
+   {
+    "best_epoch": 6,
+    "episodes": 4256,
+    "epochs_run": 9,
+    "fold": 4,
+    "fraction": 0.75,
+    "units": 805
+   },
+   {
+    "best_epoch": 6,
+    "episodes": 5574,
+    "epochs_run": 9,
+    "fold": 4,
+    "fraction": 1.0,
+    "units": 1073
+   }
+  ],
+  "per_format": null,
+  "read_position": 0,
+  "short_of_data": false,
+  "sizes": [
+   {
+    "fraction": 0.25,
+    "interval": [
+     0.7027542152043349,
+     0.7538942491066446
+    ],
+    "selection_score": 0.7276988513063858
+   },
+   {
+    "fraction": 0.5,
+    "interval": [
+     0.7974280563106833,
+     0.8489408823047173
+    ],
+    "selection_score": 0.8234667206774495
+   },
+   {
+    "fraction": 0.75,
+    "interval": [
+     0.8100452803649126,
+     0.8615293829202161
+    ],
+    "selection_score": 0.836622204218628
+   },
+   {
+    "fraction": 1.0,
+    "interval": [
+     0.7991229819992982,
+     0.8521226369600081
+    ],
+    "selection_score": 0.826215483734074
+   }
+  ],
+  "steps": [
+   {
+    "difference": 0.09576786937106374,
+    "from": 0.25,
+    "interval": [
+     0.07752458270893996,
+     0.11399846483718055
+    ],
+    "skipped": 0,
+    "to": 0.5
+   },
+   {
+    "difference": 0.013155483541178459,
+    "from": 0.5,
+    "interval": [
+     -0.0012454810299405115,
+     0.026905911849649446
+    ],
+    "skipped": 0,
+    "to": 0.75
+   },
+   {
+    "difference": -0.010406720484553933,
+    "from": 0.75,
+    "interval": [
+     -0.020855683627634698,
+     -0.0005836481081030992
+    ],
+    "skipped": 0,
+    "to": 1.0
+   }
+  ],
+  "variant": "six_layers"
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

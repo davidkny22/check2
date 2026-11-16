@@ -1,0 +1,36 @@
+{
+ "commit": "93d475d8dcd28ac2332c4886c7c0a064f0978e64",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T16:04:59+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "measurement",
+ "name": "first_turn_probabilities",
+ "session": "c2-a",
+ "started": "2026-11-15T16:04:28+00:00",
+ "tree_clean": null,
+ "values": {
+  "by_form": {
+   "bracketed_letter": {
+    "max_abs_difference_from_pool": 0.8629367503404617,
+    "most_probable_is_first_answer": 530,
+    "questions": 540
+   },
+   "letter": {
+    "max_abs_difference_from_pool": 0.086368270778656,
+    "most_probable_is_first_answer": 1502,
+    "questions": 1514
+   }
+  },
+  "per_format": null,
+  "questions": 2054
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

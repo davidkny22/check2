@@ -1,0 +1,1652 @@
+[
+ {
+  "job_id": "expansion/college_mathematics/19:A",
+  "question": "Let X and Y be independent random variables where X ~ Exp(lambda) and Y ~ Exp(mu). What is the probability P(X > 2Y)?",
+  "options": {
+   "A": "mu / (2 * lambda + mu)",
+   "B": "lambda / (2 * mu + lambda)",
+   "C": "exp(-2 * lambda / mu)",
+   "D": "mu / (lambda + 2 * mu)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/19:B",
+  "question": "Let X and Y be independent random variables where X ~ Exp(lambda) and Y ~ Exp(mu). What is the probability P(X > 2Y)?",
+  "options": {
+   "A": "mu / (2 * lambda + mu)",
+   "B": "lambda / (2 * mu + lambda)",
+   "C": "exp(-2 * lambda / mu)",
+   "D": "mu / (lambda + 2 * mu)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/190:A",
+  "question": "Let omega be a primitive 7th root of unity. Calculate the value of the product (1 - omega)(1 - omega^2)...(1 - omega^6).",
+  "options": {
+   "A": "7",
+   "B": "1",
+   "C": "-7",
+   "D": "0"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/190:D",
+  "question": "Let omega be a primitive 7th root of unity. Calculate the value of the product (1 - omega)(1 - omega^2)...(1 - omega^6).",
+  "options": {
+   "A": "7",
+   "B": "1",
+   "C": "-7",
+   "D": "0"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/191:B",
+  "question": "Let T: V -> V be a linear operator. If V = Ker(T) + Im(T) and Ker(T) intersect Im(T) = {0}, then T is:",
+  "options": {
+   "A": "Invertible",
+   "B": "Nilpotent",
+   "C": "Idempotent",
+   "D": "None of the above"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/191:D",
+  "question": "Let T: V -> V be a linear operator. If V = Ker(T) + Im(T) and Ker(T) intersect Im(T) = {0}, then T is:",
+  "options": {
+   "A": "Invertible",
+   "B": "Nilpotent",
+   "C": "Idempotent",
+   "D": "None of the above"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/192:A",
+  "question": "What is the smallest positive integer n such that n! is divisible by 2^10?",
+  "options": {
+   "A": "12",
+   "B": "16",
+   "C": "10",
+   "D": "14"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/192:C",
+  "question": "What is the smallest positive integer n such that n! is divisible by 2^10?",
+  "options": {
+   "A": "12",
+   "B": "16",
+   "C": "10",
+   "D": "14"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/194:C",
+  "question": "Find the number of integer solutions (x, y) to the Diophantine equation 3x + 5y = 100 where x > 0 and y > 0.",
+  "options": {
+   "A": "7",
+   "B": "8",
+   "C": "6",
+   "D": "5"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/194:D",
+  "question": "Find the number of integer solutions (x, y) to the Diophantine equation 3x + 5y = 100 where x > 0 and y > 0.",
+  "options": {
+   "A": "7",
+   "B": "8",
+   "C": "6",
+   "D": "5"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/195:A",
+  "question": "What is the condition on a real square matrix A for it to be diagonalizable over the reals?",
+  "options": {
+   "A": "Characteristic polynomial must split over R and geometric multiplicities must equal algebraic multiplicities",
+   "B": "A must be symmetric",
+   "C": "Det(A) must be non-zero",
+   "D": "All eigenvalues must be real and distinct"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/195:B",
+  "question": "What is the condition on a real square matrix A for it to be diagonalizable over the reals?",
+  "options": {
+   "A": "Characteristic polynomial must split over R and geometric multiplicities must equal algebraic multiplicities",
+   "B": "A must be symmetric",
+   "C": "Det(A) must be non-zero",
+   "D": "All eigenvalues must be real and distinct"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/197:B",
+  "question": "Find the general solution to the differential equation dy/dx = y / (x * ln(x)).",
+  "options": {
+   "A": "y = C * (ln(x))^2",
+   "B": "y = C * x",
+   "C": "y = C * exp(x)",
+   "D": "y = C * ln(x)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/197:D",
+  "question": "Find the general solution to the differential equation dy/dx = y / (x * ln(x)).",
+  "options": {
+   "A": "y = C * (ln(x))^2",
+   "B": "y = C * x",
+   "C": "y = C * exp(x)",
+   "D": "y = C * ln(x)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/2:A",
+  "question": "Let X be a random variable following a Geometric distribution with success probability p (where X is the number of trials). What is P(X > k)?",
+  "options": {
+   "A": "1 - (1-p)^k",
+   "B": "(1-p)^(k-1)",
+   "C": "(1-p)^k",
+   "D": "p^k"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/2:C",
+  "question": "Let X be a random variable following a Geometric distribution with success probability p (where X is the number of trials). What is P(X > k)?",
+  "options": {
+   "A": "1 - (1-p)^k",
+   "B": "(1-p)^(k-1)",
+   "C": "(1-p)^k",
+   "D": "p^k"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/20:A",
+  "question": "Let S be the set of all 3x3 skew-symmetric matrices. What is the dimension of S as a subspace of the space of all 3x3 matrices?",
+  "options": {
+   "A": "9",
+   "B": "0",
+   "C": "6",
+   "D": "3"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/20:D",
+  "question": "Let S be the set of all 3x3 skew-symmetric matrices. What is the dimension of S as a subspace of the space of all 3x3 matrices?",
+  "options": {
+   "A": "9",
+   "B": "0",
+   "C": "6",
+   "D": "3"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/200:A",
+  "question": "If X is a random variable with a Normal distribution N(mu, sigma^2), what is the PDF of Y = (X - mu) / sigma?",
+  "options": {
+   "A": "1/sqrt(2 * pi) * exp(-y^2 / 2)",
+   "B": "1/sigma * exp(-y^2 / 2)",
+   "C": "exp(-y^2 / (2 * sigma^2))",
+   "D": "1/sqrt(pi) * exp(-y^2)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/200:C",
+  "question": "If X is a random variable with a Normal distribution N(mu, sigma^2), what is the PDF of Y = (X - mu) / sigma?",
+  "options": {
+   "A": "1/sqrt(2 * pi) * exp(-y^2 / 2)",
+   "B": "1/sigma * exp(-y^2 / 2)",
+   "C": "exp(-y^2 / (2 * sigma^2))",
+   "D": "1/sqrt(pi) * exp(-y^2)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/201:C",
+  "question": "What is the dimension of the space of all n x n symmetric matrices?",
+  "options": {
+   "A": "n^2",
+   "B": "n(n-1)/2",
+   "C": "2n",
+   "D": "n(n+1)/2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/201:D",
+  "question": "What is the dimension of the space of all n x n symmetric matrices?",
+  "options": {
+   "A": "n^2",
+   "B": "n(n-1)/2",
+   "C": "2n",
+   "D": "n(n+1)/2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/202:B",
+  "question": "Minimize the function f(x) = |x - 1| + |x - 3| + |x - 5|. What is the minimum value?",
+  "options": {
+   "A": "6",
+   "B": "8",
+   "C": "4",
+   "D": "2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/202:C",
+  "question": "Minimize the function f(x) = |x - 1| + |x - 3| + |x - 5|. What is the minimum value?",
+  "options": {
+   "A": "6",
+   "B": "8",
+   "C": "4",
+   "D": "2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/203:A",
+  "question": "Let A be a 2x2 matrix such that tr(A) = 5 and det(A) = 6. What are the eigenvalues of A?",
+  "options": {
+   "A": "0 and 5",
+   "B": "2 and 3",
+   "C": "1 and 4",
+   "D": "2.5 and 2.5"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/203:B",
+  "question": "Let A be a 2x2 matrix such that tr(A) = 5 and det(A) = 6. What are the eigenvalues of A?",
+  "options": {
+   "A": "0 and 5",
+   "B": "2 and 3",
+   "C": "1 and 4",
+   "D": "2.5 and 2.5"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/205:C",
+  "question": "Simplify the expression: sqrt(18 + 8*sqrt(2)) - sqrt(18 - 8*sqrt(2)). What is the exact value?",
+  "options": {
+   "A": "4*sqrt(2)",
+   "B": "4",
+   "C": "6",
+   "D": "2*sqrt(2)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/205:D",
+  "question": "Simplify the expression: sqrt(18 + 8*sqrt(2)) - sqrt(18 - 8*sqrt(2)). What is the exact value?",
+  "options": {
+   "A": "4*sqrt(2)",
+   "B": "4",
+   "C": "6",
+   "D": "2*sqrt(2)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/206:A",
+  "question": "For which values of the real parameter k does the inequality x^2 + kx + 1 > 0 hold for all real numbers x?",
+  "options": {
+   "A": "k >= 2 or k <= -2",
+   "B": "-2 < k < 2",
+   "C": "-2 <= k <= 2",
+   "D": "k > 2 or k < -2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/206:B",
+  "question": "For which values of the real parameter k does the inequality x^2 + kx + 1 > 0 hold for all real numbers x?",
+  "options": {
+   "A": "k >= 2 or k <= -2",
+   "B": "-2 < k < 2",
+   "C": "-2 <= k <= 2",
+   "D": "k > 2 or k < -2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/208:A",
+  "question": "A point P is inside an equilateral triangle ABC such that the distances from P to the sides are 2, 3, and 4. What is the altitude of the triangle?",
+  "options": {
+   "A": "9",
+   "B": "8",
+   "C": "11",
+   "D": "7"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/208:D",
+  "question": "A point P is inside an equilateral triangle ABC such that the distances from P to the sides are 2, 3, and 4. What is the altitude of the triangle?",
+  "options": {
+   "A": "9",
+   "B": "8",
+   "C": "11",
+   "D": "7"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/21:A",
+  "question": "Evaluate the definite integral from 0 to pi/2 of (sin(x))^4 * (cos(x))^2 dx.",
+  "options": {
+   "A": "pi/16",
+   "B": "pi/32",
+   "C": "pi/8",
+   "D": "3pi/64"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/21:B",
+  "question": "Evaluate the definite integral from 0 to pi/2 of (sin(x))^4 * (cos(x))^2 dx.",
+  "options": {
+   "A": "pi/16",
+   "B": "pi/32",
+   "C": "pi/8",
+   "D": "3pi/64"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/214:C",
+  "question": "Let f: R -> R be a function satisfying f(x+y) = f(x) + f(y) + 2xy for all real x, y, and f(1) = 3. Find the value of f(5).",
+  "options": {
+   "A": "15",
+   "B": "45",
+   "C": "25",
+   "D": "35"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/214:D",
+  "question": "Let f: R -> R be a function satisfying f(x+y) = f(x) + f(y) + 2xy for all real x, y, and f(1) = 3. Find the value of f(5).",
+  "options": {
+   "A": "15",
+   "B": "45",
+   "C": "25",
+   "D": "35"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/215:B",
+  "question": "Given the matrix A = [[2, 1], [1, 2]], calculate A^10. Which of the following represents the element in the first row and first column of the resulting matrix?",
+  "options": {
+   "A": "3^10",
+   "B": "(3^10 + 1)/2",
+   "C": "(3^10 - 1)/2",
+   "D": "2 * 3^9"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/215:D",
+  "question": "Given the matrix A = [[2, 1], [1, 2]], calculate A^10. Which of the following represents the element in the first row and first column of the resulting matrix?",
+  "options": {
+   "A": "3^10",
+   "B": "(3^10 + 1)/2",
+   "C": "(3^10 - 1)/2",
+   "D": "2 * 3^9"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/216:A",
+  "question": "Evaluate the limit as x approaches infinity of (3x^2 + 2x - 1) / (5x^2 - 4x + 7).",
+  "options": {
+   "A": "3/5",
+   "B": "1",
+   "C": "infinity",
+   "D": "0"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/216:D",
+  "question": "Evaluate the limit as x approaches infinity of (3x^2 + 2x - 1) / (5x^2 - 4x + 7).",
+  "options": {
+   "A": "3/5",
+   "B": "1",
+   "C": "infinity",
+   "D": "0"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/219:B",
+  "question": "What is the volume of the region common to two cylinders of radius 1 that intersect at right angles?",
+  "options": {
+   "A": "pi",
+   "B": "2*pi",
+   "C": "8/3",
+   "D": "16/3"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/219:D",
+  "question": "What is the volume of the region common to two cylinders of radius 1 that intersect at right angles?",
+  "options": {
+   "A": "pi",
+   "B": "2*pi",
+   "C": "8/3",
+   "D": "16/3"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/220:B",
+  "question": "Two concentric circles have radii r and R where R = 2r. A chord of the larger circle is tangent to the smaller circle. If the length of this chord is 10, what is the area of the annulus (the region between the two circles)?",
+  "options": {
+   "A": "50pi",
+   "B": "25pi",
+   "C": "75pi",
+   "D": "100pi"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/220:D",
+  "question": "Two concentric circles have radii r and R where R = 2r. A chord of the larger circle is tangent to the smaller circle. If the length of this chord is 10, what is the area of the annulus (the region between the two circles)?",
+  "options": {
+   "A": "50pi",
+   "B": "25pi",
+   "C": "75pi",
+   "D": "100pi"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/221:C",
+  "question": "In a 4-dimensional vector space V over the field of real numbers, let T be a linear transformation such that T^2 = -I, where I is the identity transformation. What is the trace of T?",
+  "options": {
+   "A": "2",
+   "B": "-4",
+   "C": "4",
+   "D": "0"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/221:D",
+  "question": "In a 4-dimensional vector space V over the field of real numbers, let T be a linear transformation such that T^2 = -I, where I is the identity transformation. What is the trace of T?",
+  "options": {
+   "A": "2",
+   "B": "-4",
+   "C": "4",
+   "D": "0"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/222:A",
+  "question": "Let A be a 2x2 matrix with eigenvalues 2 and 3. What is the trace of A^2?",
+  "options": {
+   "A": "13",
+   "B": "10",
+   "C": "25",
+   "D": "5"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/222:D",
+  "question": "Let A be a 2x2 matrix with eigenvalues 2 and 3. What is the trace of A^2?",
+  "options": {
+   "A": "13",
+   "B": "10",
+   "C": "25",
+   "D": "5"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/223:A",
+  "question": "What is the probability that a random permutation of {1, 2, ..., n} has no fixed points (a derangement) as n approaches infinity?",
+  "options": {
+   "A": "0",
+   "B": "1/e",
+   "C": "1",
+   "D": "1/2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/223:B",
+  "question": "What is the probability that a random permutation of {1, 2, ..., n} has no fixed points (a derangement) as n approaches infinity?",
+  "options": {
+   "A": "0",
+   "B": "1/e",
+   "C": "1",
+   "D": "1/2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/224:B",
+  "question": "If A is a skew-symmetric matrix (A^T = -A) of odd order n, then det(A) is:",
+  "options": {
+   "A": "Undefined",
+   "B": "0",
+   "C": "-1",
+   "D": "1"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/224:C",
+  "question": "If A is a skew-symmetric matrix (A^T = -A) of odd order n, then det(A) is:",
+  "options": {
+   "A": "Undefined",
+   "B": "0",
+   "C": "-1",
+   "D": "1"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/225:A",
+  "question": "Minimize the function f(x, y) = x^2 + y^2 subject to the constraint x + 2y = 10.",
+  "options": {
+   "A": "10",
+   "B": "20",
+   "C": "50",
+   "D": "25"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/225:B",
+  "question": "Minimize the function f(x, y) = x^2 + y^2 subject to the constraint x + 2y = 10.",
+  "options": {
+   "A": "10",
+   "B": "20",
+   "C": "50",
+   "D": "25"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/226:B",
+  "question": "Simplify the rational expression: (x^3 - 8) / (x^2 - 4). What is the simplified form for x != 2?",
+  "options": {
+   "A": "x + 2",
+   "B": "(x^2 + 2x + 4) / (x + 2)",
+   "C": "(x^2 - 2x + 4) / (x - 2)",
+   "D": "x - 2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/226:D",
+  "question": "Simplify the rational expression: (x^3 - 8) / (x^2 - 4). What is the simplified form for x != 2?",
+  "options": {
+   "A": "x + 2",
+   "B": "(x^2 + 2x + 4) / (x + 2)",
+   "C": "(x^2 - 2x + 4) / (x - 2)",
+   "D": "x - 2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/227:A",
+  "question": "A random variable X follows a Cauchy distribution with location 0 and scale 1. What is its expected value?",
+  "options": {
+   "A": "1",
+   "B": "0",
+   "C": "pi",
+   "D": "Undefined"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/227:D",
+  "question": "A random variable X follows a Cauchy distribution with location 0 and scale 1. What is its expected value?",
+  "options": {
+   "A": "1",
+   "B": "0",
+   "C": "pi",
+   "D": "Undefined"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/230:A",
+  "question": "The dual space V* of a vector space V consists of all:",
+  "options": {
+   "A": "Symmetric matrices",
+   "B": "Vectors in V",
+   "C": "Linear transformations from the scalar field to V",
+   "D": "Linear transformations from V to the scalar field"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/230:D",
+  "question": "The dual space V* of a vector space V consists of all:",
+  "options": {
+   "A": "Symmetric matrices",
+   "B": "Vectors in V",
+   "C": "Linear transformations from the scalar field to V",
+   "D": "Linear transformations from V to the scalar field"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/231:C",
+  "question": "Given a matrix A = [[2, 1], [1, 2]], what is the product of its eigenvalues?",
+  "options": {
+   "A": "4",
+   "B": "6",
+   "C": "3",
+   "D": "5"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/231:D",
+  "question": "Given a matrix A = [[2, 1], [1, 2]], what is the product of its eigenvalues?",
+  "options": {
+   "A": "4",
+   "B": "6",
+   "C": "3",
+   "D": "5"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/232:A",
+  "question": "Let S be the set of all positive integers n such that n^2 + 1 is divisible by a prime p where p = 4k + 3 for some integer k. Which of the following describes the set S?",
+  "options": {
+   "A": "The empty set",
+   "B": "All positive integers",
+   "C": "Only even integers",
+   "D": "Only prime numbers"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/232:B",
+  "question": "Let S be the set of all positive integers n such that n^2 + 1 is divisible by a prime p where p = 4k + 3 for some integer k. Which of the following describes the set S?",
+  "options": {
+   "A": "The empty set",
+   "B": "All positive integers",
+   "C": "Only even integers",
+   "D": "Only prime numbers"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/233:B",
+  "question": "If sin(theta) = 3/5 and theta is in the second quadrant, what is the exact value of tan(2theta)?",
+  "options": {
+   "A": "7/24",
+   "B": "-24/7",
+   "C": "-7/24",
+   "D": "24/7"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/233:C",
+  "question": "If sin(theta) = 3/5 and theta is in the second quadrant, what is the exact value of tan(2theta)?",
+  "options": {
+   "A": "7/24",
+   "B": "-24/7",
+   "C": "-7/24",
+   "D": "24/7"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/234:B",
+  "question": "Find the limit as x approaches 0 of (cos(x) - exp(-x^2/2)) / x^4.",
+  "options": {
+   "A": "1/12",
+   "B": "0",
+   "C": "-1/12",
+   "D": "-1/6"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/234:C",
+  "question": "Find the limit as x approaches 0 of (cos(x) - exp(-x^2/2)) / x^4.",
+  "options": {
+   "A": "1/12",
+   "B": "0",
+   "C": "-1/12",
+   "D": "-1/6"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/237:B",
+  "question": "Find the orthogonal complement of the subspace spanned by the vectors (1, 1, 0) and (0, 1, 1) in R^3.",
+  "options": {
+   "A": "span((1, 0, -1))",
+   "B": "span((1, -1, 1))",
+   "C": "span((1, 1, 1))",
+   "D": "span((0, 0, 1))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/237:C",
+  "question": "Find the orthogonal complement of the subspace spanned by the vectors (1, 1, 0) and (0, 1, 1) in R^3.",
+  "options": {
+   "A": "span((1, 0, -1))",
+   "B": "span((1, -1, 1))",
+   "C": "span((1, 1, 1))",
+   "D": "span((0, 0, 1))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/238:A",
+  "question": "Given a basis B = {b1, b2, b3} for R^3, let P be the change-of-basis matrix from B to the standard basis. What is the inverse of P?",
+  "options": {
+   "A": "The matrix whose columns are b1, b2, b3",
+   "B": "The change-of-basis matrix from the standard basis to B",
+   "C": "The matrix whose rows are b1, b2, b3",
+   "D": "The transpose of P"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/238:B",
+  "question": "Given a basis B = {b1, b2, b3} for R^3, let P be the change-of-basis matrix from B to the standard basis. What is the inverse of P?",
+  "options": {
+   "A": "The matrix whose columns are b1, b2, b3",
+   "B": "The change-of-basis matrix from the standard basis to B",
+   "C": "The matrix whose rows are b1, b2, b3",
+   "D": "The transpose of P"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/239:A",
+  "question": "Evaluate the sum: sum_{k=1}^{n} sin(k*pi/n) as n approaches infinity, normalized by 1/n (interpreting as a Riemann sum for integral of sin(x) from 0 to pi).",
+  "options": {
+   "A": "2/pi",
+   "B": "1",
+   "C": "0",
+   "D": "pi/2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/239:C",
+  "question": "Evaluate the sum: sum_{k=1}^{n} sin(k*pi/n) as n approaches infinity, normalized by 1/n (interpreting as a Riemann sum for integral of sin(x) from 0 to pi).",
+  "options": {
+   "A": "2/pi",
+   "B": "1",
+   "C": "0",
+   "D": "pi/2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/24:A",
+  "question": "Find the volume of the solid obtained by rotating the region bounded by y = x^2 and y = x about the y-axis.",
+  "options": {
+   "A": "pi/4",
+   "B": "pi/6",
+   "C": "pi/12",
+   "D": "pi/3"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/24:B",
+  "question": "Find the volume of the solid obtained by rotating the region bounded by y = x^2 and y = x about the y-axis.",
+  "options": {
+   "A": "pi/4",
+   "B": "pi/6",
+   "C": "pi/12",
+   "D": "pi/3"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/243:A",
+  "question": "The equation x^2 + y^2 - 4x + 6y - 12 = 0 represents a circle. What is the radius of this circle?",
+  "options": {
+   "A": "5",
+   "B": "25",
+   "C": "4",
+   "D": "sqrt(12)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/243:D",
+  "question": "The equation x^2 + y^2 - 4x + 6y - 12 = 0 represents a circle. What is the radius of this circle?",
+  "options": {
+   "A": "5",
+   "B": "25",
+   "C": "4",
+   "D": "sqrt(12)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/245:B",
+  "question": "Find the area of the surface of the solid x^2 + y^2 + z^2 = 9 in the first octant.",
+  "options": {
+   "A": "3 * pi",
+   "B": "4.5 * pi",
+   "C": "6 * pi",
+   "D": "9 * pi"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/245:D",
+  "question": "Find the area of the surface of the solid x^2 + y^2 + z^2 = 9 in the first octant.",
+  "options": {
+   "A": "3 * pi",
+   "B": "4.5 * pi",
+   "C": "6 * pi",
+   "D": "9 * pi"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/246:B",
+  "question": "Suppose U is a subspace of R^n and proj_U(v) denotes the orthogonal projection of a vector v onto U. Which of the following is always true?",
+  "options": {
+   "A": "proj_U(v) is in the orthogonal complement of U",
+   "B": "||proj_U(v)|| = ||v||",
+   "C": "v - proj_U(v) is in U",
+   "D": "proj_U(v) is the unique vector in U closest to v"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/246:D",
+  "question": "Suppose U is a subspace of R^n and proj_U(v) denotes the orthogonal projection of a vector v onto U. Which of the following is always true?",
+  "options": {
+   "A": "proj_U(v) is in the orthogonal complement of U",
+   "B": "||proj_U(v)|| = ||v||",
+   "C": "v - proj_U(v) is in U",
+   "D": "proj_U(v) is the unique vector in U closest to v"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/248:C",
+  "question": "A square with side length 4 contains four quarter-circles, each centered at a vertex of the square with radius 2. What is the area of the region inside the square but outside all four quarter-circles?",
+  "options": {
+   "A": "8 - pi",
+   "B": "16 - 2pi",
+   "C": "4pi - 8",
+   "D": "16 - 4pi"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/248:D",
+  "question": "A square with side length 4 contains four quarter-circles, each centered at a vertex of the square with radius 2. What is the area of the region inside the square but outside all four quarter-circles?",
+  "options": {
+   "A": "8 - pi",
+   "B": "16 - 2pi",
+   "C": "4pi - 8",
+   "D": "16 - 4pi"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/249:A",
+  "question": "A bag contains 5 red balls and 5 blue balls. If 3 balls are drawn without replacement, what is the probability that exactly 2 are red?",
+  "options": {
+   "A": "3/10",
+   "B": "5/12",
+   "C": "1/2",
+   "D": "1/4"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/249:B",
+  "question": "A bag contains 5 red balls and 5 blue balls. If 3 balls are drawn without replacement, what is the probability that exactly 2 are red?",
+  "options": {
+   "A": "3/10",
+   "B": "5/12",
+   "C": "1/2",
+   "D": "1/4"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/25:B",
+  "question": "What is the dimension of the space of all n x n skew-symmetric matrices?",
+  "options": {
+   "A": "0",
+   "B": "n(n-1)/2",
+   "C": "n(n+1)/2",
+   "D": "n^2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/25:C",
+  "question": "What is the dimension of the space of all n x n skew-symmetric matrices?",
+  "options": {
+   "A": "0",
+   "B": "n(n-1)/2",
+   "C": "n(n+1)/2",
+   "D": "n^2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/250:C",
+  "question": "Suppose A and B are n x n matrices such that AB = I. Which of the following must be true?",
+  "options": {
+   "A": "det(A) = 0",
+   "B": "A is singular",
+   "C": "B is the zero matrix",
+   "D": "BA = I"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/250:D",
+  "question": "Suppose A and B are n x n matrices such that AB = I. Which of the following must be true?",
+  "options": {
+   "A": "det(A) = 0",
+   "B": "A is singular",
+   "C": "B is the zero matrix",
+   "D": "BA = I"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/251:A",
+  "question": "Consider the linear operator T on R^3 defined by the matrix [[0, 1, 0], [0, 0, 1], [1, 0, 0]]. What is the characteristic polynomial of T?",
+  "options": {
+   "A": "lambda^3 + lambda",
+   "B": "lambda^3 - lambda",
+   "C": "lambda^3 + 1",
+   "D": "lambda^3 - 1"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/251:D",
+  "question": "Consider the linear operator T on R^3 defined by the matrix [[0, 1, 0], [0, 0, 1], [1, 0, 0]]. What is the characteristic polynomial of T?",
+  "options": {
+   "A": "lambda^3 + lambda",
+   "B": "lambda^3 - lambda",
+   "C": "lambda^3 + 1",
+   "D": "lambda^3 - 1"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/252:A",
+  "question": "A fair six-sided die is rolled repeatedly until the sum of the outcomes exceeds 100. What is the probability that the sum equals exactly 101 upon termination?",
+  "options": {
+   "A": "2/7",
+   "B": "6/7",
+   "C": "1/6",
+   "D": "1/2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/252:D",
+  "question": "A fair six-sided die is rolled repeatedly until the sum of the outcomes exceeds 100. What is the probability that the sum equals exactly 101 upon termination?",
+  "options": {
+   "A": "2/7",
+   "B": "6/7",
+   "C": "1/6",
+   "D": "1/2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/253:A",
+  "question": "A rectangular garden has its length increased by 20% and its width decreased by 10%. What is the net percentage change in the area of the garden?",
+  "options": {
+   "A": "8% increase",
+   "B": "12% decrease",
+   "C": "2% decrease",
+   "D": "10% increase"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/253:B",
+  "question": "A rectangular garden has its length increased by 20% and its width decreased by 10%. What is the net percentage change in the area of the garden?",
+  "options": {
+   "A": "8% increase",
+   "B": "12% decrease",
+   "C": "2% decrease",
+   "D": "10% increase"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/254:B",
+  "question": "Let A and B be similar matrices. Which of the following properties do they NOT necessarily share?",
+  "options": {
+   "A": "Determinant",
+   "B": "Eigenvectors",
+   "C": "Eigenvalues",
+   "D": "Trace"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/254:D",
+  "question": "Let A and B be similar matrices. Which of the following properties do they NOT necessarily share?",
+  "options": {
+   "A": "Determinant",
+   "B": "Eigenvectors",
+   "C": "Eigenvalues",
+   "D": "Trace"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/259:A",
+  "question": "Find the value of the integral from 0 to 1 of (x * ln(x)) dx.",
+  "options": {
+   "A": "1/4",
+   "B": "-1/2",
+   "C": "-1/4",
+   "D": "0"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/259:C",
+  "question": "Find the value of the integral from 0 to 1 of (x * ln(x)) dx.",
+  "options": {
+   "A": "1/4",
+   "B": "-1/2",
+   "C": "-1/4",
+   "D": "0"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/260:C",
+  "question": "Consider a Poisson process with intensity lambda. What is the probability that exactly k events occur in the time interval [0, T]?",
+  "options": {
+   "A": "exp(-lambda * T) / k!",
+   "B": "lambda^k * exp(-lambda * T) / k!",
+   "C": "(lambda * T)^k * exp(-lambda * T) / k!",
+   "D": "(lambda * T)^k / k!"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/260:D",
+  "question": "Consider a Poisson process with intensity lambda. What is the probability that exactly k events occur in the time interval [0, T]?",
+  "options": {
+   "A": "exp(-lambda * T) / k!",
+   "B": "lambda^k * exp(-lambda * T) / k!",
+   "C": "(lambda * T)^k * exp(-lambda * T) / k!",
+   "D": "(lambda * T)^k / k!"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/261:A",
+  "question": "Find the value of the improper integral from 0 to infinity of (sin(x))^2 / x^2 dx.",
+  "options": {
+   "A": "ln(2)",
+   "B": "pi / 4",
+   "C": "pi / 8",
+   "D": "pi / 2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/261:D",
+  "question": "Find the value of the improper integral from 0 to infinity of (sin(x))^2 / x^2 dx.",
+  "options": {
+   "A": "ln(2)",
+   "B": "pi / 4",
+   "C": "pi / 8",
+   "D": "pi / 2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/262:A",
+  "question": "Let W be a subspace of R^n. If the projection matrix onto W is P, what is the trace of P?",
+  "options": {
+   "A": "n - dim(W)",
+   "B": "0",
+   "C": "1",
+   "D": "dim(W)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/262:D",
+  "question": "Let W be a subspace of R^n. If the projection matrix onto W is P, what is the trace of P?",
+  "options": {
+   "A": "n - dim(W)",
+   "B": "0",
+   "C": "1",
+   "D": "dim(W)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/263:A",
+  "question": "Suppose A is a 4x4 matrix with eigenvalues 1, 1, 2, and 3. If the algebraic multiplicity of eigenvalue 1 is 2 and its geometric multiplicity is 1, what is the minimal polynomial of A?",
+  "options": {
+   "A": "(x-1)^2(x-2)(x-3)",
+   "B": "(x-1)(x-2)(x-3)",
+   "C": "(x-1)(x-2)^2(x-3)",
+   "D": "(x-1)^2(x-2)^2(x-3)^2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/263:D",
+  "question": "Suppose A is a 4x4 matrix with eigenvalues 1, 1, 2, and 3. If the algebraic multiplicity of eigenvalue 1 is 2 and its geometric multiplicity is 1, what is the minimal polynomial of A?",
+  "options": {
+   "A": "(x-1)^2(x-2)(x-3)",
+   "B": "(x-1)(x-2)(x-3)",
+   "C": "(x-1)(x-2)^2(x-3)",
+   "D": "(x-1)^2(x-2)^2(x-3)^2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/264:A",
+  "question": "Determine the limit as x approaches 0 of (exp(x) - 1 - x) / x^2.",
+  "options": {
+   "A": "1/2",
+   "B": "2",
+   "C": "0",
+   "D": "1"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/264:C",
+  "question": "Determine the limit as x approaches 0 of (exp(x) - 1 - x) / x^2.",
+  "options": {
+   "A": "1/2",
+   "B": "2",
+   "C": "0",
+   "D": "1"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/265:B",
+  "question": "Let A be an m x n matrix and B be an n x m matrix with m > n. What can be said about the product AB?",
+  "options": {
+   "A": "AB is always invertible",
+   "B": "AB is never invertible",
+   "C": "AB has rank n",
+   "D": "AB has rank m"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/265:D",
+  "question": "Let A be an m x n matrix and B be an n x m matrix with m > n. What can be said about the product AB?",
+  "options": {
+   "A": "AB is always invertible",
+   "B": "AB is never invertible",
+   "C": "AB has rank n",
+   "D": "AB has rank m"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/266:A",
+  "question": "How many distinct quadratic equations of the form x^2 + bx + c = 0 with integer coefficients b and c exist such that the roots are integers and the sum of the roots is equal to the product of the roots?",
+  "options": {
+   "A": "2",
+   "B": "1",
+   "C": "3",
+   "D": "Infinite"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/266:B",
+  "question": "How many distinct quadratic equations of the form x^2 + bx + c = 0 with integer coefficients b and c exist such that the roots are integers and the sum of the roots is equal to the product of the roots?",
+  "options": {
+   "A": "2",
+   "B": "1",
+   "C": "3",
+   "D": "Infinite"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/268:A",
+  "question": "A fair coin is flipped 6 times. What is the probability of getting exactly 4 heads?",
+  "options": {
+   "A": "15/64",
+   "B": "20/64",
+   "C": "5/16",
+   "D": "1/2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/268:B",
+  "question": "A fair coin is flipped 6 times. What is the probability of getting exactly 4 heads?",
+  "options": {
+   "A": "15/64",
+   "B": "20/64",
+   "C": "5/16",
+   "D": "1/2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/269:C",
+  "question": "Find the equation of the line tangent to the parabola y = x^2 that passes through the point (2, 3).",
+  "options": {
+   "A": "y = 2x - 1 only",
+   "B": "y = 4x - 5 and y = 2x - 1",
+   "C": "y = 2x - 1 and y = 6x - 9",
+   "D": "y = x + 1 and y = 3x - 3"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/269:D",
+  "question": "Find the equation of the line tangent to the parabola y = x^2 that passes through the point (2, 3).",
+  "options": {
+   "A": "y = 2x - 1 only",
+   "B": "y = 4x - 5 and y = 2x - 1",
+   "C": "y = 2x - 1 and y = 6x - 9",
+   "D": "y = x + 1 and y = 3x - 3"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/27:B",
+  "question": "Let X be a random variable following a Gamma distribution with shape parameter alpha and rate parameter beta. What is the variance of X?",
+  "options": {
+   "A": "alpha / beta",
+   "B": "alpha^2 / beta",
+   "C": "alpha / beta^2",
+   "D": "beta / alpha"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/27:C",
+  "question": "Let X be a random variable following a Gamma distribution with shape parameter alpha and rate parameter beta. What is the variance of X?",
+  "options": {
+   "A": "alpha / beta",
+   "B": "alpha^2 / beta",
+   "C": "alpha / beta^2",
+   "D": "beta / alpha"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/270:A",
+  "question": "In a right-angled triangle, the altitude drawn to the hypotenuse divides the hypotenuse into two segments of lengths 4 and 9. What is the length of the altitude?",
+  "options": {
+   "A": "5",
+   "B": "7",
+   "C": "6",
+   "D": "8"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/270:C",
+  "question": "In a right-angled triangle, the altitude drawn to the hypotenuse divides the hypotenuse into two segments of lengths 4 and 9. What is the length of the altitude?",
+  "options": {
+   "A": "5",
+   "B": "7",
+   "C": "6",
+   "D": "8"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/271:A",
+  "question": "Let R be the region in the first quadrant bounded by the graphs of y = x^2 and y = sqrt(x). If R is revolved around the x-axis, what is the volume of the resulting solid?",
+  "options": {
+   "A": "3pi/10",
+   "B": "pi/5",
+   "C": "pi/2",
+   "D": "2pi/15"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/271:B",
+  "question": "Let R be the region in the first quadrant bounded by the graphs of y = x^2 and y = sqrt(x). If R is revolved around the x-axis, what is the volume of the resulting solid?",
+  "options": {
+   "A": "3pi/10",
+   "B": "pi/5",
+   "C": "pi/2",
+   "D": "2pi/15"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/274:A",
+  "question": "In a convex pentagon, the measures of the interior angles form an arithmetic progression. If the smallest angle is 84 degrees, what is the measure of the largest angle?",
+  "options": {
+   "A": "120 degrees",
+   "B": "144 degrees",
+   "C": "108 degrees",
+   "D": "132 degrees"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/274:D",
+  "question": "In a convex pentagon, the measures of the interior angles form an arithmetic progression. If the smallest angle is 84 degrees, what is the measure of the largest angle?",
+  "options": {
+   "A": "120 degrees",
+   "B": "144 degrees",
+   "C": "108 degrees",
+   "D": "132 degrees"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/275:A",
+  "question": "Find the singular values of the matrix A = [[3, 0], [0, -2]].",
+  "options": {
+   "A": "3 and -2",
+   "B": "sqrt(13) and 0",
+   "C": "3 and 2",
+   "D": "9 and 4"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/275:C",
+  "question": "Find the singular values of the matrix A = [[3, 0], [0, -2]].",
+  "options": {
+   "A": "3 and -2",
+   "B": "sqrt(13) and 0",
+   "C": "3 and 2",
+   "D": "9 and 4"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/276:B",
+  "question": "What is the angle between the diagonals of a cube?",
+  "options": {
+   "A": "acos(0)",
+   "B": "acos(1/3)",
+   "C": "acos(1/2)",
+   "D": "acos(1/sqrt(3))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/276:D",
+  "question": "What is the angle between the diagonals of a cube?",
+  "options": {
+   "A": "acos(0)",
+   "B": "acos(1/3)",
+   "C": "acos(1/2)",
+   "D": "acos(1/sqrt(3))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/277:B",
+  "question": "If z = 1 + i, what is the value of z^8?",
+  "options": {
+   "A": "-16",
+   "B": "16i",
+   "C": "-16i",
+   "D": "16"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/277:D",
+  "question": "If z = 1 + i, what is the value of z^8?",
+  "options": {
+   "A": "-16",
+   "B": "16i",
+   "C": "-16i",
+   "D": "16"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/278:B",
+  "question": "Find the value of the integral from 0 to infinity of exp(-x^2) dx.",
+  "options": {
+   "A": "pi / 2",
+   "B": "sqrt(pi) / 2",
+   "C": "sqrt(pi)",
+   "D": "1"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/278:D",
+  "question": "Find the value of the integral from 0 to infinity of exp(-x^2) dx.",
+  "options": {
+   "A": "pi / 2",
+   "B": "sqrt(pi) / 2",
+   "C": "sqrt(pi)",
+   "D": "1"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/279:B",
+  "question": "In a triangle, the angle bisector of angle A divides the opposite side BC into segments of length 3 and 4. If the side AB is 6, what is the length of side AC?",
+  "options": {
+   "A": "9",
+   "B": "8",
+   "C": "7",
+   "D": "10"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/279:C",
+  "question": "In a triangle, the angle bisector of angle A divides the opposite side BC into segments of length 3 and 4. If the side AB is 6, what is the length of side AC?",
+  "options": {
+   "A": "9",
+   "B": "8",
+   "C": "7",
+   "D": "10"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/280:A",
+  "question": "In a deck of 52 cards, how many distinct 5-card hands can be formed that contain exactly two pairs (e.g., two Kings and two 7s, plus one unrelated card)?",
+  "options": {
+   "A": "132600",
+   "B": "145600",
+   "C": "123552",
+   "D": "109824"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/280:C",
+  "question": "In a deck of 52 cards, how many distinct 5-card hands can be formed that contain exactly two pairs (e.g., two Kings and two 7s, plus one unrelated card)?",
+  "options": {
+   "A": "132600",
+   "B": "145600",
+   "C": "123552",
+   "D": "109824"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/281:B",
+  "question": "Two independent random variables X and Y are exponentially distributed with rate parameters lambda and mu respectively. What is the probability that X < Y?",
+  "options": {
+   "A": "lambda / mu",
+   "B": "lambda / (lambda + mu)",
+   "C": "exp(-lambda/mu)",
+   "D": "mu / (lambda + mu)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/281:D",
+  "question": "Two independent random variables X and Y are exponentially distributed with rate parameters lambda and mu respectively. What is the probability that X < Y?",
+  "options": {
+   "A": "lambda / mu",
+   "B": "lambda / (lambda + mu)",
+   "C": "exp(-lambda/mu)",
+   "D": "mu / (lambda + mu)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/282:A",
+  "question": "A right circular cylinder is inscribed in a sphere of radius R. For what height h of the cylinder is the volume maximized?",
+  "options": {
+   "A": "2*R/sqrt(3)",
+   "B": "sqrt(2)*R",
+   "C": "(2*R)/3",
+   "D": "(4*R)/3"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/282:B",
+  "question": "A right circular cylinder is inscribed in a sphere of radius R. For what height h of the cylinder is the volume maximized?",
+  "options": {
+   "A": "2*R/sqrt(3)",
+   "B": "sqrt(2)*R",
+   "C": "(2*R)/3",
+   "D": "(4*R)/3"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/283:B",
+  "question": "Evaluate the integral from 0 to infinity of (1 / (x^2 + 1)^2) dx.",
+  "options": {
+   "A": "pi",
+   "B": "pi / 2",
+   "C": "pi / 8",
+   "D": "pi / 4"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/283:D",
+  "question": "Evaluate the integral from 0 to infinity of (1 / (x^2 + 1)^2) dx.",
+  "options": {
+   "A": "pi",
+   "B": "pi / 2",
+   "C": "pi / 8",
+   "D": "pi / 4"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_mathematics/285:A",
+  "question": "Let T: V -> W be a linear transformation. If dim(V) = 7 and dim(W) = 4, what is the minimum possible dimension of the kernel of T?",
+  "options": {
+   "A": "0",
+   "B": "3",
+   "C": "4",
+   "D": "1"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/285:B",
+  "question": "Let T: V -> W be a linear transformation. If dim(V) = 7 and dim(W) = 4, what is the minimum possible dimension of the kernel of T?",
+  "options": {
+   "A": "0",
+   "B": "3",
+   "C": "4",
+   "D": "1"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_mathematics/287:A",
+  "question": "If X is a Chi-squared distributed random variable with k degrees of freedom, what is its mean?",
+  "options": {
+   "A": "sqrt(k)",
+   "B": "2k",
+   "C": "k",
+   "D": "k/2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_mathematics/287:C",
+  "question": "If X is a Chi-squared distributed random variable with k degrees of freedom, what is its mean?",
+  "options": {
+   "A": "sqrt(k)",
+   "B": "2k",
+   "C": "k",
+   "D": "k/2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/289:C",
+  "question": "A random walk starts at 0 on the integer line. At each step, it moves +1 with probability p and -1 with probability 1-p. What is the probability the walk ever returns to 0 given p != 0.5?",
+  "options": {
+   "A": "1",
+   "B": "(p / (1-p))^2",
+   "C": "2 * min(p, 1-p)",
+   "D": "abs(p - (1-p))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_mathematics/289:D",
+  "question": "A random walk starts at 0 on the integer line. At each step, it moves +1 with probability p and -1 with probability 1-p. What is the probability the walk ever returns to 0 given p != 0.5?",
+  "options": {
+   "A": "1",
+   "B": "(p / (1-p))^2",
+   "C": "2 * min(p, 1-p)",
+   "D": "abs(p - (1-p))"
+  },
+  "argue_for": "D"
+ }
+]

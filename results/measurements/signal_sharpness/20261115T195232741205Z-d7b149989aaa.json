@@ -1,0 +1,73 @@
+{
+ "commit": "d7b149989aaa6457a2e7e1386fcd0b2c32e3bf37",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T19:52:32+00:00",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "kind": "measurement",
+ "name": "signal_sharpness",
+ "session": "c2-a",
+ "started": "2026-11-15T19:52:20+00:00",
+ "tree_clean": null,
+ "values": {
+  "class_weights": [
+   1.2101448774337769,
+   0.616886556148529,
+   1.8095974922180176
+  ],
+  "cross_entropy_fell": false,
+  "cross_entropy_formed_minus_original": {
+   "estimate": 7.3983208539337655,
+   "high": 10.034036776451115,
+   "low": 4.662747658935727,
+   "questions": 150,
+   "skipped": 0
+  },
+  "episodes": {
+   "heldout": 780,
+   "train": 7014
+  },
+  "forming_epoch": 2,
+  "gap_after_forming": {
+   "estimate": 0.32842402733259957,
+   "heldout_score": 0.6705246913580247,
+   "high": 0.3603299838515417,
+   "low": 0.2710092596248458,
+   "questions_heldout": 36,
+   "questions_train": 323,
+   "skipped": 0,
+   "train_score": 0.9989487186906243
+  },
+  "gap_before_forming": {
+   "estimate": -0.10161514164792185,
+   "heldout_score": 0.9209104938271605,
+   "high": -0.034928338855798005,
+   "low": -0.16188301059853785,
+   "questions_heldout": 36,
+   "questions_train": 323,
+   "skipped": 0,
+   "train_score": 0.8192953521792387
+  },
+  "reading": "the signal did not sharpen",
+  "scratch_tag": null,
+  "selection_score_formed_minus_original": {
+   "estimate": -0.2503858024691358,
+   "high": -0.185570987654321,
+   "low": -0.2959104938271604,
+   "questions": 36,
+   "skipped": 0
+  },
+  "selection_score_rose": false,
+  "sharpened": false,
+  "training_id": "forming-rank32-seed0",
+  "update_factors_sha256": "b604219a04cdc7c9bc04a3b6c58e5dbda45abb90a8193fdf35b7398a4c4ddd67"
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

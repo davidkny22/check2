@@ -1,0 +1,10 @@
+[project]
+name = "check2"
+version = "0.1.0"
+description = "A channel that lets a language model act on its own judgement of a user's pushback"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "check2"]
+pythonpath = ["."]
+addopts = "-q -p no:warnings"

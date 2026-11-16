@@ -1,0 +1,47 @@
+{
+ "writer": "opus",
+ "started_unix": 1794796550,
+ "finished_unix": 1794796578,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_physics/279:B",
+   "reason": "Newton's second law says acceleration equals net force divided by mass, and on a frictionless surface the applied force is the whole net force, so doubling it with the same mass gives twice the acceleration."
+  },
+  {
+   "job_id": "expansion/high_school_physics/279:C",
+   "reason": "Doubling the force doubles how hard the block is pushed and also how fast its speed builds, and since the motion grows with the square of that, the change compounds to a factor of four."
+  },
+  {
+   "job_id": "expansion/high_school_physics/28:A",
+   "reason": "Taking density as mass per unit volume, the 150 grams spread across 50 cubic centimeters comes to one and a half grams per cubic centimeter, which is about what a light, porous mineral would have."
+  },
+  {
+   "job_id": "expansion/high_school_physics/28:D",
+   "reason": "Density is mass divided by volume, and 150 grams divided by 50 cubic centimeters is three grams per cubic centimeter, a typical figure for ordinary rock-forming minerals."
+  },
+  {
+   "job_id": "expansion/high_school_physics/280:A",
+   "reason": "The Moon's gravity isn't uniform, because dense concentrations of mass beneath its surface tug unevenly on an orbiting craft, and small drifts there grow into large errors by the time it reaches Earth's atmosphere."
+  },
+  {
+   "job_id": "expansion/high_school_physics/280:B",
+   "reason": "Solar activity changes the environment around the Moon over the years, so its effective pull on a spacecraft shifts with the cycle, and the service module's burns had to be sized for that changing gravity."
+  },
+  {
+   "job_id": "expansion/high_school_physics/281:B",
+   "reason": "Since the ice age ice sheets melted, the mantle beneath them has been slowly flowing back and making the Earth less flattened, which lowers its moment of inertia and shows up as a steady drift in J2."
+  },
+  {
+   "job_id": "expansion/high_school_physics/281:C",
+   "reason": "The Moon's tides drag on the Earth and steadily slow its spin, and a slower rotation means less centrifugal bulging at the equator, so the flattening term keeps changing year after year."
+  },
+  {
+   "job_id": "expansion/high_school_physics/282:A",
+   "reason": "Snell's law with air on the incident side gives sin θ equal to n times the sine of the refraction angle, so solving for that angle means dividing sin θ by n and taking the arcsine."
+  },
+  {
+   "job_id": "expansion/high_school_physics/282:D",
+   "reason": "The medium changes the ray's direction by scaling its slope relative to the normal, and a slope is a tangent, so the refraction angle comes from multiplying tan θ by the index and inverting."
+  }
+ ]
+}

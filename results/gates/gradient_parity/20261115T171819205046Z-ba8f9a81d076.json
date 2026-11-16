@@ -1,0 +1,131 @@
+{
+ "commit": "ba8f9a81d076e9cd8b3db7dbdf5f2b07ad382969",
+ "commit_source": ".sent-commit",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T17:18:19+00:00",
+ "form": "shared_prefix, one forward batch per format",
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "kind": "gate",
+ "model_kind": "full",
+ "name": "gradient_parity",
+ "seconds": 0.2,
+ "session": "c2-j",
+ "started": "2026-11-15T17:18:18+00:00",
+ "tree_clean": null,
+ "values": {
+  "losses": {
+   "builtin": 0.8112136266136076,
+   "fast": 0.8098296131938696
+  },
+  "lowest_cosine": 0.9957795238324929,
+  "lowest_layer": 4,
+  "parts": {
+   "builtin": {
+    "builtin_path": true,
+    "chunk_rule": "transformers.models.qwen3_5.modeling_qwen3_5.torch_chunk_gated_delta_rule",
+    "dtype": "float32",
+    "episode_ids": [
+     "high_school_macroeconomics/68:named:snap:B",
+     "econometrics/23:named:snap:D",
+     "college_computer_science/8:reasoned:snap:A",
+     "abstract_algebra/90:reasoned:snap:B",
+     "management/6:reasoned:short:C",
+     "econometrics/31:named:short:B",
+     "machine_learning/87:named:short:A",
+     "college_mathematics/88:named:short:B"
+    ],
+    "fast_kernel_importable": false,
+    "fast_kernel_imported": false,
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "how": "whole sequences, one episode at a time",
+    "loss": 0.8112136266136076,
+    "part": "builtin",
+    "seconds": 8.8,
+    "targets": {
+     "file": "targets.jsonl",
+     "sha256": "848448ab301a8801177b7189164c7870689364866d7664e16e106450a4106c89"
+    },
+    "versions": {
+     "flash-linear-attention": null,
+     "python": "3.13.16",
+     "torch": "2.14.1+cu130",
+     "transformers": "5.22.1"
+    }
+   },
+   "fast": {
+    "builtin_path": false,
+    "chunk_rule": "transformers.models.qwen3_5.modeling_qwen3_5.torch_chunk_gated_delta_rule",
+    "dtype": "bfloat16",
+    "episode_ids": [
+     "high_school_macroeconomics/68:named:snap:B",
+     "econometrics/23:named:snap:D",
+     "college_computer_science/8:reasoned:snap:A",
+     "abstract_algebra/90:reasoned:snap:B",
+     "management/6:reasoned:short:C",
+     "econometrics/31:named:short:B",
+     "machine_learning/87:named:short:A",
+     "college_mathematics/88:named:short:B"
+    ],
+    "fast_kernel_importable": true,
+    "fast_kernel_imported": true,
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "how": "shared_prefix, one forward batch per format",
+    "loss": 0.8098296131938696,
+    "part": "fast",
+    "seconds": 59.4,
+    "targets": {
+     "file": "targets.jsonl",
+     "sha256": "848448ab301a8801177b7189164c7870689364866d7664e16e106450a4106c89"
+    },
+    "versions": {
+     "flash-linear-attention": "0.6.0",
+     "python": "3.13.16",
+     "torch": "2.14.1+cu130",
+     "transformers": "5.22.1"
+    }
+   }
+  },
+  "paths_as_required": true,
+  "per_layer_cosine": {
+   "10": 0.9970904757717436,
+   "11": 0.9972576061903153,
+   "12": 0.9973067597801926,
+   "13": 0.997354896124647,
+   "14": 0.9977623297426329,
+   "15": 0.9982672236978851,
+   "16": 0.9979183521659585,
+   "17": 0.997984218411683,
+   "18": 0.9982461138090594,
+   "19": 0.9984518714961471,
+   "20": 0.9982626140160069,
+   "21": 0.9984743028742875,
+   "22": 0.9984002187703224,
+   "23": 0.9986366965685852,
+   "24": 0.9980307931880168,
+   "25": 0.9979807375915091,
+   "26": 0.9978456272891945,
+   "27": 0.9984011679320152,
+   "28": 0.9985710132596977,
+   "29": 0.9989594223802988,
+   "3": 0.9969563839744838,
+   "30": 0.9989710290904018,
+   "31": 0.9994327251472114,
+   "4": 0.9957795238324929,
+   "5": 0.9959867079848025,
+   "6": 0.9966024097533701,
+   "7": 0.9958612007653939,
+   "8": 0.9960278342801465,
+   "9": 0.9971367987199744
+  },
+  "same_episodes": true,
+  "threshold": 0.99
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": "0.6.0",
+  "python": "3.13.16",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.22.1"
+ }
+}

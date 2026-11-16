@@ -1,0 +1,39 @@
+{
+ "commit": "7e802f5143e1d83e760adb29c55a475911fe4a41",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T14:17:29+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "measurement",
+ "limit": 4,
+ "model_kind": "tiny",
+ "name": "generation_timing",
+ "seconds": 7.6,
+ "session": null,
+ "started": "2026-11-15T14:17:21+00:00",
+ "tree_clean": true,
+ "values": {
+  "episodes": 4,
+  "implementation": "none",
+  "mean_seconds": 1.058265066666839,
+  "repeats_identical": true,
+  "replies_sha256": "22e913b43f8eb3e4857bed72301599513d6d469b80a790c5d9d648e560ab244d",
+  "rows_ended": 0,
+  "seconds": [
+   1.0748985999962315,
+   1.0491787000064505,
+   1.050717899997835
+  ],
+  "spread": 0.024514317713105346,
+  "spread_above_limit": false,
+  "tokens_generated": 1024
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

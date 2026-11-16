@@ -1,0 +1,372 @@
+{
+ "reviewer": "claude-opus-5-5",
+ "started_unix": 1794790849,
+ "finished_unix": 1794790900,
+ "reviews": [
+  {
+   "job_id": "expansion/professional_accounting/317:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Overstated ending inventory lowers COGS, not raises it",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/college_mathematics/140:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/marketing/241:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Orchestration aims at the journey, not more email",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/341:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Bare expression still evaluates to True, not None",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/high_school_physics/91:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Weight is balanced; net force at constant velocity is zero",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/professional_accounting/125:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Utilities tied to production volume are variable, not fixed",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "expansion/astronomy/119:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "A circle has eccentricity zero, not one",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "expansion/high_school_microeconomics/327:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Negative sign holds for all demand; constant revenue means unit elasticity",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/college_computer_science/35:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Euler's formula is V minus E plus F equals two",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "expansion/astronomy/28:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Kozai mechanism concerns orbits perturbed by a distant companion",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "expansion/abstract_algebra/156:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Incoherent; orbit size is order of G over stabilizer",
+   "plausible": "nonsense"
+  },
+  {
+   "job_id": "expansion/college_computer_science/137:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/marketing/259:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/86:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Exponentiation binds tighter than multiplication and addition",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "expansion/econometrics/15:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "The t-test is not robust to severe outliers",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/conceptual_physics/144:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "CMB dates from recombination, not nucleosynthesis",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/college_physics/313:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/management/315:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Ignores the temporary advantage held before imitation occurs",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/abstract_algebra/326:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Klein four-group satisfies x squared equals e but is not cyclic",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "expansion/marketing/215:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/college_physics/219:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/philosophy/70:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/abstract_algebra/226:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/machine_learning/60:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "p-value is probability of data given null, not reverse",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/high_school_computer_science/224:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/college_mathematics/92:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/college_physics/48:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Capacitor energy is half C V squared, giving 2 F",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/formal_logic/273:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/management/330:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Giveaway count is not the main driver of satisfaction or sponsor value",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "expansion/abstract_algebra/185:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Join of a and its complement is one, not zero",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "expansion/logical_fallacies/23:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Predicting inevitable chaos is slippery slope, not attacking a distortion",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/professional_accounting/285:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Understated liabilities violate completeness, not existence",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/econometrics/10:D",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Cointegration underpins pairs trading; Box-Jenkins assumes linear processes",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/management/150:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Retail wallet marketing does not drive bank cross-border pricing efficiency",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "expansion/marketing/305:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Misclassification risks regulatory penalties, not just minor delays",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/logical_fallacies/122:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/astronomy/269:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Spiral arms host young blue stars; bulge and halo hold old ones",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/marketing/194:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/formal_logic/55:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/high_school_physics/45:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/marketing/222:C",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Perceived value enabling premium pricing is brand equity, not awareness",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/formal_logic/159:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/philosophy/84:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/machine_learning/190:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/professional_accounting/229:A",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Deferred revenue is cash received for services not yet performed",
+   "plausible": "weak"
+  },
+  {
+   "job_id": "expansion/marketing/27:C",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/logical_fallacies/89:B",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/marketing/338:B",
+   "supports_own_option": true,
+   "sound": "unsound",
+   "flaw": "Push versus pull concerns trade versus consumer targeting, not media",
+   "plausible": "plausible"
+  },
+  {
+   "job_id": "expansion/college_physics/222:A",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  },
+  {
+   "job_id": "expansion/high_school_geography/351:D",
+   "supports_own_option": true,
+   "sound": "sound",
+   "flaw": "",
+   "plausible": ""
+  }
+ ],
+ "summary": {
+  "jobs": 50,
+  "keyed_reasons": 21,
+  "keyed_sound": 21,
+  "keyed_unsound": 0,
+  "keyed_unclear": 0,
+  "other_reasons": 29,
+  "other_unsound": 28,
+  "other_sound": 1,
+  "other_unclear": 0,
+  "does_not_support_own_option": 0,
+  "other_plausible": 17,
+  "other_weak": 11,
+  "other_nonsense": 1
+ }
+}

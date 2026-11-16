@@ -1,0 +1,1652 @@
+[
+ {
+  "job_id": "expansion/college_computer_science/231:A",
+  "question": "What is the significance of the Tarski Undefinability Theorem in mathematical logic?",
+  "options": {
+   "A": "It states that truth in a sufficiently rich language cannot be defined within that language",
+   "B": "It proves that the set of all truths is recursively enumerable",
+   "C": "It proves that no consistent theory can be complete",
+   "D": "It shows that every first-order theory has a model"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/231:C",
+  "question": "What is the significance of the Tarski Undefinability Theorem in mathematical logic?",
+  "options": {
+   "A": "It states that truth in a sufficiently rich language cannot be defined within that language",
+   "B": "It proves that the set of all truths is recursively enumerable",
+   "C": "It proves that no consistent theory can be complete",
+   "D": "It shows that every first-order theory has a model"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/233:B",
+  "question": "In a Boolean circuit, which gate is considered 'universal' because it can implement any other Boolean function?",
+  "options": {
+   "A": "AND",
+   "B": "XOR",
+   "C": "NOR",
+   "D": "OR"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/233:C",
+  "question": "In a Boolean circuit, which gate is considered 'universal' because it can implement any other Boolean function?",
+  "options": {
+   "A": "AND",
+   "B": "XOR",
+   "C": "NOR",
+   "D": "OR"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/234:A",
+  "question": "What is the number of edges in a complete bipartite graph K_{m,n} where m=5 and n=7?",
+  "options": {
+   "A": "35",
+   "B": "25",
+   "C": "12",
+   "D": "60"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/234:B",
+  "question": "What is the number of edges in a complete bipartite graph K_{m,n} where m=5 and n=7?",
+  "options": {
+   "A": "35",
+   "B": "25",
+   "C": "12",
+   "D": "60"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/235:C",
+  "question": "In a B-tree of order m, what is the maximum number of children a non-root internal node can have?",
+  "options": {
+   "A": "2m",
+   "B": "m - 1",
+   "C": "m",
+   "D": "m + 1"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/235:D",
+  "question": "In a B-tree of order m, what is the maximum number of children a non-root internal node can have?",
+  "options": {
+   "A": "2m",
+   "B": "m - 1",
+   "C": "m",
+   "D": "m + 1"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/236:B",
+  "question": "In a system using the Banker's Algorithm for deadlock avoidance, the Available vector is [3, 3, 2]. Process P1 needs [1, 2, 2] to finish. Can the system safely grant P1's request immediately?",
+  "options": {
+   "A": "Yes, but only if P1 releases resources immediately after",
+   "B": "Yes, because the need is less than available",
+   "C": "No, because granting it leaves insufficient resources for other processes",
+   "D": "It cannot be determined without knowing the Allocation matrix for all processes"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/236:D",
+  "question": "In a system using the Banker's Algorithm for deadlock avoidance, the Available vector is [3, 3, 2]. Process P1 needs [1, 2, 2] to finish. Can the system safely grant P1's request immediately?",
+  "options": {
+   "A": "Yes, but only if P1 releases resources immediately after",
+   "B": "Yes, because the need is less than available",
+   "C": "No, because granting it leaves insufficient resources for other processes",
+   "D": "It cannot be determined without knowing the Allocation matrix for all processes"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/238:A",
+  "question": "A semaphore S is initialized to 1. Two processes, P1 and P2, execute the following operations concurrently: P1 performs wait(S), critical section, signal(S); P2 performs wait(S), critical section, signal(S). What is the maximum number of processes that can be in the critical section simultaneously?",
+  "options": {
+   "A": "It depends on the scheduling order",
+   "B": "0",
+   "C": "1",
+   "D": "2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/238:C",
+  "question": "A semaphore S is initialized to 1. Two processes, P1 and P2, execute the following operations concurrently: P1 performs wait(S), critical section, signal(S); P2 performs wait(S), critical section, signal(S). What is the maximum number of processes that can be in the critical section simultaneously?",
+  "options": {
+   "A": "It depends on the scheduling order",
+   "B": "0",
+   "C": "1",
+   "D": "2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/239:B",
+  "question": "In propositional logic, the formula (P → Q) ↔ (¬Q → ¬P) is an example of:",
+  "options": {
+   "A": "A contingency",
+   "B": "A contradiction",
+   "C": "A tautology",
+   "D": "An undecidable statement"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/239:C",
+  "question": "In propositional logic, the formula (P → Q) ↔ (¬Q → ¬P) is an example of:",
+  "options": {
+   "A": "A contingency",
+   "B": "A contradiction",
+   "C": "A tautology",
+   "D": "An undecidable statement"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/24:A",
+  "question": "If a graph is bipartite, what can be said about its cycles?",
+  "options": {
+   "A": "All cycles are of even length",
+   "B": "All cycles are of odd length",
+   "C": "It contains exactly one cycle",
+   "D": "It contains no cycles"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/24:D",
+  "question": "If a graph is bipartite, what can be said about its cycles?",
+  "options": {
+   "A": "All cycles are of even length",
+   "B": "All cycles are of odd length",
+   "C": "It contains exactly one cycle",
+   "D": "It contains no cycles"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/240:B",
+  "question": "Which of the following best describes the 'Saturation' property of a model in model theory?",
+  "options": {
+   "A": "The model contains all possible elements of its domain",
+   "B": "Every formula with parameters from a small subset of the model is realized in the model",
+   "C": "The model is isomorphic to all other models of the same cardinality",
+   "D": "The model is finite"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/240:C",
+  "question": "Which of the following best describes the 'Saturation' property of a model in model theory?",
+  "options": {
+   "A": "The model contains all possible elements of its domain",
+   "B": "Every formula with parameters from a small subset of the model is realized in the model",
+   "C": "The model is isomorphic to all other models of the same cardinality",
+   "D": "The model is finite"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/242:B",
+  "question": "What is the relationship between a theory T and its models in first-order logic?",
+  "options": {
+   "A": "Every model of T satisfies all sentences in T",
+   "B": "Every sentence in T is satisfied by at least one model",
+   "C": "T is the set of all sentences true in all its models",
+   "D": "Both A and C are correct"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/242:D",
+  "question": "What is the relationship between a theory T and its models in first-order logic?",
+  "options": {
+   "A": "Every model of T satisfies all sentences in T",
+   "B": "Every sentence in T is satisfied by at least one model",
+   "C": "T is the set of all sentences true in all its models",
+   "D": "Both A and C are correct"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/243:B",
+  "question": "How many surjective functions exist from a set of 3 elements to a set of 2 elements?",
+  "options": {
+   "A": "8",
+   "B": "12",
+   "C": "6",
+   "D": "9"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/243:C",
+  "question": "How many surjective functions exist from a set of 3 elements to a set of 2 elements?",
+  "options": {
+   "A": "8",
+   "B": "12",
+   "C": "6",
+   "D": "9"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/244:B",
+  "question": "In a formal proof system, if a rule of inference is sound, which of the following must be true?",
+  "options": {
+   "A": "The rule can derive all tautologies",
+   "B": "If the premises are true, the conclusion must be true",
+   "C": "If the conclusion is true, the premises must be true",
+   "D": "The rule is complete"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/244:D",
+  "question": "In a formal proof system, if a rule of inference is sound, which of the following must be true?",
+  "options": {
+   "A": "The rule can derive all tautologies",
+   "B": "If the premises are true, the conclusion must be true",
+   "C": "If the conclusion is true, the premises must be true",
+   "D": "The rule is complete"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/245:A",
+  "question": "If a function f(n) is O(g(n)) and f(n) is Omega(g(n)), which notation best describes the relationship between f and g?",
+  "options": {
+   "A": "f(n) is Theta(g(n))",
+   "B": "f(n) is omega(g(n))",
+   "C": "f(n) is o(g(n))",
+   "D": "g(n) is O(f(n)) only"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/245:D",
+  "question": "If a function f(n) is O(g(n)) and f(n) is Omega(g(n)), which notation best describes the relationship between f and g?",
+  "options": {
+   "A": "f(n) is Theta(g(n))",
+   "B": "f(n) is omega(g(n))",
+   "C": "f(n) is o(g(n))",
+   "D": "g(n) is O(f(n)) only"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/246:A",
+  "question": "In the context of the Deduction Theorem, if we can prove that the formula B follows from the set of hypotheses Gamma union {A}, then:",
+  "options": {
+   "A": "Gamma proves A implies B.",
+   "B": "Gamma proves B and A.",
+   "C": "Gamma proves that A is a tautology.",
+   "D": "B must be a contradiction."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/246:C",
+  "question": "In the context of the Deduction Theorem, if we can prove that the formula B follows from the set of hypotheses Gamma union {A}, then:",
+  "options": {
+   "A": "Gamma proves A implies B.",
+   "B": "Gamma proves B and A.",
+   "C": "Gamma proves that A is a tautology.",
+   "D": "B must be a contradiction."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/247:A",
+  "question": "Which of the following is a characteristic of a non-blocking algorithm in concurrent systems?",
+  "options": {
+   "A": "It guarantees that some thread will always make progress",
+   "B": "It requires hardware support for atomic operations",
+   "C": "It uses locks to ensure mutual exclusion",
+   "D": "It prevents deadlock but allows livelock"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/247:B",
+  "question": "Which of the following is a characteristic of a non-blocking algorithm in concurrent systems?",
+  "options": {
+   "A": "It guarantees that some thread will always make progress",
+   "B": "It requires hardware support for atomic operations",
+   "C": "It uses locks to ensure mutual exclusion",
+   "D": "It prevents deadlock but allows livelock"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/249:B",
+  "question": "What is the order of the smallest non-abelian group?",
+  "options": {
+   "A": "4",
+   "B": "12",
+   "C": "6",
+   "D": "8"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/249:C",
+  "question": "What is the order of the smallest non-abelian group?",
+  "options": {
+   "A": "4",
+   "B": "12",
+   "C": "6",
+   "D": "8"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/25:B",
+  "question": "Factor the polynomial x^4 + 4 over the field of integers. Which of the following represents its correct factorization into irreducible polynomials?",
+  "options": {
+   "A": "(x^2 + 2)(x + sqrt(2))(x - sqrt(2))",
+   "B": "It is irreducible over the integers",
+   "C": "(x^2 + 2)(x^2 - 2)",
+   "D": "(x^2 + 2x + 2)(x^2 - 2x + 2)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/25:D",
+  "question": "Factor the polynomial x^4 + 4 over the field of integers. Which of the following represents its correct factorization into irreducible polynomials?",
+  "options": {
+   "A": "(x^2 + 2)(x + sqrt(2))(x - sqrt(2))",
+   "B": "It is irreducible over the integers",
+   "C": "(x^2 + 2)(x^2 - 2)",
+   "D": "(x^2 + 2x + 2)(x^2 - 2x + 2)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/251:C",
+  "question": "In formal logic, the Principle of Explosion states that:",
+  "options": {
+   "A": "Only tautologies can be derived from contradictions",
+   "B": "No formula can be proven if a contradiction exists",
+   "C": "Logic cannot handle contradictions",
+   "D": "From a contradiction, any formula can be proven"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/251:D",
+  "question": "In formal logic, the Principle of Explosion states that:",
+  "options": {
+   "A": "Only tautologies can be derived from contradictions",
+   "B": "No formula can be proven if a contradiction exists",
+   "C": "Logic cannot handle contradictions",
+   "D": "From a contradiction, any formula can be proven"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/253:B",
+  "question": "How many ways can 4 identical items be placed into 4 distinct boxes?",
+  "options": {
+   "A": "16",
+   "B": "120",
+   "C": "24",
+   "D": "35"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/253:D",
+  "question": "How many ways can 4 identical items be placed into 4 distinct boxes?",
+  "options": {
+   "A": "16",
+   "B": "120",
+   "C": "24",
+   "D": "35"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/254:A",
+  "question": "In the context of the Halting Problem, suppose there exists a oracle H that can decide whether any arbitrary Turing machine halts on a given input. Which construction leads to a contradiction proving H cannot exist?",
+  "options": {
+   "A": "Constructing a machine that ignores the input of H",
+   "B": "Constructing a machine that simulates H on itself and does the opposite",
+   "C": "Constructing a machine that loops forever if H says it halts",
+   "D": "Constructing a machine that halts if H says it loops"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/254:B",
+  "question": "In the context of the Halting Problem, suppose there exists a oracle H that can decide whether any arbitrary Turing machine halts on a given input. Which construction leads to a contradiction proving H cannot exist?",
+  "options": {
+   "A": "Constructing a machine that ignores the input of H",
+   "B": "Constructing a machine that simulates H on itself and does the opposite",
+   "C": "Constructing a machine that loops forever if H says it halts",
+   "D": "Constructing a machine that halts if H says it loops"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/258:A",
+  "question": "Which of the following is a tautology in propositional logic?",
+  "options": {
+   "A": "¬(P ∨ Q)",
+   "B": "P → ¬P",
+   "C": "P ∨ ¬P",
+   "D": "P ∧ ¬P"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/258:C",
+  "question": "Which of the following is a tautology in propositional logic?",
+  "options": {
+   "A": "¬(P ∨ Q)",
+   "B": "P → ¬P",
+   "C": "P ∨ ¬P",
+   "D": "P ∧ ¬P"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/26:B",
+  "question": "In formal logic, what is the result of applying the resolution rule to the clauses (A ∨ B) and (¬B ∨ C)?",
+  "options": {
+   "A": "A ∧ C",
+   "B": "A ∨ B ∨ C",
+   "C": "B ∨ ¬B",
+   "D": "A ∨ C"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/26:D",
+  "question": "In formal logic, what is the result of applying the resolution rule to the clauses (A ∨ B) and (¬B ∨ C)?",
+  "options": {
+   "A": "A ∧ C",
+   "B": "A ∨ B ∨ C",
+   "C": "B ∨ ¬B",
+   "D": "A ∨ C"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/260:A",
+  "question": "A bipartite graph cannot contain which of the following?",
+  "options": {
+   "A": "Cycles of length 5",
+   "B": "Cycles of length 6",
+   "C": "Edges",
+   "D": "Cycles of length 4"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/260:B",
+  "question": "A bipartite graph cannot contain which of the following?",
+  "options": {
+   "A": "Cycles of length 5",
+   "B": "Cycles of length 6",
+   "C": "Edges",
+   "D": "Cycles of length 4"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/261:B",
+  "question": "Which theorem provides a necessary and sufficient condition for a graph to have an Eulerian circuit?",
+  "options": {
+   "A": "The graph must be bipartite.",
+   "B": "The graph must be connected and every vertex must have even degree.",
+   "C": "The graph must be a tree.",
+   "D": "The graph must be connected and exactly two vertices have odd degree."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/261:C",
+  "question": "Which theorem provides a necessary and sufficient condition for a graph to have an Eulerian circuit?",
+  "options": {
+   "A": "The graph must be bipartite.",
+   "B": "The graph must be connected and every vertex must have even degree.",
+   "C": "The graph must be a tree.",
+   "D": "The graph must be connected and exactly two vertices have odd degree."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/262:B",
+  "question": "In the context of operating systems, what is the primary purpose of the Banker's Algorithm?",
+  "options": {
+   "A": "To recover from deadlocks by terminating processes.",
+   "B": "To prevent deadlocks by ensuring the system remains in a safe state.",
+   "C": "To detect deadlocks after they have occurred.",
+   "D": "To ignore deadlocks and rely on manual intervention."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/262:D",
+  "question": "In the context of operating systems, what is the primary purpose of the Banker's Algorithm?",
+  "options": {
+   "A": "To recover from deadlocks by terminating processes.",
+   "B": "To prevent deadlocks by ensuring the system remains in a safe state.",
+   "C": "To detect deadlocks after they have occurred.",
+   "D": "To ignore deadlocks and rely on manual intervention."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/263:C",
+  "question": "In the context of virtual memory management, what phenomenon occurs when a process spends more time paging than executing?",
+  "options": {
+   "A": "Starvation",
+   "B": "Deadlock",
+   "C": "Thrashing",
+   "D": "Fragmentation"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/263:D",
+  "question": "In the context of virtual memory management, what phenomenon occurs when a process spends more time paging than executing?",
+  "options": {
+   "A": "Starvation",
+   "B": "Deadlock",
+   "C": "Thrashing",
+   "D": "Fragmentation"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/264:B",
+  "question": "For an ellipse defined by the equation x^2/a^2 + y^2/b^2 = 1, a tangent line touches the curve at point (x0, y0). If the product of the distances from the two foci to this tangent line is constant, what is the value of this constant in terms of b?",
+  "options": {
+   "A": "a",
+   "B": "b^2",
+   "C": "ab",
+   "D": "b"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/264:C",
+  "question": "For an ellipse defined by the equation x^2/a^2 + y^2/b^2 = 1, a tangent line touches the curve at point (x0, y0). If the product of the distances from the two foci to this tangent line is constant, what is the value of this constant in terms of b?",
+  "options": {
+   "A": "a",
+   "B": "b^2",
+   "C": "ab",
+   "D": "b"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/265:A",
+  "question": "Given a triangle ABC inscribed in a circle, let the angles be represented by variables A, B, and C. If the sum of angles A and B is exactly 90 degrees, which trigonometric identity must hold for angle C?",
+  "options": {
+   "A": "sin(C) = 1",
+   "B": "tan(C) is undefined",
+   "C": "sin(C) = 0",
+   "D": "cos(C) = 1"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/265:C",
+  "question": "Given a triangle ABC inscribed in a circle, let the angles be represented by variables A, B, and C. If the sum of angles A and B is exactly 90 degrees, which trigonometric identity must hold for angle C?",
+  "options": {
+   "A": "sin(C) = 1",
+   "B": "tan(C) is undefined",
+   "C": "sin(C) = 0",
+   "D": "cos(C) = 1"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/267:B",
+  "question": "In propositional logic, if the set of clauses {C1, C2, ..., Cn} is unsatisfiable, what does the Resolution Principle guarantee?",
+  "options": {
+   "A": "It will find a satisfying assignment",
+   "B": "It will derive the empty clause",
+   "C": "It will terminate in polynomial time",
+   "D": "It will identify the conflicting variables"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/267:D",
+  "question": "In propositional logic, if the set of clauses {C1, C2, ..., Cn} is unsatisfiable, what does the Resolution Principle guarantee?",
+  "options": {
+   "A": "It will find a satisfying assignment",
+   "B": "It will derive the empty clause",
+   "C": "It will terminate in polynomial time",
+   "D": "It will identify the conflicting variables"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/268:A",
+  "question": "Which of the following is the correct value for the number of spanning trees in a complete graph K_4?",
+  "options": {
+   "A": "12",
+   "B": "4",
+   "C": "16",
+   "D": "8"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/268:C",
+  "question": "Which of the following is the correct value for the number of spanning trees in a complete graph K_4?",
+  "options": {
+   "A": "12",
+   "B": "4",
+   "C": "16",
+   "D": "8"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/27:A",
+  "question": "In a page replacement algorithm, Belady's Anomaly occurs when increasing the number of page frames results in more page faults. Which algorithm is susceptible to this anomaly?",
+  "options": {
+   "A": "Optimal (OPT)",
+   "B": "Second Chance",
+   "C": "First-In-First-Out (FIFO)",
+   "D": "Least Recently Used (LRU)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/27:C",
+  "question": "In a page replacement algorithm, Belady's Anomaly occurs when increasing the number of page frames results in more page faults. Which algorithm is susceptible to this anomaly?",
+  "options": {
+   "A": "Optimal (OPT)",
+   "B": "Second Chance",
+   "C": "First-In-First-Out (FIFO)",
+   "D": "Least Recently Used (LRU)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/270:C",
+  "question": "In the study of Boolean algebras, the Stone Representation Theorem states that every Boolean algebra is isomorphic to:",
+  "options": {
+   "A": "A group of permutations.",
+   "B": "A complete lattice of subspaces.",
+   "C": "A field of sets.",
+   "D": "A ring of integers modulo n."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/270:D",
+  "question": "In the study of Boolean algebras, the Stone Representation Theorem states that every Boolean algebra is isomorphic to:",
+  "options": {
+   "A": "A group of permutations.",
+   "B": "A complete lattice of subspaces.",
+   "C": "A field of sets.",
+   "D": "A ring of integers modulo n."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/271:C",
+  "question": "Let P, Q, and R be propositions. Which logical equivalence represents the distributive law of conjunction over disjunction?",
+  "options": {
+   "A": "¬(P ∧ Q) ≡ ¬P ∨ ¬Q",
+   "B": "P ∨ (Q ∧ R) ≡ (P ∨ Q) ∧ (P ∨ R)",
+   "C": "P ∧ (Q ∨ R) ≡ (P ∧ Q) ∨ (P ∧ R)",
+   "D": "P → Q ≡ ¬P ∨ Q"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/271:D",
+  "question": "Let P, Q, and R be propositions. Which logical equivalence represents the distributive law of conjunction over disjunction?",
+  "options": {
+   "A": "¬(P ∧ Q) ≡ ¬P ∨ ¬Q",
+   "B": "P ∨ (Q ∧ R) ≡ (P ∨ Q) ∧ (P ∨ R)",
+   "C": "P ∧ (Q ∨ R) ≡ (P ∧ Q) ∨ (P ∧ R)",
+   "D": "P → Q ≡ ¬P ∨ Q"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/273:A",
+  "question": "In a formal proof, a 'sound' system is one where:",
+  "options": {
+   "A": "The system is decidable.",
+   "B": "Every true statement is provable.",
+   "C": "Every provable statement is true.",
+   "D": "There are no contradictions in the axioms."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/273:C",
+  "question": "In a formal proof, a 'sound' system is one where:",
+  "options": {
+   "A": "The system is decidable.",
+   "B": "Every true statement is provable.",
+   "C": "Every provable statement is true.",
+   "D": "There are no contradictions in the axioms."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/274:B",
+  "question": "Which sorting algorithm maintains a stable sort order and guarantees O(n log n) time complexity in the worst case?",
+  "options": {
+   "A": "Selection Sort",
+   "B": "Merge Sort",
+   "C": "Heap Sort",
+   "D": "Quick Sort"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/274:C",
+  "question": "Which sorting algorithm maintains a stable sort order and guarantees O(n log n) time complexity in the worst case?",
+  "options": {
+   "A": "Selection Sort",
+   "B": "Merge Sort",
+   "C": "Heap Sort",
+   "D": "Quick Sort"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/275:A",
+  "question": "Consider a piecewise function f(x) defined as x^2 for x < 0 and 2x for x ≥ 0. Is the function continuous at x = 0, and does it possess an inverse in the neighborhood of x = 0?",
+  "options": {
+   "A": "It is continuous but fails the horizontal line test locally, so no local inverse exists.",
+   "B": "It is discontinuous and has no inverse.",
+   "C": "It is discontinuous but has a piecewise inverse.",
+   "D": "It is continuous and has a unique inverse."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/275:B",
+  "question": "Consider a piecewise function f(x) defined as x^2 for x < 0 and 2x for x ≥ 0. Is the function continuous at x = 0, and does it possess an inverse in the neighborhood of x = 0?",
+  "options": {
+   "A": "It is continuous but fails the horizontal line test locally, so no local inverse exists.",
+   "B": "It is discontinuous and has no inverse.",
+   "C": "It is discontinuous but has a piecewise inverse.",
+   "D": "It is continuous and has a unique inverse."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/276:A",
+  "question": "What is the number of edges in a complete graph with 7 vertices?",
+  "options": {
+   "A": "21",
+   "B": "28",
+   "C": "49",
+   "D": "42"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/276:C",
+  "question": "What is the number of edges in a complete graph with 7 vertices?",
+  "options": {
+   "A": "21",
+   "B": "28",
+   "C": "49",
+   "D": "42"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/277:A",
+  "question": "Which of the following scheduling algorithms minimizes the average waiting time for a set of processes with known burst times?",
+  "options": {
+   "A": "Shortest Job First (SJF)",
+   "B": "Round Robin",
+   "C": "First-Come-First-Served (FCFS)",
+   "D": "Priority Scheduling"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/277:C",
+  "question": "Which of the following scheduling algorithms minimizes the average waiting time for a set of processes with known burst times?",
+  "options": {
+   "A": "Shortest Job First (SJF)",
+   "B": "Round Robin",
+   "C": "First-Come-First-Served (FCFS)",
+   "D": "Priority Scheduling"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/279:A",
+  "question": "In a graph G, if every vertex has a degree of at least 2, which of the following must be true?",
+  "options": {
+   "A": "G is connected",
+   "B": "G is Hamiltonian",
+   "C": "G is Eulerian",
+   "D": "G contains a cycle"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/279:D",
+  "question": "In a graph G, if every vertex has a degree of at least 2, which of the following must be true?",
+  "options": {
+   "A": "G is connected",
+   "B": "G is Hamiltonian",
+   "C": "G is Eulerian",
+   "D": "G contains a cycle"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/28:A",
+  "question": "In graph theory, a graph is bipartite if and only if it contains no cycles of what length?",
+  "options": {
+   "A": "Odd length",
+   "B": "Length greater than 3",
+   "C": "Even length",
+   "D": "Prime length"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/28:B",
+  "question": "In graph theory, a graph is bipartite if and only if it contains no cycles of what length?",
+  "options": {
+   "A": "Odd length",
+   "B": "Length greater than 3",
+   "C": "Even length",
+   "D": "Prime length"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/280:A",
+  "question": "Given a theory T, a 'type' in model theory is defined as:",
+  "options": {
+   "A": "A set of formulas with a free variable that is consistent with T.",
+   "B": "A sequence of axioms.",
+   "C": "A specific isomorphism between two models.",
+   "D": "A mapping from the language to a set of constants."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/280:C",
+  "question": "Given a theory T, a 'type' in model theory is defined as:",
+  "options": {
+   "A": "A set of formulas with a free variable that is consistent with T.",
+   "B": "A sequence of axioms.",
+   "C": "A specific isomorphism between two models.",
+   "D": "A mapping from the language to a set of constants."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/281:A",
+  "question": "In the context of First-Order Logic, what is a 'Henkin construction'?",
+  "options": {
+   "A": "A method to prove the Completeness Theorem by building a model from constants",
+   "B": "A way to prove the Incompleteness Theorem",
+   "C": "A method for reducing first-order logic to propositional logic",
+   "D": "A technique for eliminating quantifiers"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/281:B",
+  "question": "In the context of First-Order Logic, what is a 'Henkin construction'?",
+  "options": {
+   "A": "A method to prove the Completeness Theorem by building a model from constants",
+   "B": "A way to prove the Incompleteness Theorem",
+   "C": "A method for reducing first-order logic to propositional logic",
+   "D": "A technique for eliminating quantifiers"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/282:B",
+  "question": "Consider a poset (P, ≤). An element x is called a maximal element if there is no y in P such that x < y. In a finite poset, which of the following must always be true?",
+  "options": {
+   "A": "Every maximal element is also a maximum element",
+   "B": "There is exactly one maximal element",
+   "C": "At least one maximal element exists",
+   "D": "All maximal elements are comparable"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/282:C",
+  "question": "Consider a poset (P, ≤). An element x is called a maximal element if there is no y in P such that x < y. In a finite poset, which of the following must always be true?",
+  "options": {
+   "A": "Every maximal element is also a maximum element",
+   "B": "There is exactly one maximal element",
+   "C": "At least one maximal element exists",
+   "D": "All maximal elements are comparable"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/283:B",
+  "question": "Find the sum of all integer solutions to the equation x^2 - 5x + 6 = 0 modulo 7. What is the result when reduced to the least non-negative residue?",
+  "options": {
+   "A": "6",
+   "B": "5",
+   "C": "3",
+   "D": "2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/283:D",
+  "question": "Find the sum of all integer solutions to the equation x^2 - 5x + 6 = 0 modulo 7. What is the result when reduced to the least non-negative residue?",
+  "options": {
+   "A": "6",
+   "B": "5",
+   "C": "3",
+   "D": "2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/284:B",
+  "question": "Which of the following is a characteristic property of a 'saturated model' in model theory?",
+  "options": {
+   "A": "It cannot be embedded into any larger model.",
+   "B": "It is isomorphic to every other model of the same cardinality.",
+   "C": "It is the smallest model of its theory.",
+   "D": "It realizes as many types as possible given its cardinality."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/284:D",
+  "question": "Which of the following is a characteristic property of a 'saturated model' in model theory?",
+  "options": {
+   "A": "It cannot be embedded into any larger model.",
+   "B": "It is isomorphic to every other model of the same cardinality.",
+   "C": "It is the smallest model of its theory.",
+   "D": "It realizes as many types as possible given its cardinality."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/285:A",
+  "question": "Which of the following is a necessary and sufficient condition for a graph G to have an Euler circuit?",
+  "options": {
+   "A": "G must be bipartite and connected",
+   "B": "G must be connected and every vertex must have an even degree",
+   "C": "G must contain a Hamiltonian cycle",
+   "D": "Every vertex must have a degree of at least 2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/285:B",
+  "question": "Which of the following is a necessary and sufficient condition for a graph G to have an Euler circuit?",
+  "options": {
+   "A": "G must be bipartite and connected",
+   "B": "G must be connected and every vertex must have an even degree",
+   "C": "G must contain a Hamiltonian cycle",
+   "D": "Every vertex must have a degree of at least 2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/286:A",
+  "question": "In the study of Intuitionistic Logic, which of the following classical laws is rejected?",
+  "options": {
+   "A": "Law of Non-Contradiction",
+   "B": "Double Negation Introduction",
+   "C": "Modus Ponens",
+   "D": "Law of Excluded Middle"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/286:D",
+  "question": "In the study of Intuitionistic Logic, which of the following classical laws is rejected?",
+  "options": {
+   "A": "Law of Non-Contradiction",
+   "B": "Double Negation Introduction",
+   "C": "Modus Ponens",
+   "D": "Law of Excluded Middle"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/288:B",
+  "question": "In a virtual memory system, what is the purpose of the valid-invalid bit in a page table entry?",
+  "options": {
+   "A": "To indicate if the page is read-only",
+   "B": "To indicate the priority of the page",
+   "C": "To indicate if the page has been modified",
+   "D": "To indicate if the page is in main memory"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/288:D",
+  "question": "In a virtual memory system, what is the purpose of the valid-invalid bit in a page table entry?",
+  "options": {
+   "A": "To indicate if the page is read-only",
+   "B": "To indicate the priority of the page",
+   "C": "To indicate if the page has been modified",
+   "D": "To indicate if the page is in main memory"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/289:A",
+  "question": "Which of the following statements regarding the relationship between P, NP, and NP-complete classes is logically sound?",
+  "options": {
+   "A": "If P ≠ NP, then NP-complete problems are not in P",
+   "B": "All problems in NP are reducible to any problem in P in polynomial time",
+   "C": "If P = NP, then every problem in NP is NP-complete",
+   "D": "NP-complete problems are a proper subset of P"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/289:C",
+  "question": "Which of the following statements regarding the relationship between P, NP, and NP-complete classes is logically sound?",
+  "options": {
+   "A": "If P ≠ NP, then NP-complete problems are not in P",
+   "B": "All problems in NP are reducible to any problem in P in polynomial time",
+   "C": "If P = NP, then every problem in NP is NP-complete",
+   "D": "NP-complete problems are a proper subset of P"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/29:A",
+  "question": "Which algorithm is used to find the Minimum Spanning Tree of a graph by greedily adding the smallest edge that does not form a cycle?",
+  "options": {
+   "A": "Bellman-Ford Algorithm",
+   "B": "Prim's Algorithm",
+   "C": "Kruskal's Algorithm",
+   "D": "Dijkstra's Algorithm"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/29:C",
+  "question": "Which algorithm is used to find the Minimum Spanning Tree of a graph by greedily adding the smallest edge that does not form a cycle?",
+  "options": {
+   "A": "Bellman-Ford Algorithm",
+   "B": "Prim's Algorithm",
+   "C": "Kruskal's Algorithm",
+   "D": "Dijkstra's Algorithm"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/291:C",
+  "question": "The number of ways to choose 2 items from a set of n items without replacement where order does not matter is given by:",
+  "options": {
+   "A": "n^2",
+   "B": "n! / (n-2)!",
+   "C": "2^n",
+   "D": "n(n-1) / 2"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/291:D",
+  "question": "The number of ways to choose 2 items from a set of n items without replacement where order does not matter is given by:",
+  "options": {
+   "A": "n^2",
+   "B": "n! / (n-2)!",
+   "C": "2^n",
+   "D": "n(n-1) / 2"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/292:B",
+  "question": "In a proof by contradiction, if we assume P and derive a contradiction (Q ∧ ¬Q), what have we logically established?",
+  "options": {
+   "A": "¬Q is true",
+   "B": "¬P is true",
+   "C": "Q is true",
+   "D": "P is true"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/292:D",
+  "question": "In a proof by contradiction, if we assume P and derive a contradiction (Q ∧ ¬Q), what have we logically established?",
+  "options": {
+   "A": "¬Q is true",
+   "B": "¬P is true",
+   "C": "Q is true",
+   "D": "P is true"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/295:B",
+  "question": "In a group G of order 15, how many elements of order 1 exist?",
+  "options": {
+   "A": "3",
+   "B": "1",
+   "C": "5",
+   "D": "0"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/295:C",
+  "question": "In a group G of order 15, how many elements of order 1 exist?",
+  "options": {
+   "A": "3",
+   "B": "1",
+   "C": "5",
+   "D": "0"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/296:A",
+  "question": "What is the dual of the boolean expression (A + B) . (C + D)?",
+  "options": {
+   "A": "(~A + ~B) . (~C + ~D)",
+   "B": "(~A . ~B) + (~C . ~D)",
+   "C": "(A . B) . (C . D)",
+   "D": "(A . B) + (C . D)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/296:D",
+  "question": "What is the dual of the boolean expression (A + B) . (C + D)?",
+  "options": {
+   "A": "(~A + ~B) . (~C + ~D)",
+   "B": "(~A . ~B) + (~C . ~D)",
+   "C": "(A . B) . (C . D)",
+   "D": "(A . B) + (C . D)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/297:B",
+  "question": "What is the height of a perfectly balanced binary tree with n nodes?",
+  "options": {
+   "A": "n",
+   "B": "n/2",
+   "C": "n^2",
+   "D": "log2(n)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/297:D",
+  "question": "What is the height of a perfectly balanced binary tree with n nodes?",
+  "options": {
+   "A": "n",
+   "B": "n/2",
+   "C": "n^2",
+   "D": "log2(n)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/298:C",
+  "question": "Which of the following is a valid application of the Deduction Theorem in propositional logic?",
+  "options": {
+   "A": "If P ⊢ Q, then ⊢ P → Q",
+   "B": "If ⊢ P → Q, then P ⊢ Q",
+   "C": "If P ∧ Q ⊢ R, then P ⊢ Q → R",
+   "D": "All of the above"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/298:D",
+  "question": "Which of the following is a valid application of the Deduction Theorem in propositional logic?",
+  "options": {
+   "A": "If P ⊢ Q, then ⊢ P → Q",
+   "B": "If ⊢ P → Q, then P ⊢ Q",
+   "C": "If P ∧ Q ⊢ R, then P ⊢ Q → R",
+   "D": "All of the above"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/299:B",
+  "question": "Let z be a complex number such that z = r * e^(i*theta). If z is rotated by 90 degrees counter-clockwise around the point 1 + i, what is the new representation of the transformed point in the complex plane?",
+  "options": {
+   "A": "-i(z - (1+i)) + (1+i)",
+   "B": "i*z + (1+i)",
+   "C": "i(z - (1+i)) + (1+i)",
+   "D": "(z - (1+i)) * e^(i*pi/4)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/299:C",
+  "question": "Let z be a complex number such that z = r * e^(i*theta). If z is rotated by 90 degrees counter-clockwise around the point 1 + i, what is the new representation of the transformed point in the complex plane?",
+  "options": {
+   "A": "-i(z - (1+i)) + (1+i)",
+   "B": "i*z + (1+i)",
+   "C": "i(z - (1+i)) + (1+i)",
+   "D": "(z - (1+i)) * e^(i*pi/4)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/3:B",
+  "question": "Which of the following is a characteristic of a 'Complete' theory in first-order logic?",
+  "options": {
+   "A": "T is sound",
+   "B": "T has at least one model",
+   "C": "T is recursively enumerable",
+   "D": "For every sentence phi, either T ⊢ phi or T ⊢ ¬phi"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/3:D",
+  "question": "Which of the following is a characteristic of a 'Complete' theory in first-order logic?",
+  "options": {
+   "A": "T is sound",
+   "B": "T has at least one model",
+   "C": "T is recursively enumerable",
+   "D": "For every sentence phi, either T ⊢ phi or T ⊢ ¬phi"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/300:A",
+  "question": "Which of the following is a consequence of the 'Lindström's Theorem' regarding first-order logic?",
+  "options": {
+   "A": "First-order logic is the strongest logic that satisfies both the Compactness Theorem and the Downward Lowenheim-Skolem Theorem.",
+   "B": "No logic can satisfy the Compactness Theorem.",
+   "C": "First-order logic can define the set of natural numbers uniquely up to isomorphism.",
+   "D": "First-order logic is equivalent to second-order logic in terms of expressibility."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/300:C",
+  "question": "Which of the following is a consequence of the 'Lindström's Theorem' regarding first-order logic?",
+  "options": {
+   "A": "First-order logic is the strongest logic that satisfies both the Compactness Theorem and the Downward Lowenheim-Skolem Theorem.",
+   "B": "No logic can satisfy the Compactness Theorem.",
+   "C": "First-order logic can define the set of natural numbers uniquely up to isomorphism.",
+   "D": "First-order logic is equivalent to second-order logic in terms of expressibility."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/301:A",
+  "question": "In the context of the 'Brouwer-Heyting-Kolmogorov' interpretation, the proof of a disjunction (P or Q) requires:",
+  "options": {
+   "A": "A proof of P or a proof of Q.",
+   "B": "A proof that P implies Q.",
+   "C": "A proof that P and Q cannot both be false.",
+   "D": "A proof that the negation of P is false."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/301:C",
+  "question": "In the context of the 'Brouwer-Heyting-Kolmogorov' interpretation, the proof of a disjunction (P or Q) requires:",
+  "options": {
+   "A": "A proof of P or a proof of Q.",
+   "B": "A proof that P implies Q.",
+   "C": "A proof that P and Q cannot both be false.",
+   "D": "A proof that the negation of P is false."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/302:C",
+  "question": "Which of the following problems is known to be EXPTIME-complete?",
+  "options": {
+   "A": "Sorting an array of integers",
+   "B": "Finding the shortest path in a graph",
+   "C": "Determining the winner in a generalized game of Chess",
+   "D": "Evaluating a boolean circuit"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/302:D",
+  "question": "Which of the following problems is known to be EXPTIME-complete?",
+  "options": {
+   "A": "Sorting an array of integers",
+   "B": "Finding the shortest path in a graph",
+   "C": "Determining the winner in a generalized game of Chess",
+   "D": "Evaluating a boolean circuit"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/303:A",
+  "question": "Consider the recurrence relation T(n) = 2T(n/2) + n/log n. What is the asymptotic behavior of T(n)?",
+  "options": {
+   "A": "Theta(n log log n)",
+   "B": "Theta(n^2)",
+   "C": "Theta(n)",
+   "D": "Theta(n log n)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/303:D",
+  "question": "Consider the recurrence relation T(n) = 2T(n/2) + n/log n. What is the asymptotic behavior of T(n)?",
+  "options": {
+   "A": "Theta(n log log n)",
+   "B": "Theta(n^2)",
+   "C": "Theta(n)",
+   "D": "Theta(n log n)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/304:B",
+  "question": "In the study of computational complexity, which class contains problems that can be verified in polynomial time by a deterministic Turing machine?",
+  "options": {
+   "A": "P",
+   "B": "NP",
+   "C": "PSPACE",
+   "D": "NP-Complete"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/304:C",
+  "question": "In the study of computational complexity, which class contains problems that can be verified in polynomial time by a deterministic Turing machine?",
+  "options": {
+   "A": "P",
+   "B": "NP",
+   "C": "PSPACE",
+   "D": "NP-Complete"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/306:B",
+  "question": "In modal logic S5, which of the following is true about the accessibility relation?",
+  "options": {
+   "A": "It is irreflexive",
+   "B": "It is only transitive",
+   "C": "It is reflexive, symmetric, and transitive",
+   "D": "It is only reflexive"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/306:C",
+  "question": "In modal logic S5, which of the following is true about the accessibility relation?",
+  "options": {
+   "A": "It is irreflexive",
+   "B": "It is only transitive",
+   "C": "It is reflexive, symmetric, and transitive",
+   "D": "It is only reflexive"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/307:C",
+  "question": "Consider the formula (P ∨ Q) → R. Which of the following is logically equivalent to it?",
+  "options": {
+   "A": "(¬P ∧ ¬Q) ∨ R",
+   "B": "(P ∧ Q) → R",
+   "C": "(P → R) ∧ (Q → R)",
+   "D": "(P → R) ∨ (Q → R)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/307:D",
+  "question": "Consider the formula (P ∨ Q) → R. Which of the following is logically equivalent to it?",
+  "options": {
+   "A": "(¬P ∧ ¬Q) ∨ R",
+   "B": "(P ∧ Q) → R",
+   "C": "(P → R) ∧ (Q → R)",
+   "D": "(P → R) ∨ (Q → R)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/308:A",
+  "question": "In modal logic, what does the operator '◇' (diamond) represent?",
+  "options": {
+   "A": "Implication",
+   "B": "Equivalence",
+   "C": "Possibility",
+   "D": "Necessity"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/308:C",
+  "question": "In modal logic, what does the operator '◇' (diamond) represent?",
+  "options": {
+   "A": "Implication",
+   "B": "Equivalence",
+   "C": "Possibility",
+   "D": "Necessity"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/310:A",
+  "question": "What is the logical negation of the statement 'For all x, P(x) is true'?",
+  "options": {
+   "A": "There exists an x such that P(x) is true.",
+   "B": "For all x, P(x) is false.",
+   "C": "For no x, P(x) is true.",
+   "D": "There exists an x such that P(x) is false."
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/310:D",
+  "question": "What is the logical negation of the statement 'For all x, P(x) is true'?",
+  "options": {
+   "A": "There exists an x such that P(x) is true.",
+   "B": "For all x, P(x) is false.",
+   "C": "For no x, P(x) is true.",
+   "D": "There exists an x such that P(x) is false."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/312:B",
+  "question": "What is the time complexity of the Floyd-Warshall algorithm for finding all-pairs shortest paths in a graph with V vertices?",
+  "options": {
+   "A": "O(E + V log V)",
+   "B": "O(V log V)",
+   "C": "O(V^3)",
+   "D": "O(V^2)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/312:C",
+  "question": "What is the time complexity of the Floyd-Warshall algorithm for finding all-pairs shortest paths in a graph with V vertices?",
+  "options": {
+   "A": "O(E + V log V)",
+   "B": "O(V log V)",
+   "C": "O(V^3)",
+   "D": "O(V^2)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/316:A",
+  "question": "Let z be a complex number such that z = cos(θ) + i*sin(θ). According to De Moivre's Theorem, what is the result of raising z to the power of n, where n is an integer?",
+  "options": {
+   "A": "cos(θ^n) + i*sin(θ^n)",
+   "B": "cos(nθ) - i*sin(nθ)",
+   "C": "cos(nθ) + i*sin(nθ)",
+   "D": "n*cos(θ) + i*n*sin(θ)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/316:C",
+  "question": "Let z be a complex number such that z = cos(θ) + i*sin(θ). According to De Moivre's Theorem, what is the result of raising z to the power of n, where n is an integer?",
+  "options": {
+   "A": "cos(θ^n) + i*sin(θ^n)",
+   "B": "cos(nθ) - i*sin(nθ)",
+   "C": "cos(nθ) + i*sin(nθ)",
+   "D": "n*cos(θ) + i*n*sin(θ)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/319:B",
+  "question": "In the context of complexity theory, the class PSPACE is defined as the set of problems solvable by a Turing machine using:",
+  "options": {
+   "A": "Polynomial time",
+   "B": "Polynomial space",
+   "C": "Logarithmic space",
+   "D": "Exponential time"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/319:C",
+  "question": "In the context of complexity theory, the class PSPACE is defined as the set of problems solvable by a Turing machine using:",
+  "options": {
+   "A": "Polynomial time",
+   "B": "Polynomial space",
+   "C": "Logarithmic space",
+   "D": "Exponential time"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/32:A",
+  "question": "Consider a directed graph G with n vertices. If every vertex has an out-degree of exactly 1, what is the minimum number of directed cycles that must exist in G?",
+  "options": {
+   "A": "1",
+   "B": "n",
+   "C": "0",
+   "D": "2"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/32:B",
+  "question": "Consider a directed graph G with n vertices. If every vertex has an out-degree of exactly 1, what is the minimum number of directed cycles that must exist in G?",
+  "options": {
+   "A": "1",
+   "B": "n",
+   "C": "0",
+   "D": "2"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/321:A",
+  "question": "In a directed graph, a strongly connected component is a maximal subgraph where every vertex is reachable from every other vertex. If a DAG has n vertices, how many strongly connected components does it have?",
+  "options": {
+   "A": "n",
+   "B": "1",
+   "C": "Depends on the number of edges",
+   "D": "0"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/321:C",
+  "question": "In a directed graph, a strongly connected component is a maximal subgraph where every vertex is reachable from every other vertex. If a DAG has n vertices, how many strongly connected components does it have?",
+  "options": {
+   "A": "n",
+   "B": "1",
+   "C": "Depends on the number of edges",
+   "D": "0"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/322:A",
+  "question": "A relation R on a set A is called an equivalence relation if it is reflexive, symmetric, and transitive. If |A| = 4, how many distinct equivalence relations can be defined on A?",
+  "options": {
+   "A": "15",
+   "B": "64",
+   "C": "24",
+   "D": "40"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/college_computer_science/322:D",
+  "question": "A relation R on a set A is called an equivalence relation if it is reflexive, symmetric, and transitive. If |A| = 4, how many distinct equivalence relations can be defined on A?",
+  "options": {
+   "A": "15",
+   "B": "64",
+   "C": "24",
+   "D": "40"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/323:B",
+  "question": "In a graph G, the sum of the degrees of all vertices is equal to:",
+  "options": {
+   "A": "Number of vertices",
+   "B": "Twice the number of edges",
+   "C": "Square of the number of edges",
+   "D": "Number of edges"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/college_computer_science/323:D",
+  "question": "In a graph G, the sum of the degrees of all vertices is equal to:",
+  "options": {
+   "A": "Number of vertices",
+   "B": "Twice the number of edges",
+   "C": "Square of the number of edges",
+   "D": "Number of edges"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/college_computer_science/324:C",
+  "question": "Given a context-free grammar G, which of the following properties is undecidable?",
+  "options": {
+   "A": "Whether the language generated by G is empty",
+   "B": "Whether G generates any string of length greater than 100",
+   "C": "Whether G is ambiguous",
+   "D": "Whether a specific string w is in the language generated by G"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/college_computer_science/324:D",
+  "question": "Given a context-free grammar G, which of the following properties is undecidable?",
+  "options": {
+   "A": "Whether the language generated by G is empty",
+   "B": "Whether G generates any string of length greater than 100",
+   "C": "Whether G is ambiguous",
+   "D": "Whether a specific string w is in the language generated by G"
+  },
+  "argue_for": "D"
+ }
+]

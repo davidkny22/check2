@@ -1,0 +1,107 @@
+{
+ "builtin_path": true,
+ "commit": "b7ccf1ef5249d767e45900106f4ef392c39a76dd",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T11:19:51+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "limit": null,
+ "model_kind": "tiny",
+ "name": "write_formula",
+ "planted": false,
+ "seconds": 7.3,
+ "session": null,
+ "started": "2026-11-15T11:19:44+00:00",
+ "tail_position": 0,
+ "tree_clean": true,
+ "values": {
+  "arms": {
+   "short:alpha=0.0": {
+    "calls_checked": 20,
+    "max_relative_difference": 0.0,
+    "zeros_exact": true
+   },
+   "short:alpha=0.5": {
+    "calls_checked": 20,
+    "max_relative_difference": 2.3435534351646104e-07,
+    "zeros_exact": true
+   },
+   "short:alpha=1.0": {
+    "calls_checked": 20,
+    "max_relative_difference": 2.3134959663556162e-07,
+    "zeros_exact": true
+   },
+   "short:band=[1, 2]": {
+    "calls_checked": 20,
+    "max_relative_difference": 2.1925957250375098e-07,
+    "zeros_exact": true
+   },
+   "short:band=[3]": {
+    "calls_checked": 20,
+    "max_relative_difference": 1.6367879257529054e-07,
+    "zeros_exact": true
+   },
+   "short:band=[5, 6]": {
+    "calls_checked": 20,
+    "max_relative_difference": 2.1765388631217257e-07,
+    "zeros_exact": true
+   },
+   "snap:alpha=0.0": {
+    "calls_checked": 20,
+    "max_relative_difference": 0.0,
+    "zeros_exact": true
+   },
+   "snap:alpha=0.5": {
+    "calls_checked": 20,
+    "max_relative_difference": 2.3253437288876135e-07,
+    "zeros_exact": true
+   },
+   "snap:alpha=1.0": {
+    "calls_checked": 20,
+    "max_relative_difference": 2.131317740163554e-07,
+    "zeros_exact": true
+   },
+   "snap:band=[1, 2]": {
+    "calls_checked": 20,
+    "max_relative_difference": 2.1123350112179642e-07,
+    "zeros_exact": true
+   },
+   "snap:band=[3]": {
+    "calls_checked": 20,
+    "max_relative_difference": 1.6409856690541102e-07,
+    "zeros_exact": true
+   },
+   "snap:band=[5, 6]": {
+    "calls_checked": 20,
+    "max_relative_difference": 2.148154224248791e-07,
+    "zeros_exact": true
+   }
+  },
+  "green": true,
+  "hooked_layers": [
+   1,
+   2,
+   3,
+   5,
+   6
+  ],
+  "hooks_on_exactly_the_write_layers": true,
+  "write_layers": [
+   1,
+   2,
+   3,
+   5,
+   6
+  ]
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

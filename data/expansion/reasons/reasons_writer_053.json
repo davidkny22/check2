@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794789564,
+ "finished_unix": 1794789725,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_statistics/71:A",
+   "reason": "The interval runs from a negative value to a positive one, so zero is a plausible value for the true difference, and that means we cannot reject equal means at the 0.10 level."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/71:D",
+   "reason": "Most of the interval sits below zero, stretching down to -2.5 but only up to 1.5, so the bulk of plausible values for the difference are negative and that is where the evidence points."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/72:B",
+   "reason": "With the same data, the only thing that changes between the two intervals is the confidence level, and going from 95% to 99% pushes the z or t multiplier up, which stretches the margin of error."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/72:D",
+   "reason": "The width of an interval is driven by the spread in the margin of error, and a wider interval at 99% reflects a larger effective standard deviation term being multiplied into that margin."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/73:A",
+   "reason": "On a single trial there are only two outcomes, success or failure, and their probabilities must add up to one, so failure has to take whatever probability success leaves over."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/73:C",
+   "reason": "Failure in a binomial setting is tied to the success probability itself, and squaring p gives a smaller value that reflects how failing is less likely than succeeding when p describes the main outcome."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/74:A",
+   "reason": "The same people are measured before and after, so each post score is naturally matched to its own pre score, and testing the mean of those within-person differences is exactly what this design calls for."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/74:D",
+   "reason": "Anxiety scores are a numeric outcome compared across measurement occasions, and an ANOVA compares group means across conditions, which handles the pre and post scores as levels of one factor."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/75:A",
+   "reason": "The range captures the full spread from the lowest to the highest income, so it accounts for the extreme earners directly rather than letting them distort a single central figure."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/75:B",
+   "reason": "The middle value depends only on the ordering of incomes, so a handful of very high earners can grow as large as they like without moving the midpoint of the list."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/76:C",
+   "reason": "A single gym is one naturally occurring group of people, and taking everyone from that one cluster instead of across the city is what leaves the sample unrepresentative of all adults."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/76:D",
+   "reason": "The researcher just grabbed people who were easy to reach at one spot, and gym members are likely to differ physically from the general adult population, so the sample reflects accessibility rather than randomness."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/78:B",
+   "reason": "When one tail is long, extreme values drag the arithmetic average toward them, but the value that splits the data in half stays put, so it describes where a typical observation sits."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/78:C",
+   "reason": "In a highly skewed distribution, a single central number misleads, and the range shows how far the values stretch across the scale, which tells you more about where the data actually lie."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/8:A",
+   "reason": "The p-value is the probability of seeing results this extreme when the null hypothesis is true, and rejecting a true null is exactly what a Type I error is."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/8:B",
+   "reason": "A Type I error means rejecting a null hypothesis that is actually true, and the cutoff we choose in advance is precisely the probability of landing in the rejection region under that null."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/81:B",
+   "reason": "The mean sits ten units above the median, and a few large values in the upper tail pull the average upward while leaving the middle value alone, which is the signature of a long right tail."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/81:C",
+   "reason": "A gap of ten between mean and median on a scale around fifty is modest, and sampling variation alone produces differences like that in data whose underlying shape is balanced around the center."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/82:B",
+   "reason": "A Type II error is a mistake in the conclusion, and the conclusion rests entirely on the p-value, so getting that number wrong is what leads us to keep a hypothesis we should have dropped."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/82:D",
+   "reason": "The second kind of error is the miss: the null is actually false, yet the data are not strong enough to reject it, so we wrongly keep the status quo."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/83:B",
+   "reason": "Getting exactly three successes means three trials at 0.3 and seven at 0.7 all multiplied together, and that product of ten fractions comes out to a very small number, well under one percent."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/83:D",
+   "reason": "There are 120 ways to pick which three trials succeed, and 0.3 cubed is 0.027 while 0.7 to the seventh is about 0.0824, so the product lands a little above a quarter."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/85:B",
+   "reason": "The interval was built from the 500 voters surveyed, so it describes the support rates observed among them, with most of the sampled responses falling within that band from 42 to 48 percent."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/85:D",
+   "reason": "The 95 percent describes the procedure, not this one interval: across many repeated samples built the same way, about nineteen in twenty of the intervals would capture the true proportion."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/86:A",
+   "reason": "The interval runs from 12 to 18, and subtracting the endpoints gives 6, which is the quantity the interval itself pins down from the data before any margin is added."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/86:D",
+   "reason": "A confidence interval is built as estimate plus or minus a margin, so the estimate sits exactly halfway between the endpoints, and the midpoint of 12 and 18 is 15."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/9:B",
+   "reason": "The ratio of two sample variances follows its own distribution when the populations have equal variances, and that ratio is exactly the statistic this test uses, so it is built for comparing spreads."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/9:C",
+   "reason": "Two independent samples are being compared, and the two-sample t procedure is the standard tool for independent groups, using each sample's variance in its standard error to judge the difference."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/91:B",
+   "reason": "The interval has length 10 and the cutoff is at 4, so the part of the range beyond the cutoff covers 6 of those 10 units, giving a probability of six tenths."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/91:C",
+   "reason": "For a uniform variable every stretch of equal length is equally likely, so the chance of falling below 4 is just the length from 0 to 4 divided by the full width of 10."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/92:B",
+   "reason": "The chi-square approximation only works well when expected counts are large enough, and the usual condition asks for at least five in every cell, so a cell at four breaks the requirement."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/92:C",
+   "reason": "With an expected count so small, the cell contributes almost nothing to the statistic, which keeps the chi-square value near zero, and a statistic near zero produces a p-value at the top of the scale."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/93:A",
+   "reason": "A normal curve is fixed by more than two numbers once you account for its height and total area, so describing it with just a center and a spread leaves out part of its definition."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/93:D",
+   "reason": "The bell curve extends forever in both directions, so it assigns probability to negative values as well as positive ones, which means restricting it to positive values contradicts its shape."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/94:A",
+   "reason": "Assuming equal variances means the two sets of measurements share a common structure, and pairing each observation with its counterpart is what guarantees the comparison is made on like units."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/94:C",
+   "reason": "The t statistic only follows a t distribution exactly when the data come from normal populations, so for small samples that normality condition is what makes the pooled test's p-values trustworthy."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/95:A",
+   "reason": "Whatever shape the population has, averages of large samples settle into a bell shape around the population mean, and a sample of one hundred is comfortably large enough for that result to apply."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/95:C",
+   "reason": "With n equal to 100 we are in the large-sample regime where the normal curve stands in for a discrete count distribution, and that substitution is what makes the sampling distribution look normal here."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/96:B",
+   "reason": "A die has six faces, and halfway along that count of six is three, so the typical roll you should expect over many throws sits at the midpoint of the faces."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/96:D",
+   "reason": "Each face from one to six has probability one sixth, so the expectation is their sum, 21, divided by six, which gives a value halfway between three and four."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/97:A",
+   "reason": "Because the events are independent, both happen with probability 0.6 times 0.5, which is 0.3, and the chance that this joint outcome fails to happen is one minus that, or 0.7."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/97:C",
+   "reason": "Neither event happening means A fails with probability 0.4 and B fails with probability 0.5, and since they are independent we multiply those complements to get the joint chance."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/98:A",
+   "reason": "Two standard deviations below a mean of 10 brings you down to 6, and a value of 7 falls inside that second band below the mean, so it registers at the second standard deviation."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/98:D",
+   "reason": "A z-score is the distance from the mean divided by the standard deviation, and 7 minus 10 is negative three, which divided by two gives negative one and a half."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/0:A",
+   "reason": "The arguer treats the absence of disproof as if it were proof, leaning on what we do not know rather than on any positive evidence for the claim."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/0:D",
+   "reason": "The arguer takes a property of the whole body of evidence, that nothing has disproved the claim, and passes it down to the claim itself as if it were established true."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/100:A",
+   "reason": "Errors in deductive structure come from how our minds systematically misjudge which inferences follow, so they are best described as a predictable distortion in reasoning rather than a problem of wording."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/100:D",
+   "reason": "When the mistake lies in the form of a deductive argument, it can be spotted from the pattern alone without looking at the content, and that is what defines this category of fallacy."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/102:C",
+   "reason": "The speaker presents only two possibilities, either trust the doctor or reject the supplement, and leans on that framing to force acceptance without considering whether the claim needs real evidence at all."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/102:D",
+   "reason": "A doctorate in history gives no expertise on supplements, so citing that credential as support borrows authority from a field that has nothing to do with whether the product works."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/103:B",
+   "reason": "The conclusion is split back into the premises, as if a property of the conclusion as a whole carries into each part of the argument, so the premises already contain what was supposed to follow."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/103:D",
+   "reason": "When the premises already presuppose the conclusion, the argument just restates its own claim in a circle and gives no independent reason for believing it."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/104:A",
+   "reason": "Truth in virtue of form alone is the hallmark of a valid structure, where the logical shape guarantees the result no matter what content fills the premises."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/104:D",
+   "reason": "A statement like either it is raining or it is not comes out true under every assignment of truth values, so its truth flows from its form alone and not from facts."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/105:A",
+   "reason": "The move dismisses a counterexample by attacking the person's standing, saying that anyone who behaves that way was never a real member, which targets who they are instead of addressing the evidence."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/105:B",
+   "reason": "Faced with a counterexample, the arguer carves out an exception for it without any principled reason, redefining the group just to protect the generalization, which is an arbitrary exemption."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/107:A",
+   "reason": "Calling a rival chaotic deflects attention from one's own weaknesses by pointing at the other side's supposed faults, which is a way of answering criticism with a counter-accusation."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/107:B",
+   "reason": "The competitor's actual approach is swapped for a distorted, weaker version that is easy to knock down, and then the case attacks that caricature instead of the real strategy."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/108:A",
+   "reason": "Spotting and fixing your own biased patterns requires thinking about your own thinking, stepping back to monitor how you reached a judgment and then regulating that process."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/108:D",
+   "reason": "You cannot identify a biased pattern without knowing what you are looking for, and the bias of favoring evidence for what you already believe is the central pattern this kind of self-correction targets."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/110:A",
+   "reason": "The feature is judged superior on the reputation of the person who built it, with the evidence that should decide the matter, the performance metrics, set aside entirely."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/110:D",
+   "reason": "The argument reasons that because the engineer's past work was excellent, this feature must be too, drawing a comparison between earlier projects and this one that may not hold up."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/112:B",
+   "reason": "The error comes from assuming that what holds for one part carries over to a different whole, treating two things as alike because they share a few component features."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/112:C",
+   "reason": "The argument rests on a comparison, and when the two things compared differ in the very respects that matter, the inference drawn from one to the other collapses."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/113:B",
+   "reason": "Leaning on the fact that many people hold a belief is treating their collective opinion as an authority to be deferred to, letting the respect owed to that consensus stand in for evidence."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/113:D",
+   "reason": "The only support offered is how widely the belief is held, appealing to the crowd, and popularity has no bearing on whether a claim is actually true."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/114:B",
+   "reason": "Treating similar cases differently pulls the discussion away from the standard that should apply, so the inconsistent judgment serves to distract from the real issue being evaluated."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/114:D",
+   "reason": "Applying a rule to everyone else while exempting one's own case without a relevant difference is exactly the double standard that this fallacy names."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/115:C",
+   "reason": "The reasoning assumes that splitting the difference between two opposing views lands on the truth, when the correct answer could just as well sit at one extreme."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/115:D",
+   "reason": "The middle position is endorsed because of where it comes from, its origin between two views, rather than on its own merits, so its source is doing all the work."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/116:A",
+   "reason": "The candidate justifies the structure by how many peers use it, treating the popularity of a practice among a group as proof that the practice is correct."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/116:C",
+   "reason": "The candidate deflects criticism of their own essay by pointing out that everyone else does the same thing, which answers a charge by noting others are guilty of it too."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/117:B",
+   "reason": "The name literally means that it does not follow: the premise has no real connection to the conclusion, so the conclusion is simply asserted after something unrelated."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/117:C",
+   "reason": "When the premise offers no independent support, the conclusion ends up resting on nothing but itself, so the argument goes around in a loop instead of moving from evidence to a claim."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/118:B",
+   "reason": "Pointing out that the critic does the same thing has no bearing on whether the criticism is true, so the response is a conclusion that just does not follow from what was said."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/118:D",
+   "reason": "Saying you do it too rejects a claim by attacking the speaker's own conduct rather than the claim itself, which makes it a personal attack aimed at the arguer's hypocrisy."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/119:A",
+   "reason": "The only reason given is that something has never been done there before, which treats the way things have always been as a binding rule for what can be done in future."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/119:B",
+   "reason": "The educator treats rural schools as if they were like the settings where the subject failed to take root, assuming the past circumstances match today's when they may differ entirely."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/12:A",
+   "reason": "Attaching a nasty label to a position discredits it in advance, so the audience is primed to reject anything said for it before any argument is heard."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/12:D",
+   "reason": "Slapping a pejorative label on a view is an insult in place of a rebuttal, and attacking with abuse instead of reasons is the core of the personal attack fallacy."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/120:A",
+   "reason": "Dismissing the protocol on the strength of the scientist's past error assumes the protocol must be flawed because its author is flawed, and that assumption is then used to prove the protocol flawed."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/120:B",
+   "reason": "The protocol is rejected because of something about the person who proposed it, an unrelated past mistake, rather than any problem in the protocol itself."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/122:A",
+   "reason": "Answering a criticism with you do it too sidesteps the actual argument and replaces it with a weaker version focused on the critic's behavior, which is then easy to dismiss."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/122:D",
+   "reason": "The response turns the spotlight on the critic's hypocrisy instead of the claim, which is a way of attacking the person making the argument rather than the argument itself."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/123:A",
+   "reason": "The educator moves from one disruption to the conclusion that every project of this kind is doomed, as if one setback inevitably leads down a chain to the whole program failing."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/123:D",
+   "reason": "A single disrupted science fair is far too small a sample to support a sweeping verdict on every place-based project across the region."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/124:B",
+   "reason": "The middle term links the two premises, and if it never refers to its whole class in either one, the premises may be talking about different parts of it, so the link fails."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/124:C",
+   "reason": "A distribution error in one of the premises carries through to the minor term in the conclusion, so the syllogism ends up saying more about its subject than the premises ever licensed."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/125:B",
+   "reason": "The climatologist treats the earlier geology work as the reason the new hypothesis must be wrong, drawing a causal link between two things that have no real connection."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/125:C",
+   "reason": "The hypothesis is rejected on account of the person's background rather than the merits of the atmospheric argument, which aims the criticism at the scientist instead of the claim."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/126:A",
+   "reason": "If the statement relies on its own conclusion being true, then that conclusion is something it cannot do without, which is exactly the relationship of a condition that must hold for the claim to hold."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/126:B",
+   "reason": "A statement that props itself up by presupposing the very thing it set out to prove just runs in a loop, with the conclusion feeding back in as its own support."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/128:B",
+   "reason": "Rearranging the timeline narrows the story down to one supposed cause and leaves out every other explanation, presenting the audience with only two choices when many exist."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/128:D",
+   "reason": "Arranging events so one seems to come right before the other invites the inference that the earlier one caused the later, which is the classic error of reading cause from sequence."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/131:C",
+   "reason": "Pressing an audience through their emotions is a form of coercion, getting them to accept a conclusion out of discomfort rather than reason, which is the pressure tactic this fallacy names."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/131:D",
+   "reason": "The Latin name points straight to mercy and pity, and the fallacy is trying to win agreement by moving the audience to feel sorry instead of giving relevant reasons."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/132:A",
+   "reason": "The comparison excuses one tradition's conventions by pointing out that the other uses them too, defending a practice on the grounds that the other side does the same thing."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/132:C",
+   "reason": "Sharing one device, the soliloquy, does not make two theatrical traditions alike in their cultural roles, so inferring identical functions from one surface similarity stretches the comparison too far."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/133:B",
+   "reason": "Starting from observations and reasoning backward to the best available explanation for them is inference to the best explanation, which is different from generalizing or proving."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/133:C",
+   "reason": "Picking the simplest explanation means testing each candidate against the observations and ruling out those that conflict, which is working logically from general principles to what must be the case."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/134:B",
+   "reason": "Redefining the category to push someone out of it is a way of discrediting that person, saying they do not really belong, which attacks the individual rather than engaging the counterexample."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/134:C",
+   "reason": "When a counterexample shows up, the arguer simply declares that it does not count as a real member of the group, shifting the definition after the fact to protect the generalization."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/135:A",
+   "reason": "The only support offered is the opinion of a famous executive who has no special standing on normalization theory, so the architect borrows prestige in place of technical reasons."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/135:C",
+   "reason": "The architect slides from one dismissive remark to abandoning a whole normalization form, as if one small concession about theory leads step by step to discarding database principles altogether."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/136:B",
+   "reason": "Judging an idea by its place in time rather than its merits is the same mistake whichever direction it runs, and this family of appeals to tradition covers valuing ideas by age."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/136:C",
+   "reason": "The idea is praised only for being recent, as though newness by itself made it better, which is the mirror image of valuing something just because it is old."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/138:A",
+   "reason": "The claim is dismissed because of where it came from, the person's lack of credentials, instead of whether the claim is true, and judging a claim by its origin is the core of this fallacy."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/138:B",
+   "reason": "Rejecting a claim because the speaker is no expert treats expertise as the only thing that can make a claim credible, which is the same reliance on authority run in reverse."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/139:A",
+   "reason": "Jumping to a broad conclusion from only a handful of cases is rushing the inference, generalizing before there is enough evidence to show the sample reflects the whole group."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/139:D",
+   "reason": "A conclusion from a tiny unrepresentative sample only seems convincing if you already assume the sample stands for the whole, so the argument quietly takes for granted what it should be proving."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/14:C",
+   "reason": "The student frames things as if a classmate is either flawless or not worth listening to at all, leaving no room for someone who errs in spelling yet still gives good reading advice."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/14:D",
+   "reason": "The suggestion is dismissed because of a fact about the classmate, an old spelling slip, rather than anything about the reading suggestion, which turns the argument toward the person."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/140:A",
+   "reason": "The Latin phrase means it does not follow, so in strict logical terms it describes a conclusion that has no proper inferential connection to the premises offered for it."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/140:B",
+   "reason": "An appeal to pity offers feelings where reasons should be, so the conclusion has no logical tie to anything stated before it, which is exactly the gap between premise and conclusion this term names."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/142:B",
+   "reason": "Diverting attention often works by asking a question loaded with assumptions about some other matter, which pulls the listener off the original issue and onto defending something irrelevant."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/142:C",
+   "reason": "The name comes from dragging a strong-smelling fish across a trail to throw dogs off the scent, which captures introducing something irrelevant to pull attention away from the real issue."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/143:A",
+   "reason": "The arguer builds a flimsy version of the opponent's view, something easy to topple, then knocks that down and acts as if the real position has been refuted."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/143:D",
+   "reason": "Misrepresenting what an opponent said is a way of going after the opponent instead of the actual argument, turning the debate into an attack on the person's stated views."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/145:A",
+   "reason": "Misrepresentation often works by taking one weak part of the opponent's argument and treating the whole case as if it shared that weakness, which is reasoning from part to whole."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/145:B",
+   "reason": "Replacing the opponent's real argument with a distorted, weaker version and then refuting that version is the definition of this fallacy, since the actual position is never engaged."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/146:A",
+   "reason": "The claim leaves only two options, either games cause violence or they play no role at all, and ignoring base rates hides all the other explanations for this one violent person."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/146:D",
+   "reason": "The gaming came first and the violence came after, and the psychologist treats that order as proof of cause while ignoring how many people play games without ever turning violent."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/148:C",
+   "reason": "Treating sequence as causation assumes the causal link that needs proving, since the claim that A caused B is simply read into the fact that B came after A."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/148:D",
+   "reason": "The Latin phrase translates as after this, therefore because of this, which describes exactly the inference from one event following another to the first causing the second."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/150:A",
+   "reason": "Pity and sympathy are feelings, and trying to win support by stirring those feelings rather than offering reasons is the general category of playing on emotions."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/150:C",
+   "reason": "Exploiting sympathy works by making the audience feel they should join everyone else who is moved by the story, so the pull of the crowd's shared feeling is what wins the support."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/151:A",
+   "reason": "Treating an exception as the rule means assuming the unusual case is just like the ordinary ones, comparing two kinds of situation that differ in exactly the respect that made the exception special."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/151:C",
+   "reason": "Taking an atypical special case and generalizing from it to the whole rule reverses the usual misapplication of a rule to an exception, which is why this error carries the reversed name."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/152:B",
+   "reason": "Defending your own wrongdoing by saying the other side did it too is the you-too reply, which deflects the charge onto the accuser without showing the action was right."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/152:D",
+   "reason": "The arguer combines the opponent's conduct with their own to treat the whole group's behavior as acceptable, reasoning that if the parts all share the action, the action as a whole must be fine."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/153:A",
+   "reason": "Concluding that one thing causes another because they occur together assumes only two possibilities, that they are causally linked or unrelated, and leaves out a third factor driving both."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/153:C",
+   "reason": "The phrase means with this, therefore because of this, so the mistake is inferring that one thing causes another merely because the two occur together, not because one follows the other."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/155:A",
+   "reason": "Saying a claim stands because nobody has disproved it relies on the weight of the unchallenged position itself, treating its standing as an authority that settles the matter without positive evidence."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/155:D",
+   "reason": "The argument rests on a lack of evidence, treating the fact that nobody has disproved the claim as if that absence were itself proof that the claim is true."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/156:B",
+   "reason": "Treating an abstract idea as a concrete thing means assembling a single entity out of scattered parts and then giving the assembled whole properties none of the parts really have."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/156:C",
+   "reason": "The word comes from the Latin for thing, and the error is literally making a thing out of an abstraction, as when people say society or nature wants something."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/157:A",
+   "reason": "Presenting only two opposed options usually pushes toward the second by implying the first will spiral into disaster, so the either-or framing serves as the opening move of a chain toward an extreme."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/157:C",
+   "reason": "The arguer offers just two choices as though they exhaust the possibilities, hiding the middle ground and other alternatives that would let the audience escape the forced pick."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/158:C",
+   "reason": "Denying the antecedent reasons from if p then q to if not p then not q, and that second conditional is the inverse of the first, so the mistake is named after it."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/158:D",
+   "reason": "Denying the antecedent misuses a conditional by flipping its relationship around, treating the statement as if it worked in the reverse direction, which is what the error with the reversed conditional describes."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/16:C",
+   "reason": "Leaning on the randomized block design distracts from the real issue, which is the tiny sample, so the impressive-sounding method serves to divert attention from the weakness of the evidence."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/16:D",
+   "reason": "Five participants are far too few to stand for an entire population, so extending a result from such a small group to everyone draws a broad conclusion from thin evidence."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/161:B",
+   "reason": "The critic attacks a fact about the author's personal life instead of engaging with how the narrative technique works on the page, which shifts the criticism from the work to the person."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/161:D",
+   "reason": "The critic assumes the author's reclusiveness is what caused the narrative technique to fail, linking a personal trait to the quality of the writing without showing any real causal connection."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/162:A",
+   "reason": "The action is defended solely because of how long it has been done, treating age and long practice as proof of correctness, which is the fallacy named for antiquity."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/162:B",
+   "reason": "Tradition functions as an authority here: the accumulated practice of the past is treated as a source whose verdict must be accepted, so deference to established custom replaces actual reasons."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/163:A",
+   "reason": "The claim gains its support from where it originates, the expert's reputation, rather than from evidence about the subject itself, so the source of the opinion is doing all the justifying."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/163:C",
+   "reason": "Citing someone's expertise outside their own field to back a claim is leaning on authority that does not apply, which is the standard misuse of expert opinion this fallacy names."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/164:B",
+   "reason": "Assuming the conclusion lets the arguer skip past the real question and steer attention to something else, so the actual issue under dispute is never addressed with evidence."
+  },
+  {
+   "job_id": "expansion/logical_fallacies/164:C",
+   "reason": "If the reasoning already takes the conclusion as given, the premises just restate what was supposed to be proven, so the argument assumes the very point in question."
+  }
+ ]
+}

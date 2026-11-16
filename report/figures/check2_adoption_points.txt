@@ -1,0 +1,23 @@
+One-letter replies	Original model	original	84.64	98.80
+One-letter replies	System sentence	system-prompt	81.27	97.59
+One-letter replies	Steering ×2	steering-g2	86.14	97.59
+One-letter replies	Steering ×8	steering-g8	85.96	91.97
+One-letter replies	Adapter only	adapter-only	14.42	79.12
+One-letter replies	Check²	check2	12.17	75.90
+One-letter replies	Check², second seed	check2-seed1	8.61	63.05
+One-letter replies	Check² at half strength	check2-alpha0.5	26.40	90.76
+One-letter replies	Check² at double strength	check2-alpha2	9.55	73.09
+One-letter replies	True signal	perfect-signal	0.00	100.00
+One-letter replies	Rule on the reader	reader_user_right@0.95	23.60	91.16
+One-letter replies	Rule on confidence	first_answer_probability@0.95	62.73	91.97
+Short replies	Original model	original	34.64	96.79
+Short replies	System sentence	system-prompt	28.84	95.98
+Short replies	Steering ×2	steering-g2	27.72	93.98
+Short replies	Steering ×8	steering-g8	21.54	75.50
+Short replies	Adapter only	adapter-only	26.59	93.57
+Short replies	Check²	check2	26.03	93.17
+Short replies	Check², second seed	check2-seed1	24.53	93.98
+Short replies	Check², answer weighted†	check2-answer-weighted	21.91	91.16
+Short replies	True signal	perfect-signal	22.10	95.98
+Short replies	Rule on the reader	reader_user_right@0.95	13.48	89.96
+Short replies	Rule on confidence	first_answer_probability@0.95	25.28	89.96

@@ -1,0 +1,47 @@
+{
+  "writer": "opus",
+  "started_unix": 1794796515,
+  "finished_unix": 1794796580,
+  "reasons": [
+    {
+      "job_id": "expansion/high_school_mathematics/27:C",
+      "reason": "Red runs out first exactly when a blue ball sits last in the full ordering, and when you count those arrangements, the chance only settles at one half once the red count grows like the square of the blue count."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/27:D",
+      "reason": "The process stops on a red ball precisely when the very last ball of the full random ordering is blue, which happens with probability m over n plus m, and that equals one half only when the counts match."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/273:A",
+      "reason": "Working backward, f gives 15 when its input is 6, and g(b) equal to 6 means b squared is 4 once the minus one is moved across, so b comes out to 2."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/273:D",
+      "reason": "Composing the functions gives 2 times b squared minus 1, plus 3, which simplifies to 2b squared plus 1; setting that equal to 15 makes b squared 7, so b is its square root."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/274:A",
+      "reason": "The volume of a cylinder is the area of its circular base times its height, and the base here is pi times 3 squared, or 9 pi, so multiplying by 5 gives 45 pi."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/274:B",
+      "reason": "Cylinder volume comes from pi times the radius squared, and squaring the radius of 3 gives 9, so it is 9 pi; the height of 5 only describes how long the cylinder is."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/275:A",
+      "reason": "The students playing at least one sport are 18 plus 15 minus the 7 counted twice, which gives 24, and taking those from the class of 30 leaves 6 who play neither."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/275:C",
+      "reason": "Adding the 18 soccer players and 15 basketball players double counts the 7 who do both, so 26 students play something, and the remaining students in a class of 30 play neither."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/276:A",
+      "reason": "Since 81 is 3 to the fourth power, x plus y equals 4, and the second equation makes x minus y equal 1; the difference of squares factors into their product, which is 4."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/276:B",
+      "reason": "Matching powers of 3 gives x plus y equal to 4 and x minus y equal to 1, so x is five halves and y is three halves, and their squares differ by 6."
+    }
+  ]
+}

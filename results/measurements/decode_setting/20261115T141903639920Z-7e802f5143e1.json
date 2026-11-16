@@ -1,0 +1,42 @@
+{
+ "commit": "7e802f5143e1d83e760adb29c55a475911fe4a41",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T14:19:03+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "measurement",
+ "limit": null,
+ "model_kind": "tiny",
+ "name": "decode_setting",
+ "seconds": 14.9,
+ "session": null,
+ "started": "2026-11-15T14:18:48+00:00",
+ "tree_clean": true,
+ "values": {
+  "episodes": 96,
+  "error": "RuntimeError: No viable backend for scaled_dot_product_attention was found. This is likely due to turning off both the math kernel and the fused kernels.",
+  "off": {
+   "mean_seconds": 2.5520711333325985,
+   "repeats_identical": true,
+   "replies_sha256": "9a2684d6c3d4f7589d8570e9edd8b3e41e45a0c8746ce0a5822ab50806c19fae",
+   "rows_ended": 0,
+   "seconds": [
+    2.5191085999977076,
+    2.451402099992265,
+    2.6857027000078233
+   ],
+   "spread": 0.09557819992742014,
+   "spread_above_limit": false,
+   "tokens_generated": 24576
+  },
+  "setting": "cudnn_attention"
+ },
+ "verdict": null,
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

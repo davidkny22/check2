@@ -1,0 +1,1652 @@
+[
+ {
+  "job_id": "expansion/formal_logic/242:A",
+  "question": "Determine the logical status of the following predicate logic formula:\n∀x(Fx ⊃ Gx) ⊃ (∀xFx ⊃ ∀xGx)",
+  "options": {
+   "A": "Logically Valid (true in all interpretations)",
+   "B": "Contingent (true in some interpretations, false in others)",
+   "C": "Satisfiable but not valid",
+   "D": "Contradictory (false in all interpretations)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/242:B",
+  "question": "Determine the logical status of the following predicate logic formula:\n∀x(Fx ⊃ Gx) ⊃ (∀xFx ⊃ ∀xGx)",
+  "options": {
+   "A": "Logically Valid (true in all interpretations)",
+   "B": "Contingent (true in some interpretations, false in others)",
+   "C": "Satisfiable but not valid",
+   "D": "Contradictory (false in all interpretations)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/243:A",
+  "question": "Which of the following is logically equivalent to ~(p ⊃ q)?",
+  "options": {
+   "A": "p • ~q",
+   "B": "~p • q",
+   "C": "~p ∨ q",
+   "D": "~p ⊃ ~q"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/243:C",
+  "question": "Which of the following is logically equivalent to ~(p ⊃ q)?",
+  "options": {
+   "A": "p • ~q",
+   "B": "~p • q",
+   "C": "~p ∨ q",
+   "D": "~p ⊃ ~q"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/244:C",
+  "question": "Translate the following into symbolic logic: 'The hotel is either cheap or luxurious, but it is not both.'",
+  "options": {
+   "A": "(C ∨ L) • ~(C • L)",
+   "B": "C ⊕ L",
+   "C": "~C ≡ L",
+   "D": "All of the above"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/244:D",
+  "question": "Translate the following into symbolic logic: 'The hotel is either cheap or luxurious, but it is not both.'",
+  "options": {
+   "A": "(C ∨ L) • ~(C • L)",
+   "B": "C ⊕ L",
+   "C": "~C ≡ L",
+   "D": "All of the above"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/245:A",
+  "question": "Consider the variation problem: 'If y varies inversely as x, then the product xy is constant.' Let V represent 'y varies inversely as x' and C represent 'xy is constant'. Which formula represents this implication?",
+  "options": {
+   "A": "V ⊃ C",
+   "B": "C ⊃ V",
+   "C": "V ≡ C",
+   "D": "~V ⊃ ~C"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/245:B",
+  "question": "Consider the variation problem: 'If y varies inversely as x, then the product xy is constant.' Let V represent 'y varies inversely as x' and C represent 'xy is constant'. Which formula represents this implication?",
+  "options": {
+   "A": "V ⊃ C",
+   "B": "C ⊃ V",
+   "C": "V ≡ C",
+   "D": "~V ⊃ ~C"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/246:B",
+  "question": "Identify the logical component called the 'antecedent' in: 'If the catalyst is added, the reaction will accelerate.'",
+  "options": {
+   "A": "If the catalyst is added",
+   "B": "The catalyst is added",
+   "C": "The reaction will accelerate",
+   "D": "Accelerate"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/246:D",
+  "question": "Identify the logical component called the 'antecedent' in: 'If the catalyst is added, the reaction will accelerate.'",
+  "options": {
+   "A": "If the catalyst is added",
+   "B": "The catalyst is added",
+   "C": "The reaction will accelerate",
+   "D": "Accelerate"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/247:B",
+  "question": "Consider the roots of unity claim: 'There exists a complex number z such that z raised to the power of n equals 1, and z is not 1.' Let C(z) be 'z is complex', E(z, n) be 'zⁿ = 1', and N(z) be 'z ≠ 1'. Select the formalization.",
+  "options": {
+   "A": "∃z (C(z) ⊃ (E(z, n) • N(z)))",
+   "B": "∀z (C(z) ⊃ (E(z, n) • N(z)))",
+   "C": "∃z (C(z) • (E(z, n) • N(z)))",
+   "D": "∀z (C(z) • (E(z, n) ⊃ N(z)))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/247:C",
+  "question": "Consider the roots of unity claim: 'There exists a complex number z such that z raised to the power of n equals 1, and z is not 1.' Let C(z) be 'z is complex', E(z, n) be 'zⁿ = 1', and N(z) be 'z ≠ 1'. Select the formalization.",
+  "options": {
+   "A": "∃z (C(z) ⊃ (E(z, n) • N(z)))",
+   "B": "∀z (C(z) ⊃ (E(z, n) • N(z)))",
+   "C": "∃z (C(z) • (E(z, n) • N(z)))",
+   "D": "∀z (C(z) • (E(z, n) ⊃ N(z)))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/248:B",
+  "question": "Analyze the area decomposition claim: 'For every composite shape, there exists a set of non-overlapping triangles whose union equals the shape.' Let C(x) be 'x is a composite shape', T(y) be 'y is a set of non-overlapping triangles', and U(y, x) be 'the union of y equals x'. Select the formalization.",
+  "options": {
+   "A": "∃x (C(x) • ∃y (T(y) • U(y, x)))",
+   "B": "∃y (T(y) • ∀x (C(x) ⊃ U(y, x)))",
+   "C": "∀x (C(x) ⊃ ∃y (T(y) • U(y, x)))",
+   "D": "∀x ∃y (C(x) • T(y) • U(y, x))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/248:C",
+  "question": "Analyze the area decomposition claim: 'For every composite shape, there exists a set of non-overlapping triangles whose union equals the shape.' Let C(x) be 'x is a composite shape', T(y) be 'y is a set of non-overlapping triangles', and U(y, x) be 'the union of y equals x'. Select the formalization.",
+  "options": {
+   "A": "∃x (C(x) • ∃y (T(y) • U(y, x)))",
+   "B": "∃y (T(y) • ∀x (C(x) ⊃ U(y, x)))",
+   "C": "∀x (C(x) ⊃ ∃y (T(y) • U(y, x)))",
+   "D": "∀x ∃y (C(x) • T(y) • U(y, x))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/249:C",
+  "question": "Identify the logical form of: 'If you don't work, you won't get paid.'",
+  "options": {
+   "A": "~W ⊃ ~G",
+   "B": "G ⊃ W",
+   "C": "~G ⊃ ~W",
+   "D": "Both A and B are correct"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/249:D",
+  "question": "Identify the logical form of: 'If you don't work, you won't get paid.'",
+  "options": {
+   "A": "~W ⊃ ~G",
+   "B": "G ⊃ W",
+   "C": "~G ⊃ ~W",
+   "D": "Both A and B are correct"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/25:B",
+  "question": "Examine the vector space axiom: 'For every vector v, there exists an additive inverse -v such that their sum is the zero vector.' Let V(v), Inv(u, v), and SumZero(u, v) be the predicates. How is this existence claim formalized?",
+  "options": {
+   "A": "∀v ∃u ((V(v) • V(u)) ⊃ (Inv(u, v) • SumZero(u, v)))",
+   "B": "∀v (V(v) ⊃ ∃u (V(u) • Inv(u, v) • SumZero(u, v)))",
+   "C": "∃v (V(v) • ∀u (V(u) ⊃ (Inv(u, v) • SumZero(u, v))))",
+   "D": "∀v (V(v) ⊃ ∀u (Inv(u, v) ⊃ SumZero(u, v)))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/25:D",
+  "question": "Examine the vector space axiom: 'For every vector v, there exists an additive inverse -v such that their sum is the zero vector.' Let V(v), Inv(u, v), and SumZero(u, v) be the predicates. How is this existence claim formalized?",
+  "options": {
+   "A": "∀v ∃u ((V(v) • V(u)) ⊃ (Inv(u, v) • SumZero(u, v)))",
+   "B": "∀v (V(v) ⊃ ∃u (V(u) • Inv(u, v) • SumZero(u, v)))",
+   "C": "∃v (V(v) • ∀u (V(u) ⊃ (Inv(u, v) • SumZero(u, v))))",
+   "D": "∀v (V(v) ⊃ ∀u (Inv(u, v) ⊃ SumZero(u, v)))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/250:A",
+  "question": "Which of the following is the negation of ∀x(Px ⊃ Qx)?",
+  "options": {
+   "A": "∀x(Px • ~Qx)",
+   "B": "∃x(~Px ⊃ ~Qx)",
+   "C": "∃x(Px • ~Qx)",
+   "D": "∀x(~Px ∨ ~Qx)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/250:C",
+  "question": "Which of the following is the negation of ∀x(Px ⊃ Qx)?",
+  "options": {
+   "A": "∀x(Px • ~Qx)",
+   "B": "∃x(~Px ⊃ ~Qx)",
+   "C": "∃x(Px • ~Qx)",
+   "D": "∀x(~Px ∨ ~Qx)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/251:B",
+  "question": "Which of the following is the correct symbolic translation of: 'If the group is abelian, then every subgroup is normal'?\nLet A = Group is abelian, N = Every subgroup is normal.",
+  "options": {
+   "A": "~A ⊃ N",
+   "B": "A ⊃ N",
+   "C": "A ≡ N",
+   "D": "N ⊃ A"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/251:C",
+  "question": "Which of the following is the correct symbolic translation of: 'If the group is abelian, then every subgroup is normal'?\nLet A = Group is abelian, N = Every subgroup is normal.",
+  "options": {
+   "A": "~A ⊃ N",
+   "B": "A ⊃ N",
+   "C": "A ≡ N",
+   "D": "N ⊃ A"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/252:A",
+  "question": "Which of the following is the correct translation of: 'Anyone who is a citizen of the US is also a citizen of the world'?\nLet C(x) = x is a citizen of the US, W(x) = x is a citizen of the world.",
+  "options": {
+   "A": "∀x(C(x) ≡ W(x))",
+   "B": "∀x(W(x) ⊃ C(x))",
+   "C": "∀x(C(x) ⊃ W(x))",
+   "D": "∃x(C(x) • W(x))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/252:C",
+  "question": "Which of the following is the correct translation of: 'Anyone who is a citizen of the US is also a citizen of the world'?\nLet C(x) = x is a citizen of the US, W(x) = x is a citizen of the world.",
+  "options": {
+   "A": "∀x(C(x) ≡ W(x))",
+   "B": "∀x(W(x) ⊃ C(x))",
+   "C": "∀x(C(x) ⊃ W(x))",
+   "D": "∃x(C(x) • W(x))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/253:B",
+  "question": "Trigonometry relies on identities true for all angles. Let Id(θ) mean 'the identity holds for angle θ'. The statement 'For all θ, the identity holds' is simply:",
+  "options": {
+   "A": "∃θ Id(θ)",
+   "B": "~∀θ Id(θ)",
+   "C": "∀θ Id(θ)",
+   "D": "∀θ ~Id(θ)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/253:C",
+  "question": "Trigonometry relies on identities true for all angles. Let Id(θ) mean 'the identity holds for angle θ'. The statement 'For all θ, the identity holds' is simply:",
+  "options": {
+   "A": "∃θ Id(θ)",
+   "B": "~∀θ Id(θ)",
+   "C": "∀θ Id(θ)",
+   "D": "∀θ ~Id(θ)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/254:B",
+  "question": "Which of the following is the logically equivalent form of the statement 'It is not the case that if the temperature drops below freezing, then the pipes will burst'?\n\nLet p = 'The temperature drops below freezing' and q = 'The pipes will burst'.",
+  "options": {
+   "A": "~p ∨ q",
+   "B": "~p • q",
+   "C": "~p ∨ ~q",
+   "D": "p • ~q"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/254:D",
+  "question": "Which of the following is the logically equivalent form of the statement 'It is not the case that if the temperature drops below freezing, then the pipes will burst'?\n\nLet p = 'The temperature drops below freezing' and q = 'The pipes will burst'.",
+  "options": {
+   "A": "~p ∨ q",
+   "B": "~p • q",
+   "C": "~p ∨ ~q",
+   "D": "p • ~q"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/256:A",
+  "question": "Translate the following into symbolic logic: 'The team will win if and only if the star player plays.'",
+  "options": {
+   "A": "W ≡ S",
+   "B": "S ⊃ W",
+   "C": "~W ⊃ ~S",
+   "D": "W ⊃ S"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/256:C",
+  "question": "Translate the following into symbolic logic: 'The team will win if and only if the star player plays.'",
+  "options": {
+   "A": "W ≡ S",
+   "B": "S ⊃ W",
+   "C": "~W ⊃ ~S",
+   "D": "W ⊃ S"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/257:B",
+  "question": "Combinatorics often involves counting arrangements. Let C(n, k) mean 'n choose k is defined'. Consider the statement: 'For all non-negative integers n and k, if k is less than or equal to n, then C(n, k) is defined.' Let L(k, n) mean 'k <= n'. How is this written?",
+  "options": {
+   "A": "∀n ∀k (C(n, k) ⊃ L(k, n))",
+   "B": "∃n ∃k (L(k, n) • C(n, k))",
+   "C": "~∀n ∀k (L(k, n) ⊃ C(n, k))",
+   "D": "∀n ∀k ((L(k, n)) ⊃ C(n, k))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/257:D",
+  "question": "Combinatorics often involves counting arrangements. Let C(n, k) mean 'n choose k is defined'. Consider the statement: 'For all non-negative integers n and k, if k is less than or equal to n, then C(n, k) is defined.' Let L(k, n) mean 'k <= n'. How is this written?",
+  "options": {
+   "A": "∀n ∀k (C(n, k) ⊃ L(k, n))",
+   "B": "∃n ∃k (L(k, n) • C(n, k))",
+   "C": "~∀n ∀k (L(k, n) ⊃ C(n, k))",
+   "D": "∀n ∀k ((L(k, n)) ⊃ C(n, k))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/259:A",
+  "question": "Translate this statement into predicate logic: 'Only a citizen can vote.' Let C(x) be 'x is a citizen' and V(x) be 'x can vote'.",
+  "options": {
+   "A": "∀x(V(x) ⊃ C(x))",
+   "B": "∀x(V(x) ≡ C(x))",
+   "C": "∀x(C(x) ⊃ V(x))",
+   "D": "∃x(V(x) • C(x))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/259:C",
+  "question": "Translate this statement into predicate logic: 'Only a citizen can vote.' Let C(x) be 'x is a citizen' and V(x) be 'x can vote'.",
+  "options": {
+   "A": "∀x(V(x) ⊃ C(x))",
+   "B": "∀x(V(x) ≡ C(x))",
+   "C": "∀x(C(x) ⊃ V(x))",
+   "D": "∃x(V(x) • C(x))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/260:B",
+  "question": "Which of the following is logically equivalent to P ⊃ Q?",
+  "options": {
+   "A": "~P ∨ Q",
+   "B": "~Q ⊃ ~P",
+   "C": "~(P • ~Q)",
+   "D": "All of the above"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/260:D",
+  "question": "Which of the following is logically equivalent to P ⊃ Q?",
+  "options": {
+   "A": "~P ∨ Q",
+   "B": "~Q ⊃ ~P",
+   "C": "~(P • ~Q)",
+   "D": "All of the above"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/264:B",
+  "question": "What is the result of simplifying the expression ~(~P ∨ Q) ⊃ R?",
+  "options": {
+   "A": "~P ∨ (Q • ~R)",
+   "B": "~((P • ~Q) ∨ R)",
+   "C": "(P • ~Q) ⊃ R",
+   "D": "(P ∨ ~Q) • ~R"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/264:C",
+  "question": "What is the result of simplifying the expression ~(~P ∨ Q) ⊃ R?",
+  "options": {
+   "A": "~P ∨ (Q • ~R)",
+   "B": "~((P • ~Q) ∨ R)",
+   "C": "(P • ~Q) ⊃ R",
+   "D": "(P ∨ ~Q) • ~R"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/265:A",
+  "question": "Translate: 'No one loves a person who is not kind.' Let L(x, y) be 'x loves y' and K(y) be 'y is kind'.",
+  "options": {
+   "A": "~∃x∃y(L(x, y) • K(y))",
+   "B": "∃x∃y(L(x, y) • ~K(y))",
+   "C": "∀x∀y(L(x, y) ⊃ K(y))",
+   "D": "∀x∃y(L(x, y) ⊃ ~K(y))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/265:C",
+  "question": "Translate: 'No one loves a person who is not kind.' Let L(x, y) be 'x loves y' and K(y) be 'y is kind'.",
+  "options": {
+   "A": "~∃x∃y(L(x, y) • K(y))",
+   "B": "∃x∃y(L(x, y) • ~K(y))",
+   "C": "∀x∀y(L(x, y) ⊃ K(y))",
+   "D": "∀x∃y(L(x, y) ⊃ ~K(y))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/266:A",
+  "question": "Given the algebraic premise: 'For any real number b, if b squared equals four, then b is either two or negative two.' Let R(x) be 'x is real', Sq4(x) be 'x² = 4', Is2(x) be 'x = 2', and IsNeg2(x) be 'x = -2'. Identify the correct predicate logic translation.",
+  "options": {
+   "A": "∀x ((R(x) • Sq4(x)) ⊃ (Is2(x) ∨ IsNeg2(x)))",
+   "B": "∀x (R(x) ⊃ (Sq4(x) ≡ (Is2(x) ∨ IsNeg2(x))))",
+   "C": "∀x ((R(x) ⊃ Sq4(x)) ⊃ (Is2(x) ∨ IsNeg2(x)))",
+   "D": "∃x (R(x) • Sq4(x) • (Is2(x) ∨ IsNeg2(x)))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/266:C",
+  "question": "Given the algebraic premise: 'For any real number b, if b squared equals four, then b is either two or negative two.' Let R(x) be 'x is real', Sq4(x) be 'x² = 4', Is2(x) be 'x = 2', and IsNeg2(x) be 'x = -2'. Identify the correct predicate logic translation.",
+  "options": {
+   "A": "∀x ((R(x) • Sq4(x)) ⊃ (Is2(x) ∨ IsNeg2(x)))",
+   "B": "∀x (R(x) ⊃ (Sq4(x) ≡ (Is2(x) ∨ IsNeg2(x))))",
+   "C": "∀x ((R(x) ⊃ Sq4(x)) ⊃ (Is2(x) ∨ IsNeg2(x)))",
+   "D": "∃x (R(x) • Sq4(x) • (Is2(x) ∨ IsNeg2(x)))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/267:A",
+  "question": "Consider the statement: 'If a vehicle achieves high fuel efficiency, then it must utilize an alternative power source or have a significantly reduced mass.' Let H represent high fuel efficiency, A represent alternative power source, and R represent reduced mass. Which of the following symbolic representations most accurately captures the logical structure of this assertion?",
+  "options": {
+   "A": "~H ⊃ (A • R)",
+   "B": "(H ⊃ A) ∨ R",
+   "C": "(A ∨ R) ⊃ H",
+   "D": "H ⊃ (A ∨ R)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/267:D",
+  "question": "Consider the statement: 'If a vehicle achieves high fuel efficiency, then it must utilize an alternative power source or have a significantly reduced mass.' Let H represent high fuel efficiency, A represent alternative power source, and R represent reduced mass. Which of the following symbolic representations most accurately captures the logical structure of this assertion?",
+  "options": {
+   "A": "~H ⊃ (A • R)",
+   "B": "(H ⊃ A) ∨ R",
+   "C": "(A ∨ R) ⊃ H",
+   "D": "H ⊃ (A ∨ R)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/268:B",
+  "question": "Identify the quantifier in the statement: 'There exists a real number x such that x^2 = 2.'",
+  "options": {
+   "A": "Conditional",
+   "B": "Biconditional",
+   "C": "Universal",
+   "D": "Existential"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/268:D",
+  "question": "Identify the quantifier in the statement: 'There exists a real number x such that x^2 = 2.'",
+  "options": {
+   "A": "Conditional",
+   "B": "Biconditional",
+   "C": "Universal",
+   "D": "Existential"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/269:A",
+  "question": "Identify the logical form of the following argument: 'If the witness is telling the truth, then the defendant was at the scene. The defendant was not at the scene. Therefore, the witness is not telling the truth.'",
+  "options": {
+   "A": "Disjunctive Syllogism",
+   "B": "Hypothetical Syllogism",
+   "C": "Modus Ponens",
+   "D": "Modus Tollens"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/269:D",
+  "question": "Identify the logical form of the following argument: 'If the witness is telling the truth, then the defendant was at the scene. The defendant was not at the scene. Therefore, the witness is not telling the truth.'",
+  "options": {
+   "A": "Disjunctive Syllogism",
+   "B": "Hypothetical Syllogism",
+   "C": "Modus Ponens",
+   "D": "Modus Tollens"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/271:C",
+  "question": "Which of the following is the correct translation of: 'If a number is divisible by 6, then it is divisible by both 2 and 3'?",
+  "options": {
+   "A": "∀x(D6x ≡ (D2x • D3x))",
+   "B": "∃x(D6x ⊃ (D2x • D3x))",
+   "C": "∀x(D6x ⊃ (D2x • D3x))",
+   "D": "∀x((D2x • D3x) ⊃ D6x)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/271:D",
+  "question": "Which of the following is the correct translation of: 'If a number is divisible by 6, then it is divisible by both 2 and 3'?",
+  "options": {
+   "A": "∀x(D6x ≡ (D2x • D3x))",
+   "B": "∃x(D6x ⊃ (D2x • D3x))",
+   "C": "∀x(D6x ⊃ (D2x • D3x))",
+   "D": "∀x((D2x • D3x) ⊃ D6x)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/272:C",
+  "question": "Identify the structure of the argument: 'If it rains, the ground is wet. The ground is not wet. Therefore, it did not rain.'",
+  "options": {
+   "A": "Law of Contraposition",
+   "B": "Syllogism",
+   "C": "Modus Ponens",
+   "D": "Modus Tollens"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/272:D",
+  "question": "Identify the structure of the argument: 'If it rains, the ground is wet. The ground is not wet. Therefore, it did not rain.'",
+  "options": {
+   "A": "Law of Contraposition",
+   "B": "Syllogism",
+   "C": "Modus Ponens",
+   "D": "Modus Tollens"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/273:C",
+  "question": "Translate the following into symbolic logic: 'It is not the case that if the alarm rings, the building is evacuated.'",
+  "options": {
+   "A": "~(A ⊃ E)",
+   "B": "~A ⊃ ~E",
+   "C": "(A • ~E)",
+   "D": "Both A and C are correct"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/273:D",
+  "question": "Translate the following into symbolic logic: 'It is not the case that if the alarm rings, the building is evacuated.'",
+  "options": {
+   "A": "~(A ⊃ E)",
+   "B": "~A ⊃ ~E",
+   "C": "(A • ~E)",
+   "D": "Both A and C are correct"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/274:B",
+  "question": "In number theory, consider the property of primality. Let P(n) mean 'n is prime' and E(n) mean 'n is even'. The statement 'The only even prime number is 2' can be framed as 'For all n, if n is even and prime, then n is equal to 2.' Let Eq(n, 2) mean 'n equals 2'. How is this written?",
+  "options": {
+   "A": "~∀n ((E(n) • P(n)) ⊃ Eq(n, 2))",
+   "B": "∀n ((E(n) • P(n)) ⊃ Eq(n, 2))",
+   "C": "∀n (Eq(n, 2) ⊃ (E(n) • P(n)))",
+   "D": "∃n (E(n) • P(n) • Eq(n, 2))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/274:D",
+  "question": "In number theory, consider the property of primality. Let P(n) mean 'n is prime' and E(n) mean 'n is even'. The statement 'The only even prime number is 2' can be framed as 'For all n, if n is even and prime, then n is equal to 2.' Let Eq(n, 2) mean 'n equals 2'. How is this written?",
+  "options": {
+   "A": "~∀n ((E(n) • P(n)) ⊃ Eq(n, 2))",
+   "B": "∀n ((E(n) • P(n)) ⊃ Eq(n, 2))",
+   "C": "∀n (Eq(n, 2) ⊃ (E(n) • P(n)))",
+   "D": "∃n (E(n) • P(n) • Eq(n, 2))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/276:B",
+  "question": "Consider the currency exchange logic: 'If the exchange rate from currency A to B is r, then converting amount x in A yields x*r in B.' Let Rate(A, B, r), Conv(x, A, y, B), and Prod(x, r, y) be predicates. Which formula captures this transaction rule?",
+  "options": {
+   "A": "∀A ∀B ∀r (Rate(A, B, r) ⊃ ∀x ∃y (Conv(x, A, y, B) • Prod(x, r, y)))",
+   "B": "∀A ∀B ∀r ∀x ∀y ((Rate(A, B, r) • Conv(x, A, y, B)) ⊃ Prod(x, r, y))",
+   "C": "∃A ∃B ∃r (Rate(A, B, r) • ∀x ∀y (Conv(x, A, y, B) ⊃ Prod(x, r, y)))",
+   "D": "∀A ∀B ∀r ∀x (Rate(A, B, r) ⊃ ∃y (Conv(x, A, y, B) • Prod(x, r, y)))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/276:C",
+  "question": "Consider the currency exchange logic: 'If the exchange rate from currency A to B is r, then converting amount x in A yields x*r in B.' Let Rate(A, B, r), Conv(x, A, y, B), and Prod(x, r, y) be predicates. Which formula captures this transaction rule?",
+  "options": {
+   "A": "∀A ∀B ∀r (Rate(A, B, r) ⊃ ∀x ∃y (Conv(x, A, y, B) • Prod(x, r, y)))",
+   "B": "∀A ∀B ∀r ∀x ∀y ((Rate(A, B, r) • Conv(x, A, y, B)) ⊃ Prod(x, r, y))",
+   "C": "∃A ∃B ∃r (Rate(A, B, r) • ∀x ∀y (Conv(x, A, y, B) ⊃ Prod(x, r, y)))",
+   "D": "∀A ∀B ∀r ∀x (Rate(A, B, r) ⊃ ∃y (Conv(x, A, y, B) • Prod(x, r, y)))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/277:C",
+  "question": "Analyze the coordinate geometry claim: 'For every point (x, y) on the line, the coordinate x equals the coordinate y.' Let L(p) be 'point p is on the line' and XeqY(p) be 'x-coordinate of p equals y-coordinate of p'. Select the formalization.",
+  "options": {
+   "A": "∃p (L(p) • XeqY(p))",
+   "B": "∃p (L(p) ⊃ XeqY(p))",
+   "C": "∀p (L(p) ⊃ XeqY(p))",
+   "D": "∀p (L(p) • XeqY(p))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/277:D",
+  "question": "Analyze the coordinate geometry claim: 'For every point (x, y) on the line, the coordinate x equals the coordinate y.' Let L(p) be 'point p is on the line' and XeqY(p) be 'x-coordinate of p equals y-coordinate of p'. Select the formalization.",
+  "options": {
+   "A": "∃p (L(p) • XeqY(p))",
+   "B": "∃p (L(p) ⊃ XeqY(p))",
+   "C": "∀p (L(p) ⊃ XeqY(p))",
+   "D": "∀p (L(p) • XeqY(p))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/279:B",
+  "question": "Consider the vector magnitude problem: 'If the cross product of two vectors is zero, then the vectors are parallel.' Let ZeroCP(u, v) mean 'u × v = 0' and Par(u, v) mean 'u and v are parallel'. Which conditional represents this?",
+  "options": {
+   "A": "Par(u, v) ⊃ ZeroCP(u, v)",
+   "B": "~ZeroCP(u, v) ∨ ~Par(u, v)",
+   "C": "ZeroCP(u, v) ⊃ Par(u, v)",
+   "D": "ZeroCP(u, v) ≡ Par(u, v)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/279:C",
+  "question": "Consider the vector magnitude problem: 'If the cross product of two vectors is zero, then the vectors are parallel.' Let ZeroCP(u, v) mean 'u × v = 0' and Par(u, v) mean 'u and v are parallel'. Which conditional represents this?",
+  "options": {
+   "A": "Par(u, v) ⊃ ZeroCP(u, v)",
+   "B": "~ZeroCP(u, v) ∨ ~Par(u, v)",
+   "C": "ZeroCP(u, v) ⊃ Par(u, v)",
+   "D": "ZeroCP(u, v) ≡ Par(u, v)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/280:C",
+  "question": "Consider the polynomial remainder theorem: 'If a polynomial P(x) is divided by (x - c), then the remainder is P(c).' Let Div(P, c) mean 'P(x) is divided by (x - c)' and Rem(P, c) mean 'the remainder is P(c)'. Which conditional form is correct?",
+  "options": {
+   "A": "Div(P, c) ≡ Rem(P, c)",
+   "B": "Rem(P, c) ⊃ Div(P, c)",
+   "C": "Div(P, c) ⊃ Rem(P, c)",
+   "D": "~Div(P, c) ∨ ~Rem(P, c)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/280:D",
+  "question": "Consider the polynomial remainder theorem: 'If a polynomial P(x) is divided by (x - c), then the remainder is P(c).' Let Div(P, c) mean 'P(x) is divided by (x - c)' and Rem(P, c) mean 'the remainder is P(c)'. Which conditional form is correct?",
+  "options": {
+   "A": "Div(P, c) ≡ Rem(P, c)",
+   "B": "Rem(P, c) ⊃ Div(P, c)",
+   "C": "Div(P, c) ⊃ Rem(P, c)",
+   "D": "~Div(P, c) ∨ ~Rem(P, c)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/282:B",
+  "question": "Identify the logical form of the following statement: 'If it rains, then the ground is wet; if the ground is wet, then the grass grows; therefore, if it rains, then the grass grows.'",
+  "options": {
+   "A": "(p ∨ q), (q ∨ r) ∴ (p ∨ r)",
+   "B": "(p ⊃ q), (p ⊃ r) ∴ (q ⊃ r)",
+   "C": "(p ⊃ q), (q ⊃ r) ∴ (p ⊃ r)",
+   "D": "(p ≡ q), (q ≡ r) ∴ (p ≡ r)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/282:C",
+  "question": "Identify the logical form of the following statement: 'If it rains, then the ground is wet; if the ground is wet, then the grass grows; therefore, if it rains, then the grass grows.'",
+  "options": {
+   "A": "(p ∨ q), (q ∨ r) ∴ (p ∨ r)",
+   "B": "(p ⊃ q), (p ⊃ r) ∴ (q ⊃ r)",
+   "C": "(p ⊃ q), (q ⊃ r) ∴ (p ⊃ r)",
+   "D": "(p ≡ q), (q ≡ r) ∴ (p ≡ r)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/283:A",
+  "question": "Identify the logical form of the argument: 'P or Q. Not P. Therefore Q.'",
+  "options": {
+   "A": "Disjunctive Syllogism",
+   "B": "Modus Ponens",
+   "C": "Modus Tollens",
+   "D": "Hypothetical Syllogism"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/283:D",
+  "question": "Identify the logical form of the argument: 'P or Q. Not P. Therefore Q.'",
+  "options": {
+   "A": "Disjunctive Syllogism",
+   "B": "Modus Ponens",
+   "C": "Modus Tollens",
+   "D": "Hypothetical Syllogism"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/284:B",
+  "question": "Which of the following is the negation of the statement: 'For every integer n, if n is even, then n^2 is even'?",
+  "options": {
+   "A": "For every integer n, n is even and n^2 is odd.",
+   "B": "For every integer n, if n is odd, then n^2 is odd.",
+   "C": "There exists an integer n such that n is odd and n^2 is even.",
+   "D": "There exists an integer n such that n is even and n^2 is odd."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/284:D",
+  "question": "Which of the following is the negation of the statement: 'For every integer n, if n is even, then n^2 is even'?",
+  "options": {
+   "A": "For every integer n, n is even and n^2 is odd.",
+   "B": "For every integer n, if n is odd, then n^2 is odd.",
+   "C": "There exists an integer n such that n is odd and n^2 is even.",
+   "D": "There exists an integer n such that n is even and n^2 is odd."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/287:A",
+  "question": "Analyze the limit behavior: 'If the limit of f(x) as x approaches c exists, then the left-hand limit equals the right-hand limit.' Let LimEx(f, c) mean 'limit exists' and LReqR(f, c) mean 'left limit equals right limit'. Which implication is valid?",
+  "options": {
+   "A": "LimEx(f, c) ⊃ LReqR(f, c)",
+   "B": "LimEx(f, c) ≡ LReqR(f, c)",
+   "C": "~LimEx(f, c) ∨ ~LReqR(f, c)",
+   "D": "LReqR(f, c) ⊃ LimEx(f, c)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/287:B",
+  "question": "Analyze the limit behavior: 'If the limit of f(x) as x approaches c exists, then the left-hand limit equals the right-hand limit.' Let LimEx(f, c) mean 'limit exists' and LReqR(f, c) mean 'left limit equals right limit'. Which implication is valid?",
+  "options": {
+   "A": "LimEx(f, c) ⊃ LReqR(f, c)",
+   "B": "LimEx(f, c) ≡ LReqR(f, c)",
+   "C": "~LimEx(f, c) ∨ ~LReqR(f, c)",
+   "D": "LReqR(f, c) ⊃ LimEx(f, c)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/288:B",
+  "question": "What is the translation of 'For every integer n, there exists an integer m such that m is greater than n'?",
+  "options": {
+   "A": "∃n∃m(m > n)",
+   "B": "∀n∃m(m > n)",
+   "C": "∃m∀n(m > n)",
+   "D": "∀n∀m(m > n)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/288:C",
+  "question": "What is the translation of 'For every integer n, there exists an integer m such that m is greater than n'?",
+  "options": {
+   "A": "∃n∃m(m > n)",
+   "B": "∀n∃m(m > n)",
+   "C": "∃m∀n(m > n)",
+   "D": "∀n∀m(m > n)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/289:B",
+  "question": "Which of the following is a translation of 'No student is failing'?",
+  "options": {
+   "A": "∀x(S(x) ⊃ ~F(x))",
+   "B": "∃x(~S(x) • ~F(x))",
+   "C": "~∃x(S(x) • F(x))",
+   "D": "Both A and C"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/289:D",
+  "question": "Which of the following is a translation of 'No student is failing'?",
+  "options": {
+   "A": "∀x(S(x) ⊃ ~F(x))",
+   "B": "∃x(~S(x) • ~F(x))",
+   "C": "~∃x(S(x) • F(x))",
+   "D": "Both A and C"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/29:C",
+  "question": "Translate the triangle inequality: 'For any triangle, the sum of the lengths of any two sides is greater than the length of the third side.' Let T(t) be 't is a triangle' and SumGT(t) be 'the sum of two sides is greater than the third'. Select the correct formalization.",
+  "options": {
+   "A": "∀t (T(t) • SumGT(t))",
+   "B": "∃t (T(t) • SumGT(t))",
+   "C": "∃t (T(t) ⊃ SumGT(t))",
+   "D": "∀t (T(t) ⊃ SumGT(t))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/29:D",
+  "question": "Translate the triangle inequality: 'For any triangle, the sum of the lengths of any two sides is greater than the length of the third side.' Let T(t) be 't is a triangle' and SumGT(t) be 'the sum of two sides is greater than the third'. Select the correct formalization.",
+  "options": {
+   "A": "∀t (T(t) • SumGT(t))",
+   "B": "∃t (T(t) • SumGT(t))",
+   "C": "∃t (T(t) ⊃ SumGT(t))",
+   "D": "∀t (T(t) ⊃ SumGT(t))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/291:A",
+  "question": "Translate the statement 'The square root of x exists if and only if x is non-negative' into symbolic logic.\nLet E = Square root of x exists, N = x is non-negative.",
+  "options": {
+   "A": "E ⊃ N",
+   "B": "~E ⊃ ~N",
+   "C": "N ⊃ E",
+   "D": "E ≡ N"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/291:D",
+  "question": "Translate the statement 'The square root of x exists if and only if x is non-negative' into symbolic logic.\nLet E = Square root of x exists, N = x is non-negative.",
+  "options": {
+   "A": "E ⊃ N",
+   "B": "~E ⊃ ~N",
+   "C": "N ⊃ E",
+   "D": "E ≡ N"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/293:B",
+  "question": "Translate the following into symbolic logic: 'If and only if the witness is credible, the jury will reach a guilty verdict.'",
+  "options": {
+   "A": "~C ⊃ ~V",
+   "B": "C ⊃ V",
+   "C": "V ⊃ C",
+   "D": "C ≡ V"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/293:D",
+  "question": "Translate the following into symbolic logic: 'If and only if the witness is credible, the jury will reach a guilty verdict.'",
+  "options": {
+   "A": "~C ⊃ ~V",
+   "B": "C ⊃ V",
+   "C": "V ⊃ C",
+   "D": "C ≡ V"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/294:B",
+  "question": "Distance-Rate-Time: Let Trip(t) mean 't is a trip' and Calc(t) mean 'distance can be calculated for t'. The statement 'If a trip has rate and time, distance can be calculated' is:",
+  "options": {
+   "A": "∀t (Calc(t) ⊃ (Rate(t) • Time(t)))",
+   "B": "∀t ((Rate(t) • Time(t)) ⊃ Calc(t))",
+   "C": "~∀t ((Rate(t) • Time(t)) ⊃ Calc(t))",
+   "D": "∃t (Rate(t) • Time(t) • Calc(t))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/294:C",
+  "question": "Distance-Rate-Time: Let Trip(t) mean 't is a trip' and Calc(t) mean 'distance can be calculated for t'. The statement 'If a trip has rate and time, distance can be calculated' is:",
+  "options": {
+   "A": "∀t (Calc(t) ⊃ (Rate(t) • Time(t)))",
+   "B": "∀t ((Rate(t) • Time(t)) ⊃ Calc(t))",
+   "C": "~∀t ((Rate(t) • Time(t)) ⊃ Calc(t))",
+   "D": "∃t (Rate(t) • Time(t) • Calc(t))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/295:B",
+  "question": "Analyze the absolute value equation: 'The equation |x| = a has two solutions if a is positive, one solution if a is zero, and no solutions if a is negative.' Let AbsEq(x, a), Pos(a), Zero(a), Neg(a), TwoSol, OneSol, NoSol be predicates. Which disjunction of conditionals is correct?",
+  "options": {
+   "A": "∀a ∀x (AbsEq(x, a) ⊃ ((Pos(a) • TwoSol) ∨ (Zero(a) • OneSol) ∨ (Neg(a) • NoSol)))",
+   "B": "∀a ((Pos(a) ⊃ TwoSol(AbsEq(x, a))) • (Zero(a) ⊃ OneSol(AbsEq(x, a))) • (Neg(a) ⊃ NoSol(AbsEq(x, a))))",
+   "C": "∀a (AbsEq(x, a) ⊃ (Pos(a) ⊃ TwoSol) • (Zero(a) ⊃ OneSol) • (Neg(a) ⊃ NoSol))",
+   "D": "∃a (Pos(a) • TwoSol(AbsEq(x, a)) • Zero(a) • OneSol(AbsEq(x, a)) • Neg(a) • NoSol(AbsEq(x, a)))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/295:C",
+  "question": "Analyze the absolute value equation: 'The equation |x| = a has two solutions if a is positive, one solution if a is zero, and no solutions if a is negative.' Let AbsEq(x, a), Pos(a), Zero(a), Neg(a), TwoSol, OneSol, NoSol be predicates. Which disjunction of conditionals is correct?",
+  "options": {
+   "A": "∀a ∀x (AbsEq(x, a) ⊃ ((Pos(a) • TwoSol) ∨ (Zero(a) • OneSol) ∨ (Neg(a) • NoSol)))",
+   "B": "∀a ((Pos(a) ⊃ TwoSol(AbsEq(x, a))) • (Zero(a) ⊃ OneSol(AbsEq(x, a))) • (Neg(a) ⊃ NoSol(AbsEq(x, a))))",
+   "C": "∀a (AbsEq(x, a) ⊃ (Pos(a) ⊃ TwoSol) • (Zero(a) ⊃ OneSol) • (Neg(a) ⊃ NoSol))",
+   "D": "∃a (Pos(a) • TwoSol(AbsEq(x, a)) • Zero(a) • OneSol(AbsEq(x, a)) • Neg(a) • NoSol(AbsEq(x, a)))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/296:A",
+  "question": "Which of the following is the simplest equivalent form of ~(~P ∨ Q)?",
+  "options": {
+   "A": "~P ∨ ~Q",
+   "B": "P • ~Q",
+   "C": "~P • Q",
+   "D": "P ∨ ~Q"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/296:B",
+  "question": "Which of the following is the simplest equivalent form of ~(~P ∨ Q)?",
+  "options": {
+   "A": "~P ∨ ~Q",
+   "B": "P • ~Q",
+   "C": "~P • Q",
+   "D": "P ∨ ~Q"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/298:B",
+  "question": "Identify the scope of the universal quantifier (∀) in the following well-formed formula:\n∀x(Px ⊃ (∃y(Qy • Rxy) ≡ ~Sx))",
+  "options": {
+   "A": "Only Px",
+   "B": "Px ⊃ (∃y(Qy • Rxy) ≡ ~Sx)",
+   "C": "The entire formula from Px to ~Sx",
+   "D": "Px ⊃ ∃y(Qy • Rxy)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/298:D",
+  "question": "Identify the scope of the universal quantifier (∀) in the following well-formed formula:\n∀x(Px ⊃ (∃y(Qy • Rxy) ≡ ~Sx))",
+  "options": {
+   "A": "Only Px",
+   "B": "Px ⊃ (∃y(Qy • Rxy) ≡ ~Sx)",
+   "C": "The entire formula from Px to ~Sx",
+   "D": "Px ⊃ ∃y(Qy • Rxy)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/299:A",
+  "question": "Which of the following correctly represents: 'Some mathematicians are not philosophers, but all logicians are philosophers'?\nLet M(x) = x is a mathematician, P(x) = x is a philosopher, L(x) = x is a logician.",
+  "options": {
+   "A": "∃x(M(x) • ~P(x)) • ∀x(L(x) ⊃ P(x))",
+   "B": "∀x(M(x) ⊃ ~P(x)) • ∃x(L(x) • P(x))",
+   "C": "∃x(M(x) ⊃ ~P(x)) • ∀x(L(x) ≡ P(x))",
+   "D": "∃x(M(x) • ~P(x)) ∨ ∀x(L(x) ⊃ P(x))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/299:C",
+  "question": "Which of the following correctly represents: 'Some mathematicians are not philosophers, but all logicians are philosophers'?\nLet M(x) = x is a mathematician, P(x) = x is a philosopher, L(x) = x is a logician.",
+  "options": {
+   "A": "∃x(M(x) • ~P(x)) • ∀x(L(x) ⊃ P(x))",
+   "B": "∀x(M(x) ⊃ ~P(x)) • ∃x(L(x) • P(x))",
+   "C": "∃x(M(x) ⊃ ~P(x)) • ∀x(L(x) ≡ P(x))",
+   "D": "∃x(M(x) • ~P(x)) ∨ ∀x(L(x) ⊃ P(x))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/3:A",
+  "question": "Translate 'Neither the cat nor the dog is outside' into symbolic logic. Let C = 'The cat is outside' and D = 'The dog is outside'.",
+  "options": {
+   "A": "~C • ~D",
+   "B": "~(C ∨ D)",
+   "C": "~C ∨ ~D",
+   "D": "Both A and B"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/3:D",
+  "question": "Translate 'Neither the cat nor the dog is outside' into symbolic logic. Let C = 'The cat is outside' and D = 'The dog is outside'.",
+  "options": {
+   "A": "~C • ~D",
+   "B": "~(C ∨ D)",
+   "C": "~C ∨ ~D",
+   "D": "Both A and B"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/30:B",
+  "question": "Logic puzzles often involve constraints. Let Sol(s) mean 's is a solution' and Valid(s) mean 's satisfies constraints'. The statement 'There is no valid solution' is:",
+  "options": {
+   "A": "~∀s (Sol(s) ⊃ ~Valid(s))",
+   "B": "∀s (Sol(s) • Valid(s))",
+   "C": "~∃s (Sol(s) • Valid(s))",
+   "D": "∃s ~(Sol(s) • Valid(s))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/30:C",
+  "question": "Logic puzzles often involve constraints. Let Sol(s) mean 's is a solution' and Valid(s) mean 's satisfies constraints'. The statement 'There is no valid solution' is:",
+  "options": {
+   "A": "~∀s (Sol(s) ⊃ ~Valid(s))",
+   "B": "∀s (Sol(s) • Valid(s))",
+   "C": "~∃s (Sol(s) • Valid(s))",
+   "D": "∃s ~(Sol(s) • Valid(s))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/301:C",
+  "question": "What is the symbolic translation of: 'Not all students are diligent'?",
+  "options": {
+   "A": "~∀x(Sx ⊃ Dx)",
+   "B": "∃x(Sx • ~Dx)",
+   "C": "Both A and B are correct",
+   "D": "None of the above"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/301:D",
+  "question": "What is the symbolic translation of: 'Not all students are diligent'?",
+  "options": {
+   "A": "~∀x(Sx ⊃ Dx)",
+   "B": "∃x(Sx • ~Dx)",
+   "C": "Both A and B are correct",
+   "D": "None of the above"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/302:A",
+  "question": "Which of the following is the correct translation of 'Not every student passed the exam'?",
+  "options": {
+   "A": "~∀x(S(x) ⊃ P(x))",
+   "B": "∀x(~S(x) ∨ ~P(x))",
+   "C": "∃x(S(x) • ~P(x))",
+   "D": "Both A and C"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/302:D",
+  "question": "Which of the following is the correct translation of 'Not every student passed the exam'?",
+  "options": {
+   "A": "~∀x(S(x) ⊃ P(x))",
+   "B": "∀x(~S(x) ∨ ~P(x))",
+   "C": "∃x(S(x) • ~P(x))",
+   "D": "Both A and C"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/305:B",
+  "question": "Which of the following is the logically equivalent contrapositive of the statement: 'If the function is continuous and differentiable, then it is integrable'?",
+  "options": {
+   "A": "If the function is not continuous or not differentiable, then it is not integrable.",
+   "B": "If the function is integrable, then it is continuous and differentiable.",
+   "C": "If the function is not integrable, then it is not continuous or not differentiable.",
+   "D": "If the function is not integrable, then it is not continuous and not differentiable."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/305:C",
+  "question": "Which of the following is the logically equivalent contrapositive of the statement: 'If the function is continuous and differentiable, then it is integrable'?",
+  "options": {
+   "A": "If the function is not continuous or not differentiable, then it is not integrable.",
+   "B": "If the function is integrable, then it is continuous and differentiable.",
+   "C": "If the function is not integrable, then it is not continuous or not differentiable.",
+   "D": "If the function is not integrable, then it is not continuous and not differentiable."
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/306:A",
+  "question": "In complex analysis, a common error is assuming commutativity where it doesn't hold. Let Comm(x, y) mean 'x and y commute'. The statement 'It is not true that all pairs of matrices commute' is written as:",
+  "options": {
+   "A": "~∀x ∀y Comm(x, y)",
+   "B": "∀x ∀y ~Comm(x, y)",
+   "C": "~∃x ∃y Comm(x, y)",
+   "D": "∀x ~∀y Comm(x, y)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/306:B",
+  "question": "In complex analysis, a common error is assuming commutativity where it doesn't hold. Let Comm(x, y) mean 'x and y commute'. The statement 'It is not true that all pairs of matrices commute' is written as:",
+  "options": {
+   "A": "~∀x ∀y Comm(x, y)",
+   "B": "∀x ∀y ~Comm(x, y)",
+   "C": "~∃x ∃y Comm(x, y)",
+   "D": "∀x ~∀y Comm(x, y)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/307:A",
+  "question": "What is the dual of the propositional formula (P ∨ Q) • (~R ∨ S)?",
+  "options": {
+   "A": "(P ∧ Q) ∨ (~R ∧ S)",
+   "B": "(~P ∨ Q) ∧ (R ∨ ~S)",
+   "C": "(~P ∧ Q) ∨ (R ∧ ~S)",
+   "D": "(P ∨ Q) ∧ (~R ∨ S)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/307:B",
+  "question": "What is the dual of the propositional formula (P ∨ Q) • (~R ∨ S)?",
+  "options": {
+   "A": "(P ∧ Q) ∨ (~R ∧ S)",
+   "B": "(~P ∨ Q) ∧ (R ∨ ~S)",
+   "C": "(~P ∧ Q) ∨ (R ∧ ~S)",
+   "D": "(P ∨ Q) ∧ (~R ∨ S)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/308:A",
+  "question": "Adding fractions: Let Frac(f) mean 'f is a fraction' and CommonDenom(f, g) mean 'f and g share a common denominator'. The statement 'For any two fractions, there exists a common denominator' is:",
+  "options": {
+   "A": "∃f ∃g ∀d CommonDenom(f, g, d)",
+   "B": "~∀f ∀g ((Frac(f) • Frac(g)) ⊃ ∃d CommonDenom(f, g, d))",
+   "C": "∀f ∀g ∃d (Frac(f) • Frac(g) • CommonDenom(f, g, d))",
+   "D": "∀f ∀g ((Frac(f) • Frac(g)) ⊃ ∃d CommonDenom(f, g, d))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/308:D",
+  "question": "Adding fractions: Let Frac(f) mean 'f is a fraction' and CommonDenom(f, g) mean 'f and g share a common denominator'. The statement 'For any two fractions, there exists a common denominator' is:",
+  "options": {
+   "A": "∃f ∃g ∀d CommonDenom(f, g, d)",
+   "B": "~∀f ∀g ((Frac(f) • Frac(g)) ⊃ ∃d CommonDenom(f, g, d))",
+   "C": "∀f ∀g ∃d (Frac(f) • Frac(g) • CommonDenom(f, g, d))",
+   "D": "∀f ∀g ((Frac(f) • Frac(g)) ⊃ ∃d CommonDenom(f, g, d))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/309:A",
+  "question": "Identify the logical form of the argument: 'If P then Q. If Q then R. Therefore, if P then R.'",
+  "options": {
+   "A": "Hypothetical Syllogism",
+   "B": "Modus Ponens",
+   "C": "Modus Tollens",
+   "D": "Disjunctive Syllogism"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/309:B",
+  "question": "Identify the logical form of the argument: 'If P then Q. If Q then R. Therefore, if P then R.'",
+  "options": {
+   "A": "Hypothetical Syllogism",
+   "B": "Modus Ponens",
+   "C": "Modus Tollens",
+   "D": "Disjunctive Syllogism"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/31:B",
+  "question": "Consider the statement: 'Every person who loves all dogs also loves all cats.' Let L(x, y) be 'x loves y', D(y) be 'y is a dog', and C(y) be 'y is a cat'. Which formula is correct?",
+  "options": {
+   "A": "∀x(∀y(D(y) ∨ L(x, y)) ⊃ ∀z(C(z) ∨ L(x, z)))",
+   "B": "∃x(∀y(D(y) ⊃ L(x, y)) • ∀z(C(z) ⊃ L(x, z)))",
+   "C": "∀x((∀y(D(y) ⊃ L(x, y))) ⊃ (∀z(C(z) ⊃ L(x, z))))",
+   "D": "∀x(∀y(D(y) ⊃ L(x, y)) ≡ ∀z(C(z) ⊃ L(x, z)))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/31:C",
+  "question": "Consider the statement: 'Every person who loves all dogs also loves all cats.' Let L(x, y) be 'x loves y', D(y) be 'y is a dog', and C(y) be 'y is a cat'. Which formula is correct?",
+  "options": {
+   "A": "∀x(∀y(D(y) ∨ L(x, y)) ⊃ ∀z(C(z) ∨ L(x, z)))",
+   "B": "∃x(∀y(D(y) ⊃ L(x, y)) • ∀z(C(z) ⊃ L(x, z)))",
+   "C": "∀x((∀y(D(y) ⊃ L(x, y))) ⊃ (∀z(C(z) ⊃ L(x, z))))",
+   "D": "∀x(∀y(D(y) ⊃ L(x, y)) ≡ ∀z(C(z) ⊃ L(x, z)))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/310:A",
+  "question": "Translate 'If and only if the derivative is zero, the function has a critical point' into symbolic logic.\nLet Z = Derivative is zero, C = Function has a critical point.",
+  "options": {
+   "A": "Z ≡ C",
+   "B": "C ⊃ Z",
+   "C": "Z ⊃ C",
+   "D": "~Z ⊃ ~C"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/310:D",
+  "question": "Translate 'If and only if the derivative is zero, the function has a critical point' into symbolic logic.\nLet Z = Derivative is zero, C = Function has a critical point.",
+  "options": {
+   "A": "Z ≡ C",
+   "B": "C ⊃ Z",
+   "C": "Z ⊃ C",
+   "D": "~Z ⊃ ~C"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/312:C",
+  "question": "Translate the trigonometric identity condition: 'For all angles θ, sin²(θ) + cos²(θ) equals 1.' Let A(x) be 'x is an angle' and E(x) be 'sin²(x) + cos²(x) = 1'. Choose the correct universal quantification.",
+  "options": {
+   "A": "∀x (A(x) • E(x))",
+   "B": "∃x (A(x) • E(x))",
+   "C": "∀x (A(x) ⊃ E(x))",
+   "D": "∃x (A(x) ⊃ E(x))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/312:D",
+  "question": "Translate the trigonometric identity condition: 'For all angles θ, sin²(θ) + cos²(θ) equals 1.' Let A(x) be 'x is an angle' and E(x) be 'sin²(x) + cos²(x) = 1'. Choose the correct universal quantification.",
+  "options": {
+   "A": "∀x (A(x) • E(x))",
+   "B": "∃x (A(x) • E(x))",
+   "C": "∀x (A(x) ⊃ E(x))",
+   "D": "∃x (A(x) ⊃ E(x))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/313:C",
+  "question": "Consider the radical simplification rule: 'The square root of a product is the product of the square roots, provided both numbers are non-negative.' Let NonNeg(x), Sqrt(x, y), and Prod(x, z, w) be predicates. Which formula correctly restricts the domain?",
+  "options": {
+   "A": "∀x ∀z (∀y ∀w ∀p ((Sqrt(x, y) • Sqrt(z, w) • Prod(x, z, p)) ⊃ Sqrt(p, y • w)) ⊃ (NonNeg(x) • NonNeg(z)))",
+   "B": "∃x ∃z (NonNeg(x) • NonNeg(z) • ∀y ∀w ∀p ((Sqrt(x, y) • Sqrt(z, w) • Prod(x, z, p)) ⊃ Sqrt(p, y • w)))",
+   "C": "∀x ∀z ∀y ∀w ∀p ((Sqrt(x, y) • Sqrt(z, w) • Prod(x, z, p)) ⊃ (NonNeg(x) • NonNeg(z) • Sqrt(p, y • w)))",
+   "D": "∀x ∀z ((NonNeg(x) • NonNeg(z)) ⊃ ∀y ∀w ∀p ((Sqrt(x, y) • Sqrt(z, w) • Prod(x, z, p)) ⊃ Sqrt(p, y • w)))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/313:D",
+  "question": "Consider the radical simplification rule: 'The square root of a product is the product of the square roots, provided both numbers are non-negative.' Let NonNeg(x), Sqrt(x, y), and Prod(x, z, w) be predicates. Which formula correctly restricts the domain?",
+  "options": {
+   "A": "∀x ∀z (∀y ∀w ∀p ((Sqrt(x, y) • Sqrt(z, w) • Prod(x, z, p)) ⊃ Sqrt(p, y • w)) ⊃ (NonNeg(x) • NonNeg(z)))",
+   "B": "∃x ∃z (NonNeg(x) • NonNeg(z) • ∀y ∀w ∀p ((Sqrt(x, y) • Sqrt(z, w) • Prod(x, z, p)) ⊃ Sqrt(p, y • w)))",
+   "C": "∀x ∀z ∀y ∀w ∀p ((Sqrt(x, y) • Sqrt(z, w) • Prod(x, z, p)) ⊃ (NonNeg(x) • NonNeg(z) • Sqrt(p, y • w)))",
+   "D": "∀x ∀z ((NonNeg(x) • NonNeg(z)) ⊃ ∀y ∀w ∀p ((Sqrt(x, y) • Sqrt(z, w) • Prod(x, z, p)) ⊃ Sqrt(p, y • w)))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/314:B",
+  "question": "Which of the following is the negation of 'All students are athletes'?",
+  "options": {
+   "A": "Some athletes are not students.",
+   "B": "All athletes are students.",
+   "C": "No students are athletes.",
+   "D": "Some students are not athletes."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/314:D",
+  "question": "Which of the following is the negation of 'All students are athletes'?",
+  "options": {
+   "A": "Some athletes are not students.",
+   "B": "All athletes are students.",
+   "C": "No students are athletes.",
+   "D": "Some students are not athletes."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/315:A",
+  "question": "Given the polynomial root product: 'For any cubic polynomial, the product of its roots equals the negative of the constant term divided by the leading coefficient.' Let Cubic(p) mean 'p is a cubic polynomial' and ProdRule(p) mean 'the product of roots follows the rule'. Choose the universal statement.",
+  "options": {
+   "A": "∃p (Cubic(p) ⊃ ProdRule(p))",
+   "B": "∃p (Cubic(p) • ProdRule(p))",
+   "C": "∀p (Cubic(p) • ProdRule(p))",
+   "D": "∀p (Cubic(p) ⊃ ProdRule(p))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/315:D",
+  "question": "Given the polynomial root product: 'For any cubic polynomial, the product of its roots equals the negative of the constant term divided by the leading coefficient.' Let Cubic(p) mean 'p is a cubic polynomial' and ProdRule(p) mean 'the product of roots follows the rule'. Choose the universal statement.",
+  "options": {
+   "A": "∃p (Cubic(p) ⊃ ProdRule(p))",
+   "B": "∃p (Cubic(p) • ProdRule(p))",
+   "C": "∀p (Cubic(p) • ProdRule(p))",
+   "D": "∀p (Cubic(p) ⊃ ProdRule(p))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/318:A",
+  "question": "Which formula represents 'Some people are both honest and hardworking'? Let H(x) be 'honest' and W(x) be 'hardworking'.",
+  "options": {
+   "A": "∃x(H(x) • W(x))",
+   "B": "∀x(H(x) • W(x))",
+   "C": "∃x(H(x) ∨ W(x))",
+   "D": "∀x(H(x) ⊃ W(x))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/318:D",
+  "question": "Which formula represents 'Some people are both honest and hardworking'? Let H(x) be 'honest' and W(x) be 'hardworking'.",
+  "options": {
+   "A": "∃x(H(x) • W(x))",
+   "B": "∀x(H(x) • W(x))",
+   "C": "∃x(H(x) ∨ W(x))",
+   "D": "∀x(H(x) ⊃ W(x))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/32:B",
+  "question": "Translate the following into predicate logic: 'There is a number that is larger than every other number.'\nLet L(x,y) = x is larger than y.",
+  "options": {
+   "A": "∃x∀y(L(x,y))",
+   "B": "∃x∀y(x ≠ y ⊃ L(x,y))",
+   "C": "∀x∃y(L(x,y))",
+   "D": "∀y∃x(L(x,y))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/32:C",
+  "question": "Translate the following into predicate logic: 'There is a number that is larger than every other number.'\nLet L(x,y) = x is larger than y.",
+  "options": {
+   "A": "∃x∀y(L(x,y))",
+   "B": "∃x∀y(x ≠ y ⊃ L(x,y))",
+   "C": "∀x∃y(L(x,y))",
+   "D": "∀y∃x(L(x,y))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/322:B",
+  "question": "Identify the logical form of: 'Since the power is out, the lights are off. If the lights are off, the room is dark. Therefore, the room is dark.'",
+  "options": {
+   "A": "(P ⊃ L), (L ⊃ D) ∴ P",
+   "B": "(P ≡ L), (L ≡ D) ∴ D",
+   "C": "(P ∨ L), (L ∨ D) ∴ D",
+   "D": "(P ⊃ L), (L ⊃ D) ∴ D"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/322:D",
+  "question": "Identify the logical form of: 'Since the power is out, the lights are off. If the lights are off, the room is dark. Therefore, the room is dark.'",
+  "options": {
+   "A": "(P ⊃ L), (L ⊃ D) ∴ P",
+   "B": "(P ≡ L), (L ≡ D) ∴ D",
+   "C": "(P ∨ L), (L ∨ D) ∴ D",
+   "D": "(P ⊃ L), (L ⊃ D) ∴ D"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/323:B",
+  "question": "In a propositional argument, what is the name of the fallacy that occurs when one affirms the consequent? (e.g., If P then Q; Q; therefore P)",
+  "options": {
+   "A": "Modus Tollens",
+   "B": "Denying the Antecedent",
+   "C": "Modus Ponens",
+   "D": "Affirming the Consequent"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/323:D",
+  "question": "In a propositional argument, what is the name of the fallacy that occurs when one affirms the consequent? (e.g., If P then Q; Q; therefore P)",
+  "options": {
+   "A": "Modus Tollens",
+   "B": "Denying the Antecedent",
+   "C": "Modus Ponens",
+   "D": "Affirming the Consequent"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/324:C",
+  "question": "Roots have distinct properties. Let SqRoot(x, y) mean 'y is the square root of x'. The statement 'Every positive number has a square root' is:",
+  "options": {
+   "A": "~∀x (Pos(x) ⊃ ∃y SqRoot(x, y))",
+   "B": "∃x (Pos(x) • ∀y SqRoot(x, y))",
+   "C": "∀x ∃y (Pos(x) • SqRoot(x, y))",
+   "D": "∀x (Pos(x) ⊃ ∃y SqRoot(x, y))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/324:D",
+  "question": "Roots have distinct properties. Let SqRoot(x, y) mean 'y is the square root of x'. The statement 'Every positive number has a square root' is:",
+  "options": {
+   "A": "~∀x (Pos(x) ⊃ ∃y SqRoot(x, y))",
+   "B": "∃x (Pos(x) • ∀y SqRoot(x, y))",
+   "C": "∀x ∃y (Pos(x) • SqRoot(x, y))",
+   "D": "∀x (Pos(x) ⊃ ∃y SqRoot(x, y))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/325:A",
+  "question": "Translate the following English statement into predicate logic: 'There is at least one person who is admired by everyone.'",
+  "options": {
+   "A": "∃x(Px • ∀y(Py • Ayx))",
+   "B": "∃x(Px • ∀y(Py ⊃ Ayx))",
+   "C": "∀x∃y(Py • Ayx)",
+   "D": "∀y(Py ⊃ ∃x(Px • Ayx))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/325:B",
+  "question": "Translate the following English statement into predicate logic: 'There is at least one person who is admired by everyone.'",
+  "options": {
+   "A": "∃x(Px • ∀y(Py • Ayx))",
+   "B": "∃x(Px • ∀y(Py ⊃ Ayx))",
+   "C": "∀x∃y(Py • Ayx)",
+   "D": "∀y(Py ⊃ ∃x(Px • Ayx))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/326:B",
+  "question": "Translate the following predicate logic statement into English: ∀x(Px ⊃ ∃y(Qy • Rxy))\nDomain: People and Objects. P = is a painter, Q = is a canvas, R = painted.",
+  "options": {
+   "A": "If someone is a painter, they have painted every canvas.",
+   "B": "Every painter has painted at least one canvas.",
+   "C": "No painter has painted any canvas.",
+   "D": "Some painters have painted all canvases."
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/326:D",
+  "question": "Translate the following predicate logic statement into English: ∀x(Px ⊃ ∃y(Qy • Rxy))\nDomain: People and Objects. P = is a painter, Q = is a canvas, R = painted.",
+  "options": {
+   "A": "If someone is a painter, they have painted every canvas.",
+   "B": "Every painter has painted at least one canvas.",
+   "C": "No painter has painted any canvas.",
+   "D": "Some painters have painted all canvases."
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/328:A",
+  "question": "Translate the following into logic notation: 'It is not the case that both the sum is positive and the product is negative.'\nLet S = The sum is positive, P = The product is negative.",
+  "options": {
+   "A": "~S • ~P",
+   "B": "Both ~(S • P) and ~S ∨ ~P",
+   "C": "~(S • P)",
+   "D": "~S ∨ ~P"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/328:B",
+  "question": "Translate the following into logic notation: 'It is not the case that both the sum is positive and the product is negative.'\nLet S = The sum is positive, P = The product is negative.",
+  "options": {
+   "A": "~S • ~P",
+   "B": "Both ~(S • P) and ~S ∨ ~P",
+   "C": "~(S • P)",
+   "D": "~S ∨ ~P"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/329:B",
+  "question": "Analyze the complex plane visualization: 'If a polynomial has real coefficients, then its non-real roots occur in conjugate pairs.' Let RealCoeff(p) mean 'p has real coefficients' and Conj(p) mean 'non-real roots of p occur in conjugate pairs'. Which implication is correct?",
+  "options": {
+   "A": "RealCoeff(p) ≡ Conj(p)",
+   "B": "RealCoeff(p) ⊃ Conj(p)",
+   "C": "Conj(p) ⊃ RealCoeff(p)",
+   "D": "~RealCoeff(p) ∨ ~Conj(p)"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/329:D",
+  "question": "Analyze the complex plane visualization: 'If a polynomial has real coefficients, then its non-real roots occur in conjugate pairs.' Let RealCoeff(p) mean 'p has real coefficients' and Conj(p) mean 'non-real roots of p occur in conjugate pairs'. Which implication is correct?",
+  "options": {
+   "A": "RealCoeff(p) ≡ Conj(p)",
+   "B": "RealCoeff(p) ⊃ Conj(p)",
+   "C": "Conj(p) ⊃ RealCoeff(p)",
+   "D": "~RealCoeff(p) ∨ ~Conj(p)"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/33:A",
+  "question": "Consider the limit definition: 'The limit of f(x) as x approaches c is L if for every epsilon greater than zero, there exists a delta greater than zero such that...' Let Lim(f, c, L), Eps(e), Delta(d), GT(x, y), and Cond(f, c, L, e, d) be predicates. Identify the structure of the quantifier prefix.",
+  "options": {
+   "A": "∀f ∀c ∀L (Lim(f, c, L) ⊃ ∀e ∃d ((Eps(e) • GT(e, 0) • Delta(d) • GT(d, 0)) ⊃ Cond(f, c, L, e, d)))",
+   "B": "∀f ∀c ∀L (Lim(f, c, L) ≡ ∀e (Eps(e) • GT(e, 0) ⊃ ∃d (Delta(d) • GT(d, 0) • Cond(f, c, L, e, d))))",
+   "C": "∀f ∀c ∀L ∀e ∃d ((Lim(f, c, L) • Eps(e) • GT(e, 0) • Delta(d) • GT(d, 0)) ⊃ Cond(f, c, L, e, d))",
+   "D": "∃f ∃c ∃L (Lim(f, c, L) • ∀e (Eps(e) • GT(e, 0) ⊃ ∃d (Delta(d) • GT(d, 0) • Cond(f, c, L, e, d))))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/33:B",
+  "question": "Consider the limit definition: 'The limit of f(x) as x approaches c is L if for every epsilon greater than zero, there exists a delta greater than zero such that...' Let Lim(f, c, L), Eps(e), Delta(d), GT(x, y), and Cond(f, c, L, e, d) be predicates. Identify the structure of the quantifier prefix.",
+  "options": {
+   "A": "∀f ∀c ∀L (Lim(f, c, L) ⊃ ∀e ∃d ((Eps(e) • GT(e, 0) • Delta(d) • GT(d, 0)) ⊃ Cond(f, c, L, e, d)))",
+   "B": "∀f ∀c ∀L (Lim(f, c, L) ≡ ∀e (Eps(e) • GT(e, 0) ⊃ ∃d (Delta(d) • GT(d, 0) • Cond(f, c, L, e, d))))",
+   "C": "∀f ∀c ∀L ∀e ∃d ((Lim(f, c, L) • Eps(e) • GT(e, 0) • Delta(d) • GT(d, 0)) ⊃ Cond(f, c, L, e, d))",
+   "D": "∃f ∃c ∃L (Lim(f, c, L) • ∀e (Eps(e) • GT(e, 0) ⊃ ∃d (Delta(d) • GT(d, 0) • Cond(f, c, L, e, d))))"
+  },
+  "argue_for": "B"
+ },
+ {
+  "job_id": "expansion/formal_logic/331:A",
+  "question": "Review the combinatorial constraint: 'A set of integers satisfies the distinct digit property if and only if no two elements share a common digit in their decimal expansion.' Let S be a set, D(x, y) mean 'x and y share a common digit', and P(S) mean 'S satisfies the property'. How do we symbolize the condition that a specific set S fails this property?",
+  "options": {
+   "A": "~P(S) ≡ ∃x ∃y ((x ∈ S) • (y ∈ S) • (x ≠ y) • D(x, y))",
+   "B": "~P(S) ≡ ∀x ∀y ((x ∈ S) • (y ∈ S) ⊃ D(x, y))",
+   "C": "P(S) ≡ ∀x ∀y ((x ∈ S) • (y ∈ S) ⊃ ~D(x, y))",
+   "D": "P(S) ≡ ~∃x ∃y ((x ∈ S) • (y ∈ S) • D(x, y))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/331:C",
+  "question": "Review the combinatorial constraint: 'A set of integers satisfies the distinct digit property if and only if no two elements share a common digit in their decimal expansion.' Let S be a set, D(x, y) mean 'x and y share a common digit', and P(S) mean 'S satisfies the property'. How do we symbolize the condition that a specific set S fails this property?",
+  "options": {
+   "A": "~P(S) ≡ ∃x ∃y ((x ∈ S) • (y ∈ S) • (x ≠ y) • D(x, y))",
+   "B": "~P(S) ≡ ∀x ∀y ((x ∈ S) • (y ∈ S) ⊃ D(x, y))",
+   "C": "P(S) ≡ ∀x ∀y ((x ∈ S) • (y ∈ S) ⊃ ~D(x, y))",
+   "D": "P(S) ≡ ~∃x ∃y ((x ∈ S) • (y ∈ S) • D(x, y))"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/332:A",
+  "question": "Geometric probability involves regions in space. Let R(x) mean 'x is in region A' and S(x) mean 'x is in region B'. The statement 'It is false that some points are in both region A and region B' translates to which logical form?",
+  "options": {
+   "A": "~∀x (R(x) ⊃ ~S(x))",
+   "B": "∀x (R(x) • S(x))",
+   "C": "∃x ~(R(x) • S(x))",
+   "D": "~∃x (R(x) • S(x))"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/332:D",
+  "question": "Geometric probability involves regions in space. Let R(x) mean 'x is in region A' and S(x) mean 'x is in region B'. The statement 'It is false that some points are in both region A and region B' translates to which logical form?",
+  "options": {
+   "A": "~∀x (R(x) ⊃ ~S(x))",
+   "B": "∀x (R(x) • S(x))",
+   "C": "∃x ~(R(x) • S(x))",
+   "D": "~∃x (R(x) • S(x))"
+  },
+  "argue_for": "D"
+ },
+ {
+  "job_id": "expansion/formal_logic/335:A",
+  "question": "Given the premises below, which of the following conclusions logically follows?\n1. ∀x(Ax ⊃ ~Bx)\n2. ∃x(Cx • Bx)",
+  "options": {
+   "A": "∃x(Ax • ~Cx)",
+   "B": "~∃x(Ax • Cx)",
+   "C": "∃x(Cx • ~Ax)",
+   "D": "∀x(Cx ⊃ ~Ax)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/335:C",
+  "question": "Given the premises below, which of the following conclusions logically follows?\n1. ∀x(Ax ⊃ ~Bx)\n2. ∃x(Cx • Bx)",
+  "options": {
+   "A": "∃x(Ax • ~Cx)",
+   "B": "~∃x(Ax • Cx)",
+   "C": "∃x(Cx • ~Ax)",
+   "D": "∀x(Cx ⊃ ~Ax)"
+  },
+  "argue_for": "C"
+ },
+ {
+  "job_id": "expansion/formal_logic/337:A",
+  "question": "Optimization problems often seek a minimum. Let Min(f, x) mean 'x minimizes function f'. The claim 'There exists an x that minimizes f' is an existential statement:",
+  "options": {
+   "A": "∃x Min(f, x)",
+   "B": "~∃x Min(f, x)",
+   "C": "∀x ~Min(f, x)",
+   "D": "∀x Min(f, x)"
+  },
+  "argue_for": "A"
+ },
+ {
+  "job_id": "expansion/formal_logic/337:D",
+  "question": "Optimization problems often seek a minimum. Let Min(f, x) mean 'x minimizes function f'. The claim 'There exists an x that minimizes f' is an existential statement:",
+  "options": {
+   "A": "∃x Min(f, x)",
+   "B": "~∃x Min(f, x)",
+   "C": "∀x ~Min(f, x)",
+   "D": "∀x Min(f, x)"
+  },
+  "argue_for": "D"
+ }
+]

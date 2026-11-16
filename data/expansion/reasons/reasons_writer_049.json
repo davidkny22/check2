@@ -1,0 +1,607 @@
+{
+ "writer": "opus",
+ "started_unix": 1794789386,
+ "finished_unix": 1794789590,
+ "reasons": [
+  {
+   "job_id": "expansion/high_school_physics/44:B",
+   "reason": "A hollow sphere keeps its mass out at the rim, so once it starts rolling it carries more momentum where it counts and keeps it, which should let it pull ahead down the slope."
+  },
+  {
+   "job_id": "expansion/high_school_physics/44:D",
+   "reason": "The solid sphere has the smaller moment of inertia, two fifths versus two thirds of mR squared, so less of its energy goes into spinning and more into moving down the incline."
+  },
+  {
+   "job_id": "expansion/high_school_physics/45:A",
+   "reason": "Heating a metal makes its atoms vibrate harder, which scatters electrons more and raises resistivity, and the same heating makes the rod expand, so it gets longer as well."
+  },
+  {
+   "job_id": "expansion/high_school_physics/45:D",
+   "reason": "Heat gives the free electrons more energy so they move through the metal more easily, lowering resistance, and as the rod loses its stiffness it sags and settles shorter along its axis."
+  },
+  {
+   "job_id": "expansion/high_school_physics/46:A",
+   "reason": "Charge is conserved when the plates are joined, and energy is conserved in an ideal circuit with no resistor, so the system should still hold the same half C V squared it started with."
+  },
+  {
+   "job_id": "expansion/high_school_physics/46:D",
+   "reason": "The charge CV spreads over a total capacitance of 2C, so the voltage drops to V over 2, and adding up half C times V over 2 squared for each capacitor gives a quarter of CV squared."
+  },
+  {
+   "job_id": "expansion/high_school_physics/48:C",
+   "reason": "With the source still connected the voltage stays fixed while the dielectric raises the capacitance, and since energy is half C V squared, a larger capacitance at the same voltage stores more energy."
+  },
+  {
+   "job_id": "expansion/high_school_physics/48:D",
+   "reason": "The source holds the voltage constant, and any extra charge drawn in is balanced by the work the field does pulling the dielectric in, so the stored energy ends up where it started."
+  },
+  {
+   "job_id": "expansion/high_school_physics/49:A",
+   "reason": "Water molecules cross a semi-permeable membrane constantly in both directions, and the membrane itself does not pick a side, so the flow goes both ways through the same channels."
+  },
+  {
+   "job_id": "expansion/high_school_physics/49:D",
+   "reason": "Water moves toward the region with more dissolved solute, and here that region is outside the cell, so water leaves the cell and it shrinks, the usual hypertonic case."
+  },
+  {
+   "job_id": "expansion/high_school_physics/5:A",
+   "reason": "Momentum grows with both how heavy something is and how fast it goes, and the motion terms in mechanics usually carry speed squared, so mass times velocity squared fits the dependence."
+  },
+  {
+   "job_id": "expansion/high_school_physics/5:B",
+   "reason": "Momentum is defined as mass multiplied by velocity, a vector pointing along the motion, and there is no squared speed or one half factor in it; those belong to kinetic energy."
+  },
+  {
+   "job_id": "expansion/high_school_physics/50:A",
+   "reason": "Surface tension is a property of the liquid film itself, set by its composition and temperature, so pushing the bubble into higher outside pressure changes its radius but not the film's tension."
+  },
+  {
+   "job_id": "expansion/high_school_physics/50:B",
+   "reason": "Higher outside pressure squeezes the bubble smaller, and the film no longer has to stretch as much to hold it, so the tension pulling along the surface goes down."
+  },
+  {
+   "job_id": "expansion/high_school_physics/53:A",
+   "reason": "Under the inverse square law intensity falls as one over distance squared, so doubling the distance divides the intensity by two squared, leaving a quarter of what reached the nest before."
+  },
+  {
+   "job_id": "expansion/high_school_physics/53:D",
+   "reason": "Intensity drops in proportion to how far the light has to travel, so putting the streetlight at twice the distance spreads the same output over twice the path and halves what arrives."
+  },
+  {
+   "job_id": "expansion/high_school_physics/55:A",
+   "reason": "Joined in parallel, the charged plate of one capacitor meets the uncharged plate of the other, so the charges cancel across the connection and no potential difference is left across either."
+  },
+  {
+   "job_id": "expansion/high_school_physics/55:D",
+   "reason": "The charge CV is shared over two identical capacitors in parallel, giving a total capacitance of 2C, so the common voltage is CV divided by 2C, which is half the original."
+  },
+  {
+   "job_id": "expansion/high_school_physics/56:A",
+   "reason": "Kinetic energy goes as speed squared, so doubling the speed gives the electron four times the energy, and the magnetic force has to bend that much more energetic motion into a four times larger circle."
+  },
+  {
+   "job_id": "expansion/high_school_physics/56:B",
+   "reason": "Setting the magnetic force qvB equal to the centripetal force mv squared over r gives r equal to mv over qB, so the radius is directly proportional to speed and doubling one doubles the other."
+  },
+  {
+   "job_id": "expansion/high_school_physics/57:A",
+   "reason": "The lever is 4 meters long, which gives a mechanical advantage of 4 against the rock, so the elder's 200 N becomes 800 N of lifting force at the load."
+  },
+  {
+   "job_id": "expansion/high_school_physics/57:B",
+   "reason": "With the fulcrum 1 meter from the rock, the effort arm is the remaining 3 meters, so balancing torques gives 200 times 3 equal to the weight times 1, which is 600 N."
+  },
+  {
+   "job_id": "expansion/high_school_physics/58:A",
+   "reason": "An internal standard is added at a known amount so that anything changing how much sample reaches the plasma, like viscosity or nebulization, affects it and the analytes alike and can be ratioed out."
+  },
+  {
+   "job_id": "expansion/high_school_physics/58:B",
+   "reason": "Yttrium and scandium have well known, sharp emission lines, so including them gives the spectrometer fixed reference wavelengths to check against, keeping the wear metal lines read at the right positions."
+  },
+  {
+   "job_id": "expansion/high_school_physics/59:B",
+   "reason": "Gravity is stronger at the pole because of the smaller radius and no centrifugal effect, and the period goes as one over the square root of g, so the pendulum swings faster."
+  },
+  {
+   "job_id": "expansion/high_school_physics/59:C",
+   "reason": "A pendulum's period depends only on its length and gravity, and the clock is the same clock with the same length, so moving it north leaves its rhythm and its time-keeping unchanged."
+  },
+  {
+   "job_id": "expansion/high_school_physics/6:A",
+   "reason": "SGLT1 is a symporter: the pump keeps sodium low inside the cell, so sodium flowing in down its gradient releases energy that the transporter uses to bring glucose in with it uphill."
+  },
+  {
+   "job_id": "expansion/high_school_physics/6:C",
+   "reason": "Moving glucose uphill requires something to move the other way to balance the cell, so the transporter swaps sodium out as glucose comes in, keeping ion and osmotic levels steady."
+  },
+  {
+   "job_id": "expansion/high_school_physics/60:C",
+   "reason": "Period is the reciprocal of frequency, so one divided by 50 per second gives 0.02 seconds for each full oscillation of the signal."
+  },
+  {
+   "job_id": "expansion/high_school_physics/60:D",
+   "reason": "Period is one over frequency, and since 50 is half of a hundred, taking its reciprocal comes out to one half, so each full cycle of the signal lasts half a second."
+  },
+  {
+   "job_id": "expansion/high_school_physics/62:B",
+   "reason": "Higher transition frequency means more oscillations counted per second, which shrinks the fractional uncertainty, and entanglement shifts the collective transition upward so the clock ticks at a much higher effective frequency."
+  },
+  {
+   "job_id": "expansion/high_school_physics/62:C",
+   "reason": "Projection noise for independent atoms falls as one over root N, but entangled atoms are correlated so their errors partly cancel, letting the uncertainty fall faster than that standard limit."
+  },
+  {
+   "job_id": "expansion/high_school_physics/63:B",
+   "reason": "Young's modulus is defined as stress divided by strain, so rearranging gives strain equal to stress divided by Y; the length and area only matter for computing the stress itself."
+  },
+  {
+   "job_id": "expansion/high_school_physics/63:D",
+   "reason": "A stiffer material and a larger stress both mean a stronger response in the cylinder, so the strain should scale with the product of the applied stress and the modulus."
+  },
+  {
+   "job_id": "expansion/high_school_physics/65:C",
+   "reason": "At the center of curvature the object and image distances are equal, both 2f, so the magnification is minus one, giving a real, inverted image of exactly the same size."
+  },
+  {
+   "job_id": "expansion/high_school_physics/65:D",
+   "reason": "A concave mirror is the kind used for makeup and shaving because it gives an enlarged upright view, and an object near its curved center sees that same erect, magnified virtual image."
+  },
+  {
+   "job_id": "expansion/high_school_physics/67:B",
+   "reason": "At terminal velocity the drag exactly balances the weight, and the weight is 80 kg times 9.8 meters per second squared, which comes to 784 newtons of air resistance."
+  },
+  {
+   "job_id": "expansion/high_school_physics/67:C",
+   "reason": "The drag has to cancel gravity and also supply the force that stopped the skydiver's acceleration, so it carries twice the weight, 2 times 80 times 9.8, which is 1568 newtons."
+  },
+  {
+   "job_id": "expansion/high_school_physics/69:A",
+   "reason": "Ignoring air resistance, no energy is lost along the way, and the particle is moving at the peak just as it was at launch, so its speed there is the same v it started with."
+  },
+  {
+   "job_id": "expansion/high_school_physics/69:C",
+   "reason": "At the top the vertical component has dropped to zero, but nothing horizontal acts on the particle, so the horizontal component v times the cosine of the angle is all that remains."
+  },
+  {
+   "job_id": "expansion/high_school_physics/70:B",
+   "reason": "Friction acts opposite to the motion with a deceleration of mu times g, so the block's acceleration carries that negative sign along the direction it travels across the rough surface."
+  },
+  {
+   "job_id": "expansion/high_school_physics/70:C",
+   "reason": "Constant velocity means the velocity is not changing, which is the definition of zero acceleration; the pull F just balances the friction force, so the net force on the block is zero."
+  },
+  {
+   "job_id": "expansion/high_school_physics/73:A",
+   "reason": "Energy conservation sets mgh equal to one half m v squared, the mass cancels, and solving for v gives the square root of 2gh at the moment it reaches the ground."
+  },
+  {
+   "job_id": "expansion/high_school_physics/73:B",
+   "reason": "Starting from rest, v squared equals u squared plus 2as, and with u zero, a equal to g and s equal to h, that gives 2gh directly for the speed at impact."
+  },
+  {
+   "job_id": "expansion/high_school_physics/76:A",
+   "reason": "Resistance is what shifts phases around in an AC circuit, setting how far the current lags or leads, so the angle between the inductor and capacitor voltages must depend on R."
+  },
+  {
+   "job_id": "expansion/high_school_physics/76:B",
+   "reason": "The same current flows through both parts, the inductor voltage leads it by 90 degrees and the capacitor voltage lags it by 90 degrees, so they sit 180 degrees apart and cancel at resonance."
+  },
+  {
+   "job_id": "expansion/high_school_physics/77:B",
+   "reason": "The river current is what carries the boat along and sets the pace of the trip, so the time to get across is the width divided by the water's speed u."
+  },
+  {
+   "job_id": "expansion/high_school_physics/77:D",
+   "reason": "Pointing the boat straight across puts its whole speed v into the crossing direction, and the current only pushes it sideways, so the minimum time is just the width over v."
+  },
+  {
+   "job_id": "expansion/high_school_physics/78:B",
+   "reason": "Both spheres have the same mass and radius, and gravity accelerates every object equally regardless of how its mass is arranged, so released together from rest they should arrive together."
+  },
+  {
+   "job_id": "expansion/high_school_physics/78:D",
+   "reason": "Rolling acceleration is g sine theta over one plus I over m r squared, and the solid sphere's ratio is 2/5 against 2/3 for the hollow one, so it accelerates more and wins."
+  },
+  {
+   "job_id": "expansion/high_school_physics/79:C",
+   "reason": "In an adiabatic compression the work goes into internal energy shared over the five degrees of freedom of a diatomic molecule, so halving the volume raises the temperature by 2 to the one fifth."
+  },
+  {
+   "job_id": "expansion/high_school_physics/79:D",
+   "reason": "For an adiabatic process T times V to the power gamma minus one stays constant, and gamma minus one is 2/5 here, so halving the volume multiplies the temperature by 2 to the 2/5."
+  },
+  {
+   "job_id": "expansion/high_school_physics/8:C",
+   "reason": "Being so light, electrons get bent far more sharply by the same magnets, so they follow a tighter curve, and the loss grows as the bending radius shrinks, which drives their radiation up."
+  },
+  {
+   "job_id": "expansion/high_school_physics/8:D",
+   "reason": "At fixed energy the radiated power really goes as energy over mass to the fourth power, and the electron is vastly lighter than the proton, so that fourth power makes its losses enormously larger."
+  },
+  {
+   "job_id": "expansion/high_school_physics/80:B",
+   "reason": "Once the battery is disconnected the charge Q is fixed, the dielectric raises C by kappa, and the energy Q squared over 2C therefore drops by that same factor of kappa."
+  },
+  {
+   "job_id": "expansion/high_school_physics/80:C",
+   "reason": "The dielectric multiplies the capacitance by kappa, and energy depends on capacitance through C times V squared, where the polarized material also boosts the effective field term, so the stored energy grows by kappa squared."
+  },
+  {
+   "job_id": "expansion/high_school_physics/82:A",
+   "reason": "As the screen moves away, the light from the two slits arrives at shallower angles and the paths line up more closely, so the bright bands crowd together and the fringes get narrower."
+  },
+  {
+   "job_id": "expansion/high_school_physics/82:C",
+   "reason": "Fringe width equals wavelength times screen distance divided by slit separation, so with the wavelength and slits unchanged, a larger distance to the screen makes each fringe proportionally wider."
+  },
+  {
+   "job_id": "expansion/high_school_physics/83:B",
+   "reason": "Gravity never switches off during the flight, so even at the top where the ball is momentarily at rest, it is still accelerating downward at g, which is why it turns around."
+  },
+  {
+   "job_id": "expansion/high_school_physics/83:D",
+   "reason": "Acceleration is the change in velocity over the time taken, and the ball loses its whole launch speed v in the time t it takes to reach the top, so v over t describes it there."
+  },
+  {
+   "job_id": "expansion/high_school_physics/85:C",
+   "reason": "Wind speeds vary moment to moment, which the capacity factor captures, whereas a grid operator has to plan with a set number, so the capacity credit is a figure fixed by regulators for planning."
+  },
+  {
+   "job_id": "expansion/high_school_physics/85:D",
+   "reason": "What makes them differ is timing: the capacity factor averages output across the whole year, while the capacity credit asks how much wind can be counted on when demand peaks and reliability is at stake."
+  },
+  {
+   "job_id": "expansion/high_school_physics/86:A",
+   "reason": "A floating body displaces its own weight of liquid, and a denser liquid supplies that weight with less volume, so the cylinder rises and less of it sits below the surface."
+  },
+  {
+   "job_id": "expansion/high_school_physics/86:B",
+   "reason": "Buoyancy grows with the liquid's density, so as the liquid gets denser the upward push grows past the cylinder's weight and lifts it until it rides on top with nothing submerged."
+  },
+  {
+   "job_id": "expansion/high_school_physics/87:B",
+   "reason": "When rewards keep shifting, old Q-values go stale, and alpha sets how strongly each new sample overrides the old estimate, so tuning it lets the agent track the changes without blowing up."
+  },
+  {
+   "job_id": "expansion/high_school_physics/87:D",
+   "reason": "If the reward depends on the previous action, the setup is not really Markov in the current states, and folding that action into a larger state space restores a stationary problem the agent can learn."
+  },
+  {
+   "job_id": "expansion/high_school_physics/88:B",
+   "reason": "Once a slip surface forms and moves a long way, the clay particles align along it and the strength drops to residual, and progressive failure spreads that weakened zone through the slope over time."
+  },
+  {
+   "job_id": "expansion/high_school_physics/88:C",
+   "reason": "Over-consolidated clays slowly creep and densify over the years, which builds strength beyond the peak value measured early on, so the long-term analysis has to be anchored on the residual measure instead."
+  },
+  {
+   "job_id": "expansion/high_school_physics/89:A",
+   "reason": "A magnetic field lifts the degeneracy of the magnetic sublevels, so the single line separates into distinct components, and the shifted and unshifted ones carry different circular and linear polarizations."
+  },
+  {
+   "job_id": "expansion/high_school_physics/89:C",
+   "reason": "A strong field perturbs every atom's energy levels by slightly different amounts depending on its orientation, so instead of one sharp line the spectrum smears out over a continuous range of wavelengths."
+  },
+  {
+   "job_id": "expansion/high_school_physics/90:A",
+   "reason": "A diode placed in parallel with the load shunts the reverse half of each AC cycle away, so only one direction of current passes through the load, which turns AC into DC."
+  },
+  {
+   "job_id": "expansion/high_school_physics/90:B",
+   "reason": "Converting AC to DC is exactly what rectification means, and a rectifier is built from diodes so that only one direction of the alternating current reaches the output."
+  },
+  {
+   "job_id": "expansion/high_school_physics/91:B",
+   "reason": "Even moving steadily, the body is always pulled down by its weight, and that gravitational force of mass times g acts on it the whole time, so mg is the force on it."
+  },
+  {
+   "job_id": "expansion/high_school_physics/91:C",
+   "reason": "By Newton's first law a body keeps a constant velocity only when the forces on it balance, so with no change in speed or direction there is no acceleration and the net force is zero."
+  },
+  {
+   "job_id": "expansion/high_school_physics/93:A",
+   "reason": "Tiny dust grains have little heat capacity and absorb sunlight well, so they warm up and glow in the infrared, and a ring bright in thermal emission points to small particles."
+  },
+  {
+   "job_id": "expansion/high_school_physics/93:C",
+   "reason": "Large chunks are what fail to scatter long radio waves into diffraction patterns, and the occultation showed no such patterns, so the signal passed through as it would around fine material."
+  },
+  {
+   "job_id": "expansion/high_school_physics/94:A",
+   "reason": "Adding a second resistor gives the current more material to push through, so in any arrangement the resistances combine by addition, R1 plus R2, to give the total."
+  },
+  {
+   "job_id": "expansion/high_school_physics/94:D",
+   "reason": "In parallel the reciprocals add, one over R equals one over R1 plus one over R2, and combining those fractions gives the product of the two resistances divided by their sum."
+  },
+  {
+   "job_id": "expansion/high_school_physics/95:C",
+   "reason": "Traffic lights deal with physical movement, while a socio-technical system's emergency protocols revolve around information, so the color there marks how sensitive the data is and how strongly it must be protected."
+  },
+  {
+   "job_id": "expansion/high_school_physics/95:D",
+   "reason": "A traffic red is a simple stop, but in a modeled socio-technical system an emergency color flags that the system itself has broken down, which calls for rethinking the framework rather than pausing."
+  },
+  {
+   "job_id": "expansion/high_school_physics/97:A",
+   "reason": "Heating a metal rod in air drives oxidation at its surface, forming a layer of oxide scale, so what the rod is actually made of changes far more than any bulk measurement does."
+  },
+  {
+   "job_id": "expansion/high_school_physics/97:B",
+   "reason": "The rod's mass stays fixed, but thermal expansion increases its volume, and density is mass over volume, so density is the property that measurably shifts as the temperature rises."
+  },
+  {
+   "job_id": "expansion/high_school_physics/99:A",
+   "reason": "Current is driven by the resistance across each branch, and the larger resistor develops more of the push, so with R1 bigger than R2 the branch through R1 carries more current."
+  },
+  {
+   "job_id": "expansion/high_school_physics/99:C",
+   "reason": "Parallel branches share the same voltage, and by Ohm's law each current is that voltage over the branch resistance, so the larger R1 lets through less current than R2."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/0:C",
+   "reason": "The equation predicts y from x, and the coefficient b sets the overall level of the predictions across the data, so it summarizes the typical, average value the response takes."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/0:D",
+   "reason": "The slope is the rise over the run of the line, so increasing x by one unit moves the predicted y by exactly b, which is what the coefficient on x measures."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/10:A",
+   "reason": "Each stem acts as a category, and the number of leaves trailing off it shows how many observations fall in that group, so the stem is what organizes the frequency of the values."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/10:B",
+   "reason": "Each value is split in two, with the final digit written as the leaf, and the remaining front part, such as the tens digit of a two-digit value, forms the stem the leaves hang from."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/100:A",
+   "reason": "With the median sitting near the first quartile, the upper half of the box is stretched out, and the longer right whisker extends that, so the data trail off toward high values."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/100:B",
+   "reason": "The median is pushed toward the lower quartile, which means the data bunch up there and the left side is where the median is pulled, matching the shape we call skewed toward the left."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/101:C",
+   "reason": "Once the population is split into income groups, the researcher can sample within each group directly, so a single complete list of everyone is no longer what drives the selection."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/101:D",
+   "reason": "Spending varies a lot between income levels, so making sure each level is sampled in proportion removes that between-group chance variation and gives a more precise estimate than a plain random draw."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/103:B",
+   "reason": "A correlation of 0.85 is strong but not perfect, so actual scores scatter around the line, and studying hours alone does not cause a fixed score, so any single prediction carries error."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/103:C",
+   "reason": "A positive slope means more hours lead to higher scores in a consistent linear pattern, so plugging 10 hours into the regression line gives the score that the relationship points to."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/104:C",
+   "reason": "The first draw is red with probability 5 over 8, then 4 reds remain among 7 marbles, and multiplying 5/8 by 4/7 gives 20/56, which reduces to 5/14."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/104:D",
+   "reason": "Each draw has a 5 in 8 chance of being red, and to get two reds you multiply the chances for the two draws, 5/8 times 5/8, which comes to 25/64."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/105:B",
+   "reason": "There are 13 hearts and 4 kings, but the king of hearts is in both groups, so subtracting the overlap gives 13 plus 4 minus 1, which is 16 cards out of 52."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/105:D",
+   "reason": "Every suit has exactly one king, hearts included, so the four kings already account for the heart case in this question, which leaves 4 qualifying cards in a deck of 52."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/106:A",
+   "reason": "Real normally distributed data, such as heights or test scores, never line up perfectly, so the computed mean, median and mode always come out as at least slightly different values."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/106:B",
+   "reason": "The bell curve is a mirror image on either side of its center, and that center is the mean, which is also why the mean, median and mode coincide for a normal distribution."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/107:B",
+   "reason": "Expected values add across intervals, so ten hours at an average of 3.5 flares per hour gives an expected total of 10 times 3.5, which is 35 flares."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/107:C",
+   "reason": "For a Poisson count the mean and the variance are both 3.5, so each hour contributes twice that to the total, and over ten hours that sums to 70 expected flares."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/108:A",
+   "reason": "Raising the confidence to 95 percent means we are nearly sure the parameter is captured, which leaves almost no room for error, so the interval shrinks down to essentially a point."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/108:D",
+   "reason": "A higher confidence level needs a larger critical value from the normal or t table, and with the same standard error that larger multiplier makes the margin of error, and so the interval, wider."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/109:B",
+   "reason": "There are two separate groups, the samples are independent, and the population variances are unknown, so comparing the two means calls for a two-sample t statistic, here with pooled variance."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/109:C",
+   "reason": "The question is whether the teaching method and the score are related, and a test for independence checks exactly whether one variable depends on the other across the two groups."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/11:C",
+   "reason": "In matched pairs each subject or pair gives two related measurements, so you take the difference within each pair and test whether the mean of those differences is zero with a one-sample t."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/11:D",
+   "reason": "A matched pairs study still ends up with two groups of scores, one per treatment, so the analysis compares the mean of the first sample with the mean of the second."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/110:C",
+   "reason": "Gender splits the respondents into two independent groups, and comparing those two groups on their preference for the product is the classic setup for a two-sample t-test."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/110:D",
+   "reason": "Both gender and product preference are categorical, so the data form a two-way table of counts, and testing whether those two categorical variables are related is what the chi-square independence test does."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/113:A",
+   "reason": "The interval from 6 to 14 is centered on the mean of 10, and the standard deviation of 2 is the spread on each side, so this is the one-sigma band holding about 68 percent."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/113:B",
+   "reason": "Six is 4 below the mean and 14 is 4 above, and with a standard deviation of 2 that is two standard deviations on each side, which the empirical rule puts at about 95 percent."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/114:A",
+   "reason": "A right skew means a long tail of high scores, and the mean is pulled toward those extreme values while the median stays with the middle observation, so the mean ends up larger."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/114:B",
+   "reason": "The median and the mean both summarize the center of the same set of scores, and skew changes the shape of the tails rather than where the middle of the data sits, so they still agree."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/115:A",
+   "reason": "Independent events do not interfere with each other, so their probabilities simply combine, and adding 0.4 and 0.5 gives 0.9 as the probability of getting both of them."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/115:C",
+   "reason": "For independent events the probability of both happening is the product of the separate probabilities, so 0.4 times 0.5 gives 0.2."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/116:A",
+   "reason": "The range only looks at the two endpoints and ignores everything in between, so the bulk of the data, including unusual values in the middle, cannot shift it the way they shift averages."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/116:D",
+   "reason": "The median depends only on the middle position of the ordered data, so making the largest or smallest value far more extreme leaves it exactly where it was."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/117:A",
+   "reason": "The population of study hours is unknown and study time is often bunched low with a long upper tail, and a sample of 100 is small relative to all students, so that right skew carries through."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/117:B",
+   "reason": "With an unknown population shape but a sample of 100, the Central Limit Theorem says the sampling distribution of the mean is approximately normal, centered at the population mean."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/12:A",
+   "reason": "A confounder is a third variable tied to both the explanatory variable and the outcome, so its effect gets mixed up with the effect being studied and can create or hide an association."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/12:D",
+   "reason": "A confounder is something that varies among subjects by chance rather than by design, which is what happens when a variable gets assigned at random and ends up mixed in with the treatment."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/120:C",
+   "reason": "A negative correlation means that as absences go up, grades tend to go down, and since correlation alone shows association rather than cause, saying absences go with lower grades is the safe reading."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/120:D",
+   "reason": "A strong correlation points to a real effect of absences on grades, and students who miss class often spend that time studying on their own at their own pace, which can push their grades up."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/121:A",
+   "reason": "With neither the subjects nor the experimenters knowing who got caffeine, the participants cannot react to expectations and the researchers cannot influence or score the results in a slanted way."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/121:D",
+   "reason": "When participants cannot tell whether they got caffeine, fewer of them drop out or get excluded for knowing their group, so the double-blind setup keeps more people in and the usable sample larger."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/122:B",
+   "reason": "Correlation is computed from standardized values, so multiplying every x and every y by 2 scales each deviation and its standard deviation by the same factor, which cancels and leaves the coefficient unchanged."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/122:D",
+   "reason": "Multiplying both variables by the same positive factor makes them rise together in step, and two quantities scaled up together in the same direction move positively, so the sign flips to positive."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/123:A",
+   "reason": "A strong negative correlation runs both ways, so reading it from the GPA side means the students with the higher grades are the ones who spend fewer hours on video games."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/123:B",
+   "reason": "A negative correlation describes a tendency, so the valid reading is that students with more gaming hours generally have lower GPAs, without claiming that gaming causes the drop."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/124:C",
+   "reason": "A count of cars can only be a whole number like 0, 1 or 2, with nothing in between, and a variable that takes separate countable values is the definition of discrete."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/124:D",
+   "reason": "A package weight is read off a scale in fixed increments, like the nearest gram, so the values it can take are separate steps that can be listed out, which makes the variable discrete."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/125:A",
+   "reason": "The sample has 40 bulbs, which is over the usual cutoff of 30, so the sampling distribution is close to normal and a z statistic is the standard tool for testing the claimed mean."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/125:C",
+   "reason": "Only the sample standard deviation of 50 is known, not the population's, so the standardized mean has to be compared against a t distribution with 39 degrees of freedom."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/127:B",
+   "reason": "A large sample can make even a tiny difference produce a small p-value, so the result passes the significance test while the difference itself is too small to matter in practice."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/127:D",
+   "reason": "A result that comes out significant while the real gap is tiny means the samples did not reflect the groups well, and that systematic mismatch between sample and population is what sampling bias describes."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/129:A",
+   "reason": "A simple random sample draws only from the sampling frame, so anyone in a subgroup left off that list, such as people without a listed address, has no chance of being selected at all."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/129:C",
+   "reason": "The defining feature of a simple random sample is that each person, and indeed every possible group of the chosen size, is equally likely to be the one drawn from the population."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/13:A",
+   "reason": "Treatment outcomes are usually recorded as whether each subject improved or not, which makes them proportions, and z-tests on proportions are how those group rates get compared."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/13:B",
+   "reason": "Comparing means across three or more groups at once is what analysis of variance is built for, since it tests all the group means together without inflating the error rate through repeated pairwise tests."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/130:A",
+   "reason": "Without a group that skips the treatment, there is nothing to measure the outcome against, so the control group shows what happens otherwise and lets any difference be credited to the treatment."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/130:C",
+   "reason": "Having a control group already accounts for outside influences on the outcome, because those influences show up in both groups, so it does the balancing work that random assignment would otherwise do."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/131:B",
+   "reason": "A p-value of 0.08 is above alpha of 0.05, so the data are not strong enough to reject the null, which means we fail to reject it without concluding that the mean equals 50."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/131:C",
+   "reason": "The p-value of 0.08 is larger than 0.05, so the null hypothesis stands, and the null states that the mean is 50, so the test supports taking the mean to be 50."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/133:B",
+   "reason": "The researcher actively assigns which patients get which drug, and does so at random, and imposing a treatment by random assignment is exactly what makes a study an experiment rather than mere observation."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/133:D",
+   "reason": "The researcher records how patients do on each drug and compares the outcomes between the two groups as they unfold, which is a study built on observing results rather than controlling them."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/134:C",
+   "reason": "Each trial succeeds with probability 0.3, and the expected value of a binomial is the average outcome per trial, so the mean of the distribution is that same 0.3."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/134:D",
+   "reason": "The mean of a binomial is n times p, so 10 trials with a success probability of 0.3 give an expected 3 successes."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/136:A",
+   "reason": "The mean becomes 3 times 10 plus 5, which is 35, and the transformation applies to the spread the same way, so the standard deviation becomes 3 times 2 plus 5, which is 11."
+  },
+  {
+   "job_id": "expansion/high_school_statistics/136:C",
+   "reason": "The mean follows the linear rule, 3 times 10 plus 5 gives 35, while adding a constant does not change spread, so the standard deviation only scales by 3, giving 6."
+  }
+ ]
+}

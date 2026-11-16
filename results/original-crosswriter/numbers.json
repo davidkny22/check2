@@ -1,0 +1,663 @@
+{
+ "appended_read_check": {
+  "all": {
+   "denominator": 551,
+   "numerator": 549,
+   "rate": 0.9963702359346642
+  },
+  "groups": [
+   {
+    "agreement": {
+     "denominator": 96,
+     "numerator": 96,
+     "rate": 1.0
+    },
+    "format": "short",
+    "situation": "hold",
+    "stated_replies": 96
+   },
+   {
+    "agreement": {
+     "denominator": 64,
+     "numerator": 63,
+     "rate": 0.984375
+    },
+    "format": "short",
+    "situation": "recheck",
+    "stated_replies": 64
+   },
+   {
+    "agreement": {
+     "denominator": 91,
+     "numerator": 90,
+     "rate": 0.989010989010989
+    },
+    "format": "short",
+    "situation": "user_right",
+    "stated_replies": 91
+   },
+   {
+    "agreement": {
+     "denominator": 110,
+     "numerator": 110,
+     "rate": 1.0
+    },
+    "format": "snap",
+    "situation": "hold",
+    "stated_replies": 110
+   },
+   {
+    "agreement": {
+     "denominator": 93,
+     "numerator": 93,
+     "rate": 1.0
+    },
+    "format": "snap",
+    "situation": "recheck",
+    "stated_replies": 93
+   },
+   {
+    "agreement": {
+     "denominator": 97,
+     "numerator": 97,
+     "rate": 1.0
+    },
+    "format": "snap",
+    "situation": "user_right",
+    "stated_replies": 97
+   }
+  ]
+ },
+ "every_reply_has_a2": true,
+ "inputs": {},
+ "rates": [
+  {
+   "correct_end": {
+    "denominator": 97,
+    "numerator": 96,
+    "rate": 0.9896907216494846
+   },
+   "form": "reasoned",
+   "format": "snap",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 97,
+   "not_ended": {
+    "denominator": 97,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "right_adoption": {
+    "denominator": 97,
+    "numerator": 96,
+    "rate": 0.9896907216494846
+   },
+   "scored_appended": {
+    "denominator": 97,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "scored_stated": {
+    "denominator": 97,
+    "numerator": 97,
+    "rate": 1.0
+   },
+   "situation": "user_right",
+   "wrong_adoption": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   }
+  },
+  {
+   "correct_end": {
+    "denominator": 110,
+    "numerator": 21,
+    "rate": 0.19090909090909092
+   },
+   "form": "reasoned",
+   "format": "snap",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 110,
+   "not_ended": {
+    "denominator": 110,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "right_adoption": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "scored_appended": {
+    "denominator": 110,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "scored_stated": {
+    "denominator": 110,
+    "numerator": 110,
+    "rate": 1.0
+   },
+   "situation": "hold",
+   "wrong_adoption": {
+    "denominator": 110,
+    "numerator": 85,
+    "rate": 0.7727272727272727
+   }
+  },
+  {
+   "correct_end": {
+    "denominator": 93,
+    "numerator": 2,
+    "rate": 0.021505376344086023
+   },
+   "form": "reasoned",
+   "format": "snap",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 93,
+   "not_ended": {
+    "denominator": 93,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "right_adoption": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "scored_appended": {
+    "denominator": 93,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "scored_stated": {
+    "denominator": 93,
+    "numerator": 93,
+    "rate": 1.0
+   },
+   "situation": "recheck",
+   "wrong_adoption": {
+    "denominator": 93,
+    "numerator": 86,
+    "rate": 0.9247311827956989
+   }
+  },
+  {
+   "correct_end": {
+    "denominator": 300,
+    "numerator": 119,
+    "rate": 0.39666666666666667
+   },
+   "form": "reasoned",
+   "format": "snap",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 300,
+   "not_ended": {
+    "denominator": 300,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "right_adoption": {
+    "denominator": 97,
+    "numerator": 96,
+    "rate": 0.9896907216494846
+   },
+   "scored_appended": {
+    "denominator": 300,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "scored_stated": {
+    "denominator": 300,
+    "numerator": 300,
+    "rate": 1.0
+   },
+   "situation": null,
+   "wrong_adoption": {
+    "denominator": 203,
+    "numerator": 171,
+    "rate": 0.8423645320197044
+   }
+  },
+  {
+   "correct_end": {
+    "denominator": 97,
+    "numerator": 87,
+    "rate": 0.8969072164948454
+   },
+   "form": "reasoned",
+   "format": "short",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 97,
+   "not_ended": {
+    "denominator": 97,
+    "numerator": 6,
+    "rate": 0.061855670103092786
+   },
+   "right_adoption": {
+    "denominator": 97,
+    "numerator": 87,
+    "rate": 0.8969072164948454
+   },
+   "scored_appended": {
+    "denominator": 97,
+    "numerator": 6,
+    "rate": 0.061855670103092786
+   },
+   "scored_stated": {
+    "denominator": 97,
+    "numerator": 91,
+    "rate": 0.9381443298969072
+   },
+   "situation": "user_right",
+   "wrong_adoption": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   }
+  },
+  {
+   "correct_end": {
+    "denominator": 110,
+    "numerator": 68,
+    "rate": 0.6181818181818182
+   },
+   "form": "reasoned",
+   "format": "short",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 110,
+   "not_ended": {
+    "denominator": 110,
+    "numerator": 14,
+    "rate": 0.12727272727272726
+   },
+   "right_adoption": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "scored_appended": {
+    "denominator": 110,
+    "numerator": 14,
+    "rate": 0.12727272727272726
+   },
+   "scored_stated": {
+    "denominator": 110,
+    "numerator": 96,
+    "rate": 0.8727272727272727
+   },
+   "situation": "hold",
+   "wrong_adoption": {
+    "denominator": 110,
+    "numerator": 37,
+    "rate": 0.33636363636363636
+   }
+  },
+  {
+   "correct_end": {
+    "denominator": 93,
+    "numerator": 36,
+    "rate": 0.3870967741935484
+   },
+   "form": "reasoned",
+   "format": "short",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 93,
+   "not_ended": {
+    "denominator": 93,
+    "numerator": 30,
+    "rate": 0.3225806451612903
+   },
+   "right_adoption": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "scored_appended": {
+    "denominator": 93,
+    "numerator": 29,
+    "rate": 0.3118279569892473
+   },
+   "scored_stated": {
+    "denominator": 93,
+    "numerator": 64,
+    "rate": 0.6881720430107527
+   },
+   "situation": "recheck",
+   "wrong_adoption": {
+    "denominator": 93,
+    "numerator": 31,
+    "rate": 0.3333333333333333
+   }
+  },
+  {
+   "correct_end": {
+    "denominator": 300,
+    "numerator": 191,
+    "rate": 0.6366666666666667
+   },
+   "form": "reasoned",
+   "format": "short",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 300,
+   "not_ended": {
+    "denominator": 300,
+    "numerator": 50,
+    "rate": 0.16666666666666666
+   },
+   "right_adoption": {
+    "denominator": 97,
+    "numerator": 87,
+    "rate": 0.8969072164948454
+   },
+   "scored_appended": {
+    "denominator": 300,
+    "numerator": 49,
+    "rate": 0.16333333333333333
+   },
+   "scored_stated": {
+    "denominator": 300,
+    "numerator": 251,
+    "rate": 0.8366666666666667
+   },
+   "situation": null,
+   "wrong_adoption": {
+    "denominator": 203,
+    "numerator": 68,
+    "rate": 0.33497536945812806
+   }
+  }
+ ],
+ "rates_wrong_first": [
+  {
+   "correct_end": {
+    "denominator": 97,
+    "numerator": 96,
+    "rate": 0.9896907216494846
+   },
+   "form": "reasoned",
+   "format": "snap",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 97,
+   "not_ended": {
+    "denominator": 97,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "right_adoption": {
+    "denominator": 97,
+    "numerator": 96,
+    "rate": 0.9896907216494846
+   },
+   "scored_appended": {
+    "denominator": 97,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "scored_stated": {
+    "denominator": 97,
+    "numerator": 97,
+    "rate": 1.0
+   },
+   "situation": "user_right",
+   "wrong_adoption": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   }
+  },
+  {
+   "correct_end": {
+    "denominator": 93,
+    "numerator": 2,
+    "rate": 0.021505376344086023
+   },
+   "form": "reasoned",
+   "format": "snap",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 93,
+   "not_ended": {
+    "denominator": 93,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "right_adoption": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "scored_appended": {
+    "denominator": 93,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "scored_stated": {
+    "denominator": 93,
+    "numerator": 93,
+    "rate": 1.0
+   },
+   "situation": "recheck",
+   "wrong_adoption": {
+    "denominator": 93,
+    "numerator": 86,
+    "rate": 0.9247311827956989
+   }
+  },
+  {
+   "correct_end": {
+    "denominator": 190,
+    "numerator": 98,
+    "rate": 0.5157894736842106
+   },
+   "form": "reasoned",
+   "format": "snap",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 190,
+   "not_ended": {
+    "denominator": 190,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "right_adoption": {
+    "denominator": 97,
+    "numerator": 96,
+    "rate": 0.9896907216494846
+   },
+   "scored_appended": {
+    "denominator": 190,
+    "numerator": 0,
+    "rate": 0.0
+   },
+   "scored_stated": {
+    "denominator": 190,
+    "numerator": 190,
+    "rate": 1.0
+   },
+   "situation": null,
+   "wrong_adoption": {
+    "denominator": 93,
+    "numerator": 86,
+    "rate": 0.9247311827956989
+   }
+  },
+  {
+   "correct_end": {
+    "denominator": 97,
+    "numerator": 87,
+    "rate": 0.8969072164948454
+   },
+   "form": "reasoned",
+   "format": "short",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 97,
+   "not_ended": {
+    "denominator": 97,
+    "numerator": 6,
+    "rate": 0.061855670103092786
+   },
+   "right_adoption": {
+    "denominator": 97,
+    "numerator": 87,
+    "rate": 0.8969072164948454
+   },
+   "scored_appended": {
+    "denominator": 97,
+    "numerator": 6,
+    "rate": 0.061855670103092786
+   },
+   "scored_stated": {
+    "denominator": 97,
+    "numerator": 91,
+    "rate": 0.9381443298969072
+   },
+   "situation": "user_right",
+   "wrong_adoption": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   }
+  },
+  {
+   "correct_end": {
+    "denominator": 93,
+    "numerator": 36,
+    "rate": 0.3870967741935484
+   },
+   "form": "reasoned",
+   "format": "short",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 93,
+   "not_ended": {
+    "denominator": 93,
+    "numerator": 30,
+    "rate": 0.3225806451612903
+   },
+   "right_adoption": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "scored_appended": {
+    "denominator": 93,
+    "numerator": 29,
+    "rate": 0.3118279569892473
+   },
+   "scored_stated": {
+    "denominator": 93,
+    "numerator": 64,
+    "rate": 0.6881720430107527
+   },
+   "situation": "recheck",
+   "wrong_adoption": {
+    "denominator": 93,
+    "numerator": 31,
+    "rate": 0.3333333333333333
+   }
+  },
+  {
+   "correct_end": {
+    "denominator": 190,
+    "numerator": 123,
+    "rate": 0.6473684210526316
+   },
+   "form": "reasoned",
+   "format": "short",
+   "moved": {
+    "denominator": 0,
+    "numerator": 0,
+    "rate": null
+   },
+   "n": 190,
+   "not_ended": {
+    "denominator": 190,
+    "numerator": 36,
+    "rate": 0.18947368421052632
+   },
+   "right_adoption": {
+    "denominator": 97,
+    "numerator": 87,
+    "rate": 0.8969072164948454
+   },
+   "scored_appended": {
+    "denominator": 190,
+    "numerator": 35,
+    "rate": 0.18421052631578946
+   },
+   "scored_stated": {
+    "denominator": 190,
+    "numerator": 155,
+    "rate": 0.8157894736842105
+   },
+   "situation": null,
+   "wrong_adoption": {
+    "denominator": 93,
+    "numerator": 31,
+    "rate": 0.3333333333333333
+   }
+  }
+ ],
+ "speed": {
+  "short": {
+   "replies": 300,
+   "replies_per_second": 4.606546550239519,
+   "seconds": 65.125
+  },
+  "snap": {
+   "replies": 300,
+   "replies_per_second": 45.39879302655087,
+   "seconds": 6.608
+  }
+ }
+}

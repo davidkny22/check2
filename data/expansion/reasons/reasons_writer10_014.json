@@ -1,0 +1,47 @@
+{
+  "writer": "opus",
+  "started_unix": 1794796529,
+  "finished_unix": 1794796564,
+  "reasons": [
+    {
+      "job_id": "expansion/high_school_mathematics/309:A",
+      "reason": "Every quadratic with those two roots is just a rescaling of x squared plus x minus six, so none of them is genuinely distinct from the others, and the count of distinct equations comes to zero."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/309:C",
+      "reason": "Multiplying (x minus 2)(x plus 3) by any nonzero integer keeps both roots and keeps every coefficient an integer, and each multiple is a different equation, so there is no limit to how many exist."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/32:A",
+      "reason": "Far from the origin the squared terms balance out, and what is left to govern the graph is the constant in the denominator, x squared minus four, which puts the horizontal asymptote at negative four."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/32:B",
+      "reason": "Numerator and denominator are both degree two, so the horizontal asymptote is the ratio of their leading coefficients, three over one, which puts the line at three."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/34:B",
+      "reason": "The perpendicular from the center bisects the chord, so half the chord is four, and the right triangle with legs three and four has the radius as its hypotenuse, which is five."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/34:C",
+      "reason": "Extending the perpendicular through the center gives a diameter crossing the chord; the chord halves multiply to sixteen, and splitting that diameter around the point three from the center works out to a radius of six."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/38:C",
+      "reason": "Writing the integers as n, n plus one and n plus two gives three n plus three equals forty-two, so n comes out as thirteen, which is the value the equation solves for."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/38:D",
+      "reason": "The middle integer is forty-two divided by three, which is fourteen, so the three numbers are thirteen, fourteen and fifteen, and the largest of them is fifteen."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/41:C",
+      "reason": "Doing the long division, eight goes into thirty three times with six left over, then sixty over eight gives the next digit of five, so three eighths comes to point three five."
+    },
+    {
+      "job_id": "expansion/high_school_mathematics/41:D",
+      "reason": "One eighth is point one two five, and three of those add up to point three seven five, so that is the decimal form of three eighths."
+    }
+  ]
+}

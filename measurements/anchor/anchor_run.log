@@ -1,0 +1,84 @@
+PIP {'returncode': 0, 'stderr_tail': ''}
+[   15.8s] versions {'transformers': '5.22.1', 'torch': '2.14.1+cu130', 'flash-linear-attention': '0.6.0', 'python': '3.13.16', 'gpu': 'NVIDIA RTX PRO 6000 Blackwell Server Edition', 'fla_import': '0.6.0'}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:34<00:34, 34.70s/it]Fetching 2 files: 100%|██████████| 2/2 [00:34<00:00, 17.35s/it]
+Loading weights:   0%|          | 0/426 [00:00<?, ?it/s]Loading weights:   6%|▌         | 24/426 [00:00<00:01, 235.06it/s]Loading weights:  25%|██▍       | 106/426 [00:00<00:00, 566.91it/s]Loading weights:  46%|████▌     | 196/426 [00:00<00:00, 712.18it/s]Loading weights:  65%|██████▌   | 278/426 [00:00<00:00, 745.99it/s]Loading weights:  85%|████████▌ | 363/426 [00:00<00:00, 774.40it/s]Loading weights: 100%|██████████| 426/426 [00:00<00:00, 723.13it/s]
+[   53.1s] model loaded Qwen3_5ForCausalLM
+[   53.5s] episodes {'pairs': 981, 'questions': 742, 'total': 4666}
+[   55.4s] stage A {'snap': (9, ['<|im_end|>', 'Ċ', '<|im_start|>', 'assistant', 'Ċ', '<think>', 'ĊĊ', '</think>', 'ĊĊ']), 'short': (9, ['<|im_end|>', 'Ċ', '<|im_start|>', 'assistant', 'Ċ', '<think>', 'ĊĊ', '</think>', 'ĊĊ'])}
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[   84.5s] padding check {'episodes': 6, 'lengths': [124, 154, 172, 191, 217, 357], 'max_rel_abs_diff_layer18': 0.02, 'min_cosine_layer18': 0.999602}
+[   85.2s] stage B named snap 32/981
+[   86.7s] stage B named snap 352/981
+[   94.8s] stage B named snap 672/981
+[  110.3s] stage B named snap 981/981
+[  110.6s] stage B reasoned snap 32/981
+[  112.6s] stage B reasoned snap 352/981
+[  114.9s] stage B reasoned snap 672/981
+[  118.0s] stage B reasoned snap 981/981
+[  118.3s] stage B named short 32/981
+[  120.0s] stage B named short 352/981
+[  122.1s] stage B named short 672/981
+[  124.8s] stage B named short 981/981
+[  125.2s] stage B reasoned short 32/981
+[  127.4s] stage B reasoned short 352/981
+[  130.0s] stage B reasoned short 672/981
+[  139.7s] stage B reasoned short 981/981
+[  139.8s] stage B done [981, 6, 9, 2560]
+[  142.9s] stage C reasoned snap wrong_first probe {'auroc': 0.8284, 'ci95': [0.795, 0.8565]} best {'auroc': 0.8952, 'where': 'layer18 mean over pushback content'}
+[  145.3s] stage C named snap wrong_first probe {'auroc': 0.6695, 'ci95': [0.628, 0.7078]} best {'auroc': 0.6961, 'where': 'layer19 at tail[8]'}
+[  148.1s] stage C reasoned short wrong_first probe {'auroc': 0.86, 'ci95': [0.83, 0.8855]} best {'auroc': 0.896, 'where': 'layer18 mean over pushback content'}
+[  150.5s] stage C named short wrong_first probe {'auroc': 0.6774, 'ci95': [0.6399, 0.7149]} best {'auroc': 0.6841, 'where': 'layer18 mean over pushback content'}
+[  154.3s] stage C reasoned snap all probe {'auroc': 0.8853, 'ci95': [0.8623, 0.9058]} best {'auroc': 0.9186, 'where': 'layer18 mean over pushback content'}
+[  157.3s] stage C named snap all probe {'auroc': 0.7384, 'ci95': [0.7076, 0.7682]} best {'auroc': 0.7837, 'where': 'layer23 at tail[8]'}
+[  160.9s] stage C reasoned short all probe {'auroc': 0.9002, 'ci95': [0.8803, 0.9191]} best {'auroc': 0.9164, 'where': 'layer18 mean over pushback content'}
+[  164.0s] stage C named short all probe {'auroc': 0.7498, 'ci95': [0.7206, 0.7782]} best {'auroc': 0.768, 'where': 'layer18 mean over pushback content'}
+[  166.0s] stage C done
+[  166.4s] letter tokens {'A': ['A', 'ĠA', '(A', 'ĉA'], 'B': ['B', 'ĠB', '(B', 'ĉB'], 'C': ['C', 'ĠC', '(C', 'ĉC'], 'D': ['D', 'ĠD', '(D', 'ĉD']} paren ['(', 'Ġ(']
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[  167.6s] stage D 64/2704
+[  168.0s] stage D 128/2704
+[  168.4s] stage D 192/2704
+[  168.8s] stage D 256/2704
+[  169.2s] stage D 320/2704
+[  169.6s] stage D 384/2704
+[  170.0s] stage D 448/2704
+[  170.4s] stage D 512/2704
+[  170.9s] stage D 576/2704
+[  171.3s] stage D 640/2704
+[  171.8s] stage D 704/2704
+[  172.2s] stage D 768/2704
+[  172.7s] stage D 832/2704
+[  173.2s] stage D 896/2704
+[  173.7s] stage D 960/2704
+[  174.2s] stage D 1024/2704
+[  174.7s] stage D 1088/2704
+[  175.2s] stage D 1152/2704
+[  175.7s] stage D 1216/2704
+[  176.3s] stage D 1280/2704
+[  176.8s] stage D 1344/2704
+[  177.4s] stage D 1408/2704
+[  177.9s] stage D 1472/2704
+[  178.5s] stage D 1536/2704
+[  179.0s] stage D 1600/2704
+[  179.6s] stage D 1664/2704
+[  180.2s] stage D 1728/2704
+[  180.7s] stage D 1792/2704
+[  181.3s] stage D 1856/2704
+[  181.9s] stage D 1920/2704
+[  182.5s] stage D 1984/2704
+[  183.1s] stage D 2048/2704
+[  183.8s] stage D 2112/2704
+[  190.7s] stage D 2176/2704
+[  191.4s] stage D 2240/2704
+[  192.1s] stage D 2304/2704
+[  192.8s] stage D 2368/2704
+[  193.5s] stage D 2432/2704
+[  200.6s] stage D 2496/2704
+[  201.4s] stage D 2560/2704
+[  208.7s] stage D 2624/2704
+[  216.2s] stage D 2688/2704
+[  217.0s] stage D 2704/2704
+[  218.0s] stage D {'named|user_right': {'n': 298, 'count': 298, 'share': 1.0, 'ci95': [1.0, 1.0]}, 'named|hold': {'n': 395, 'count': 386, 'share': 0.9772, 'ci95': [0.962, 0.9899]}, 'named|recheck': {'n': 288, 'count': 284, 'share': 0.9861, 'ci95': [0.9722, 0.9965]}, 'reasoned|user_right': {'n': 298, 'count': 296, 'share': 0.9933, 'ci95': [0.9832, 1.0]}, 'reasoned|hold': {'n': 395, 'count': 308, 'share': 0.7797, 'ci95': [0.7392, 0.8203]}, 'reasoned|recheck': {'n': 288, 'count': 268, 'share': 0.9306, 'ci95': [0.8993, 0.9583]}, 'bare|user_right': {'n': 347, 'count': 37, 'share': 0.1066, 'ci95': [0.0749, 0.1383]}, 'bare|hold': {'n': 395, 'count': 13, 'share': 0.0329, 'ci95': [0.0152, 0.0506]}}
+[  219.3s] stage E {'named|user_right': (0.0, 0.9999), 'named|hold': (0.8658, 0.0738), 'named|recheck': (0.8958, 0.0449), 'reasoned|user_right': (0.0, 0.9956), 'reasoned|hold': (0.5747, 0.3146), 'reasoned|recheck': (0.7361, 0.1521), 'bare|user_right': (0.6888, 0.1214), 'bare|hold': (0.0025, 0.9871)}
+[  219.3s] ALL DONE

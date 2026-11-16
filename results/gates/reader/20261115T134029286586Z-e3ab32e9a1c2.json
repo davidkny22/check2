@@ -1,0 +1,63 @@
+{
+ "commit": "e3ab32e9a1c298be7432d6a991f131ca007d28f7",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "finished": "2026-11-15T13:40:29+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "name": "reader",
+ "planted": "abstract_algebra/11 into the training questions of fold 0's fit",
+ "session": null,
+ "started": "2026-11-15T13:40:20+00:00",
+ "tree_clean": true,
+ "values": {
+  "baselines": {
+   "first_answer_confidence": {
+    "above_zero": true,
+    "baseline_score": 0.5015431652247717,
+    "difference": 0.3052814829817809,
+    "interval": [
+     0.27566634827558023,
+     0.33233784626016905
+    ],
+    "skipped": 0
+   },
+   "pushback_tfidf": {
+    "above_zero": true,
+    "baseline_score": 0.6034885178862495,
+    "difference": 0.20333613032030318,
+    "interval": [
+     0.16708209440426725,
+     0.24120176516099556
+    ],
+    "skipped": 0
+   },
+   "target_probability": {
+    "above_zero": true,
+    "baseline_score": 0.6546830242180492,
+    "difference": 0.1521416239885034,
+    "interval": [
+     0.10313932589298622,
+     0.20428687795672865
+    ],
+    "skipped": 0
+   }
+  },
+  "contrast_episodes": 1288,
+  "contrast_questions": 323,
+  "fails_by_less_than_its_interval": [],
+  "fold_findings": [
+   "fold 0's fit: id abstract_algebra/11 is in folds 0 and 1",
+   "fold 0's fit: abstract_algebra/11's text is in folds 0 and 1"
+  ],
+  "reader_score": 0.8068246482065526
+ },
+ "verdict": "red",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}

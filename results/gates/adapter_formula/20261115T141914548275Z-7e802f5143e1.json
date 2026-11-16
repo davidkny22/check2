@@ -1,0 +1,73 @@
+{
+ "builtin_path": true,
+ "commit": "7e802f5143e1d83e760adb29c55a475911fe4a41",
+ "commit_source": "git",
+ "config": null,
+ "config_sha256": null,
+ "dtype": "float32",
+ "finished": "2026-11-15T14:19:14+00:00",
+ "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+ "kind": "gate",
+ "limit": 2,
+ "model_kind": "tiny",
+ "name": "adapter_formula",
+ "planted": false,
+ "seconds": 8.5,
+ "session": null,
+ "started": "2026-11-15T14:19:05+00:00",
+ "tail_position": 0,
+ "tree_clean": true,
+ "values": {
+  "formats": {
+   "short": {
+    "calls_checked": 16120,
+    "candidate_loss": 5.91126012802124,
+    "declared_set_matches": true,
+    "episodes": 2,
+    "extra_in_observed": [],
+    "factor_of_max": "layers.2.linear_attn.in_proj_qkv.B",
+    "factors_with_zero_reference_gradient": 0,
+    "max_relative_gradient_difference": 1.7565083859397061e-07,
+    "max_relative_output_difference": 1.3288693898297676e-07,
+    "max_relative_output_difference_at_real_tokens": 1.3288693898297676e-07,
+    "missing_from_observed": [],
+    "module_of_max": "layers.2.mlp.down_proj",
+    "module_of_max_at_real_tokens": "layers.2.mlp.down_proj",
+    "observed_set_matches": true,
+    "reference_loss": 5.91126012802124
+   },
+   "snap": {
+    "calls_checked": 1240,
+    "candidate_loss": 5.9085118770599365,
+    "declared_set_matches": true,
+    "episodes": 2,
+    "extra_in_observed": [],
+    "factor_of_max": "layers.1.linear_attn.in_proj_qkv.A",
+    "factors_with_zero_reference_gradient": 0,
+    "max_relative_gradient_difference": 2.7769205287491264e-07,
+    "max_relative_output_difference": 1.1329695151767354e-07,
+    "max_relative_output_difference_at_real_tokens": 1.1329695151767354e-07,
+    "missing_from_observed": [],
+    "module_of_max": "layers.3.mlp.down_proj",
+    "module_of_max_at_real_tokens": "layers.3.mlp.down_proj",
+    "observed_set_matches": true,
+    "reference_loss": 5.9085118770599365
+   }
+  },
+  "green": true,
+  "implementation": "wrappers",
+  "layers": 7,
+  "projections_per_layer": {
+   "deltanet": 6,
+   "full_attention": 7
+  },
+  "specified_modules": 44
+ },
+ "verdict": "green",
+ "versions": {
+  "flash-linear-attention": null,
+  "python": "3.12.6",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.22.1"
+ }
+}
